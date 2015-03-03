@@ -1,0 +1,180 @@
+ul, ol {
+  margin-bottom: 0px !important; }
+
+a {
+  text-decoration: none !important; }
+
+body {
+  font-family: Arial;
+  background: url("../images/pattern-navbar.jpg"); }
+
+.main-menu {
+  background: url("../images/bg_menu.jpg") top left repeat;
+  -webkit-box-shadow: 0px 1px 18px #2787d4;
+  -moz-box-shadow: 0px 1px 18px #2787d4;
+  box-shadow: 0px 1px 18px #2787d4;
+  font-size: 16px;
+  padding: 10px; }
+
+.main-menu ul li a {
+  color: #125e98 !important; }
+
+.main-menu .nav-right {
+  float: right; }
+
+.main-menu .search-input {
+  margin-top: 8px; }
+
+.main-menu .search-input .glyphicon-search {
+  color: red;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  z-index: 10000;
+  padding: 7px; }
+
+.main-menu .dropdown-toggle {
+  background: transparent;
+  margin-top: 8px;
+  border: none;
+  color: #125e98; }
+
+.main-menu .glyphicon-triangle-bottom {
+  margin-left: 5px;
+  font-size: 12px; }
+
+.main-menu .sign-up {
+  color: #fff !important;
+  background: #125e98;
+  padding: 6px;
+  margin-top: 8px; }
+
+.main-menu .sign-up:hover {
+  color: #ccc !important;
+  background: #125e98 !important;
+  padding: 6px;
+  margin-top: 8px; }
+
+.banner {
+  background: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 512px;
+  margin: 0 -15px;
+  margin-top: 60px;
+  position: relative; }
+
+.banner .top-user {
+  font-size: 25px;
+  color: #125e98;
+  padding-top: 20px;
+  float: right;
+  margin-right: 50px;
+  font-weight: bold; }
+
+.banner .center {
+  position: absolute;
+  bottom: 100px;
+  width: 100%; }
+
+.banner .center h1 {
+  font-size: 25px;
+  color: red; }
+
+.banner .center h1 span {
+  color: #125e98;
+  font-size: 20px; }
+
+.banner .center p {
+  color: #013454;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 20px; }
+
+.banner .center .sign-up-btn, .banner .center .sign-in-btn {
+  padding: 8px;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.banner .center .sign-up-btn {
+  background: red; }
+
+.banner .center .sign-in-btn {
+  background: #125e98; }
+
+.top-bg {
+  position: relative;
+  top: 26px;
+  z-index: 2; }
+
+.section-article {
+  margin: 0 -30px;
+  overflow: hidden;
+  padding-bottom: 30px; }
+
+.bg-gray {
+  background: #c8d5d6; }
+
+.news-post {
+  padding: 30px; }
+
+.wrap-article {
+  padding: 30px 10px 0px 10px;
+  background: #fff;
+  overflow: hidden;
+  margin: 0 50px;
+  margin-top: -30px; }
+
+.news-post .thumbnail {
+  background: transparent !important;
+  border: none !important; }
+
+.news-post .thumbnail .caption {
+  padding: 10px;
+  background: #56caff;
+  font-weight: bold; }
+
+.news-post .thumbnail .caption a {
+  color: #fff; }
+
+.news-post .thumbnail .pink {
+  background: #fc5c58 !important; }
+
+.wrap-full {
+  margin: 0 -20px; }
+
+.bg-blue {
+  background: transparent;
+  text-align: center;
+  padding: 20px;
+  color: #fff; }
+
+.bg-blue span {
+  font-size: 20px; }
+
+.bg-blue span i {
+  padding: 0 5px;
+  font-size: 22px; }
+
+.bg-blue span a {
+  color: #fff; }
+
+.bg-blue h2 {
+  margin: 10px; }
+
+@media (max-width: 600px) {
+  .banner {
+    background: url("../images/bg_menu.jpg") top left repeat; }
+
+  .section-article {
+    display: none; } }
+
+/*# sourceMappingURL=default.css.map */
