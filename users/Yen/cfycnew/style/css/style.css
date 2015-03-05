@@ -1,0 +1,65 @@
+.yoga-banner {
+  background-image: url(../../../users/Yen/cfycnew/style/images/yoga-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 634px; }
+
+.text-form {
+  margin: 20px 0 0 -10px; }
+
+.desc-form {
+  position: relative;
+  top: 480px;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  width: 110%;
+  overflow: hidden; }
+  .desc-form .left {
+    color: #ffffff;
+    width: 45%;
+    text-align: justify;
+    float: left;
+    padding-right: 20px; }
+  .desc-form .right {
+    width: 50%;
+    float: left; }
+  .desc-form .right ul {
+    list-style: none;
+    color: #da2528; }
+
+.pt-banner {
+  background-image: url(../../../users/Yen/cfycnew/style/images/pt-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 634px; }
+
+.mma-banner {
+  background-image: url(../../../users/Yen/cfycnew/style/images/mma-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 634px; }
+
+.groupx-banner {
+  background-image: url(../../../users/Yen/cfycnew/style/images/groupx-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 634px; }
+
+.kickfit-banner {
+  background-image: url(../../../users/Yen/cfycnew/style/images/kickfit-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 634px; }
+
+/*# sourceMappingURL=style.css.map */

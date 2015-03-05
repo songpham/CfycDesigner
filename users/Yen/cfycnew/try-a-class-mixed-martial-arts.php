@@ -2,7 +2,7 @@
 <style>
 <?php include 'style/css/style.css' ?>
 </style>
-<div class="showInfoClasses groupx-banner">
+<div class="showInfoClasses mma-banner">
     <div class="row ie8-classes">
         <div class="clearfix"></div>
         <div class="col-md-6 col-xs-12 formInfoBG">
@@ -11,7 +11,7 @@
         <div class="col-md-5 col-md-push-1 col-xs-12 ie8-cta-form">
             <div class="clearfix"></div>
             <div class="text-form">
-                <img src="../../../users/Yen/cfycnew/style/images/head-groupx-banner.png"/>
+                <img src="../../../users/Yen/cfycnew/style/images/head-mma-banner.png"/>
             </div>
             <div style="height: 415px; overflow: hidden;">
                 <div class="formTwo" style="margin-top: 5px;">
