@@ -1,0 +1,76 @@
+<html ng-app="cfycApp">
+<head>
+    <meta charset="utf-8">
+    <title>Angular Js Demo</title>
+    <link href="../../../plugins/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../../plugins/scripts/jquery-1.11.2.min.js"></script>
+    <script src="../../../plugins/scripts/angular.min.js"></script>
+    <script>
+    var SERVER_URL = '../../../server';
+    var model = {
+        user: "Adam"
+    };
+    var cfycApp = angular.module("cfycApp", []);
+    /**
+     * get
+     */
+    cfycApp.run(function ($http) {
+        $http.get(SERVER_URL + "/angular-demo").success(function (result) {
+            model.items = result.data;
+        });
+    });
+    /**
+     * post
+     */
+    cfycApp.controller("CfycAppCtrl", function ($scope, $http) {
+        $scope.todo = model;
+        $scope.addNewItem = function (name) {
+            var data = {
+                name: $scope.name
+            };
+            $http.post(SERVER_URL + "/angular-demo", data).success(function(result) {
+                console.log(result);
+            });
+            $scope.todo.items.push({ action: data.name, done: false });
+        };
+        $scope.removeItem = function (item) {
+            $http.delete(SERVER_URL + "/angular-demo/" + item.id).success(function(result) {
+                $scope.todo.items.splice($scope.todo.items.indexOf(item), 1);
+            });
+        };
+    });
+    </script>
+</head>
+<body ng-controller="CfycAppCtrl">
+    <div class="page-header">
+        <h1>
+            {{todo.user}}'s To Do List
+            <span class="label">{{todo.items.length}}</span>
+        </h1>
+    </div>
+    <div class="panel">
+        <div class="input-group">
+            <input class="form-control" ng-model="name" />
+            <span class="input-group-btn">
+                <button class="btn btn-default" ng-click="addNewItem(name)">Add</button>
+            </span>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Done</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in todo.items">
+                    <td ng-click="editItem(item)">{{item.action}}</td>
+                    <td ng-click="editItem(item)">{{item.done}}</td>
+                    <td ng-click="removeItem(item)">Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
