@@ -1,3 +1,0 @@
-1) chep file vao folder
-2) tách ra header, footer, sidebar (neu co)
-3) tach static file (gom css, js, image) ra rieng
