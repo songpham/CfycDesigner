@@ -365,7 +365,7 @@ p.p_alert {
 .holder-text-form .text-form {
   color: #D5D4D4;
   padding-right: 100px;
-  padding-top: 23px;
+  padding-top: 10px;
   text-transform: uppercase;
   margin-left: 15px; }
 
@@ -375,7 +375,7 @@ p.p_alert {
   text-align: center; }
 
 .holder-text-form .text-form .text-signup span.bigger {
-  font-size: 20px;
+  font-size: 19px;
   color: #f7f8f6;
   padding: 0px; }
 
@@ -388,9 +388,7 @@ p.p_alert {
   font-weight: 700; }
 
 .holder-text-form .text-form .benefits {
-  margin: 15px 0;
-  text-align: justify; }
-
+}
 .holder-text-form .text-form .benefits ul {
   list-style: none;
   padding-left: 10px; }
@@ -412,14 +410,14 @@ p.p_alert {
   width: 60%;
   margin: 0 auto;
   background: #fff;
-  height: 2px; }
+  height: 1px; }
 
 .holder-text-form .text-form .text-signup-small {
   font-size: 13px;
   line-height: 13px;
   color: #f7f8f6;
   font-weight: 300;
-  margin: 10px 0 5px 0; }
+  margin: 10px 0 15px 0; }
 
 .boxLocation .webContent {
   border-bottom: 5px solid #ccc; }
