@@ -382,7 +382,7 @@ p.p_alert {
 .holder-text-form .text-form .text-signup span.more-bigger {
   font-size: 27px;
   color: #f7f8f6;
-  padding: 15px 10px 10px 10px;
+  padding: 13px 10px 10px 10px;
   text-align: center;
   display: block;
   font-weight: 700; }
@@ -394,18 +394,11 @@ p.p_alert {
   list-style: none;
   padding-left: 10px; }
 
-.holder-text-form .register-form-js .value {
-  padding-right: 100px;
-  margin-left: 12px; }
-
-.holder-text-form .register-form-js .value p {
-  padding: 10px;
-  color: #f7f8f6;
+.holder-text-form .text-form p.value {
   text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 10px 30px;
-  text-transform: uppercase; }
+  color: #f7f8f6;
+  margin: 5px 0 10px 0;
+}
 
 .holder-text-form .text-form hr {
   width: 60%;
