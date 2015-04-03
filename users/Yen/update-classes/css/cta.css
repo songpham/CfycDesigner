@@ -18,7 +18,7 @@
 .formInfoBG {
     height: auto;
     position: relative;
-    top: 60px;
+    top: 55px;
     left: 35px;
 }
 
@@ -37,14 +37,14 @@
 
 .formTwo {
   max-width: 240px;
-  top: 20px;
+  top: 5px;
   position: relative;
   padding: 5px;
   margin: 0 auto;
-  margin-left: 8px;
+  margin-left: 7px;
 }
-.col-md-push-4 {
-    left: 34.33333333%;
+.col-md-push-5 {
+   left: 42.66666667%;
 }
 .banner {
   border-bottom: 1px solid #000; }
@@ -366,22 +366,28 @@ p.p_alert {
     font-weight: normal;
     text-align: center;
 }
+.holder-form p {
+    color: #f7f8f6;
+    text-transform: uppercase;
+    padding: 18px 0 0 0;
+    font-size: .87em;
+    text-align: center;
+}
 .formInfoBG .text-form {
     color: #fff;
     text-transform: uppercase;
 
 }
 .formInfoBG .text-form .text-signup {
-  font-size: 2em;
+  font-size: 1.9em;
   line-height: 28px;
   font-weight: 300;
-  width: 80%;
  }
 
 .formInfoBG .text-form .text-signup span.bigger {
     font-size: 1.3em;
     font-weight: 700;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 
 .formInfoBG .text-form .text-signup span.more-bigger {
@@ -392,7 +398,7 @@ p.p_alert {
 .formInfoBG .text-form .benefits {
     margin: 20px 0;
     font-size: 1.1em;
-    width: 92%;
+    text-align: justify;
 }
 .formInfoBG .text-form .benefits ul {
   list-style: none;
@@ -403,15 +409,15 @@ p.p_alert {
 .formInfoBG .text-form p.value {
   color: #f7f8f6;
   margin: 5px 0 10px 0;
-  font-size: 1.9em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 .formInfoBG .text-form hr {
   height: 1px;
-  margin-top: 10px;
-  width: 75%;
+  margin-top: 0px;
   margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .formInfoBG .text-form .text-signup-small {
