@@ -16,12 +16,11 @@
   height: auto; }
 
 .formInfoBG {
-  height: auto;
-  margin-left: 20px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  padding: 5px; }
+    height: auto;
+    position: relative;
+    top: 60px;
+    left: 35px;
+}
 
 /* IE8 Thai Anh Edit****/
 .ie8 .ie8-classes {
@@ -37,18 +36,16 @@
   font-size: 1.2em; }
 
 .formTwo {
-  max-width: 290px;
-  background-color: #e5e4e4;
-  font-size: 1em;
-  font-weight: bold;
-  margin-top: 20px;
+  max-width: 240px;
+  top: 20px;
   position: relative;
   padding: 5px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  margin-left: 15px; }
-
+  margin: 0 auto;
+  margin-left: 8px;
+}
+.col-md-push-4 {
+    left: 34.33333333%;
+}
 .banner {
   border-bottom: 1px solid #000; }
 
@@ -359,54 +356,65 @@ p.p_alert {
   overflow: hidden; }
 
 /* New CSS*****/
-.holder-text-form {
-  padding-left: 20px; }
-
-.holder-text-form .text-form {
-  color: #D5D4D4;
-  padding-right: 100px;
-  padding-top: 15px;
-  text-transform: uppercase;
-  margin-left: 15px; }
-
-.holder-text-form .text-form .text-signup {
-  font-size: 17px;
-  line-height: 25px;
-  text-align: center; }
-
-.holder-text-form .text-form .text-signup span.bigger {
-  font-size: 19px;
-  color: #f7f8f6;
-  padding: 0px; }
-
-.holder-text-form .text-form .text-signup span.more-bigger {
-  font-size: 27px;
-  color: #f7f8f6;
-  padding: 13px 10px 10px 10px;
-  text-align: center;
-  display: block;
-  font-weight: 700; }
-
-.holder-text-form .text-form .benefits {
-    margin-bottom: 10px;
+.holder-form {
+  position: relative;
+  top: 62px;
 }
-.holder-text-form .text-form .benefits ul {
-  list-style: none;
-  padding-left: 10px; }
+.holder-form h4 {
+    text-transform: uppercase;
+    color: #f7f8f6;
+    font-weight: normal;
+    text-align: center;
+}
+.formInfoBG .text-form {
+    color: #fff;
+    text-transform: uppercase;
 
-.holder-text-form .text-form p.value {
-  text-align: center;
+}
+.formInfoBG .text-form .text-signup {
+  font-size: 2em;
+  line-height: 28px;
+  font-weight: 300;
+  width: 80%;
+ }
+
+.formInfoBG .text-form .text-signup span.bigger {
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.formInfoBG .text-form .text-signup span.more-bigger {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.formInfoBG .text-form .benefits {
+    margin: 20px 0;
+    font-size: 1.1em;
+    width: 90%;
+}
+.formInfoBG .text-form .benefits ul {
+  list-style: none;
+}
+.formInfoBG .text-form .benefits ul li {
+  padding: 2px 0;
+}
+.formInfoBG .text-form p.value {
   color: #f7f8f6;
   margin: 5px 0 10px 0;
+  font-size: 1.9em;
+  font-weight: 600;
 }
 
-.holder-text-form .text-form hr {
-  width: 60%;
-  margin: 0 auto;
-  background: #fff;
-  height: 1px; }
+.formInfoBG .text-form hr {
+  height: 1px;
+  margin-top: 10px;
+  width: 75%;
+  margin-left: 0;
+}
 
-.holder-text-form .text-form .text-signup-small {
+.formInfoBG .text-form .text-signup-small {
   font-size: 13px;
   line-height: 13px;
   color: #f7f8f6;
