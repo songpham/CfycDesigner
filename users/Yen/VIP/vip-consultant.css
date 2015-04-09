@@ -1,6 +1,5 @@
 .form {
-    max-width: 260px;
-    margin-top: 150px;
+    max-width: 305px;
     font-size: 1em;
     font-weight: 700;
     position: relative;
@@ -8,8 +7,7 @@
 }
 
 .vn .form {
-    max-width: 260px;
-    margin-top: 150px;
+    max-width: 305px;
     font-size: 1em;
     font-weight: 700;
     position: relative;
@@ -57,16 +55,15 @@ html {
 }
 
 #newHeader {
-    background: #fff url(https://api.cfyc.com.vn/pages/vip_consultant/images/vip_banner.jpg);
     margin: 0 auto;
     background-repeat: no-repeat;
     overflow: hidden;
-
     background-color: #db2229;
     margin-top: 2px;
 }
-
-.vn #newHeader{ background: #fff url(https://api.cfyc.com.vn/pages/vip_consultant/images/vip_banner_vn.jpg);background-repeat: no-repeat;}
+#newHeader .container-fluid {
+    padding-left: 0;
+}
 .row {
     position: relative;
     width: 100%;
@@ -75,12 +72,83 @@ html {
 }
 .contentOne {
     min-height: 500px;
-    padding: 20px 0 0;
     position: relative;
     overflow: hidden;
 }
+.contentOne .bg {
+    background: url(https://api.cfyc.com.vn/pages/vip_consultant/images/header-vip.jpg) top right no-repeat;
+    min-height: 524px;
+    padding: 0;
+    color: #fff;
+}
+.contentOne .bg .main {
+    padding: 0;
+}
+.contentOne .bg .main h1 {
+    text-transform: uppercase;
+    background: rgba(255,39,41,0.5);
+    padding: 15px 15px 15px 20px;
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+.vn .contentOne .bg .main h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+}
+.contentOne .bg .main h4 {
+    font-size: 2.1em;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contentOne .bg .main div.benefits {
+    background: url(https://api.cfyc.com.vn/pages/vip_consultant/images/dot-line.png) top left no-repeat;
+    padding: 25px 20px;
+    height: 260px;
+    margin-top: -10px;
+}
+.contentOne .bg .main div.benefits p {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    width: 305px;
+}
 
-.push-2{left:21.5%; padding-right: 0px;}
+.contentOne .bg .main div.benefits p span {
+    text-transform: lowercase;
+    font-size: .7em;
+    font-weight: 200;
+    line-height: 1.2em;
+    display: block;
+}
+.vn .contentOne .bg .main div.benefits p span {
+    line-height: 1.3em;
+}
+.contentOne .bg .main div.benefits h4 {
+    text-transform: uppercase;
+}
+.contentOne .holder-form {
+    width: 31%;
+    padding: 0;
+    padding-left: 18px;
+}
+.contentOne .holder-form .headline {
+    color: #fff;
+}
+.contentOne .holder-form .headline h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.6em;
+    margin: 20px 0 10px 0px;
+    line-height: 1.3em;
+}
+.contentOne .holder-form .headline p {
+    font-size: 1.2em;
+}
+.vn .contentOne .holder-form .headline h2 {
+    font-size: 1.8em;
+}
 
 .cta {
     padding: 20px;
@@ -675,11 +743,7 @@ hr.grey_thick {
 .tabSearch .button-search {
     top: -10px;
 }
-.vn .contentOne .tagline {
-    position: relative;
-    left: 300px;
-    top: -10px;
-}
+
 .vn .contentOne .tagline .col-md-offset-4 .white.dropshadow {
     padding-top: 5px;
     position: relative;
