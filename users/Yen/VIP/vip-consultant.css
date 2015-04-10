@@ -3,9 +3,8 @@
     font-size: 1em;
     font-weight: 700;
     position: relative;
-    padding: 5px;
+    padding: 0px;
 }
-
 .vn .form {
     max-width: 305px;
     font-size: 1em;
@@ -13,7 +12,6 @@
     position: relative;
     padding: 5px;
 }
-
 .container-fluid div.outside .video-container {
     height: 450px;
     overflow: visible;
@@ -48,18 +46,14 @@ label {
 html {
     font-family: Arial;
 }
-.boxLocation, .webContent, .mainWebsiteContent {
+.boxLocation .webContent {
     height: auto;
-    width: 1024px;
-    margin: 0 auto;
 }
-
 #newHeader {
+    max-height: 5000px;
     margin: 0 auto;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-color: #db2229;
-    margin-top: 2px;
 }
 #newHeader .container-fluid {
     padding-left: 0;
@@ -149,7 +143,6 @@ html {
 .vn .contentOne .holder-form .headline h2 {
     font-size: 1.8em;
 }
-
 .cta {
     padding: 20px;
 }
@@ -188,11 +181,9 @@ html {
 .benefitsdiv {
     margin-left: auto;
 }
-.contentTwo .image{width: 333px; height: 333px; overflow: hidden;}
 .contentTwo img {
-    padding: 0 10px;
+    padding: 0px;
     position: relative;
-   min-height: 333px
 }
 .clearspace {
     min-height: 20px;
@@ -448,7 +439,7 @@ p.white {
     width: 75%;
     margin-left: 16.666%}
 h2.large {
-    font-size: 1.9em;
+    font-size: 1.6em;
     margin-left: 5px;
     color: #333;
 }
@@ -658,7 +649,6 @@ p.benefits.title {
     color: #d41016;
     font-size: 1.4em;
 }
-.contentThree .text p{text-align: center;}
 .contentThree .col-md-4 {
     padding: 0;
 }
@@ -743,7 +733,11 @@ hr.grey_thick {
 .tabSearch .button-search {
     top: -10px;
 }
-
+.vn .contentOne .tagline {
+    position: relative;
+    left: 300px;
+    top: -10px;
+}
 .vn .contentOne .tagline .col-md-offset-4 .white.dropshadow {
     padding-top: 5px;
     position: relative;
@@ -769,12 +763,14 @@ hr.grey_thick {
     padding-top: 0;
 }
 #newHeader {
-
+    background-image: url(../images/vip_banner.jpg);
+    background-color: #db2229;
+    margin-top: 2px;
+    background-size: 95% 100%;
 }
 #WFItem9700905 .wf-privacyico {
     color: #fff;
 }
-
 .form p {
     text-transform: uppercase;
     font-size: 1.2em;
@@ -784,7 +780,7 @@ hr.grey_thick {
     margin-top: 10px;
 }
 .form h2 {
-    font-size: 1.9em;
+    font-size: 1.78em;
     color: #000;
     line-height: 30px;
     text-transform: uppercase;
@@ -804,7 +800,7 @@ hr.grey_thick {
     width: 40.333333%}
 .contentTwo .benefitText p {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.19em;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -831,8 +827,6 @@ hr.grey_thick {
     font-style: normal;
     font-weight: lighter;
     text-align: center;
-    text-transform: uppercase;
-
 }
 .contentThree .text h2 {
     font-weight: lighter;
@@ -885,8 +879,11 @@ hr.grey_thick {
     display: block;
 }
 .ie8 #newHeader .ie8-vip-tagline {
-    width: 55%;
+    width: 63%;
     float: left;
+}
+.ie8 #newHeader .ie8-vip-tagline .col-md-8 {
+    width: 60%;
 }
 .ie8 #newHeader .ie8-vip-form {
     width: 35%;
