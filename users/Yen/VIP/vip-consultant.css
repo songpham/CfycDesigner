@@ -83,29 +83,26 @@ html {
     background: rgba(255,39,41,0.5);
     padding: 15px 15px 15px 20px;
     font-size: 2.3em;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
+    line-height: 1.2em;
 }
 .vn .contentOne .bg .main h1 {
     font-size: 2em;
-    line-height: 1.1em;
 }
 .contentOne .bg .main h4 {
     font-size: 2.1em;
-    padding: 0 20px;
+    padding: 15px 20px 0 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
 .contentOne .bg .main div.benefits {
-    background: url(https://api.cfyc.com.vn/pages/vip_consultant/images/dot-line.png) top left no-repeat;
-    padding: 25px 20px;
-    height: 260px;
-    margin-top: -10px;
+    padding: 20px 20px;
 }
 .contentOne .bg .main div.benefits p {
     text-transform: uppercase;
     font-size: 1.8em;
     line-height: 1.3em;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     width: 305px;
 }
 
@@ -113,8 +110,9 @@ html {
     text-transform: lowercase;
     font-size: .7em;
     font-weight: 200;
-    line-height: 1.2em;
+    line-height: 1.3em;
     display: block;
+    color: #ccc;
 }
 .vn .contentOne .bg .main div.benefits p span {
     line-height: 1.3em;
@@ -131,14 +129,16 @@ html {
     color: #fff;
 }
 .contentOne .holder-form .headline h2 {
-    text-transform: uppercase;
     color: #fff;
     font-size: 1.6em;
     margin: 20px 0 10px 0px;
+    text-transform: uppercase;
     line-height: 1.3em;
 }
 .contentOne .holder-form .headline p {
     font-size: 1.2em;
+    margin: 20px 0 10px 0px;
+    text-transform: uppercase;
 }
 .vn .contentOne .holder-form .headline h2 {
     font-size: 1.8em;
