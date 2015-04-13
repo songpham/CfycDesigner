@@ -82,7 +82,7 @@ html {
     text-transform: uppercase;
     background: rgba(255,39,41,0.5);
     padding: 15px 15px 15px 20px;
-    font-size: 2.3em;
+    font-size: 2.2em;
     margin: 0 0 20px 0;
     line-height: 1.2em;
 }
@@ -90,24 +90,24 @@ html {
     font-size: 2em;
 }
 .contentOne .bg .main h4 {
-    font-size: 2.1em;
+    font-size: 1.9em;
     padding: 15px 20px 0 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 .contentOne .bg .main div.benefits {
-    padding: 20px 20px;
+    padding: 15px 20px 0 20px;
 }
 .contentOne .bg .main div.benefits p {
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1.7em;
     line-height: 1.3em;
     margin-bottom: 25px;
     width: 305px;
 }
 
 .contentOne .bg .main div.benefits p span {
-    text-transform: lowercase;
+    text-transform: initial;
     font-size: .7em;
     font-weight: 200;
     line-height: 1.3em;
@@ -640,7 +640,7 @@ p.benefits.title {
 .contentFour .text h2, .contentThree .text h2 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-left: 0;
     line-height: 1.5em;
     text-align: center;
