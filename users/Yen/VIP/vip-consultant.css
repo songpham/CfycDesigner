@@ -1,5 +1,5 @@
 .form {
-    max-width: 305px;
+    max-width: 250px;
     font-size: 1em;
     font-weight: 700;
     position: relative;
@@ -82,15 +82,23 @@ html {
     text-transform: uppercase;
     background: rgba(255,39,41,0.5);
     padding: 15px 15px 15px 20px;
-    font-size: 2.2em;
-    margin: 0 0 20px 0;
+    font-size: 1.7em;
+    margin: 40px 0 20px 0;
     line-height: 1.2em;
+    width: 70%;
 }
 .vn .contentOne .bg .main h1 {
-    font-size: 2em;
+    font-size: 1.7em;
+}
+.contentOne .bg .main h2 {
+    margin-left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1.3em;
 }
 .contentOne .bg .main h4 {
-    font-size: 1.9em;
+    font-size: 1.5em;
     padding: 15px 20px 0 20px;
     text-transform: uppercase;
     font-weight: 500;
@@ -100,10 +108,10 @@ html {
 }
 .contentOne .bg .main div.benefits p {
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 1.9em;
     line-height: 1.3em;
     margin-bottom: 25px;
-    width: 305px;
+    width: 325px;
 }
 
 .contentOne .bg .main div.benefits p span {
@@ -113,6 +121,7 @@ html {
     line-height: 1.3em;
     display: block;
     color: #ccc;
+    padding-top: 5px;
 }
 .vn .contentOne .bg .main div.benefits p span {
     line-height: 1.3em;
@@ -121,9 +130,7 @@ html {
     text-transform: uppercase;
 }
 .contentOne .holder-form {
-    width: 31%;
     padding: 0;
-    padding-left: 18px;
 }
 .contentOne .holder-form .headline {
     color: #fff;
@@ -137,8 +144,7 @@ html {
 }
 .contentOne .holder-form .headline p {
     font-size: 1.2em;
-    margin: 20px 0 10px 0px;
-    text-transform: uppercase;
+    margin: 20px 0px 10px 15px;
 }
 .vn .contentOne .holder-form .headline h2 {
     font-size: 1.8em;
