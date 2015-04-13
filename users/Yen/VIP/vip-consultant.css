@@ -82,13 +82,21 @@ html {
     text-transform: uppercase;
     background: rgba(255,39,41,0.5);
     padding: 15px 15px 15px 20px;
-    font-size: 1.7em;
+    font-size: 2.2em;
     margin: 40px 0 20px 0;
     line-height: 1.2em;
-    width: 70%;
+    font-weight: 600;
+}
+
+.contentOne .bg .main h1 span {
+    display: block;
+    font-size: .8em;
+    font-weight: normal;
 }
 .vn .contentOne .bg .main h1 {
     font-size: 1.7em;
+    width: 70%;
+    font-weight: 300;
 }
 .contentOne .bg .main h2 {
     margin-left: 20px;
@@ -739,11 +747,7 @@ hr.grey_thick {
 .tabSearch .button-search {
     top: -10px;
 }
-.vn .contentOne .tagline {
-    position: relative;
-    left: 300px;
-    top: -10px;
-}
+
 .vn .contentOne .tagline .col-md-offset-4 .white.dropshadow {
     padding-top: 5px;
     position: relative;
