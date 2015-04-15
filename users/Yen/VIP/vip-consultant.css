@@ -1,12 +1,12 @@
 .form {
-    max-width: 250px;
+    max-width: 265px;
     font-size: 1em;
     font-weight: 700;
     position: relative;
     padding: 0px;
 }
 .vn .form {
-    max-width: 305px;
+    max-width: 265px;
     font-size: 1em;
     font-weight: 700;
     position: relative;
@@ -82,8 +82,9 @@ html {
     text-transform: uppercase;
     background: rgba(255,39,41,0.5);
     padding: 15px 15px 15px 20px;
-    font-size: 2.2em;
     margin: 40px 0 20px 0;
+    color: #fff;
+    font-size: 2.2em;
     line-height: 1.2em;
     font-weight: 600;
 }
@@ -93,17 +94,25 @@ html {
     font-size: .8em;
     font-weight: normal;
 }
-.vn .contentOne .bg .main h1 {
-    font-size: 1.7em;
-    width: 70%;
-    font-weight: 300;
-}
-.contentOne .bg .main h2 {
-    margin-left: 20px;
+.vn .contentOne .bg .main h2 {
     color: #fff;
+    font-size: 2em;
     text-transform: uppercase;
-    font-size: 2.5em;
+    margin: 30px 0 6px 20px;
+
+}
+.vn .contentOne .bg .main h1 {
+    font-size: 1.8em;
+    font-weight: 300;
+    font-variant: small-caps;
+    padding: 15px 15px 10px 20px;
+    width: 84%;
+}
+.vn .contentOne .bg .main h1 span{
+    font-size: 1.6em;
+    display: block;
     line-height: 1.3em;
+    font-weight: 600;
 }
 .contentOne .bg .main h4 {
     font-size: 1.5em;
@@ -111,19 +120,23 @@ html {
     text-transform: uppercase;
     font-weight: 500;
 }
+.vn .contentOne .bg .main h4 {
+    font-size: 1.7em;
+}
 .contentOne .bg .main div.benefits {
     padding: 15px 20px 0 20px;
+    background: url(list-style.png) top left no-repeat;
+    margin-left: 15px;
 }
 .contentOne .bg .main div.benefits p {
     text-transform: uppercase;
     font-size: 1.9em;
     line-height: 1.3em;
-    margin-bottom: 25px;
-    width: 325px;
+    margin-bottom: 19px;
+    width: 330px;
 }
-
 .contentOne .bg .main div.benefits p span {
-    text-transform: initial;
+    text-transform: none;
     font-size: .7em;
     font-weight: 200;
     line-height: 1.3em;
@@ -131,8 +144,15 @@ html {
     color: #ccc;
     padding-top: 5px;
 }
+.vn .contentOne .bg .main div.benefits p {
+    width: 285px;
+    font-size: 1.65em;
+    margin-bottom: 25px;
+
+}
 .vn .contentOne .bg .main div.benefits p span {
-    line-height: 1.3em;
+    line-height: 1.4em;
+    font-size: .72em;
 }
 .contentOne .bg .main div.benefits h4 {
     text-transform: uppercase;
