@@ -46,6 +46,10 @@ label {
 html {
     font-family: Arial;
 }
+.webContent-main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 .boxLocation .webContent {
     height: auto;
 }
@@ -70,7 +74,7 @@ html {
     overflow: hidden;
 }
 .contentOne .bg {
-    background: url(https://api.cfyc.com.vn/pages/vip_consultant/images/header-vip.jpg) top right no-repeat;
+    background: url(http://images.cfyc.com.vn/style/images/vip-consultant//header-vip.jpg) top right no-repeat;
     min-height: 524px;
     padding: 0;
     color: #fff;
@@ -125,7 +129,7 @@ html {
 }
 .contentOne .bg .main div.benefits {
     padding: 15px 20px 0 20px;
-    background: url(list-style.png) top left no-repeat;
+    background: url(http://images.cfyc.com.vn/style/images/vip-consultant/list-style.png) top left no-repeat;
     margin-left: 15px;
 }
 .contentOne .bg .main div.benefits p {
@@ -185,6 +189,7 @@ html {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+
 }
 .contentThree {
     min-height: 250px;
@@ -270,12 +275,12 @@ ol.no_margin_padding2 {
     font-size: 1.2em;
 }
 .weightloss_list1 li:before, .weightloss_list2 li:before {
-    content: "â€¢ ";
+    content: "Ă¢â‚¬Â¢ ";
     font-size: 1.5em;
     color: red;
 }
 .weightloss_listWhite li:before {
-    content: "â€¢ ";
+    content: "Ă¢â‚¬Â¢ ";
     font-size: 1em;
     color: #fff;
 }
@@ -662,6 +667,30 @@ p.benefits.title {
 }
 .contentThree .text {
     width: 90%}
+.contentThree .classes {
+    max-width: 1024px;
+}
+.contentThree .classes .col { padding: 0;}
+.contentThree .classes .post {
+    margin: 7px;
+    position: relative;
+}
+.contentThree .classes .post img {
+    width: 100%;
+}
+.contentThree .classes .post h4 {
+    position: absolute;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
 .contentFour .text {
     width: 100%}
 .vn .contentThree .text h2 {

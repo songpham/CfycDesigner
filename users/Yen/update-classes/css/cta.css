@@ -431,3 +431,60 @@ p.p_alert {
   border-bottom: 5px solid #ccc; }
 
 /*# sourceMappingURL=cta.css.map */
+
+/*faq*/
+
+.faq { max-width: 1024px; margin: 0 auto;}
+.faq .row { margin: 0}
+.faq .col-md-12 { padding: 0;}
+.faq h2 { text-transform: uppercase;
+    font-size: 1.9em;
+    margin-bottom: 15px;
+    background: black;
+    padding: 20px;
+    color: white;
+    clear: both;
+}
+
+.faq .col-md-6 {
+    padding: 0;
+}
+.faq h4 {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 14px;
+    background: #f1f1f1;
+    color: #666;
+    height: 54px;
+    background: #f1f1f1;
+    line-height: 1.4em;
+
+}
+.faq p { margin-bottom: 20px; text-align: justify; padding: 0 10px;}
+.faq .faqlist { margin: 10px}
+
+.faq span.answer {
+    width: 24px;
+    height: 14px;
+    background: url("../images/faq.png") no-repeat;
+    display: block;
+    margin-left: 20px;
+}
+.faq a {
+    text-decoration: none;
+}
+.faq a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 435px) {
+    .faq h2 {
+        font-size: 1.7em;
+    }
+}
+@media (max-width: 395px) {
+    .faq h2 {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+}

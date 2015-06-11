@@ -243,6 +243,58 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
                 <div class="clearfix"></div>
             </div>
         </div>
+        <div class="faq">
+            <div class="row">
+                <div class="col-md-12"><h2>các câu hỏi thường gặp</h2></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="faqlist">
+                            <a data-toggle="collapse" href="#q1" aria-expanded="false" aria-controls="collapseExample" data-target="#q1"><h4>Tại sao tôi phải đăng kí online và sau khi tôi đăng kí chuyện gì sẽ xảy ra?</h4>
+                                <span class="answer"></span></a>
+                            <div class="showAnswer" id="q1"><p>Chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ để giúp bạn sắp xếp lịch hẹn tại trung tâm California Fitness & Yoga gần nhất, nhằm đảm bảo các chuyên gia thể hình luôn sẵn sàng đón tiếp và tư vấn cho bạn </p></div>
+                        </div><!--end faqlist-->
+                    </div><!--end col 6-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="faqlist">
+                            <a data-toggle="collapse" href="#q2" aria-expanded="false" aria-controls="collapseExample" data-target="#q2"><h4>Cụ thể tôi sẽ nhận được những gì?</h4>
+                                <span class="answer"></span></a>
+                            <div class="showAnswer" id="q2"><p>Bạn sẽ được kiểm tra, tư vấn thể hình và tập luyện 1 kèm 1 với HLV cá nhân trong 1 buổi. Ngoài ra bạn còn nhận thêm 5 ngày tập luyện bất kì lớp thể dục, dance, yoga nào bạn thích. Kèm với quyền tự do trải nghiệm toàn bộ thiết bị tập luyện và các dịch vụ như phòng xông hơi ướt, khô….. </p></div>
+                        </div><!--end faqlist-->
+                    </div><!--end col 6-->
+                </div><!--end col 12-->
+            </div><!--end row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-sm-6" style="clear:both;">
+                        <div class="faqlist">
+                            <a data-toggle="collapse" href="#q3" aria-expanded="false" aria-controls="collapseExample" data-target="#q3"><h4>HLV cá nhân có thể giúp tôi những gì?</h4>
+                                <span class="answer"></span></a>
+                            <div class="showAnswer" id="q3"><p>Bất kì điều gì để thay đổi cơ thể bạn trong thời gian ngắn. Xuất phát từ nhu cầu của bạn, dù cho bạn muốn tăng cơ, giảm cân, tăng cường thể lực hay sở hữu vẻ ngoài trẻ trung hơn. Đội ngũ HLV California Fitness & Yoga đã có hơn 7 năm kinh nghiệm giúp hàng triệu người Việt Nam thay đổi cơ thể, thay đổi hoàn toàn cuộc sống </p></div>
+                        </div><!--end faqlist-->
+                    </div><!--end col 6-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="faqlist">
+                            <a data-toggle="collapse" href="#q4" aria-expanded="false" aria-controls="collapseExample" data-target="#q4"><h4>Đánh giá và tư vấn thể hình là gì?</h4>
+                                <span class="answer"></span></a>
+                            <div class="showAnswer" id="q4"><p>Một chuyên gia thể hình sẽ gặp gỡ và giúp bạn hiểu thêm về cơ thể mình, hướng dẫn bạn cách đạt được mục tiêu thể hình và chỉ ra các bài tập nào là phù hợp nhất với bạn</p></div>
+                        </div><!--end faqlist-->
+                    </div><!--end col 6-->
+                </div><!--end col 12-->
+            </div><!--end row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-sm-6" style="clear:both;">
+                        <div class="faqlist">
+                            <a data-toggle="collapse" href="#q5" aria-expanded="false" aria-controls="collapseExample" data-target="#q5"><h4>Tôi sẽ tập những gì trong 1 giờ gặp gỡ HLV cá nhân?</h4>
+                                <span class="answer"></span></a>
+                            <div class="showAnswer" id="q5"><p>HLV cá nhân sẽ hướng dẫn bạn một bài tập toàn thân phù hợp nhất và được cá nhân hóa dựa trên mục tiêu thể hình của bạn. Buổi tập luyện chỉ bao gồm bạn và HLV và hoàn toàn được thiết kế theo nhu cầu của bạn</p></div>
+                        </div><!--end faqlist-->
+                    </div><!--end col 6-->
+                </div><!--end col 12-->
+            </div><!--end row-->
+        </div><!--end faq-->
     </div>
         <script type="text/javascript">
     $(document).ready(function () {
@@ -254,6 +306,22 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
             }, 0);
         }
     });
+    </script>
+    <script>
+        $(document).ready(function(){
+           DOaction(); // run function after document ready
+            $(window).on('resize',DOaction); // on resize window run function
+        });
+        // function to add and remove hidden class
+        function DOaction(){
+            if($(window).width() <= 750){
+                $(".showAnswer").addClass('collapse');
+            }else{
+                $(".showAnswer").removeClass('collapse');
+                $(".showAnswer").removeAttr('id','none');
+                $(".faqlist>a").css('cursor','default');
+            }
+        }
     </script>
 </div>
 <div class="box-bottom">
