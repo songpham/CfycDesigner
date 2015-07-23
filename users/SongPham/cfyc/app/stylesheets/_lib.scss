@@ -1,0 +1,41 @@
+$white: #ffffff;
+$red: #ef1d26;
+@mixin opacity ($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
+@mixin background-size ($value) {
+       -moz-background-size: $value;
+         -o-background-size: $value;
+    -webkit-background-size: $value;
+            background-size: $value;
+}
+@mixin transform ($value) {
+       -moz-transform: $value;
+         -o-transform: $value;
+    -webkit-transform: $value;
+            transform: $value;
+}
+@mixin text-shadow ($value) {
+       -moz-text-shadow: $value;
+         -o-text-shadow: $value;
+    -webkit-text-shadow: $value;
+            text-shadow: $value;
+}
+@mixin border-radius ($value) {
+    border-radius: $value;
+    -o-border-radius: $value;
+    -moz-border-radius: $value;
+    -webkit-border-radius: $value;
+}
+@mixin box-shadow ($value) {
+    -webkit-box-shadow: $value;
+    -o-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;
+}
+@mixin font-size ($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}

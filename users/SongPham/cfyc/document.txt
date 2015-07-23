@@ -13,3 +13,6 @@ Thaianh:
         git commit -m 'comment' #save vao git
         git push origin master #push on server
         git pull origin master #get source
+-------------------
+Song issues:
+    + Need gallery responsive design at homepage
