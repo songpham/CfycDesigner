@@ -3,3 +3,7 @@
 + bower install
 + gulp
 + NODE_ENV='development' gulp # if need debug
+
+###########
+Song issues:
+    + Need gallery responsive design at homepage

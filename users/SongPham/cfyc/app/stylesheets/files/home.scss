@@ -1,0 +1,30 @@
+@import '../lib';
+.home-page {
+    .gallery {
+        position: relative;
+        img {
+            max-width: 100%;
+        }
+        .down-button {
+            position: absolute;
+            bottom: 6%;
+            left: 50%;
+            width: 100%;
+            @include transform(translate3d(-50%, -6%, 0px)); /* bring your own prefixes */
+        }
+    }
+    .top-content {
+        .holder-top-content {
+            .subject {
+                color: $red;
+                text-transform: uppercase;
+                @include font-size(19px);
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            .text {
+                margin-top: 10px;
+            }
+        }
+    }
+}
