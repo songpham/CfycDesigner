@@ -1,3 +1,5 @@
 + npm install
++ npm install -g bower
 + bower install
-+ NODE_ENV='development' gulp
++ gulp
++ NODE_ENV='development' gulp # if need debug
