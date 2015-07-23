@@ -1,0 +1,1 @@
+<script src="<?php echo USER_BASE_URL ?>/public/js/bundle.min.js"></script>
