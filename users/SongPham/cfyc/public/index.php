@@ -4,7 +4,7 @@
 <?php include USER_BASE_PATH . '/templates/head.php'; ?>
 <body>
 <?php
-$uri = str_replace(strtolower(USER_BASE_URL . '/'), NULL, $_SERVER['REQUEST_URI']);
+$uri = str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI']));
 switch ($uri) {
     case 'about-us':
         include USER_BASE_PATH . '/pages/about-us.php';
