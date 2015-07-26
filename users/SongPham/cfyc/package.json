@@ -18,7 +18,8 @@
     "gulp-plumber": "^1.0.1",
     "gulp-streamify": "0.0.5",
     "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.6"
+    "gulp-util": "^3.0.6",
+    "bower": "^1.4.0"
   },
   "license": "Song"
 }
