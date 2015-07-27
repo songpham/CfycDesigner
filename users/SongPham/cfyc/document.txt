@@ -4,7 +4,14 @@
 + bower install
 + gulp
 + NODE_ENV='development' gulp # if need debug
-
+-------------------
+Requirement:
+    + code đẹp, nhìn dễ hiểu
+    + space, alignment này nọ đẹp
+    + viết hoa viết thường ok
+    + comment đầy đủ
+    + exactly - có thể gần giống với layout
+    + chạy responsive
 -------------------
 Thaianh:
     + cd D:/Program\ Files\ \(x86\)/Ampps/www/cfyc/CfycDesigner
