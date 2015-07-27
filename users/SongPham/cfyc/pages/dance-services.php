@@ -1,9 +1,7 @@
 <div class="container-fluid page dance-services">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-<div class="container-page">
 <?php include USER_BASE_PATH . '/pages/dance-services/top.php'; ?>
 <?php include USER_BASE_PATH . '/pages/dance-services/bottom.php'; ?>
-</div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
