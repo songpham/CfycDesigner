@@ -56,15 +56,17 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 
 @media (max-width:$breakpoint_tablet){
 	nav#desktop-nav { display:none; }
-	#menu-toggle {display: block;
+	#menu-toggle {
+					display: block;
 					z-index: 101;
 				    position: fixed;
 				    right: 0;
 				    top:12px;
 	}
-	.toggle {margin:0;  font-size: 25px; color: #fff;}
+	.toggle {margin:0;font-size: 25px; color: #fff;}
 
-	#sidebar-wrapper {display: block;
+	#sidebar-wrapper {
+					display: block;
 				    z-index: 1000;
 				    position: fixed;
 				    right: 0;
@@ -92,20 +94,21 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 				    .toggle {color: #666; padding: 5px 16px;}
 
 				    
-				    ul { position: absolute;
+				    ul { 
+				    position: absolute;
 				    top: 0;
 				    width: 250px;
 				    margin: 0;
 				    padding: 0;
 				    list-style: none;
 					    li {
-					    		 text-indent: 20px;
-								line-height: 40px;
-								border-bottom: 1px #ccc solid;
-								a {
-									display: block;
-									text-decoration: none;
-									color: #999;
+					    text-indent: 20px;
+						line-height: 40px;
+						border-bottom: 1px #ccc solid;
+							a {
+								display: block;
+								text-decoration: none;
+								color: #999;
 									
 								}
 								img {}
