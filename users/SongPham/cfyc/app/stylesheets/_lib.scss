@@ -1,5 +1,7 @@
 $white: #ffffff;
-$red: #ef1d26;
+$red: #db2128;
+$black: #000;
+$breakpoint_tablet:1024px;
 @mixin opacity ($opacity) {
     opacity: $opacity;
     $opacity-ie: $opacity * 100;
@@ -39,3 +41,4 @@ $red: #ef1d26;
     font-size: $size;
     font-size: calculateRem($size);
 }
+

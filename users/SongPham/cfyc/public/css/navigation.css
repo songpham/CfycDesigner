@@ -15,10 +15,11 @@ nav#desktop-nav li{display: inline-block; list-style: none; padding-left: 20px; 
 nav#desktop-nav li:first-child {margin-left: 100px;}
 nav#desktop-nav li a {color: #fff; text-decoration: none; font-size: 12px; font-family: 'vni-avo-normal'; text-transform: uppercase;}
 nav#desktop-nav li a:hover, nav#desktop-nav li a:active, nav#desktop-nav li a.active {color: #db2328;}
-nav .lifestyle {background-color: #000; background-color: rgba(0,0,0, .8);}
-.lifestyle-menu {position:absolute;top:63px;width: 100%; color: #000;}
+nav .lifestyle {}
+nav#desktop-nav .lifestyle-menu {position:absolute;top:78px;width: 100%; background-color: #000;background-color:rgba(0,0,0, .5); border-bottom:1px #313131 solid}
+nav#desktop-nav .lifestyle-menu li:first-child {margin-left: 0px;}
 
-nav#desktop-nav .lifestyle-menu ul {background-color: #000;top:15px; right:0; padding: 5px; width: 100%;}
+nav#desktop-nav .lifestyle-menu ul {right:20px; padding: 5px; width: 1000px; padding: 5px; margin: 0px;}
 
 
 /* mobile menu */

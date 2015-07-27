@@ -15,8 +15,7 @@
    <link href="../public/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
 
     <!-- Custom CSS -->
-    <link href="../public/css/style.css" rel="stylesheet">
-	<link href="../public/css/navigation.css" rel="stylesheet">
+    <link href="../public/css/bundle.min.css" rel="stylesheet">
 	<script type="text/javascript" src="https://api.cfyc.com.vn/pages/cfyc_files/js/jquery.tools.min.js"></script>
         <script type="text/javascript" src="https://api.cfyc.com.vn/pages/cfyc_files/js/jquery-mobile-min.js"></script>
 
@@ -42,64 +41,118 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="www.cmg.asia"  onclick = $("#menu-close").click(); >Home</a>
+            	 <a href="#language" onclick = $("#menu-close").click(); ><img src="http://images.cfyc.com.vn/cfyc/english.jpg" class="img-circle"></a>
+             
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Clubs</a>
+                <a href="#" onclick = $("#menu-close").click(); >Trang Chủ</a>
             </li>
             <li>
-                <a href="about.html" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#l" onclick = $("#menu-close").click(); >Câu Lạc Bộ</a>
             </li>
             <li>
-                <a href="careers.html" onclick = $("#menu-close").click(); >Lifestyle</a>
+                <a href="#" onclick = $("#menu-close").click(); >Dịch Vụ</a>
             </li>
             <li>
-                <a href="careers.html" onclick = $("#menu-close").click(); >Become A Member</a>
+            	<div class="list-group panel">
+                	<a href="#lifestyle-menu" class=" list-group-item-success active" data-toggle="collapse" aria-expanded="false">Phong Cách Sống<span class="glyphicon glyphicon-chevron-down"></span> </a>
+                <div class="collapse in" id="lifestyle-menu" aria-expanded="true">
+                	<ul>
+                		<li>Test</li>
+                	</ul>
+                </div>
             </li>
             <li>
-                <a href="contact.html" onclick = $("#menu-close").click(); >Class Schedules</a>
+                <a href="#" onclick = $("#menu-close").click(); >Thành Viên</a>
             </li>
             <li>
-                <a href="brands.html" onclick = $("#menu-close").click(); >Language</a>
+                <a href="#" onclick = $("#menu-close").click(); >Lịch học</a>
             </li>
              <li>
-                 <!-- <a href="#contact" onclick = $("#menu-close").click(); >Language</a> -->
+
             </li>
+
         </ul>
     </nav>
+<div class="logo">
+	<img src="http://images.cfyc.com.vn/cfyc/logo.png" class="img-responsive" alt="California Fitness &amp; Yoga">
+</div>
     <nav id="desktop-nav">
-    	<div class="logo">
-			<img src="http://images.cfyc.com.vn/cfyc/logo.png" class="img-responsive" alt="California Fitness &amp; Yoga">
-    	</div>
+
     	<ul class="desktop-menu">
-    		<li><a href="#top" class="">Home</a></li>
-    		<li><a href="#"  class="">Clubs</a></li>
-    		<li><a href="#"  class="">Services</a></li>
-    		<li><a href="#lifestyle"  data-toggle="collapse" data-target="#lifestyle" class="">Lifestyle</a></li>
-    		<li><a href="#"  class="">Become A Member</a></li>
-    		<li><a href="#"  class="">Class Schedules</a></li>
+    		<li><a href="#top" class="">Trang Chủ</a></li>
+    		<li><a href="#"   data-toggle="collapse" data-target="#clubs" class="">Câu Lạc Bộ</a></li>
+    		<li><a href="#"  data-toggle="collapse" data-target="#services" class="">Dịch Vụ</a></li>
+    		<li><a href="#lifestyle"  data-toggle="collapse" data-target="#lifestyle" class="">Phong Cách Sống</a></li>
+    		<li><a href="#"  class="">Thành Viên</a></li>
+    		<li><a href="#"  class="">Lịch học</a></li>
     		<li><a href="#"  class=""><img src="http://images.cfyc.com.vn/cfyc/vietnamese.jpg" class="img-circle"></a></li>
-    		<li class="language"></li>
+    		<li class="search"></li>
     	</ul>
-    	<div id="lifestyle" class="lifestyle-menu collapse">
-    	<ul class="lifestyle-list ">
-    		<li>Giảm Cân</li>
-    		<li>Thể dục & Sức khỏe</li>
-    		<li>Luyện Tập</li>
-    		<li>Phong Cách Sống</li>
-    		<li>Dinh Dưỡng</li>
-    		<li>Gia Đình</li>
-    		<li>Yoga</li>
-    		<li>Thời Trang</li>
-    		<li>Tin Tức</li>
-    		<li>SỰ KIỆN</li>
+    	<div id="lifestyle" class="sub-menu collapse">
+    	<ul>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">Giảm Cân</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">Thể dục & Sức khỏe</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/">Luyện Tập</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/phong-cach-song/">Phong Cách Sống</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/dinh-duong/">Dinh Dưỡng</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/gia-dinh/">Gia Đình</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/yoga/">Yoga</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/thoi-trang/">Thời Trang</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/">Tin Tức</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/su-kien/">Sự Kiện</a></li>
+    	</ul>
+    </div>
+        	<div id="services" class="sub-menu collapse">
+    	<ul>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">Group Fitness</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">Giảm Căng Cơ</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/">Dance</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/phong-cach-song/">Yoga</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/dinh-duong/">Huấn Luyện cá nhân</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/gia-dinh/">Kickfit</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/yoga/">Võ tự do MMA</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/thoi-trang/">Spa</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/">Clb dành cho trẻ em</a></li>
+    	</ul>
+    </div>
+	<div id="clubs" class="sub-menu clubs collapse">
+    	<ul>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">TP. Hồ Chí Minh</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/">Hà Nội</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/">Đà Nẵng</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/phong-cach-song/">Bình Dương</a></li>
+    		<li><a href="http://www.cfyc.com.vn/lifestyle/dinh-duong/">Biên Hòa</a></li>
     	</ul>
     </div>
     </nav>
 
 
-    <header id="top" class="header">
+    <header id="top" class="header" style="background:#000 url(../public/img/test-banner.jpg) 0 0 no-repeat; min-height:1000px; ">
     	<p>dummy content</p>
     </header>
+    <script>
+        // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    
+    			$('#desktop-nav a').click(function (e) {
+			    if($(this).parent('li').hasClass('active')){
+			        $( $(this).attr('href') ).hide();
+			    }
+			    else {
+			        e.preventDefault();
+			        $(this).tab('show');
+			    }
+			});
+    </script>
 </body>
 </html>
