@@ -11,7 +11,7 @@ Requirement:
     + viết hoa viết thường ok
     + comment đầy đủ
     + exactly - có thể gần giống với layout
-    + chạy responsive
+    + chạy responsive, ie9+, firefox, chrome, safari
 -------------------
 Thaianh:
     + cd D:/Program\ Files\ \(x86\)/Ampps/www/cfyc/CfycDesigner
