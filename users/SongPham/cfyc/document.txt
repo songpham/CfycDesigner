@@ -6,12 +6,12 @@
 + NODE_ENV='development' gulp # if need debug
 -------------------
 Requirement:
-    + code đẹp, nhìn dễ hiểu
-    + space, alignment này nọ đẹp
-    + viết hoa viết thường ok
-    + comment đầy đủ
-    + exactly - có thể gần giống với layout
-    + chạy responsive, ie9+, firefox, chrome, safari
+    + code nice tab 4, easy to understand
+    + space, alignment correct
+    + camel case, normal case correct
+    + well-comment
+    + exactly or same same with the original layout
+    + support responsive, ie9+, firefox, chrome, safari
 -------------------
 Thaianh:
     + cd D:/Program\ Files\ \(x86\)/Ampps/www/cfyc/CfycDesigner
