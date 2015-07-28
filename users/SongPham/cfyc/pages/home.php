@@ -158,6 +158,39 @@
                 <h2><span>SUCCESS STORIES</span></h2>
                 <p>It’s a 24/7 hangout for high-performance living. Smart, evocative, ahead of the curve. Get inspired, get informed, get it here.</p>
                 <div class="whitespace"></div>
+                <div class="row success_stories">
+                    <div class="col-md-12 text-center">
+                        <div class="row">
+                            <div class="col-md-3 text-center"></div>
+                            <div class="col-md-6 text-center round_success">
+                                <div class="round_part">
+                                    <img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories">
+                                </div>
+                                <div class="round_part">
+                                    <img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories">
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-center">
+                            </div>
+                        </div>
+                       <div class="row">
+                            <div class="col-md-3 text-center">
+                            </div>
+                            <div class="col-md-6 text-center round_success">
+                                <div class="round_part">
+                                    <img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories">
+                                </div>
+                                <div class="round_part">
+                                    <img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories">
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-center">
+                            </div>
+                        </div>
+                        <h3>TRUC HIEN</h3>
+                        <p>My name is Truc Hien and I am a workaholic. Ms. Hien  decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
+                    </div>
+                </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
@@ -194,7 +227,7 @@
                     </div>
                     <div class="col-md-2 text-center">
                         <img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-                        <p>Hooang My</p>
+                        <p>Hoang My</p>
                     </div>
                     <div class="col-md-2 text-center">
                         <img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
@@ -213,13 +246,52 @@
                 <h2><span>FEATURE STORIES</span></h2>
                 <p>There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).</p>
                 <div class="whitespace"></div>
+                <div class="row features_stories">
+                    <div class="col-md-2 text-center">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/home/california-wow-features-stories.jpg" title="Features Stories" alt="Features Stories">
+                        <h3>TITLE INPUT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim. Phasellus ultrices tellus.</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/home/california-wow-features-stories.jpg" title="Features Stories" alt="Features Stories">
+                        <h3>TITLE INPUT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim. Phasellus ultrices tellus.</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/home/california-wow-features-stories.jpg" title="Features Stories" alt="Features Stories">
+                        <h3>TITLE INPUT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim. Phasellus ultrices tellus.</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/home/california-wow-features-stories.jpg" title="Features Stories" alt="Features Stories">
+                        <h3>TITLE INPUT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim. Phasellus ultrices tellus.</p>
+                    </div>
+                     <div class="col-md-2 text-center">
+                    </div>
+                </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
                 <h2><span>SPECIAL OFFERS</span></h2>
                 <p>There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).</p>
                 <div class="whitespace"></div>
+                <div class="row special_offers">
+                    <div class="col-md-2 text-center">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="img/home/california-wow-special-offer-1.jpg" title="Special Offers" alt="Special Offers">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="img/home/california-wow-special-offer-2.jpg" title="Special Offers" alt="Special Offers">
+                    </div>
+                    <div class="col-md-2 text-center">
+                    </div>
+                </div>
             </div>
+            <div class="whitespace"></div>
         </div>
     </div>
 </div>

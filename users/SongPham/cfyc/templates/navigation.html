@@ -38,13 +38,16 @@
 <body class="">
 
     <!-- Mobile Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="mobile-navigation-menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+        <i class="fa fa-bars"></i>
+    </a>
     <nav id="mobile-navigation-wrapper">
         <ul class="sidebar-nav">
-            <a id="mobile-navigation-menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="mobile-navigation-menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+                <i class="fa fa-times"></i>
+            </a>
             <li class="sidebar-brand">
                  <a href="#language" onclick = $("#mobile-navigation-menu-close").click(); ><img src="http://images.cfyc.com.vn/cfyc/english.jpg" class="img-circle"></a>
-
             </li>
             <li>
                 <a href="#" onclick = $("#mobile-navigation-menu-close").click(); >Trang Chủ</a>
@@ -83,7 +86,9 @@
             </li>
             <li class="">
                 <div class="list-group panel">
-                    <a href="#lifestyle-menu" class="list-group-item-success " id="mobile-lifestyle-menu" data-toggle="collapse" aria-expanded="false">Phong Cách Sống<span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="#lifestyle-menu" class="list-group-item-success " id="mobile-lifestyle-menu" data-toggle="collapse" aria-expanded="false">
+                        Phong Cách Sống<span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
                     <div class="collapse" id="lifestyle-menu" aria-expanded="false">
                         <ul>
                              <li><a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/" onclick = $("#mobile-navigation-menu-close").click();>Giảm Cân</a></li>
@@ -106,16 +111,12 @@
             <li>
                 <a href="#" onclick = $("#mobile-navigation-menu-close").click(); >Lịch học</a>
             </li>
-             <li>
-
-            </li>
-
         </ul>
     </nav>
     <div class="logo">
         <img src="http://images.cfyc.com.vn/cfyc/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
     </div>
-    <nav id="desktop-nav">
+    <nav id="desktop-navigation">
         <ul class="desktop-menu">
             <li><a href="#top" class="">Trang Chủ</a></li>
             <li><a href="#"   data-toggle="collapse" data-target="#clubs" class="">Câu Lạc Bộ</a></li>
@@ -166,11 +167,11 @@
     <header id="top" class="header" style="background:#000 url(../public/img/test-banner.jpg) 0 0 no-repeat; min-height:1000px; "></header>
     <script>
     // toggles menu
-    $("#mobile-navigation-menu-close, #menu-toggle").click(function(e) {
+    $("#mobile-navigation-menu-close, #mobile-navigation-menu-toggle").click(function(e) {
         e.preventDefault();
         $("#mobile-navigation-wrapper").toggleClass("active");
     });
-    $('#desktop-nav a').click(function (e) {
+    $('#desktop-navigation a').click(function (e) {
         if($(this).parent('li').hasClass('active')) {
             $( $(this).attr('href') ).hide();
         } else {
@@ -209,5 +210,58 @@
         }
     });
     </script>
+
+    <footer>
+    	<div class="container-fluid">
+    		<div class="row row-centered">
+    			<div class="content-box">
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    				<img src="../public/img/footer/centuryon.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    			  <img src="../public/img/footer/morfit.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    				<img src="../public/img/footer/cmg.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    				<img src="../public/img/footer/ca3.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    			    <img src="../public/img/footer/ca_active.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-2 col-xs-6 col-centered">
+	    				<img src="../public/img/footer/eri_international.jpg" class="img-responsive center-block" alt="Centuryon">
+	    			</div>
+	    			<div class="col-md-1 col-xs-3 col-centered">
+	    				<a href="https://www.facebook.com/cfycvn"><i class="fa fa-facebook icons"></i></a>
+	    			</div>
+	    			<div class="col-md-1 col-xs-3 col-centered">
+	    				<a href="https://twitter.com/cfycvn"><i class="fa fa-twitter icons"></i></a>
+	    			</div>
+	    			<div class="col-md-1 col-xs-3 col-centered">
+	    				<a href="#"><i class="fa fa-instagram icons "></i></a>
+	    			</div>
+	    			<div class="col-md-1 col-xs-3 col-centered">
+	    				<a href="https://www.youtube.com/user/CaliFitnessYogaVN"><i class="fa fa-youtube-square icons"></i></a>
+	    			</div>
+	    			<ul>
+	    				<li>Shop</li>
+	    				<li>Gift Cards</li>
+	    				<li>Careers</li>
+	    				<li>Education</li>
+	    				<li>Contact Us</li>
+	    				<li>Press Releases</li>
+	    			</ul>
+	    			<ul>
+	    				<li>Terms And Conditions</li>
+	    				<li>Digital Experience</li>
+	    				<li>FAQ</li>
+	    				<li>Privacy Policy</li>
+	    			</ul>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
 </body>
 </html>
