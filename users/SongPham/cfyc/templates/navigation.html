@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="https://api.cfyc.com.vn/pages/cfyc_files/js/jquery.tools.min.js"></script>
     <script type="text/javascript" src="https://api.cfyc.com.vn/pages/cfyc_files/js/jquery-mobile-min.js"></script>
 	<script type="text/javascript" src="https://api.cfyc.com.vn/pages/cfyc_files/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="../app/default.js"></script>
+	<script type="text/javascript" src="../public/js/bundle.min.js"></script>
 
 		
 
