@@ -25,7 +25,8 @@ var paths = {
         './app/default.js'
     ],
     css_1: [
-        './bower_components/bootstrap/dist/css/bootstrap.css'
+        './bower_components/bootstrap/dist/css/bootstrap.css',
+        './bower_components/font-awesome/css/font-awesome.css'
     ],
     css_2: [
         './app/stylesheets/**/*.scss',
