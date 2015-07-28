@@ -10,15 +10,15 @@ $(document).ready(function () {
         e.preventDefault(e);
         var index = $(this).data('index');
         setTimeout(function () {
-            $desktopNavigation.find('.collapse:not(:eq(' + index + '))').collapse('hide');
-            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-        }, 500);
+            $desktopNavigation.find('.collapse').hide();
+            setTimeout(function () {
+                $desktopNavigation.find('.collapse:eq(' + index + ')').show();
+            });
+        });
     }).mouseout( function (e) { /* mouse over */
         e.preventDefault(e);
         var index = $(this).data('index');
-        setTimeout(function () {
-            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('hide');
-        }, 500);
+        $desktopNavigation.find('.collapse:eq(' + index + ')').hide();
     });
     /* Mobile Menu */
     $('#mobile-navigation-wrapper .list-group-item-success').click(function (e) {
