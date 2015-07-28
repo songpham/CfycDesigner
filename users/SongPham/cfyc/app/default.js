@@ -10,15 +10,20 @@ $(document).ready(function () {
         e.preventDefault(e);
         var index = $(this).data('index');
         setTimeout(function () {
-            $desktopNavigation.find('.collapse').hide();
+            $desktopNavigation.find('.collapse').collapse('hide');
             setTimeout(function () {
-                $desktopNavigation.find('.collapse:eq(' + index + ')').show();
+                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
             });
         });
-    }).mouseout( function (e) { /* mouse over */
+    }).click(function (e) {
         e.preventDefault(e);
-        var index = $(this).data('index');
-        $desktopNavigation.find('.collapse:eq(' + index + ')').hide();
+        var index = $(this).data('index'),
+            $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')');
+        if ($collapse.hasClass('in')) {
+            $desktopNavigation.find('.collapse').collapse('hide');
+        } else {
+            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+        }
     });
     /* Mobile Menu */
     $('#mobile-navigation-wrapper .list-group-item-success').click(function (e) {
