@@ -13,11 +13,10 @@
     /* adds/removes hidden class for main menu submenus */
     
     $('#desktop-nav a').click(function (e) {
-			    if($(this).parent('li').hasClass('active')){
-			        $( $(this).attr('href') ).hide();
-			    }
-			    else {
-			        e.preventDefault();
-			        $(this).tab('show');
-			    }
-			});
+		if($(this).parent('li').hasClass('active')){
+			$( $(this).attr('href') ).hide();
+		} else {
+			e.preventDefault();
+			$(this).tab('show');
+		}
+	});
