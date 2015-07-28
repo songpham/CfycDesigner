@@ -20,7 +20,7 @@
 .logo {width: 370px; position: fixed; top:0; left: 0; z-index: 1002; }
 /* navigation */
 /* mobile */
-#sidebar-wrapper {display: none;}
+#mobile-navigation-wrapper {display: none;}
 #menu-toggle {display: none;}
 
 /* desktop */
@@ -61,11 +61,11 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 					z-index: 101;
 				    position: fixed;
 				    right: 0;
-				    top:12px;
+				    top:0;
 	}
 	.toggle {margin:0;font-size: 25px; color: #fff;}
 
-	#sidebar-wrapper {
+	#mobile-navigation-wrapper {
 					display: block;
 				    z-index: 1000;
 				    position: fixed;
@@ -74,7 +74,8 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 				    height: 100%;
 				    margin-right: -250px;
 				    overflow-y: auto;
-				    background: #fff;
+				    background-color: #2b2a2b;
+				    background-color: rgba(43,42,43, .9);
 				    -webkit-transition: all 0.4s ease 0s;
 				    -moz-transition: all 0.4s ease 0s;
 				    -ms-transition: all 0.4s ease 0s;
@@ -91,7 +92,7 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 				    -o-transition: all 0.4s ease 0s;
 				    transition: all 0.4s ease 0s;
 				    }
-				    .toggle {color: #666; padding: 5px 16px;}
+				    .toggle {color: #dadada; padding: 5px 16px;}
 
 				    
 				    ul { 
@@ -104,21 +105,30 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 					    li {
 					    text-indent: 20px;
 						line-height: 40px;
-						border-bottom: 1px #ccc solid;
+						border-bottom: 1px #464646 solid;
 							a {
 								display: block;
 								text-decoration: none;
-								color: #999;
+								color: $white;
 									
 								}
 								img {}
 						    
 					    }
-					    .list-group.panel { margin-bottom: 0px; background-color: #fff; border-color: #fff;
-						    #lifestyle-menu {
+					    .list-group.panel { 
+					    	margin-bottom: 0px; 
+					    	border: 0px;
+					    	.list-group-item-success {background-color: #2b2a2b; border-color: #464646;}
+						    #lifestyle-menu, #dich-vu-menu, #club-menu {
 							    ul {
 								    position: relative;
-								    li
+								    li {
+								    	border-bottom: 0px; 
+								    	border-top:1px #2b2a2b solid; 
+								    	background-color:#464646; 
+								    	color: $white;
+								    	padding-left: 20px;
+								    }
 							    }
 						    }
 					    }
@@ -127,6 +137,14 @@ nav#desktop-nav { display:block; position: fixed; top:0px; left: 0px; min-width:
 		
 		
 	} /* sidebar wrapper */
-			div.logo { background-color: $red; width: 100%; z-index: 99;}	
+			/* logo */
+			div.logo { background-color:$black; min-width: 100%; z-index: 99;	
+				.logo-img {width: 75%; max-width: 370px; position: relative; }
+			}
+	
+}
+
+@media (max-width:$breakpoint_iphone4) {
+
 	
 }
