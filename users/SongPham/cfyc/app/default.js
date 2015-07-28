@@ -4,15 +4,28 @@ $(document).ready(function () {
         e.preventDefault();
         $("#mobile-navigation-wrapper").toggleClass("active");
     });
-    $('#desktop-navigation a').click(function (e) {
-        e.preventDefault();
-        if ($(this).parent('li').hasClass('active')) {
-            $($(this).attr('href')).hide();
+    /* Desktop Menu */
+    var $desktopNavigation = $('#desktop-navigation');
+    $desktopNavigation.find('.desktop-menu a').mouseover( function (e) { /* mouse over */
+        e.preventDefault(e);
+        var index = $(this).data('index');
+        setTimeout(function () {
+            $desktopNavigation.find('.collapse').collapse('hide');
+            setTimeout(function () {
+                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+            });
+        });
+    }).click(function (e) {
+        e.preventDefault(e);
+        var index = $(this).data('index'),
+            $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')');
+        if ($collapse.hasClass('in')) {
+            $desktopNavigation.find('.collapse').collapse('hide');
         } else {
-            $(this).tab('show');
+            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
         }
     });
-    /* Lifestyle Menu */
+    /* Mobile Menu */
     $('#mobile-navigation-wrapper .list-group-item-success').click(function (e) {
         var $me = $(this),
             $glyphicon = $me.find('.glyphicon'),
@@ -30,4 +43,12 @@ $(document).ready(function () {
             $me.next('.collapse').removeClass("in");
         }
     });
+    /* fix bug when window resizes, the navigation has many spaces */
+    var refreshOnResize = function () {
+        if (window.innerWidth < '1024') {
+            $('.container-fluid.page').css('top', $('.logo').height() + 'px');
+        }
+    };
+    refreshOnResize();
+    $(window).resize(refreshOnResize);
 });
