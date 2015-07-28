@@ -6,15 +6,19 @@ $(document).ready(function () {
     });
     /* Desktop Menu */
     var $desktopNavigation = $('#desktop-navigation');
-    $desktopNavigation.find('.desktop-menu a').hover( function (e) { /* mouse over */
+    $desktopNavigation.find('.desktop-menu a').mouseover( function (e) { /* mouse over */
         e.preventDefault(e);
         var index = $(this).data('index');
-        $desktopNavigation.find('.collapse:not(:eq(' + index + '))').collapse('hide');
-        $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-    }, function (e) { /* mouse out */
+        setTimeout(function () {
+            $desktopNavigation.find('.collapse:not(:eq(' + index + '))').collapse('hide');
+            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+        }, 500);
+    }).mouseout( function (e) { /* mouse over */
         e.preventDefault(e);
         var index = $(this).data('index');
-        $desktopNavigation.find('.collapse').collapse('hide');
+        setTimeout(function () {
+            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('hide');
+        }, 500);
     });
     /* Mobile Menu */
     $('#mobile-navigation-wrapper .list-group-item-success').click(function (e) {

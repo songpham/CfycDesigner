@@ -81,36 +81,38 @@
         <li><a href="#">Lịch học</a></li>
         <li><a href="#"><img src="<?php echo USER_BASE_URL ?>/img/vietnamese.jpg" class="img-circle"></a></li>
     </ul>
-    <div class="sub-menu collapse">
-        <ul>
-            <li><a href="#">TP. Hồ Chí Minh</a></li>
-            <li><a href="#">Hà Nội</a></li>
-            <li><a href="#">Đà Nẵng</a></li>
-            <li><a href="#">Bình Dương</a></li>
-            <li><a href="#">Biên Hòa</a></li>
-        </ul>
-    </div>
-    <div class="sub-menu collapse">
-        <ul>
-            <li><a href="#">Group Fitness</a></li>
-            <li><a href="#">Giảm Căng Cơ</a></li>
-            <li><a href="#">Dance</a></li>
-            <li><a href="#">Yoga</a></li>
-            <li><a href="#">Huấn Luyện cá nhân</a></li>
-            <li><a href="#">Kickfit</a></li>
-            <li><a href="#">Võ tự do MMA</a></li>
-            <li><a href="#">Spa</a></li>
-            <li><a href="#">Clb dành cho trẻ em</a></li>
-        </ul>
-    </div>
-    <div class="sub-menu collapse">
-        <ul>
-            <li><a href="#">Giảm Cân</a></li>
-            <li><a href="#">Thể dục & Sức khỏe</a></li>
-            <li><a href="#">Luyện Tập</a></li>
-            <li><a href="#">Phong Cách Sống</a></li>
-            <li><a href="#">Dinh Dưỡng</a></li>
-            <li><a href="#">Gia Đình</a></li>
-        </ul>
+    <div class="holder-submenu">
+        <div class="sub-menu collapse">
+            <ul>
+                <li><a href="#">TP. Hồ Chí Minh</a></li>
+                <li><a href="#">Hà Nội</a></li>
+                <li><a href="#">Đà Nẵng</a></li>
+                <li><a href="#">Bình Dương</a></li>
+                <li><a href="#">Biên Hòa</a></li>
+            </ul>
+        </div>
+        <div class="sub-menu collapse">
+            <ul>
+                <li><a href="#">Group Fitness</a></li>
+                <li><a href="#">Giảm Căng Cơ</a></li>
+                <li><a href="#">Dance</a></li>
+                <li><a href="#">Yoga</a></li>
+                <li><a href="#">Huấn Luyện cá nhân</a></li>
+                <li><a href="#">Kickfit</a></li>
+                <li><a href="#">Võ tự do MMA</a></li>
+                <li><a href="#">Spa</a></li>
+                <li><a href="#">Clb dành cho trẻ em</a></li>
+            </ul>
+        </div>
+        <div class="sub-menu collapse">
+            <ul>
+                <li><a href="#">Giảm Cân</a></li>
+                <li><a href="#">Thể dục & Sức khỏe</a></li>
+                <li><a href="#">Luyện Tập</a></li>
+                <li><a href="#">Phong Cách Sống</a></li>
+                <li><a href="#">Dinh Dưỡng</a></li>
+                <li><a href="#">Gia Đình</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
