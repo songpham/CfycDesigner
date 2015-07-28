@@ -5,6 +5,16 @@
 + gulp
 + NODE_ENV='development' gulp # if need debug
 -------------------
+Step work when create a contact-us page:
+    + gulp (fix bugs if have)
+    + create page /pages/contact-us.php has content exactly same with another pages
+    + change top class /pages/contact-us.php to contact-us-page
+    + create scss file at app/stylesheets/files/contact-us.scss has content exactly same with another pages
+    + change top class app/stylesheets/files/contact-us.scss to contact-us-page
+    + add javascripts file at public/js/scripts/... folder have content exactly same with another files
+    + embed your javascripts file to the bottom at /pages/contact-us.php
+    + images put at /public/img/contact-us/... folder
+-------------------
 Requirement:
     + code nice tab 4, easy to understand
     + space, alignment correct
