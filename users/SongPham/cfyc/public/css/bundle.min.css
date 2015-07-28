@@ -160,6 +160,11 @@ nav#desktop-nav {
       position: relative; } }
 
 
+.contact-us-page .teo {
+  width: 100px;
+  height: 100px;
+  background-color: yellow; }
+
 
 
 .home-page .gallery {
