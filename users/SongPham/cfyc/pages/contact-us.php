@@ -3,10 +3,11 @@
  * Contact us page
  */
 ?>
-<div class="container-fluid page contact-us">
+<div class="container-fluid page contact-us-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-page">
-<h2>contact us now</h2>
+contact-us
+<div class="teo">aaaaa</div>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>

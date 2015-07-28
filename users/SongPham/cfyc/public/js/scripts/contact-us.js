@@ -1,9 +1,9 @@
 var contactUsPage = (function () {
-	var initModule = function () {
-		//console.log(2);
-	};
+    var initModule = function () {
+        alert(3);
+    };
     return {
         initModule: initModule
     };
 }());
-aboutUsPage.initModule();
+contactUsPage.initModule();
