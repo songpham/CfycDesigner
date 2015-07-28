@@ -27,7 +27,7 @@
                 </div>
             </div>
         </li>
-        <li class="">
+        <li>
             <div class="list-group panel">
                 <a href="#dich-vu-menu" class="list-group-item-success" data-toggle="collapse" aria-expanded="false">Dịch Vụ <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </li>
-        <li class="">
+        <li>
             <div class="list-group panel">
                 <a href="#lifestyle-menu" class="list-group-item-success" data-toggle="collapse" aria-expanded="false">Phong Cách Sống<span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
@@ -73,16 +73,15 @@
 </div>
 <nav id="desktop-navigation">
     <ul class="desktop-menu">
-        <li><a href="#top" class="">Trang Chủ</a></li>
-        <li><a href="#"   data-toggle="collapse" data-target="#clubs" class="">Câu Lạc Bộ</a></li>
-        <li><a href="#"  data-toggle="collapse" data-target="#services" class="">Dịch Vụ</a></li>
-        <li><a href="#lifestyle"  data-toggle="collapse" data-target="#lifestyle" class="">Phong Cách Sống</a></li>
-        <li><a href="#"  class="">Thành Viên</a></li>
-        <li><a href="#"  class="">Lịch học</a></li>
-        <li><a href="#"  class=""><img src="<?php echo USER_BASE_URL ?>/img/vietnamese.jpg" class="img-circle"></a></li>
-        <li class="search"></li>
+        <li><a href="#">Trang Chủ</a></li>
+        <li><a href="#" data-index="0">Câu Lạc Bộ</a></li>
+        <li><a href="#" data-index="1">Dịch Vụ</a></li>
+        <li><a href="#" data-index="2">Phong Cách Sống</a></li>
+        <li><a href="#">Thành Viên</a></li>
+        <li><a href="#">Lịch học</a></li>
+        <li><a href="#"><img src="<?php echo USER_BASE_URL ?>/img/vietnamese.jpg" class="img-circle"></a></li>
     </ul>
-    <div id="clubs" class="sub-menu clubs collapse">
+    <div class="sub-menu collapse">
         <ul>
             <li><a href="#">TP. Hồ Chí Minh</a></li>
             <li><a href="#">Hà Nội</a></li>
@@ -91,7 +90,7 @@
             <li><a href="#">Biên Hòa</a></li>
         </ul>
     </div>
-    <div id="services" class="sub-menu collapse">
+    <div class="sub-menu collapse">
         <ul>
             <li><a href="#">Group Fitness</a></li>
             <li><a href="#">Giảm Căng Cơ</a></li>
@@ -104,7 +103,7 @@
             <li><a href="#">Clb dành cho trẻ em</a></li>
         </ul>
     </div>
-    <div id="lifestyle" class="sub-menu collapse">
+    <div class="sub-menu collapse">
         <ul>
             <li><a href="#">Giảm Cân</a></li>
             <li><a href="#">Thể dục & Sức khỏe</a></li>
