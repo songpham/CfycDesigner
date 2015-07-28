@@ -2,6 +2,8 @@
 .text-center { text-align: center; }
 .container-fluid {
     max-width: 2000px;
+    position: relative;
+    top: 78px;
     .nav-bar {
         .logo {
         }
@@ -21,8 +23,8 @@
 .logo {width: 370px; position: fixed; top:0; left: 0; z-index: 1002; }
 /* navigation */
 /* mobile */
-#mobile-navigation-wrapper { display: none;}
-#mobile-navigation-menu-toggle { display: none;}
+#mobile-navigation-wrapper { display: none; }
+#mobile-navigation-menu-toggle { display: none; }
 /* desktop */
 nav#desktop-navigation {
     display: block;
@@ -154,4 +156,7 @@ footer {
     }
 }
 @media (max-width:$breakpoint_iphone4) {
+    .container-fluid {
+        top: 59px;
+    }
 }

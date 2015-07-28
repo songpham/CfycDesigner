@@ -34,4 +34,12 @@ $(document).ready(function () {
             $me.next('.collapse').removeClass("in");
         }
     });
+    /* fix bug when window resizes, the navigation has many spaces */
+    var refreshOnResize = function () {
+        if (window.innerWidth < '1024') {
+            $('.container-fluid.page').css('top', $('.logo').height() + 'px');
+        }
+    };
+    refreshOnResize();
+    $(window).resize(refreshOnResize);
 });
