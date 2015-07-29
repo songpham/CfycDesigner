@@ -32,6 +32,9 @@ $containerWidth : 1200px;
                 @include font-size(2vw);
                 @media screen and (max-width: 650px) {
                     @include font-size(4vw);
+                    .title-text {
+                        padding: 0 10px;
+                    }
                 }
                 @media screen and (min-width: 2000px) {
                     @include font-size(35px);
@@ -59,10 +62,8 @@ $containerWidth : 1200px;
                     padding: 0 20px;
                     background: $white; 
                     z-index: 2;
-
                 }
             }
-
         }
 
 
