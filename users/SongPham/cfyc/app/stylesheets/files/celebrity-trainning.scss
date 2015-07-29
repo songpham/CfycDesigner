@@ -1,0 +1,165 @@
+@import '../lib';
+
+$pageWidth : 2000px;
+$containerWidth : 1200px;
+
+.celebrity-trainning-page {
+
+    // GALLERY
+    .gallery {max-width: $pageWidth;}
+
+    // CONTAINER PAGE
+    .container-page {
+        max-width: $containerWidth;
+
+        // BLOCK
+        .block{
+            @include font-size(16px);
+            margin-bottom: 15px;
+            padding: 50px 10px;
+            .block-title {
+                margin: 40px 0;
+                position: relative;
+                text-align: center;
+                color: $red;
+                letter-spacing: 1px;
+                font-weight: bold; 
+                @include font-size(30px);
+                line-height: 40px;
+                text-transform: uppercase;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 80%;
+                    height: 2px;
+                    background: $red;
+                    top: 25px;
+                    left: 10%;
+                    z-index: 1;
+                }
+                span {
+                    position: relative;
+                    padding: 0 20px;
+                    background: $white; 
+                    z-index: 2;
+                }
+            }
+        }
+
+
+
+        // ABOUT CELEBRITY TRAINING BLOCK
+        .about-block {
+            @extend .block;
+            .text {
+                margin: 0 !important;
+                padding: 10px !important;
+                p {text-align: left; line-height: 24px;}
+            }
+            .video {padding: 0;}
+        }
+
+
+        // HOW DOES PT WORK BLOCK
+        .how-block {
+            @extend .block;
+            .left-img, .right-img {padding: 3px 0  !important;}
+            @media (min-width: $breakpoint_tablet) {
+                .left-img {padding: 3px 3px 3px 0  !important;}
+                .right-img {padding: 3px 0 3px 3px  !important;}
+            }
+        }
+
+
+
+        // TRAINER LIST BLOCK
+        .trainer-list-block {
+            @extend .block;
+            @media (min-width: $breakpoint_tablet) {
+                
+            }
+
+
+        }
+
+        // SUCCESS STORY BLOCK
+        .success-story-block {
+            @extend .block;
+            .box {
+                margin: 20px 0px;
+                .image {
+                    img {width: 100%; height: 100%;}
+                }
+                .text {margin-top: 4% !important; }
+            }
+            .see-more-btn {
+                text-align: center;
+                margin-top: 50px;
+                a {
+                    text-decoration: none;
+                    @include font-size(17px);
+                    color: #000;
+                    padding: 5px 30px;
+                    border : 2px solid #808285;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: none;
+                        background: #808285;
+                        color: $white;
+                        @include transition(all .4s ease-in-out);
+                    }
+                }
+            }
+        }
+    }
+
+    // MID BANNER
+    .banner {
+        max-width: $pageWidth;
+        background: url('../img/celebrity-training/banner.jpg');
+        @include background-size(cover);
+        position: relative;
+        .image {}
+        .text-content {
+            width: 100%;
+            color: $white;
+            text-align: center; 
+            h3 {
+                @include font-size(17px);   
+                margin-top: 45px; 
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            p {
+                @include font-size(13px); 
+                margin: 20px 0 30px;
+                letter-spacing: 1px;
+            }
+            .navbar-center {
+                width: 100%;
+                text-align: center;
+                margin: 15px 0;
+                li {
+                    float: none;
+                    display: inline-block;
+                    a {
+                        @include font-size(14px);
+                        font-weight: bold;
+                        color: $white;
+                        text-transform: uppercase;
+                        background: none;
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+                li.active { a {color: $red;} }
+            }
+        }
+    }
+
+}
+
+
+@import 'pgwslider.scss';

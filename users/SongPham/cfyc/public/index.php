@@ -12,6 +12,9 @@ switch ($uri) {
     case 'services':
         include USER_BASE_PATH . '/pages/services.php';
         break;
+    case 'celebrity-trainning':
+        include USER_BASE_PATH . '/pages/celebrity-trainning.php';
+        break;
     default:
         include USER_BASE_PATH . '/pages/home.php';
         break;
