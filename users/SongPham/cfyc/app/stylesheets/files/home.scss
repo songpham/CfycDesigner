@@ -157,18 +157,17 @@
                     }
                 }
                 .trainner_text {
-                    div {
-                        display:none;
-                        text-align:left;
+                    .trainner_desc{
+                        display: none;
+                    }
+                    .show_desc{
+                        text-align: left;
                         h3 {
                             span {
                                 font-size: 60%;
                                 font-style: italic;
                             }
                         }
-                    }
-                    .active {
-                        display:block;
                     }
                 }
             }

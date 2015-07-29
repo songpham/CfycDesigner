@@ -31,9 +31,11 @@
           </a>
         </div>
     </div><!-- /.Top Banner -->
+
     <div class="row top-content">
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
+                <div class="whitespace"></div>
                 <h2><span>OUR SERVICES</span></h2>
                 <p>Science doesn't lie and neither do we. Our clinically proven approach is fueled by reality. The fantasy is where you come in.</p>
                 <div class="whitespace"></div>
@@ -159,21 +161,37 @@
                         <img id="linhta2" src="img/home/california-wow-find-trainner-3.jpg" alt="Find your trainner" title="Find your trainner">
                     </div>
                     <div class="col-md-4 trainner_text">
-                        <div class="linhta active">
+                        <div class="trainner_desc" id="linhta">
                             <h3>Linh Ta<br/><span>Master Trainer</span></h3>
                             <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
                             <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
                         </div>
-                        <div class="linhta1">
+                        <div class="trainner_desc" id="linhta1">
                             <h3>Linh Ta1<br/><span>Master Trainer</span></h3>
                             <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
-                            <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
-                        </div>
-                        <div class="linhta2">
-                            <h3>Linh Ta2<br/><span>Master Trainer</span></h3>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
                             <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
                             <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
                         </div>
+                        <div class="trainner_desc" id="linhta2">
+                            <h3>Linh Ta2<br/><span>Master Trainer</span></h3>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
+                        </div>
+
+                        <div class="show_desc">
+                        </div>
+
                     </div>
                 </div>
             </div>
