@@ -9,6 +9,20 @@ var homePage = (function () {
 				$(this).addClass('active');	
 				$('.trainner_text .'+trainner_name).addClass('active');
 			});
+			
+			$(".trainner_photo img").hover(function(){
+			    $(this).trigger('click');
+			    }, function(){
+			    //$(this).removeClass('active');
+			});
+
+
+
+
+
+
+
+
 		});
 	};
     return {
