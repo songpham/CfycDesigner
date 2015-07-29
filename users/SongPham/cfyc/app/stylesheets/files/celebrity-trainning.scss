@@ -29,9 +29,15 @@ $containerWidth : 1200px;
                 color: $red;
                 letter-spacing: 1px;
                 font-weight: bold; 
-                @include font-size(1.5em);
-                @media screen and (max-width: 517px) {
-                    @include font-size(15px);
+                @include font-size(2vw);
+                @media screen and (max-width: 650px) {
+                    @include font-size(4vw);
+                    .title-text {
+                        padding: 0 10px !important;
+                    }
+                }
+                @media screen and (min-width: 2000px) {
+                    @include font-size(35px);
                 }
                 text-transform: uppercase;
                 &:after {
@@ -44,16 +50,20 @@ $containerWidth : 1200px;
                     left: 10%;
                     z-index: 1;
                 }  
+                @media screen and (max-width: 320px) {
+                    &:after {
+                        width: 90%;
+                        left: 5%;
+                    } 
+                }
                 .title-text {
                     display: inline-block;
                     position: relative;
                     padding: 0 20px;
                     background: $white; 
                     z-index: 2;
-
                 }
             }
-
         }
 
 
