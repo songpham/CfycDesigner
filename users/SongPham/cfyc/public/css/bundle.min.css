@@ -98,7 +98,9 @@ nav#desktop-navigation {
 /* footer */
 footer {
   min-width: 100%;
-  background-color: #000; }
+  background-color: #000;
+  margin-left: -15px;
+  margin-right: -15px; }
   footer .row {
     padding-left: 0px;
     padding-right: 0px;
