@@ -1,5 +1,5 @@
 <div class="container-fluid page celebrity-trainning-page">
-
+     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <!-- GALLERY -->
     <div class="row gallery">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -35,7 +35,7 @@
         <!-- ABOUT CELEBRITY TRANINING -->
         <div class="row block about-block">
             <div class='block-title'>
-                <span>about cerlebrity</span><br><span>training</span>
+                <div class="title-text">about cerlebrity<br>training</div>
             </div>
             <div class="col-md-6 text">
                 <p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
@@ -52,7 +52,7 @@
         <!-- HOW DOES PT WORK ? -->
         <div class="row block how-block">
             <div class="block-title">
-                <span>How does PT work?</span>
+               <div class="title-text">How does PT work?</div>
             </div>
             <p class="text-center">We make it easy for you, very easy. Personal training is designed to integrate into your life without having to make sacrifices. </span>
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
@@ -469,7 +469,7 @@
         <!-- SUCCESS STORIES -->
         <div class="row block success-story-block">
             <div class="block-title">
-                <span>success stories</span>
+                <div class="title-text">success stories</div>
             </div>
             <div class="col-md-12 box">
                 <div class="col-md-2 image"><img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/story-1.png" alt=""></div>
