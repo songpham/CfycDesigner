@@ -30,8 +30,11 @@ $containerWidth : 1200px;
                 letter-spacing: 1px;
                 font-weight: bold; 
                 @include font-size(1.5em);
-                @media screen and (max-width: 517px) {
+                @media screen and (max-width: 700px) {
                     @include font-size(15px);
+                }
+                @media screen and (max-width: 320px) {
+                    @include font-size(12px);
                 }
                 text-transform: uppercase;
                 &:after {
@@ -44,6 +47,12 @@ $containerWidth : 1200px;
                     left: 10%;
                     z-index: 1;
                 }  
+                @media screen and (max-width: 320px) {
+                    &:after {
+                        width: 90%;
+                        left: 5%;
+                    } 
+                }
                 .title-text {
                     display: inline-block;
                     position: relative;
