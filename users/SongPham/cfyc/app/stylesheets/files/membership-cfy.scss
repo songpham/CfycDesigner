@@ -1,5 +1,8 @@
 @import '../lib';
 .membership-cfy-page {
+    img, p, h1, h2, h3, h4, a {
+        @include transition(all .3s ease-out);
+    }
     .banner-top {
         position: relative;
         h1.headline {
@@ -15,9 +18,16 @@
     .video {
         padding: 35px 0;
         margin-top: 20px;
+        .pLeft0 {
+            padding-left: 0;
+        }
+        .pRight0 {
+            padding-right: 0;
+        }
         .desc-video {
             position: relative;
-            top: 100px;
+            top: 70px;
+            text-align: justify;
         }
     }
     .top-content {
@@ -40,7 +50,7 @@
                 &:before, &:after {
                     content: "";
                     position: absolute;
-                    top: 39%;
+                    top: 37%;
                     width: 9999px;
                     height: 2px;
                     background:  #e60000;
@@ -58,7 +68,7 @@
         }
     }
     .gallery {
-        padding: 3% 0;
+        padding: 2% 0;
         img {
             margin-bottom: 22.5px;
         }
@@ -76,6 +86,7 @@
     .banner-bottom {
         top: 50px;
         position: relative;
+        margin-bottom: 60px;
         .text-box {
             position: absolute;
             top: 10%;
@@ -136,13 +147,21 @@
             }
         }
     }/*close media 2000px*/
+    @media (max-width: $breakpoint_tablet) {
+        .video {
+            .desc-video {
+                top: 0px;
+            }
+        }
+    }
     @media (max-width: 767px) {
         .video {
             margin-top: 0;
             padding: 20px 0;
+            .pLeft0, .pRight0 {
+                padding: 0;
+            }
             .desc-video {
-                top: 0;
-                text-align: justify;
                 margin-bottom: 20px;
             }
         }
@@ -173,6 +192,7 @@
         }
         .banner-bottom {
             top: 20px;
+            margin-bottom: 30px;
         }
     }/*close media 767*/
     @media (max-width: 600px) {
@@ -184,7 +204,7 @@
         .top-content {
             .strike {
                 h1 {
-                    @include font-size(3.5vw);
+                    @include font-size(4vw);
                 }
             }
         }
