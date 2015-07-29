@@ -72,6 +72,9 @@
     <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
 </div>
 <nav id="desktop-navigation">
+    <div class="logo">
+        <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
+    </div>
     <ul class="desktop-menu">
         <li><a href="#">Trang Chủ</a></li>
         <li><a href="#" data-index="0">Câu Lạc Bộ</a></li>
