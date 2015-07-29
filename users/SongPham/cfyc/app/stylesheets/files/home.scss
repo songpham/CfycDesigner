@@ -73,7 +73,7 @@
                         }
                     }
                     .overlay {
-                        position: absolute;    
+                        position: absolute;
                         width: 100%;
                         height: 100%;
                         top: 0;
@@ -90,7 +90,7 @@
                             position: absolute;
                             width: 100%;
                             margin:5px auto;
-                            text-transform:uppercase;  
+                            text-transform:uppercase;
                         }
                     }
                     .overlay:hover {
@@ -99,13 +99,13 @@
                         h2 {
                             // border-top:1px solid $white;
                             // border-bottom:1px solid $white;
-                            
-                        }   
+
+                        }
                     }
                 }
                 .service_item:hover {
                     .service_img {
-                        img {    
+                        img {
                             cursor: pointer;
                             transform:scale(1.2);
                             -moz-transform:scale(1.2);
@@ -150,10 +150,10 @@
                         -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
                         -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
                         -webkit-backface-visibility: hidden; /* Fix for transition flickering */
-                    }                    
-                    .active {                       
+                    }
+                    .active {
                         filter: none;
-                        -webkit-filter: none;                                             
+                        -webkit-filter: none;
                     }
                 }
                 .trainner_text {
@@ -165,8 +165,8 @@
                                 font-size: 60%;
                                 font-style: italic;
                             }
-                        }    
-                    }                    
+                        }
+                    }
                     .active {
                         display:block;
                     }
