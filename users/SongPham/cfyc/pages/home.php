@@ -184,13 +184,11 @@
                 <div class="whitespace"></div>
                 <div class="row success_stories">
                     <div class="col-md-12 text-center">
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-3 text-center"></div>
                             <div class="col-md-6 text-center round_success">                                
                                 <div class="quarter-circle-bottom-right"><img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories"></div>
-                                <!-- <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div> -->
                                 <div class="quarter-circle-bottom-left"><img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories"></div>
-                                <!-- <div class="quarter-circle-top-left"><img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories"></div> -->
                             </div>
                             <div class="col-md-3 text-center">
                             </div>
@@ -198,14 +196,12 @@
                         <div class="row">
                             <div class="col-md-3 text-center"></div>
                             <div class="col-md-6 text-center round_success">                                
-                                <!-- <div class="quarter-circle-bottom-right"><img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories"></div> -->
-                                <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div>
-                                <!-- <div class="quarter-circle-bottom-left"><img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories"></div> -->
+                                <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div>                                
                                 <div class="quarter-circle-top-left"><img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories"></div>
                             </div>
                             <div class="col-md-3 text-center">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row">
                             <div class="col-md-3 text-center"></div>
                             <div class="col-md-6 text-center round_success">
