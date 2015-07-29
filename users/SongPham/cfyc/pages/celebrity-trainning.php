@@ -160,7 +160,7 @@
                         </div>
                     </span>
                 </li>
-            </ul>            
+            </ul>
 
             <!-- HA NOI -->
             <ul class="pgwSlider">
@@ -461,7 +461,7 @@
                 </li>
 
             </ul>
-            
+
         </div>
         <!-- END TRAINER LIST -->
 

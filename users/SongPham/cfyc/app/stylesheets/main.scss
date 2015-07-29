@@ -46,7 +46,7 @@ nav#desktop-navigation {
             display: inline-block; list-style: none; padding-left: 20px; color: #fff;
             &:first-child { margin-left: 100px; }
             a {
-                color: #fff; text-decoration: none; font-size: 12px; font-family: Arial; text-transform: uppercase;
+                color: #fff; text-decoration: none; @include font-size(12px); text-transform: uppercase;
                 &:hover, &:active, &.active { color: $red; }
             }
         }
@@ -65,17 +65,40 @@ nav#desktop-navigation {
 } /* desktop-navigation */
 /* footer */
 footer {
-    min-width: 100%; margin-right: -15px; margin-left: -15px; background-color: $black;
-    .content-box {
-        max-width: 1200px; margin: 0 auto;
-        div { margin-top: 50px; }
-        .icons {
-            font-size: 30px; color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
-            text-align: center; height:45px; width: 45px; padding-top: 7px; margin: 50px 0;
-            &:hover { color: #999999; border:2px #999999 solid; }
+    min-width: 100%; background-color: $black; margin-left: -15px; margin-right: -15px;
+    .row { padding-left: 0px;padding-right:0px; max-width: 1200px; margin: 0 auto;
+        .container-fluid {
+            max-width: 1200px; margin: 0 auto; overflow: hidden; padding-left: 0px;padding-right:0px;
+            div.cmg-brands {
+                margin-top: 50px; padding-left:0px; padding-right: 0px;
+                div.tooltip {
+                    div.tooltip-inner {
+                        min-width: 300px;
+                        background-color: #333;
+                        background-color: rgba(0,0,0, .8);
+                        white-space: normal;
+                        text-align: left;
+                        border: 1px #333 solid;
+                    }
+                }
+            }
+            .last-brand {
+                div.tooltip.fade.bottom.in, div.tooltip.fade.bottom {left:-100px !important;}
+            }
+            .icons {
+                @include font-size(30px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
+                text-align: center; height:45px; width: 45px; padding-top: 7px; margin: 50px 0;
+                &:hover { color: #999999; border:2px #999999 solid; }
+            }
+            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
+                a {
+                    color: $footer_link;
+                    &:hover { color: $footer_hover; }
+                }
+            }
         }
-        li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase; }
     }
+    p { color: $white; text-align: center; @include font-size(14px); margin-bottom: 0px; }
 }
 /* media queries */
 /* $breakpoint_tablet 1024px */
@@ -88,7 +111,7 @@ footer {
         right: 0;
         top:0;
     }
-    .toggle {margin:0;font-size: 25px; color: #fff;}
+    .toggle {margin:0; @include font-size(25px); color: #fff;}
     #mobile-navigation-wrapper {
         display: block;
         z-index: 1000;
@@ -158,6 +181,17 @@ footer {
     div.logo {
         background-color:$black; min-width: 100%; z-index: 99; display:block;
         .logo-img { width: 75%; max-width: 370px; position: relative; }
+    }
+    footer {
+        ul {
+            max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
+            li { padding-left: 10px;
+                a {
+                    color: $footer_link;
+                    &:hover, &:active, &:focus {color: $footer_hover;}
+                }
+            }
+        }
     }
 }
 // @media (max-width:$breakpoint_iphone4) {
