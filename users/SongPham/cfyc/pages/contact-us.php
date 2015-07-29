@@ -1,3 +1,8 @@
+<?
+/**
+ * Contact us page
+ */
+?>
 <div class="container-fluid page contact-us-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-page">
