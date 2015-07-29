@@ -22,7 +22,7 @@
 .row-centered { text-align: center;}
 .col-centered { display: inline-block; float: none; margin-right: -4px; text-align: left; }
 /* logo */
-.logo {width: 370px; position: fixed; top:0; left: 0; z-index: 1002; }
+.logo {width: 370px; position: fixed; top:0; left: 0; z-index: 1002; display:none; }
 /* navigation */
 /* mobile */
 #mobile-navigation-wrapper { display: none; }
@@ -32,8 +32,10 @@ nav#desktop-navigation {
     display: block;
     position: fixed;
     top: 0px;
-    left: 0px;
-    min-width: 100%;
+    left: 50%;
+    width: 100%;
+    max-width: 2000px;
+    @include transform(translate3d(-50%, 0px, 0px)); /* bring your own prefixes */
     height: 78px;
     z-index: 100;
     background-color: #000;
@@ -59,6 +61,7 @@ nav#desktop-navigation {
             }
         }
     }
+    .logo { display:block; }
 } /* desktop-navigation */
 /* footer */
 footer {
@@ -153,7 +156,7 @@ footer {
     /* sidebar wrapper */
     /* logo */
     div.logo {
-        background-color:$black; min-width: 100%; z-index: 99;
+        background-color:$black; min-width: 100%; z-index: 99; display:block;
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
 }
