@@ -46,7 +46,7 @@
         <div class="row top-content">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="strike ">
-                    <h1 class="title">What else can you enjoy as a member?</h1>
+                    <h1 class="title">What else can you<br/>enjoy as a member?</h1>
                 </div>
             </div>
             <div class="col-md-12">
