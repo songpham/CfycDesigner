@@ -29,12 +29,12 @@ $containerWidth : 1200px;
                 color: $red;
                 letter-spacing: 1px;
                 font-weight: bold; 
-                @include font-size(1.5em);
-                @media screen and (max-width: 700px) {
-                    @include font-size(15px);
+                @include font-size(2vw);
+                @media screen and (max-width: 650px) {
+                    @include font-size(4vw);
                 }
-                @media screen and (max-width: 320px) {
-                    @include font-size(12px);
+                @media screen and (min-width: 2000px) {
+                    @include font-size(35px);
                 }
                 text-transform: uppercase;
                 &:after {
