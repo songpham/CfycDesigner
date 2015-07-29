@@ -1,45 +1,54 @@
 $(document).ready(function () {
     // toggles menu
-    $("#mobile-navigation-menu-close, #menu-toggle").click(function(e) {
+    $("#mobile-navigation-menu-close, #mobile-navigation-menu-toggle").click(function(e) {
         e.preventDefault();
         $("#mobile-navigation-wrapper").toggleClass("active");
     });
-    $('#desktop-nav a').click(function (e) {
-        if($(this).parent('li').hasClass('active')) {
-            $( $(this).attr('href') ).hide();
+    /* Desktop Menu */
+    var $desktopNavigation = $('#desktop-navigation');
+    $desktopNavigation.find('.desktop-menu a').mouseover( function (e) { /* mouse over */
+        e.preventDefault(e);
+        var index = $(this).data('index');
+        setTimeout(function () {
+            $desktopNavigation.find('.collapse').collapse('hide');
+            setTimeout(function () {
+                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+            });
+        });
+    }).click(function (e) {
+        e.preventDefault(e);
+        var index = $(this).data('index'),
+            $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')');
+        if ($collapse.hasClass('in')) {
+            $desktopNavigation.find('.collapse').collapse('hide');
         } else {
-            e.preventDefault();
-            $(this).tab('show');
+            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
         }
     });
-    /* Lifestyle Menu */
-    $('#mobile-lifestyle-menu').click(function (e) {
-        $("#club-menu, #dich-vu-menu").removeClass( "in");
-        $("#mobile-dich-vu-menu .glyphicon, #mobile-club-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
-        if ($('#mobile-lifestyle-menu .glyphicon').hasClass("glyphicon-chevron-right")) {
-            $("#mobile-lifestyle-menu .glyphicon").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-down");
+    /* Mobile Menu */
+    $('#mobile-navigation-wrapper .list-group-item-success').click(function (e) {
+        var $me = $(this),
+            $glyphicon = $me.find('.glyphicon'),
+            classGlyphiconRightName = 'glyphicon-chevron-right',
+            classGlyphiconDownName = 'glyphicon-chevron-down';
+        if ($glyphicon.hasClass(classGlyphiconRightName)) {
+           $glyphicon
+                .removeClass(classGlyphiconRightName)
+                .addClass(classGlyphiconDownName);
+            $me.next('.collapse').addClass("in");
         } else {
-            $("#mobile-lifestyle-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
+            $glyphicon
+                .removeClass(classGlyphiconDownName)
+                .addClass(classGlyphiconRightName);
+            $me.next('.collapse').removeClass("in");
         }
     });
-    /* Dich Vu Menu */
-    $('#mobile-dich-vu-menu').click(function (e) {
-        $("#lifestyle-menu, #club-menu").removeClass( "in");
-        $("#mobile-club-menu .glyphicon, #mobile-lifestyle-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
-        if ($('#mobile-dich-vu-menu .glyphicon').hasClass("glyphicon-chevron-right")) {
-            $("#mobile-dich-vu-menu .glyphicon").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-down");
-        } else {
-            $("#mobile-dich-vu-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
+    /* fix bug when window resizes, the navigation has many spaces */
+    var refreshOnResize = function () {
+        if (window.innerWidth < '1024') {
+            $('.container-fluid.page').css('top', $('.logo').height() + 'px');
         }
-    });
-    /* Club Menu */
-    $('#mobile-club-menu').click(function (e) {
-        $("#lifestyle-menu, #dich-vu-menu").removeClass( "in");
-        $("#mobile-dich-vu-menu .glyphicon, #mobile-lifestyle-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
-        if ($('#mobile-club-menu .glyphicon').hasClass("glyphicon-chevron-right")) {
-            $("#mobile-club-menu .glyphicon").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-down");
-        } else {
-            $("#mobile-club-menu .glyphicon").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-right");
-        }
-    });
+    };
+    refreshOnResize();
+    $(window).resize(refreshOnResize);
 });
