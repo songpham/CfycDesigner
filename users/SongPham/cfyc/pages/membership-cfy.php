@@ -1,7 +1,7 @@
 <div class="container-fluid page membership-cfy-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="row banner-top">
-        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-header.jpg" class="img-responsive banner"/>
+        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-header.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <h1 class="headline">Are you <br/>a member?</h1>
     </div>
     <div class="container-page">
@@ -83,7 +83,7 @@
         </div><!--end row-->
     </div><!--end container page-->
     <div class="row banner-bottom">
-        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-footer.jpg" class="img-responsive banner"/>
+        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-footer.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <div class="text-box">
             <h1>Are you looking for more?</h1>
             <h3>Discover a world of VIP benefits with</h3>
