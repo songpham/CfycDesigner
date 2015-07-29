@@ -33,7 +33,7 @@ $containerWidth : 1200px;
                 @media screen and (max-width: 650px) {
                     @include font-size(4vw);
                     .title-text {
-                        padding: 0 10px;
+                        padding: 0 10px !important;
                     }
                 }
                 @media screen and (min-width: 2000px) {
