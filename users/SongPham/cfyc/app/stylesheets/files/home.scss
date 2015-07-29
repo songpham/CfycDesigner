@@ -1,18 +1,18 @@
 @import '../lib';
 .home-page {
-    .container-page{
+    .container-page {
         .gallery {
             position: relative;
             img {
                max-width: 100%;
             }
-            #movetopbanner{
-                ol.carousel-indicators{
-                    li{
+            #movetopbanner {
+                ol.carousel-indicators {
+                    li {
                         background: $white;
                         border:1px solid $white;
                     }
-                    .active{
+                    .active {
                         background: $red;
                         border:1px solid $red;
                     }
@@ -22,7 +22,7 @@
     }
     .top-content {
         .holder-top-content {
-            .whitespace{
+            .whitespace {
                 padding:10px 0;
                 clear:both;
             }
@@ -42,19 +42,19 @@
                 text-align: center;
                 width: 50%;
                 color: #da2128;
-                span{
+                span {
                     background:#fff; padding:0 10px;
                 }
             }
-            .ourservice{
-                .service_item{
+            .ourservice {
+                .service_item {
                     text-align: center;
                     margin: auto;
                     margin:0;
                     padding:0;
                     overflow: hidden;
                     position: relative;
-                    .service_img{
+                    .service_img {
                         display:block;
                         width: 100%;
                         height: 100%;
@@ -67,11 +67,11 @@
                         -moz-transition: all 2s ease-in-out;
                         -o-transition: all 2s ease-in-out;
                         transition: all 2s ease-in-out;
-                        img{
+                        img {
                             max-width:100%;
                         }
                     }
-                    .overlay{
+                    .overlay {
                         position: absolute;    
                         width: 100%;
                         height: 100%;
@@ -80,7 +80,7 @@
                         -moz-transition: all .4s ease-in-out;
                         -o-transition: all .4s ease-in-out;
                         transition: all .4s ease-in-out;
-                        h2{
+                        h2 {
                             border:none;
                             bottom: 0;
                             color: #fff;
@@ -92,18 +92,18 @@
                             text-transform:uppercase;  
                         }
                     }
-                    .overlay:hover{
+                    .overlay:hover {
                         background:rgba(211,8,15,0.6);
                         cursor:pointer;
-                        h2{
+                        h2 {
                             // border-top:1px solid $white;
                             // border-bottom:1px solid $white;
                             
                         }   
                     }
                 }
-                .service_item:hover{
-                    .service_img{
+                .service_item:hover {
+                    .service_img {
                         img {    
                             cursor: pointer;
                             transform:scale(1.2);
@@ -116,17 +116,17 @@
                     }
                 }
             }
-            .findyourclub{
-                div{
+            .findyourclub {
+                div {
                     margin:0;
                     padding:0;
                     max-width: 100%;
-                    .overlay{
+                    .overlay {
                         height: 100%;
                         position: absolute;
                         top: 0;
                         width: 100%;
-                        h2.service_title{
+                        h2.service_title {
                             border: medium none;
                             color: #fff;
                             position: absolute;
@@ -135,8 +135,39 @@
                             height: 120%;
                         }
                     }
-                    img{
+                    img {
                         max-width: 100%;
+                    }
+                }
+            }
+            .find_your_trainner {
+                .trainner_photo {
+                    img {
+                        cursor:pointer;
+                        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+                        filter: gray; /* IE6-9 */
+                        -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+                        -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                        -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+                    }                    
+                    .active {                       
+                        filter: none;
+                        -webkit-filter: none;                                             
+                    }
+                }
+                .trainner_text {
+                    div {
+                        display:none;
+                        text-align:left;
+                        h3 {
+                            span {
+                                font-size: 60%;
+                                font-style: italic;
+                            }
+                        }    
+                    }                    
+                    .active {
+                        display:block;
                     }
                 }
             }
@@ -145,6 +176,34 @@
                 padding: 30px 0;
                 color: $white;
                 .round_success {
+                    div {
+                        float: left;
+                        width:50%;
+                    }
+                    .quarter-circle-top-left {
+                        background: #006699;
+                        // border-radius: 0 0 100px 0;
+                        // -moz-border-radius: 0 0 100px 0;
+                        // -webkit-border-radius: 0 0 100px 0;
+                    }
+                    .quarter-circle-top-right {
+                         background: #006699;
+                         // border-radius: 0 0 0 100px;
+                         // -moz-border-radius: 0 0 0 100px;
+                         // -webkit-border-radius: 0 0 0 100px;
+                    }
+                    .quarter-circle-bottom-left {
+                         background: #006699;
+                         // border-radius: 0 100px 0 0;
+                         // -moz-border-radius: 0 100px 0 0;
+                         // -webkit-border-radius: 0 100px 0 0;
+                    }
+                    .quarter-circle-bottom-right {
+                         background: #006699;
+                         // border-radius: 100px 0 0 0;
+                         // -moz-border-radius: 100px 0 0 0;
+                         // -webkit-border-radius: 100px 0 0 0;
+                    }
                     .round_part {
                         float: left;
                         width: 50%;
@@ -153,7 +212,7 @@
                         -moz-transition: all .4s ease-out;
                         -o-transition: all .4s ease-out;
                         transition: all .4s ease-out;
-                        img{
+                        img {
                             max-width: 100%;
                         }
                     }
@@ -192,7 +251,7 @@
             }
             .features_stories {
                 div {
-                    img{
+                    img {
                         max-width: 100%;
                     }
                     p {
@@ -200,9 +259,9 @@
                     }
                 }
             }
-            .special_offers{
+            .special_offers {
                 div {
-                    img{
+                    img {
                         max-width: 100%;
                     }
                 }

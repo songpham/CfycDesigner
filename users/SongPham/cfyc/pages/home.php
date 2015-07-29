@@ -152,6 +152,30 @@
                 <h2><span>FIND YOUR TRAINER</span></h2>
                 <p>There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).</p>
                 <div class="whitespace"></div>
+                <div class="row find_your_trainner">
+                    <div class="col-md-8 text-center trainner_photo">
+                        <img id="linhta" class="active" src="img/home/california-wow-find-trainner-1.jpg" alt="Find your trainner" title="Find your trainner">
+                        <img id="linhta1" src="img/home/california-wow-find-trainner-2.jpg" alt="Find your trainner" title="Find your trainner">
+                        <img id="linhta2" src="img/home/california-wow-find-trainner-3.jpg" alt="Find your trainner" title="Find your trainner">
+                    </div>
+                    <div class="col-md-4 trainner_text">
+                        <div class="linhta active">
+                            <h3>Linh Ta<br/><span>Master Trainer</span></h3>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
+                        </div>
+                        <div class="linhta1">
+                            <h3>Linh Ta1<br/><span>Master Trainer</span></h3>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
+                        </div>
+                        <div class="linhta2">
+                            <h3>Linh Ta2<br/><span>Master Trainer</span></h3>
+                            <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
+                            <p>Bio:<br/>Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
@@ -160,6 +184,28 @@
                 <div class="whitespace"></div>
                 <div class="row success_stories">
                     <div class="col-md-12 text-center">
+                        <div class="row">
+                            <div class="col-md-3 text-center"></div>
+                            <div class="col-md-6 text-center round_success">                                
+                                <div class="quarter-circle-bottom-right"><img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories"></div>
+                                <!-- <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div> -->
+                                <div class="quarter-circle-bottom-left"><img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories"></div>
+                                <!-- <div class="quarter-circle-top-left"><img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories"></div> -->
+                            </div>
+                            <div class="col-md-3 text-center">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 text-center"></div>
+                            <div class="col-md-6 text-center round_success">                                
+                                <!-- <div class="quarter-circle-bottom-right"><img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories"></div> -->
+                                <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div>
+                                <!-- <div class="quarter-circle-bottom-left"><img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories"></div> -->
+                                <div class="quarter-circle-top-left"><img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories"></div>
+                            </div>
+                            <div class="col-md-3 text-center">
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-3 text-center"></div>
                             <div class="col-md-6 text-center round_success">
@@ -299,3 +345,4 @@
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/home.js"></script>
+<script src="<?php echo USER_BASE_URL ?>/js/scripts/jquery.slimscroll.min.js"></script>
