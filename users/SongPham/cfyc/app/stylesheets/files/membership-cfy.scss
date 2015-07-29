@@ -1,0 +1,198 @@
+@import '../lib';
+.membership-cfy-page {
+    .banner-top {
+        position: relative;
+        h1.headline {
+            @include font-size(130px);
+            color: $white;
+            font-weight: 100;
+            text-transform: uppercase;
+            position: absolute;
+            top: 3%;
+            left: 7%;
+        }
+    }
+    .video {
+        padding: 35px 0;
+        margin-top: 20px;
+        .desc-video {
+            position: relative;
+            top: 100px;
+        }
+    }
+    .top-content {
+        text-align: center;
+        margin-top: 20px;
+        .strike {
+            display: block;
+            text-align: center;
+            overflow: hidden;
+            margin: 20px 0;
+            h1 {
+                position: relative;
+                display: inline-block;
+                color: $red;
+                text-transform: uppercase;
+                line-height: 1.3em;
+                letter-spacing: .1em;
+                @include font-size(35px);
+                max-width: 700px;
+                &:before, &:after {
+                    content: "";
+                    position: absolute;
+                    top: 39%;
+                    width: 9999px;
+                    height: 2px;
+                    background:  #e60000;
+                }
+                &:before {
+                    right: 100%;
+                    margin-right: 15px;
+                }
+
+                &:after {
+                    left: 100%;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .gallery {
+        padding: 3% 0;
+        img {
+            margin-bottom: 22.5px;
+        }
+        .pLeft0 {
+            padding-left: 0;
+        }
+        .pRight0 {
+            padding-right: 0;
+        }
+        .pLeftRight75 {
+            padding-left: 7.5px;
+            padding-right: 7.5px;
+        }
+    }
+    .banner-bottom {
+        top: 50px;
+        position: relative;
+        .text-box {
+            position: absolute;
+            top: 10%;
+            left: 7%;
+            text-transform: uppercase;
+            h1 {
+                font-weight: 100;
+                color: $white;
+            }
+            h1.yellow {
+                font-weight: 300;
+                color: $yellow;
+                margin-top: 0px;
+                margin-bottom: 6%;
+            }
+            h3 {
+                font-weight: 300;
+                margin-top: 6%;
+                color: $white;
+            }
+            a.cta {
+                padding: 2% 5%;
+                background: $yellow;
+                @include font-size(15px);
+                color: $black;
+                @include transition(all .3s ease-out);
+                &:hover {
+                    background: #ffff25;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    @media (max-width: 2000px) {
+        .top-content {
+            .strike {
+                h1 {
+                    @include font-size(2.5vw);
+                }
+            }
+        }
+        .banner-top {
+            h1.headline {
+                @include font-size(6vw);
+            }
+        }
+        .banner-bottom {
+            .text-box {
+                h1 {
+                    @include font-size(2.8vw);
+                }
+                h3 {
+                    @include font-size(2vw);
+                }
+                a.cta {
+                    @include font-size(1.5vw);
+                }
+            }
+        }
+    }/*close media 2000px*/
+    @media (max-width: 767px) {
+        .video {
+            margin-top: 0;
+            padding: 20px 0;
+            .desc-video {
+                top: 0;
+                text-align: justify;
+                margin-bottom: 20px;
+            }
+        }
+        .top-content {
+            margin-top: 0;
+        }
+        .gallery {
+            padding: 1% 0;
+            img {
+                margin-bottom: 15px;
+            }
+            .pLeft0 {
+                padding-left: 15px;
+            }
+            .pRight0 {
+                padding-right: 15px;
+            }
+            .pLeftRight75 {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .pLeft75 {
+                padding-left: 7.5px;
+            }
+            .pRight75 {
+                padding-right: 7.5px;
+            }
+        }
+        .banner-bottom {
+            top: 20px;
+        }
+    }/*close media 767*/
+    @media (max-width: 600px) {
+        .banner-top {
+            h1.headline {
+                top: -2%;
+            }
+        }
+        .top-content {
+            .strike {
+                h1 {
+                    @include font-size(3.5vw);
+                }
+            }
+        }
+        .banner-bottom {
+            .text-box {
+                top: -2%;
+            }
+        }
+    }
+}/*close class membership-cfy-page*/
+

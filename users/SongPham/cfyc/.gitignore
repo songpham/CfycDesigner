@@ -1,2 +1,7 @@
 node_modules
 bower_components
+# Compiled files
+public/css/vendor.min.css
+public/css/bundle.min.css
+public/js/vendor.min.js
+public/js/bundle.min.js
