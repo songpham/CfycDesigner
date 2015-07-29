@@ -1,8 +1,9 @@
 $white: #ffffff;
 $red: #db2128;
+$yellow: #ffe600;
 $black: #000;
-$breakpoint_tablet:1024px;
-$breakpoint_iphone4:320px;
+$breakpoint_tablet: 1024px;
+$breakpoint_iphone4: 320px;
 @mixin opacity ($opacity) {
     opacity: $opacity;
     $opacity-ie: $opacity * 100;
@@ -42,14 +43,10 @@ $breakpoint_iphone4:320px;
     font-size: $size;
     font-size: calculateRem($size);
 }
-
-
 @mixin transition ($value) {
-	 -webkit-transition: $value;
-	 -moz-transition: $value;
-	 -ms-transition: $value;
-	 -o-transition: $value;
-	 transition: $value;
+     -webkit-transition: $value;
+     -moz-transition: $value;
+     -ms-transition: $value;
+     -o-transition: $value;
+     transition: $value;
 }
-
-

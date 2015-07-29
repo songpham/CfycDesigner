@@ -1,0 +1,191 @@
+.dance-services {
+  padding: 0; }
+  .dance-services .top-content .carousel-caption {
+    font-size: 50px;
+    left: 10%;
+    bottom: 15%;
+    right: 0;
+    padding: 15px 20px;
+    text-align: left;
+    border: 1px solid;
+    display: inline-block;
+    width: 600px;
+    color: #db2128;
+    font-weight: 100;
+    text-transform: uppercase; }
+    .dance-services .top-content .carousel-caption strong {
+      font-weight: 300; }
+    @media (max-width: 480px) {
+      .dance-services .top-content .carousel-caption {
+        width: auto;
+        right: 5%;
+        font-size: 25px;
+        bottom: 5%; } }
+  .dance-services .calidance .embed-responsive-4by3 {
+    padding-bottom: 50%; }
+  .dance-services .discover .nav-tabs {
+    text-align: center;
+    background: #db2128;
+    border: none; }
+    .dance-services .discover .nav-tabs li {
+      float: none;
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+      .dance-services .discover .nav-tabs li a {
+        color: #ffffff;
+        background-color: transparent;
+        border-radius: 0;
+        border-left: 0;
+        border-bottom: 1px solid transparent;
+        border-right: 0;
+        border-top: 0;
+        padding: 0;
+        display: block;
+        margin: 20px 10px; }
+    .dance-services .discover .nav-tabs .active a {
+      border-color: #ffffff; }
+    .dance-services .discover .nav-tabs :hover a {
+      border-color: #ffffff; }
+  .dance-services .discover .tab-content .carousel-caption {
+    top: 80px; }
+    .dance-services .discover .tab-content .carousel-caption h3 {
+      font-size: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background: rgba(219, 33, 40, 0.6);
+      display: inline-block;
+      padding: 50px 120px;
+      margin-bottom: 90px; }
+    .dance-services .discover .tab-content .carousel-caption p {
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-weight: 100; }
+      .dance-services .discover .tab-content .carousel-caption p :first-child {
+        font-weight: 300;
+        letter-spacing: 1px; }
+  .dance-services .benefits {
+    width: 900px;
+    margin: 0 auto; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .dance-services .benefits {
+        width: 100%; } }
+    @media (max-width: 767px) {
+      .dance-services .benefits {
+        width: 100%; } }
+    @media (max-width: 480px) {
+      .dance-services .benefits {
+        width: 100%; } }
+    .dance-services .benefits .cover {
+      position: relative;
+      padding: 0px;
+      overflow: hidden;
+      border-right: 2px solid #ffffff; }
+      .dance-services .benefits .cover :hover img {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3); }
+      .dance-services .benefits .cover .content-over {
+        position: absolute;
+        background: rgba(219, 33, 40, 0.6);
+        bottom: 0;
+        display: inline-block;
+        color: #ffffff;
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 13px;
+        height: 120px; }
+        .dance-services .benefits .cover .content-over h4 {
+          font-size: 14px;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+        .dance-services .benefits .cover .content-over p {
+          margin-bottom: 2px;
+          margin-top: 2px; }
+      .dance-services .benefits .cover img {
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; }
+  .dance-services .stories ul {
+    margin: 0; }
+    .dance-services .stories ul li {
+      margin-bottom: 40px;
+      list-style: none;
+      display: block; }
+      .dance-services .stories ul li p {
+        margin-top: 70px;
+        padding-left: 30px; }
+      .dance-services .stories ul li .seemore {
+        font-size: 20px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 1px solid;
+        padding: 5px 40px; }
+  .dance-services .contactform {
+    font-family: 'vni-avo-normal';
+    text-align: center;
+    text-transform: uppercase; }
+    .dance-services .contactform h2 {
+      color: #000;
+      width: 100%;
+      border: 1px solid;
+      display: inline-block;
+      padding: 30px 80px;
+      margin-bottom: 10px; }
+    .dance-services .contactform h3 {
+      font-size: 16px;
+      font-weight: normal; }
+    .dance-services .contactform p {
+      font-size: 14px; }
+  .dance-services .trainers {
+    background: url("../../public/img/dance-services/trainer.jpg") no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    float: left; }
+  .dance-services h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #db2128;
+    width: 320px;
+    margin: 60px auto;
+    position: relative; }
+    .dance-services h2 .line:first-child {
+      width: 180px;
+      display: inline-block;
+      position: absolute;
+      background-color: #db2128;
+      height: 3px;
+      left: -200px;
+      top: 25px; }
+      @media (max-width: 767px) {
+        .dance-services h2 .line:first-child {
+          left: 45px; } }
+      @media (max-width: 480px) {
+        .dance-services h2 .line:first-child {
+          left: -100px; } }
+    .dance-services h2 .line:last-child {
+      width: 180px;
+      display: inline-block;
+      position: absolute;
+      background-color: #db2128;
+      height: 3px;
+      right: -200px;
+      top: 25px; }
+      @media (max-width: 480px) {
+        .dance-services h2 .line:last-child {
+          right: -100px; } }
+    @media (max-width: 767px) {
+      .dance-services h2 {
+        width: 100%;
+        overflow: hidden; } }
+    @media (max-width: 480px) {
+      .dance-services h2 {
+        width: 100%;
+        overflow: hidden; } }
+
+/*# sourceMappingURL=dance-services.css.map */
