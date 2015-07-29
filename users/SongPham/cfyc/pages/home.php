@@ -1,6 +1,6 @@
 <div class="container-fluid page home-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-<div class="container-page">
+<div class="container-fluid">
     <!-- Top Banner -->
     <div class="row gallery">       
         <div id="movetopbanner" class="carousel slide" data-ride="carousel">
