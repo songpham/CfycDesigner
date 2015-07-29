@@ -2,7 +2,7 @@
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
     <!-- Top Banner -->
-    <div class="row gallery">       
+    <div class="row gallery">
         <div id="movetopbanner" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -12,13 +12,13 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="First slide">          
+              <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="First slide">
             </div>
             <div class="item">
-              <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="Second slide">          
+              <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="Second slide">
             </div>
             <div class="item">
-               <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="Third slide">          
+               <img class="first-slide" src="img/home/california-wow-banner-1.jpg" alt="Third slide">
             </div>
           </div>
           <a class="left carousel-control" href="#movetopbanner" role="button" data-slide="prev">
@@ -89,15 +89,15 @@
                         </div>
                     </div>
                 </div>
-            </div>  
-            <div class="whitespace"></div> 
+            </div>
+            <div class="whitespace"></div>
             <div class="col-md-12 text-center">
                 <h2><span>FIND YOUR CLUB</span></h2>
                 <p>There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).</p>
                 <div class="whitespace"></div>
                 <div class="row findyourclub">
                     <div class="col-md-6">
-                        <img src="img/home/california-wow-find-your-club-10.jpg" alt="Club in Ho Chi Minh City" title="Club in Ho Chi Minh City">                        
+                        <img src="img/home/california-wow-find-your-club-10.jpg" alt="Club in Ho Chi Minh City" title="Club in Ho Chi Minh City">
                     </div>
                     <div class="col-md-6">
                         <img src="img/home/california-wow-find-your-club-1.jpg" alt="Club in Ho Chi Minh City" title="Club in Ho Chi Minh City">
@@ -108,22 +108,22 @@
                 </div>
                 <div class="row findyourclub">
                     <div class="col-md-3">
-                        <img src="img/home/california-wow-find-your-club-2.jpg" alt="Club in Hanoi" title="Club in Hanoi">                        
+                        <img src="img/home/california-wow-find-your-club-2.jpg" alt="Club in Hanoi" title="Club in Hanoi">
                     </div>
                     <div class="col-md-3">
-                        <img src="img/home/california-wow-find-your-club-3.jpg" alt="Club in Hanoi" title="Club in Hanoi"> 
+                        <img src="img/home/california-wow-find-your-club-3.jpg" alt="Club in Hanoi" title="Club in Hanoi">
                         <div class="overlay">
                             <h2 class="service_title">Ha Noi</h2>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="img/home/california-wow-find-your-club-4.jpg" alt="Club in Da Nang" title="Club in Da Nang">                        
+                        <img src="img/home/california-wow-find-your-club-4.jpg" alt="Club in Da Nang" title="Club in Da Nang">
                     </div>
                     <div class="col-md-3">
                         <img src="img/home/california-wow-find-your-club-5.jpg" alt="Club in Da Nang" title="Club in Da Nang">
                         <div class="overlay">
                             <h2 class="service_title">Da Nang</h2>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="row findyourclub">
@@ -131,10 +131,10 @@
                         <img src="img/home/california-wow-find-your-club-6.jpg" alt="Club in Binh Duong" title="Club in Binh Duong">
                         <div class="overlay">
                             <h2 class="service_title">Binh Duong</h2>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="img/home/california-wow-find-your-club-7.jpg" alt="Club in Binh Duong" title="Club in Binh Duong">                        
+                        <img src="img/home/california-wow-find-your-club-7.jpg" alt="Club in Binh Duong" title="Club in Binh Duong">
                     </div>
                     <div class="col-md-3">
                         <img src="img/home/california-wow-find-your-club-8.jpg" alt="Club new coming" title="Club new coming">
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="img/home/california-wow-find-your-club-9.jpg" alt="Club new coming" title="Club in Ho Chi Minh City">                        
+                        <img src="img/home/california-wow-find-your-club-9.jpg" alt="Club new coming" title="Club in Ho Chi Minh City">
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                     <div class="col-md-12 text-center">
                         <!-- <div class="row">
                             <div class="col-md-3 text-center"></div>
-                            <div class="col-md-6 text-center round_success">                                
+                            <div class="col-md-6 text-center round_success">
                                 <div class="quarter-circle-bottom-right"><img src="img/home/california-wow-success-stories-1.png" alt="Success Stories" title="Success Stories"></div>
                                 <div class="quarter-circle-bottom-left"><img src="img/home/california-wow-success-stories-2.png" alt="Success Stories" title="Success Stories"></div>
                             </div>
@@ -195,8 +195,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3 text-center"></div>
-                            <div class="col-md-6 text-center round_success">                                
-                                <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div>                                
+                            <div class="col-md-6 text-center round_success">
+                                <div class="quarter-circle-top-right"><img src="img/home/california-wow-success-stories-3.png" alt="Success Stories" title="Success Stories"></div>
                                 <div class="quarter-circle-top-left"><img src="img/home/california-wow-success-stories-4.png" alt="Success Stories" title="Success Stories"></div>
                             </div>
                             <div class="col-md-3 text-center">

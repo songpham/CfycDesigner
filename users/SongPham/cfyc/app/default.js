@@ -6,16 +6,7 @@ $(document).ready(function () {
     });
     /* Desktop Menu */
     var $desktopNavigation = $('#desktop-navigation');
-    $desktopNavigation.find('.desktop-menu a').mouseover( function (e) { /* mouse over */
-        e.preventDefault(e);
-        var index = $(this).data('index');
-        setTimeout(function () {
-            $desktopNavigation.find('.collapse').collapse('hide');
-            setTimeout(function () {
-                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-            });
-        });
-    }).click(function (e) {
+    $desktopNavigation.find('.desktop-menu a').click(function (e) {
         e.preventDefault(e);
         var index = $(this).data('index'),
             $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')');
@@ -51,9 +42,5 @@ $(document).ready(function () {
     };
     refreshOnResize();
     $(window).resize(refreshOnResize);
-    
-    	$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-
+	$('[data-toggle="tooltip"]').tooltip();
 });
