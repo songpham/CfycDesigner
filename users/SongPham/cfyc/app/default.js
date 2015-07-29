@@ -51,4 +51,9 @@ $(document).ready(function () {
     };
     refreshOnResize();
     $(window).resize(refreshOnResize);
+    
+    	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
 });
