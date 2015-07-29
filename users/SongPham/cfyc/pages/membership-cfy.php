@@ -56,22 +56,22 @@
         </div><!--end row-->
     </div>
     <div class="row gallery">
-        <div class="col-sm-4 pLeft0">
+        <div class="col-sm-4 col-xs-6 pLeft0 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/yoga.jpg" class="img-responsive"/>
         </div>
-        <div class="col-sm-4 pLeftRight75">
+        <div class="col-sm-4 col-xs-6 pLeftRight75 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/dance.jpg" class="img-responsive"/>
         </div>
-        <div class="col-sm-4 pRight0">
+        <div class="col-sm-4 col-xs-6 pRight0 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/mma.jpg" class="img-responsive"/>
         </div>
-        <div class="col-sm-4 pLeft0">
+        <div class="col-sm-4 col-xs-6 pLeft0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/kickfit.jpg" class="img-responsive"/>
         </div>
-        <div class="col-sm-4 pLeftRight75">
+        <div class="col-sm-4 col-xs-6 pLeftRight75 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/dynamic.jpg" class="img-responsive"/>
         </div>
-        <div class="col-sm-4 pRight0">
+        <div class="col-sm-4 col-xs-6 pRight0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/pt.jpg" class="img-responsive"/>
         </div>
     </div><!--end gallery-->
