@@ -6,6 +6,8 @@
  *
  * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
  */
+
+
 .pgwSlider {
     width: 100%;
     color: #fff;
@@ -75,14 +77,13 @@
     float: left;
     height: 100%;
     vertical-align: center;
+    padding-right: 10%;
 }
 
 .pgwSlider .ps-caption .trainer-info {
     @include font-size(14px);
-    position: absolute;
-    width: 70%;
-    right: 0;
-    top: 5%;
+    position: relative;
+    max-width: 100%;
 }
 
 .pgwSlider .ps-caption .trainer-info .trainer-name, .pgwSlider .ps-caption .trainer-info .trainer-job {
@@ -91,6 +92,7 @@
 }
 
 .pgwSlider .ps-caption .trainer-info .trainer-name {
+    @include font-size(17px);
     font-weight: bold;
 }
 
@@ -123,7 +125,7 @@
         width: 100%;
         left: 0;
         top: 0;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
 }
@@ -196,13 +198,6 @@ ul.pgwSlider > li,
     filter: alpha(opacity=60);
     font-size: 0.8rem;
     transition: opacity 200ms linear;
-}
-
-@media screen and (max-width: 517px) {
-    ul.pgwSlider > li,
-    .pgwSlider > .ps-list > li {
-        width: 20% !important;
-    }
 }
 
 ul.pgwSlider > li:last-child,

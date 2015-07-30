@@ -8,7 +8,7 @@
             <i class="fa fa-times"></i>
         </a>
         <li class="sidebar-brand">
-             <a href="#language"><img src="<?php echo USER_BASE_URL ?>/img/english.jpg" class="img-circle"></a>
+             <a href="#language"><img src="<?php echo USER_BASE_URL ?>/img/english.png" class="language"></a>
         </li>
         <li>
             <a href="#">Trang Chủ</a>
@@ -82,7 +82,7 @@
         <li><a href="#" data-index="2">Phong Cách Sống</a></li>
         <li><a href="#">Thành Viên</a></li>
         <li><a href="#">Lịch học</a></li>
-        <li><a href="#"><img src="<?php echo USER_BASE_URL ?>/img/vietnamese.jpg" class="img-circle"></a></li>
+        <li><a href="#"><img src="<?php echo USER_BASE_URL ?>/img/english.png" class="language"></a></li>
     </ul>
     <div class="holder-submenu">
         <div class="sub-menu collapse">

@@ -6,6 +6,7 @@ $breakpoint_tablet: 1024px;
 $breakpoint_iphone4: 320px;
 $footer_hover:#999999;
 $footer_link:#666666;
+$header_title_size: 71px;
 @mixin opacity ($opacity) {
     opacity: $opacity;
     $opacity-ie: $opacity * 100;

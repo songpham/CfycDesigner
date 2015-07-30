@@ -1,7 +1,7 @@
 @import '../lib';
 .home-page {
-    padding:0;
     .container-fluid {
+        padding: 0px;
         .gallery {
             position: relative;
             img {
@@ -37,14 +37,31 @@
             .text {
                 margin-top: 10px;
             }
-            h2 {border-bottom: 1px solid #da2128;
-                line-height: 0.1em;
+            h2 {
+                border-bottom: 1px solid #da2128;
+                line-height: 1.3em;
                 margin: 30px auto;
                 text-align: center;
-                width: 50%;
+                width: 70%;
                 color: #da2128;
                 span {
                     background:#fff; padding:0 10px;
+                }
+            }
+            .seemorebtn{
+                clear: both;
+                padding: 15px 0;
+                a{
+                    padding:4px 10px;
+                    border:1px solid #333;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #333;
+                }
+                :hover{
+                    text-decoration: none;
+                    color: $red;
+                    border-color: $red;
                 }
             }
             .ourservice {
@@ -128,12 +145,12 @@
                         top: 0;
                         width: 100%;
                         h2.service_title {
+                            align-items: center;
                             border: medium none;
                             color: #fff;
-                            position: absolute;
-                            top: 40%;
+                            display: flex;
+                            justify-content: center;
                             width: 100%;
-                            height: 120%;
                         }
                     }
                     img {
@@ -157,9 +174,11 @@
                     }
                 }
                 .trainner_text {
-                    div {
-                        display:none;
-                        text-align:left;
+                    background: #edeeef;
+                    .trainner_desc{
+                        text-align: left;
+                        display: none;
+                        padding:15px 0;
                         h3 {
                             span {
                                 font-size: 60%;
@@ -167,8 +186,8 @@
                             }
                         }
                     }
-                    .active {
-                        display:block;
+                    .active{
+                        display: block;
                     }
                 }
             }
@@ -176,56 +195,9 @@
                 background: url('../img/home/california-wow-success-stories-bg.jpg') 0 0 repeat transparent;
                 padding: 30px 0;
                 color: $white;
-                .round_success {
-                    div {
-                        float: left;
-                        width:50%;
-                    }
-                    .quarter-circle-top-left {
-                        background: #006699;
-                        // border-radius: 0 0 100px 0;
-                        // -moz-border-radius: 0 0 100px 0;
-                        // -webkit-border-radius: 0 0 100px 0;
-                    }
-                    .quarter-circle-top-right {
-                         background: #006699;
-                         // border-radius: 0 0 0 100px;
-                         // -moz-border-radius: 0 0 0 100px;
-                         // -webkit-border-radius: 0 0 0 100px;
-                    }
-                    .quarter-circle-bottom-left {
-                         background: #006699;
-                         // border-radius: 0 100px 0 0;
-                         // -moz-border-radius: 0 100px 0 0;
-                         // -webkit-border-radius: 0 100px 0 0;
-                    }
-                    .quarter-circle-bottom-right {
-                         background: #006699;
-                         // border-radius: 100px 0 0 0;
-                         // -moz-border-radius: 100px 0 0 0;
-                         // -webkit-border-radius: 100px 0 0 0;
-                    }
-                    .round_part {
-                        float: left;
-                        width: 50%;
-                        transition-property: top, left;
-                        -webkit-transition: all .4s ease-out;
-                        -moz-transition: all .4s ease-out;
-                        -o-transition: all .4s ease-out;
-                        transition: all .4s ease-out;
-                        img {
-                            max-width: 100%;
-                        }
-                    }
-                    .round_part:hover {
-                        //background:rgba(211,8,15,0.6);
-                        cursor:pointer;
-                        transform:scale(1.2);
-                        -moz-transform:scale(1.2);
-                        -webkit-transform:scale(1.2);
-                        -o-transform:scale(1.2);
-                        transform:scale(1.2);
-                        z-index: 999999999999999;
+                .roundphoto{
+                    img{
+
                     }
                 }
                 h3 {
@@ -243,6 +215,12 @@
                 padding: 30px 0;
                 img {
                     max-width: 100%;
+                    border: 1px solid #989898;
+                    border-radius:150px;
+                    padding:10px;
+                }
+                :hover{
+                    border-color:#da2128;
                 }
                 p {
                     color: $white;
@@ -264,6 +242,215 @@
                 div {
                     img {
                         max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 20em) {
+    .home-page {
+        .top-content {
+            .holder-top-content {
+                h2 {
+                    border-bottom: 1px solid #da2128;
+                    line-height: 1.3em;
+                    margin: 30px auto;
+                    text-align: center;
+                    width: 100%;
+                    color: #da2128;
+                    span {
+                        background:#fff; padding:0 10px;
+                    }
+                }
+                .find_your_trainner {
+                    .trainner_photo {
+                        margin-bottom:15px;
+                        img {
+                            cursor:pointer;
+                            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+                            filter: gray; /* IE6-9 */
+                            -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+                            -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                            -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+                            width:30%;
+                        }
+                        .active {
+                            filter: none;
+                            -webkit-filter: none;
+                        }
+                    }
+                    .trainner_text {
+                        background: #edeeef;
+                        .trainner_desc{
+                            text-align: left;
+                            display: none;
+                            padding:15px 0;
+                            h3 {
+                                span {
+                                    font-size: 60%;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                        .active{
+                            display: block;
+                        }
+                    }
+                }
+                .special_offers{
+                    img{
+                        margin-bottom: 10px;
+                    }
+                }
+                .findyourclub {
+                    div {
+                        margin:0;
+                        padding:0;
+                        max-width: 100%;
+                        .overlay {
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                            h2.service_title {
+                                align-items: center;
+                                border: medium none;
+                                color: #fff;
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                            }
+                        }
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 40em) {
+    .home-page {
+        .top-content {
+            .holder-top-content {
+                h2 {
+                    border-bottom: 1px solid #da2128;
+                    line-height: 1.3em;
+                    margin: 30px auto;
+                    text-align: center;
+                    width: 100%;
+                    color: #da2128;
+                    span {
+                        background:#fff; padding:0 10px;
+                    }
+                }
+                .find_your_trainner {
+                    .trainner_photo {
+                        margin-bottom:15px;
+                        img {
+                            cursor:pointer;
+                            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+                            filter: gray; /* IE6-9 */
+                            -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+                            -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                            -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+                            width:30%;
+                        }
+                        .active {
+                            filter: none;
+                            -webkit-filter: none;
+                        }
+                    }
+                    .trainner_text {
+                        background: #edeeef;
+                        .trainner_desc{
+                            text-align: left;
+                            display: none;
+                            padding:15px 0;
+                            h3 {
+                                span {
+                                    font-size: 60%;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                        .active{
+                            display: block;
+                        }
+                    }
+                }
+                .special_offers{
+                    img{
+                        margin-bottom: 10px;
+                    }
+                }
+                 .findyourclub {
+                    div {
+                        margin:0;
+                        padding:0;
+                        max-width: 100%;
+                        .overlay {
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                            h2.service_title {
+                                align-items: center;
+                                border: medium none;
+                                color: #fff;
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                            }
+                        }
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 40.063em) {
+    .home-page {
+        .top-content {
+            .holder-top-content {
+                .find_your_trainner {
+                    .trainner_photo {
+                        margin-bottom:15px;
+                        img {
+                            cursor:pointer;
+                            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+                            filter: gray; /* IE6-9 */
+                            -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+                            -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                            -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+                            width:30%;
+                        }
+                        .active {
+                            filter: none;
+                            -webkit-filter: none;
+                        }
+                    }
+                    .trainner_text {
+                        background: #edeeef;
+                        .trainner_desc{
+                            text-align: left;
+                            display: none;
+                            padding:15px 0;
+                            h3 {
+                                span {
+                                    font-size: 60%;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                        .active{
+                            display: block;
+                        }
                     }
                 }
             }
