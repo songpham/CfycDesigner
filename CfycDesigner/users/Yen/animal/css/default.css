@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/**
+ * use it when its container has position is relative and height is defined
+ * i.e: @include drop-Shadow
+ */
+/**
+ * Rem is similar to the em value, but instead of being relative to the parent element itΓÇÖsrelative to the font-size set in the.
+ * It has all the benefits of em but you donΓÇÖt get issues with e.g (compounding) since rem is only relative to the html element.
+ * Usage:
+    p {
+        @include font-size(14px)
+    }
+ */
+/**
+ * Instead of calling them @media (min-width: 600px) we can give them more semantic names like ΓÇ£breakpoint-largeΓÇ¥ or ΓÇ£breakpoint-a-really-large-computer-machineΓÇ¥.
+ * Usage:
+    .sidebar {
+        width: 60%
+        float: left;
+        margin: 0 2% 0 0;
+        @include bp-small {
+            width: 100%;
+            float: none;
+            margin: 0;
+        }
+    }
+ */
+/**
+ * This mixin ensures cross browser opacity all the way down to Internet Explorer 5. Though if you have to optomize for IE5, you have a lot bigger problems than opacity, godspeed my friend.
+ *  Usage:
+    .faded-text {
+        @include opacity(0.8);
+    }
+ */
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  color: #000000;
+  word-wrap: break-word; }
+  body .form-control {
+    width: auto;
+    max-width: 100%; }
+  body .text-left {
+    text-align: left !important; }
+  body .text-right {
+    text-align: right !important; }
+  body .text-center {
+    text-align: center !important; }
+  body .text-white {
+    color: #ffffff !important; }
+  body .text-green {
+    color: gree !important; }
+  body .text-green-bold {
+    color: green !important;
+    font-weight: bold; }
+  body .text-red {
+    color: red !important; }
+  body .text-blue {
+    color: blue; }
+  body .text-grey {
+    color: grey !important; }
+  body .text-strong {
+    font-weight: bold !important; }
+  body .text-uppercase {
+    text-transform: uppercase !important; }
+  body .padding10 {
+    padding: 10px; }
+  body img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%; }
+  body a {
+    color: #000000; }
+    body a:hover {
+      color: #000000; }
+  body h1, body h2, body h3, body h4, body p {
+    margin: 0;
+    margin-bottom: 5px; }
+  body h1 {
+    font-size: 25px;
+    font-size: 1.5625rem; }
+  body h2 {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    line-height: 21px; }
+  body h3 {
+    font-size: 19px;
+    font-size: 1.1875rem; }
+  body h4 {
+    font-size: 15px;
+    font-size: 0.9375rem; }
+  body p {
+    font-size: 14px;
+    font-size: 0.875rem; }
+  body label {
+    font-size: 14px;
+    font-size: 0.875rem; }
+  body .space {
+    clear: both;
+    display: block;
+    height: 10px; }
+  body .space15 {
+    clear: both;
+    display: block;
+    height: 15px; }
+  body .space2 {
+    clear: both;
+    display: block;
+    height: 20px; }
+  body .space3 {
+    clear: both;
+    display: block;
+    height: 30px; }
+  body .space4 {
+    clear: both;
+    display: block;
+    height: 40px; }
+  body .fix-nowrap {
+    white-space: nowrap; }
+  body .fix-long-text {
+    word-break: break-all; }
+  body .fix-comment-long-url {
+    -ms-word-break: break-all;
+    /* Be VERY careful with this, breaks normal words wh_erever */
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto; }
+
+/*The transition effect will start when the specified CSS property changes value.*/
+body {
+  font-size: 14px;
+  background: #ffffff; }
+  body .content-homepage {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative; }
+  body .header {
+    background: #ffffff; }
+    body .header #logo {
+      display: inline-block;
+      padding-top: 50px; }
+    body .header .animal {
+      display: inline-block;
+      z-index: 5;
+      position: relative; }
+    body .header .banner {
+      display: inline-block;
+      z-index: 1;
+      margin-top: 50px; }
+  body .big-space {
+    height: 200px;
+    position: relative;
+    top: -47px; }
+  body .bg-red {
+    background: red; }
+  body .bg-purple {
+    background: #660066; }
+  body section {
+    background: #ffffff !important; }
+    body section .main-content {
+      position: relative;
+      margin-top: -215px;
+      margin-bottom: -200px; }
+    body section .left-content .menubar {
+      background: #ffffff;
+      width: 100%;
+      float: right;
+      padding: 0 10px 0 0;
+      margin-right: -30px; }
+      body section .left-content .menubar ul {
+        list-style: none;
+        font-weight: bold;
+        position: relative;
+        top: -25px;
+        margin-left: -30px;
+        z-index: 10;
+        margin-bottom: -15px; }
+        body section .left-content .menubar ul li {
+          text-align: center;
+          margin: 3px;
+          padding: 5px;
+          -webkit-transition: 0.3s ease-out;
+          -moz-transition: 0.3s ease-out;
+          -o-transition: 0.3s ease-out;
+          transition: 0.3s ease-out;
+          height: 36px;
+          cursor: pointer; }
+          body section .left-content .menubar ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 40px; }
+        body section .left-content .menubar ul li.dark-cyan {
+          background: #336666; }
+        body section .left-content .menubar ul li.white {
+          background: #ffffff; }
+          body section .left-content .menubar ul li.white a {
+            color: #000000 !important; }
+        body section .left-content .menubar ul li.cyan {
+          background: #99bbb6; }
+        body section .left-content .menubar ul li.purple {
+          background: #ab88b7; }
+        body section .left-content .menubar ul li.light-purple {
+          background: #b3b0ce; }
+        body section .left-content .menubar ul li.active {
+          border: 3px solid #660066;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px; }
+        body section .left-content .menubar ul li:hover {
+          border: 3px solid #660066;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px; }
+    body section .desc {
+      margin-right: -15px;
+      clear: both; }
+      body section .desc .desc-volunteer {
+        list-style: none;
+        color: #123b4d;
+        font-weight: bold;
+        text-align: right;
+        padding: 0;
+        padding-top: 20px; }
+    body section .about {
+      color: #123b4d; }
+      body section .about h1 {
+        font-style: italic;
+        font-size: 31px;
+        font-size: 1.9375rem;
+        padding: 10px 0; }
+      body section .about h3 {
+        font-size: 25px;
+        font-size: 1.5625rem;
+        text-align: right; }
+      body section .about p {
+        font-size: 18px;
+        font-size: 1.125rem;
+        text-align: justify;
+        padding-top: 7px; }
+    body section .wrap-gallery .nav-tabs {
+      border: none; }
+      body section .wrap-gallery .nav-tabs li a {
+        border: none; }
+    body section .wrap-gallery .nav-tabs > li.active > a, body section .wrap-gallery .nav-tabs > li.active > a:focus, body section .wrap-gallery .nav-tabs > li.active > a:hover {
+      border: none;
+      color: #660066 !important;
+      font-weight: bold; }
+    body section .wrap-gallery .gallery ul.img {
+      width: 100%;
+      padding: 0px; }
+      body section .wrap-gallery .gallery ul.img li {
+        display: inline;
+        padding: 2px; }
+        body section .wrap-gallery .gallery ul.img li img {
+          margin-top: 10px;
+          -webket-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.3);
+          -moz-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.3);
+          -ms-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.3); }
+    body section .wrap-gallery .gallery nav {
+      margin-top: 10px; }
+      body section .wrap-gallery .gallery nav ul li {
+        background: #336666;
+        display: inline;
+        padding: 3px; }
+        body section .wrap-gallery .gallery nav ul li a {
+          color: #ffffff; }
+    body section .center-content {
+      background: #ffffff;
+      padding: 13px;
+      z-index: 2; }
+      body section .center-content .banner img {
+        width: 100%; }
+      body section .center-content .donate {
+        margin-top: 20px; }
+        body section .center-content .donate p {
+          font-size: 20px;
+          font-size: 1.25rem;
+          text-align: justify; }
+        body section .center-content .donate h1 {
+          color: #660066;
+          font-size: 40px;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin: 20px 0; }
+        body section .center-content .donate table tr td:first-child {
+          color: #660066;
+          font-weight: bold;
+          padding-right: 20px; }
+        body section .center-content .donate img {
+          margin-top: 20px; }
+      body section .center-content .volunteer p {
+        font-size: 12px;
+        text-align: justify; }
+      body section .center-content .volunteer h1 {
+        color: #123b4d;
+        font-size: 35px;
+        font-size: 2.1875rem;
+        margin: 20px 0; }
+      body section .center-content .volunteer a {
+        text-align: right;
+        color: #660066; }
+      body section .center-content .contact {
+        margin-top: 20px;
+        margin-left: 20px; }
+        body section .center-content .contact label {
+          font-size: 20px;
+          font-size: 1.25rem; }
+        body section .center-content .contact .btn-default {
+          background: #660066;
+          color: #ffffff; }
+    body section .right-content {
+      background: #ffffff;
+      padding: 13px 13px 13px 0;
+      z-index: 2; }
+      body section .right-content img {
+        margin-bottom: 5px; }
+      body section .right-content .text-right {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        padding: 20px 0;
+        font-size: 20px;
+        font-size: 1.25rem; }
+  body footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: #123b4d; }
+
+/*# sourceMappingURL=default.css.map */
