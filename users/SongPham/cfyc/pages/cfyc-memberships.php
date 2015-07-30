@@ -1,7 +1,7 @@
-<div class="container-fluid page membership-cfy-page">
+<div class="container-fluid page cfyc-memberships">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="row banner-top">
-        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-header.jpg" class="img-responsive banner" onmousedown="return false;"/>
+        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-header.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <h1 class="headline">Are you <br/>a member?</h1>
     </div>
     <div class="container-page">
@@ -36,13 +36,13 @@
 
     <div class="row gallery">
         <div class="col-sm-4 pLeft0">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/inbody.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/inbody.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 pLeftRight75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/consultation.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/consultation.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 pRight0">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/access.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/access.jpg" class="img-responsive"/>
         </div>
     </div><!--end gallery-->
     <div class="container-page">
@@ -61,22 +61,22 @@
     </div>
     <div class="row gallery">
         <div class="col-sm-4 col-xs-6 pLeft0 pRight75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/yoga.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/yoga.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 col-xs-6 pLeftRight75 pLeft75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/dance.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dance.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 col-xs-6 pRight0 pRight75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/mma.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/mma.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 col-xs-6 pLeft0 pLeft75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/kickfit.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/kickfit.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 col-xs-6 pLeftRight75 pRight75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/dynamic.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dynamic.jpg" class="img-responsive"/>
         </div>
         <div class="col-sm-4 col-xs-6 pRight0 pLeft75">
-            <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/pt.jpg" class="img-responsive"/>
+            <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/pt.jpg" class="img-responsive"/>
         </div>
     </div><!--end gallery-->
     <div class="container-page">
@@ -87,7 +87,7 @@
         </div><!--end row-->
     </div><!--end container page-->
     <div class="row banner-bottom">
-        <img src="<?php echo USER_BASE_URL ?>/img/membership-cfy/bg-footer.jpg" class="img-responsive banner" onmousedown="return false;"/>
+        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-footer.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <div class="text-box">
             <h1>Are you looking for more?</h1>
             <h3>Discover a world of VIP benefits with</h3>
@@ -98,4 +98,4 @@
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/membership-cfy.js"></script>
+<script src="<?php echo USER_BASE_URL ?>/js/scripts/cfyc-memberships.js"></script>
