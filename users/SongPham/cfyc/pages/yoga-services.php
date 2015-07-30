@@ -4,13 +4,13 @@
 
     <!-- GALLERY -->
     <div class="row gallery">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="top-banner" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#top-banner" data-slide-to="0" class="active"></li>
+                <li data-target="#top-banner" data-slide-to="1"></li>
+                <li data-target="#top-banner" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -18,16 +18,34 @@
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-1.jpg" ?>" alt="">
                     <div class="carousel-caption">
+                        <p class='text'>
+                            Discover <br>
+                            the healing power<br> 
+                            of yoga
+                        </p>
+                        <p><a class='btn' href=''>Discover yoga</a></p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-2.jpg" ?>" alt="">
                     <div class="carousel-caption">
+                        <p class='text'>
+                            Discover <br>
+                            the healing power<br> 
+                            of yoga
+                        </p>
+                        <p><a class='btn' href=''>Discover yoga</a></p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-3.jpg" ?>" alt="">
                     <div class="carousel-caption">
+                        <p class='text'>
+                            Discover <br>
+                            the healing power<br> 
+                            of yoga
+                        </p>
+                        <p><a class='btn' href=''>Discover yoga</a></p>
                     </div>
                 </div>
             </div>
@@ -82,6 +100,7 @@
             <div class="title-text">Discover yoga at<br>California Fitness</div>
         </div>
 
+        <!-- Slide -->
         <div id="discover-1" class="carousel slide" data-ride="carousel">
 
             <!-- Nav bar -->
@@ -107,25 +126,33 @@
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
                     <div class="carousel-caption">
-                        The perfect environment for you to succeed
+                        <p><a class='btn' href=''>SUN-SERIES</a></p>
+                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
+                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
                     <div class="carousel-caption">
-                        The perfect environment for you to succeed
+                        <p><a class='btn' href=''>SUN-SERIES</a></p>
+                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
+                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
                     <div class="carousel-caption">
-                        The perfect environment for you to succeed
+                        <p><a class='btn' href=''>SUN-SERIES</a></p>
+                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
+                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
                     <div class="carousel-caption">
-                        The perfect environment for you to succeed
+                        <p><a class='btn' href=''>SUN-SERIES</a></p>
+                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
+                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
                     </div>
                 </div>
             </div>
