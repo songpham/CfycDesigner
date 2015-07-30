@@ -1,0 +1,41 @@
+.container-fluid.page.centuryon-membership-cfy-page {
+	background-color: #000 !important;
+	color: #fff;
+	.row.banner-top {
+		background:#000;
+		background-size: 100%; height:auto;
+		img.main-title { width: 100%; display: block; position: relative; top:0; left: 0;}
+		
+	}
+	.row.video {
+		padding-top: 50px;
+		.col-sm-5.col-centered { height: 300px; overflow: hidden;}
+		
+	}
+	
+	.row.top-content {
+		p {text-align: center;}
+	}
+	
+	.row.section1 {
+		background: url(../img/centuryon-membership/section1-bg.jpg) 0 100px no-repeat; background-size:100%; 
+		.col-md-10.col-centered {
+		p {text-align: center; text-transform: uppercase;}
+		}
+		.content { 
+			margin: 200px auto 0px auto; background:none; background: rgba(0,0,0, .6); width: 75%;position: relative; padding:50px 20px; 
+			
+			img.quote-left {position: absolute; left:0%; top:20%; width: 40px;}
+			h4 {color: #f7e300; font-weight: 100; font-size: 25px;}
+			img.quote-right {position: absolute; right:0%; bottom:25%; width: 40px;   -ms-transform: rotate(180deg); /* IE 9 */
+		    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+		    transform: rotate(180deg);}
+				
+			}
+		}
+
+
+
+	
+	
+} /* end centuryon membership */

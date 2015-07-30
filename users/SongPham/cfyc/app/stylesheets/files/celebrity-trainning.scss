@@ -1,0 +1,196 @@
+@import '../lib';
+
+$pageWidth : 2000px;
+$containerWidth : 1200px;
+
+.celebrity-trainning-page {
+
+    // GALLERY
+    .gallery {max-width: $pageWidth;}
+
+    // CONTAINER PAGE
+    .container-page {
+        max-width: $containerWidth;
+
+        // BLOCK
+        .block{
+            @include font-size(16px);
+            margin-bottom: 15px;
+            padding: 20px 10px;
+            @media screen and (max-width: 517px) {
+                padding: 10px 10px;
+            }
+
+            // BLOCK TITLE
+            .block-title {
+                margin: 20px 0 35px 0;
+                position: relative;
+                text-align: center;
+                color: $red;
+                letter-spacing: 1px;
+                font-weight: bold; 
+                @include font-size(2vw);
+                @media screen and (max-width: 650px) {
+                    @include font-size(4vw);
+                    .title-text {
+                        padding: 0 10px !important;
+                    }
+                }
+                @media screen and (min-width: 2000px) {
+                    @include font-size(35px);
+                }
+                text-transform: uppercase;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 80%;
+                    height: 2px;
+                    background: $red;
+                    top: 52%;
+                    left: 10%;
+                    z-index: 1;
+                }  
+                @media screen and (max-width: 320px) {
+                    &:after {
+                        width: 90%;
+                        left: 5%;
+                    } 
+                }
+                .title-text {
+                    display: inline-block;
+                    position: relative;
+                    padding: 0 20px;
+                    background: $white; 
+                    z-index: 2;
+                }
+            }
+        }
+
+
+
+        // ABOUT CELEBRITY TRAINING BLOCK
+        .about-block {
+            @extend .block;
+            .text {
+                margin: 0 !important;
+                padding: 10px !important;
+                p {text-align: left; line-height: 24px;}
+            }
+            .video {padding: 0;}
+        }
+
+
+        // HOW DOES PT WORK BLOCK
+        .how-block {
+            padding-bottom: 40px;
+            @extend .block;
+            .left-img, .right-img {padding: 10px 0  !important;}
+            @media (min-width: $breakpoint_tablet) {
+                .left-img {padding: 5px 3px 5px 0  !important;}
+                .right-img {padding: 5px 0 5px 3px  !important;}
+            }
+            .text-center {
+                padding: 10px 0;
+            }
+        }
+
+
+        // TRAINER LIST BLOCK
+        .trainer-list-block {
+            @extend .block;
+            @media (min-width: $breakpoint_tablet) {
+            }
+        }
+
+        // SUCCESS STORY BLOCK
+        .success-story-block {
+            @extend .block;
+            .box {
+                padding: 10px 0px;
+                margin: 0px;
+                .image {
+                    padding-left: 0px !important;
+                    img {width: 100%; height: 100%;}
+                }
+                .text {margin-top: 4% !important; }
+            }
+            @media (max-width: 517px){
+                .box {
+                    padding: 0 !important;
+                    .image {
+                        img {width: 100%; height: 100%;}
+                    }
+                    .text {margin-top: 4% !important; padding: 0 10px !important;}
+                }
+            }
+            .see-more-btn {
+                text-align: center;
+                margin-top: 50px;
+                a {
+                    text-decoration: none;
+                    @include font-size(17px);
+                    color: #000;
+                    padding: 5px 30px;
+                    border : 2px solid #808285;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: none;
+                        background: #808285;
+                        color: $white;
+                        @include transition(all .4s ease-in-out);
+                    }
+                }
+            }
+        }
+    }
+
+    // MID BANNER
+    .banner {
+        max-width: $pageWidth;
+        background: url('../img/celebrity-training/banner.jpg');
+        @include background-size(cover);
+        position: relative;
+        .image {}
+        .text-content {
+            width: 100%;
+            color: $white;
+            text-align: center; 
+            h3 {
+                @include font-size(17px);   
+                margin-top: 45px; 
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            p {
+                @include font-size(13px); 
+                margin: 20px 0 30px;
+                letter-spacing: 1px;
+            }
+            .navbar-center {
+                width: 100%;
+                text-align: center;
+                margin : 15px 0;
+                li {
+                    float: none;
+                    display: inline-block;
+                    a {
+                        @include font-size(14px);
+                        font-weight: bold;
+                        color: $white;
+                        text-transform: uppercase;
+                        background: none;
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+                li.active { a {color: $red;} }
+            }
+        }
+    }
+
+}
+
+
+@import 'pgwslider.scss';
