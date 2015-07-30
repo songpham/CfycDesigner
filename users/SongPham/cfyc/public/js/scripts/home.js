@@ -6,7 +6,7 @@ var homePage = (function () {
 				var trainner_name = $(this).attr('id');
 				$('.trainner_photo img,.trainner_text div').removeClass('active');
 				$(this).addClass('active');	
-				$('.trainner_text .'+trainner_name).addClass('active');
+				$('.trainner_text #'+trainner_name).addClass('active');
 
 				/*var desc = $('.trainner_text #'+trainner_name).html();
 				$('.show_desc').html(desc);
