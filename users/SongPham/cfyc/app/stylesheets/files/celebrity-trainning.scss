@@ -14,7 +14,8 @@ $containerWidth : 1200px;
 
         // BLOCK
         .block{
-            @include font-size(16px);
+            @include font-size(14px);
+            line-height: 1.42857143;
             margin-bottom: 15px;
             padding: 20px 10px;
             @media screen and (max-width: 517px) {
@@ -63,6 +64,16 @@ $containerWidth : 1200px;
                     background: $white; 
                     z-index: 2;
                 }
+                @media (max-width: 517px) {
+                    .title-text {
+                        max-width: 300px;
+                    }
+                }
+                @media (max-width: 320px) {
+                    .title-text {
+                        max-width: 205px;
+                    }
+                }
             }
         }
 
@@ -73,7 +84,7 @@ $containerWidth : 1200px;
             @extend .block;
             .text {
                 margin: 0 !important;
-                padding: 10px !important;
+                padding: 0 5px !important;
                 p {text-align: left; line-height: 24px;}
             }
             .video {padding: 0;}
@@ -84,13 +95,14 @@ $containerWidth : 1200px;
         .how-block {
             padding-bottom: 40px;
             @extend .block;
-            .left-img, .right-img {padding: 10px 0  !important;}
+            .left-img, .right-img {padding: 7.5px 5px !important;}
             @media (min-width: $breakpoint_tablet) {
                 .left-img {padding: 5px 3px 5px 0  !important;}
                 .right-img {padding: 5px 0 5px 3px  !important;}
             }
-            .text-center {
-                padding: 10px 0;
+            .text-center {padding: 5px 20px;}
+            @media (max-width: $breakpoint_tablet) {
+                .text-center {padding: 0;}
             }
         }
 
@@ -109,23 +121,24 @@ $containerWidth : 1200px;
                 padding: 10px 0px;
                 margin: 0px;
                 .image {
-                    padding-left: 0px !important;
+                    padding-left: 5px !important;
+                    padding-right: 5px !important;
                     img {width: 100%; height: 100%;}
                 }
-                .text {margin-top: 4% !important; }
+                .text {margin-top: 4% !important; padding-left: 3%;}
             }
             @media (max-width: 517px){
                 .box {
-                    padding: 0 !important;
+                    padding-bottom: 30px  !important;
                     .image {
                         img {width: 100%; height: 100%;}
                     }
-                    .text {margin-top: 4% !important; padding: 0 10px !important;}
+                    .text {margin-top: 4% !important; padding: 0 5px !important;}
                 }
             }
             .see-more-btn {
                 text-align: center;
-                margin-top: 50px;
+                margin: 30px 0;
                 a {
                     text-decoration: none;
                     @include font-size(17px);
@@ -163,7 +176,7 @@ $containerWidth : 1200px;
                 font-weight: bold;
             }
             p {
-                @include font-size(13px); 
+                @include font-size(14px); 
                 margin: 20px 0 30px;
                 letter-spacing: 1px;
             }
@@ -182,6 +195,11 @@ $containerWidth : 1200px;
                         background: none;
                         &:hover {
                             color: $red;
+                        }
+                    }
+                    @media (max-width: 500px) {
+                        a {
+                            padding: 5px 5px !important;
                         }
                     }
                 }
