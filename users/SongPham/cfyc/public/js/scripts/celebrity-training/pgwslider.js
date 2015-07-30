@@ -53,6 +53,9 @@
         // Init
         var init = function() {
 
+
+
+
             // Merge user options with the default configuration
             pgwSlider.config = $.extend({}, defaults, options);
 
@@ -131,9 +134,14 @@
             pgwSlider.resizeEvent = setTimeout(function() {
 
                 // Adjust right list
-                var elementHeight = ((height - ((pgwSlider.slideCount - 1) * 6)) / pgwSlider.slideCount);
-                var elementWidth = elementHeight;
-                pgwSlider.plugin.find('.ps-list > li').css({width: elementWidth + 'px'});
+                if (pgwSlider.plugin.width() <= 480) {
+                    var myWidth = 100 / pgwSlider.slideCount;
+                    pgwSlider.plugin.find('.ps-list>li').css({width: myWidth + '%'});
+                } else {
+                    var elementHeight = ((height - ((pgwSlider.slideCount - 1) * 6)) / pgwSlider.slideCount);
+                    var elementWidth = elementHeight;
+                    pgwSlider.plugin.find('.ps-list > li').css({width: elementWidth + 'px'});
+                }
 
                 // Adjust main container
                 if (typeof animate != 'undefined' && animate && pgwSlider.config.maxHeight == null) {
@@ -208,6 +216,8 @@
 
             if (pgwSlider.plugin.width() <= 480) {
                 pgwSlider.plugin.addClass('narrow').removeClass('wide');
+                var myWidth = 100 / pgwSlider.slideCount;
+                pgwSlider.plugin.find('.ps-list>li').css({width: myWidth + '%'});
             } else {
                 pgwSlider.plugin.addClass('wide').removeClass('narrow');
             }
@@ -218,7 +228,7 @@
         // Setup
         var setup = function() {
 
-console.log(pgwSlider.plugin);
+            console.log(pgwSlider.plugin);
 
             // Create container
             pgwSlider.plugin.removeClass(pgwSlider.config.mainClassName).addClass('ps-list');
@@ -299,7 +309,6 @@ console.log(pgwSlider.plugin);
                         displayElement(element.id);
                     });
                 }
-
                 elementId++;
             });
 
