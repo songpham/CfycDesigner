@@ -8,7 +8,7 @@ var homePage = (function () {
 				$(this).addClass('active');	
 				$('.trainner_text .'+trainner_name).addClass('active');
 
-				var desc = $('.trainner_text #'+trainner_name).html();
+				/*var desc = $('.trainner_text #'+trainner_name).html();
 				$('.show_desc').html(desc);
 	            if($('.show_desc').parent('.slimScrollDiv').size() > 0) {
 	              $('.show_desc').parent().replaceWith($('.show_desc'));
@@ -18,22 +18,22 @@ var homePage = (function () {
 	                alwaysVisible: true,
 	                size: '5px'
 	              });
-	        	}
+	        	}*/
 			});
 
 			//trigger mouse over to click events
-			$(".trainner_photo img").hover(function(){
+			/*$(".trainner_photo img").hover(function(){
 			    $(this).trigger('click');
 			    }, function(){
-			});
+			});*/
 
 
 			//start slimscroll on page load
-			$('.show_desc').slimScroll({
+			/*$('.show_desc').slimScroll({
 		        height: '500px',
 		        alwaysVisible: true,
 		        size: '5px'
-		    });
+		    });*/
 
 		});
 	};
