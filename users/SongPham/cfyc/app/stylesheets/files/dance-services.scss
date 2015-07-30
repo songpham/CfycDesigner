@@ -212,11 +212,17 @@
                     }
                     :hover{background: transparent!important;}
                     :focus{background: transparent!important;}
+                    @media (max-width: 767px){float:left;width: 50%;}
+                    @media (max-width: 480px){float:left;width: 50%;}
                 }
             }
             .tab-content{
                 h3{color: $red;margin-bottom: 0;}
                 h4{color: $red;font-weight: normal;margin-top: 0;}
+                img{
+                    @media (max-width: 480px){display: none;}
+                }
+
             }
         }
     }

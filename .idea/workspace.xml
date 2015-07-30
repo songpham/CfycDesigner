@@ -2,153 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac31e74-5443-4230-bf74-d4b701df5924" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/benefit-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/benefit-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/bg-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-center1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-center2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-left1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-left2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-left3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-membership-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-right1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-right2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-right3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/centuryon-section3-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/discover-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/discover-2-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/discover-2-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/divider.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/english.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/facilities1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/facilities2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/facilities3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/facilities4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/linh-ta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/m-centuryon-section3-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/quote-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/quote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/about-us/randy-block.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/centuryon-membership/section1-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/story-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/story-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/success_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/success_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/top-banner-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/top-banner-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/top-banner-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/trainer-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/trainer-avatar-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/trainer-avatar-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/trainer-avatar-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/trainer-avatar-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/vietnamese.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/yogi-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/yogi-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/yoga-services/yogi-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/centuryon-membership.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/centuryon-memberships.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/celebrity-training/pgwslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/yoga-services/yoga-services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/yoga-services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/yoga-services.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-success-stories-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-success-stories-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-success-stories-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-success-stories-4.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/membership-cfy.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/cfyc-memberships.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/membership-cfy.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/cfyc-memberships.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/access.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/access.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/bg-footer.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/bg-footer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/bg-header.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/bg-header.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/consultation.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/consultation.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/dance.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/dance.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/dynamic.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/dynamic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/inbody.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/inbody.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/kickfit.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/kickfit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/mma.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/mma.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/pt.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/pt.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/membership-cfy/yoga.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/cfyc-memberships/yoga.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/celebrity-trainning.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/celebrity-training/celebrity-trainning.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/membership-cfy.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/cfyc-memberships.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/pgwslider.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/yoga-services/pgwslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-1.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-2.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-3.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-4.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/home/california-wow-celeb-member-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/english.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/english.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/logo.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/celebrity-training/trainer-5.png" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/celebrity-training/trainer-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/vietnamese.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/vietnamese.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.eot" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.ttf" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.woff2" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.woff" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.eot" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.ttf" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.woff2" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.woff" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.eot" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.ttf" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.woff2" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.woff" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/_lib.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/_lib.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/_pgwslider.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/_pgwslider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/about-us.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/about-us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/about-us.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/about-us.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/celebrity-trainning.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/celebrity-trainning.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/celebrity-trainning.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/celebrity-trainning.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/home.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/home.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/home.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/main.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/templates/nav-bar.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/templates/nav-bar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/templates/navigation.html" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/templates/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.svg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold-italic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.svg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo-bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.svg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/fonts/vni-avo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" />
     </list>
     <ignored path="CfycDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,8 +40,8 @@
       <file leaf-file-name="dance-services.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68153846" vertical-offset="1987" max-vertical-offset="4245">
-              <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.66923076" vertical-offset="2895" max-vertical-offset="4335">
+              <caret line="222" column="60" selection-start-line="222" selection-start-column="60" selection-end-line="222" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -263,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -569,7 +424,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -603,6 +457,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -610,9 +467,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -632,7 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1439" height="797" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -645,16 +499,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26055834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26413745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -678,6 +532,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/dance-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1855" max-vertical-offset="4125">
+          <caret line="146" column="74" selection-start-line="146" selection-start-column="74" selection-end-line="146" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4245">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="285">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="6060">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/dance-services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1855" max-vertical-offset="4125">
@@ -754,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="2325">
           <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.8153846" vertical-offset="0" max-vertical-offset="2325">
           <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68153846" vertical-offset="1987" max-vertical-offset="4245">
-          <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.66923076" vertical-offset="2895" max-vertical-offset="4335">
+          <caret line="222" column="60" selection-start-line="222" selection-start-column="60" selection-end-line="222" selection-end-column="60" />
           <folding />
         </state>
       </provider>

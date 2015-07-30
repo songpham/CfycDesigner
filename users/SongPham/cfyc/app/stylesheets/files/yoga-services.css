@@ -1,0 +1,684 @@
+h1, h2, h3, span, p, div, a, button {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.yoga-services-page #top-banner .carousel-caption {
+  right: initial;
+  left: 8%;
+  bottom: 8%;
+  text-transform: uppercase; }
+  .yoga-services-page #top-banner .carousel-caption .text {
+    font-size: 3.2vw;
+    font-size: calculateRem(3.2vw);
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 130%;
+    margin-bottom: 3%; }
+  .yoga-services-page #top-banner .carousel-caption .btn {
+    float: left;
+    font-size: 0.8vw;
+    font-size: calculateRem(0.8vw);
+    -webkit-box-shadow: 0px 0px 3px;
+    -o-box-shadow: 0px 0px 3px;
+    -moz-box-shadow: 0px 0px 3px;
+    box-shadow: 0px 0px 3px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3% 10%;
+    background: #da2128;
+    letter-spacing: 1px; }
+    .yoga-services-page #top-banner .carousel-caption .btn:hover {
+      -webkit-box-shadow: 0px 0px 7px;
+      -o-box-shadow: 0px 0px 7px;
+      -moz-box-shadow: 0px 0px 7px;
+      box-shadow: 0px 0px 7px; }
+  @media (max-width: 900px) {
+    .yoga-services-page #top-banner .carousel-caption .btn {
+      font-size: 1.5vw;
+      font-size: calculateRem(1.5vw); } }
+.yoga-services-page .title, .yoga-services-page .container-page .block .block-title, .yoga-services-page .container-page .about-block .block-title, .yoga-services-page .container-page .benefit-block .block-title, .yoga-services-page .container-page .trainer-list-block-nav .block-title, .yoga-services-page .container-page .trainer-list-block .block-title, .yoga-services-page .container-page .yogi-block .block-title, .yoga-services-page .container-page .success-story-block .block-title, .yoga-services-page .gallery .block-title {
+  margin: 20px 0 35px 0;
+  position: relative;
+  text-align: center;
+  color: #db2128;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2vw;
+  font-size: calculateRem(2vw);
+  text-transform: uppercase; }
+  @media screen and (max-width: 650px) {
+    .yoga-services-page .title, .yoga-services-page .container-page .block .block-title, .yoga-services-page .container-page .about-block .block-title, .yoga-services-page .container-page .benefit-block .block-title, .yoga-services-page .container-page .trainer-list-block-nav .block-title, .yoga-services-page .container-page .trainer-list-block .block-title, .yoga-services-page .container-page .yogi-block .block-title, .yoga-services-page .container-page .success-story-block .block-title, .yoga-services-page .gallery .block-title {
+      font-size: 4vw;
+      font-size: calculateRem(4vw); }
+      .yoga-services-page .title .title-text, .yoga-services-page .container-page .block .block-title .title-text, .yoga-services-page .container-page .about-block .block-title .title-text, .yoga-services-page .container-page .benefit-block .block-title .title-text, .yoga-services-page .container-page .trainer-list-block-nav .block-title .title-text, .yoga-services-page .container-page .trainer-list-block .block-title .title-text, .yoga-services-page .container-page .yogi-block .block-title .title-text, .yoga-services-page .container-page .success-story-block .block-title .title-text, .yoga-services-page .gallery .block-title .title-text {
+        padding: 0 10px !important; } }
+  @media screen and (min-width: 2000px) {
+    .yoga-services-page .title, .yoga-services-page .container-page .block .block-title, .yoga-services-page .container-page .about-block .block-title, .yoga-services-page .container-page .benefit-block .block-title, .yoga-services-page .container-page .trainer-list-block-nav .block-title, .yoga-services-page .container-page .trainer-list-block .block-title, .yoga-services-page .container-page .yogi-block .block-title, .yoga-services-page .container-page .success-story-block .block-title, .yoga-services-page .gallery .block-title {
+      font-size: 35px;
+      font-size: calculateRem(35px); } }
+  .yoga-services-page .title:after, .yoga-services-page .container-page .block .block-title:after, .yoga-services-page .container-page .about-block .block-title:after, .yoga-services-page .container-page .benefit-block .block-title:after, .yoga-services-page .container-page .trainer-list-block-nav .block-title:after, .yoga-services-page .container-page .trainer-list-block .block-title:after, .yoga-services-page .container-page .yogi-block .block-title:after, .yoga-services-page .container-page .success-story-block .block-title:after, .yoga-services-page .gallery .block-title:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: #db2128;
+    top: 52%;
+    left: 10%;
+    z-index: 1; }
+  @media screen and (max-width: 320px) {
+    .yoga-services-page .title:after, .yoga-services-page .container-page .block .block-title:after, .yoga-services-page .container-page .about-block .block-title:after, .yoga-services-page .container-page .benefit-block .block-title:after, .yoga-services-page .container-page .trainer-list-block-nav .block-title:after, .yoga-services-page .container-page .trainer-list-block .block-title:after, .yoga-services-page .container-page .yogi-block .block-title:after, .yoga-services-page .container-page .success-story-block .block-title:after, .yoga-services-page .gallery .block-title:after {
+      width: 90%;
+      left: 5%; } }
+  .yoga-services-page .title .title-text, .yoga-services-page .container-page .block .block-title .title-text, .yoga-services-page .container-page .about-block .block-title .title-text, .yoga-services-page .container-page .benefit-block .block-title .title-text, .yoga-services-page .container-page .trainer-list-block-nav .block-title .title-text, .yoga-services-page .container-page .trainer-list-block .block-title .title-text, .yoga-services-page .container-page .yogi-block .block-title .title-text, .yoga-services-page .container-page .success-story-block .block-title .title-text, .yoga-services-page .gallery .block-title .title-text {
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+    background: #ffffff;
+    z-index: 2; }
+  @media (max-width: 517px) {
+    .yoga-services-page .title .title-text, .yoga-services-page .container-page .block .block-title .title-text, .yoga-services-page .container-page .about-block .block-title .title-text, .yoga-services-page .container-page .benefit-block .block-title .title-text, .yoga-services-page .container-page .trainer-list-block-nav .block-title .title-text, .yoga-services-page .container-page .trainer-list-block .block-title .title-text, .yoga-services-page .container-page .yogi-block .block-title .title-text, .yoga-services-page .container-page .success-story-block .block-title .title-text, .yoga-services-page .gallery .block-title .title-text {
+      max-width: 300px; } }
+  @media (max-width: 320px) {
+    .yoga-services-page .title .title-text, .yoga-services-page .container-page .block .block-title .title-text, .yoga-services-page .container-page .about-block .block-title .title-text, .yoga-services-page .container-page .benefit-block .block-title .title-text, .yoga-services-page .container-page .trainer-list-block-nav .block-title .title-text, .yoga-services-page .container-page .trainer-list-block .block-title .title-text, .yoga-services-page .container-page .yogi-block .block-title .title-text, .yoga-services-page .container-page .success-story-block .block-title .title-text, .yoga-services-page .gallery .block-title .title-text {
+      max-width: 205px; } }
+.yoga-services-page .container-page {
+  max-width: 1200px; }
+  .yoga-services-page .container-page .block, .yoga-services-page .container-page .about-block, .yoga-services-page .container-page .benefit-block, .yoga-services-page .container-page .trainer-list-block-nav, .yoga-services-page .container-page .trainer-list-block, .yoga-services-page .container-page .yogi-block, .yoga-services-page .container-page .success-story-block {
+    font-size: 14px;
+    font-size: calculateRem(14px);
+    line-height: 1.42857143;
+    margin-bottom: 15px;
+    padding: 20px 10px; }
+    @media screen and (max-width: 517px) {
+      .yoga-services-page .container-page .block, .yoga-services-page .container-page .about-block, .yoga-services-page .container-page .benefit-block, .yoga-services-page .container-page .trainer-list-block-nav, .yoga-services-page .container-page .trainer-list-block, .yoga-services-page .container-page .yogi-block, .yoga-services-page .container-page .success-story-block {
+        padding: 10px 10px; } }
+  .yoga-services-page .container-page .about-block .text {
+    margin: 0 !important;
+    padding: 0 5px !important; }
+    .yoga-services-page .container-page .about-block .text p {
+      text-align: left; }
+  .yoga-services-page .container-page .about-block .video {
+    padding: 0; }
+  .yoga-services-page .container-page .benefit-block {
+    padding-bottom: 40px; }
+    .yoga-services-page .container-page .benefit-block .left-img, .yoga-services-page .container-page .benefit-block .right-img {
+      padding: 7.5px 5px !important; }
+    @media (min-width: 1024px) {
+      .yoga-services-page .container-page .benefit-block .left-img {
+        padding: 5px 3px 5px 0  !important; }
+      .yoga-services-page .container-page .benefit-block .right-img {
+        padding: 5px 0 5px 3px  !important; } }
+    .yoga-services-page .container-page .benefit-block .text-center {
+      padding: 5px 40px; }
+    @media (max-width: 1024px) {
+      .yoga-services-page .container-page .benefit-block .text-center {
+        padding: 5px; } }
+  .yoga-services-page .container-page .trainer-list-block-nav .text-content {
+    width: 100%;
+    color: #000;
+    text-align: center; }
+    .yoga-services-page .container-page .trainer-list-block-nav .text-content p {
+      font-size: 14px;
+      font-size: calculateRem(14px);
+      margin: 20px 0 30px;
+      letter-spacing: 1px; }
+    .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center {
+      width: 100%;
+      text-align: center;
+      margin: 15px 0; }
+      .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center li {
+        float: none;
+        display: inline-block; }
+        .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center li a {
+          font-size: 14px;
+          font-size: calculateRem(14px);
+          font-weight: bold;
+          color: #000;
+          text-transform: uppercase;
+          background: none; }
+          .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center li a:hover {
+            color: #db2128; }
+        @media (max-width: 500px) {
+          .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center li a {
+            padding: 5px 5px !important; } }
+      .yoga-services-page .container-page .trainer-list-block-nav .text-content .navbar-center li.active a {
+        color: #db2128; }
+  .yoga-services-page .container-page .yogi-block {
+    padding-bottom: 40px; }
+    .yoga-services-page .container-page .yogi-block .text-center {
+      padding: 5px 40px; }
+    @media (max-width: 1024px) {
+      .yoga-services-page .container-page .yogi-block .text-center {
+        padding: 5px; } }
+    .yoga-services-page .container-page .yogi-block .image {
+      padding: 0 5px;
+      height: 700px; }
+      .yoga-services-page .container-page .yogi-block .image img {
+        float: left;
+        height: 49.5%;
+        width: 49.5%; }
+        .yoga-services-page .container-page .yogi-block .image img:first-child {
+          height: 100%;
+          width: 49.5%;
+          margin-right: .5%; }
+        .yoga-services-page .container-page .yogi-block .image img:nth-child(2) {
+          margin: 0 0 .5% .5%; }
+        .yoga-services-page .container-page .yogi-block .image img:last-child {
+          margin: .5% 0 0 .5%; }
+    @media (max-width: 992px) {
+      .yoga-services-page .container-page .yogi-block .image {
+        height: auto; }
+        .yoga-services-page .container-page .yogi-block .image img {
+          float: none; }
+          .yoga-services-page .container-page .yogi-block .image img:first-child {
+            height: auto;
+            width: 100%; }
+          .yoga-services-page .container-page .yogi-block .image img:nth-child(2), .yoga-services-page .container-page .yogi-block .image img:last-child {
+            height: auto;
+            width: 100%;
+            margin: 3% 0 1% 0; } }
+  .yoga-services-page .container-page .success-story-block .box {
+    padding: 10px 0px;
+    margin: 0px; }
+    .yoga-services-page .container-page .success-story-block .box .image {
+      padding-left: 5px !important;
+      padding-right: 5px !important; }
+      .yoga-services-page .container-page .success-story-block .box .image img {
+        width: 100%;
+        height: 100%; }
+    .yoga-services-page .container-page .success-story-block .box .text {
+      margin-top: 4% !important;
+      padding-left: 3%; }
+  @media (max-width: 517px) {
+    .yoga-services-page .container-page .success-story-block .box {
+      padding-bottom: 30px  !important; }
+      .yoga-services-page .container-page .success-story-block .box .image img {
+        width: 100%;
+        height: 100%; }
+      .yoga-services-page .container-page .success-story-block .box .text {
+        margin-top: 4% !important;
+        padding: 0 5px !important; } }
+  .yoga-services-page .container-page .success-story-block .see-more-btn {
+    text-align: center;
+    margin: 30px 0; }
+    .yoga-services-page .container-page .success-story-block .see-more-btn a {
+      text-decoration: none;
+      font-size: 17px;
+      font-size: calculateRem(17px);
+      color: #000;
+      padding: 5px 30px;
+      border: 2px solid #808285;
+      text-transform: uppercase;
+      font-weight: bold; }
+      .yoga-services-page .container-page .success-story-block .see-more-btn a:hover {
+        text-decoration: none;
+        background: #808285;
+        color: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
+.yoga-services-page .gallery {
+  max-width: 2000px;
+  margin-bottom: 40px; }
+.yoga-services-page #discover-1 .text-content {
+  position: relative;
+  margin: 0;
+  background: #00528c;
+  width: 100%;
+  color: #ffffff;
+  text-align: center; }
+  .yoga-services-page #discover-1 .text-content .container-page {
+    position: relative;
+    height: 100%; }
+    .yoga-services-page #discover-1 .text-content .container-page .nav-icon {
+      font-size: 3em;
+      font-size: calculateRem(3em);
+      position: absolute;
+      color: #ffffff;
+      top: 4px; }
+    .yoga-services-page #discover-1 .text-content .container-page .left {
+      left: 0%; }
+    .yoga-services-page #discover-1 .text-content .container-page .right {
+      right: 0%; }
+    @media (max-width: 1200px) {
+      .yoga-services-page #discover-1 .text-content .container-page .left {
+        left: 15px; }
+      .yoga-services-page #discover-1 .text-content .container-page .right {
+        right: 15px; } }
+    @media (max-width: 770px) {
+      .yoga-services-page #discover-1 .text-content .container-page .nav-icon {
+        font-size: 3em;
+        font-size: calculateRem(3em);
+        position: absolute;
+        color: #ffffff;
+        top: 2px; } }
+    @media (max-width: 560px) {
+      .yoga-services-page #discover-1 .text-content .container-page .nav-icon {
+        display: none; } }
+  .yoga-services-page #discover-1 .text-content .carousel-indicators {
+    position: initial;
+    bottom: initial;
+    left: initial;
+    z-index: initial;
+    width: initial;
+    padding-left: initial;
+    margin-left: initial;
+    list-style: initial; }
+    .yoga-services-page #discover-1 .text-content .carousel-indicators .active {
+      width: initial;
+      height: initial;
+      margin: initial;
+      background-color: initial; }
+    .yoga-services-page #discover-1 .text-content .carousel-indicators li {
+      display: initial;
+      width: initial;
+      height: initial;
+      margin: initial;
+      text-indent: initial;
+      cursor: initial;
+      background-color: initial;
+      background-color: initial;
+      border: initial;
+      border-radius: initial; }
+  .yoga-services-page #discover-1 .text-content .navbar-center {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; }
+    .yoga-services-page #discover-1 .text-content .navbar-center li {
+      float: none;
+      display: inline-block; }
+      .yoga-services-page #discover-1 .text-content .navbar-center li a {
+        font-weight: 600;
+        font-size: 14px;
+        font-size: calculateRem(14px);
+        color: #ffffff;
+        text-transform: uppercase;
+        background: none; }
+        .yoga-services-page #discover-1 .text-content .navbar-center li a:hover:after {
+          content: '';
+          position: absolute;
+          left: 10%;
+          display: inline-block;
+          height: 1em;
+          width: 80%;
+          border-bottom: 1px solid;
+          margin-top: 8px; }
+      @media (max-width: 750px) {
+        .yoga-services-page #discover-1 .text-content .navbar-center li a {
+          font-size: 11px;
+          font-size: calculateRem(11px); } }
+      @media (max-width: 600px) {
+        .yoga-services-page #discover-1 .text-content .navbar-center li a {
+          font-size: 9px;
+          font-size: calculateRem(9px); } }
+      @media (max-width: 500px) {
+        .yoga-services-page #discover-1 .text-content .navbar-center li a {
+          padding: 5px !important; } }
+      @media (max-width: 370px) {
+        .yoga-services-page #discover-1 .text-content .navbar-center li a {
+          font-size: 7px;
+          font-size: calculateRem(7px);
+          padding: 2px !important; } }
+    .yoga-services-page #discover-1 .text-content .navbar-center li.active a:after {
+      content: '';
+      position: absolute;
+      left: 10%;
+      display: inline-block;
+      height: 1em;
+      width: 80%;
+      border-bottom: 1px solid;
+      margin-top: 8px; }
+.yoga-services-page #discover-1 .carousel-caption {
+  text-transform: uppercase;
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .yoga-services-page #discover-1 .carousel-caption .btn {
+    font-size: 2vw;
+    font-size: calculateRem(2vw);
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 5%;
+    color: #ffffff;
+    background: rgba(58, 123, 173, 0.8); }
+    .yoga-services-page #discover-1 .carousel-caption .btn:hover {
+      background: #3a7bad; }
+  .yoga-services-page #discover-1 .carousel-caption h3 {
+    font-size: 1.8vw;
+    font-size: calculateRem(1.8vw);
+    margin-top: 8%;
+    letter-spacing: 2px; }
+  .yoga-services-page #discover-1 .carousel-caption .text {
+    font-size: 1.4vw;
+    font-size: calculateRem(1.4vw);
+    margin: 3% 0 10% 0;
+    letter-spacing: 1px;
+    line-height: 150%; }
+  @media (max-width: 600px) {
+    .yoga-services-page #discover-1 .carousel-caption {
+      left: 10px;
+      right: 10px; }
+      .yoga-services-page #discover-1 .carousel-caption .btn {
+        font-size: 2vw;
+        font-size: calculateRem(2vw);
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 4%;
+        color: #ffffff;
+        background: rgba(58, 123, 173, 0.8); }
+        .yoga-services-page #discover-1 .carousel-caption .btn:hover {
+          background: #3a7bad; }
+      .yoga-services-page #discover-1 .carousel-caption h3 {
+        font-size: 2.5vw;
+        font-size: calculateRem(2.5vw);
+        margin-top: 5%;
+        letter-spacing: 2px; }
+      .yoga-services-page #discover-1 .carousel-caption .text {
+        font-size: 1.8vw;
+        font-size: calculateRem(1.8vw);
+        margin: 3% 0 5% 0;
+        letter-spacing: 1px;
+        line-height: 150%; } }
+.yoga-services-page #discover-2 .carousel-indicators {
+  left: 10%;
+  bottom: 3%; }
+.yoga-services-page #discover-2 .carousel-caption {
+  font-size: 11px;
+  font-size: calculateRem(11px);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgba(35, 82, 117, 0.6);
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: initial;
+  padding: 2% 0; }
+
+/**
+ * PgwSlider - Version 2.3
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwSlider {
+  width: 100%;
+  color: #fff; }
+
+.pgwSlider a {
+  display: block;
+  text-decoration: none;
+  color: #fff; }
+
+.pgwSlider .ps-current {
+  float: left;
+  width: 83%;
+  overflow: auto;
+  height: inherit;
+  position: relative;
+  font-size: 1rem; }
+
+@media screen and (max-width: 517px) {
+  .pgwSlider .ps-current {
+    overflow: hidden; } }
+.pgwSlider.listOnTheLeft .ps-current {
+  float: right; }
+
+.pgwSlider .ps-current ul {
+  width: 100%; }
+
+@media screen and (max-width: 517px) {
+  .pgwSlider .ps-current ul {
+    display: none; } }
+.pgwSlider .ps-current li {
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: none; }
+
+.pgwSlider .ps-current > ul > li > img {
+  max-width: 100%;
+  min-width: 50%;
+  height: auto;
+  display: none;
+  transition: margin-top 250ms linear; }
+
+.pgwSlider .ps-caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  display: none;
+  z-index: 3; }
+
+.pgwSlider .ps-caption img {
+  float: left;
+  height: 100%;
+  vertical-align: center;
+  padding-right: 10%; }
+
+.pgwSlider .ps-caption .trainer-info {
+  font-size: 14px;
+  font-size: calculateRem(14px);
+  position: relative;
+  max-width: 100%; }
+
+.pgwSlider .ps-caption .trainer-info .trainer-name, .pgwSlider .ps-caption .trainer-info .trainer-job {
+  text-transform: uppercase;
+  color: #db2128; }
+
+.pgwSlider .ps-caption .trainer-info .trainer-name {
+  font-size: 17px;
+  font-size: calculateRem(17px);
+  font-weight: bold; }
+
+.pgwSlider .ps-caption .trainer-info .trainer-job {
+  font-weight: normal; }
+
+.pgwSlider .ps-caption .trainer-info .description p {
+  color: #000;
+  margin: 15px 0;
+  font-weight: normal; }
+
+@media screen and (max-width: 500px) {
+  .pgwSlider .ps-caption {
+    position: relative; }
+
+  .pgwSlider .ps-caption img {
+    position: relative;
+    margin: 0 25%;
+    float: left;
+    width: 50% !important; }
+
+  .pgwSlider .ps-caption .trainer-info {
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 5px; } }
+@media screen and (min-width: 501px) and (max-width: 517px) {
+  .pgwSlider .ps-caption {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: 3; }
+
+  .pgwSlider .ps-caption img {
+    position: relative;
+    float: left;
+    width: 50% !important; }
+
+  .pgwSlider .ps-caption .trainer-info {
+    position: relative;
+    float: left;
+    width: 50%;
+    left: 0;
+    top: 0; }
+
+  .pgwSlider .ps-caption .trainer-info .trainer-name {
+    font-weight: bold; }
+
+  .pgwSlider .ps-caption .trainer-info .trainer-job {
+    font-weight: normal; }
+
+  .pgwSlider .ps-caption .trainer-info .description p {
+    color: #000;
+    margin: 0 0;
+    font-weight: normal; } }
+ul.pgwSlider,
+.pgwSlider ul {
+  float: right;
+  width: 15%;
+  padding: 0;
+  list-style: none;
+  margin: 0; }
+
+ul.pgwSlider.listOnTheLeft,
+.pgwSlider.listOnTheLeft > ul {
+  float: right; }
+
+ul.pgwSlider > li,
+.pgwSlider > .ps-list > li {
+  height: 50px;
+  margin: 0 0 6px 0;
+  overflow: hidden;
+  position: relative;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  font-size: 0.8rem;
+  transition: opacity 200ms linear; }
+
+ul.pgwSlider > li:last-child,
+.pgwSlider > ul > li:last-child {
+  margin-bottom: 0; }
+
+.pgwSlider > .ps-list {
+  float: left !important;
+  position: relative;
+  left: 0; }
+
+@media screen and (max-width: 517px) {
+  .pgwSlider > .ps-list {
+    left: 0; } }
+ul.pgwSlider > li span,
+.pgwSlider > .ps-list > li span {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+ul.pgwSlider > li:hover,
+.pgwSlider > ul > li:hover {
+  opacity: 1 !important; }
+
+ul.pgwSlider > li img,
+.pgwSlider > ul > li img {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  transition: margin-top 250ms linear; }
+
+.pgwSlider .ps-prevIcon {
+  border-color: transparent #fff transparent;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  display: block; }
+
+.pgwSlider .ps-nextIcon {
+  border-color: transparent #fff transparent;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  display: block; }
+
+.pgwSlider .ps-current .ps-prev {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+  border: 1px solid #777;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  padding: 20px 20px 20px 17px;
+  left: 0;
+  top: 45%;
+  cursor: pointer; }
+
+.pgwSlider .ps-current .ps-next {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+  border: 1px solid #777;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+  position: absolute;
+  padding: 20px 17px 20px 20px;
+  right: 0;
+  top: 45%;
+  cursor: pointer; }
+
+/*
+ * The media-queries are not used because IE8 doesn't support them.
+ */
+.pgwSlider.narrow .ps-current {
+  position: relative;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+  height: auto !important; }
+
+.pgwSlider.narrow .ps-current img {
+  width: 100%;
+  min-height: inherit; }
+
+.pgwSlider.narrow .ps-current,
+ul.pgwSlider.narrow,
+.pgwSlider.narrow > ul {
+  width: 100%; }
+
+ul.pgwSlider.narrow > li,
+.pgwSlider.narrow > .ps-list > li {
+  float: left;
+  min-height: 57px;
+  max-height: 70px;
+  min-width: 15%;
+  font-size: 0.7rem;
+  margin-bottom: 0; }
+
+ul.pgwSlider.narrow.listOnTheLeft > li,
+.pgwSlider.narrow.listOnTheLeft > ul > li {
+  float: left; }
+
+.pgwSlider.narrow .ps-caption {
+  padding: 8px; }
+
+.pgwSlider.narrow .ps-current .ps-prev {
+  padding: 15px 15px 15px 12px;
+  top: 40%; }
+
+.pgwSlider.narrow .ps-current .ps-next {
+  padding: 15px 12px 15px 15px;
+  top: 40%; }
+
+/*# sourceMappingURL=yoga-services.css.map */

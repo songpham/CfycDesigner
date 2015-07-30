@@ -1,0 +1,167 @@
+.cfyc-memberships {
+  /*close media 2000px*/
+  /*close media 767*/ }
+  .cfyc-memberships img, .cfyc-memberships p, .cfyc-memberships h1, .cfyc-memberships h2, .cfyc-memberships h3, .cfyc-memberships h4, .cfyc-memberships a {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+  .cfyc-memberships .banner-top {
+    position: relative; }
+    .cfyc-memberships .banner-top h1.headline {
+      font-size: 130px;
+      font-size: calculateRem(130px);
+      color: #ffffff;
+      font-weight: 100;
+      text-transform: uppercase;
+      position: absolute;
+      top: 3%;
+      left: 7%; }
+  .cfyc-memberships .video {
+    padding: 35px 0;
+    margin-top: 20px; }
+    .cfyc-memberships .video .pLeft0 {
+      padding-left: 0; }
+    .cfyc-memberships .video .pRight0 {
+      padding-right: 0; }
+    .cfyc-memberships .video .desc-video {
+      position: relative;
+      top: 70px;
+      text-align: justify; }
+  .cfyc-memberships .top-content {
+    text-align: center;
+    margin-top: 20px; }
+    .cfyc-memberships .top-content .strike {
+      display: block;
+      text-align: center;
+      overflow: hidden;
+      margin: 20px 0; }
+      .cfyc-memberships .top-content .strike h1 {
+        position: relative;
+        display: inline-block;
+        color: #db2128;
+        text-transform: uppercase;
+        line-height: 1.3em;
+        letter-spacing: .1em;
+        font-size: 35px;
+        font-size: calculateRem(35px);
+        max-width: 700px; }
+        .cfyc-memberships .top-content .strike h1:before, .cfyc-memberships .top-content .strike h1:after {
+          content: "";
+          position: absolute;
+          top: 37%;
+          width: 9999px;
+          height: 2px;
+          background: #e60000; }
+        .cfyc-memberships .top-content .strike h1:before {
+          right: 100%;
+          margin-right: 15px; }
+        .cfyc-memberships .top-content .strike h1:after {
+          left: 100%;
+          margin-left: 15px; }
+  .cfyc-memberships .gallery {
+    padding: 2% 0; }
+    .cfyc-memberships .gallery img {
+      margin-bottom: 22.5px; }
+    .cfyc-memberships .gallery .pLeft0 {
+      padding-left: 0; }
+    .cfyc-memberships .gallery .pRight0 {
+      padding-right: 0; }
+    .cfyc-memberships .gallery .pLeftRight75 {
+      padding-left: 7.5px;
+      padding-right: 7.5px; }
+  .cfyc-memberships .banner-bottom {
+    top: 50px;
+    position: relative;
+    margin-bottom: 60px; }
+    .cfyc-memberships .banner-bottom .text-box {
+      position: absolute;
+      top: 10%;
+      left: 7%;
+      text-transform: uppercase; }
+      .cfyc-memberships .banner-bottom .text-box h1 {
+        font-weight: 100;
+        color: #ffffff; }
+      .cfyc-memberships .banner-bottom .text-box h1.yellow {
+        font-weight: 300;
+        color: #ffe600;
+        margin-top: 0px;
+        margin-bottom: 6%; }
+      .cfyc-memberships .banner-bottom .text-box h3 {
+        font-weight: 300;
+        margin-top: 6%;
+        color: #ffffff; }
+      .cfyc-memberships .banner-bottom .text-box a.cta {
+        padding: 2% 5%;
+        background: #ffe600;
+        font-size: 15px;
+        font-size: calculateRem(15px);
+        color: #000;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out; }
+        .cfyc-memberships .banner-bottom .text-box a.cta:hover {
+          background: #ffff25;
+          text-decoration: none; }
+  @media (max-width: 2000px) {
+    .cfyc-memberships .top-content .strike h1 {
+      font-size: 2.5vw;
+      font-size: calculateRem(2.5vw); }
+    .cfyc-memberships .banner-top h1.headline {
+      font-size: 6vw;
+      font-size: calculateRem(6vw); }
+    .cfyc-memberships .banner-bottom .text-box h1 {
+      font-size: 2.8vw;
+      font-size: calculateRem(2.8vw); }
+    .cfyc-memberships .banner-bottom .text-box h3 {
+      font-size: 2vw;
+      font-size: calculateRem(2vw); }
+    .cfyc-memberships .banner-bottom .text-box a.cta {
+      font-size: 1.5vw;
+      font-size: calculateRem(1.5vw); } }
+  @media (max-width: 1024px) {
+    .cfyc-memberships .video .desc-video {
+      top: 0px; } }
+  @media (max-width: 767px) {
+    .cfyc-memberships .video {
+      margin-top: 0;
+      padding: 20px 0; }
+      .cfyc-memberships .video .pLeft0, .cfyc-memberships .video .pRight0 {
+        padding: 0; }
+      .cfyc-memberships .video .desc-video {
+        margin-bottom: 20px; }
+    .cfyc-memberships .top-content {
+      margin-top: 0; }
+    .cfyc-memberships .gallery {
+      padding: 1% 0; }
+      .cfyc-memberships .gallery img {
+        margin-bottom: 15px; }
+      .cfyc-memberships .gallery .pLeft0 {
+        padding-left: 15px; }
+      .cfyc-memberships .gallery .pRight0 {
+        padding-right: 15px; }
+      .cfyc-memberships .gallery .pLeftRight75 {
+        padding-left: 15px;
+        padding-right: 15px; }
+      .cfyc-memberships .gallery .pLeft75 {
+        padding-left: 7.5px; }
+      .cfyc-memberships .gallery .pRight75 {
+        padding-right: 7.5px; }
+    .cfyc-memberships .banner-bottom {
+      top: 20px;
+      margin-bottom: 30px; } }
+  @media (max-width: 600px) {
+    .cfyc-memberships .banner-top h1.headline {
+      top: -2%; }
+    .cfyc-memberships .top-content .strike h1 {
+      font-size: 4vw;
+      font-size: calculateRem(4vw); }
+    .cfyc-memberships .banner-bottom .text-box {
+      top: -2%; } }
+
+/*close class membership-cfy-page*/
+
+/*# sourceMappingURL=cfyc-memberships.css.map */
