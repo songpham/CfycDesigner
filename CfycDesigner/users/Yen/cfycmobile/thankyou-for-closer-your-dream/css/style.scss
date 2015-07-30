@@ -1,0 +1,117 @@
+@import "../../../../../style_standard";
+body, html {
+    height: 100%;
+    font-size: 14px;
+}
+.thankyou {
+    background: url(../images/responsive-480/bg-300.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    color: $white;
+    background-position: center;
+   .content {
+       position: relative;
+       top: 15px;
+       padding: 15px;
+       h1 {
+           @include font-size(30px);
+       }
+       h2 {
+           @include font-size(16px);
+           margin-bottom: 15px;
+           line-height: 1.3em;
+       }
+       label {
+           font-weight: normal;
+           @include font-size(14px);
+           margin-top: 15px;
+       }
+       ul {
+           list-style: none;
+           @include font-size(14px);
+           margin: 15px -30px;
+       }
+       p {
+           @include font-size(16px);
+           margin-top: 20px;
+           display: block;
+       }
+    }
+}
+@media only screen and (min-width: 768px) {
+    .thankyou {
+        background-image: url(../images/responsive-1024/bg-900.jpg);
+        min-height: 1350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $white;
+        background-position: center;
+       .content {
+           position: relative;
+           top: 70px;
+           padding: 30px;
+           h1 {
+               @include font-size(60px);
+           }
+           h2 {
+               @include font-size(30px);
+               margin-bottom: 20px;
+               line-height: 1.3em;
+           }
+           label {
+               font-weight: normal;
+               @include font-size(23px);
+               margin-top: 20px;
+           }
+           ul {
+               list-style: none;
+               @include font-size(23px);
+               margin: 25px auto;
+           }
+           p {
+               @include font-size(30px);
+               margin-top: 25px;
+               display: block;
+           }
+        }
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .thankyou {
+        background-image: url(../images/responsive-768/bg-600.jpg);
+        min-height: 900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $white;
+        background-position: center;
+       .content {
+           position: relative;
+           top: 30px;
+           padding: 20px;
+           h1 {
+               @include font-size(40px);
+           }
+           h2 {
+               @include font-size(25px);
+               margin-bottom: 20px;
+               line-height: 1.3em;
+           }
+           label {
+               font-weight: normal;
+               @include font-size(18px);
+               margin-top: 20px;
+           }
+           ul {
+               list-style: none;
+               @include font-size(18px);
+               margin: 20px auto;
+           }
+           p {
+               @include font-size(25px);
+               margin-top: 20px;
+               display: block;
+           }
+        }
+    }
+}

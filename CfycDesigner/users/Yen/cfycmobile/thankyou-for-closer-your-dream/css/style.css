@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/**
+ * use it when its container has position is relative and height is defined
+ * i.e: @include drop-Shadow
+ */
+/**
+ * Rem is similar to the em value, but instead of being relative to the parent element itΓÇÖsrelative to the font-size set in the.
+ * It has all the benefits of em but you donΓÇÖt get issues with e.g (compounding) since rem is only relative to the html element.
+ * Usage:
+    p {
+        @include font-size(14px)
+    }
+ */
+/**
+ * Instead of calling them @media (min-width: 600px) we can give them more semantic names like ΓÇ£breakpoint-largeΓÇ¥ or ΓÇ£breakpoint-a-really-large-computer-machineΓÇ¥.
+ * Usage:
+    .sidebar {
+        width: 60%
+        float: left;
+        margin: 0 2% 0 0;
+        @include bp-small {
+            width: 100%;
+            float: none;
+            margin: 0;
+        }
+    }
+ */
+/**
+ * This mixin ensures cross browser opacity all the way down to Internet Explorer 5. Though if you have to optomize for IE5, you have a lot bigger problems than opacity, godspeed my friend.
+ *  Usage:
+    .faded-text {
+        @include opacity(0.8);
+    }
+ */
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  color: #000000;
+  word-wrap: break-word; }
+  body .form-control {
+    width: auto;
+    max-width: 100%; }
+  body .text-left {
+    text-align: left !important; }
+  body .text-right {
+    text-align: right !important; }
+  body .text-center {
+    text-align: center !important; }
+  body .text-white {
+    color: #ffffff !important; }
+  body .text-green {
+    color: gree !important; }
+  body .text-green-bold {
+    color: green !important;
+    font-weight: bold; }
+  body .text-red {
+    color: red !important; }
+  body .text-blue {
+    color: blue; }
+  body .text-grey {
+    color: grey !important; }
+  body .text-strong {
+    font-weight: bold !important; }
+  body .text-uppercase {
+    text-transform: uppercase !important; }
+  body .padding10 {
+    padding: 10px; }
+  body img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%; }
+  body a {
+    color: #000000; }
+    body a:hover {
+      color: #000000; }
+  body h1, body h2, body h3, body h4, body p {
+    margin: 0;
+    margin-bottom: 5px; }
+  body h1 {
+    font-size: 25px;
+    font-size: 1.5625rem; }
+  body h2 {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    line-height: 21px; }
+  body h3 {
+    font-size: 19px;
+    font-size: 1.1875rem; }
+  body h4 {
+    font-size: 15px;
+    font-size: 0.9375rem; }
+  body p {
+    font-size: 14px;
+    font-size: 0.875rem; }
+  body label {
+    font-size: 14px;
+    font-size: 0.875rem; }
+  body .space {
+    clear: both;
+    display: block;
+    height: 10px; }
+  body .space15 {
+    clear: both;
+    display: block;
+    height: 15px; }
+  body .space2 {
+    clear: both;
+    display: block;
+    height: 20px; }
+  body .space3 {
+    clear: both;
+    display: block;
+    height: 30px; }
+  body .space4 {
+    clear: both;
+    display: block;
+    height: 40px; }
+  body .fix-nowrap {
+    white-space: nowrap; }
+  body .fix-long-text {
+    word-break: break-all; }
+  body .fix-comment-long-url {
+    -ms-word-break: break-all;
+    /* Be VERY careful with this, breaks normal words wh_erever */
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto; }
+
+body, html {
+  height: 100%;
+  font-size: 14px; }
+
+.thankyou {
+  background: url(../images/responsive-480/bg-300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  color: #ffffff;
+  background-position: center; }
+  .thankyou .content {
+    position: relative;
+    top: 15px;
+    padding: 15px; }
+    .thankyou .content h1 {
+      font-size: 30px;
+      font-size: 1.875rem; }
+    .thankyou .content h2 {
+      font-size: 16px;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.3em; }
+    .thankyou .content label {
+      font-weight: normal;
+      font-size: 14px;
+      font-size: 0.875rem;
+      margin-top: 15px; }
+    .thankyou .content ul {
+      list-style: none;
+      font-size: 14px;
+      font-size: 0.875rem;
+      margin: 15px -30px; }
+    .thankyou .content p {
+      font-size: 16px;
+      font-size: 1rem;
+      margin-top: 20px;
+      display: block; }
+
+@media only screen and (min-width: 768px) {
+  .thankyou {
+    background-image: url(../images/responsive-1024/bg-900.jpg);
+    min-height: 1350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-position: center; }
+    .thankyou .content {
+      position: relative;
+      top: 70px;
+      padding: 30px; }
+      .thankyou .content h1 {
+        font-size: 60px;
+        font-size: 3.75rem; }
+      .thankyou .content h2 {
+        font-size: 30px;
+        font-size: 1.875rem;
+        margin-bottom: 20px;
+        line-height: 1.3em; }
+      .thankyou .content label {
+        font-weight: normal;
+        font-size: 23px;
+        font-size: 1.4375rem;
+        margin-top: 20px; }
+      .thankyou .content ul {
+        list-style: none;
+        font-size: 23px;
+        font-size: 1.4375rem;
+        margin: 25px auto; }
+      .thankyou .content p {
+        font-size: 30px;
+        font-size: 1.875rem;
+        margin-top: 25px;
+        display: block; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .thankyou {
+    background-image: url(../images/responsive-768/bg-600.jpg);
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-position: center; }
+    .thankyou .content {
+      position: relative;
+      top: 30px;
+      padding: 20px; }
+      .thankyou .content h1 {
+        font-size: 40px;
+        font-size: 2.5rem; }
+      .thankyou .content h2 {
+        font-size: 25px;
+        font-size: 1.5625rem;
+        margin-bottom: 20px;
+        line-height: 1.3em; }
+      .thankyou .content label {
+        font-weight: normal;
+        font-size: 18px;
+        font-size: 1.125rem;
+        margin-top: 20px; }
+      .thankyou .content ul {
+        list-style: none;
+        font-size: 18px;
+        font-size: 1.125rem;
+        margin: 20px auto; }
+      .thankyou .content p {
+        font-size: 25px;
+        font-size: 1.5625rem;
+        margin-top: 20px;
+        display: block; } }
+
+/*# sourceMappingURL=style.css.map */

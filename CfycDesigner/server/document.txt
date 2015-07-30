@@ -1,0 +1,4 @@
+Slim: http://docs.slimframework.com/
+How to works:
+    - init router
+    - init projects/folders

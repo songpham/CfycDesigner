@@ -1,0 +1,97 @@
+
+h1.TitlePage {
+    font-size: 23px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    word-spacing: -4px;
+    letter-spacing: 0;
+    font-family: Arial;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-top: 15px;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+}
+h2.headline-2 {
+    padding: 40px 0;
+    margin-bottom: -40px;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+    text-align: justify;
+}
+.districtContent .titleArticle {
+    padding: 20px 10px 10px 0;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+.dTitle h3.pull-left {
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+.districtContent button {
+    background: #da2128;
+    color: #fff;
+    position: relative;
+    right: 12px;
+    top: 20px;
+}
+.districtContent button:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.districtContent .viewMore {
+    width: 100%;
+    padding-top: 0;
+}
+.dContent p {
+    padding-bottom: 15px;
+}
+.districtContent .viewMore a,
+.viewLearnMore a {
+    padding: 5px 10px;
+    width: 90%;
+}
+.titleArticle h3 {
+    font-weight: 400;
+    color: #888;
+    display: inline-block;
+    font-size: 20px;
+    word-spacing: -1px;
+    font-family: Arial;
+}
+.dTitle h3 {
+    display: inline-block;
+}
+.dContent {
+    width: 492px;
+    float: left;
+    margin-left: 20px;
+}
+.dContact {
+    width: 456px;
+    float: left;
+    margin-left: 15px;
+    background-color: #eaebeb;
+    padding: 15px 15px;
+}
+.dContact .left {
+    width: 65%;
+}
+.dContact .right {
+    width: 30%;
+}
+.dSlideImage:hover a.right,
+.listClassesHome:hover a.right,
+.slideArticleContent:hover a.right {
+    background-position: 0px 50%;
+}
+
+.slides img {
+    opacity: .8;
+}
+.slides .flex-active-slide img,
+.slides  img:hover{
+opacity: 1;
+}
