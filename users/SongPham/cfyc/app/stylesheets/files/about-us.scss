@@ -1,4 +1,120 @@
 @import '../lib';
 .about-us {
+    img, p, h1, h2, h3, h4, a {
+        @include transition(all .3s ease-out);
+    }
+    .banner-top {
+        position: relative;
+        h1.headline {
+            @include font-size(60px);
+            color: $red;
+            font-weight: 100;
+            text-transform: uppercase;
+            position: absolute;
+            left: 3%;
+            bottom: 16%;
+            padding: 1% 2%;
+            border: 1px solid $red;
+            span {
+                font-weight: 300;
+            }
+        }
+    }
+    .quotes-block {
+        text-align: center;
+        padding: 5% 0;
+        h3 {
+            clear: both;
+            text-indent: 30px;
+            margin: 0;
+            padding: 0 20px;
+            line-height: 1.3em;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+        span.open-quotes, span.close-quotes {
+            @include font-size(90px);
+            line-height: .5em;
+            margin-bottom: -35px;
+        }
+        span.open-quotes {
+            float: left;
+        }
+        span.close-quotes {
+            float: right;
+        }
+    }
+    .randy-quotes {
+        background: url(../img/about-us/randy-block.jpg) center top no-repeat;
+        @include background-size(cover);
+        color: $white;
+        min-height: 500px;
+        position: relative;
+        .quotes {
+            blockquote {
+                position: absolute;
+                top: 100px;
+            }
+        }
+    }
+    .info {
+        padding: 5% 0 3% 0;
+        text-align: justify;
+        p {
+            margin-bottom: 25px;
+        }
+    }
+    .gallery {
+        margin-bottom: 30px;
+    }
 
+    @media (max-width: 2000px) {
+        .banner-top {
+            h1.headline {
+                @include font-size(5vw);
+            }
+        }
+    }/*close media 2000px*/
+    @media (max-width: $breakpoint_tablet) {
+        .gallery {
+            margin-bottom: 15px;
+            .col-xs-6:first-child, .col-sm-6:first-child, .col-md-6:first-child { padding-right: 7.5px;
+            }
+            .col-xs-6:last-child, .col-sm-6:last-child, .col-md-6:last-child { padding-left: 7.5px;}
+        }
+    }/*close media 1024*/
+    @media (max-width: 991px) {
+        .randy-quotes {
+            background-position: 60%;
+        }
+    }
+    @media (max-width: 767px) {
+        .info {
+            padding: 7% 0 3% 0;
+        }
+        .randy-quotes {
+            background-position: 70%;
+        }
+        .quotes-block {
+            padding: 7% 0;
+            span.open-quotes, span.close-quotes {
+                @include font-size(50px);
+            }
+            h3 {
+                @include font-size(14px);
+            }
+        }
+        .randy-quotes {
+            .quotes {
+                position: initial;
+                blockquote {
+                    bottom: 0px;
+                    top: auto;
+                    margin-right: 15px;
+                    @include font-size(13px);
+                    background: rgba(0,0,0,.3);
+                }
+            }
+        }
+    }/*close media 767 */
 }
