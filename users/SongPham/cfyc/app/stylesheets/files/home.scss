@@ -213,19 +213,25 @@
             .celebrities {
                 background: url('../img/home/california-wow-celeb-member-bg.jpg') 0 0 repeat transparent;
                 padding: 30px 0;
-                img {
-                    max-width: 100%;
-                    border: 1px solid #989898;
-                    border-radius:150px;
-                    padding:10px;
+                .celeb-items{
+                    img {
+                        max-width: 100%;
+                        border: 1px solid #989898;
+                        border-radius:150px;
+                        padding:10px;
+                    }
+                    p {
+                        color: $white;
+                        font-weight: bold;
+                        margin: 15px 0;
+                    }
                 }
-                :hover{
-                    border-color:#da2128;
+                .celeb-items:hover img{
+                    border-color: $red;
+                    cursor: pointer;
                 }
-                p {
-                    color: $white;
-                    font-weight: bold;
-                    margin: 15px 0;
+                .celeb-items:hover p{
+                    color: $red;
                 }
             }
             .features_stories {
