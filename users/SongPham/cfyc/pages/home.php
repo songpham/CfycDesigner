@@ -396,4 +396,3 @@
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/home.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/jquery.slimscroll.min.js"></script>
