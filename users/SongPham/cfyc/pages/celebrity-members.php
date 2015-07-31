@@ -11,51 +11,156 @@
             <div class="col-md-12 text-center">
                 <div class="row celebrities">
                     <div class="col-md-12 text-center">
-                        <div class="row">
-                            <div class="col-md-2 hide-sm hide-xs text-center">
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Ngoc Ha</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Hoang My</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Vinh Khoa</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Thuy Trang</p>
-                            </div>
-                            <div class="col-md-2 hide-sm hide-xs text-center">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="whitespace"></div>
-                            <div class="col-md-2 hide-sm hide-xs text-center">
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Ngoc Ha</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Hoang My</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Vinh Khoa</p>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Thuy Trang</p>
-                            </div>
-                            <div class="col-md-2 hide-sm hide-xs text-center">
-                    	    </div>
-                        </div>
+						<div class="row gallery">
+					        <div id="movetopbanner" class="carousel slide" data-ride="carousel">
+					          <div class="carousel-inner" role="listbox">
+					            <div class="item active">
+									<div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+					            </div>
+					           <div class="item">
+					              <div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+					            </div>
+					            <div class="item">
+					              <div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Ngoc Ha</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+											<p>Hoang My</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+											<p>Ho Vinh Khoa</p>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
+											<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+											<p>Thuy Trang</p>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div>
+					            </div>
+					          </div>
+					          <a class="left carousel-control" href="#movetopbanner" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							  </a>
+							  <a class="right carousel-control" href="#movetopbanner" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							  </a>
+					        </div>
+					    </div>
                     </div>
                 </div>
             </div>
