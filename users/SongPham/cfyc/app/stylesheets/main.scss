@@ -86,17 +86,20 @@ footer {
             .last-brand {
                 div.tooltip.fade.bottom.in, div.tooltip.fade.bottom {left:-100px !important;}
             }
-            .icons {
-                @include font-size(30px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
-                text-align: center; height:45px; width: 45px; padding-top: 7px; margin: 50px 0;
-                &:hover { color: #999999; border:2px #999999 solid; }
-            }
-            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
-                a {
-                    color: $footer_link;
-                    &:hover { color: $footer_hover; }
-                }
-            }
+            
+			.icon-div {	padding:0px 20px;
+	            .icons {
+	                @include font-size(40px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
+	                text-align: center; height:60px; width: 60px; padding-top: 9px; margin: 50px 0;
+	                &:hover { color: #999999; border:2px #999999 solid; }
+					}
+	            }
+	            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
+	                a {
+	                    color: $footer_link;
+	                    &:hover { color: $footer_hover; }
+	                }
+				}
         }
     }
     p { color: $white; text-align: center; @include font-size(14px); margin-bottom: 0px; }
