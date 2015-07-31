@@ -68,13 +68,13 @@
         </li>
     </ul>
 </nav>
-<div class="logo">
+<a class="logo" href="<?php echo USER_BASE_URL ?>">
     <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
-</div>
+</a>
 <nav id="desktop-navigation">
-    <div class="logo">
+    <a class="logo" href="<?php echo USER_BASE_URL ?>">
         <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
-    </div>
+    </a>
     <ul class="desktop-menu">
         <li><a href="#">Trang Chủ</a></li>
         <li><a href="#" data-index="0">Câu Lạc Bộ</a></li>

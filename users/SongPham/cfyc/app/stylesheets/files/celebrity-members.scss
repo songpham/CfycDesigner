@@ -1,0 +1,49 @@
+@import '../lib';
+.celebrity-members-page {
+    .container-fluid {
+        padding: 0px;
+        .gallery {
+            position: relative;
+            img {
+               max-width: 100%;
+            }
+        }
+    }
+    .top-content {
+        .holder-top-content {
+			.whitespace {
+                padding:10px 0;
+                clear:both;
+            }
+            .celebrities {
+                background: $white;
+                padding: 30px 0;
+                img {
+                    max-width: 100%;
+                    border: 1px solid #989898;
+                    border-radius:150px;
+                    padding:10px;
+                }
+                :hover{
+                    border-color:#da2128;
+                }
+                p {
+                    color: #333;
+                    font-weight: bold;
+                    margin: 15px 0;
+                }
+            }
+            .features_stories {
+                div {
+                    img {
+                        max-width: 100%;
+                    }
+                    p {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+}
