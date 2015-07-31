@@ -25,11 +25,11 @@ var memberTestimonials = (function() {
 
                 // remove active class and hide active block
                 $(this).parents('.carousel-inner').find(".item>.active").removeClass('active');
-                $('.story-list').find('.story-' + currentActiveHref).fadeOut();
+                $('.story-list').find('.story-' + currentActiveHref).stop().fadeOut();
 
                 // add active class and show next block
                 $(this).parent().addClass("active");
-                $('.story-list').find('.story-' + currentClickHref).fadeIn();
+                $('.story-list').find('.story-' + currentClickHref).stop().fadeIn(300);
 
             });
 

@@ -39,11 +39,11 @@ alert(1)
 
                 // remove active class and hide active block
                 $(this).parent().find(".active").removeClass('active');
-                $('.trainer-list-block').children().eq(currentActiveIndex).fadeOut(0);
+                $('.trainer-list-block').children().eq(currentActiveIndex).stop().fadeOut(0);
 
                 // add active class and show next block
                 $(this).addClass('active');
-                $('.trainer-list-block').children().eq(currentIndex).fadeIn(100);
+                $('.trainer-list-block').children().eq(currentIndex).stop().fadeIn(300);
 
 
             });

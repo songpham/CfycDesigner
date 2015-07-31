@@ -33,9 +33,14 @@
 
     // SLIDER 
     .slider {
+        @media (max-width: 2000px){
+            max-width: 900px;
+        }
         margin-top: 5%;
         margin-bottom: 5%;
         .nav-btn {
+            color: $black;
+            &:hover {color: #524F4F;}
             .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 30%; z-index: 1;}
             .fa-angle-left {left: -1%;}
             .fa-angle-right {right: -1%;}
@@ -62,12 +67,12 @@
                     @media (min-width: 800px) {@include font-size(20px)}
                 }
                 &:hover {
-                    img {border: 2px solid $red; cursor: pointer;}
+                    img {border: 1px solid $red; cursor: pointer;}
                     p {color: $red;}
                 } 
             }
             .active {
-                img {border: 2px solid $red; cursor: pointer;}
+                img {border: 1px solid $red; cursor: pointer;}
                 p {color: $red;}
             }
         }
