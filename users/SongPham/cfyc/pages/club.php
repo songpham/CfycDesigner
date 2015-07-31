@@ -52,7 +52,7 @@
         <div class="item active">
           <img src="img/club/tanbinh.jpg" alt="Chania">
           <div class="carousel-caption">
-            <p>1</p>
+            <p>Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world’s only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...</p>
           </div>
         </div>
 
@@ -134,7 +134,7 @@
         <div class="row extra-booking">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 booking-widget">
-                <button class="btn btn-primary">Book a visit</button>
+                <button class="btn booking-btn">Book a vip visit</button>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
         </div>
