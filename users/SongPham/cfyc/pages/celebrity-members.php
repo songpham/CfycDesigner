@@ -180,7 +180,7 @@
                     		</div>
                     	</div>
                     </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs text-left testimonial">
+                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
                     	<div class="row">
                     		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
                     			<blockquote>
