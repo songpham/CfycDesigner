@@ -36,8 +36,7 @@
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" height="200"
-                            src="https://www.youtube.com/embed/Ol1nuRXaVcM" frameborder="0" allowfullscreen></iframe>
+                    <!-- <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/Ol1nuRXaVcM" frameborder="0" allowfullscreen></iframe> -->
                 </div>
             </div>
         </div>
@@ -108,16 +107,29 @@
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <h2><div class="line"></div>THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED<div class="line"></div></h2>
+        <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="3"></li>
+            </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
-                    <div class="carousel-caption">
-                        The perfect environment for you to succeed
-                    </div>
                 </div>
-
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                </div>
             </div>
         </div>
     </div>

@@ -227,7 +227,7 @@
         }
     }
     .school{
-        margin-top: 60px;
+        margin-top: 20px;
         .carousel-caption{
             background: rgba($red, 0.6);
             width: 100%;
@@ -247,6 +247,7 @@
         color: $red;
         width: 350px;
         margin: 60px auto;
+        margin-bottom: 30px;
         position: relative;
         .line{
             @media (max-width: 767px){}
