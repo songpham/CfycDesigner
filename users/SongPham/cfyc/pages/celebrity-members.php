@@ -3,7 +3,9 @@
 <div class="container-fluid">
     <!-- Top Banner -->
     <div class="row gallery">
-    	<img src="img/celebrity-members/california-wow-celebrity-members.jpg" alt="Celebrity Members">
+    	<a href="javascript:void(0)" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+    		<img src="img/celebrity-members/california-wow-celebrity-members.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+    	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
         <div class="holder-top-content">
