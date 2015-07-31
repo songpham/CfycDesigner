@@ -7,20 +7,30 @@
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
                     <div class="carousel-caption">
-                        Discover <strong>the beauty</strong> and <strong>excitement</strong> of <strong>Cali Dance</strong><br>
-                        <a class="cta" href="#" title="Discover Cali Dance">Discover Cali Dance</a>
+                        <fieldset>
+                            <legend>Discover</legend>
+                            the beauty & excitement of Cali Dance
+                            <span>Experience a dance class today</span>
+                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                        </fieldset>
                     </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
                     <div class="carousel-caption">
-                        Discover <strong>the beauty</strong> and <strong>excitement</strong> of <strong>Cali Dance</strong><br>
-                        <a class="cta" href="#" title="Discover Cali Dance">Discover Cali Dance</a>
+                        <fieldset>
+                            <legend>Discover</legend>
+                            the beauty & excitement of Cali Dance
+                            <span>Experience a dance class today</span>
+                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                        </fieldset>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
