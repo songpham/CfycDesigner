@@ -180,14 +180,14 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
-                <div class="row find_your_trainner">
+                <div class="row find_your_trainner container-page">
                     <div class="col-md-1 hide-sm hidden-xs"></div>
-                    <div class="col-md-7 col-sm-8 col-xs-12 text-center trainner_photo">
+                    <div class="col-md-7 col-sm-6 col-xs-12 text-center trainner_photo">
                         <img id="linhta" class="active" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta1" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta2" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12 trainner_text">
+                    <div class="col-md-3 col-sm-6 col-xs-12 trainner_text">
                         <div class="trainner_desc active" id="linhta">
                             <h3>Linh Ta<br/><span>Master Trainer</span></h3>
                             <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
