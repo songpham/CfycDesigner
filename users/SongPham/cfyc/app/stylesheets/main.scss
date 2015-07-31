@@ -4,7 +4,7 @@
     max-width: 2000px;
     position: relative;
     &.page {
-        top: 78px;
+        top: 70px;
     }
     .nav-bar {
         .logo {
@@ -36,23 +36,24 @@ nav#desktop-navigation {
     width: 100%;
     max-width: 2000px;
     @include transform(translate3d(-50%, 0px, 0px)); /* bring your own prefixes */
-    height: 78px;
+    height: 70px;
     z-index: 100;
     background-color: #000;
     background-color: rgba(0,0,0,.9);
     ul {
-        display: block; position: relative; float: right; right:2%; padding-top: 30px; min-width: 800px;
+        display: block; position: relative; float: right; right:2%; padding-top: 25px; min-width: 800px;
         li {
             display: inline-block; list-style: none; padding-left: 20px; color: #fff;
             &:first-child { margin-left: 100px; }
             a {
                 color: #fff; text-decoration: none; @include font-size(12px); text-transform: uppercase;
                 &:hover, &:active, &.active { color: $red; }
+                img {width: 22px;}
             }
         }
     }
     .sub-menu {
-        position:absolute; top:78px; width: 100%; background-color: #000; background-color:rgba(0,0,0, 0.5);
+        position:absolute; top:70px; width: 100%; background-color: #000; background-color:rgba(0,0,0, 0.5);
         border-bottom: 1px #313131 solid;
         ul {
             right:45px; padding: 20px; width: auto; padding: 5px; margin: 0px; min-width: auto;
@@ -65,7 +66,7 @@ nav#desktop-navigation {
 } /* desktop-navigation */
 /* footer */
 footer {
-    min-width: 100%; background-color: $black; margin-left: -15px; margin-right: -15px;
+    min-width: 100%; background-color: $black; margin-left: -15px; margin-right: -15px; padding-top: 50px;
     .row { padding-left: 0px;padding-right:0px; max-width: 1200px; margin: 0 auto;
         .container-fluid {
             max-width: 1200px; margin: 0 auto; overflow: hidden; padding-left: 0px;padding-right:0px;
@@ -85,17 +86,20 @@ footer {
             .last-brand {
                 div.tooltip.fade.bottom.in, div.tooltip.fade.bottom {left:-100px !important;}
             }
-            .icons {
-                @include font-size(30px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
-                text-align: center; height:45px; width: 45px; padding-top: 7px; margin: 50px 0;
-                &:hover { color: #999999; border:2px #999999 solid; }
-            }
-            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
-                a {
-                    color: $footer_link;
-                    &:hover { color: $footer_hover; }
-                }
-            }
+            
+			.icon-div {	padding:0px 20px;
+	            .icons {
+	                @include font-size(40px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
+	                text-align: center; height:60px; width: 60px; padding-top: 9px; margin: 50px 0;
+	                &:hover { color: #999999; border:2px #999999 solid; }
+					}
+	            }
+	            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
+	                a {
+	                    color: $footer_link;
+	                    &:hover { color: $footer_hover; }
+	                }
+				}
         }
     }
     p { color: $white; text-align: center; @include font-size(14px); margin-bottom: 0px; }
@@ -178,7 +182,7 @@ footer {
     }
     /* sidebar wrapper */
     /* logo */
-    div.logo {
+    a.logo {
         background-color:$black; min-width: 100%; z-index: 99; display:block;
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
@@ -194,8 +198,8 @@ footer {
         }
     }
 }
-// @media (max-width:$breakpoint_iphone4) {
-//     .container-fluid.page { {
-//         top: 59px;
-//     }
-// }
+@media (max-width:$breakpoint_tablet) {
+    .container-fluid.page {
+        top: 53px;
+    }
+}

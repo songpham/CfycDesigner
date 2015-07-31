@@ -32,16 +32,13 @@
 	    					<img src="../public/img/footer/eri_international.jpg" class="img-responsive center-block" data-toggle="tooltip" data-placement="bottom"  title="Eri International: Experience Beauty. New and exclusive beauty treatment for those who want the best." alt="Eri Internaitonal - Experience beauty like never before ">
 	    				</a>
 	    			</div>
-	    			<div class="col-md-1 col-xs-3 col-centered">
+	    			<div class="icon-div col-centered">
 	    				<a href="https://www.facebook.com/cfycvn" ><i class="fa fa-facebook icons"></i></a>
 	    			</div>
-	    			<div class="col-md-1 col-xs-3 col-centered">
+	    			<div class="icon-div col-centered">
 	    				<a href="https://twitter.com/cfycvn"><i class="fa fa-twitter icons"></i></a>
 	    			</div>
-	    			<div class="col-md-1 col-xs-3 col-centered">
-	    				<a href="#"><i class="fa fa-instagram icons "></i></a>
-	    			</div>
-	    			<div class="col-md-1 col-xs-3 col-centered">
+	    			<div class="icon-div col-centered">
 	    				<a href="https://www.youtube.com/user/CaliFitnessYogaVN"><i class="fa fa-youtube-square icons"></i></a>
 	    			</div>
 	    			<ul>

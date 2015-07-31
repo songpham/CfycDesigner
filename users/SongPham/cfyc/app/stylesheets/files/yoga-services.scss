@@ -1,0 +1,485 @@
+@import '../lib';
+$pageWidth : 2000px;
+$containerWidth : 1200px;
+
+.yoga-services-page {
+
+    h1, h2, h3, span, p, a, button {
+        @include transition(all .4s ease);
+    }
+
+
+    // TOP BANNER
+    #top-banner {
+        .carousel-caption {
+            right: initial;
+            left: 8%;
+            bottom: 8%;
+            text-transform: uppercase;
+            .text {
+                @include font-size(3.2vw);             
+                font-weight: 100;
+                text-align: left;
+                letter-spacing: 2px;
+                line-height: 130%;
+                margin-bottom: 3%;
+            }
+            .btn {
+                float: left;
+                @include font-size(.8vw);
+                @include box-shadow(0px 0px 3px);
+                color: $white;
+                text-decoration: none;
+                padding: 3% 10%;
+                background: #da2128;
+                letter-spacing: 1px;
+                &:hover {
+                    @include box-shadow(0px 0px 7px);
+                }
+            }
+            @media (max-width: 900px) {
+                .btn {
+                    @include font-size(1.5vw);
+                }
+            }
+        }
+    }
+
+    .title {
+        margin: 20px 0 35px 0;
+        position: relative;
+        text-align: center;
+        color: $red;
+        letter-spacing: 1px;
+        font-weight: bold; 
+        @include font-size(2vw);
+        @media screen and (max-width: 650px) {
+            @include font-size(4vw);
+            .title-text {
+                padding: 0 10px !important;
+            }
+        }
+        @media screen and (min-width: 2000px) {
+            @include font-size(35px);
+        }
+        text-transform: uppercase;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 80%;
+            height: 2px;
+            background: $red;
+            top: 52%;
+            left: 10%;
+            z-index: 1;
+        }  
+        @media screen and (max-width: 320px) {
+            &:after {
+                width: 90%;
+                left: 5%;
+            } 
+        }
+        .title-text {
+            display: inline-block;
+            position: relative;
+            padding: 0 20px;
+            background: $white; 
+            z-index: 2;
+        }
+        @media (max-width: 517px) {
+            .title-text {
+                max-width: 300px;
+            }
+        }
+        @media (max-width: 320px) {
+            .title-text {
+                max-width: 205px;
+            }
+        }
+    }
+
+    // CONTAINER PAGE
+    .container-page {
+        max-width: $containerWidth; 
+
+        // BLOCK
+        .block{
+            @include font-size(14px);
+            line-height: 1.42857143;
+            margin-bottom: 15px;
+            padding: 20px 10px; 
+            @media screen and (max-width: 517px) {
+                padding: 10px 10px;
+            }
+
+            // BLOCK TITLE
+            .block-title {
+                @extend .title;
+            }
+        }
+
+
+
+        // ABOUT YOGA BLOCK
+        .about-block {
+            @extend .block;
+            .text {
+                margin: 0 !important;
+                padding: 0 5px !important;
+                p {text-align: left;}
+            }
+            .video {padding: 0;}
+        }
+
+
+        // WHAT ARE THE BENEFITS OF YOGA ? - BLOCK
+        .benefit-block {
+            padding-bottom: 40px;
+            @extend .block;
+            .left-img, .right-img {padding: 7.5px 5px !important;}
+            @media (min-width: $breakpoint_tablet) {
+                .left-img {padding: 5px 3px 5px 0  !important;}
+                .right-img {padding: 5px 0 5px 3px  !important;}
+            }
+            .text-center {padding: 5px 40px;}
+            @media (max-width: $breakpoint_tablet) {
+                .text-center {padding: 5px;}
+            }
+        }
+
+
+        // TRAINER LIST BLOCK
+        .trainer-list-block-nav {
+            @extend .block;
+            .text-content {
+                width: 100%;
+                color: $black;
+                text-align: center; 
+                p {
+                    @include font-size(14px); 
+                    margin: 20px 0 30px;
+                    letter-spacing: 1px;
+                }
+                .navbar-center {
+                    width: 100%;
+                    text-align: center;
+                    margin : 15px 0;
+                    li {
+                        float: none;
+                        display: inline-block;
+                        a {
+                            @include font-size(14px);
+                            font-weight: bold;
+                            color: $black;
+                            text-transform: uppercase;
+                            background: none;
+                            &:hover {
+                                color: $red;
+                            }
+                        }
+                        @media (max-width: 500px) {
+                            a {
+                                padding: 5px 5px !important;
+                            }
+                        }
+                    }
+                    li.active { a {color: $red;} }
+                }
+            }
+        }
+
+        .trainer-list-block {
+            @extend .block;
+        }
+
+
+        // YOGI - BLOCK
+        .yogi-block {
+
+            padding-bottom: 40px;
+            @extend .block;
+            .text-center {padding: 5px 40px;}
+            @media (max-width: $breakpoint_tablet) {
+                .text-center {padding: 5px;}
+            }
+            .image {
+                padding: 0 5px;
+                height: 700px;
+                img {
+                    float: left;
+                    height: 49.5%;
+                    width: 49.5%;
+                    &:first-child {
+                        height: 100%;
+                        width: 49.5%;
+                        margin-right: .5%; 
+                    }
+                    &:nth-child(2) {
+                        margin: 0 0 .5% .5%;
+                    }
+                    &:last-child {
+                        margin: .5% 0 0 .5%;
+                    }
+                }
+            }
+            @media (max-width: 992px) {
+                .image {
+                    height: auto;
+                    img {
+                        float: none;
+                        &:first-child {
+                            height: auto;
+                            width: 100%;
+                        }
+                        &:nth-child(2),  &:last-child {
+                            height: auto;
+                            width: 100%;
+                            margin: 3% 0 1% 0;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+
+        // SUCCESS STORY BLOCK
+        .success-story-block {
+            @extend .block;
+            .box {
+                padding: 10px 0px;
+                margin: 0px;
+                .image {
+                    padding-left: 5px !important;
+                    padding-right: 5px !important;
+                    img {width: 100%; height: 100%;}
+                }
+                .text {margin-top: 4% !important; padding-left: 3%;}
+            }
+            @media (max-width: 517px){
+                .box {
+                    padding-bottom: 30px  !important;
+                    .image {
+                        img {width: 100%; height: 100%;}
+                    }
+                    .text {margin-top: 4% !important; padding: 0 5px !important;}
+                }
+            }
+            .see-more-btn {
+                text-align: center;
+                margin: 30px 0;
+                a {
+                    text-decoration: none;
+                    @include font-size(17px);
+                    color: #000;
+                    padding: 5px 30px;
+                    border : 2px solid #808285;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: none;
+                        background: #808285;
+                        color: $white;
+                        @include transition(all .4s ease-in-out);
+                    }
+                }
+            }
+        }
+    }
+
+
+    // GALLERY
+    .gallery {
+        max-width: $pageWidth;
+        margin-bottom: 40px;
+        .block-title {
+            @extend .title;
+        }
+    }
+
+    // DISCOVER
+
+    // GALLERY 1
+    #discover-1 {
+        .text-content {
+            position: relative;
+            margin: 0;
+            background: #00528c;;
+            width: 100%;
+            color: $white;
+            text-align: center;
+            .container-page {
+                position: relative;
+                height: 100%;
+                .nav-icon {
+                    @include font-size(3em);
+                    position: absolute;
+                    color: $white;
+                    top: 4px;
+                }
+                .left {left: 0%;}
+                .right {right: 0%;}
+                @media (max-width: 1200px) {
+                    .left {left: 15px;}
+                    .right {right: 15px;}
+                }
+                @media (max-width: 770px) {
+                    .nav-icon {
+                        @include font-size(3em);
+                        position: absolute;
+                        color: $white;
+                        top: 2px;
+                    }
+                }
+                @media (max-width: 560px) {
+                    .nav-icon {display: none;}
+
+                }
+            }
+
+            // Reset carousel-indicators class style
+            .carousel-indicators {
+                position: initial;
+                bottom: initial;
+                left: initial;
+                z-index: initial;
+                width: initial;
+                padding-left: initial;
+                margin-left: initial;
+                list-style: initial;
+                .active {
+                    width: initial;
+                    height: initial;
+                    margin: initial;
+                    background-color: initial;
+                }
+                li {
+                    display: initial;
+                    width: initial;
+                    height: initial;
+                    margin: initial;
+                    text-indent: initial;
+                    cursor: initial;
+                    background-color: initial;
+                    background-color: initial;
+                    border: initial;
+                    border-radius: initial;
+                }
+            }
+
+            // Set new style
+            .navbar-center {
+                width: 100%;
+                text-align: center;
+                margin : 10px 0;
+                li {
+                    float: none;
+                    display: inline-block;
+                    a {
+                        font-weight: 600;
+                        @include font-size(14px);
+                        color: $white;
+                        text-transform: uppercase;
+                        background: none;
+                        &:hover {
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                left: 10%;
+                                display: inline-block;
+                                height: 1em;
+                                width: 80%;
+                                border-bottom: 1px solid;
+                                margin-top: 8px;
+                            }
+                        }
+                    }
+                    @media (max-width: 750px) {a {@include font-size(11px);}}
+                    @media (max-width: 600px) {a {@include font-size(9px);}}
+                    @media (max-width: 500px) {a {padding: 5px !important;}}
+                    @media (max-width: 370px) {a {@include font-size(7px); padding: 2px !important;}}
+
+                }
+                li.active { 
+                    a { 
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 10%;
+                            display: inline-block;
+                            height: 1em;
+                            width: 80%;
+                            border-bottom: 1px solid;
+                            margin-top: 8px;
+                        }
+                    } 
+                }
+            }
+        }
+        // Caption
+        .carousel-caption {
+            text-transform: uppercase;
+            position: absolute;
+            right: 15%;
+            bottom: 0;
+            left: 15%;
+            z-index: 10;
+            padding-top: 0;
+            padding-bottom: 0;
+            .btn {
+                @include font-size(2vw);
+                font-weight: 700;
+                letter-spacing: 5px;
+                padding: 5%;
+                color: $white;
+                background: rgba(58, 123, 173, 0.8);
+                &:hover {background: rgba(58, 123, 173, 1);}
+            }
+            h3 {@include font-size(1.8vw); margin-top: 8%; letter-spacing: 2px;}
+            .text {@include font-size(1.4vw); margin: 3% 0 10% 0; letter-spacing: 1px; line-height: 150%;}
+            @media (max-width: 600px) {
+                left: 10px;
+                right: 10px;
+                .btn {
+                    @include font-size(2vw);
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    padding: 4%;
+                    color: $white;
+                    background: rgba(58, 123, 173, 0.8);
+                    &:hover {background: rgba(58, 123, 173, 1);}
+                }
+                h3 {@include font-size(2.5vw); margin-top: 5%; letter-spacing: 2px;}
+                .text {@include font-size(1.8vw); margin: 3% 0 5% 0; letter-spacing: 1px; line-height: 150%;}
+            }
+        }
+    }
+
+    // GALLERY 2
+    #discover-2 {
+        .carousel-indicators {
+            left: 10%;
+            bottom: 3%;
+        }
+
+        .carousel-caption {
+            @include font-size(11px);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: rgba(35, 82, 117, 0.6);
+            width: 100%;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: initial;
+            padding: 2% 0;
+        }
+    }
+}
+
+
+
+
+
+@import 'pgwslider.scss';

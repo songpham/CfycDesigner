@@ -1,5 +1,6 @@
+
 <div class="container-fluid page celebrity-trainning-page">
-     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
+    <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <!-- GALLERY -->
     <div class="row gallery">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -52,9 +53,9 @@
         <!-- HOW DOES PT WORK ? -->
         <div class="row block how-block">
             <div class="block-title">
-               <div class="title-text">How does PT work?</div>
+                <div class="title-text">How does PT work?</div>
             </div>
-            <p class="text-center">We make it easy for you, very easy. Personal training is designed to integrate into your life without having to make sacrifices. </span>
+            <p class="text-center">We make it easy for you, very easy. Personal training is designed to integrate into your life without having to make sacrifices. </p>
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
             <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-2.jpg" ?>" width='100%'></div>
         </div>
@@ -494,5 +495,6 @@
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/pgwslider.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-trainning.js"></script>
+<!--[if IE]><script defer src="ie_onload.js"></script><![endif]-->
+<script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-training/pgwslider.js"></script>
+<script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-training/celebrity-trainning.js"></script>
