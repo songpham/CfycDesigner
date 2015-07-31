@@ -182,7 +182,7 @@ footer {
     }
     /* sidebar wrapper */
     /* logo */
-    div.logo {
+    a.logo {
         background-color:$black; min-width: 100%; z-index: 99; display:block;
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
@@ -198,8 +198,8 @@ footer {
         }
     }
 }
-// @media (max-width:$breakpoint_iphone4) {
-//     .container-fluid.page { {
-//         top: 59px;
-//     }
-// }
+@media (max-width:$breakpoint_tablet) {
+    .container-fluid.page {
+        top: 53px;
+    }
+}

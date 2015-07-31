@@ -180,14 +180,14 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
-                <div class="row find_your_trainner">
+                <div class="row find_your_trainner container-page">
                     <div class="col-md-1 hide-sm hidden-xs"></div>
-                    <div class="col-md-7 col-sm-8 col-xs-12 text-center trainner_photo">
+                    <div class="col-md-7 col-sm-6 col-xs-12 text-center trainner_photo">
                         <img id="linhta" class="active" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta1" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta2" src="img/home/linh-ta.png" alt="Find your trainner" title="Find your trainner">
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12 trainner_text">
+                    <div class="col-md-3 col-sm-6 col-xs-12 trainner_text">
                         <div class="trainner_desc active" id="linhta">
                             <h3>Linh Ta<br/><span>Master Trainer</span></h3>
                             <p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
@@ -226,16 +226,16 @@
                 </div>
                 <div class="whitespace"></div>
                 <div class="row success_stories">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
                         <div class="roundphoto">
                             <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />                        
                         </div>
                         <h3>TRUC HIEN</h3>
                         <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
                     </div>
                 </div>
                 <div class="row seemorebtn">
@@ -396,4 +396,3 @@
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/home.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/jquery.slimscroll.min.js"></script>
