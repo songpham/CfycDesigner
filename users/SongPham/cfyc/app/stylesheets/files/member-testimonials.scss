@@ -41,7 +41,7 @@
         .nav-btn {
             color: $black;
             &:hover {color: #524F4F;}
-            .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 30%; z-index: 1;}
+            .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 25%; z-index: 1;}
             .fa-angle-left {left: -1%;}
             .fa-angle-right {right: -1%;}
         }
@@ -67,12 +67,16 @@
                     @media (min-width: 800px) {@include font-size(20px)}
                 }
                 &:hover {
-                    img {border: 1px solid $red; cursor: pointer;}
+                    img {
+                        border: 1px solid $red; 
+                    }
                     p {color: $red;}
                 } 
             }
             .active {
-                img {border: 1px solid $red; cursor: pointer;}
+                img {
+                    border: 1px solid $red; 
+                }
                 p {color: $red;}
             }
         }
