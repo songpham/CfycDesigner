@@ -36,7 +36,7 @@ var celebrityTrainning = (function() {
 
                 // add active class and show next block
                 $(this).addClass('active');
-                $('.trainer-list-block').children().eq(currentIndex).fadeIn();
+                $('.trainer-list-block').children().eq(currentIndex).fadeIn(100);
 
 
             });

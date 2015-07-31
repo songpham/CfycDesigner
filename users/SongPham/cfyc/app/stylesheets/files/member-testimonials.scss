@@ -9,9 +9,6 @@
         letter-spacing: 1em;
         line-height: 150%;
         h1.headline {
-            @media (max-width: 2000px) {
-                @include font-size(3vw);
-            }
             @include font-size(60px);
             color: $white;
             font-weight: 300;
@@ -24,12 +21,20 @@
             span {
                 font-weight: 100;
             }
+            @media (max-width: 2000px) {
+                @include font-size(3vw);
+            }
+            @media (max-width: 1000px) {
+                @include font-size(2.5vw);
+                letter-spacing: .5em;
+            }
         }
     }
 
     // SLIDER 
     .slider {
         margin-top: 5%;
+        margin-bottom: 5%;
         .nav-btn {
             .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 30%; z-index: 1;}
             .fa-angle-left {left: -1%;}
@@ -49,14 +54,20 @@
                     width: 100%;
                     @include border-radius(50%);
                 }
-                p {@include font-size(2vw); text-align:center; margin-top: 10px; font-weight:bold;}
+                p {
+                    @include font-size(2vw); 
+                    text-align:center; 
+                    margin-top: 10px; 
+                    font-weight:bold;
+                    @media (min-width: 800px) {@include font-size(20px)}
+                }
                 &:hover {
-                    img {border: 1px solid $red; cursor: pointer;}
+                    img {border: 2px solid $red; cursor: pointer;}
                     p {color: $red;}
                 } 
             }
             .active {
-                img {border: 1px solid $red; cursor: pointer;}
+                img {border: 2px solid $red; cursor: pointer;}
                 p {color: $red;}
             }
         }
@@ -95,29 +106,35 @@
             @include background-size(cover);
             text-align: center;
             img {
-                width: 40%;
-                padding: 15px;
-                @include border-radius(50%);
-                border: 1px $white solid;
-                &:hover { border: 1px $red solid;}
+                width: 50%;
+                @media (max-width: 700px){width: 100%;}
             }
         }
         .text {
             padding: 3% 0;
+            line-height: 150%;
             h3{
                 margin: 2% 2%;
-                @include font-size(20px);
+                @include font-size(18px);
                 text-transform: uppercase; 
                 text-align: center; 
                 color: #868686;
                 font-weight: bold;
-                letter-spacing: 2px;
             }
             p{
-                margin: 2% 2%;
+                margin: 3% 5%;
                 @include font-size(14px);
-                line-height: 150%;
                 text-align: text;
+            }
+            @media (max-width: 500px){
+                h3{
+                    margin: 20px 15px;
+                    @include font-size(17px);
+                }
+                p{
+                    margin: 20px 15px;
+                    @include font-size(15px);   
+                }
             }
         }
     }

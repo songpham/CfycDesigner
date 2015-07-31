@@ -29,7 +29,7 @@
                         <a href='2'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
-                    <div class="box active">
+                    <div class="box">
                         <a href='3'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
                         <p>Do Hoang Lan</p>
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="box active">
+                    <div class="box">
                         <a href='5'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
                         <p>Do Hoang Lan</p>
                     </div>
@@ -47,7 +47,7 @@
                         <a href='6'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
-                    <div class="box active">
+                    <div class="box">
                         <a href='7'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
                         <p>Do Hoang Lan</p>
                     </div>
@@ -70,7 +70,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -91,7 +91,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -112,7 +112,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -133,7 +133,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -154,7 +154,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -169,13 +169,13 @@
 
         </div>
         <!-- END STORY -->
-        
+
         <!-- STORY -->
         <div class="row story story-6">
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -190,13 +190,13 @@
 
         </div>
         <!-- END STORY -->
-        
+
         <!-- STORY -->
         <div class="row story story-7">
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 
@@ -211,13 +211,13 @@
 
         </div>
         <!-- END STORY -->
-        
+
         <!-- STORY -->
         <div class="row story story-8">
 
             <!-- IMAGE -->
             <div class="image">
-                <img src="<?php echo USER_BASE_URL . "/img/member-testimonials/success.png" ?>" alt="">
+                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
 

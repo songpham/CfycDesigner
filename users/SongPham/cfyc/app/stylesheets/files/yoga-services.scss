@@ -1,13 +1,13 @@
 @import '../lib';
-
-h1, h2, h3, span, p, div, a, button {
-    @include transition(all .4s ease);
-}
-
 $pageWidth : 2000px;
 $containerWidth : 1200px;
 
 .yoga-services-page {
+
+    h1, h2, h3, span, p, a, button {
+        @include transition(all .4s ease);
+    }
+
 
     // TOP BANNER
     #top-banner {
