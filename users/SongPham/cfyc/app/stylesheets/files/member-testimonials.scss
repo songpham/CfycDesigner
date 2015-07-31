@@ -39,6 +39,8 @@
         margin-top: 5%;
         margin-bottom: 5%;
         .nav-btn {
+            color: $black;
+            &:hover {color: #524F4F;}
             .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 30%; z-index: 1;}
             .fa-angle-left {left: -1%;}
             .fa-angle-right {right: -1%;}
