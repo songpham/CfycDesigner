@@ -1,0 +1,124 @@
+@import '../lib';
+.member-testimonials-page {
+    img, p, h1, h2, h3, h4, a {@include transition(all .4s ease);}
+
+    // TOP BANNER
+    .top-banner {
+        position: relative;
+        text-align: center;
+        letter-spacing: 1em;
+        line-height: 150%;
+        h1.headline {
+            @media (max-width: 2000px) {
+                @include font-size(3vw);
+            }
+            @include font-size(60px);
+            color: $white;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 15%;
+            bottom: 25%;
+            padding: 3% 4%;
+            border: 1px solid $white;
+            span {
+                font-weight: 100;
+            }
+        }
+    }
+
+    // SLIDER 
+    .slider {
+        margin-top: 5%;
+        .nav-btn {
+            .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 30%; z-index: 1;}
+            .fa-angle-left {left: -1%;}
+            .fa-angle-right {right: -1%;}
+        }
+        .item {
+            width: 100%;
+            .box {
+                width: 20%;
+                float: left;
+                margin: 0 2%;
+                &:first-child {margin: 0 2% 0 4%;}
+                &:last-child {margin: 0 4% 0 2%;}
+                img {
+                    border : 1px solid $black;
+                    padding: 10px;
+                    width: 100%;
+                    @include border-radius(50%);
+                }
+                p {@include font-size(2vw); text-align:center; margin-top: 10px; font-weight:bold;}
+                &:hover {
+                    img {border: 1px solid $red; cursor: pointer;}
+                    p {color: $red;}
+                } 
+            }
+            .active {
+                img {border: 1px solid $red; cursor: pointer;}
+                p {color: $red;}
+            }
+        }
+        @media (min-width: 1999px) {
+            .nav-btn {
+                .fa {position: absolute; font-size: 100px; padding: 20px; top: 70px;}
+                .fa-angle-left {left: -100px;}
+                .fa-angle-right {right: -100px;}
+            }
+            .item {
+                width: 100%;
+                .box {
+                    width:22%;
+                    float: left;
+                    margin: 0 2%;
+                    &:first-child {margin: 0 2% 0 0;}
+                    &:last-child {margin: 0 0 0 2%;}
+                    img {
+                        width:100%;
+                        @include border-radius(50%);
+                        border : 1px solid $black;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    // STORY 
+    .story {
+        display: none;
+        .image {
+            padding: 30px;
+            width: 100%;
+            background: url('../img/member-testimonials/bg.jpg');
+            @include background-size(cover);
+            text-align: center;
+            img {
+                width: 40%;
+                padding: 15px;
+                @include border-radius(50%);
+                border: 1px $white solid;
+                &:hover { border: 1px $red solid;}
+            }
+        }
+        .text {
+            padding: 3% 0;
+            h3{
+                margin: 2% 2%;
+                @include font-size(20px);
+                text-transform: uppercase; 
+                text-align: center; 
+                color: #868686;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            p{
+                margin: 2% 2%;
+                @include font-size(14px);
+                line-height: 150%;
+                text-align: text;
+            }
+        }
+    }
+}
