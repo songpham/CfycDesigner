@@ -20,7 +20,7 @@
                     <div class="carousel-caption">
                         <p class='text'>
                             Discover <br>
-                            the healing power<br> 
+                            the healing power<br>
                             of yoga
                         </p>
                         <p><a class='btn' href=''>Discover yoga</a></p>
@@ -31,7 +31,7 @@
                     <div class="carousel-caption">
                         <p class='text'>
                             Discover <br>
-                            the healing power<br> 
+                            the healing power<br>
                             of yoga
                         </p>
                         <p><a class='btn' href=''>Discover yoga</a></p>
@@ -42,7 +42,7 @@
                     <div class="carousel-caption">
                         <p class='text'>
                             Discover <br>
-                            the healing power<br> 
+                            the healing power<br>
                             of yoga
                         </p>
                         <p><a class='btn' href=''>Discover yoga</a></p>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-md-6 text">
                 <p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over 2,000 sqm of internationally-designed studios and lounges. </p>
-                <p>Practice under the guidance of authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p> 
+                <p>Practice under the guidance of authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p>
                 <p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects, including improved health and balance, spiritual awareness, restored vitality and energy, stress management, enhanced flexibility and weight management.</p>
             </div>
             <div class="col-md-5 col-md-offset-1 col-xs-12 video">
@@ -113,7 +113,7 @@
                 </div>
 
                 <!-- Menu -->
-                <ul class="nav navbar-nav navbar-center carousel-indicators">    
+                <ul class="nav navbar-nav navbar-center carousel-indicators">
                     <li class="active"><a data-target="#discover-1" href="" data-slide-to="0">Sun-series (M)</a></li>
                     <li><a  data-target="#discover-1" href="" data-slide-to="1">MOON-SERIES: (M)</a></li>
                     <li><a data-target="#discover-1" href="" data-slide-to="2">GENTLE YOGA: (M)</a></li>
@@ -162,6 +162,10 @@
 
     <!-- GALLERY 2 -->
     <div class="row gallery">
+        <!-- Block title -->
+        <div class="block-title">
+            <div class="title-text">The perfect environment<br/> for you to succeed</div>
+        </div>
 
         <div id="discover-2" class="carousel slide" data-ride="carousel">
 
@@ -179,9 +183,6 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        The perfect environment for you to succeed
-                    </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-2.jpg" ?>" alt="">
