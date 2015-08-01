@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row selection-center">
+        <div class="row selection-center"> 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h3>Choose your club</h3>
                 <div class="center-name">

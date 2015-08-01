@@ -7,14 +7,15 @@
 
     .mobile-menu {
         position: absolute;
-        top: 0;
+        top: 0; 
         right: 0; 
         z-index: 1;
+        
         .btn {
             .fa {color: white;}
             background: 0 0;
             border: none;
-        }
+        } 
         .open {
             .dropdown-toggle.btn-default:focus, 
                 .dropdown-toggle.btn-default:hover {
