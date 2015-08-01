@@ -54,7 +54,7 @@
         <div class="mobile-menu">
             <div class="btn-group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <span>Dia diem</span> <i class="fa fa-chevron-down"></i>
+                   <span>Dia diem</span> <i class="fa fa-angle-down"></i></i>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-right">
                     <li><a href="javascript:void(0)" id="1">District 1</a></li>
