@@ -4,13 +4,9 @@ var celebrityTrainning = (function() {
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf("MSIE ");
 
-        $("body").load(function() {
-alert(1)
-        });
-
         if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-            $(".trainer-list-block").children().hide();
-            $(".trainer-list-block").children().eq(0).show();
+            $(".trainer-list-block").children().delay(1000).hide();
+            $(".trainer-list-block").children().delay(1000).eq(0).show();
         } else {
             $(window).load(function() {
                 // When the page has loaded
@@ -20,9 +16,6 @@ alert(1)
         }
 
         $(document).ready(function() {
-
-
-
 
             // ACTIVE SLIDER PLUGIN
             $('.pgwSlider').pgwSlider({

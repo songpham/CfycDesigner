@@ -5,8 +5,8 @@ var celebrityTrainning = (function() {
         var msie = ua.indexOf("MSIE ");
 
         if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-            $(".trainer-list-block").children().hide();
-            $(".trainer-list-block").children().eq(0).show();
+             $(".trainer-list-block").children().delay(1000).hide();
+            $(".trainer-list-block").children().delay(1000).eq(0).show();
         } else {
             $(window).load(function() {
                 // When the page has loaded

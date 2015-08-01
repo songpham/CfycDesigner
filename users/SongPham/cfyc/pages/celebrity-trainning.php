@@ -504,6 +504,5 @@
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<!--[if IE]><script defer src="ie_onload.js"></script><![endif]-->
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-training/pgwslider.js"></script>
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-training/celebrity-trainning.js"></script>
