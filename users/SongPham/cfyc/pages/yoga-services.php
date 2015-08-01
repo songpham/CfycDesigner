@@ -53,11 +53,11 @@
     </div>
     <!-- END GALLERY -->
 
+    <div class="white-space-2x"></div>
 
-    <!-- CONTAINER 1 -->
+    <!-- ABOUT YOGA -->
     <div class="row container-page">
 
-        <!-- ABOUT YOGA -->
         <div class="row block about-block">
             <div class='block-title'>
                 <div class="title-text">about yoga</div>
@@ -71,10 +71,15 @@
                 <img src='<?php echo USER_BASE_URL . "/img/yoga-services/video.png" ?>' width='100%'>
             </div>
         </div>
-        <!-- END ABOUT YOGA -->
 
+    </div>
+    <!-- END ABOUT YOGA -->
 
-        <!-- WHAT ARE THE BENEFITS OF YOGA ? -->
+    <div class="white-space-2x"></div>
+
+    <!-- WHAT ARE THE BENEFITS OF YOGA ? -->
+    <div class="row container-page">
+
         <div class="row block benefit-block">
             <div class="block-title">
                 <div class="title-text">What are the benefits<br>of Yoga?</div>
@@ -84,11 +89,11 @@
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/yoga-services/benefit-1.jpg" ?>" width='100%'></div>
             <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/yoga-services/benefit-2.jpg" ?>" width='100%'></div>
         </div>
-        <!-- END  WHAT ARE THE BENEFITS OF YOGA ? -->
-
 
     </div>
-    <!-- END CONTAINER 1 -->
+    <!-- END  WHAT ARE THE BENEFITS OF YOGA ? -->
+
+    <div class="white-space-2x"></div>
 
 
     <!-- DISCOVER YOGA AT CALIFORNIA FITNESS -->
@@ -160,6 +165,8 @@
     </div>
     <!-- END GALLERY 1 -->
 
+    <div class="white-space-2x"></div>
+
     <!-- GALLERY 2 -->
     <div class="row gallery">
         <!-- Block title -->
@@ -183,6 +190,9 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-1.jpg" ?>" alt="">
+                    <div class="carousel-caption">
+                        The perfect environment for you to succeed
+                    </div>
                 </div>
                 <div class="item">
                     <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-2.jpg" ?>" alt="">
@@ -196,11 +206,10 @@
     <!-- END GALLERY 2 -->
     <!-- END DISCOVER YOGA AT CALIFORNIA FITNESS -->
 
+    <div class="white-space-2x"></div>
 
-    <!-- CONTAINER 2 -->
+    <!-- TRAINNER LIST -->
     <div class='row container-page'>
-
-        <!-- TRAINNER LIST -->
 
         <!-- NAV -->
         <div class="row trainer-list-block-nav">
@@ -531,9 +540,14 @@
         </div>
         <!-- SLIDER -->
 
-        <!-- END TRAINER LIST -->
+    </div>
+    <!-- END TRAINER LIST -->
 
-        <!-- YOGI & I -->
+    <div class="white-space-2x"></div>
+
+    <!-- YOGI & I -->
+    <div class='row container-page'>
+
         <div class="row block yogi-block">
             <div class="block-title">
                 <div class="title-text">Yogi & I</div>
@@ -546,10 +560,16 @@
                 <img src="<?php echo USER_BASE_URL . "/img/yoga-services/yogi-3.jpg" ?>" width='100%'>
             </div>
         </div>
-        <!-- END YOGI & I -->
 
 
-        <!-- SUCCESS STORIES -->
+    </div>
+    <!-- END YOGI & I -->
+
+    <div class="white-space-2x"></div>
+
+    <!-- SUCCESS STORIES -->
+    <div class='row container-page'>
+
         <div class="row block success-story-block">
             <div class="block-title">
                 <div class="title-text">success stories</div>
@@ -566,10 +586,9 @@
                 <a href="#">see more</a>
             </div>
         </div>
-        <!-- END SUCCESS STORIES -->
 
     </div>
-    <!-- END CONTAINER 2 -->
+    <!-- END SUCCESS STORIES -->
 
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

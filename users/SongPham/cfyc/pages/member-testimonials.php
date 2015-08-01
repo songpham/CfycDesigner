@@ -9,10 +9,9 @@
     </div>
     <!-- END TOP BANNER -->
 
-    <div class="white-space"></div>
+    <div class="white-space-2x"></div>
 
     <!-- SLIDER -->
-
     <div class="row">
         <div id="member-list" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -69,10 +68,9 @@
             </a>
         </div>
     </div>
-
     <!-- END SLIDER -->
 
-
+    <div class="white-space"></div>
 
 
     <!-- STORY LIST -->

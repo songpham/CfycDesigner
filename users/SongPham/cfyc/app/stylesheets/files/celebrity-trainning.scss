@@ -6,12 +6,15 @@ $containerWidth : 1200px;
 .celebrity-trainning-page {
 
     .white-space {padding:10px 0; clear:both;}
+    .white-space-2x {padding: 20px 0; clear: both;}
+    .white-space-3x {padding: 30px 0; clear: both;} 
 
     // GALLERY
     .gallery {max-width: $pageWidth;}
 
     // CONTAINER PAGE
     .container-page {
+        @media (max-width: 1200px) {padding: 0 10px;}
         max-width: $containerWidth;
 
         // BLOCK

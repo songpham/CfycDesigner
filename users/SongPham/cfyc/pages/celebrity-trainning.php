@@ -28,13 +28,11 @@
     </div>
     <!-- END GALLERY -->
 
-    <div class="white-space"></div><div class="white-space"></div>
+    <div class="white-space-2x"></div>
 
-    <!-- CONTAINER 1 -->
+    <!-- ABOUT CELEBRITY TRANINING -->
     <div class="row container-page">
 
-
-        <!-- ABOUT CELEBRITY TRANINING -->
         <div class="row block about-block">
             <div class='block-title'>
                 <div class="title-text">about cerlebrity<br>training</div>
@@ -48,11 +46,15 @@
                 <img src='<?php echo USER_BASE_URL . "/img/celebrity-training/video.png" ?>' width='100%'>
             </div>
         </div>
-        <!-- END ABOUT CELEBRITY TRAINING -->
 
-        <div class="white-space"></div><div class="white-space"></div>
+    </div>
+    <!-- END ABOUT CELEBRITY TRAINING -->
+    
+    <div class="white-space-2x"></div>
 
-        <!-- HOW DOES PT WORK ? -->
+    <!-- HOW DOES PT WORK ? -->
+    <div class="row container-page">
+
         <div class="row block how-block">
             <div class="block-title">
                 <div class="title-text">How does PT work?</div>
@@ -61,12 +63,11 @@
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
             <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-2.jpg" ?>" width='100%'></div>
         </div>
-        <!-- END HOW DOES PT WORK ? -->
 
     </div>
-    <!-- END CONTAINER 1 -->
+    <!-- END HOW DOES PT WORK ? -->
 
-    <div class="white-space"></div><div class="white-space"></div>
+    <div class="white-space-2x"></div>
 
     <!-- BANNER -->
     <div class="row banner">
@@ -84,9 +85,9 @@
     </div>
     <!-- END BANNER -->
 
-    <div class="white-space"></div>
+    <div class="white-space-2x"></div>
 
-    <!-- CONTAINER 2 -->
+    <!-- TRAINER LIST -->
     <div class='row container-page'>
 
         <!-- TRAINNER LIST -->
@@ -469,9 +470,14 @@
         </div>
         <!-- END TRAINER LIST -->
 
-        <div class="white-space"></div><div class="white-space"></div>
+    </div>
+    <!-- END TRAINER LIST -->
+    
+    <div class="white-space-2x"></div>
 
-        <!-- SUCCESS STORIES -->
+    <!-- SUCCESS STORIES -->
+    <div class='row container-page'>
+
         <div class="row block success-story-block">
             <div class="block-title">
                 <div class="title-text">success stories</div>
@@ -488,10 +494,9 @@
                 <a href="#">see more</a>
             </div>
         </div>
-        <!-- END SUCCESS STORIES -->
 
     </div>
-    <!-- END CONTAINER 2 -->
+    <!-- END SUCCESS STORIES -->
 
 
 
