@@ -16,12 +16,12 @@ var memberTestimonials = (function() {
         $(document).ready(function() {
 
             // GRAYSCALE ALL IMAGE
-            grayscale($("#carousel-example-generic .item .box a img"));
-            grayscale.reset($("#carousel-example-generic .item .active a img"));
+            grayscale($("#member-list .item .box a img"));
+            grayscale.reset($("#member-list .item .active a img"));
 
 
             // SLIDER
-            $("#carousel-example-generic .item .box a").click(function(e) {
+            $("#member-list .item .box a").click(function(e) {
 
                 e.preventDefault();
 
@@ -42,8 +42,8 @@ var memberTestimonials = (function() {
 
             });
 
-            // GRAY SCALE
-            $("#carousel-example-generic .item .box a img").hover(function() {
+            // RESET GRAYSCALE ON HOVER
+            $("#member-list .item .box a img").hover(function() {
                 grayscale.reset($(this));
             }, function() {
                 if (!$(this).parent().parent().hasClass('active')) {

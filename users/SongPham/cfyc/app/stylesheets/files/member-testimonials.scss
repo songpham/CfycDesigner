@@ -1,106 +1,88 @@
 @import '../lib';
 .member-testimonials-page {
+
     img, p, h1, h2, h3, h4, a {@include transition(all .4s ease);}
+    .white-space {padding:10px 0; clear:both;}
 
     // TOP BANNER
     .top-banner {
-        position: relative;
-        text-align: center;
-        letter-spacing: 1em;
-        line-height: 150%;
-        h1.headline {
-            @include font-size(60px);
-            color: $white;
-            font-weight: 300;
-            text-transform: uppercase;
-            position: absolute;
-            left: 15%;
-            bottom: 25%;
-            padding: 3% 4%;
-            border: 1px solid $white;
-            span {
-                font-weight: 100;
-            }
-            @media (max-width: 2000px) {
-                @include font-size(3vw);
-            }
-            @media (max-width: 1000px) {
-                @include font-size(2.5vw);
-                letter-spacing: .5em;
+        a{
+            img {
+                width: 100%;
             }
         }
+        /*        position: relative;
+                text-align: center;
+                letter-spacing: 1em;
+                line-height: 150%;
+                h1.headline {
+                    @include font-size(60px);
+                    color: $white;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    position: absolute;
+                    left: 15%;
+                    bottom: 25%;
+                    padding: 3% 4%;
+                    border: 1px solid $white;
+                    span {
+                        font-weight: 100;
+                    }
+                    @media (max-width: 2000px) {
+                        @include font-size(3vw);
+                    }
+                    @media (max-width: 1000px) {
+                        @include font-size(2.5vw);
+                        letter-spacing: .5em;
+                    }
+                }*/
     }
 
     // SLIDER 
-    .slider {
-        @media (max-width: 2000px){
-            max-width: 900px;
-        }
-        margin-top: 5%;
-        margin-bottom: 5%;
-        .nav-btn {
-            color: $black;
-            &:hover {color: #524F4F;}
-            .fa {position: absolute; font-size: 4.5vw; padding: 5px; top: 25%; z-index: 1;}
-            .fa-angle-left {left: -1%;}
-            .fa-angle-right {right: -1%;}
+    .carousel {
+        .carousel-control {
+            background :0 0;
+            .glyphicon-chevron-left {
+                background: url(../img/member-testimonials/arrows.png) no-repeat;
+                height: 50px;
+                width: 27px;
+                margin-left: 0;
+                left: 80%;
+                &:before {content: "";}
+            }
+            .glyphicon-chevron-right {
+                background: url(../img/celebrity-members/arrows.png) 0 bottom no-repeat;
+                height: 50px;
+                width: 27px;
+                margin-right: 0;
+                right: 80%;
+                &:before {content: "";}
+            }
         }
         .item {
-            width: 100%;
             .box {
-                width: 20%;
-                float: left;
-                margin: 0 2%;
-                &:first-child {margin: 0 2% 0 4%;}
-                &:last-child {margin: 0 4% 0 2%;}
                 img {
-                    border : 1px solid $black;
+                    border : 1px solid #989898;
                     padding: 10px;
                     width: 100%;
                     @include border-radius(50%);
                 }
                 p {
-                    @include font-size(2vw); 
+                    color: #333;    
                     text-align:center; 
-                    margin-top: 10px; 
+                    margin: 15px 0;
+
                     font-weight:bold;
-                    @media (min-width: 800px) {@include font-size(20px)}
+
                 }
                 &:hover {
-                    img {
-                        border: 1px solid $red; 
-                    }
+                    img { border-color: $red; }
                     p {color: $red;}
                 } 
             }
             .active {
-                img {
-                    border: 1px solid $red; 
-                }
+                img { border-color: $red; }
                 p {color: $red;}
-            }
-        }
-        @media (min-width: 1999px) {
-            .nav-btn {
-                .fa {position: absolute; font-size: 100px; padding: 20px; top: 70px;}
-                .fa-angle-left {left: -100px;}
-                .fa-angle-right {right: -100px;}
-            }
-            .item {
-                width: 100%;
-                .box {
-                    width:22%;
-                    float: left;
-                    margin: 0 2%;
-                    &:first-child {margin: 0 2% 0 0;}
-                    &:last-child {margin: 0 0 0 2%;}
-                    img {
-                        width:100%;
-                        @include border-radius(50%);
-                        border : 1px solid $black;
-                        padding: 10px;
-                    }
-                }
             }
         }
     }
@@ -120,7 +102,6 @@
             }
         }
         .text {
-            padding: 3% 0;
             line-height: 150%;
             h3{
                 margin: 2% 2%;
