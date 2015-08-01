@@ -127,15 +127,15 @@
 												<option>HCMC DISTRICT 5</option>
 											</select>
 										</p>
-									</div>
-									<div class="row">
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
-										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-10">
-											<input type="submit" class="submitbtn" value="book a vip visit">
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
-									</div>
+									</div>									
 								</div>
+								<div class="row registerfrm">
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-10">
+										<input type="submit" class="submitbtn" value="book a vip visit">
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
+								</div>								
                     		</div>
                     		<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                 		</div>

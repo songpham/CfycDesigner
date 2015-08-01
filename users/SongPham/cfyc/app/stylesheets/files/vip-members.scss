@@ -166,6 +166,52 @@
 	                	padding:5px 10px;
 	                	text-transform: uppercase;
                 	}
+                	h3.visit_benefit{
+            		font-size: 13px;
+				    line-height: inherit;
+				    text-transform: uppercase;
+				    margin-bottom: 50px;
+				    span{
+				    	font-size: 90%;
+				    }
+            		span.title{
+            			font-size: 120%;
+            		}
+            	}
+            	.registerfrm{
+            		text-align: left;
+            		text-transform: uppercase;
+            		label{
+            			font-weight: bold;
+            		}
+            		input{
+            			width:100%;
+            			height: 30px;
+            			padding:2px 5px;
+            		}
+            		:focus{
+            			color: $red;
+            		}
+            		select{
+            			//text-transform: uppercase;
+            			text-align: left;
+            			width:100%;
+            			height:30px;
+            		}
+            		input[type="submit"]{
+            			color:$white;
+            			font-weight: bold;
+            			margin-top: 30px;
+            			margin-bottom: 30px;
+            			height:40px;
+            			font-size: 130%;
+            			letter-spacing: 2px;
+            			text-transform: uppercase;
+            			background:$red;
+            			padding: 7px 12px;
+            			border:none;
+            		}
+            	}
 	            }       
             }
         }
@@ -223,6 +269,52 @@
 	                	padding:5px 10px;
 	                	text-transform: uppercase;
                 	}
+                	h3.visit_benefit{
+            		font-size: 13px;
+				    line-height: inherit;
+				    text-transform: uppercase;
+				    margin-bottom: 50px;
+				    span{
+				    	font-size: 90%;
+				    }
+            		span.title{
+            			font-size: 120%;
+            		}
+            	}
+            	.registerfrm{
+            		text-align: left;
+            		text-transform: uppercase;
+            		label{
+            			font-weight: bold;
+            		}
+            		input{
+            			width:100%;
+            			height: 30px;
+            			padding:2px 5px;
+            		}
+            		:focus{
+            			color: $red;
+            		}
+            		select{
+            			//text-transform: uppercase;
+            			text-align: left;
+            			width:100%;
+            			height:30px;
+            		}
+            		input[type="submit"]{
+            			color:$white;
+            			font-weight: bold;
+            			margin-top: 30px;
+            			margin-bottom: 30px;
+            			height:40px;
+            			font-size: 130%;
+            			letter-spacing: 2px;
+            			text-transform: uppercase;
+            			background:$red;
+            			padding: 7px 12px;
+            			border:none;
+            		}
+            	}
 	            }       
             }
         }
