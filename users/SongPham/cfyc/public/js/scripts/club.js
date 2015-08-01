@@ -1,10 +1,5 @@
-var clubPage = (function () {
-    var initModule = function () {
-
-        $(document).ready(function($){
-
-        });
-
+var clubPage = (function() {
+    var initModule = function() {
 
     };
     return {
