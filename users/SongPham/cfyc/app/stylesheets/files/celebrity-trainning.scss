@@ -5,6 +5,8 @@ $containerWidth : 1200px;
 
 .celebrity-trainning-page {
 
+    .white-space {padding:10px 0; clear:both;}
+
     // GALLERY
     .gallery {max-width: $pageWidth;}
 
@@ -13,18 +15,13 @@ $containerWidth : 1200px;
         max-width: $containerWidth;
 
         // BLOCK
-        .block{
+        .block {
             @include font-size(14px);
             line-height: 1.42857143;
-            margin-bottom: 15px;
-            padding: 20px 10px;
-            @media screen and (max-width: 517px) {
-                padding: 10px 10px;
-            }
 
             // BLOCK TITLE
             .block-title {
-                margin: 20px 0 35px 0;
+                margin: 0 0 35px 0;
                 position: relative;
                 text-align: center;
                 color: $red;
@@ -93,7 +90,6 @@ $containerWidth : 1200px;
 
         // HOW DOES PT WORK BLOCK
         .how-block {
-            padding-bottom: 40px;
             @extend .block;
             .left-img, .right-img {padding: 7.5px 5px !important;}
             @media (min-width: $breakpoint_tablet) {

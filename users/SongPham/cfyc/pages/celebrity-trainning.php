@@ -28,6 +28,7 @@
     </div>
     <!-- END GALLERY -->
 
+    <div class="white-space"></div><div class="white-space"></div>
 
     <!-- CONTAINER 1 -->
     <div class="row container-page">
@@ -49,6 +50,7 @@
         </div>
         <!-- END ABOUT CELEBRITY TRAINING -->
 
+        <div class="white-space"></div><div class="white-space"></div>
 
         <!-- HOW DOES PT WORK ? -->
         <div class="row block how-block">
@@ -61,10 +63,10 @@
         </div>
         <!-- END HOW DOES PT WORK ? -->
 
-
     </div>
     <!-- END CONTAINER 1 -->
 
+    <div class="white-space"></div><div class="white-space"></div>
 
     <!-- BANNER -->
     <div class="row banner">
@@ -82,6 +84,7 @@
     </div>
     <!-- END BANNER -->
 
+    <div class="white-space"></div>
 
     <!-- CONTAINER 2 -->
     <div class='row container-page'>
@@ -466,6 +469,7 @@
         </div>
         <!-- END TRAINER LIST -->
 
+        <div class="white-space"></div><div class="white-space"></div>
 
         <!-- SUCCESS STORIES -->
         <div class="row block success-story-block">
