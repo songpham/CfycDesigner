@@ -8,77 +8,73 @@
 
     // TOP BANNER
     .top-banner {
-        a{
-            img {
-                width: 100%;
+        fieldset {
+            position: relative;
+            border: 2px solid $red;
+            padding:0 30px;
+            legend {
+                color: $red;
+                text-align: center;
+                width: auto;
+                font-size: 35px;
+                border: none;
+                margin-bottom: 0;
+                padding-left: 20px;
+                padding-right: 20px;
+                @media (max-width: 767px){font-size: 16px;}
+                @media (max-width: 480px){font-size: 16px;}
             }
         }
-        /*        position: relative;
-                text-align: center;
-                letter-spacing: 1em;
-                line-height: 150%;
-                h1.headline {
-                    @include font-size(60px);
-                    color: $white;
-                    font-weight: 300;
-                    text-transform: uppercase;
-                    position: absolute;
-                    left: 15%;
-                    bottom: 25%;
-                    padding: 3% 4%;
-                    border: 1px solid $white;
-                    span {
-                        font-weight: 100;
-                    }
-                    @media (max-width: 2000px) {
-                        @include font-size(3vw);
-                    }
-                    @media (max-width: 1000px) {
-                        @include font-size(2.5vw);
-                        letter-spacing: .5em;
-                    }
-                }*/
+        .carousel-caption {
+            font-size: 40px;
+            left: 10%;
+            bottom: 20%;
+            right: 0;
+            color:$red;
+            line-height: 40px;
+            text-align: left;
+            display: inline-block;
+            width: 550px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            strong {font-weight: 300;}
+            span{color: $white;font-size: 16px;display: inline-block;margin-top: 20px;margin-bottom: 30px;border-top:1px solid $red; line-height: 150%; padding-top: 15px; 
+                 @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                 @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
+                 @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
+            }
+            .red-btn {
+                position: absolute;
+                width: 100%;
+                left: 0px;
+                bottom: -20px;
+                a{color:$white;font-size: 12px;background:$red;border-radius: 20px;text-decoration: none;width: 140px; position: relative;margin: 0 auto;display: block;bottom: 0;
+                  @media (min-width: 768px) and (max-width: 991px) {padding: 5px;}
+                }
+                @media (min-width: 768px) and (max-width: 991px) {bottom: -13px;}
+                @media (max-width: 767px) {bottom: -8px;}
+            }
+            @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
+            @media (max-width: 767px) {width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
+            @media (max-width: 480px){width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
+        }
     }
 
     // SLIDER 
-    .carousel {
-        .carousel-control {
+    #member-list {
+        .carousel-control { 
             background :0 0;
-            .glyphicon-chevron-left {
-                background: url(../img/member-testimonials/arrows.png) no-repeat;
-                height: 50px;
-                width: 27px;
-                margin-left: 0;
-                left: 80%;
-                &:before {content: "";}
-            }
-            .glyphicon-chevron-right {
-                background: url(../img/celebrity-members/arrows.png) 0 bottom no-repeat;
-                height: 50px;
-                width: 27px;
-                margin-right: 0;
-                right: 80%;
-                &:before {content: "";}
-            }
+            .glyphicon {background: url(../img/member-testimonials/arrows.png) no-repeat;height: 50px;width: 27px;&:before {content: "";}}
+            .glyphicon-chevron-left {;margin-left: 0;left: 80%;}
+            .glyphicon-chevron-right {margin-right: 0;right: 80%;background-position: bottom;}
         }
         .item {
             .box {
-                img {
-                    border : 1px solid #989898;
-                    padding: 10px;
-                    width: 100%;
-                    @include border-radius(50%);
-                }
-                p {
-                    color: #333;    
-                    text-align:center; 
-                    margin: 15px 0;
-
-                    font-weight:bold;
-
-                }
+                img {border : 1px solid #989898;padding: 10px;width: 100%;@include border-radius(50%);}
+                p {color: #333;text-align:center;margin: 15px 0;font-weight:bold;}
                 &:hover {
-                    img { border-color: $red; }
+                    img { border-color: $red;}
                     p {color: $red;}
                 } 
             }
@@ -98,14 +94,11 @@
             background: url('../img/member-testimonials/bg.jpg');
             @include background-size(cover);
             text-align: center;
-            img {
-                width: 50%;
-                @media (max-width: 700px){width: 100%;}
-            }
+            img {width: 50%;@media (max-width: 700px){width: 100%;}}
         }
         .text {
             line-height: 150%;
-            h3{
+            h3 {
                 margin: 2% 2%;
                 @include font-size(18px);
                 text-transform: uppercase; 
@@ -113,20 +106,10 @@
                 color: #868686;
                 font-weight: bold;
             }
-            p{
-                margin: 3% 5%;
-                @include font-size(14px);
-                text-align: text;
-            }
+            p {margin: 3% 5%; @include font-size(14px); text-align: text;}
             @media (max-width: 500px){
-                h3{
-                    margin: 20px 15px;
-                    @include font-size(17px);
-                }
-                p{
-                    margin: 20px 15px;
-                    @include font-size(15px);   
-                }
+                h3 {margin: 20px 15px; @include font-size(17px);}
+                p {margin: 20px 15px; @include font-size(15px);}
             }
         }
     }

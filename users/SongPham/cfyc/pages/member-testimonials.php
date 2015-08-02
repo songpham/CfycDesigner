@@ -2,10 +2,28 @@
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 
     <!-- TOP BANNER -->
-    <div class="row top-banner">
-        <a href="#" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-            <img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/banner.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-        </a>
+    <div class="top-banner row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/banner.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                    <div class="carousel-caption">
+                        <fieldset>
+                            <legend>We make life better</legend>
+                            <span>
+                                Over 100,000 people have trusted us to lose 
+                                weight, build muscle and make their life better
+                                Visit us for a free membership trial today
+                            </span>
+                            <div class="red-btn">
+                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- END TOP BANNER -->
 
