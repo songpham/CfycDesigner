@@ -30,17 +30,10 @@ $containerWidth : 1200px;
                 color: $red;
                 letter-spacing: 1px;
                 font-weight: bold; 
-                @include font-size(2vw);
-                @media screen and (max-width: 650px) {
-                    @include font-size(4vw);
-                    .title-text {
-                        padding: 0 10px !important;
-                    }
-                }
-                @media screen and (min-width: 2000px) {
-                    @include font-size(35px);
-                }
                 text-transform: uppercase;
+                @include font-size(2vw);
+                @media screen and (max-width: 650px) {@include font-size(4vw);}
+                @media screen and (min-width: 2000px) {@include font-size(35px);}
                 &:after {
                     content: "";
                     position: absolute;
@@ -50,12 +43,7 @@ $containerWidth : 1200px;
                     top: 52%;
                     left: 10%;
                     z-index: 1;
-                }  
-                @media screen and (max-width: 320px) {
-                    &:after {
-                        width: 90%;
-                        left: 5%;
-                    } 
+                    @media screen and (max-width: 320px) {width: 90%;left: 5%;}
                 }
                 .title-text {
                     display: inline-block;
@@ -63,16 +51,10 @@ $containerWidth : 1200px;
                     padding: 0 20px;
                     background: $white; 
                     z-index: 2;
-                }
-                @media (max-width: 517px) {
-                    .title-text {
-                        max-width: 300px;
-                    }
-                }
-                @media (max-width: 320px) {
-                    .title-text {
-                        max-width: 205px;
-                    }
+                    @media screen and (max-width: 650px) {padding: 0 10px !important;}
+                    @media (max-width: 517px) {max-width: 300px;}
+                    @media (max-width: 320px) {max-width: 205px;}
+
                 }
             }
         }
@@ -82,12 +64,10 @@ $containerWidth : 1200px;
         // ABOUT CELEBRITY TRAINING BLOCK
         .about-block {
             @extend .block;
-            .text {
-                margin: 0 !important;
-                padding: 0 5px !important;
-                p {text-align: left; line-height: 24px;}
-            }
             .video {padding: 0;}
+            .text {margin: 0 !important;padding: 0 5px !important;
+                   p {text-align: left; line-height: 24px;}
+            }
         }
 
 
@@ -95,119 +75,88 @@ $containerWidth : 1200px;
         .how-block {
             @extend .block;
             .left-img, .right-img {padding: 7.5px 5px !important;}
-            @media (min-width: $breakpoint_tablet) {
-                .left-img {padding: 5px 3px 5px 0  !important;}
-                .right-img {padding: 5px 0 5px 3px  !important;}
+            .left-img {@media (min-width: $breakpoint_tablet) {padding: 5px 3px 5px 0  !important;}}
+            .right-img {@media (min-width: $breakpoint_tablet) {padding: 5px 0 5px 3px  !important;}}
+            .text-center {
+                padding: 5px 20px;
+                @media (max-width: $breakpoint_tablet) {padding: 0;}}
             }
-            .text-center {padding: 5px 20px;}
-            @media (max-width: $breakpoint_tablet) {
-                .text-center {padding: 0;}
-            }
-        }
 
 
-        // TRAINER LIST BLOCK
-        .trainer-list-block {
-            @extend .block;
-            @media (min-width: $breakpoint_tablet) {
-            }
-        }
-
-        // SUCCESS STORY BLOCK
-        .success-story-block {
-            @extend .block;
-            .box {
-                padding: 10px 0px;
-                margin: 0px;
-                .image {
-                    padding-left: 5px !important;
-                    padding-right: 5px !important;
-                    img {width: 100%; height: 100%;}
-                }
-                .text {margin-top: 4% !important; padding-left: 3%;}
-            }
-            @media (max-width: 517px){
+            // SUCCESS STORY BLOCK
+            .success-story-block {
+                @extend .block;
                 .box {
-                    padding-bottom: 30px  !important;
-                    .image {
-                        img {width: 100%; height: 100%;}
+                    padding: 10px 0px;
+                    margin: 0px;
+                    .text {margin-top: 4% !important; padding-left: 3%;}
+                    .image {padding-left: 5px !important;padding-right: 5px !important;
+                            img {width: 100%; height: 100%;}
                     }
-                    .text {margin-top: 4% !important; padding: 0 5px !important;}
-                }
-            }
-            .see-more-btn {
-                text-align: center;
-                margin: 30px 0;
-                a {
-                    text-decoration: none;
-                    @include font-size(17px);
-                    color: #000;
-                    padding: 5px 30px;
-                    border : 2px solid #808285;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    &:hover {
-                        text-decoration: none;
-                        background: #808285;
-                        color: $white;
-                        @include transition(all .4s ease-in-out);
+                    @media (max-width: 517px){
+                        padding-bottom: 30px  !important;
+                        .image {img {width: 100%; height: 100%;}}
+                        .text {margin-top: 4% !important; padding: 0 5px !important;}
                     }
                 }
-            }
-        }
-    }
 
-    // MID BANNER
-    .banner {
-        max-width: $pageWidth;
-        background: url('../img/celebrity-training/banner.jpg');
-        @include background-size(cover);
-        position: relative;
-        .image {}
-        .text-content {
-            width: 100%;
-            color: $white;
-            text-align: center; 
-            h3 {
-                @include font-size(17px);   
-                margin-top: 45px; 
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-            p {
-                @include font-size(14px); 
-                margin: 20px 0 30px;
-                letter-spacing: 1px;
-            }
-            .navbar-center {
-                width: 100%;
-                text-align: center;
-                margin : 15px 0;
-                li {
-                    float: none;
-                    display: inline-block;
+                .see-more-btn {
+                    text-align: center;
+                    margin: 30px 0;
                     a {
-                        @include font-size(14px);
-                        font-weight: bold;
-                        color: $white;
+                        text-decoration: none;
+                        @include font-size(17px);
+                        color: #000;
+                        padding: 5px 30px;
+                        border : 2px solid #808285;
                         text-transform: uppercase;
-                        background: none;
+                        font-weight: bold;
                         &:hover {
-                            color: $red;
-                        }
-                    }
-                    @media (max-width: 500px) {
-                        a {
-                            padding: 5px 5px !important;
+                            text-decoration: none;
+                            background: #808285;
+                            color: $white;
+                            @include transition(all .4s ease-in-out);
                         }
                     }
                 }
-                li.active { a {color: $red;} }
             }
         }
+
+        // MID BANNER
+        .banner {
+            @include background-size(cover);
+            max-width: $pageWidth;
+            background: url('../img/celebrity-training/banner.jpg');
+            position: relative;
+            .text-content {
+                width: 100%;
+                color: $white;
+                text-align: center; 
+                h3 {@include font-size(17px);   margin-top: 45px; text-transform: uppercase;font-weight: bold;}
+                p {@include font-size(14px); margin: 20px 0 30px;letter-spacing: 1px;}
+                .navbar-center {
+                    width: 100%;
+                    text-align: center;
+                    margin : 15px 0;
+                    li {
+                        float: none;
+                        display: inline-block;
+                        a {
+                            @include font-size(14px);
+                            font-weight: bold;
+                            color: $white;
+                            text-transform: uppercase;
+                            background: none;
+                            &:hover {color: $red;}
+                            @media (max-width: 500px) {padding: 5px 5px !important;}
+                        }
+                    }
+                    li.active { a {color: $red;} }
+                }
+            }
+        }
+
     }
 
-}
 
-
-@import 'pgwslider.scss';
+    @import 'pgwslider.scss';

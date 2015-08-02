@@ -8,9 +8,7 @@ $containerWidth : 1200px;
     .white-space-2x {padding: 20px 0; clear: both;}
     .white-space-3x {padding: 30px 0; clear: both;} 
 
-    h1, h2, h3, span, p, a, button {
-        @include transition(all .4s ease);
-    }
+    h1, h2, h3, span, p, a, button {@include transition(all .4s ease);}
 
     // TOP BANNER
     #top-banner {
@@ -36,15 +34,10 @@ $containerWidth : 1200px;
                 padding: 3% 10%;
                 background: #da2128;
                 letter-spacing: 1px;
-                &:hover {
-                    @include box-shadow(0px 0px 7px);
-                }
+                @media (max-width: 900px) {@include font-size(1.5vw);}
+                &:hover {@include box-shadow(0px 0px 7px);}
             }
-            @media (max-width: 900px) {
-                .btn {
-                    @include font-size(1.5vw);
-                }
-            }
+
         }
     }
 
@@ -88,16 +81,9 @@ $containerWidth : 1200px;
             padding: 0 20px;
             background: $white; 
             z-index: 2;
-        }
-        @media (max-width: 517px) {
-            .title-text {
-                max-width: 300px;
-            }
-        }
-        @media (max-width: 320px) {
-            .title-text {
-                max-width: 205px;
-            }
+            @media screen and (max-width: 650px) {padding: 0 10px !important;}
+            @media (max-width: 517px) { max-width: 300px;}
+            @media (max-width: 320px) {max-width: 205px;}
         }
     }
 
@@ -110,14 +96,8 @@ $containerWidth : 1200px;
             @include font-size(14px);
             line-height: 1.42857143;
             padding: 20px 10px; 
-            @media screen and (max-width: 517px) {
-                padding: 10px 10px;
-            }
-
-            // BLOCK TITLE
-            .block-title {
-                @extend .title;
-            }
+            @media screen and (max-width: 517px) {padding: 10px 10px;}
+            .block-title {@extend .title;}
         }
 
 
@@ -138,14 +118,13 @@ $containerWidth : 1200px;
         .benefit-block {
             @extend .block;
             .left-img, .right-img {padding: 7.5px 5px !important;}
-            @media (min-width: $breakpoint_tablet) {
-                .left-img {padding: 5px 3px 5px 0  !important;}
-                .right-img {padding: 5px 0 5px 3px  !important;}
+            .left-img {@media (min-width: $breakpoint_tablet) {padding: 5px 3px 5px 0  !important;}}
+            .right-img {@media (min-width: $breakpoint_tablet) {padding: 5px 0 5px 3px  !important;}}
+            .text-center {
+                padding: 5px 40px;
+                @media (max-width: $breakpoint_tablet) {padding: 5px;}
             }
-            .text-center {padding: 5px 40px;}
-            @media (max-width: $breakpoint_tablet) {
-                .text-center {padding: 5px;}
-            }
+
         }
 
 
@@ -156,11 +135,7 @@ $containerWidth : 1200px;
                 width: 100%;
                 color: $black;
                 text-align: center; 
-                p {
-                    @include font-size(14px); 
-                    margin: 20px 0 30px;
-                    letter-spacing: 1px;
-                }
+                p {margin: 20px 0 30px;letter-spacing: 1px;@include font-size(14px);}
                 .navbar-center {
                     width: 100%;
                     text-align: center;
@@ -174,14 +149,8 @@ $containerWidth : 1200px;
                             color: $black;
                             text-transform: uppercase;
                             background: none;
-                            &:hover {
-                                color: $red;
-                            }
-                        }
-                        @media (max-width: 500px) {
-                            a {
-                                padding: 5px 5px !important;
-                            }
+                            &:hover {color: $red;}
+                            @media (max-width: 500px) {padding: 5px 5px !important;}
                         }
                     }
                     li.active { a {color: $red;} }
@@ -189,17 +158,15 @@ $containerWidth : 1200px;
             }
         }
 
-        .trainer-list-block {
-            @extend .block;
-        }
+        .trainer-list-block {@extend .block;}
 
 
         // YOGI - BLOCK
         .yogi-block {
             @extend .block;
-            .text-center {padding: 5px 40px;}
-            @media (max-width: $breakpoint_tablet) {
-                .text-center {padding: 5px;}
+            .text-center {
+                padding: 5px 40px;
+                @media (max-width: $breakpoint_tablet) {padding: 5px;}
             }
             .image {
                 padding: 0 5px;
@@ -208,36 +175,20 @@ $containerWidth : 1200px;
                     float: left;
                     height: 49.5%;
                     width: 49.5%;
-                    &:first-child {
-                        height: 100%;
-                        width: 49.5%;
-                        margin-right: .5%; 
-                    }
-                    &:nth-child(2) {
-                        margin: 0 0 .5% .5%;
-                    }
-                    &:last-child {
-                        margin: .5% 0 0 .5%;
-                    }
+                    &:first-child {height: 100%;width: 49.5%;margin-right: .5%; }
+                    &:nth-child(2) {margin: 0 0 .5% .5%;}
+                    &:last-child {margin: .5% 0 0 .5%;}
                 }
-            }
-            @media (max-width: 992px) {
-                .image {
+                @media (max-width: 992px) {
                     height: auto;
                     img {
                         float: none;
-                        &:first-child {
-                            height: auto;
-                            width: 100%;
-                        }
-                        &:nth-child(2),  &:last-child {
-                            height: auto;
-                            width: 100%;
-                            margin: 3% 0 1% 0;
-                        }
+                        &:first-child {height: auto;width: 100%;}
+                        &:nth-child(2),  &:last-child {height: auto;width: 100%;margin: 3% 0 1% 0;}
                     }
                 }
             }
+
 
         }
 
@@ -255,16 +206,13 @@ $containerWidth : 1200px;
                     img {width: 100%; height: 100%;}
                 }
                 .text {margin-top: 4% !important; padding-left: 3%;}
-            }
-            @media (max-width: 517px){
-                .box {
+                @media (max-width: 517px){
                     padding-bottom: 30px  !important;
-                    .image {
-                        img {width: 100%; height: 100%;}
-                    }
+                    .image {img {width: 100%; height: 100%;}}
                     .text {margin-top: 4% !important; padding: 0 5px !important;}
                 }
             }
+
             .see-more-btn {
                 text-align: center;
                 margin: 30px 0;
@@ -291,9 +239,7 @@ $containerWidth : 1200px;
     // GALLERY
     .gallery {
         max-width: $pageWidth;
-        .block-title {
-            @extend .title;
-        }
+        .block-title {@extend .title;}
     }
 
     // DISCOVER
@@ -315,24 +261,14 @@ $containerWidth : 1200px;
                     position: absolute;
                     color: $white;
                     top: 4px;
+                    @media (max-width: 770px) {@include font-size(3em);position: absolute;color: $white;top: 2px;}
+                    @media (max-width: 560px) {.nav-icon {display: none;}}
                 }
                 .left {left: 0%;}
                 .right {right: 0%;}
                 @media (max-width: 1200px) {
                     .left {left: 15px;}
                     .right {right: 15px;}
-                }
-                @media (max-width: 770px) {
-                    .nav-icon {
-                        @include font-size(3em);
-                        position: absolute;
-                        color: $white;
-                        top: 2px;
-                    }
-                }
-                @media (max-width: 560px) {
-                    .nav-icon {display: none;}
-
                 }
             }
 
@@ -346,12 +282,7 @@ $containerWidth : 1200px;
                 padding-left: initial;
                 margin-left: initial;
                 list-style: initial;
-                .active {
-                    width: initial;
-                    height: initial;
-                    margin: initial;
-                    background-color: initial;
-                }
+                .active {width: initial;height: initial;margin: initial;background-color: initial;}
                 li {
                     display: initial;
                     width: initial;
@@ -456,11 +387,7 @@ $containerWidth : 1200px;
 
     // GALLERY 2
     #discover-2 {
-        .carousel-indicators {
-            left: 10%;
-            bottom: 3%;
-        }
-
+        .carousel-indicators {left: 10%;bottom: 3%;}
         .carousel-caption {
             @include font-size(11px);
             text-transform: uppercase;
