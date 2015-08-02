@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac31e74-5443-4230-bf74-d4b701df5924" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/contact-us/contact-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/contact-us/face-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/contact-us/mail-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/contact-us/phone-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/contact-us/web-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/contact-us.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/contact-us.js" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/js/scripts/contact-us.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/contact-us.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/contact-us.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CfycDesigner.iws" />

@@ -93,7 +93,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="services" alt="See more" title="See more">See more</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="club" alt="See more" title="See more">See more</a>
                     </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="member-testimonials" alt="See more" title="See more">See more</a>
                     </div>
                 </div>
             </div>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="celebrity-members" alt="See more" title="See more">See more</a>
                     </div>
                 </div>
             </div>
@@ -353,7 +353,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="" alt="See more" title="See more">See more</a>
                     </div>
                 </div>
             </div>

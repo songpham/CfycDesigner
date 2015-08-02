@@ -3,66 +3,77 @@
 
     <!-- TOP BANNER -->
     <div class="row top-banner">
-        <img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/banner.jpg" class="img-responsive banner" onmousedown="return false;"/>
-        <h1 class="headline"><span>success</span><br>stories</h1>
+        <a href="#" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+            <img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/banner.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+        </a>
     </div>
     <!-- END TOP BANNER -->
 
+    <div class="white-space-2x"></div>
+
     <!-- SLIDER -->
-    <div class="container-page slider">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-            <!-- Nav btn -->
-            <a class="nav-btn" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="nav-btn" href="#carousel-example-generic" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-
-
-            <!-- Wrapper for slides -->
+    <div class="row">
+        <div id="member-list" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="box active">
-                        <a href='1'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                    <div class="col-md-2 hide-sm hide-xs text-center">
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box active">
+                        <a href='1'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
+                        <p>Do Hoang Lan</p> 
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='2'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='3'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                        <p>Do Hoang Lan</p> 
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='4'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
+                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    </div>
                 </div>
                 <div class="item">
-                    <div class="box">
-                        <a href='5'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                    <div class="col-md-2 hide-sm hide-xs text-center">
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
+                        <a href='5'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
+                        <p>Do Hoang Lan</p> 
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='6'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='7'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                        <p>Do Hoang Lan</p> 
                     </div>
-                    <div class="box">
+                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='8'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
                         <p>Hoang Van Si</p>
                     </div>
+                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    </div>
                 </div>
             </div>
+            <a class="left carousel-control" href="#member-list" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#member-list" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
         </div>
-
     </div>
     <!-- END SLIDER -->
 
+    <div class="white-space"></div>
 
+
+    <!-- STORY LIST -->
     <div class='story-list'>
 
         <!-- STORY -->
@@ -73,6 +84,8 @@
                 <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
+
+            <div class="white-space"></div>
 
             <!-- TEXT -->
             <div class="container-page text">
@@ -95,6 +108,8 @@
             </div>
             <!-- END IMAGE -->
 
+            <div class="white-space"></div>
+
             <!-- TEXT -->
             <div class="container-page text">
                 <h3>member's story 2</h3>
@@ -115,6 +130,8 @@
                 <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
+
+            <div class="white-space"></div>
 
             <!-- TEXT -->
             <div class="container-page text">
@@ -137,6 +154,8 @@
             </div>
             <!-- END IMAGE -->
 
+            <div class="white-space"></div>
+
             <!-- TEXT -->
             <div class="container-page text">
                 <h3>member's story 4</h3>
@@ -157,6 +176,8 @@
                 <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
+
+            <div class="white-space"></div>
 
             <!-- TEXT -->
             <div class="container-page text">
@@ -179,6 +200,8 @@
             </div>
             <!-- END IMAGE -->
 
+            <div class="white-space"></div>
+
             <!-- TEXT -->
             <div class="container-page text">
                 <h3>member's story 6</h3>
@@ -199,6 +222,8 @@
                 <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
             </div>
             <!-- END IMAGE -->
+
+            <div class="white-space"></div>
 
             <!-- TEXT -->
             <div class="container-page text">
@@ -221,6 +246,8 @@
             </div>
             <!-- END IMAGE -->
 
+            <div class="white-space"></div>
+
             <!-- TEXT -->
             <div class="container-page text">
                 <h3>member's story 8</h3>
@@ -233,9 +260,8 @@
         </div>
         <!-- END STORY -->
 
-
-
     </div>
+    <!-- END STORY LIST -->
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
