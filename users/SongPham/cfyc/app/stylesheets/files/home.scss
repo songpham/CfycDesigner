@@ -7,18 +7,6 @@
             img {
                max-width: 100%;
             }
-            #movetopbanner {
-                ol.carousel-indicators {
-                    li {
-                        background: $white;
-                        border:1px solid $white;
-                    }
-                    .active {
-                        background: $red;
-                        border:1px solid $red;
-                    }
-                }
-            }
         }
     }
     .top-content {
@@ -144,7 +132,7 @@
                     .overlay {
                         height: 100%;
                         position: absolute;
-                        top: 0;
+                        top: 40%;
                         width: 100%;
                         h2.service_title {
                             align-items: center;
@@ -187,6 +175,9 @@
                                 font-style: italic;
                             }
                         }
+                        strong{
+                            color: $red;
+                        }
                     }
                     .active{
                         display: block;
@@ -195,6 +186,7 @@
             }
             .success_stories {
                 background: url('../img/home/california-wow-success-stories-bg.jpg') 0 0 repeat transparent;
+                background-size: cover;
                 padding: 30px 0;
                 color: $white;
                 .roundphoto{
@@ -300,6 +292,9 @@
                                     font-style: italic;
                                 }
                             }
+                            strong{
+                                color: $red;
+                            }
                         }
                         .active{
                             display: block;
@@ -319,7 +314,7 @@
                         .overlay {
                             height: 100%;
                             position: absolute;
-                            top: 0;
+                            top: 40%;
                             width: 100%;
                             h2.service_title {
                                 align-items: center;
@@ -402,7 +397,7 @@
                         .overlay {
                             height: 100%;
                             position: absolute;
-                            top: 0;
+                            top: 40%;
                             width: 100%;
                             h2.service_title {
                                 align-items: center;
@@ -454,6 +449,9 @@
                                     font-size: 60%;
                                     font-style: italic;
                                 }
+                            }
+                            strong{
+                                color: $red;
                             }
                         }
                         .active{
