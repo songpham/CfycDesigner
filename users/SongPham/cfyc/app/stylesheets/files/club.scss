@@ -1,264 +1,307 @@
 @import '../lib';
+
+@mixin border-top-left-radius($value) {
+    -moz-border-radius-topleft: $value;
+    -webkit-border-top-left-radius: $value;
+    border-top-left-radius: $value;
+}
+
+@mixin border-top-right-radius($value) {
+    -moz-border-radius-topright: $value;
+    -webkit-border-top-right-radius: $value;
+    border-top-right-radius: $value;
+}
+
 .club-page {
 
-    .map-info-full {
-        background-color: #f5f5f5;
+    .whitespace {padding: 10px 0}
+
+    // TOP BANNER
+    .top-banner {
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 35%;
+            line-height: 150%;
+            p {
+                @include font-size(25px);
+                letter-spacing: 2px;
+                @media (max-width: 1200px) {@include font-size(20px);}
+                @media (max-width: 768px) {@include font-size(16px);}
+                @media (max-width: 480px) {@include font-size(12px);}
+                @media (max-width: 480px) {line-height: 100%;}
+            }
+            h1 {
+                text-transform: uppercase;
+                @include font-size(35px);
+                margin-bottom: 5%;
+                @media (max-width: 1200px) {@include font-size(30px);}
+                @media (max-width: 768px) {@include font-size(22px);margin: 1% 0 5% 0;}
+                @media (max-width: 480px) {@include font-size(15px);margin: 1% 0 5% 0;}
+                @media (max-width: 320px) {@include font-size(15px);margin: -7px 0 2% 0;}
+            }
+            a {
+                @include font-size(15px);
+                text-decoration: none; 
+                color: $white;
+                text-transform: uppercase;
+                padding: 5px 10px;
+                border: 1px solid white;
+                @media (max-width: 1200px) {@include font-size(15px)}
+                @media (max-width: 768px) {@include font-size(13px);padding: 5px 10px;}
+                @media (max-width: 480px) {@include font-size(12px);padding: 5px 10px;}
+            }
+            @media (max-width: 1200px) {top: 30%;}
+            @media (max-width: 768px) {top: 15%;}
+            @media (max-width: 480px) {top: 10%;}
+            @media (max-width: 320px) {top: 0;}
+        }
     }
 
-    .mobile-menu {
-        position: absolute;
-        top: 10px; 
-        right: 10px; 
-        z-index: 1;
-        .btn {
-            span {color: white;}
-            .fa {color: white; }
-            background: 0 0;
-           
-        } 
-        .open {
-            .dropdown-toggle.btn-default:focus, 
-                .dropdown-toggle.btn-default:hover {
-                color: #333;
-                background: none;
-                border: none;
-                .fa {color: #ccc;}
-            }
+    //  CLUB INTRODUCE
+    .introduce {
+        background: #f5f5f5;
+        padding: 40px 0;
+        text-align: center;
+        @media (max-width: 1200px) {padding: 30px 15px;}
+    }
+
+
+    // CLUB LIST 
+    #club-list {
+        background: $white;
+        .carousel-control { 
+            background :0 0;
+            .glyphicon {background: url(../img/member-testimonials/arrows.png) no-repeat;height: 50px;width: 27px;&:before {content: "";}}
+            .glyphicon-chevron-left {;margin-left: 0;left: 80%;}
+            .glyphicon-chevron-right {margin-right: 0;right: 80%;background-position: bottom;}
         }
-        .dropdown-menu {
-            right: 15px;
-            background-color: #2b2a2b;
-            li {
-                line-height: 40px;
-                border-bottom: 1px #464646 solid;
-                &:last-child { border-bottom: none;}
-                a {
-                    padding-top: 7px;
-                    padding-bottom: 7px;
-                    background-color: #2b2a2b;
-                    border-color: #464646;
-                    display: block;
-                    text-decoration: none;
-                    color: #fff;
+        .item {
+            .box {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                position: relative;
+                img {position: relative;width: 100%;@include border-radius(50%);z-index: 1;border: 1px solid white;}
+                p {
+                    @include font-size(14px);
+                    position: absolute;
+                    color: $white;
+                    text-transform: uppercase;
+                    width: 100%;
+                    font-weight:bold;
+                    top: 48%;
+                    left: 0;
+                    cursor: pointer;
+                    z-index: 3;
+                    @media (max-width: 480px) {@include font-size(12px);}
+                }
+                &:after {
+                    cursor: pointer;
+                    top: 15px;
+                    left: 15px;
+                    bottom: 15px;
+                    right: 15px;
+                    content: "";
+                    position: absolute;
+                    @include border-radius(50%);
+                    background: #e80303;
+                    z-index: 0;
+                }
+                &:hover {&:after {z-index: 2;}}
+            }
+            .active {
+                &:after {
+                    top: 15px;
+                    left: 15px;
+                    bottom: 15px;
+                    right: 15px;
+                    content: "";
+                    position: absolute;
+                    @include border-radius(50%);
+                    background: #e80303;
+                    z-index: 2;
                 }
             }
         }
     }
 
-    .menu-trans,.info-trans {
-        background-color: rgba(0 , 0 , 0 , 0.5);
-    }
-
-    .menu-trans {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        z-index: 1;
-    }
-
-    .info-trans {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .selection-center-intro {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        color: #c3c2c2;
-        font-weight: 400;
-        text-align: justify;
-    }
-
-    .club-introduction-detail {
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .whitespace-small {
-        padding: 5spx 0;
-        clear: both;
-    }
-
-    .whitespace {
-        padding: 10px 0;
-        clear: both;
-    }
-
-    .whitespace-x2 {
-        padding: 20px 0;
-        clear: both;
-    }
-
-    .whitespace-x3 {
-        padding: 30px 0;
-        clear: both;
-    }
-
-    .center-location {
-        text-align: center;
-    }
-
-    ul.center-menu {
-        padding-top: 15px;
-        display: inline-block;
-    }
-
-    ul.center-menu li {
-        list-style-type: none;
-        float: left;
-        margin: 10px;
-        border-right: 1px solid #c3c2c2;
-        padding-right: 18px;
-    }
-
-    ul.center-menu li:last-child{
-        border-right: none;
-    }
-
-    ul.center-menu li a{
-        color: #c3c2c2;
-        font-size: 10px;
-        text-transform: uppercase;
-    }
-
-    ul.center-menu li a:hover {
-        text-decoration: none;
-    }
-
-    .selection-center h2 {
-        border-bottom: 1px solid #da2128;
-        line-height: .1em;
-        margin: 30px auto;
-        text-align: center;
-        width: 50%;
-        color: #da2128;
-    }
-
-    .selection-center h3 {
-        text-transform: uppercase;
-    }
-
-    .selection-center h2 span.location {
-        background: #fff;
-        padding: 0 10px;
-        text-transform: uppercase;
-    }
-
-    .extra-images img {
-        max-height: 95px;
-        width: 100%;
-    }
-
-    .map-img {
-        padding-top: 15px;
-    }
-
-    h3.map-title {
-        font-size: 16px;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .booking-widget {
-        text-align: center;
-    }
-
-    .arrow-down {
-        width: 0;
-        height: 0;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 15px solid #f00;
-    }
-
-    .carousel-indicators {
-        position: relative !important;
-        bottom: 0px !important;
-        left: 0px !important;
-        z-index: 0px !important;
-        width: 100% !important;
-        padding-left: 0px !important;
-        margin-left: 0px !important;
-        list-style: none !important;
-    }
-
-    .carousel-indicators .active{
-        max-height: 95px !important;
-        width: 25% !important;
-    }
-
-    .carousel-indicators img:hover {
-        cursor: pointer;
-    }
-
-    .carousel-indicators .active img {
-        border: 2px solid #da2128;
-    }
-
-    .carousel-caption {
-        position: absolute !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        width: 100% !important;
-        left: 0 !important;
-        z-index: 0 !important;
-        padding-top: 20px !important;
-        padding-bottom: 20px !important;
-        background-color: rgba(0,0,0,0.5) !important;
-    }
-
-    .carousel-caption p {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .carousel-control  {
-        position: relative !important;
-    }
-
-    .extra-info span.left img {
-        float: right;
-        padding-top: 50%
-    }
-
-    .extra-info span.right img {
-        float: left;
-        padding-top: 50%
-    }
-
-    .booking-btn {
-        border: 2px solid #000;
-        font-size: 20px;
-        font-weight: 600;
-        color: #000;
-        border-radius: 0 !important;
-        background-color: transparent !important;
-        text-transform: uppercase;
-    }
-
-    @media screen and (max-width: 768px) {
-        .map-information {
+    // CLUB TITLE 
+    .block {
+        .block-title {
+            margin: 0;
+            position: relative;
             text-align: center;
+            color: $red;
+            letter-spacing: 1px;
+            font-weight: bold; 
+            @include font-size(2vw);
+            @media screen and (min-width: 2000px) {@include font-size(35px);}
+            @media screen and (max-width: 650px) {@include font-size(4vw);.title-text {padding: 0 10px !important;}}
+            text-transform: uppercase;
+            &:after {
+                content: "";
+                position: absolute;
+                width: 80%;
+                height: 2px;
+                background: $red;
+                top: 52%;
+                left: 10%;
+                z-index: 1;
+            }  
+            @media screen and (max-width: 320px) {
+                &:after {width: 90%;left: 5%;} 
+            }
+            .title-text {
+                display: inline-block;
+                position: relative;
+                padding: 0 20px;
+                background: $white; 
+                z-index: 2;
+                @media screen and (max-width: 650px) {padding: 0 10px !important;}
+                @media (max-width: 517px) { max-width: 300px;}
+                @media (max-width: 320px) {max-width: 205px;}
+            }
         }
-
-        .carousel-control {display: none;}
     }
 
-    @media screen and (max-width: 480px) {
-
-        .selection-center h2 span.location {
-            font-size: 14px;
+    // SLIDESHOW
+    .slideshow {
+        background: #f5f5f5;
+        .item {
+            img {width: 100%;}
+        }
+        .carousel-caption {
+            color: #000;
+            position: relative;
+            top: 0px;
+            display: block;
+            margin: 0 auto;
+            left: 0;
+            max-width: 1200px;
+        }
+        // Reset carousel-indicators class style
+        .carousel-indicators {
+            position: initial;
+            bottom: initial;
+            left: initial;
+            z-index: initial;
+            width: initial;
+            padding-left: initial;
+            margin-left: initial;
+            list-style: initial;
+            .active {width: initial;height: initial;margin: initial;background-color: initial;}
+            li {
+                display: initial;
+                width: initial;
+                height: initial;
+                margin: initial;
+                text-indent: initial;
+                cursor: initial;
+                background-color: initial;
+                background-color: initial;
+                border: initial;
+                border-radius: initial;
+            }
         }
     }
 
+    // THUMBNAIL
+    .thumbs {
+        position: relative !important;
+        margin-top: 20px !important;
+        width: 100% !important;
+        @media (max-width: 991px) {margin-top: 15px !important;}
+        @media (max-width: 767px) {margin-top: 10px !important;}
+        .box {
+            position: relative;
+            height: 200px !important;
+            width: 25% !important;
+            @media (max-width: 1200px) {height: 180px !important;}
+            @media (max-width: 991px) {height: 120px !important;}
+            @media (max-width: 767px) {height: 90px !important;padding: 0 10px;}
+            @media (max-width: 480px) {height: 60px !important;}
+            @media (max-width: 320px) {height: 40px !important;padding: 0 5px;}
+            img {
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                border: 2px solid $red;
+                @include border-top-left-radius(20px);
+                @include border-top-right-radius(20px);
+                @media (max-width: 480px) {@include border-top-left-radius(5px);@include border-top-right-radius(5px);}
+            }
+            .box-inner {
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                &:after, &:before {
+                    position: absolute;
+                    width: 50%;
+                    content: '';
+                    top: 0px;
+                    height: 25px;
+                    background: #f5f5f5;
+                    border-bottom: 2px solid $red;
+                    transform: skew(0);
+                    @media (max-width: 991px){height: 15px;}
+                    @media (max-width: 480px) {height: 10px;}
+                }
+                &:after {right: 0;transform-origin: right bottom;}
+                &:before {left: 0;transform-origin: left bottom;}
+                &:hover {
+                    &:after {border-left: 2px solid $red;border-bottom: 2px solid $red;right: -23.5px;transform: skew(45deg);}
+                    &:before {border-right: 2px solid $red;border-bottom: 2px solid $red;left: -23.5px;transform: skew(-45deg);}
+                    @media (max-width: 991px) {&:after {right: -13.5px;}&:before {left: -13.5px;}}
+                    @media (max-width: 480px) {&:after {right: -8.5px;}&:before {left: -8.5px;}}
+                }
+            }
 
+        }
+        .active {
+            .box-inner {
+                img {border: 2px solid $red;}
+                &:after {border-left: 2px solid $red;border-bottom: 2px solid $red;right: -23.5px;transform: skew(45deg);}
+                &:before {border-right: 2px solid $red;border-bottom: 2px solid $red;left: -23.5px;transform: skew(-45deg);}
+                @media (max-width: 991px) {&:after {right: -13.5px;}&:before {left: -13.5px;}}
+                @media (max-width: 480px) {&:after {right: -8.5px;}&:before {left: -8.5px;}}
+            }
+        }
 
+        // Control
+        .carousel-control {display: block;top: 120px;width: auto;}
+        .right {right:-25px;}
+        .left {left:-25px;}
+        .glyphicon-chevron-right {background: url('../img/club/right-arr.png') no-repeat;&:before {content: "";}}
+        .glyphicon-chevron-left {background: url('../img/club/left-arr.png') no-repeat;&:before {content: "";}}
+        @media (max-width: 1300px) {.carousel-control {display: none;}}
+    }
+
+    .infomation {
+        padding: 40px 0;
+        background : #f5f5f5;   
+        .see-more-btn {
+            text-align: center;
+            margin-top: 35px;
+            a {
+                text-decoration: none;
+                @include font-size(17px);
+                color: #000;
+                padding: 5px 30px;
+                border : 2px solid #808285;
+                text-transform: uppercase;
+                font-weight: bold;
+                &:hover {
+                    text-decoration: none;
+                    background: #808285;
+                    color: $white;
+                    @include transition(all .4s ease-in-out);
+                }
+            }
+        }
+    }
+
+    .quan {display:none;}
+    
 }
