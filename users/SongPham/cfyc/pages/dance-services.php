@@ -9,7 +9,7 @@
                     <div class="carousel-caption">
                         <fieldset>
                             <legend>Discover</legend>
-                            the beauty & excitement of Cali Dance
+                            the beauty & excitement of Cali Dance<br>
                             <span>Experience a dance class today</span>
                             <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
@@ -20,11 +20,10 @@
                     <div class="carousel-caption">
                         <fieldset>
                             <legend>Discover</legend>
-                            the beauty & excitement of Cali Dance
+                            the beauty & excitement of Cali Dance<br>
                             <span>Experience a dance class today</span>
                             <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
-
                     </div>
                 </div>
             </div>
@@ -170,35 +169,39 @@
                     <li role="presentation" class="active">
                         <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-icon.png" alt="DJ"> DJ
+                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-icon.png" alt="DJ">
+                            <span>DJ</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer2" aria-controls="trainer2" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/tylerly-icon.png" alt="DJ"> TYLER LY
+                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/tylerly-icon.png" alt="DJ">
+                            <span>TYLER LY</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer3" aria-controls="trainer3" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/genesis-icon.png" alt="DJ"> GENESIS
+                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/genesis-icon.png" alt="DJ">
+                            <span>GENESIS</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer4" aria-controls="trainer4" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/katsu-icon.png" alt="DJ"> KATSU
+                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/katsu-icon.png" alt="DJ">
+                            <span>KATSU</span>
                         </a>
                     </li>
                 </ul>
-                <div class="tab-content col-lg-offset-1 col-md-offset-1 col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
                     <div role="tabpanel" class="tab-pane active" id="trainer1">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-sx-12">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
                             <img class="img-responsive"
                                  src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-photo.jpg" alt="DJ">
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-6 col-sx-12">
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
                             <h3>DJ</h3>
                             <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
                             <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -211,11 +214,11 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="trainer2">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-sx-12">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
                             <img class="img-responsive"
                                  src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-photo.jpg" alt="DJ">
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-6 col-sx-12">
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
                             <h3>TYLER LY</h3>
                             <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
                             <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -230,45 +233,16 @@
                 </div>
 
             </div>
-            <div role="tabpanel" class="tab-pane" id="hanoi">HA NOI</div>
-            <div role="tabpanel" class="tab-pane" id="danang">DA NANG</div>
-            <div role="tabpanel" class="tab-pane" id="binhduong">BINH DUONG</div>
-            <div role="tabpanel" class="tab-pane" id="bienhoa">BIEN HOA</div>
+            <div role="tabpanel" class="tab-pane" id="trainer3">TRAINER 3</div>
+            <div role="tabpanel" class="tab-pane" id="trainer4">TRAINER 4</div>
+            <div role="tabpanel" class="tab-pane" id="trainer5">TRAINER 5</div>
+            <div role="tabpanel" class="tab-pane" id="trainer6">TRAINER 6</div>
         </div>
+
 
     </div>
     <div class="clearfix"></div>
-    <div class="stories container">
-        <h2><div class="line"></div>success stories<div class="line"></div></h2>
-        <ul class="row">
-            <li>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/stories1.jpg" alt="Success Stories">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-                    <p>Ms. NGUYEN TRUC HIEN</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                </div>
-                <div class="clearfix"></div>
-            </li>
-            <li>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/stories2.jpg" alt="Success Stories">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-                    <p>Mr. LAM PHUONG BACH</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                </div>
-                <div class="clearfix"></div>
-            </li>
-            <li>
-                <center><a class="seemore" href="#see-more" title="see more">See more</a></center>
-            </li>
-        </ul>
-    </div>
-    <div class="clearfix"></div>
+
     <div class="contactform container">
         <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2 class="title">try a dance session</h2>
