@@ -12,7 +12,7 @@
                         <fieldset>
                             <legend>We make life better</legend>
                             <span>
-                                Over 100,000 people have trusted us to lose 
+                                Over 100,000 people have trusted us to lose
                                 weight, build muscle and make their life better
                                 Visit us for a free membership trial today
                             </span>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box active">
                         <a href='1'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p> 
+                        <p>Do Hoang Lan</p>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='2'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='3'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p> 
+                        <p>Do Hoang Lan</p>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='4'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='5'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p> 
+                        <p>Do Hoang Lan</p>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='6'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='7'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p> 
+                        <p>Do Hoang Lan</p>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                         <a href='8'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
