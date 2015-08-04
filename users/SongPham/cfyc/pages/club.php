@@ -503,7 +503,7 @@
     <!-- END QUAN 5 -->
 
     <!-- QUAN 1 -->
-    <div class="quan quan-5">
+    <div class="quan quan-1">
         <!-- CLUB NAME -->
         <div class="row block">
             <div class='block-title'>
