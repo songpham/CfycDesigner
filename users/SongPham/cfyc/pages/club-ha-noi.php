@@ -162,7 +162,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1806790187384!2d105.84821529999999!3d21.0254554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab93cd9ccb09%3A0x79549a05fefac023!2sCapital+Building!5e0!3m2!1svi!2s!4v1438676815323" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -264,7 +264,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4995423017585!2d105.8114538!3d21.012688999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab621b0085f1%3A0xff9d7e418f43fd75!2sSky+City+Tower!5e0!3m2!1svi!2s!4v1438676862594" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -366,7 +366,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8641659557716!2d105.86798610000001!3d20.998081400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac0445924b81%3A0xb36557897b2b794!2sCalifornia+Fitness+%26+Yoga+Qu%E1%BA%ADn+Hai+B%C3%A0+Tr%C6%B0ng!5e0!3m2!1svi!2s!4v1438676913177" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -468,7 +468,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4429.46528382591!2d105.81622754092115!3d21.003798912118363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9b159057b7%3A0xd70cb425e4030a28!2sPlatinum+Cineplex!5e0!3m2!1svi!2s!4v1438676993340" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Centuryon Website</a></div>
             </div>
         </div>

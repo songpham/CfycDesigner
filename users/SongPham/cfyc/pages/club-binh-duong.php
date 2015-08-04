@@ -149,7 +149,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.70415603622!2d106.68436469999999!3d10.9856885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d0dd8ff3ad59%3A0x8ff2be52ac4bcd11!2sCalifornia+Fitness+%26+Yoga+Binh+Duong!5e0!3m2!1svi!2s!4v1438677059823" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>

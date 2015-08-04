@@ -183,7 +183,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15678.438388097391!2d106.6557978!3d10.764541300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eeb7f7d2d7d%3A0x17921408a3516ecd!2sTrung+T%C3%A2m+Tm+Parkson+Flemington!5e0!3m2!1svi!2s!4v1438674715037" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -286,7 +286,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1354654249153!2d106.6530784!3d10.8009352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752937dffbd64f%3A0x9518e14a827a15d0!2sPico+Plaza!5e0!3m2!1svi!2s!4v1438674815019" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -376,7 +376,7 @@
 
                     <!-- location -->
                     <h3>Địa điểm : </h3>
-                    <p>California at the Waterfront 5 Nguyễn Tất Thành, P.12, Quận 4.	</p>
+                    <p>California at the Waterfront 5 Nguyễn Tất Thành, P.12, Quận 4.</p>
 
                     <!-- operating hours -->
                     <h3>Giờ hoạt động : </h3>
@@ -389,7 +389,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.5943875527837!2d106.70670142821326!3d10.76705255058661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf063e9a80a8f62c8!2sCalifornia+at+the+Waterfront!5e0!3m2!1svi!2s!4v1438674888476" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -492,7 +492,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.8607728530853!2d106.66323469694977!3d10.75593046571943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ef05f38e56b%3A0xd3278a6de6e112af!2zUGFya3NvbiBIdW5nIFZ1b25nIFBsYXphLCAxMjYgSMO5bmcgVsawxqFuZywgcGjGsOG7nW5nIDQsIFF14bqtbiA1LCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438674936350" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -595,7 +595,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.521449724753!2d106.6973091!3d10.771316599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3f1bfc912b%3A0xc26340977288bfe6!2sQueen+Ann+Building!5e0!3m2!1svi!2s!4v1438674987562" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -697,7 +697,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9323.57564012172!2d106.70435105967451!3d10.728261621429661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xeaae21e17624cdb5!2zVHJ1bmcgVMOibSBUaMawxqFuZyBN4bqhaSBTQyBWaXZvQ2l0eQ!5e0!3m2!1svi!2s!4v1438675092654" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -795,7 +795,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.493652453947!2d106.765227!3d10.850007999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527a1f1174155%3A0x8f8d0124542f3ca8!2zMjE2IFbDtSBWxINuIE5nw6JuLCBWaW5jb20gVGjhu6cgxJDhu6ljLCBCw6xuaCBUaOG7jSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438675160760" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
             </div>
         </div>
@@ -898,7 +898,7 @@
                     <p>Mail: info@cfyc.com.vn</p>
                 </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.244550354768!2d106.6552386889436!3d10.801229280888386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293797623131%3A0xe5cf100a58e2ce83!2zMjAgQ-G7mW5nIEhvw6A!5e0!3m2!1svi!2s!4v1438655641136" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.915330155998!2d106.7190059746404!3d10.728293474709872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xb6c098e537ce0abe!2sThe+Crescent+Mall!5e0!3m2!1svi!2s!4v1438676619630" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-md-12 see-more-btn"><a href="#">Centuryon Website</a></div>
             </div>
         </div>
