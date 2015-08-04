@@ -165,7 +165,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -268,7 +268,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -371,7 +371,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -474,7 +474,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -577,7 +577,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -680,7 +680,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -783,7 +783,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
@@ -886,7 +886,7 @@
 
 
         <!-- INFOMATION -->
-        <div class="row infomation">
+        <div class="row information">
             <div class="container-page">
                 <div class="col-md-6">
 
