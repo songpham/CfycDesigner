@@ -42,8 +42,6 @@
 	    				<a href="https://www.youtube.com/user/CaliFitnessYogaVN"><i class="fa fa-youtube-square icons"></i></a>
 	    			</div>
 	    			<ul>
-	    				<li><a href="#">Shop</a></li>
-	    				<li><a href="#">Gift Cards</a></li>
 	    				<li><a href="#">Careers</a></li>
 	    				<li><a href="#">Education</a></li>
 	    				<li><a href="#">Contact Us</a></li>
@@ -51,7 +49,6 @@
 	    			</ul>
 	    			<ul>
 	    				<li><a href="#">Terms And Conditions</a></li>
-	    				<li><a href="#">Digital Experience</a></li>
 	    				<li><a href="#">FAQ</a></li>
 	    				<li><a href="#">Privacy Policy</a></li>
 	    			</ul>
