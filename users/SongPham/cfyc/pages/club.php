@@ -73,7 +73,7 @@
                         </div>
                         <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                             <a href='quan-thu-duc'><img src="<?php echo USER_BASE_URL . "/img/club/club.png" ?>" alt=''></a>
-                            <p>QUẬN THỦ ĐỨC</p> 
+                            <p>QUẬN THỦ �?ỨC</p> 
                         </div>
                         <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
                             <a href='crescent'><img src="<?php echo USER_BASE_URL . "/img/club/club.png" ?>" alt=""></a>
@@ -207,7 +207,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-2" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -239,24 +239,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-2" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-2" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-2" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -295,7 +295,7 @@
 
     </div>
     <!-- END QUAN TAN BINH -->
-    
+
     <!-- QUAN 4 -->
     <div class="quan quan-4">
         <!-- CLUB NAME -->
@@ -310,7 +310,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-3" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -342,24 +342,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-3" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-3" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-3" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -413,7 +413,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-4" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -445,24 +445,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-4" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-4" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-4" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -503,7 +503,7 @@
     <!-- END QUAN 5 -->
 
     <!-- QUAN 1 -->
-    <div class="quan quan-1">
+    <div class="quan quan-5">
         <!-- CLUB NAME -->
         <div class="row block">
             <div class='block-title'>
@@ -548,24 +548,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-5" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-5" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-5" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -619,7 +619,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-6" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -651,24 +651,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-6" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-6" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-6" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -722,7 +722,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-7" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -754,24 +754,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-7" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-7" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-7" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -825,7 +825,7 @@
 
         <!-- SLIDESHOW -->
         <div class="slideshow row">
-            <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+            <div id="slideshow-8" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -857,24 +857,24 @@
                 <!-- Indicators -->
                 <div class="container-page">
                     <div class="carousel-indicators thumbs">
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-8" data-slide-to="0">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="1">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="2">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
                         </div>
-                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
+                        <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="3">
                             <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#slideshow-8" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#slideshow-8" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
