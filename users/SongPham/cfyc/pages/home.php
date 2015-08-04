@@ -321,29 +321,57 @@
                 </div>
                 <div class="whitespace"></div>
                 <div class="row features_stories">
-                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    <div class="col-md-1 col-sm-1 col-lg-1 hidden-xs">
                     </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 text-center">
-                        <img src="img/home/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can.jpg" title="Features Stories" alt="Features Stories">
-                        <h3>NHỮNG ĐIỀU PHÁI NỮ CẦN BIẾT KHI TẬP GYM GIẢM CÂN</h3>
-                        <p>Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.</p>
+                    <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                                <a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/">
+                                    <img src="img/home/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can.jpg" title="Features Stories" alt="Features Stories">
+                                </a>
+                                <h3>
+                                    <a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/">
+                                        những điều phái nữ cần biết khi tập gym giảm cân
+                                    </a>
+                                </h3>
+                                <p>Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                                <a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/">
+                                    <img src="img/home/California-Fitness-opens-20-clubs-2015-3.jpg" title="Features Stories" alt="Features Stories">
+                                </a>
+                                <h3>
+                                    <a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/">
+                                        tập đoàn california management group mở rộng thêm 6 trung tâm cfyc
+                                    </a>
+                                </h3>
+                                <p>Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                                <a href="http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/">
+                                    <img src="img/home/tap-yoga-giup-dan-ong-khoe-hon.jpg" title="Features Stories" alt="Features Stories">
+                                </a>
+                                <h3>
+                                    <a href="http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/">
+                                        tập yoga giúp đàn ông khỏe hơn
+                                    </a>
+                                </h3>
+                                <p>Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                                <a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/">
+                                    <img src="img/home/sau-mui-ho-vinh-khoa-cover.jpg" title="Features Stories" alt="Features Stories">
+                                </a>
+                                <h3>
+                                    <a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/">
+                                        bài tập để có bụng sáu múi như hồ vĩnh khoa
+                                    </a>
+                                </h3>
+                                <p>Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.</p>
+                        </div>
+                        </div>
                     </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 text-center">
-                        <img src="img/home/California-Fitness-opens-20-clubs-2015-3.jpg" title="Features Stories" alt="Features Stories">
-                        <h3>TẬP ĐOÀN CALIFORNIA MANAGEMENT GROUP MỞ RỘNG THÊM 6 TRUNG TÂM CFYC</h3>
-                        <p>Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.</p>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 text-center">
-                        <img src="img/home/tap-yoga-giup-dan-ong-khoe-hon.jpg" title="Features Stories" alt="Features Stories">
-                        <h3>TẬP YOGA GIÚP ĐÀN ÔNG KHỎE HƠN</h3>
-                        <p>Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.</p>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 text-center">
-                        <img src="img/home/sau-mui-ho-vinh-khoa-cover.jpg" title="Features Stories" alt="Features Stories">
-                        <h3>BÀI TẬP ĐỂ CÓ BỤNG SÁU MÚI NHƯ HỒ VĨNH KHOA</h3>
-                        <p>Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.</p>
-                    </div>
-                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    <div class="col-md-1 col-sm-1 col-lg-1 hidden-xs">
                     </div>
                 </div>
                 <div class="row seemorebtn">

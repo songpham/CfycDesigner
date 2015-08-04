@@ -236,6 +236,18 @@
                     p {
                         text-align: left;
                     }
+                    h3{
+                        text-transform: capitalize
+                        
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $red;
+                        text-transform: inherit;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                    }
                 }
             }
             .special_offers {
