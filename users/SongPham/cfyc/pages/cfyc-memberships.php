@@ -1,8 +1,19 @@
 <div class="container-fluid page cfyc-memberships">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="row banner-top">
-        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-header.jpg" class="img-responsive banner" onmousedown="return false;"/>
-        <h1 class="headline">Are you <br/>a member?</h1>
+        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-header.jpg" class="img-responsive banner" onmousedown="return false;" alt="Are you a member"/>
+        <div class="carousel-caption">
+            <fieldset>
+                <legend>Are you a member?</legend>
+                <hr/>
+                <span>
+                    Discover the benefits of a california fitness & yoga membership get a free membership trial today
+                </span>
+                <div class="red-btn">
+                <a class="cta" href="#" title="Discover Cali Dance">Get a trial</a>
+                </div>
+            </fieldset>
+        </div>
     </div>
     <div class="container-page">
         <div class="row video">
