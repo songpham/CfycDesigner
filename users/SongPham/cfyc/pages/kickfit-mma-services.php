@@ -11,7 +11,7 @@
                             <legend>Unleash</legend>
                             the warrior within you<br>
                             <span>Experience a Kickfit or MMA session today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try kick fit</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try kick fit</a>
                         </fieldset>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <legend>Unleash</legend>
                             the warrior within you<br>
                             <span>Experience a Kickfit or MMA session today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try kick fit</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try kick fit</a>
                         </fieldset>
                     </div>
                 </div>
@@ -33,13 +33,17 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>about kickfit & mma<div class="line"></div></h2>
+            <h2><div class="line"></div>About Kick Fit and MMA<div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly master the exhilarating punches, kicks and speed exercises.</p>
-                <p>This combination of traditional boxing with the internationally acclaimed Muay Thai discipline is a unique, exciting way to get fit fast and be in the best shape ever!<br>
-                    Challenge yourself as you step into a professional MMA OCTAGON fighting cage. Find your niche as you learn to play off your natural strengths while you confront your weaknesses.</p>
-                <p>Grapple, strike, punch and kick until you master the elemental moves of traditional boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise you.</p>
+                <p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way
+                    to a higher level of fitness.</p>
 
+                <p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly
+                    master the exhilarating punches, kicks and speed exercises.   Mixed Martial Arts challenges you with
+                    grappling, striking, punching and kicking until you master the elemental moves of traditional
+                    boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work
+                    one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise
+                    you.</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
@@ -50,10 +54,16 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>Benefits of kickfit & mma<div class="line"></div></h2>
-        <p>Dance provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.</p>
-        <p></p>
-        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all dance classes</p>
+        <h2><div class="line"></div>How does Kick Fit and MMA work?<div class="line"></div></h2>
+        <p>Kick Fit is taught one on one while MMA can be taught one on one or in a group setting with other participants.
+        You can choose the days and times which are suitable for you to train with your instructor.
+        Both are perfectly safe for people of all ages, from teenagers to parents and more and taught in a professional
+        sized MMA Octagon.</p>
+        <p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
+        focus fully on your training and progressing through your skills.</p>
+        <p>Professional sized MMA Octagon.</p>
+        <p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
+        focus fully on your training and progressing through your skills.</p>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="PTX Work">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/kickfit-mma-services/benefit1.jpg" alt="PTX Work">
@@ -219,17 +229,7 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h2 class="title">try a dance session</h2>
-            <h3>SIGN UP TO TRY A COMPLEMENTARY DANCE CLASSES!</h3>
-            <p>INCLUDING:<br>
-                - FITNESS ASSESSMENT & CONSULTATION<br>
-                - ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS
-            </p>
-            <br>
-            <p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-        </div>
-
+        <form id="form"></form>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

@@ -1,598 +1,283 @@
 <div class="container-fluid page yoga-services-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
+    <div class="top-content row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/top-banner-1.jpg" alt="Dance Services">
+                    <div class="carousel-caption">
+                        <fieldset>
+                            <legend>Discover</legend>
+                            the healing power of yoga<br>
+                            <span>Experience a yoga class today</span>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/top-banner-1.jpg" alt="Dance Services">
+                    <div class="carousel-caption">
+                        <fieldset>
+                            <legend>Discover</legend>
+                            the healing power of yoga<br>
+                            <span>Experience a yoga class today</span>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="clearfix"></div>
+    <div class="calidance container">
+        <div class="row">
+            <h2><div class="line"></div>About yoga<div class="line"></div></h2>
+            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over
+                    2,000 sqm of internationally-designed studios and lounges.   Practice under the guidance of
+                    authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set
+                    at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga
+                    including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much
+                    more.</p>
 
-    <!-- GALLERY -->
-    <div class="row gallery">
-        <div id="top-banner" class="carousel slide" data-ride="carousel">
-
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/Ol1nuRXaVcM" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="benefits">
+        <h2><div class="line"></div>What are the benefits of yoga?<div class="line"></div></h2>
+        <p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects,
+            including improved health and balance, spiritual awareness, restored vitality and energy, stress management,
+            enhanced flexibility and weight management.</p>
+        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and
+            programs</p>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
+            <a href="#" title="Dance is fun">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/benefit-1.jpg" alt="Dance Services">
+            </a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
+            <a href="#" title="Your environment">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/benefit-2.jpg" alt="Dance Services">
+            </a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="discover row">
+        <h2><div class="line"></div>Discover yoga at California Fitness<div class="line"></div></h2>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#sunseries" aria-controls="sunseries" role="tab" data-toggle="tab">Sun-series (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#moonseries" aria-controls="moonseries" role="tab" data-toggle="tab">MOON–SERIES: (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#gentle" aria-controls="gentle" role="tab" data-toggle="tab">GENTLE YOGA: (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#mediation" aria-controls="mediation" role="tab" data-toggle="tab">MEDIATION: (M)</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="sunseries">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="img-responsive hidden-xs"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-1.jpg" alt="Dance Services">
+                            <img class="img-responsive visible-xs"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-mobile.jpg" alt="Dance Services">
+                            <div class="carousel-caption">
+                                <h3>SUN-SERIES</h3>
+                                <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
+                                <p> A powerful series for people looking for a more challenging yoga and work out. This
+                                    is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out.
+                                    For a slim, strong, toned
+                                    and flexible body</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="moonseries">moonseries</div>
+            <div role="tabpanel" class="tab-pane" id="gentle">gentle yoga</div>
+            <div role="tabpanel" class="tab-pane" id="mediation">mediation</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="school row">
+        <h2><div class="line"></div>THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED<div class="line"></div></h2>
+        <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#top-banner" data-slide-to="0" class="active"></li>
-                <li data-target="#top-banner" data-slide-to="1"></li>
-                <li data-target="#top-banner" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic-clubs" data-slide-to="3"></li>
             </ol>
-
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p class='text'>
-                            Discover <br>
-                            the healing power<br>
-                            of yoga
-                        </p>
-                        <p><a class='btn' href=''>Discover yoga</a></p>
-                    </div>
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-2.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p class='text'>
-                            Discover <br>
-                            the healing power<br>
-                            of yoga
-                        </p>
-                        <p><a class='btn' href=''>Discover yoga</a></p>
-                    </div>
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/top-banner-3.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p class='text'>
-                            Discover <br>
-                            the healing power<br>
-                            of yoga
-                        </p>
-                        <p><a class='btn' href=''>Discover yoga</a></p>
-                    </div>
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
                 </div>
             </div>
         </div>
     </div>
-    <!-- END GALLERY -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- ABOUT YOGA -->
-    <div class="row container-page">
-
-        <div class="row block about-block">
-            <div class='block-title'>
-                <div class="title-text">about yoga</div>
-            </div>
-            <div class="col-md-6 text">
-                <p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over 2,000 sqm of internationally-designed studios and lounges. </p>
-                <p>Practice under the guidance of authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p>
-                <p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects, including improved health and balance, spiritual awareness, restored vitality and energy, stress management, enhanced flexibility and weight management.</p>
-            </div>
-            <div class="col-md-5 col-md-offset-1 col-xs-12 video">
-                <img src='<?php echo USER_BASE_URL . "/img/yoga-services/video.png" ?>' width='100%'>
-            </div>
-        </div>
-
-    </div>
-    <!-- END ABOUT YOGA -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- WHAT ARE THE BENEFITS OF YOGA ? -->
-    <div class="row container-page">
-
-        <div class="row block benefit-block">
-            <div class="block-title">
-                <div class="title-text">What are the benefits<br>of Yoga?</div>
-            </div>
-            <p class="text-center">As one of the oldest practiced professions worldwide, yoga has been proven to contribute a wealth of mental, physical and emotional benefits.</p>
-            <p class="text-center">In addition to increased flexibility, strength and the many other benefits to your body, you will also find yourself more relaxed and at a higher level of peace as your levels of stress disappear and you feel a calmer sense of being.</p>
-            <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/yoga-services/benefit-1.jpg" ?>" width='100%'></div>
-            <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/yoga-services/benefit-2.jpg" ?>" width='100%'></div>
-        </div>
-
-    </div>
-    <!-- END  WHAT ARE THE BENEFITS OF YOGA ? -->
-
-    <div class="white-space-2x"></div>
-
-
-    <!-- DISCOVER YOGA AT CALIFORNIA FITNESS -->
-    <!-- GALLERY 1 -->
-    <div class="row gallery">
-
-        <!-- Block title -->
-        <div class="block-title">
-            <div class="title-text">Discover yoga at<br>California Fitness</div>
-        </div>
-
-        <!-- Slide -->
-        <div id="discover-1" class="carousel slide" data-ride="carousel">
-
-            <!-- Nav bar -->
-            <div class="text-content row">
-
-                <!-- Nav icon -->
-                <div class='container-page'>
-                    <a data-slide="prev" class='left nav-icon' href="#discover-1" ><i class="fa fa-caret-left fa-lg"></i></a>
-                    <a data-slide="next" class='right nav-icon' href='#discover-1'><i class="fa fa-caret-right fa-lg"></i></a>
-                </div>
-
-                <!-- Menu -->
-                <ul class="nav navbar-nav navbar-center carousel-indicators">
-                    <li class="active"><a data-target="#discover-1" href="" data-slide-to="0">Sun-series (M)</a></li>
-                    <li><a  data-target="#discover-1" href="" data-slide-to="1">MOON-SERIES: (M)</a></li>
-                    <li><a data-target="#discover-1" href="" data-slide-to="2">GENTLE YOGA: (M)</a></li>
-                    <li><a data-target="#discover-1" href="" data-slide-to="3">MEDIATION: (M)</a></li>
+    <div class="clearfix"></div>
+    <div class="trainers container">
+        <h2><div class="line"></div>Say hello to some of our authentic Indian Yoga Masters<div class="line"></div></h2>
+        <center>To guarantee the authenticity of your yoga experience, all programs are taught by 100% foreign, Indian Yogi’s</center>
+        <ul class="nav nav-tabs area" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#hcmc" aria-controls="hcmc" role="tab" data-toggle="tab">HCMC</a>
+            </li>
+            <li role="presentation">
+                <a href="#hanoi" aria-controls="hanoi" role="tab" data-toggle="tab">HA NOI</a>
+            </li>
+            <li role="presentation">
+                <a href="#danang" aria-controls="danang" role="tab" data-toggle="tab">DA NANG</a>
+            </li>
+            <li role="presentation">
+                <a href="#binhduong" aria-controls="binhduong" role="tab" data-toggle="tab">BINH DUONG</a>
+            </li>
+            <li role="presentation">
+                <a href="#bienhoa" aria-controls="bienhoa" role="tab" data-toggle="tab">BIEN HOA</a>
+            </li>
+        </ul>
+        <div class="tab-content teacher-detail">
+            <div role="tabpanel" class="tab-pane active" id="hcmc">
+                <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="DJ">
+                            <span>KAMLESH</span>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#trainer2" aria-controls="trainer2" role="tab" data-toggle="tab">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="DJ">
+                            <span>SRIRAM</span>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#trainer3" aria-controls="trainer3" role="tab" data-toggle="tab">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="DJ">
+                            <span>VIRAT</span>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#trainer4" aria-controls="trainer4" role="tab" data-toggle="tab">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="DJ">
+                            <span>AJAY</span>
+                        </a>
+                    </li>
                 </ul>
-            </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p><a class='btn' href=''>SUN-SERIES</a></p>
-                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
-                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
+                <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                    <div role="tabpanel" class="tab-pane active" id="trainer1">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="DJ">
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                            <h3>KAMLESH</h3>
+                            <h4>HLV CẤP CAO</h4>
+                            <p></p>
+                            <p>BẰNG CẤP & THÀNH TÍCH<br>
+                            - Quán quân cuộc thi State Yoga Championship năm 2008 & 2009.<br>
+                            - Giải 3 cuộc thi India Open Yoga Championship năm 2007, All India Inter School & club Yoga championship năm 2007 (Yoga Ananda) & 2008 (World Yoga Society).
+                            </p>
+                            <p></p>
+                            <p>KINH NGHIỆM<br>
+                            - 5 năm giảng dạy Yoga tại các Trung tâm ở Ấn Độ.
+                            </p>
+                            <p></p>
+                            <p>
+                            HƯỚNG DẪN CÁC LỚP<br>
+                            - Asana & Pranyama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p><a class='btn' href=''>SUN-SERIES</a></p>
-                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
-                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p><a class='btn' href=''>SUN-SERIES</a></p>
-                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
-                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        <p><a class='btn' href=''>SUN-SERIES</a></p>
-                        <h3>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</h3>
-                        <p class='text'> A powerful series for people looking for a more challenging yoga and work out. This is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out. For a slim, strong, toned and flexible body</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END GALLERY 1 -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- GALLERY 2 -->
-    <div class="row gallery">
-        <!-- Block title -->
-        <div class="block-title">
-            <div class="title-text">The perfect environment<br/> for you to succeed</div>
-        </div>
-
-        <div id="discover-2" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <div class='row'>
-                <div class='container-page'>
-                    <ol class="carousel-indicators">
-                        <li data-target="#discover-2" data-slide-to="0" class="active"></li>
-                        <li data-target="#discover-2" data-slide-to="1"></li>
-                    </ol>
-                </div>
-            </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        The perfect environment for you to succeed
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/yoga-services/discover-2-2.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                        The perfect environment for you to succeed
+                    <div role="tabpanel" class="tab-pane" id="trainer2">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                            <img class="img-responsive"
+                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="DJ">
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                            <h3>KAMLESH</h3>
+                            <h4>HLV CẤP CAO</h4>
+                            <p></p>
+                            <p>BẰNG CẤP & THÀNH TÍCH<br>
+                                - Quán quân cuộc thi State Yoga Championship năm 2008 & 2009.<br>
+                                - Giải 3 cuộc thi India Open Yoga Championship năm 2007, All India Inter School & club Yoga championship năm 2007 (Yoga Ananda) & 2008 (World Yoga Society).
+                            </p>
+                            <p></p>
+                            <p>KINH NGHIỆM<br>
+                                - 5 năm giảng dạy Yoga tại các Trung tâm ở Ấn Độ.
+                            </p>
+                            <p></p>
+                            <p>
+                                HƯỚNG DẪN CÁC LỚP<br>
+                                - Asana & Pranyama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- END GALLERY 2 -->
-    <!-- END DISCOVER YOGA AT CALIFORNIA FITNESS -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- TRAINNER LIST -->
-    <div class='row container-page'>
-
-        <!-- NAV -->
-        <div class="row trainer-list-block-nav">
-            <div class="block-title">
-                <div class="title-text">Say hello to some of<br>our authentic Indian Yoga Masters</div>
-            </div>
-
-            <!-- NAVBAR -->
-            <div class="text-content">
-                <p>To guarantee the authenticity of your yoga experience, all programs are taught by 100% foreign, Indian Yogi's</p>
-                <ul class="nav navbar-nav navbar-center">
-                    <li class="active"><a href="#">hcmc</a></li>
-                    <li><a href="#">ha noi</a></li>
-                    <li><a href="#">da nang</a></li>
-                    <li><a href="#">binh duong</a></li>
-                    <li><a href="#">bien hoa</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- END NAV -->
-
-        <!-- SLIDER -->
-        <div class="row trainer-list-block">
-
-            <!-- HCMC -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">HLV CaP CAO</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-            </ul>
-
-            <!-- HA NOI -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- DA NANG -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- BINH DUONG -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- BIEN HOA -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">KAMLESH</div>
-                            <div class="trainer-job">hlv cap cao</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-            </ul>
-
-        </div>
-        <!-- SLIDER -->
-
-    </div>
-    <!-- END TRAINER LIST -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- YOGI & I -->
-    <div class='row container-page'>
-
-        <div class="row block yogi-block">
-            <div class="block-title">
-                <div class="title-text">Yogi & I</div>
-            </div>
-            <p class="text-center">Do you want a more exclusive, authentic yoga experience?</p>
-            <p class="text-center" >California Yogi & I is designed to allow provide you an environment of total privacy, allowing you to fully embrace your yoga journey under the completely personalized direction of your yoga master.</p>
-            <div class='col-md-12 image'>
-                <img src="<?php echo USER_BASE_URL . "/img/yoga-services/yogi-1.jpg" ?>" width='100%'>
-                <img src="<?php echo USER_BASE_URL . "/img/yoga-services/yogi-2.jpg" ?>" width='100%'>
-                <img src="<?php echo USER_BASE_URL . "/img/yoga-services/yogi-3.jpg" ?>" width='100%'>
-            </div>
+            <div role="tabpanel" class="tab-pane" id="trainer3">TRAINER 3</div>
+            <div role="tabpanel" class="tab-pane" id="trainer4">TRAINER 4</div>
+            <div role="tabpanel" class="tab-pane" id="trainer5">TRAINER 5</div>
+            <div role="tabpanel" class="tab-pane" id="trainer6">TRAINER 6</div>
         </div>
 
 
     </div>
-    <!-- END YOGI & I -->
+    <div class="clearfix"></div>
 
-    <div class="white-space-2x"></div>
-
-    <!-- SUCCESS STORIES -->
-    <div class='row container-page'>
-
-        <div class="row block success-story-block">
-            <div class="block-title">
-                <div class="title-text">success stories</div>
-            </div>
-            <div class="col-md-12 box">
-                <div class="col-md-2 image"><img src="<?php echo USER_BASE_URL ?>/img/yoga-services/story-1.png" alt=""></div>
-                <div class="col-md-10 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</div>
-            </div>
-            <div class="col-md-12 box">
-                <div class="col-md-2 image"><img src="<?php echo USER_BASE_URL ?>/img/yoga-services/story-2.png" alt=""></div>
-                <div class="col-md-10 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</div>
-            </div>
-            <div class="col-md-12 see-more-btn">
-                <a href="#">see more</a>
-            </div>
+    <div class="yogi container">
+        <h2><div class="line"></div>Do you want a more exclusive, authentic yoga experience?<div class="line"></div></h2>
+        <p>
+        <center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing
+            you to fully embrace your yoga journey under the completely personalized direction of your yoga master.
+        </center>
+        </p>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 firstcol">
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-1.jpg" alt="">
         </div>
-
+        <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 secondcol">
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-2.jpg" alt="">
+            <br>
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-3.jpg" alt="">
+        </div>
     </div>
-    <!-- END SUCCESS STORIES -->
 
+    <div class="contactform container">
+        <form id="form"></form>
+    </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-training/pgwslider.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/yoga-services/yoga-services.js"></script>

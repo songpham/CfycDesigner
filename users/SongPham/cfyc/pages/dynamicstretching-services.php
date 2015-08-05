@@ -11,7 +11,7 @@
                             <legend>Heal yourself</legend>
                             and enjoy the relaxing moment<br>
                             <span>experience the alleviation of muscle <br>and join tension today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <legend>Heal yourself</legend>
                             and enjoy the relaxing moment<br>
                             <span>experience the alleviation of muscle <br>and join tension today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -33,17 +33,11 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>about dynamic stretching?<div class="line"></div></h2>
+            <h2><div class="line"></div>About Dynamic Stretching<div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <p>Fusce imperdiet ullamcorper ante, ut vestibulum sapien imperdiet nec. Fusce eleifend felis vel sem
-                    volutpat, ut sagittis enim commodo. Fusce vitae fringilla magna, id mollis elit. Proin vitae velit
-                    egestas, condimentum leo id, varius tortor. Fusce sit amet vehicula leo. Morbi fringilla pharetra
-                    magna, sit amet interdum metus gravida non. Aliquam molestie massa nulla, ac lacinia mi viverra sed.
-                    Etiam sed velit dolor. Vivamus tempor, tellus pellentesque venenatis viverra, nulla nulla aliquet
-                    metus, quis efficitur ante velit quis dui. Vestibulum et luctus mauris, sed pharetra nisi. Donec at
-                    odio ut ipsum semper tincidunt vitae fermentum enim. Nullam vestibulum lectus a scelerisque
-                    pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                <p><br><br></p>
+                <p>Heal your body and enjoy a relaxing moment.</p>
+                <p>Everybody gets run down with the day to day demands of an active lifestyle and it can be easy to build tension and stress throughout your body.</p>
+                <p>Dynamic stretching allows you to relieve your body of unwanted strains and pressure in your muscles and joints which build up from exercise, sports and an overall active lifestyle.</p>
            </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
@@ -54,12 +48,15 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>How does dynamic stretching work?<div class="line"></div></h2>
-        <p>We make it easy for you, very easy. Personal training is designed to integrate into your life without you
-            having to make sacrifices.</p>
-        <p></p>
-        <p>Everyone has different goals… Whether you want to build muscle, lose weight, tone your body, improve
-            endurance or train for sports performance, we have the resources and experience to help you reach them.</p>
+        <h2><div class="line"></div>How Does Dynamic Stretching Work?<div class="line"></div></h2>
+        <p>Often overlooked is the amount of stress which can be built up in your body throughout daily activities such as
+            playing sports, long hours spent sitting at work, years of bad posture, wearing high heels and especially after
+            exercise.</p>
+        <p>Over time, certain areas of your body begin to constrict preventing healthy blood flow and adequate delivery of
+            oxygen and nutrients while also tensing muscle and causing pain.</p>
+        <p>Dynamic stretching combines principles of Acupuncture and Exercise Science to help restore natural tension
+            relationships inside the body, correcting these imbalances through an incredibly relaxing physical treatment
+            allowing you to feel significant improvements even after just one session</p>
 
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="Dance is fun">
@@ -200,17 +197,7 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h2 class="title">try a dance session</h2>
-            <h3>SIGN UP TO TRY A COMPLEMENTARY DANCE CLASSES!</h3>
-            <p>INCLUDING:<br>
-                - FITNESS ASSESSMENT & CONSULTATION<br>
-                - ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS
-            </p>
-            <br>
-            <p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-        </div>
-
+        <form id="form"></form>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

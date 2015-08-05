@@ -11,7 +11,7 @@
                             <legend>lose weight,</legend>
                             build muscle & get your dream body<br>
                             <span>get a free personal training consultation today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Meet a trainer</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Meet a trainer</a>
                         </fieldset>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <legend>lose weight,</legend>
                             build muscle & get your dream body<br>
                             <span>get a free personal training consultation today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Meet a trainer</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Meet a trainer</a>
                         </fieldset>
                     </div>
                 </div>
@@ -192,17 +192,7 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h2 class="title">try a dance session</h2>
-            <h3>SIGN UP TO TRY A COMPLEMENTARY DANCE CLASSES!</h3>
-            <p>INCLUDING:<br>
-                - FITNESS ASSESSMENT & CONSULTATION<br>
-                - ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS
-            </p>
-            <br>
-            <p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-        </div>
-
+        <form id="form"></form>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

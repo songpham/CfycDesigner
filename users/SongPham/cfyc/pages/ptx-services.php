@@ -11,7 +11,7 @@
                             <legend>Small group</legend>
                             personal training extreme<br>
                             <span>Experience a PTX2 session today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <legend>Small group</legend>
                             personal training extreme<br>
                             <span>Experience a PTX2 session today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -33,11 +33,12 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>about PTX2<div class="line"></div></h2>
+            <h2><div class="line"></div>About PTX2<div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
-                <p>Personal training at California Fitness & Yoga offers exclusive one-on-one programs specifically designed for your body’s needs and your individual fitness goals. Our program is about integration, not sacrifice. You don’t need to spend hours in the gym or starve yourself in order to achieve the body of your dreams.</p>
-                <p>Our patented California Health System is designed to integrate into your lifestyle using proven methods developed over dozens of year to help you get results in the fastest, safest way possible. Each of our trainers is highly qualified under international standards of certification following NASM Sports & Fitness certification curricula from the USA.</p>
+                <p>Personal Training Extreme Experience is a program uniquely designed by California Fitness & Yoga which
+                    enables members to enjoy personal training in small group settings.</p>
+                <p>Experience the exclusiveness and intensity of these fast paced, high calorie and fat burning workouts
+                    providing you an unpatrolled workout experience.</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
@@ -48,11 +49,13 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>How does PTx2 work?<div class="line"></div></h2>
-        <p>We make it easy for you, very easy. Personal training is designed to integrate into your life without you having to make sacrifices.</p>
-        <p></p>
-        <p>Everyone has different goals… Whether you want to build muscle, lose weight, tone your body, improve endurance or train for sports performance, we have the resources and experience to help you reach them.</p>
-        <p></p>
+        <h2><div class="line"></div>How does PTX2 Work<div class="line"></div></h2>
+        <p>PTX2 monthly memberships allow you to enjoy unlimited classes throughout the month. Classes usually operate
+        three times per day allowing you to drop in anytime suitable for your schedule.</p>
+        <p>All classes are taught with a maximum of 6 other members. The small group setting allows the instructor to
+        provide personalized attention to each participant and further their fitness experience</p>
+        <p>All equipment is provide and consists of the latest, most cutting edge items including Vipr, Twisty Disc, TRX,
+        Dynamex and more.</p>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="PTX Work">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/ptx-services/ptxwork-1.jpg" alt="PTX Work">
@@ -192,17 +195,7 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h2 class="title">try a dance session</h2>
-            <h3>SIGN UP TO TRY A COMPLEMENTARY DANCE CLASSES!</h3>
-            <p>INCLUDING:<br>
-                - FITNESS ASSESSMENT & CONSULTATION<br>
-                - ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS
-            </p>
-            <br>
-            <p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-        </div>
-
+        <form id="form"></form>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

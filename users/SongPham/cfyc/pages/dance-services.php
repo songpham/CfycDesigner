@@ -11,7 +11,7 @@
                             <legend>Discover</legend>
                             the beauty & excitement of Cali Dance<br>
                             <span>Experience a dance class today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <legend>Discover</legend>
                             the beauty & excitement of Cali Dance<br>
                             <span>Experience a dance class today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
                 </div>
@@ -33,15 +33,18 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>about calidance<div class="line"></div></h2>
+            <h2><div class="line"></div>About Cali Dance<div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <p>Pick and choose from an extensive variety of cutting-edge classes that will energize your movements
-                    with the rhythm of exhilarating music. Workout with the movements you love best!</p>
-                <p>Dance your way to cardio fitness with BodyJam.Ride your cycling workout with RPM. Unleash a fusion of
-                    cardio workout and martial arts with BodyCombat.</p>
-                <p>Power up every muscle in your body with the barbell class BodyPump. Party your way to fitness with
-                    the red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of
-                    the Belly Dance. Follow your desire!</p>
+                    with the rhythm of exhilarating music. Workout with the movements you love best!  Dance your way to
+                    cardio fitness with over 10 different dance programs available. Party your way to fitness with the
+                    red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of the
+                    Belly Dance.</p>
+                <p></p>
+                <p>Enjoy new and exciting Sh’bam dance classes incorporating the latest hip hop moves or participate in
+                    core and body sculpting pole dance classes. Follow your desires and discover which class is best for
+                    you!</p>
+                <p></p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
@@ -52,11 +55,11 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>Benefits of Dance<div class="line"></div></h2>
-        <p>Dance provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.</p>
+        <h2><div class="line"></div>What are the benefits of Cali Dance?<div class="line"></div></h2>
+        <p>Dance provides people with a more fast paced and exciting variety of classes to help you engage with other
+            people who have similar goals in a fun and healthy way.</p>
         <p></p>
-        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all dance classes</p>
-        <p></p>
+        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes</p>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="Dance is fun">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/dance-services/benefit1.jpg" alt="Dance Services">
@@ -70,7 +73,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="discover row">
-        <h2><div class="line"></div>Discover dance at California Fitness<div class="line"></div></h2>
+        <h2><div class="line"></div>Discover dance at California Fitness & Yoga<div class="line"></div></h2>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active">
@@ -96,8 +99,10 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img class="img-responsive"
+                            <img class="img-responsive hidden-xs"
                                  src="<?php echo USER_BASE_URL ?>/img/dance-services/discover.jpg" alt="Dance Services">
+                            <img class="img-responsive visible-xs"
+                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/discover-mobile.jpg" alt="Dance Services">
                             <div class="carousel-caption">
                                 <h3>zumba</h3>
                                 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
@@ -244,22 +249,9 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h2 class="title">try a dance session</h2>
-            <h3>SIGN UP TO TRY A COMPLEMENTARY DANCE CLASSES!</h3>
-            <p>INCLUDING:<br>
-                - FITNESS ASSESSMENT & CONSULTATION<br>
-                - ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS
-            </p>
-            <br>
-            <p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-        </div>
-
+        <form id="form"></form>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/dance-services-top.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/dance-services-bottom.js"></script>
-

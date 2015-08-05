@@ -1,410 +1,361 @@
 @import '../lib';
-$pageWidth : 2000px;
-$containerWidth : 1200px;
 
 .yoga-services-page {
-
-    .white-space {padding:10px 0; clear:both;}
-    .white-space-2x {padding: 20px 0; clear: both;}
-    .white-space-3x {padding: 30px 0; clear: both;} 
-
-    h1, h2, h3, span, p, a, button {@include transition(all .4s ease);}
-
-    // TOP BANNER
-    #top-banner {
-        .carousel-caption {
-            right: initial;
-            left: 8%;
-            bottom: 8%;
-            text-transform: uppercase;
-            .text {
-                @include font-size(3.2vw);             
-                font-weight: 100;
-                text-align: left;
-                letter-spacing: 2px;
-                line-height: 130%;
-                margin-bottom: 3%;
-            }
-            .btn {
-                float: left;
-                @include font-size(.8vw);
-                @include box-shadow(0px 0px 3px);
-                color: $white;
-                text-decoration: none;
-                padding: 3% 10%;
-                background: #da2128;
-                letter-spacing: 1px;
-                @media (max-width: 900px) {@include font-size(1.5vw);}
-                &:hover {@include box-shadow(0px 0px 7px);}
-            }
-
-        }
-    }
-
-    .title {
-        margin: 0 0 35px 0;
-        position: relative;
-        text-align: center;
-        color: $red;
-        letter-spacing: 1px;
-        font-weight: bold; 
-        @include font-size(2vw);
-        @media screen and (max-width: 650px) {
-            @include font-size(4vw);
-            .title-text {
-                padding: 0 10px !important;
-            }
-        }
-        @media screen and (min-width: 2000px) {
-            @include font-size(35px);
-        }
-        text-transform: uppercase;
-        &:after {
-            content: "";
-            position: absolute;
-            width: 80%;
-            height: 2px;
-            background: $red;
-            top: 52%;
-            left: 10%;
-            z-index: 1;
-        }  
-        @media screen and (max-width: 320px) {
-            &:after {
-                width: 90%;
-                left: 5%;
-            } 
-        }
-        .title-text {
-            display: inline-block;
-            position: relative;
-            padding: 0 20px;
-            background: $white; 
-            z-index: 2;
-            @media screen and (max-width: 650px) {padding: 0 10px !important;}
-            @media (max-width: 517px) { max-width: 300px;}
-            @media (max-width: 320px) {max-width: 205px;}
-        }
-    }
-
-    // CONTAINER PAGE
-    .container-page {
-        max-width: $containerWidth; 
-
-        // BLOCK
-        .block{
-            @include font-size(14px);
-            line-height: 1.42857143;
-            padding: 20px 10px; 
-            @media screen and (max-width: 517px) {padding: 10px 10px;}
-            .block-title {@extend .title;}
-        }
-
-
-
-        // ABOUT YOGA BLOCK
-        .about-block {
-            @extend .block;
-            .text {
-                margin: 0 !important;
-                padding: 0 5px !important;
-                p {text-align: left;}
-            }
-            .video {padding: 0;}
-        }
-
-
-        // WHAT ARE THE BENEFITS OF YOGA ? - BLOCK
-        .benefit-block {
-            @extend .block;
-            .left-img, .right-img {padding: 7.5px 5px !important;}
-            .left-img {@media (min-width: $breakpoint_tablet) {padding: 5px 3px 5px 0  !important;}}
-            .right-img {@media (min-width: $breakpoint_tablet) {padding: 5px 0 5px 3px  !important;}}
-            .text-center {
-                padding: 5px 40px;
-                @media (max-width: $breakpoint_tablet) {padding: 5px;}
-            }
-
-        }
-
-
-        // TRAINER LIST BLOCK
-        .trainer-list-block-nav {
-            @extend .block;
-            .text-content {
-                width: 100%;
-                color: $black;
-                text-align: center; 
-                p {margin: 20px 0 30px;letter-spacing: 1px;@include font-size(14px);}
-                .navbar-center {
-                    width: 100%;
-                    text-align: center;
-                    margin : 15px 0;
-                    li {
-                        float: none;
-                        display: inline-block;
-                        a {
-                            @include font-size(14px);
-                            font-weight: bold;
-                            color: $black;
-                            text-transform: uppercase;
-                            background: none;
-                            &:hover {color: $red;}
-                            @media (max-width: 500px) {padding: 5px 5px !important;}
-                        }
-                    }
-                    li.active { a {color: $red;} }
-                }
-            }
-        }
-
-        .trainer-list-block {@extend .block;}
-
-
-        // YOGI - BLOCK
-        .yogi-block {
-            @extend .block;
-            .text-center {
-                padding: 5px 40px;
-                @media (max-width: $breakpoint_tablet) {padding: 5px;}
-            }
-            .image {
-                padding: 0 5px;
-                height: 700px;
-                img {
-                    float: left;
-                    height: 49.5%;
-                    width: 49.5%;
-                    &:first-child {height: 100%;width: 49.5%;margin-right: .5%; }
-                    &:nth-child(2) {margin: 0 0 .5% .5%;}
-                    &:last-child {margin: .5% 0 0 .5%;}
-                }
-                @media (max-width: 992px) {
-                    height: auto;
-                    img {
-                        float: none;
-                        &:first-child {height: auto;width: 100%;}
-                        &:nth-child(2),  &:last-child {height: auto;width: 100%;margin: 3% 0 1% 0;}
-                    }
-                }
-            }
-
-
-        }
-
-
-
-        // SUCCESS STORY BLOCK
-        .success-story-block {
-            @extend .block;
-            .box {
-                padding: 10px 0px;
-                margin: 0px;
-                .image {
-                    padding-left: 5px !important;
-                    padding-right: 5px !important;
-                    img {width: 100%; height: 100%;}
-                }
-                .text {margin-top: 4% !important; padding-left: 3%;}
-                @media (max-width: 517px){
-                    padding-bottom: 30px  !important;
-                    .image {img {width: 100%; height: 100%;}}
-                    .text {margin-top: 4% !important; padding: 0 5px !important;}
-                }
-            }
-
-            .see-more-btn {
-                text-align: center;
-                margin: 30px 0;
-                a {
-                    text-decoration: none;
-                    @include font-size(17px);
-                    color: #000;
-                    padding: 5px 30px;
-                    border : 2px solid #808285;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    &:hover {
-                        text-decoration: none;
-                        background: #808285;
-                        color: $white;
-                        @include transition(all .4s ease-in-out);
-                    }
-                }
-            }
-        }
-    }
-
-
-    // GALLERY
-    .gallery {
-        max-width: $pageWidth;
-        .block-title {@extend .title;}
-    }
-
-    // DISCOVER
-
-    // GALLERY 1
-    #discover-1 {
-        .text-content {
-            position: relative;
-            margin: 0;
-            background: #00528c;;
-            width: 100%;
-            color: $white;
+    fieldset {
+        border: 2px solid $red;
+        legend {
+            color: $red;
             text-align: center;
-            .container-page {
-                position: relative;
-                height: 100%;
-                .nav-icon {
-                    @include font-size(3em);
-                    position: absolute;
-                    color: $white;
-                    top: 4px;
-                    @media (max-width: 770px) {@include font-size(3em);position: absolute;color: $white;top: 2px;}
-                    @media (max-width: 560px) {.nav-icon {display: none;}}
-                }
-                .left {left: 0%;}
-                .right {right: 0%;}
-                @media (max-width: 1200px) {
-                    .left {left: 15px;}
-                    .right {right: 15px;}
-                }
-            }
-
-            // Reset carousel-indicators class style
-            .carousel-indicators {
-                position: initial;
-                bottom: initial;
-                left: initial;
-                z-index: initial;
-                width: initial;
-                padding-left: initial;
-                margin-left: initial;
-                list-style: initial;
-                .active {width: initial;height: initial;margin: initial;background-color: initial;}
-                li {
-                    display: initial;
-                    width: initial;
-                    height: initial;
-                    margin: initial;
-                    text-indent: initial;
-                    cursor: initial;
-                    background-color: initial;
-                    background-color: initial;
-                    border: initial;
-                    border-radius: initial;
-                }
-            }
-
-            // Set new style
-            .navbar-center {
-                width: 100%;
-                text-align: center;
-                margin : 10px 0;
-                li {
-                    float: none;
-                    display: inline-block;
-                    a {
-                        font-weight: 600;
-                        @include font-size(14px);
-                        color: $white;
-                        text-transform: uppercase;
-                        background: none;
-                        &:hover {
-                            &:after {
-                                content: '';
-                                position: absolute;
-                                left: 10%;
-                                display: inline-block;
-                                height: 1em;
-                                width: 80%;
-                                border-bottom: 1px solid;
-                                margin-top: 8px;
-                            }
-                        }
-                    }
-                    @media (max-width: 750px) {a {@include font-size(11px);}}
-                    @media (max-width: 600px) {a {@include font-size(9px);}}
-                    @media (max-width: 500px) {a {padding: 5px !important;}}
-                    @media (max-width: 370px) {a {@include font-size(7px); padding: 2px !important;}}
-
-                }
-                li.active { 
-                    a { 
-                        &:after {
-                            content: '';
-                            position: absolute;
-                            left: 10%;
-                            display: inline-block;
-                            height: 1em;
-                            width: 80%;
-                            border-bottom: 1px solid;
-                            margin-top: 8px;
-                        }
-                    } 
-                }
-            }
-        }
-        // Caption
-        .carousel-caption {
-            text-transform: uppercase;
-            position: absolute;
-            right: 15%;
-            bottom: 0;
-            left: 15%;
-            z-index: 10;
-            padding-top: 0;
-            padding-bottom: 0;
-            .btn {
-                @include font-size(2vw);
-                font-weight: 700;
-                letter-spacing: 5px;
-                padding: 5%;
-                color: $white;
-                background: rgba(58, 123, 173, 0.8);
-                &:hover {background: rgba(58, 123, 173, 1);}
-            }
-            h3 {@include font-size(1.8vw); margin-top: 8%; letter-spacing: 2px;}
-            .text {@include font-size(1.4vw); margin: 3% 0 10% 0; letter-spacing: 1px; line-height: 150%;}
-            @media (max-width: 600px) {
-                left: 10px;
-                right: 10px;
-                .btn {
-                    @include font-size(2vw);
-                    font-weight: 700;
-                    letter-spacing: 2px;
-                    padding: 4%;
-                    color: $white;
-                    background: rgba(58, 123, 173, 0.8);
-                    &:hover {background: rgba(58, 123, 173, 1);}
-                }
-                h3 {@include font-size(2.5vw); margin-top: 5%; letter-spacing: 2px;}
-                .text {@include font-size(1.8vw); margin: 3% 0 5% 0; letter-spacing: 1px; line-height: 150%;}
-            }
+            width: auto;
+            font-size: 40px;
+            border: none;
+            margin-bottom: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            @media (max-width: 767px){font-size: 16px;}
+            @media (max-width: 480px){font-size: 16px;}
         }
     }
-
-    // GALLERY 2
-    #discover-2 {
-        .carousel-indicators {left: 10%;bottom: 3%;}
+    .top-content {
         .carousel-caption {
-            @include font-size(11px);
+            font-size: 40px;
+            left: 10%;
+            bottom: 20%;
+            right: 0;
+            color:$red;
+            line-height: 40px;
+            text-align: left;
+            display: inline-block;
+            width: 600px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            background: rgba(35, 82, 117, 0.6);
-            width: 100%;
-            right: 0;
-            left: 0;
-            top: 0;
-            bottom: initial;
-            padding: 2% 0;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            strong {font-weight: 300;}
+            span{color: $white;font-size: 18px;display: inline-block;margin-top: 10px;margin-bottom: 30px;border-top:1px solid $red;line-height: normal;padding-top: 15px;
+                @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 10px;}
+                @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 10px;}
+            }
+            a{color:$white;font-size: 12px;background:$red;position: absolute;display: inline-block;border-radius: 20px;text-decoration: none;width: 140px;left: 35%;bottom: 12px;
+                @media (min-width: 768px) and (max-width: 991px) {bottom: 20px;padding: 5px;}
+                @media (max-width: 767px){left: 0;right: 0;margin: 0 auto;}
+                @media (max-width: 480px){left: 0;right: 0;margin: 0 auto;}
+            }
+            @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
+            @media (max-width: 767px) {width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
+            @media (max-width: 480px){width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
         }
     }
+    .calidance {
+        .embed-responsive-4by3 {
+            padding-bottom: 50%;
+        }
+        @media (max-width: 480px){padding: 0;}
+    }
+    .discover {
+        .nav-tabs {
+            text-align: center;
+            background: #00528c;
+            border: none;
+            li {
+                float: none;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                a {
+                    color: $white;
+                    background-color: transparent;
+                    border-radius: 0;
+                    border-left: 0;
+                    border-bottom: 1px solid transparent;
+                    border-right: 0;
+                    border-top: 0;
+                    padding: 0;
+                    display: block;
+                    margin: 20px 10px;
+                    @media (max-width: 767px) {margin: 10px;}
+                    @media (max-width: 480px) {margin: 10px;}
+                }
+            }
+            .active a {border-color: $white;}
+            :hover a {border-color: $white;}
+        }
+        .tab-content {
+            img{
+                @media (max-width: 480px) {height: 350px;}
+            }
+            .carousel-caption {
+                top: 80px;
+                h3 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    background: rgba(0, 82, 140, 0.6);
+                    display: inline-block;
+                    padding: 50px 120px;
+                    margin-bottom: 90px;
+                    @media (min-width: 768px) and (max-width: 991px) {padding: 20px 50px;margin-bottom: 30px;}
+                    @media (max-width: 767px) {padding: 10px 15px;margin-bottom: 10px;}
+                    @media (max-width: 480px) {padding: 10px 15px;margin-bottom: 10px;}
+                }
+                p {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    font-weight: 100;
+                    :first-child {
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                    }
+                    @media (max-width: 767px) {font-size: 14px;}
+                    @media (max-width: 480px) {font-size: 14px;}
+                }
+                @media (min-width: 992px) and (max-width: 1199px) {top:0;}
+                @media (min-width: 768px) and (max-width: 991px) {top:0;}
+                @media (max-width: 767px) {width: 100%;text-shadow: none;font-weight: 400;padding-left: 15px;left: 0;padding-right: 15px;top: 0;}
+                @media (max-width: 480px) {width: 100%;text-shadow: none;font-weight: 400;padding-left: 15px;left: 0;padding-right: 15px;top: 0;}
+            }
+        }
+    }
+    .benefits {
+        width: 900px;margin: 0 auto;text-align: center;
+        @media (min-width: 768px) and (max-width: 991px){width: 100%;}
+        @media (max-width: 767px) {width: 100%;}
+        @media (max-width: 480px) {width: 100%;}
+        .cover {
+            position: relative;
+            padding: 0px;
+            overflow: hidden;
+            border-right: 2px solid $white;
+            :hover img {
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+            a{
+                @media (max-width: 767px) {margin-bottom: 20px;display: block;}
+                @media (max-width: 480px) {margin-bottom: 20px;display: block;}
+            }
+            .content-over {
+                position: absolute;
+                background: rgba($red, 0.6);
+                bottom: 0;
+                display: inline-block;
+                color: $white;
+                width: 100%;
+                padding: 5px 10px;
+                font-size: 13px;
+                height: 120px;
+                h4 {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                p {
+                    margin-bottom: 2px;
+                    margin-top: 2px;
+                }
+            }
+            img {
+                -webkit-transition: all .2s ease-in-out;
+                -moz-transition: all .2s ease-in-out;
+                -ms-transition: all .2s ease-in-out;
+                -o-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
+            }
+        }
+    }
+    .stories {
+        ul {
+            margin: 0;
+            li {
+                margin-bottom: 40px;
+                list-style: none;
+                display: block;
+                p{margin-left: 30px;
+                    @media (min-width: 768px) and (max-width: 991px) {margin-left: 0;}
+                }
+                p:first-child{margin-top: 40px;
+                    @media (min-width: 768px) and (max-width: 991px) {margin-top: 20px;}
+                }
+                .seemore {
+                    font-size: 20px;
+                    color: $black;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border: 1px solid;
+                    padding: 5px 40px;
+                }
+            }
+            @media (max-width: 767px){padding-left: 0;}
+            @media (max-width: 480px){padding-left: 0;}
+        }
+        @media (max-width: 767px){margin-left: 0;}
+        @media (max-width: 480px){margin-left: 0;}
+    }
+    .contactform {
+        font-family: 'vni-avo-normal';
+        text-align: center;
+        text-transform: uppercase;
+        h2 {
+            color: $black;
+            width: 100%;
+            border: 1px solid;
+            display: inline-block;
+            padding: 30px 80px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: normal;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .trainers {
+        center{font-weight: bold;margin-bottom: 20px;}
+        .area{border:none;text-align: center;display: none;
+            li{
+                float:none;
+                display: inline-block;
+                a{
+                    border:none;font-weight: bold;color:$black;
+                    @media (max-width: 767px){padding: 5px 10px;}
+                    @media (max-width: 480px){padding: 5px 10px;}
+                }
+
+            }
+            :hover a{background-color: transparent;color:$red;}
+            .active a{border:none;color:$red;}
+            .active a:hover{border:none;color:$red;}
+            .active a:focus{border:none;color:$red;}
+        }
+        .teacher-detail{
+            margin-top: 60px;
+            @media (max-width: 767px){margin-top: 10px;}
+            @media (max-width: 480px){margin-top: 10px;}
+            ul.nav-tabs{
+                border: none;text-align: center;font-weight: bold;
+                li{
+                    float: none;display: list-item;
+                    a{
+                        border: none;color:$black;
+                        img{width: 100px;display: inline-block;
+                            @media (max-width: 767px){width: 100%;}
+                            @media (max-width: 480px){width: 100%;}
+                        }
+                        span{display: block;
+                            @media (max-width: 767px){font-size: 80%;}
+                            @media (max-width: 480px){font-size: 80%;}
+                        }
+                        @media (max-width: 767px){padding: 0;}
+                        @media (max-width: 480px){padding: 0;}
+                    }
+                    :hover{background: transparent!important;}
+                    :focus{background: transparent!important;}
+                    @media (max-width: 767px){float:left;width: 25%;}
+                    @media (max-width: 480px){float:left;width: 25%;}
+                }
+            }
+            .tab-content{
+                h3{color: $red;margin-bottom: 0;}
+                h4{color: $red;font-weight: normal;margin-top: 0;}
+                img{
+                    display: inline-block;
+                    @media (max-width: 767px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
+                    @media (max-width: 480px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
+                }
+                .cont{
+                    @media (max-width: 767px){padding: 0;}
+                    @media (max-width: 480px){padding: 0;}
+                }
+                @media (max-width: 767px){padding: 0;}
+                @media (max-width: 480px){padding: 0;}
+            }
+        }
+        @media (max-width: 767px){padding: 0;}
+        @media (max-width: 480px){padding: 0;}
+    }
+    .school{
+        margin-top: 20px;
+        .carousel-caption{
+            background: rgba($red, 0.6);
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: auto;
+            text-transform: uppercase;
+            padding-top: 23px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+    }
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: $red;
+        width: 350px;
+        margin: 60px auto;
+        margin-bottom: 30px;
+        position: relative;
+        line-height: normal;
+        .line{
+            @media (max-width: 767px){}
+            @media (max-width: 480px){display: none;}
+        }
+        .line:first-child {
+            width: 180px;
+            display: inline-block;
+            position: absolute;
+            background-color: $red;
+            height: 3px;
+            left: -200px;
+            top: 25px;
+            @media (min-width: 768px) and (max-width: 991px) {}
+            @media (max-width: 767px) {display: none;}
+            @media (max-width: 480px) {display: none;}
+        }
+        .line:last-child {
+            width: 180px;
+            display: inline-block;
+            position: absolute;
+            background-color: $red;
+            height: 3px;
+            right: -200px;
+            top: 25px;
+            @media (min-width: 768px) and (max-width: 991px) {}
+            @media (max-width: 767px){display: none;}
+            @media (max-width: 480px) {display: none;}
+        }
+        @media (min-width: 992px) and (max-width: 1199px) { }
+        @media (min-width: 768px) and (max-width: 991px) {}
+        @media (max-width: 767px) {width: 100%;overflow: hidden;font-size: 28px;}
+        @media (max-width: 480px){width: 100%;overflow: hidden;margin: 40px auto;font-size: 28px;}
+    }
+    .yogi{
+        img{width: 100%;}
+        .firstcol{
+            padding-left: 0;padding-right: 0;margin-bottom: 15px;
+            @media (max-width: 767px) {margin-bottom: 15px;}
+            @media (max-width: 480px) {margin-bottom: 15px;}
+            img{height: 664px;width: 100%;}
+        }
+        .secondcol{
+            @media (min-width: 768px) and (max-width: 991px) {padding: 0;}
+            @media (max-width: 767px) {padding: 0;}
+            @media (max-width: 480px) {padding: 0;}
+            img{
+                height: 322px;
+                width: 100%;
+                @media (min-width: 768px) and (max-width: 991px) {width: 100%;height: 100%;padding: 0;}
+                @media (max-width: 767px) {width: 100%;height: 100%;padding: 0;}
+                @media (max-width: 480px){width: 100%;height: 100%;padding: 0;}
+            }
+        }
+        @media (max-width: 767px) {padding: 0;}
+        @media (max-width: 480px) {padding: 0;}
+    }
 }
-
-
-
-
-
-@import 'pgwslider.scss';
