@@ -8,9 +8,9 @@
                     <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
                     <div class="carousel-caption">
                         <fieldset>
-                            <legend>Discover</legend>
-                            the beauty & excitement of Cali Dance<br>
-                            <span>Experience a dance class today</span>
+                            <legend>Energize</legend>
+                            your exercises with group fitness programs<br>
+                            <span>Experience a group fitness class today</span>
                             <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
@@ -19,9 +19,9 @@
                     <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
                     <div class="carousel-caption">
                         <fieldset>
-                            <legend>Discover</legend>
-                            the beauty & excitement of Cali Dance<br>
-                            <span>Experience a dance class today</span>
+                            <legend>Energize</legend>
+                            your exercises with group fitness programs<br>
+                            <span>Experience a group fitness class today</span>
                             <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
                     </div>
@@ -33,7 +33,7 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>about calidance<div class="line"></div></h2>
+            <h2><div class="line"></div>about group fitness<div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <p>Pick and choose from an extensive variety of cutting-edge classes that will energize your movements
                     with the rhythm of exhilarating music. Workout with the movements you love best!</p>
@@ -52,66 +52,69 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>Benefits of Dance<div class="line"></div></h2>
-        <p>Dance provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.</p>
+        <h2><div class="line"></div>Benefits of group fitness<div class="line"></div></h2>
+        <p>Group fitness provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.</p>
         <p></p>
-        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all dance classes</p>
+        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes.</p>
         <p></p>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="Dance is fun">
-                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/dance-services/benefit1.jpg" alt="Dance Services">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/benefit-1.jpg" alt="Dance Services">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="Your environment">
-                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/dance-services/benefit2.jpg" alt="Dance Services">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/benefit-2.jpg" alt="Dance Services">
             </a>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="discover row">
-        <h2><div class="line"></div>Discover dance at California Fitness<div class="line"></div></h2>
+        <h2><div class="line"></div>Discover California Group Fitness Programs<div class="line"></div></h2>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation">
+                <a href="#bodycombat" aria-controls="bodycombat" role="tab" data-toggle="tab">BODY COMBAT (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#bodypump" aria-controls="bodypump" role="tab" data-toggle="tab">BODY PUMP (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#cxworx" aria-controls="cxworx" role="tab" data-toggle="tab">CXWORX (M)</a>
+            </li>
+            <li role="presentation">
+                <a href="#cycling" aria-controls="cycling" role="tab" data-toggle="tab">RPM CYCLING (M)</a>
+            </li>
             <li role="presentation" class="active">
-                <a href="#zumba" aria-controls="zumba" role="tab" data-toggle="tab">ZUMBA (M)</a>
-            </li>
-            <li role="presentation">
-                <a href="#bodyjam" aria-controls="bodyjam" role="tab" data-toggle="tab">BODY JAM (M)</a>
-            </li>
-            <li role="presentation">
-                <a href="#sexydance" aria-controls="sexydance" role="tab" data-toggle="tab">SEXY DANCE (M)</a>
-            </li>
-            <li role="presentation">
-                <a href="#poledance" aria-controls="poledance" role="tab" data-toggle="tab">POLE DANCE (M)</a>
-            </li>
-            <li role="presentation">
-                <a href="#salsa" aria-controls="salsa" role="tab" data-toggle="tab">SALSA & LATIN DANCE (M)</a>
+                <a href="#shbam" aria-controls="shbam" role="tab" data-toggle="tab">SH'BAM (M)</a>
             </li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="zumba">
+            <div role="tabpanel" class="tab-pane" id="bodycombat">bodycombat</div>
+            <div role="tabpanel" class="tab-pane" id="bodypump">bodypump</div>
+            <div role="tabpanel" class="tab-pane" id="cxworx">cxworx</div>
+            <div role="tabpanel" class="tab-pane" id="cycling">cycling</div>
+            <div role="tabpanel" class="tab-pane active" id="shbam">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/discover.jpg" alt="Dance Services">
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/discover.jpg" alt="Dance Services">
                             <div class="carousel-caption">
-                                <h3>zumba</h3>
+                                <h3>Sh’bam</h3>
                                 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-                                <p> The ZUMBA program fuses hypnotic Latin rhythms and easy-to-follow moves to
-                                    create a one-of-a-kind fitness program that will blow you away.</p>
+                                <p>SH'BAM là bộ môn khiêu vũ kết hợp giữa những bước nhảy tự do và đơn giản nhưng không
+                                    kém phần gợi cảm với các bản nhạc sôi động, giúp vóc dáng thon gọn quyến rũ hơn. Tất
+                                    cả những gì bạn cần là lắng nghe âm nhạc và cháy hết mình với những bước nhảy, cảm
+                                    nhận được cơ thể của mình cũng như giải tỏa mọi căng thẳng khi chuyển động hài hoà
+                                    theo giai điêu âm nhạc</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div role="tabpanel" class="tab-pane" id="bodyjam">bodyjam</div>
-            <div role="tabpanel" class="tab-pane" id="sexydance">sexydance</div>
-            <div role="tabpanel" class="tab-pane" id="poledance">poledance</div>
-            <div role="tabpanel" class="tab-pane" id="salsa">salsa</div>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -128,23 +131,23 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/school.jpg" alt="School">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/school.jpg" alt="School">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/school.jpg" alt="School">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/school.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/school.jpg" alt="School">
                 </div>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div>Meet our featured dance teachers<div class="line"></div></h2>
+        <h2><div class="line"></div>Meet our featured Group Fitness Instructors<div class="line"></div></h2>
         <center>You have the potential, we can help you reach it.</center>
         <ul class="nav nav-tabs area" role="tablist">
             <li role="presentation" class="active">
@@ -169,28 +172,28 @@
                     <li role="presentation" class="active">
                         <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-icon.png" alt="DJ">
-                            <span>DJ</span>
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/ta.png" alt="DJ">
+                            <span>T.A</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer2" aria-controls="trainer2" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/tylerly-icon.png" alt="DJ">
-                            <span>TYLER LY</span>
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/mint.png" alt="DJ">
+                            <span>MINT NGUYEN</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer3" aria-controls="trainer3" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/genesis-icon.png" alt="DJ">
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/genesis.png" alt="DJ">
                             <span>GENESIS</span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#trainer4" aria-controls="trainer4" role="tab" data-toggle="tab">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/katsu-icon.png" alt="DJ">
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/katsu.png" alt="DJ">
                             <span>KATSU</span>
                         </a>
                     </li>
@@ -199,35 +202,55 @@
                     <div role="tabpanel" class="tab-pane active" id="trainer1">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-photo.jpg" alt="DJ">
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/ta-img.jpg" alt="DJ">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
-                            <h3>DJ</h3>
+                            <h3>T.A</h3>
                             <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-                            <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
                             <p></p>
-                            <p>Bio:<br>
-                            DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.
-                            </p>
+                            <p>Bằng Cấp<br>
+                                - Chứng chỉ HLV quốc tế Les Mills: BodyBalance, BodyPum, BodyJam.<br>
+                                - Chứng chỉ Zumba Fitness.</p>
                             <p></p>
-                            <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+                            <p>Kinh Ngiệm & Thành Tích<br>
+                                - Bắt đầu luyện tập Thể Dục Thể Thao vào năm 1992 tại CLB. Nguyễn Du Quận 1 Tp.HCM<br>
+                                - Năm 1994 HCV Toàn Thành Phố Bộ môn Thể Dục Nhào Lộn<br>
+                                - Năm 1998 tham gia Vũ Đoàn Hoàng Thông và là 1 Dancer<br>
+                                - HCV Aerobic Gymnatic Toàn Thành<br>
+                                - Năm 2000, 2 HCV Aerobic Gymnastic giải INDOOR GAME, Indonesia Kiện Tướng Thể Dục Quốc Gia<br>
+                                - Năm 2003, 2 Huy chương Vàng SEAGAME 22<br>
+                                - Năm 2005 Trọng Tài Aerobics Thành Phố<br>
+                                - Năm 2007 trở thành Instructor ở California Fitness & Yoga Centers</p>
+                            <p></p>
+                            <p>Hướng Dẫn Các Lớp<br>
+                                - Bodypump, Bodybalance, Bodycombat, Rpm, Bodyjam, Step Aerobics, Bums N Tums, Shape Up, Cycling Dance, Crunch.</p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="trainer2">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
                             <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/dance-services/dj-photo.jpg" alt="DJ">
+                                 src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/ta-img.jpg" alt="DJ">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
-                            <h3>TYLER LY</h3>
+                            <h3>T.A</h3>
                             <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-                            <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
                             <p></p>
-                            <p>Bio:<br>
-                                DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.
-                            </p>
+                            <p>Bằng Cấp<br>
+                                - Chứng chỉ HLV quốc tế Les Mills: BodyBalance, BodyPum, BodyJam.<br>
+                                - Chứng chỉ Zumba Fitness.</p>
                             <p></p>
-                            <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+                            <p>Kinh Ngiệm & Thành Tích<br>
+                                - Bắt đầu luyện tập Thể Dục Thể Thao vào năm 1992 tại CLB. Nguyễn Du Quận 1 Tp.HCM<br>
+                                - Năm 1994 HCV Toàn Thành Phố Bộ môn Thể Dục Nhào Lộn<br>
+                                - Năm 1998 tham gia Vũ Đoàn Hoàng Thông và là 1 Dancer<br>
+                                - HCV Aerobic Gymnatic Toàn Thành<br>
+                                - Năm 2000, 2 HCV Aerobic Gymnastic giải INDOOR GAME, Indonesia Kiện Tướng Thể Dục Quốc Gia<br>
+                                - Năm 2003, 2 Huy chương Vàng SEAGAME 22<br>
+                                - Năm 2005 Trọng Tài Aerobics Thành Phố<br>
+                                - Năm 2007 trở thành Instructor ở California Fitness & Yoga Centers</p>
+                            <p></p>
+                            <p>Hướng Dẫn Các Lớp<br>
+                                - Bodypump, Bodybalance, Bodycombat, Rpm, Bodyjam, Step Aerobics, Bums N Tums, Shape Up, Cycling Dance, Crunch.</p>
                         </div>
                     </div>
                 </div>
@@ -260,6 +283,4 @@
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/dance-services-top.js"></script>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/dance-services-bottom.js"></script>
 
