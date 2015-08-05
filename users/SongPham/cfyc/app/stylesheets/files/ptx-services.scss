@@ -298,6 +298,7 @@
         margin: 60px auto;
         margin-bottom: 30px;
         position: relative;
+        line-height: normal;
         .line{
             @media (max-width: 767px){}
             @media (max-width: 480px){display: none;}
