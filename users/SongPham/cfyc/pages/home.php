@@ -209,20 +209,20 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
-                <div class="row success_stories hidden-xs">
-                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-                        <div class="roundphoto">
+                <div class="row success_stories">
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs text-center"></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs text-center">
+                        <div class="roundphoto hidden-xs">
                             <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />
                         </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
                         <h3>TRUC HIEN</h3>
                         <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
-                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs text-center"></div>
                 </div>
-                <div class="row success_stories hidden-lg hidden-md hidden-sm">
+                <!-- <div class="row success_stories hidden-lg hidden-md hidden-sm">
                     <div class="col-md-6 col-sm-6 col-xs-6 text-center">
                         <div class="roundphoto">
                             <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />
@@ -232,7 +232,7 @@
                         <h3>TRUC HIEN</h3>
                         <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
                     </div>
-                </div>
+                </div> -->
                 <div class="row seemorebtn">
                     <div class="col-md-12">
                         <a href="member-testimonials" alt="See more" title="See more">See more</a>
