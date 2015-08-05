@@ -112,24 +112,39 @@
                 color: $red;
                 text-transform: uppercase;
                 line-height: 1.3em;
-                letter-spacing: .1em;
                 @include font-size(35px);
                 max-width: 700px;
                 &:before, &:after {
                     content: "";
                     position: absolute;
-                    top: 37%;
+                    top: 35%;
                     width: 9999px;
                     height: 2px;
                     background:  #e60000;
                 }
                 &:before {
-                    right: 100%;
+                    right: 95%;
                     margin-right: 15px;
                 }
 
                 &:after {
-                    left: 100%;
+                    left: 95%;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .strike.line-3 {
+            h1 {
+                &:before, &:after {
+                    top: 25%;
+                }
+                &:before {
+                    right: 85%;
+                    margin-right: 15px;
+                }
+
+                &:after {
+                    left: 85%;
                     margin-left: 15px;
                 }
             }
