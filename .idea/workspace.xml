@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac31e74-5443-4230-bf74-d4b701df5924" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/celebrity-trainning-services.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/celebrity-trainning-services.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/benefit1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/benefit2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/benefit3.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dance-services/dance-services.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dance-services/dance-services.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/discover.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/discover.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/school.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/school.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/kickfit-mma-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/kickfit-mma-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss" />
     </list>
     <ignored path="CfycDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +31,8 @@
       <file leaf-file-name="group-fitness-services.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5085">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="5100">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -54,8 +41,8 @@
       <file leaf-file-name="group-fitness-services.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83146065" vertical-offset="3757" max-vertical-offset="4380">
-              <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4380">
+              <caret line="0" column="60" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -91,6 +78,7 @@
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/kickfit-mma-services.scss" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss" />
       </list>
     </option>
   </component>
@@ -616,20 +604,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/classes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2460">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3270" max-vertical-offset="4470">
-          <caret line="220" column="71" selection-start-line="220" selection-start-column="71" selection-end-line="220" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/dance-services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="4455">
@@ -650,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2460">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,6 +817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.023077" vertical-offset="0" max-vertical-offset="2460">
           <caret line="131" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,6 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1125">
           <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,6 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="46.875" vertical-offset="1125" max-vertical-offset="6240">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333" vertical-offset="4300" max-vertical-offset="5100">
-          <caret line="300" column="28" selection-start-line="300" selection-start-column="28" selection-end-line="300" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.583333" vertical-offset="4075" max-vertical-offset="5100">
@@ -977,23 +947,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5085">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/school.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/dance-services.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/dance-services2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.333333" vertical-offset="4300" max-vertical-offset="5100">
+          <caret line="300" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="334" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="5100">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83146065" vertical-offset="3757" max-vertical-offset="4380">
-          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4380">
+          <caret line="0" column="60" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="60" />
           <folding />
         </state>
       </provider>

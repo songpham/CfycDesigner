@@ -1,11 +1,11 @@
-<div class="container-fluid page dance-services-page">
+<div class="container-fluid page group-fitness-services-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="top-content row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/topbanner.jpg" alt="Dance Services">
                     <div class="carousel-caption">
                         <fieldset>
                             <legend>Energize</legend>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/dance-services/dance-services.jpg" alt="Dance Services">
+                    <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/topbanner.jpg" alt="Dance Services">
                     <div class="carousel-caption">
                         <fieldset>
                             <legend>Energize</legend>
