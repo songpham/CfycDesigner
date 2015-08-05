@@ -160,7 +160,7 @@
                 <div class="row find_your_trainner container-page">
                     <div class="col-md-1 hide-sm hidden-xs"></div>
                     <div class="col-md-7 col-sm-6 col-xs-12 text-center trainner_photo">
-                        <img id="linhta2" src="img/home/california-wow-assim-mann.jpg" alt="Find your trainner" title="Find your trainner">
+                        <img id="linhta2" src="img/home/california-wow-iby.jpg" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta" class="active" src="img/home/california-wow-tieu-phuong.jpg" alt="Find your trainner" title="Find your trainner">
                         <img id="linhta1" src="img/home/california-wow-mint-nguyen.jpg" alt="Find your trainner" title="Find your trainner">
                     </div>
@@ -209,30 +209,25 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
-                <div class="row success_stories">
-                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs text-center"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs text-center">
-                        <div class="roundphoto hidden-xs">
-                            <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />
-                        </div>
+                <div class="row success_stories hidden-xs">
+                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                        <h3>TRUC HIEN</h3>
-                        <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs text-center"></div>
-                </div>
-                <!-- <div class="row success_stories hidden-lg hidden-md hidden-sm">
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                         <div class="roundphoto">
                             <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
                         <h3>TRUC HIEN</h3>
                         <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
                     </div>
-                </div> -->
+                    <div class="col-md-3 col-sm-3 col-xs-3 text-center">
+                    </div>
+                </div>
+                <div class="row success_stories hidden-lg hidden-md hidden-sm">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                        <h3>TRUC HIEN</h3>
+                        <p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the "Body Transformation Challenge." </p>
+                    </div>
+                </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
                         <a href="member-testimonials" alt="See more" title="See more">See more</a>
@@ -320,6 +315,15 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
+                <?php
+                    function truncate($text, $length) {
+                       $length = abs((int)$length);
+                       if(strlen($text) > $length) {
+                          $text = preg_replace("/^(.{1,$length})(\s.*|$)/s", '\\1...', $text);
+                       }
+                       return($text);
+                    }
+                ?>
                 <div class="row features_stories">
                     <div class="col-md-1 col-sm-1 col-lg-1 hidden-xs">
                     </div>
@@ -330,11 +334,17 @@
                                     <img src="img/home/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can.jpg" title="Features Stories" alt="Features Stories">
                                 </a>
                                 <h4>
-                                    <a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/">
-                                        những điều phái nữ cần biết khi tập gym giảm cân
+                                    <a href="http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/">                                        
+                                        <?php
+                                            $gym_giam_can_title = "những điều phái nữ cần biết khi tập gym giảm cân";
+                                            echo truncate($gym_giam_can_title,35);
+                                        ?>
                                     </a>
                                 </h4>
-                                <p>Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.</p>
+                                <?php
+                                    $gym_giam_can = "Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.";
+                                    echo '<p>'.truncate($gym_giam_can,150).'</p>';
+                                ?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                                 <a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/">
@@ -342,33 +352,51 @@
                                 </a>
                                 <h4>
                                     <a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/">
-                                        tập đoàn california management group mở rộng thêm 6 trung tâm cfyc
+                                        <?php
+                                            $new_cali_title = "tập đoàn california management group mở rộng thêm 6 trung tâm cfyc";
+                                            echo truncate($new_cali_title,35);
+                                        ?>
                                     </a>
                                 </h4>
-                                <p>Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.</p>
+                                <?php
+                                    $new_cali = "Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.";
+                                    echo '<p>'.truncate($new_cali,150).'</p>';
+                                ?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                                 <a href="http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/">
                                     <img src="img/home/tap-yoga-giup-dan-ong-khoe-hon.jpg" title="Features Stories" alt="Features Stories">
                                 </a>
                                 <h4>
-                                    <a href="http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/">
-                                        tập yoga giúp đàn ông khỏe hơn
+                                    <a href="http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/">                                        
+                                        <?php
+                                            $yoga_man_title = "tập yoga giúp đàn ông khỏe hơn";
+                                            echo truncate($yoga_man_title,35);
+                                        ?>
                                     </a>
                                 </h4>
-                                <p>Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.</p>
+                                <?php
+                                    $yoga_man = "Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.";
+                                    echo '<p>'.truncate($yoga_man,150).'</p>';
+                                ?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                                 <a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/">
                                     <img src="img/home/sau-mui-ho-vinh-khoa-cover.jpg" title="Features Stories" alt="Features Stories">
                                 </a>
                                 <h4>
-                                    <a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/">
-                                        bài tập để có bụng sáu múi như hồ vĩnh khoa
+                                    <a href="http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/">                                       
+                                        <?php
+                                            $vinh_khoa_title = " bài tập để có bụng sáu múi như hồ vĩnh khoa";
+                                            echo truncate($vinh_khoa_title,35);
+                                        ?>
                                     </a>
                                 </h4>
-                                <p>Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.</p>
-                        </div>
+                                <?php
+                                    $vinh_khoa = "Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.";
+                                    echo '<p>'.truncate($vinh_khoa,150).'</p>';
+                                ?>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-1 col-sm-1 col-lg-1 hidden-xs">
