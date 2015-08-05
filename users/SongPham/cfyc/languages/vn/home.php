@@ -1,2 +1,9 @@
 <?php
 define('LANG_HOMEPAGE', 'Trang chủ');
+define('LANG_OUR_SERVICES', 'DỊCH VỤ');
+define('LANG_FIND_YOUR_CLUB', 'TRUNG TÂM CALIFORNIA WOW');
+define('LANG_FIND_YOUR_TRAINER', 'TÌM HUẤN LUYỆN VIÊN');
+define('LANG_SUCCESS_STORIES', 'CÂU CHUYỆN THÀNH CÔNG');
+define('LANG_FEATURE_STORIES', 'BÀI VIẾT NỔI BẬT');
+define('LANG_SPECIAL_OFFERS', 'KHUYẾN MÃI');
+define('LANG_SEE_MORE', 'XEM NHIỀU HƠN');

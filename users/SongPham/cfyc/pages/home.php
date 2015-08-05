@@ -10,7 +10,7 @@
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
                 <div class="whitespace"></div>
-                <h2><span>OUR SERVICES</span></h2>
+                <h2><span><?=LANG_OUR_SERVICES?></span></h2>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -73,13 +73,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="services" alt="See more" title="See more">See more</a>
+                        <a href="services" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span>FIND YOUR CLUB</span></h2>
+                <h2><span><?=LANG_FIND_YOUR_CLUB?></span></h2>
                   <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -140,13 +140,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="club" alt="See more" title="See more">See more</a>
+                        <a href="club" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span>FIND YOUR TRAINER</span></h2>
+                <h2><span><?=LANG_FIND_YOUR_TRAINER?></span></h2>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -192,13 +192,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="javascript:void(0)" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span>SUCCESS STORIES</span></h2>
+                <h2><span><?=LANG_SUCCESS_STORIES?></span></h2>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="member-testimonials" alt="See more" title="See more">See more</a>
+                        <a href="member-testimonials" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
@@ -254,15 +254,15 @@
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
                                 <img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Ngoc Ha<br/>Ca Sĩ</p>
+                                <p>Ho Ngoc Ha<!-- <br/>Ca Sĩ --></p>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
                                 <img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Hoang My<br/>HOA HẬU HOÀN VŨ VIỆT NAM 2011</p>
+                                <!-- <p>Hoang My<br/>HOA HẬU HOÀN VŨ VIỆT NAM 2011</p> -->
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
                                 <img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
-                                <p>Ho Vinh Khoa<br/>DIỄN VIÊN/CA SĨ</p>
+                                <!-- <p>Ho Vinh Khoa<br/>DIỄN VIÊN/CA SĨ</p> -->
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
                                 <img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
@@ -298,13 +298,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="celebrity-members" alt="See more" title="See more">See more</a>
+                        <a href="celebrity-members" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span>FEATURE STORIES</span></h2>
+                <h2><span><?=LANG_FEATURE_STORIES?></span></h2>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -404,13 +404,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="" alt="See more" title="See more">See more</a>
+                        <a href="" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span>SPECIAL OFFERS</span></h2>
+                <h2><span><?=LANG_SPECIAL_OFFERS?></span></h2>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -435,7 +435,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" alt="See more" title="See more">See more</a>
+                        <a href="javascript:void(0)" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
