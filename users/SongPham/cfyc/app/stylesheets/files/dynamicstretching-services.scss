@@ -32,15 +32,15 @@
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             text-align: center;
             strong {font-weight: 300;}
-            span{color: $white;font-size: 18px;display: inline-block;margin-top: 10px;margin-bottom: 30px;border-top:1px solid $red;line-height: normal;
+            span{color: $white;font-size: 18px;display: inline-block;margin-top: 10px;margin-bottom: 30px;border-top:1px solid $red;line-height: normal;padding-top: 15px;
                 @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
-                @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
-                @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
+                @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 10px;}
+                @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 10px;}
             }
             a{color:$white;font-size: 12px;background:$red;position: absolute;display: inline-block;border-radius: 20px;text-decoration: none;width: 140px;left: 35%;bottom: 12px;
                 @media (min-width: 768px) and (max-width: 991px) {bottom: 20px;padding: 5px;}
-                @media (max-width: 767px){left:25%;}
-                @media (max-width: 480px){left:25%;}
+                @media (max-width: 767px){left: 0;right: 0;margin: 0 auto;}
+                @media (max-width: 480px){left: 0;right: 0;margin: 0 auto;}
             }
             @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
             @media (max-width: 767px) {width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
@@ -50,6 +50,69 @@
     .calidance {
         .embed-responsive-4by3 {
             padding-bottom: 50%;
+        }
+        @media (max-width: 480px){padding: 0;}
+    }
+    .discover {
+        .nav-tabs {
+            text-align: center;
+            background: $red;
+            border: none;
+            li {
+                float: none;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                a {
+                    color: $white;
+                    background-color: transparent;
+                    border-radius: 0;
+                    border-left: 0;
+                    border-bottom: 1px solid transparent;
+                    border-right: 0;
+                    border-top: 0;
+                    padding: 0;
+                    display: block;
+                    margin: 20px 10px;
+                    @media (max-width: 767px) {margin: 10px;}
+                    @media (max-width: 480px) {margin: 10px;}
+                }
+            }
+            .active a {border-color: $white;}
+            :hover a {border-color: $white;}
+        }
+        .tab-content {
+            .carousel-caption {
+                top: 80px;
+                h3 {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    background: rgba($red, 0.6);
+                    display: inline-block;
+                    padding: 50px 120px;
+                    margin-bottom: 90px;
+                    @media (min-width: 768px) and (max-width: 991px) {padding: 20px 50px;margin-bottom: 30px;}
+                    @media (max-width: 767px) {display: none;}
+                    @media (max-width: 480px) {display:none;}
+                }
+                p {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    font-weight: 100;
+                    :first-child {
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                    }
+                    @media (max-width: 767px) {font-size: 14px;}
+                    @media (max-width: 480px) {font-size: 14px;}
+                }
+                @media (min-width: 992px) and (max-width: 1199px) {top:0;}
+                @media (min-width: 768px) and (max-width: 991px) {top:0;}
+                @media (max-width: 767px) {left:0;top: 0;width: 100%;position: relative;color: $black;text-shadow: none;font-weight: normal;padding-left: 15px;padding-right: 15px;}
+                @media (max-width: 480px) {left:0;top: 0;width: 100%;position: relative;color: $black;text-shadow: none;font-weight: normal;padding-left: 15px;padding-right: 15px;}
+            }
         }
     }
     .benefits {
@@ -168,16 +231,23 @@
         }
         .teacher-detail{
             margin-top: 60px;
-            @media (max-width: 767px){margin-top: 30px;}
-            @media (max-width: 480px){margin-top: 30px;}
+            @media (max-width: 767px){margin-top: 10px;}
+            @media (max-width: 480px){margin-top: 10px;}
             ul.nav-tabs{
                 border: none;text-align: center;font-weight: bold;
                 li{
                     float: none;display: list-item;
                     a{
                         border: none;color:$black;
-                        img{width: 100px;display: inline-block;}
-                        span{display: block;}
+                        img{width: 100px;display: inline-block;
+                            @media (max-width: 767px){width: 100%;}
+                            @media (max-width: 480px){width: 100%;}
+                        }
+                        span{display: block;
+                            @media (max-width: 767px){font-size: 80%;}
+                            @media (max-width: 480px){font-size: 80%;}
+                        }
+                        @media (max-width: 767px){padding: 0;}
                         @media (max-width: 480px){padding: 0;}
                     }
                     :hover{background: transparent!important;}
@@ -191,8 +261,8 @@
                 h4{color: $red;font-weight: normal;margin-top: 0;}
                 img{
                     display: inline-block;
-                    @media (max-width: 767px){height: 120px;margin-top: 10px;margin-bottom: 10px;}
-                    @media (max-width: 480px){height: 120px;margin-top: 10px;margin-bottom: 10px;}
+                    @media (max-width: 767px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
+                    @media (max-width: 480px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
                 }
                 .cont{
                     @media (max-width: 767px){padding: 0;}
