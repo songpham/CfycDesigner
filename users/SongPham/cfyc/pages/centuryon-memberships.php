@@ -39,28 +39,28 @@
     <script src="../public/js/vendor.min.js"></script>
 </head>
 <body>
-<div class="container-fluid page centuryon-membership-cfy-page">
+<div class="container-fluid page centuryon-membership-cfy-page <?php //if !LANGUAGE_VN echo en ?>">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-	<div class="row banner-top">
+	<div id="banner"class="row banner-top">
 		<div class="cta">
 			<fieldset>
-	                <legend>Discover Centuryon</legend>
+	                <legend><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE ?></legend>
 	                <hr/>
 	                <span>
-	                    Transformative, exclusive and the first of its kind, the Centuryon Membership is more than just an elite group of members. 
+	                    <?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT ?> 
 	                </span>
 	                <div class="red-btn">
-	                <a class="" href="#" title="Discover Cali Dance">Get a trial</a>
+	                <a class="" href="#" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
 	                </div>
 	        </fieldset>
 		</div>
 	</div>
 	
-    <div class="container-page">
+    <div id="id_1" class="container-page">
         <div class="row video row-centered">
             <div class="col-sm-5 col-xs-11 col-centered">
                 <div class="desc-video">
-                    <p>Transformative, exclusive and the first of its kind, the Centuryon Membership is more than just an elite group of members. It’s an intelligent, powerful statement of one’s commitment to enhancing the quality of your life. With this unique membership, you will be provided with a truly valuable, convenient and life enhancing environment; allowing you to achieve the highest quality of life.</p>
+                    <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT ?></p>
                 </div>
             </div>
             <div class="col-sm-5 col-xs-11 col-centered">
@@ -69,12 +69,12 @@
                 </div>
             </div>
         </div><!--end row-->
-        <div class="row top-content row-centered">
-        <h2>Life Enhancement and Beyond</h2>
+        <div id="id_2" class="row top-content row-centered">
+        <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1 ?></h2>
         	<img src="../public/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
             <div class="col-md-10 col-centered">
             	
-                <p> Experience a new level of support in your journey to enhance your life and raise your standard of living. All Centuryon memberships come inclusive with complementary, 1 on 1 personal training services - a dedicated team of professionals committed to helping you reach your full potential; giving you the confidence to achieve goals and live a higher quality of life. </p>
+                <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT ?> </p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
             	<img src="../public/img/centuryon-membership/centuryon-left1.jpg" class="img-responsive center-block">
@@ -85,71 +85,71 @@
             <div class="col-md-4 col-centered col-xs-12">
             	<img src="../public/img/centuryon-membership/centuryon-right1.jpg" class="img-responsive center-block">
             </div>
-        </div><!--end row-->
-    </div><!--end container page-->
-    <div class="row row-centered section1">
+        </div><!--end section_2-->
+    </div><!-- section1/end container page-->
+    <div id="id_3"class="row row-centered section3">
     	<div class="container-page">
-    		<h2>Centuryon is designed to meet the needs and demands of those who accept nothing less than the very best</h2>
+    		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1 ?></h2>
 			<img src="../public/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
 			<div class="col-md-10 col-centered">
 			</div>
 			<div class="content">
 				<img src="../public/img/centuryon-membership/quote.png" class="quote-left">
 				<div class="text-box">
-					<h4>Beyond state of the art fitness facilities and personalized services, Centuryon includes and offers so much more</h4> 
+					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4> 
 				</div>
 				<img src="../public/img/centuryon-membership/quote.png" class="quote-right">
 			</div>
 			    	</div>
-    </div> <!-- end row -->
-    <div class="container-page section2">
+    </div> <!-- end section_3 -->
+    <div id="id_4" class="container-page section4">
     	<div class="row row-centered">
     		<div class="col-md-4 col-centered col-xs-12">
             	<img src="../public/img/centuryon-membership/centuryon-left2.jpg" class="img-responsive center-block">
-            	<p>Connect with people who matter in our VIP Centuryon Lounge</p>
+            	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG1_DESC ?></p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
             	 <img src="../public/img/centuryon-membership/centuryon-center2.jpg" class="img-responsive center-block">
-            	 <p>Enjoy the luxury of our bath and shower area</p>
+            	 <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG2_DESC ?></p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
             	<img src="../public/img/centuryon-membership/centuryon-right2.jpg" class="img-responsive center-block">
-            	<p>Enjoy exclusive Centuryon Athletica apparel</p>
+            	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC ?></p>
             </div>
-            <h2>Sometimes it’s the little things that matter</h2>
-            <h4>Every aspect of your visit has been meticulously planned <br>to ensure you have the best experience each and every time you visit including:</h4>
+            <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h2>
+            <h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE1 ?></h4>
   			<div class="col-md-3 col-centered col-xs-12">
-  				<h4>Advanced bookings on all classes:</h4>
-  				<p> Never wait or miss your favorite class</p>
+  				<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2 ?></h4>
+  				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2_TEXT ?></p>
             	
             </div>
             <div class="col-md-3 col-centered col-xs-12">
-              	<h4>VIP Towel and Robe Service:</h4>
-  				<p> Complementary for you to use anytime you enjoy the pool, sauna, steam room and after your workouts </p>	 
+              	<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE3 ?></h4>
+  				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE3_TEXT ?></p>	 
             </div>
             <div class="col-md-3 col-centered col-xs-12">
-              	<h4>Complementary Health Drinks:</h4>
-  				<p> Your favorite smoothies and drinks available for your every visit</p>
+              	<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE4 ?></h4>
+  				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE4_TEXT ?></p>
             	
             </div>
     	</div>
-    </div> <!-- container page content 2 -->
-    <div class="section3">
+    </div> <!-- container page ID4 -->
+    <div id="section_5" class="section5">
     	<div class="container-page">
     		<div class="row">
     			<div class="col-sm-5 col-sm-push-5 col-xs-12 col-xs-push-0">
     				<img src="../public/img/centuryon-membership/quote-white.png" class="quote-left">
     				<div class="text-box">
-    					<p>Centuryon provides you the right to bring a friend or family member with you for your every visit, enabling you to enjoy and enhance the lives of those around you with unlimited VIP guest privileges</p>
+    					<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_5_QUOTE ?></p>
     				</div>
 					<img src="../public/img/centuryon-membership/quote-white.png" class="quote-right">
     			</div>
     		</div>
     	</div>
-    </div> <!-- section 3 -->
-    <div class="container-page">
+    </div> <!-- section 5 -->
+    <div id="section_6" class="container-page">
     	<div class="row row-centered">
-    		<h2>Where do you go to be truly rejuvenated?</h2>
+    		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_6_MAIN_TITLE1 ?></h2>
     		<div class="col-md-5 col-centered col-xs-12">
 				<img src="../public/img/centuryon-membership/centuryon-left3.jpg" class="img-responsive center-block">
     		</div>

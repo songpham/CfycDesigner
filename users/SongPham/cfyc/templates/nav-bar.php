@@ -76,8 +76,8 @@
         <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
     </a>
     <ul class="desktop-menu">
-        <li><a href="#"><?php echo $LANGUAGE->HOMEPAGE ?></a></li>
-        <li><a href="#" data-index="0">Câu Lạc Bộ</a></li>
+        <li><a href="#"><?php echo LANG_HOMEPAGE ?></a></li>
+        <li><a href="#" data-index="0"><?php echo LANG_CLUBS ?></a></li>
         <li><a href="#" data-index="1">Dịch Vụ</a></li>
         <li><a href="#" data-index="2">Phong Cách Sống</a></li>
         <li><a href="#">Thành Viên</a></li>
@@ -87,11 +87,11 @@
     <div class="holder-submenu">
         <div class="sub-menu collapse">
             <ul>
-                <li><a href="#">TP. Hồ Chí Minh</a></li>
-                <li><a href="#">Hà Nội</a></li>
-                <li><a href="#">Đà Nẵng</a></li>
-                <li><a href="#">Bình Dương</a></li>
-                <li><a href="#">Biên Hòa</a></li>
+                <li><a href="#"><?php echo LANG_CLUB_HCM ?></a></li>
+                <li><a href="#"><?php echo LANG_CLUB_HA_NOI ?></a></li>
+                <li><a href="#"><?php echo LANG_CLUB_DA_NANG ?></a></li>
+                <li><a href="#"><?php echo LANG_CLUB_BINH_DUONG ?></a></li>
+                <li><a href="#"><?php echo LANG_CLUB_BIEN_HOA ?></a></li>
             </ul>
         </div>
         <div class="sub-menu collapse">

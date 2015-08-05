@@ -267,15 +267,18 @@ footer {
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
     footer {
-        ul {
-            max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
-            li { padding-left: 10px;
-                a {
-                    color: $footer_link;
-                    &:hover, &:active, &:focus {color: $footer_hover;}
-                }
-            }
-        }
+    	.container-fluid {
+    		.icon-div.col-centered {padding: 0px 18px;}
+	        ul {
+	            max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
+	            li { padding-left: 10px;
+	                a {
+	                    color: $footer_link;
+	                    &:hover, &:active, &:focus {color: $footer_hover;}
+	                }
+	            }
+	        }
+	    }
     }
 }
 @media (max-width:$breakpoint_tablet) {

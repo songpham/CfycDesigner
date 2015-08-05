@@ -1,18 +1,25 @@
 <div class="container-fluid page cfyc-memberships">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-    <div class="row banner-top">
+    <div id="banner" class="row banner-top">
         <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-header.jpg" class="img-responsive banner" onmousedown="return false;" alt="Are you a member"/>
         <div class="carousel-caption">
             <fieldset>
-                <legend>Are you a member?</legend>
+                <legend><?php echo LANG_CFYC_MEMBERSHIPS_BANNER_TITLE?></legend>
                 <hr/>
                 <span>
-                    Discover the benefits of a california fitness & yoga membership get a free membership trial today
+                    <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="#" title="Discover Cali Dance">Get a trial</a>
+                <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
                 </div>
             </fieldset>
+        </div>
+    </div>
+    <div id="id_1" class="row top-content">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="strike">
+                <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1 ?></h1>
+            </div>
         </div>
     </div>
     <div class="container-page">
@@ -20,27 +27,28 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="col-sm-6 pLeft0">
                         <div class="desc-video">
-                            <p>Your journey to make your life better starts now. Being a member is more than just access to the best fitness and life enhancement environment available. It’s a statement of your commitment to enhance the quality of life. With millions of dollars in state of the art equipment and facilities in a first class and high energy atmosphere, you’ll find the best option for you with one club, one city or premium, all country access.</p>
+                            <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_1_TEXT1?></p>
+                            <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_1_TEXT2?></p>
                         </div>
                     </div>
                     <div class="col-sm-6 pRight0">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iYCDKk3Y95Q"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EVw2QEnXEko"></iframe>
                         </div>
                     </div>
                 </div>
         </div><!--end row-->
-        <div class="row top-content">
+        <div id="id_2" class="row top-content">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="strike">
-                    <h1 class="title">Your goals are<br/>as important to us</h1>
+                    <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
             <div class="col-md-12">
-                <p>Your goals are as important to us as they are to you… and we are here to guide you every step of the way.</p>
+                <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT1 ?></p>
 
-                <p>Every membership at California Fitness & Yoga starts with dedicated support from a fitness professional. You will receive an In Body assessment and fitness consultation. Enjoy the support of two dedicated, one hour, 1 on 1 personal training session to ensure you have the support you need to get started.</p>
+                <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2 ?></p>
             </div>
         </div><!--end row-->
     </div><!--end container page-->
@@ -56,17 +64,16 @@
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/access.jpg" class="img-responsive"/>
         </div>
     </div><!--end gallery-->
-    <div class="container-page">
+    <div id="id_3"class="container-page">
         <div class="row top-content">
             <div class="col-sm-10 col-sm-offset-1">
-                <div class="strike">
-                    <h1 class="title">What else can you<br/>enjoy as a member?</h1>
+                <div class="strike line-3">
+                    <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
             <div class="col-md-12">
-                <p>What else can you enjoy as a member of California Fitness & Yoga Centers?</p>
-                <p>Your membership gives you access to unlimited opportunities to discover and enjoy what you’re most passionate about with unlimited amount of yoga, dance and group fitness programs totaling over 50 different types of classes along with optional personal training services like Kick Fit, MMA and Dynamic Stretching</p>
+                <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1 ?></p>
             </div>
         </div><!--end row-->
     </div>
@@ -90,20 +97,28 @@
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/pt.jpg" class="img-responsive"/>
         </div>
     </div><!--end gallery-->
+
+    <div id="id_4"class="row top-content">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="strike">
+                <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h1>
+            </div>
+        </div>
+    </div>
     <div class="container-page">
         <div class="row top-content">
             <div class="col-md-12">
-                <p><strong><i>Share your experience with the people you care about… learn about optional VIP Guest Privileges which allow you to bring a friend or family member along for your every visit, enabling you to enhance the life of those closest to you as well</i></strong></p>
+                <p><strong><i><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1 ?></i></strong></p>
             </div>
         </div><!--end row-->
     </div><!--end container page-->
-    <div class="row banner-bottom">
+    <div id="id_5"class="row banner-bottom">
         <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-footer.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <div class="text-box">
-            <h1>Are you looking for more?</h1>
-            <h3>Discover a world of VIP benefits with</h3>
-            <h1 class="yellow">Centuryon Charter Memberships</h1>
-            <a href="javascript:void(0)" class="cta">Learn more</a>
+            <h1><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1 ?></h1>
+            <h3><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1 ?></h3>
+            <h1 class="yellow"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2 ?></h1>
+            <a href="javascript:void(0)" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
         </div>
     </div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
