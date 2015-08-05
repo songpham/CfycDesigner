@@ -76,7 +76,7 @@
         <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
     </a>
     <ul class="desktop-menu">
-        <li><a href="#">Trang Chủ</a></li>
+        <li><a href="#"><?php echo LANG_HOMEPAGE ?></a></li>
         <li><a href="#" data-index="0">Câu Lạc Bộ</a></li>
         <li><a href="#" data-index="1">Dịch Vụ</a></li>
         <li><a href="#" data-index="2">Phong Cách Sống</a></li>
