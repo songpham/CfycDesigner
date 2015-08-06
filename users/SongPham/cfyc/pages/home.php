@@ -173,7 +173,7 @@
                         </div>
                         <div class="trainner_desc" id="linhta1">
                             <?=LANG_TRAINNER_3?>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="col-md-1 hide-sm hidden-xs"></div>
                 </div>
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div class="whitespace"></div>
-                <div class="row success_stories hidden-xs">
+                <div class="row success_stories">
                     <div class="col-md-3 col-sm-3 col-xs-3 text-center">
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 text-center">
@@ -206,11 +206,6 @@
                         <?=LANG_SUCCESS_STORIES_DESC?>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3 text-center">
-                    </div>
-                </div>
-                <div class="row success_stories hidden-lg hidden-md hidden-sm">
-                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                        <?=LANG_SUCCESS_STORIES_DESC?>
                     </div>
                 </div>
                 <div class="row seemorebtn">
