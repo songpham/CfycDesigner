@@ -4,7 +4,7 @@
     max-width: 2000px;
     position: relative;
     &.page {
-        top: 70px;
+        top: 50px;
     }
     .nav-bar {
         .logo {
@@ -67,7 +67,7 @@
                 }
             }
         }
-        
+
 /* logo */
 .logo {width: 370px; position: fixed; top:0; left: 0; z-index: 1002; display:none; }
 /* navigation */
@@ -133,7 +133,7 @@ footer {
             .last-brand {
                 div.tooltip.fade.bottom.in, div.tooltip.fade.bottom {left:-100px !important;}
             }
-            
+
 			.icon-div {	padding:0px 20px;
 	            .icons {
 	                @include font-size(40px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
@@ -283,6 +283,6 @@ footer {
 }
 @media (max-width:$breakpoint_tablet) {
     .container-fluid.page {
-        top: 53px;
+        top: 33px;
     }
 }

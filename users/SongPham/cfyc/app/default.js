@@ -57,7 +57,7 @@ $(document).ready(function () {
     /* fix bug when window resizes, the navigation has many spaces */
     var refreshOnResize = function () {
         if (window.innerWidth < '1024') {
-            $('.container-fluid.page').css('top', $('.logo').height() + 'px');
+            $('.container-fluid.page').css('top', $('.logo').height() - 20 + 'px');
         }
     };
     refreshOnResize();

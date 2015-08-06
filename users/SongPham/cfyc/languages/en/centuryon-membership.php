@@ -32,14 +32,4 @@ define('LANG_CENTURYON_MEMBERSHIPS_ID_5_QUOTE','Centuryon provides you the right
 
 define('LANG_CENTURYON_MEMBERSHIPS_ID_6_MAIN_TITLE1','Where do you go to be truly rejuvenated?');
 
-define('','');
-define('','');
-define('','');
-define('','');
-define('','');
-
-
-define('','');
-        
-
 ?>

@@ -27,14 +27,4 @@ define('LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1','Discover a world of VIP benefits
 define('LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2', 'Centuryon Charter Memberships');
 define('LANG_CFYC_MEMBERSHIPS_ID_5_CTA1','Click here to learn more');
 
-define('','');
-define('','');
-define('','');
-define('','');
-define('','');
-
-
-define('','');
-        
-
 ?>

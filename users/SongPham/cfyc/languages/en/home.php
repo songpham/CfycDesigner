@@ -65,7 +65,7 @@ define("LANG_SUCCESS_STORIES_4","Body chuẩn với bụng sáu múi làm nên s
 define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/");
 
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
-define("LANG_CELEB_1", "HO NGOC HA")
-define("LANG_CELEB_2", "HOANG MY")
-define("LANG_CELEB_3", "HO VINH KHOA")
-define("LANG_CELEB_4", "THUY TRANG")
+define("LANG_CELEB_1", "HO NGOC HA");
+define("LANG_CELEB_2", "HOANG MY");
+define("LANG_CELEB_3", "HO VINH KHOA");
+define("LANG_CELEB_4", "THUY TRANG");
