@@ -310,44 +310,44 @@
                     <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12">
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_1?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_1_URL?>">
                                     <img src="img/home/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can.jpg" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_1?>" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">                                        
+                                    <a href="<?=LANG_SUCCESS_STORIES_1_URL?>" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_1_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_1,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_2?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_2_URL?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                     <img src="img/home/California-Fitness-opens-20-clubs-2015-3.jpg" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_2?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_2_URL?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_2_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_2,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_3?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_3_URL?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                     <img src="img/home/tap-yoga-giup-dan-ong-khoe-hon.jpg" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_3?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_3_URL?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_3_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_3,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_4?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_4_URL?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
                                     <img src="img/home/sau-mui-ho-vinh-khoa-cover.jpg" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_4?>">                                       
+                                    <a href="<?=LANG_SUCCESS_STORIES_4_URL?>">                                       
                                         <?=truncate(LANG_SUCCESS_STORIES_4_TITLE,35)?>
                                     </a>
                                 </h4>
