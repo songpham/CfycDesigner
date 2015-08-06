@@ -123,6 +123,9 @@
                         position: absolute;
                         top: 40%;
                         width: 100%;
+                        @media (max-width:414px) {
+	                        top:15%;
+                        }
                         h2.service_title {
                             align-items: center;
                             border: medium none;
@@ -375,7 +378,7 @@
                         .overlay {
                             height: 100%;
                             position: absolute;
-                            top: 40%;
+                            top: 15%;
                             width: 100%;
                             h2.service_title {
                                 align-items: center;

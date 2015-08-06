@@ -1,30 +1,31 @@
 <?php
 
-define('LANG_CFYC_MEMBERSHIPS_BANNER_TITLE', 'Are you a member VNNN?');
+define('LANG_CFYC_MEMBERSHIPS_BANNER_TITLE', 'Are you a member?');
 define('LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT', 'Discover the benefits of a california fitness & yoga membership get a free membership trial today');
 define('LANG_CFYC_MEMBERSHIPS_BANNER_CTA', 'Get A Trial');
 
-define('LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1', 'Welcome to<br/>California Fitness & Yoga');
+define('LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1', 'Chào mừng đến với<br> California Fitness & Yoga');
 
-define('LANG_CFYC_MEMBERSHIPS_ID_1_TEXT1', 'Your journey to make your life better starts now. Being a member is more than just access to the best fitness and life enhancement environment available.');
-define('LANG_CFYC_MEMBERSHIPS_ID_1_TEXT2', 'It’s a statement of your commitment to enhance the quality of life. With millions of dollars in state of the art equipment and facilities in a first class and high energy atmosphere, you’ll find the best option for you with one club, one city or premium, all country access.');
+define('LANG_CFYC_MEMBERSHIPS_ID_1_TEXT1', 'Cuộc hành trình tiến đến một cuộc sống tốt đẹp hơn đã bắt đầu. Khi trở thành một hội viên của California Fitness & Yoga, không chỉ giúp bạn có hình thể đẹp, chúng tôi sẽ giúp bạn hướng đến cuộc sống tốt đẹp và cân bằng hơn.');
+define('LANG_CFYC_MEMBERSHIPS_ID_1_TEXT2', 'Chúng tôi cam kết đem đến sự cân bằng cho cuộc sống của bạn. Với cơ sở hạ tầng và nghệ thuật hàng đầu được đầu tư hàng triệu đô la và bầu không khí năng động hàng đầu, bạn sẽ chỉ tìm thấy ở chúng tôi sự lựa chọn tốt nhất ở mọi câu lạc bộ, mọi thành phố và thậm chí mọi quốc gia.');
 
-define('LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1', 'Your goals are<br/>what matter most');
-define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT1', 'We are here to guide you every step of the way');
-define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2', 'Every membership at California Fitness & Yoga starts with dedicated support from a fitness professional. You will receive an In Body assessment and fitness consultation. Enjoy the support of two dedicated, one hour, 1 on 1 personal training session to ensure you have the support you need to get started.');
-
-
-define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','What else can you enjoy<br/>as a member of California Fitness & Yoga Centers?');
-define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Your membership gives you access to unlimited opportunities to discover and enjoy what you’re most passionate about with unlimited amount of yoga, dance and group fitness programs totaling over 50 different types of classes along with optional personal training services like Kick Fit, MMA and Dynamic Stretching');
-
-define('LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1','Share your experiences<br/>with the people you care about');
-define('LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1',' Learn about optional VIP Guest Privileges which allow you to bring a friend or family member along for your every visit, enabling you to enhance the life of those closest to you as well');
+define('LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1', 'Mục tiêu của bạn <br>là nhiệm vụ cao cả nhất');
+define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT1', 'Chúng tôi sẽ luôn đồng hành trên từng bước phát triển của bạn');
+define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2', 'Là hội viên của California Fitness & Yoga, bạn sẽ nhận được sự hỗ trợ tận tụy từ các chuyên gia về hình thể, được đo Chỉ số cơ thể và tư vấn cách luyện tập. Ngoài ra, bạn còn nhận được 1h luyện tập cùng HLV cá nhân để có một bước khởi đầu hiệu quả.');
 
 
+define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','Là thành viên của <br>California Fitness & Yoga<br> còn có lợi ích nào khác?');
+define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Quyền hội viên sẽ cho phép bạn có cơ hội tham gia vào các lớp Yoga, Nhảy, tập luyện theo nhóm của chúng tôi không giới hạn về thời gian và số lượng lớp với hơn 50 chương trình với các lớp học khác nhau. Ngoài ra, bạn còn có thể tham gia các lớp học riêng với HLV như Kick Fit, MMA và Dynamic Stretching.');
 
-define('LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1','Are you looking for more?');
-define('LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1','Discover a world of VIP benefits with');
-define('LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2', 'Centuryon Charter Memberships');
-define('LANG_CFYC_MEMBERSHIPS_ID_5_CTA1','Click here to learn more');
+define('LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1','Hãy chia sẻ kinh nghiệm <br>của mình đến những người thân yêu');
+define('LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1',' Với quyền hạn của thẻ VIP Guest Privileges, bạn được quyền dẫn dắt, giới thiệu một người bạn hay thành viên trong gia đình cùng tham gia trong mỗi lần luyện tập, cùng chia sẻ bí quyết có cuộc sống tốt đẹp hơn một cách trọn vẹn.');
+
+
+
+define('LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1','Bạn còn tìm kiếm điều gì khác?
+');
+define('LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1','Hãy khám phá thế giới tiện ích <br>chỉ dành riêng cho các vị khách VIP với  ');
+define('LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2', 'hạng thẻ Centuryon Charter.');
+define('LANG_CFYC_MEMBERSHIPS_ID_5_CTA1','Click để tìm hiểu thêm');
 
 ?>

@@ -172,6 +172,7 @@
         margin-bottom: 60px;
         .text-box {
             position: absolute;
+            max-width: 50%;
             top: 10%;
             left: 7%;
             text-transform: uppercase;
@@ -189,6 +190,8 @@
                 font-weight: 300;
                 margin-top: 6%;
                 color: $white;
+                text-align: justify;
+                line-height: 1.2em;
             }
             a.cta {
                 padding: 2% 5%;

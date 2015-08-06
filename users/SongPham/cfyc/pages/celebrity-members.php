@@ -18,31 +18,31 @@
 					        <div id="movetopbanner tab-content" class="carousel slide" data-ride="carousel">
 					          <div class="carousel-inner" role="listbox">
 					            <div class="item active">
-									<div class="row">
+									<div id="id_1" class="row">
 										<div class="col-md-2 hide-sm hide-xs text-center">
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items active" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
-												<p>Hồ Ngọc Hà <br>Ca Sĩ</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_HO_NGOC_HA_NAME ?> <br><?php echo LANG_CELEBRITY_MEMBERS_JOB_SINGER ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-2" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-5.png" alt="Celebrities member" title="Celebrities member">
-												<p>Xuan Lan<br>Người Mẫu</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_XUAN_LAN_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href=".celeb-3" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-7.png" alt="Celebrities member" title="Celebrities member">
-												<p>Phuong Mai<br>Ca Sĩ</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_PHUONG_MAI_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href=".celeb-4" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-10.png" alt="Celebrities member" title="Celebrities member">
-												<p>Diem My<br>Người Mẫu</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_DIEM_MY_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_ACTRESS ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 hide-sm hide-xs text-center">
@@ -54,59 +54,34 @@
 										<div class="col-md-2 hide-sm hide-xs text-center">
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href=".celeb-5" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-												<p>HNH</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href=".celeb-6" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
-												<p>Hoang My</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_HO_VINH_KHOA_NAME ?> <br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?> / <?php echo LANG_CELEBRITY_MEMBERS_JOB_SINGER ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
-												<p>Ho Vinh Khoa</p>
-											</a>
-										</div>
-										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-6.png" alt="Celebrities member" title="Celebrities member">
-												<p>Thuy Trang</p>
-											</a>
-										</div>
-										<div class="col-md-2 hide-sm hide-xs text-center">
-										</div>
-									</div> <!-- row -->
-					            </div> <!-- item -->
-					            	<div class="item">
-									<div class="row">
-										<div class="col-md-2 hide-sm hide-xs text-center">
-										</div>
-										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-8.png" alt="Celebrities member" title="Celebrities member">
-												<p>HNH</p>
-											</a>
-										</div>
-										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-9.png" alt="Celebrities member" title="Celebrities member">
-												<p>Hoang My</p>
-											</a>
-										</div>
-										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href=".celeb-7" data-toggle="tab">
 												<img src="img/home/california-wow-celeb-member-11.png" alt="Celebrities member" title="Celebrities member">
-												<p>Ho Vinh Khoa</p>
+												<p><?php echo LANG_CELEBRITY_MEMBERS_CHI_PU_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_ACTRESS ?></p>
+											</a>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
+											<a href=".celeb-8" data-toggle="tab">
+												<img src="img/home/california-wow-celeb-member-6.png" alt="Celebrities member" title="Celebrities member">
+												<p><?php echo LANG_CELEBRITY_MEMBERS_RANDY_DOBSON_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 hide-sm hide-xs text-center">
 										</div>
 									</div> <!-- row -->
 					            </div> <!-- item -->
+
 					          </div> <!-- inner -->
 							  <!-- carousel controls -->
 					        </div> <!-- tab content -->
@@ -124,212 +99,98 @@
                 </div>
             </div>
             <div class="whitespace"></div>
-            <div class="col-md-12 text-center celebrity-info-block">
+            <div id="id_2" class="col-md-12 text-center celebrity-info-block">
             <!-- celeb-1 -->
             	<div class="row mindshares celeb-1 tab-pane fade in active row-centered">
             		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
 						<img src="../public/img/celebrity-members/tap-yoga-cung-Ho-Ngoc-Ha.jpg" align="Tap Yoga Cung Ho Ngoc Ha" class="img-responsive center-block">
 					</div> <!-- img -->
 					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
-                    		<h3>Hồ Ngọc Hà</h3>
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_HO_NGOC_HA_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Hà bắt đầu tập Yoga với mong muốn được thư giãn và giảm căng thẳng, nhưng sau vài năm tập luyện, Yoga mang đến cho Hà nhiều hơn thế, Yoga giờ đây trở thành một phần của cuộc sống hàng ngày của Hà, Yoga làm thay đổi cuộc đời mình. <br>
-									Hà tin rằng Yoga phù hợp với mọi người.  Yoga là bài tập giúp ta thanh lọc cơ thể,  tâm sáng và mang ta đến với bản thân mình, đến với bản ngã của bản thân mình, giúp ta chạm được vào cái cốt lõi của bản thân, vào sự sáng tạo và hiểu được con người mình một cách chân phương nhất. <br><br>
-									Hà tập Yoga và từ từ học được cách BÌNH TÂM, cảm nhận hơi thở của mình, tập trung để lắng nghe cơ thể và THƯ GIÃN tâm và thân.  Hà học cách đối xử với những biến động mỗi ngày bất cứ lúc nào và nơi đâu với tinh thần Yoga thư thái và thoải mái. .</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_HO_NGOC_HA ?></p>
 								</blockquote>
 					</div> <!-- text -->
 				</div> <!-- /celeb1 -->
-                            <!-- celeb-2 -->
-            	<div class="row mindshares celeb-2 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
+                 <!-- celeb-2 -->
+            	<div class="row mindshares celeb-2 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/xuan_lan.jpg" align="Tap Yoga Cung Ho Ngoc Ha" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_XUAN_LAN_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Celeb 2</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_XUAN_LAN ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
+					</div> <!-- text -->
+				</div> <!-- /celeb2 -->          
+				                 <!-- celeb-3 -->
+            	<div class="row mindshares celeb-3 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/Phuong-Mai.jpg" align="Tap Gym Cung Phuong Mai" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_PHUONG_MAI_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_PHUONG_MAI ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-2 -->
-            	<div class="row mindshares celeb-3 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
+					</div> <!-- text -->
+				</div> <!-- /celeb3 -->              	
+				<div class="row mindshares celeb-4 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/diem_my.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_DIEM_MY_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Celeb 2</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_DIEM_MY ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
+					</div> <!-- text -->
+				</div> <!-- /celeb4 -->              	
+				<div class="row mindshares celeb-5 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/hoang_my.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-3 -->
-            	<div class="row mindshares celeb-4 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
+					</div> <!-- text -->
+				</div> <!-- /celeb5 -->              	
+				<div class="row mindshares celeb-6 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/ho_vinh_khoa.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    	<h3><?php echo LANG_CELEBRITY_MEMBERS_HO_VINH_KHOA_NAME ?></h3>
+                    		<blockquote>
+		                    	<p><?php echo LANG_CELEBRITY_MEMBERS_HO_VINH_KHOA ?></p>
+							</blockquote>
+					</div> <!-- text -->
+				</div> <!-- /celeb6 -->    
+            	<div class="row mindshares celeb-7 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/chi_pu.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_CHI_PU_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Celeb 2</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_CHI_PU ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
+					</div> <!-- text -->
+				</div> <!-- /celeb7 -->   			
+				<div class="row mindshares celeb-8 tab-pane fade row-centered">
+            		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
+						<img src="../public/img/celebrity-members/randy_dobson.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+					</div> <!-- img -->
+					<div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
+                    		<h3><?php echo LANG_CELEBRITY_MEMBERS_RANDY_DOBSON_NAME ?></h3>
                     			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		                    		<p><?php echo LANG_CELEBRITY_MEMBERS_RANDY_DOBSON ?></p>
 								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-4 -->
-            	<div class="row mindshares celeb-5 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
-                    			<blockquote>
-		                    		<p>Celeb 2</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
-                    			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-5 -->
-            	<div class="row mindshares celeb-6 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
-                    			<blockquote>
-		                    		<p>Celeb 2</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
-                    			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-6 -->
-            	<div class="row mindshares celeb-7 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
-                    			<blockquote>
-		                    		<p>Celeb 2</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
-                    			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div> <!-- /celeb-7 -->
-				<div class="row mindshares celeb-8 tab-pane fade ">
-            	
-                    <div class="col-lg-3 col-md-3 col-sm-3 hide-xs text-center ">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 hidden-xs text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 hidden-xs text-left textend">
-                    			<blockquote>
-		                    		<p>Celeb 2</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-                    		</div>
-                    	</div>
-                    </div>
-                    <div class="hidden-lg hidden-sm hidden-md show-xs col-xs-12 text-left testimonial">
-                    	<div class="row">
-                    		<div class="col-md-7 col-sm-7 col-xs-12 text-left textend">
-                    			<blockquote>
-		                    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								</blockquote>
-								<h3>randy dobson, <span>Founder & CEO</span></h3>
-								<img src="img/celebrity-members/ellevn-randy.png" alt="Celebrities member" title="Celebrities member">
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-            </div> <!-- /close celebrity info block -->
+					</div> <!-- text -->
+				</div> <!-- /celeb7 -->   		            </div> <!-- /close celebrity info block -->
         </div>
     </div>
 </div>
