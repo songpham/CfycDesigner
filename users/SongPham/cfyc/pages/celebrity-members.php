@@ -29,20 +29,20 @@
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-2" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-												<p>Hoang My <br>Người Mẫu</p>
+												<img src="img/home/california-wow-celeb-member-5.png" alt="Celebrities member" title="Celebrities member">
+												<p>Xuan Lan<br>Người Mẫu</p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
-												<p>Ho Vinh Khoa <br>Ca Sĩ</p>
+												<img src="img/home/california-wow-celeb-member-7.png" alt="Celebrities member" title="Celebrities member">
+												<p>Phuong Mai<br>Ca Sĩ</p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
-												<p>Thuy Trang <br>Người Mẫu</p>
+												<img src="img/home/california-wow-celeb-member-10.png" alt="Celebrities member" title="Celebrities member">
+												<p>Diem My<br>Người Mẫu</p>
 											</a>
 										</div>
 										<div class="col-md-2 hide-sm hide-xs text-center">
@@ -55,26 +55,52 @@
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
+												<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
 												<p>HNH</p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
+												<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
 												<p>Hoang My</p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
+												<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
 												<p>Ho Vinh Khoa</p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
 											<a href=".celeb-1" data-toggle="tab">
-												<img src="img/home/california-wow-celeb-member-4.png" alt="Celebrities member" title="Celebrities member">
+												<img src="img/home/california-wow-celeb-member-6.png" alt="Celebrities member" title="Celebrities member">
 												<p>Thuy Trang</p>
+											</a>
+										</div>
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+									</div> <!-- row -->
+					            </div> <!-- item -->
+					            	<div class="item">
+									<div class="row">
+										<div class="col-md-2 hide-sm hide-xs text-center">
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
+											<a href=".celeb-1" data-toggle="tab">
+												<img src="img/home/california-wow-celeb-member-8.png" alt="Celebrities member" title="Celebrities member">
+												<p>HNH</p>
+											</a>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
+											<a href=".celeb-1" data-toggle="tab">
+												<img src="img/home/california-wow-celeb-member-9.png" alt="Celebrities member" title="Celebrities member">
+												<p>Hoang My</p>
+											</a>
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
+											<a href=".celeb-1" data-toggle="tab">
+												<img src="img/home/california-wow-celeb-member-11.png" alt="Celebrities member" title="Celebrities member">
+												<p>Ho Vinh Khoa</p>
 											</a>
 										</div>
 										<div class="col-md-2 hide-sm hide-xs text-center">
@@ -108,11 +134,10 @@
                     		<h3>Hồ Ngọc Hà</h3>
                     			<blockquote>
 		                    		<p>Hà bắt đầu tập Yoga với mong muốn được thư giãn và giảm căng thẳng, nhưng sau vài năm tập luyện, Yoga mang đến cho Hà nhiều hơn thế, Yoga giờ đây trở thành một phần của cuộc sống hàng ngày của Hà, Yoga làm thay đổi cuộc đời mình. <br>
-Hà tin rằng Yoga phù hợp với mọi người.  Yoga là bài tập giúp ta thanh lọc cơ thể,  tâm sáng và mang ta đến với bản thân mình, đến với bản ngã của bản thân mình, giúp ta chạm được vào cái cốt lõi của bản thân, vào sự sáng tạo và hiểu được con người mình một cách chân phương nhất. <br><br>
-Hà tập Yoga và từ từ học được cách BÌNH TÂM, cảm nhận hơi thở của mình, tập trung để lắng nghe cơ thể và THƯ GIÃN tâm và thân.  Hà học cách đối xử với những biến động mỗi ngày bất cứ lúc nào và nơi đâu với tinh thần Yoga thư thái và thoải mái. .</p>
+									Hà tin rằng Yoga phù hợp với mọi người.  Yoga là bài tập giúp ta thanh lọc cơ thể,  tâm sáng và mang ta đến với bản thân mình, đến với bản ngã của bản thân mình, giúp ta chạm được vào cái cốt lõi của bản thân, vào sự sáng tạo và hiểu được con người mình một cách chân phương nhất. <br><br>
+									Hà tập Yoga và từ từ học được cách BÌNH TÂM, cảm nhận hơi thở của mình, tập trung để lắng nghe cơ thể và THƯ GIÃN tâm và thân.  Hà học cách đối xử với những biến động mỗi ngày bất cứ lúc nào và nơi đâu với tinh thần Yoga thư thái và thoải mái. .</p>
 								</blockquote>
 					</div> <!-- text -->
-
 				</div> <!-- /celeb1 -->
                             <!-- celeb-2 -->
             	<div class="row mindshares celeb-2 tab-pane fade ">
