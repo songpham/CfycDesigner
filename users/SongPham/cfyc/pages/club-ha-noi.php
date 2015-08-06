@@ -190,7 +190,8 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="carousel-caption">
-							Gây ấn tượng mạnh bởi sự dung hòa gần như hoàn hảo của 3 yếu tố thanh lịch, hiện đại và năng động. Sở hữu độc quyền khu vực Hydro-Therapy với các phòng tắm hơi lớn nhất Việt Nam                        </div>
+							Gây ấn tượng mạnh bởi sự dung hòa gần như hoàn hảo của 3 yếu tố thanh lịch, hiện đại và năng động. Sở hữu độc quyền khu vực Hydro-Therapy với các phòng tắm hơi lớn nhất Việt Nam
+						</div>
                         <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                     </div>
                     <div class="item">
@@ -292,7 +293,8 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="carousel-caption">
-							Sau lần đầu bước vào CLB California tại Times City, ấn tượng lớn nhất của đa số mọi người là sự tận tâm, chu đáo và chuyên nghiệp của đội ngũ tư vấn viên cùng các chuyên gia thể hình hàng đầu tại đây                        </div>
+							Sau lần đầu bước vào CLB California tại Times City, ấn tượng lớn nhất của đa số mọi người là sự tận tâm, chu đáo và chuyên nghiệp của đội ngũ tư vấn viên cùng các chuyên gia thể hình hàng đầu tại đây
+						</div>
                         <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                     </div>
                     <div class="item">
