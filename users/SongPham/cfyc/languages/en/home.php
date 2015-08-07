@@ -8,7 +8,7 @@ define("LANG_FIND_YOUR_TRAINER", "FIND YOUR TRAINER");
 define("LANG_FIND_YOUR_TRAINER_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_SUCCESS_STORIES", "SUCCESS STORIES");
 define("LANG_SUCCESS_STORIES_SUB", "It's a 24/7 hangout for high-performance living. Smart, evocative, ahead of the curve. Get inspired, get informed, get it here.");
-define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBE");
+define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBERS");
 define("LANG_CELEBRITIES_MEMBERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_FEATURE_STORIES", "FEATURE STORIES");
 define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
