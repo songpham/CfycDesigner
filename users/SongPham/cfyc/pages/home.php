@@ -10,7 +10,7 @@
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
                 <div class="whitespace"></div>
-                <h2><span><?=LANG_OUR_SERVICES?></span></h2>
+                <div class="strike"><h2><?=LANG_OUR_SERVICES?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -79,7 +79,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_FIND_YOUR_CLUB?></span></h2>
+                <div class="strike"><h2><?=LANG_FIND_YOUR_CLUB?></h2></div>
                   <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -146,7 +146,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_FIND_YOUR_TRAINER?></span></h2>
+                <div class="strike"><h2><?=LANG_FIND_YOUR_TRAINER?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -185,7 +185,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_SUCCESS_STORIES?></span></h2>
+                <div class="strike"><h2><?=LANG_SUCCESS_STORIES?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -216,7 +216,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_CELEBRITIES_MEMBERS?></span></h2>
+                <div class="strike"><h2><?=LANG_CELEBRITIES_MEMBERS?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -284,7 +284,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_FEATURE_STORIES?></span></h2>
+                <div class="strike"><h2><?=LANG_FEATURE_STORIES?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>
@@ -366,7 +366,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
-                <h2><span><?=LANG_SPECIAL_OFFERS?></span></h2>
+                <div class="strike"><h2><?=LANG_SPECIAL_OFFERS?></h2></div>
                 <div class="row">
                     <div class="col-md-3">
                     </div>

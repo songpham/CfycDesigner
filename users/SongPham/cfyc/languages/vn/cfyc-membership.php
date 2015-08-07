@@ -1,8 +1,8 @@
 <?php
 
-define('LANG_CFYC_MEMBERSHIPS_BANNER_TITLE', 'Are you a member?');
-define('LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT', 'Discover the benefits of a california fitness & yoga membership get a free membership trial today');
-define('LANG_CFYC_MEMBERSHIPS_BANNER_CTA', 'Get A Trial');
+define('LANG_CFYC_MEMBERSHIPS_BANNER_TITLE', 'Bạn đã là hội viên chưa?');
+define('LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT', 'Khám phá ngay những lợi ích độc nhất của hội viên California Fitness & Yoga Đăng kí để tìm hiểu thêm và tập thử miễn phí ngay hôm nay');
+define('LANG_CFYC_MEMBERSHIPS_BANNER_CTA', 'đăng kí tập thử');
 
 define('LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1', 'Chào mừng đến với<br> California Fitness & Yoga');
 

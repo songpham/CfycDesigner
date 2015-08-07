@@ -1,8 +1,7 @@
 <div class="container-fluid page cfyc-memberships">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div id="banner" class="row banner-top">
-        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-header.jpg" class="img-responsive banner" onmousedown="return false;" alt="Are you a member"/>
-        <div class="carousel-caption">
+        <div class="cta">
             <fieldset>
                 <legend><?php echo LANG_CFYC_MEMBERSHIPS_BANNER_TITLE?></legend>
                 <hr/>
