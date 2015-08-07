@@ -2,9 +2,10 @@
 
 define('LANG_CENTURYON_MEMBERSHIPS', 'centuryon_memberships');
 
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE', 'Khám phá Centuryon');
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT', 'Tích hợp mọi dịch vụ ưu đãi, độc quyền và đứng đầu các thứ hạng hội viên, thẻ hội viên Centuryon mang đến cho bạn những ưu đãi tuyệt vời nhất.');
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA', 'Get A Trial');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE', 'Trải nghiệm<br>dịch vụ hoàng gia');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT','Centuryon, chinh phục những tiêu chuẩn cao cấp nhất<br> Đăng ký để tìm hiểu thêm và nhận tư vấn thể chất tại Centuryon');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT2', 'Tích hợp mọi dịch vụ ưu đãi, độc quyền và đứng đầu các thứ hạng hội viên, thẻ hội viên Centuryon mang đến cho bạn những ưu đãi tuyệt vời nhất.');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA', 'đăng kí nhận tư vấn');
 
 define('LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT', 'Đó là một sự hợp tác lâu dài, vượt trội về sự cam kết cải thiện chất lượng cuộc sống của chính bạn. Với thẻ hội viên độc đáo này, bạn sẽ được tận hưởng môi trường thật sự giá trị, thoải mái và giúp cải thiện lối sống; cho phép bạn đạt được cuộc sống chất lượng nhất.');
 

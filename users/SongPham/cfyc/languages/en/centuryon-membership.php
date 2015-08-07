@@ -1,9 +1,10 @@
 <?php
 
 define('LANG_CENTURYON_MEMBERSHIPS', 'centuryon_memberships');
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE', 'Discover Centuryon');
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT', 'Transformative, exclusive and the first of its kind, the Centuryon Membership is more than just an elite group of members.');
-define('LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA', 'Get A Trial');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE', 'You deserve to feel like royalty');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT','Only those with the highest standards choose Centuryon Book a Centuryon consultation and learn more today');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT2', 'Transformative, exclusive and the first of its kind, the Centuryon Membership is more than just an elite group of members.');
+define('LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA', 'Book A Consultation');
 
 define('LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT', 'Transformative, exclusive and the first of its kind, the Centuryon Membership is more than just an elite group of members. It’s an intelligent, powerful statement of one’s commitment to enhancing the quality of your life. With this unique membership, you will be provided with a truly valuable, convenient and life enhancing environment; allowing you to achieve the highest quality of life.');
 

@@ -17,7 +17,9 @@
 		position: relative;
 		background-size: 100%; min-height: 550px;
 		   @media (max-width: 767px) {
-		   min-height: 250px;
+		   min-height: 440px;
+		   background:#000 url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
+		   background-size: cover;
 		   }
 		.cta {
 			max-width: 40vw;
@@ -26,19 +28,29 @@
 			padding: 20px;
 			position: relative;
 			@media (max-width: 767px) {
-			max-width: 90%;
+			width: 100%;
+			max-width: 500px;
 			margin-left: auto;
-			margin: 150px auto 0 auto;
+			margin: 350px auto 0 auto;
+			padding: 0 10px;
+			position: relative;
+			float: none;
+
+			 }
+			 @media (max-width:550px) {
+				position: absolute;
+
+				bottom: 0px; 
 			 }
 		
 		 fieldset {
             position: relative;
-            border: 2px solid #f7e300;
+            border: 1px solid #f7e300;
             padding:0 30px;
             height:195px;
             @media (max-width: 767px) {
-                padding: 0 10px;
-                height:270px;
+                padding: 10px 10px 20px 10px;
+                height:auto;
             }
             @media (max-width: 484px) {
                 
@@ -46,29 +58,45 @@
             legend {
                 color: #f7e300;
                 text-align: center;
-                width: auto;
-                font-size: 35px;
-                font-weight: 100;
+                width: auto; 
+				line-height: 1.1em;
+				text-transform: uppercase;
+				font-weight: 400;
                 border: none;
                 margin-bottom: 0;
                 padding-left: 20px;
                 padding-right: 20px;
+               
                 @media (max-width: 2000px) {
-                    font-size: 2.5vw;
+                     font-size: 2.4vw;
                 }
                 @media (max-width: 767px){
-                    padding: 0;
-                    font-size: 34px;
+                    padding: 10px 0 0 0;
+                    font-size: 35px;
+
+					line-height: 1.1em;
+					text-transform: uppercase;
+					font-weight: 400;
+					
+	                }
+	                @media (max-width:550px) {
+		              font-size: 6.4vw;
 	                }
 	            }
-	            hr {border-bottom:1px solid #f7e300; height: 0px; border-top:0px;}
+	            hr {border-bottom:1px solid #f7e300; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px;}
+	            span { text-align: center;  text-transform: uppercase; text-align: center; display: inline-block;
+		           @media (max-width: 767px) {
+		           		padding-bottom: 10px;
+		           		font-size: .79em;
+		           } 
+	            }
 	            .red-btn {
 	            	position: absolute;
 					  width: 100%;
 					  left: 0px;
 					  bottom: -20px;
 		            a {
-			              color: #ffffff;
+			              color: $black;
 						  font-size: 12px;
 						  background: #f7e300;
 						  border-radius: 20px;
@@ -78,8 +106,14 @@
 						  padding: 10px 30px;
 						  bottom: 0;
 						  display: block;
-						  width: 134px;
+						  width: 50%;
 						  text-align: center;
+						  text-transform: uppercase;
+						  white-space: nowrap;
+						  font-weight: 600;
+						  @media (max-width:767px){
+							  width: 75%;
+						  }
 		            }
 	            }
 	        }
@@ -146,6 +180,7 @@
 
 @media (max-width:768px) {
 .container-fluid.page.centuryon-membership-cfy-page {
+	.row
 	.row.video{ 
 		.col-sm-5.col-centered{ height: auto; padding-bottom: 50px;
 			.embed-responsive.embed-responsive-16by9 { height:auto; padding-bottom: 0px;
