@@ -29,7 +29,7 @@ define("LANG_HO_CHI_MINH_CITY", "HO CHI MINH CITY");
 define("LANG_HA_NOI", "HA NOI");
 define("LANG_DA_NANG", "DA NANG");
 define("LANG_BINH_DUONG", "BINH DUONG");
-define("LANG_NEW_COMING", "NEW COMING");
+define("LANG_NEW_COMING", "COMING SOON");
 
 define("LANG_TRAINNER_1" , "<h3>ASSIM MANN<br/><span>QUẢN LÍ BỘ PHẬN YOGA</span></h3>
 							<p>Yoga luôn là sức mạnh dẫn dắt trong suốt cuộc đời tôi, kể từ khi được sinh ra tại Rishikesh, Ấn Độ, thủ đô của nền Yoga thế giới. Tâm nguyện của tôi là giúp các học viên đạt tới trình độ trải nghiệm Yoga vượt qua cả mong đợi của chính họ và trở nên điềm tĩnh với một tinh thần thanh thản, lạc quan. Được chứng kiến các học viên của mình không ngừng nâng cao sinh lực, sức khỏe cũng như niềm hạnh phúc luôn là món quà, là sự đền đáp mới mẻ và đầy thú vị đối với tôi.</p>
