@@ -58,11 +58,23 @@
 		                	filter: none;
 		                    -webkit-filter: none;
 							}
+							.active{
+								color: $red;
+								p{
+									color: $red;
+								}
+							}
 						} //items hover
 						
 		                .celeb-items {
 		                a:hover p{
 		                	color: $red;
+		                }
+		                .active{
+		                	color: $red;
+		                	p{
+		                		color: $red;
+		                	}
 		                }
 					} //items hover
 					

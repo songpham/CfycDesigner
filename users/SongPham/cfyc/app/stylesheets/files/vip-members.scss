@@ -115,7 +115,6 @@
 }
 @media only screen and (max-width: 20em) {
     .vip-members-page {
-    	top:52px !important;
         .top-content {
             .holder-top-content {
                 .rsvpnow {
@@ -128,9 +127,13 @@
 	                	font-size:16px;
 	                	text-transform: uppercase;
 	                	padding:0 10px;
+                        border-bottom: none;
+                        margin-bottom: 0;
+                        margin-top: 5px;
 	                }
 	                p.title_desc{
 						padding:0 10px;
+                        margin-bottom: 30px;
 	                }
 	                h3{
 					    font-size: 13px;
@@ -143,24 +146,25 @@
 
 	                }
 	                .chance_items{
-	                	padding:0;
-	                	border: 1px solid $white;
-						img{
-	                		width:100%;
-	                	}
-	                	.overlay{
-		                	position:absolute;
-		                	bottom: 0;
-		                	width:100%;
-		                	text-align:center;
-		                	background:rgba(0,0,0,0.5);
-
-		                	h2{
-		                		margin-top:10px;
-								color:$white;
-		                	}
-	                	}
-	                }
+                        padding:0;
+                        border: 1px solid $white;
+                        img{
+                            width:100%;
+                        }
+                        .overlay{
+                            position:absolute;
+                            bottom: 0;
+                            width:100%;
+                            text-align:center;
+                            background:rgba(0,0,0,0.5);
+                            height: 36px;
+                            h2{
+                                margin-top:10px;
+                                color:$white;
+                                border-bottom:none;
+                            }
+                        }
+                    }
 	                h2.booktitle{
 	                	border:1px solid #000;
 	                	padding:5px 10px;
@@ -219,7 +223,6 @@
 }
 @media only screen and (max-width: 40em) {
     .vip-members-page {
-    	top:52px !important;
         .top-content {
             .holder-top-content {
                 .rsvpnow {
@@ -232,9 +235,13 @@
 	                	font-size:16px;
 	                	text-transform: uppercase;
 	                	padding:0 10px;
+                        border-bottom: none;
+                        margin-bottom: 0;
+                        margin-top: 5px;
 	                }
 	                p.title_desc{
 						padding:0 10px;
+                        margin-bottom: 30px;
 	                }
 	                h3.section_title{
 					    font-size: 13px;
@@ -247,23 +254,25 @@
 
 	                }
 	                .chance_items{
-	                	padding:0;
-	                	border: 1px solid $white;
-						img{
-		                	width:100%;
-		                }
-	                	.overlay{
-		                	position:absolute;
-		                	bottom: 0;
-		                	width:100%;
-		                	text-align:center;
-		                	background:rgba(0,0,0,0.5);		                	
-		                	h2{
-		                		margin-top:10px;
-								color:$white;
-		                	}
-	                	}
-	                }
+                        padding:0;
+                        border: 1px solid $white;
+                        img{
+                            width:100%;
+                        }
+                        .overlay{
+                            position:absolute;
+                            bottom: 0;
+                            width:100%;
+                            text-align:center;
+                            background:rgba(0,0,0,0.5);
+                            height: 36px;
+                            h2{
+                                margin-top:10px;
+                                color:$white;
+                                border-bottom:none;
+                            }
+                        }
+                    }
 	                h2.booktitle{
 	                	border:1px solid #000;
 	                	padding:5px 10px;
@@ -322,28 +331,9 @@
 }
 @media only screen and (max-width: 40em) {
     .vip-members-page {
-    	// top:52px !important;
         .top-content {
             .holder-top-content {
-                .chance_items{
-                	padding:0;
-                	border: 1px solid $white;
-					img{
-	                	width:100%;
-	                }
-                	.overlay{
-	                	position:absolute;
-	                	bottom: 0;
-	                	width:100%;
-	                	text-align:center;
-	                	background:rgba(0,0,0,0.5);
-	                	
-	                	h2{
-	                		margin-top:10px;
-							color:$white;
-	                	}
-                	}
-                }
+
             }
         }
     }
