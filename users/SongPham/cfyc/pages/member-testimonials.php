@@ -17,7 +17,7 @@
                                 Visit us for a free membership trial today
                             </span>
                             <div class="red-btn">
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                                <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
                             </div>
                         </fieldset>
                     </div>
