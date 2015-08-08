@@ -1,0 +1,9 @@
+@import '../lib';
+
+.privacy-policy-page {
+	
+	.container-page {
+		max-width: 1024px;
+		h2 {font-size: 30px; color: $red;}
+	}
+}

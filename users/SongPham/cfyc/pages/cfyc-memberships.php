@@ -37,14 +37,14 @@
                     </div>
                 </div>
         </div><!--end row-->
-        <div id="id_2" class="row top-content">
+        <div id="id_2" class="row top-content row-centered">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="strike">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-12">
+            <div class="col-md-8 col-centered">
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT1 ?></p>
 
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2 ?></p>
@@ -64,14 +64,14 @@
         </div>
     </div><!--end gallery-->
     <div id="id_3"class="container-page">
-        <div class="row top-content">
+        <div class="row top-content row-centered">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="strike line-3">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-12">
+            <div class="col-md-8 col-centered">
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1 ?></p>
             </div>
         </div><!--end row-->
@@ -105,8 +105,8 @@
         </div>
     </div>
     <div class="container-page">
-        <div class="row top-content">
-            <div class="col-md-12">
+        <div class="row top-content row-centered">
+            <div class="col-md-8 col-centered">
                 <p><strong><i><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1 ?></i></strong></p>
             </div>
         </div><!--end row-->
@@ -117,7 +117,7 @@
             <h1><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1 ?></h1>
             <h3><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1 ?></h3>
             <h1 class="yellow"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2 ?></h1>
-            <a href="javascript:void(0)" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/centuryon-memberships" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
         </div>
     </div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

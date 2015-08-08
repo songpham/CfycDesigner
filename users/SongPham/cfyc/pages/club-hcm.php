@@ -5,17 +5,13 @@
     <div id="banner" class="row banner-top">
         <div class="cta">
             <fieldset>
-                <legend>Chào mừng đến trung tâm 
-                    California Fitness & Yoga 
-                    tại tp. Hồ Chí Minh</legend>
+                <legend><?php echo LANG_CLUB_HCM_BANNER_TITLE ?></legend>
                 <hr/>
                 <span>
-                    Trung tâm thể hình, giải trí và phong cách 
-                    sống 5 sao hàng đầu tại thành phố Hồ Chí Minh
-                    Đăng kí ngay hôm nay để tập thử miễn phí
+                    <?php echo LANG_CLUB_HCM_BANNER_SUB_TITLE ?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#" title="Discover Cali Dance"> Đăng ký tập thử</a>
+                    <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CLUB_HCM_BANNER_TEXT_BUTTON ?></a>
                 </div>
             </fieldset>
         </div>

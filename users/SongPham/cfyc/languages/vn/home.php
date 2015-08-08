@@ -29,7 +29,7 @@ define("LANG_HO_CHI_MINH_CITY", "HO CHI MINH CITY");
 define("LANG_HA_NOI", "HA NOI");
 define("LANG_DA_NANG", "DA NANG");
 define("LANG_BINH_DUONG", "BINH DUONG");
-define("LANG_NEW_COMING", "NEW COMING");
+define("LANG_NEW_COMING", "COMING SOON");
 
 define("LANG_TRAINNER_1" , "<h3>ASSIM MANN<br/><span>QUẢN LÍ BỘ PHẬN YOGA</span></h3>
 							<p>Yoga luôn là sức mạnh dẫn dắt trong suốt cuộc đời tôi, kể từ khi được sinh ra tại Rishikesh, Ấn Độ, thủ đô của nền Yoga thế giới. Tâm nguyện của tôi là giúp các học viên đạt tới trình độ trải nghiệm Yoga vượt qua cả mong đợi của chính họ và trở nên điềm tĩnh với một tinh thần thanh thản, lạc quan. Được chứng kiến các học viên của mình không ngừng nâng cao sinh lực, sức khỏe cũng như niềm hạnh phúc luôn là món quà, là sự đền đáp mới mẻ và đầy thú vị đối với tôi.</p>
@@ -68,10 +68,18 @@ define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
 
 define("LANG_CELEB_1", "HỒ NGỌC HÀ");
+define("LANG_CELEB_1_HASH", "hongocha");
 define("LANG_CELEB_2", "XUÂN LAN");
+define("LANG_CELEB_2_HASH", "xuanlan");
 define("LANG_CELEB_3", "PHƯƠNG MAI");
+define("LANG_CELEB_3_HASH", "phuongmai");
 define("LANG_CELEB_4", "DIỄM MY");
+define("LANG_CELEB_4_HASH", "diemmy");
 define("LANG_CELEB_5", "HOANG MY");
+define("LANG_CELEB_5_HASH", "hoangmy");
 define("LANG_CELEB_6", "HỒ VĨNH KHOA");
-define("LANG_CELEB_7", "THÙY TRANG");
+define("LANG_CELEB_6_HASH", "hovinhkhoa");
+define("LANG_CELEB_7", "CHI PU");
+define("LANG_CELEB_7_HASH", "chipu");
 define("LANG_CELEB_8", "RANDY DOBSON");
+define("LANG_CELEB_8_HASH", "randydobson");

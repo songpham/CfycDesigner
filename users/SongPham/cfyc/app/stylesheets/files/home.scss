@@ -42,7 +42,7 @@
                 }
             }
             .ourservice {
-                max-width: 1035px;
+                //max-width: 1035px;
                 margin: auto;
                 .service_item {
                     text-align: center;
@@ -60,10 +60,10 @@
                         -moz-transform:scale(1);
                         -webkit-transform:scale(1);
                         -o-transform:scale(1);
-                        -webkit-transition: all 2s ease-in-out;
-                        -moz-transition: all 2s ease-in-out;
-                        -o-transition: all 2s ease-in-out;
-                        transition: all 2s ease-in-out;
+                        -webkit-transition: all 1s ease-in-out;
+                        -moz-transition: all 1s ease-in-out;
+                        -o-transition: all 1s ease-in-out;
+                        transition: all 1s ease-in-out;
                         img {
                             max-width:100%;
                         }
@@ -73,20 +73,29 @@
                         width: 100%;
                         height: 100%;
                         top: 0;
-                        -webkit-transition: all .4s ease-in-out;
-                        -moz-transition: all .4s ease-in-out;
-                        -o-transition: all .4s ease-in-out;
-                        transition: all .4s ease-in-out;
+                        -webkit-transition: all .1s ease-in-out;
+                        -moz-transition: all .1s ease-in-out;
+                        -o-transition: all .1s ease-in-out;
+                        transition: all .1s ease-in-out;
                         h2 {
                             border:none;
                             bottom: 0;
                             color: #fff;
-                            line-height: 125%;
+                            // line-height: 125%;
                             padding: 15px;
                             position: absolute;
                             width: 100%;
                             margin:5px auto;
                             text-transform:uppercase;
+                            a{
+                                color:$white;
+                            }
+                            :hover{
+                                text-decoration:none;
+                                color:$white;
+                            }
+                            
+                            
                         }
                     }
                     .overlay:hover {
@@ -103,11 +112,11 @@
                     .service_img {
                         img {
                             cursor: pointer;
-                            transform:scale(1.2);
-                            -moz-transform:scale(1.2);
-                            -webkit-transform:scale(1.2);
-                            -o-transform:scale(1.2);
-                            transform:scale(1.2);
+                            transform:scale(1.08);
+                            -moz-transform:scale(1.08);
+                            -webkit-transform:scale(1.08);
+                            -o-transform:scale(1.08);
+                            transform:scale(1.08);
 
                         }
                     }
@@ -133,6 +142,13 @@
                             display: flex;
                             justify-content: center;
                             width: 100%;
+                            a{
+                                color:$white;
+                            }
+                            :hover{
+                                text-decoration:none;
+                                color:$white;
+                            }
                         }
                     }
                     img {
@@ -200,16 +216,21 @@
                 background: url('../img/home/california-wow-celeb-member-bg.jpg') 0 0 repeat transparent;
                 padding: 30px 0;
                 .celeb-items{
-                    img {
-                        max-width: 100%;
-                        border: 1px solid #989898;
-                        border-radius:150px;
-                        padding:10px;
+                    a{
+                        img {
+                            max-width: 100%;
+                            border: 1px solid #989898;
+                            border-radius:150px;
+                            padding:10px;
+                        }
+                        p {
+                            color: $white;
+                            font-weight: bold;
+                            margin: 15px 0;
+                        }
                     }
-                    p {
-                        color: $white;
-                        font-weight: bold;
-                        margin: 15px 0;
+                    a:hover{
+                        text-decoration:none;
                     }
                 }
                 .celeb-items:hover img{
@@ -255,6 +276,7 @@
     .home-page {
         .top-content {
             .holder-top-content {
+            	
                 .find_your_trainner {
                     .trainner_photo {
                         margin-bottom:15px;
@@ -306,19 +328,38 @@
                         .overlay {
                             height: 100%;
                             position: absolute;
-                            top: 40%;
+                            top: 0;
                             width: 100%;
                             h2.service_title {
+                                top:40%;
+                                position:absolute;
                                 align-items: center;
                                 border: medium none;
                                 color: #fff;
                                 display: flex;
                                 justify-content: center;
                                 width: 100%;
+                                font-size: 80%;
+                                font-weight: bold;
                             }
                         }
                         img {
                             max-width: 100%;
+                        }
+                    }
+                }
+                .ourservice {
+                    .service_item {
+                        .service_img {
+                            img {
+                            }
+                        }
+                        .overlay {
+                            h2{
+                                top:40%;
+                                font-size: 80%;
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
@@ -330,6 +371,21 @@
     .home-page {
         .top-content {
             .holder-top-content {
+                .ourservice {
+                    .service_item {
+                        .service_img {
+                            img {
+                            }
+                        }
+                        .overlay {
+                            h2{
+                                top:40%;
+                                font-size: 80%;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
                 .find_your_trainner {
                     .trainner_photo {
                         margin-bottom:15px;
@@ -378,15 +434,19 @@
                         .overlay {
                             height: 100%;
                             position: absolute;
-                            top: 15%;
+                            top: 0;
                             width: 100%;
                             h2.service_title {
+                                position:absolute;
+                                top: 40%;
                                 align-items: center;
                                 border: medium none;
                                 color: #fff;
                                 display: flex;
                                 justify-content: center;
                                 width: 100%;
+                                font-size: 80%;
+                                font-weight: bold;
                             }
                         }
                         img {

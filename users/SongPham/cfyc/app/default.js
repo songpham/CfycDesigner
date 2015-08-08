@@ -8,31 +8,34 @@ $(document).ready(function () {
     var $desktopNavigation = $('#desktop-navigation'),
         isDesktopMenuWorking = false;
     $desktopNavigation.find('.desktop-menu a').click(function (e) {
-        e.preventDefault(e);
         if (isDesktopMenuWorking === false) {
-            var index = $(this).data('index'),
-                $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')'),
-                $itemCollapse = $desktopNavigation.find('.collapse.in');
-            isDesktopMenuWorking = true;
-            if ($itemCollapse.length > 0) {
-                if ($collapse.hasClass('in') === false) {
-                    setTimeout(function () {
-                            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-                            setTimeout(function () {
-                                isDesktopMenuWorking = false;
-                            }, 300);
-                    }, 500);
+            var $me = $(this),
+                index = $me.data('index');
+            if (isNaN(index) === false) {
+                e.preventDefault(e);
+                    $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')'),
+                    $itemCollapse = $desktopNavigation.find('.collapse.in');
+                isDesktopMenuWorking = true;
+                if ($itemCollapse.length > 0) {
+                    if ($collapse.hasClass('in') === false) {
+                        setTimeout(function () {
+                                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+                                setTimeout(function () {
+                                    isDesktopMenuWorking = false;
+                                }, 300);
+                        }, 500);
+                    } else {
+                        setTimeout(function () {
+                            isDesktopMenuWorking = false;
+                        }, 300);
+                    }
+                    $desktopNavigation.find('.collapse').collapse('hide');
                 } else {
+                    $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
                     setTimeout(function () {
                         isDesktopMenuWorking = false;
                     }, 300);
                 }
-                $desktopNavigation.find('.collapse').collapse('hide');
-            } else {
-                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-                setTimeout(function () {
-                    isDesktopMenuWorking = false;
-                }, 300);
             }
         }
     });
@@ -57,7 +60,7 @@ $(document).ready(function () {
     /* fix bug when window resizes, the navigation has many spaces */
     var refreshOnResize = function () {
         if (window.innerWidth < '1024') {
-            $('.container-fluid.page').css('top', $('.logo').height() - 20 + 'px');
+            $('.container-fluid.page').css('top', $('.logo').height() - 21 + 'px');
         }else{
             // Ho Hoang Lam add this to make sure when user resize window back to desktop view, content not have any padding, it's have correct position
             $('.container-fluid.page').css('top', '50px');

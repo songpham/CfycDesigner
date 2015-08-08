@@ -2,9 +2,9 @@
 define('LANG_CLUB_HCM', 'TP. Hồ Chí Minh');
 
 // BANNER
-define('LANG_CLUB_HCM_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_HCM_BANNER_SUB_TITLE', 'HO CHI MINH CITY');
-define('LANG_CLUB_HCM_BANNER_TEXT_BUTTON', 'Find a club in Ho Chi Minh today');
+define('LANG_CLUB_HCM_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại tp. Hồ Chí Minh');
+define('LANG_CLUB_HCM_BANNER_SUB_TITLE', 'Trung tâm thể hình, giải trí và phong cách sống 5 sao hàng đầu tại thành phố Hồ Chí Minh Đăng kí ngay hôm nay để tập thử miễn phí');
+define('LANG_CLUB_HCM_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 
 // DESCRIPTION 
