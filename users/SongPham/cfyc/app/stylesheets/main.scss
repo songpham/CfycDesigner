@@ -1,26 +1,26 @@
 @import 'lib';
 .text-center { text-align: center; }
-.container-fluid {
-    max-width: 2000px;
-    position: relative;
-    &.page {
-        top: 50px;
-
-    }
-    .nav-bar {
-        .logo {
-        }
-        .navigation {
-        }
-        .flag {
-        }
-    }
-    .container-page {
-        margin: auto;
-        max-width: 1200px;
-    }
-
-}
+	.container-fluid {
+	    max-width: 2000px;
+	    position: relative;
+	    &.page {
+	        top: 50px;
+	
+	    }
+	    .nav-bar {
+	        .logo {
+	        }
+	        .navigation {
+	        }
+	        .flag {
+	        }
+	    }
+	    .container-page {
+	        margin: auto;
+	        max-width: 1200px;
+	    }
+	
+	}
 .row-centered { text-align: center;}
 .col-centered { display: inline-block; float: none; margin-right: -4px; text-align: left; overflow: hidden;}
         .strike {
@@ -170,7 +170,8 @@ footer {
                     margin-left: 15px;
                 }
             }
-}
+		}
+	}
 
 
 
@@ -255,6 +256,7 @@ footer {
         background-color:$black; min-width: 100%; z-index: 99; display:block;
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
+    
     footer {
     	.container-fluid {
     		.icon-div.col-centered {padding: 0px 18px;}
@@ -269,7 +271,9 @@ footer {
 	        }
 	    }
     }
-}
+    
+    
+} /* end media query */
 @media (max-width:$breakpoint_tablet) {
     .container-fluid.page {
         top: 33px;
