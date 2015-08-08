@@ -43,14 +43,14 @@
 	    			</div>
 	    			<ul>
 	    				<li><a href="#">Careers</a></li>
-	    				<li><a href="#">Education</a></li>
-	    				<li><a href="#">Contact Us</a></li>
+	    				<!-- <li><a href="#">Education</a></li> -->
+	    				<li><a href="<?php echo USER_BASE_URL ?>/contact-us">Contact Us</a></li>
 	    				<li><a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/">Press Releases</li>
 	    			</ul>
 	    			<ul>
 	    				<li><a href="#">Terms And Conditions</a></li>
-	    				<li><a href="#">FAQ</a></li>
-	    				<li><a href="#">Privacy Policy</a></li>
+	    				<!-- <li><a href="#">FAQ</a></li> -->
+	    				<li><a href="<?php echo USER_BASE_URL ?>/privacy-policy">Privacy Policy</a></li> 
 	    			</ul>
     			</div>
     		</div>
