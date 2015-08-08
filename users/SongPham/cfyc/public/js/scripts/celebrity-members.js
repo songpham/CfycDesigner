@@ -13,12 +13,13 @@ var celebritymemberPage = (function () {
 			});
 
 			$('.celeb-items a').on("click",function(){
+				$(".celeb-items a.active").removeClass("active");
 				//try to remove all celeb-items ahave class active.
-				$('.carousel-inner .item').each(function(index, el) {
-					var aaa = $(this).find('a').attr('class');
-					console.log(aaa);
-				});
-				//$(this).addClass('active');
+				// $('.carousel-inner .item').each(function(index, el) {
+				// 	var aaa = $(this).find('a').attr('class');
+				// 	console.log(aaa);
+				// });
+				$(this).addClass('active');
 			});
 
 		});
