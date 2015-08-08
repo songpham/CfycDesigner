@@ -18,11 +18,11 @@
                 <a href="javascript:void(0)" class="list-group-item-success" data-toggle="collapse" aria-expanded="false"><?php echo LANG_CLUBS ?><span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
                     <ul>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-hcm<?php echo getSuffix('lang=' . $LANG) ?>">TP. Hồ Chí Minh</a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>">Hà Nội</a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>">Đà Nẵng</a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>">Bình Dương</a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>">Biên Hòa</a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-hcm<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_HCMC ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_HANOI ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -48,16 +48,16 @@
                 <a href="javascript:void(0)" class="list-group-item-success" data-toggle="collapse" aria-expanded="false"><?php echo LANG_LIFESTYLE ?><span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
                     <ul>
-                        <li><a href="http://lifestyle.cfyc.com.vn/giam-can-cap-toc/">Giảm Cân</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/the-duc-suc-khoe/">Thể dục & Sức khỏe</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/luyen-tap/">Luyện Tập</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/phong-cach-song/">Phong Cách Sống</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/dinh-duong/">Dinh Dưỡng</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/gia-dinh/">Gia Đình</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/yoga/"><?php echo LANG_SERVICES_YOGA ?></a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/thoi-trang/">Thời Trang</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/tin-tuc/">Tin Tức</a></li>
-                        <li><a href="http://lifestyle.cfyc.com.vn/su-kien/">Sự Kiện</a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/giam-can-cap-toc/"><?php echo LANG_LIFESTYLE_WEIGHT_LOSS ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/the-duc-suc-khoe/"><?php echo LANG_LIFESTYLE_FITNESS_HEALTH ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/luyen-tap/"><?php echo LANG_LIFESTYLE_EXERCISE ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/phong-cach-song/"><?php echo LANG_LIFESTYLE_LIFESTYLE ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/dinh-duong/"><?php echo LANG_LIFESTYLE_NUTRITION ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/gia-dinh/"><?php echo LANG_LIFESTYLE_FAMILY ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/yoga/"><?php echo LANG_LIFESTYLE_YOGA ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/thoi-trang/"><?php echo LANG_LIFESTYLE_BEAUTY ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/tin-tuc/"><?php echo LANG_LIFESTYLE_NEWS ?></a></li>
+                        <li><a href="http://lifestyle.cfyc.com.vn/su-kien/"><?php echo LANG_LIFESTYLE_EVENTS ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -88,37 +88,37 @@
     </ul>
     <div class="holder-submenu">
         <div class="sub-menu collapse">
-            <ul>
-                <li><a href="<?php echo USER_BASE_URL ?>/club-hcm<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CLUB_HCM ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CLUB_HA_NOI ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CLUB_DA_NANG ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CLUB_BINH_DUONG ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CLUB_BIEN_HOA ?></a></li>
-            </ul>
+                    <ul>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-hcm<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_HCMC ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_HANOI ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
+                    </ul>
         </div>
         <div class="sub-menu collapse">
             <ul>
-                <li><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>">Group Fitness</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>">Giảm Căng Cơ</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>">Dance</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/yoga-services<?php echo getSuffix('lang=' . $LANG) ?>">Yoga</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>">Huấn Luyện cá nhân</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>">Kickfit</a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>">Võ tự do MMA</a></li>
-            </ul>
+            	<li><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/yoga-service<?php echo getSuffix('lang=' . $LANG) ?>s"><?php echo LANG_SERVICES_YOGA ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>           
+           </ul>
         </div>
         <div class="sub-menu collapse">
             <ul>
-                <li><a href="http://lifestyle.cfyc.com.vn/giam-can-cap-toc/">Giảm Cân</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/the-duc-suc-khoe/">Thể dục & Sức khỏe</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/luyen-tap/">Luyện Tập</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/phong-cach-song/">Phong Cách Sống</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/dinh-duong/">Dinh Dưỡng</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/gia-dinh/">Gia Đình</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/yoga/">Yoga</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/thoi-trang/">Thời Trang</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/tin-tuc/">Tin Tức</a></li>
-                <li><a href="http://lifestyle.cfyc.com.vn/su-kien/">Sự Kiện</a></li>
+            	<li><a href="http://lifestyle.cfyc.com.vn/giam-can-cap-toc/"><?php echo LANG_LIFESTYLE_WEIGHT_LOSS ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/the-duc-suc-khoe/"><?php echo LANG_LIFESTYLE_FITNESS_HEALTH ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/luyen-tap/"><?php echo LANG_LIFESTYLE_EXERCISE ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/phong-cach-song/"><?php echo LANG_LIFESTYLE_LIFESTYLE ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/dinh-duong/"><?php echo LANG_LIFESTYLE_NUTRITION ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/gia-dinh/"><?php echo LANG_LIFESTYLE_FAMILY ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/yoga/"><?php echo LANG_LIFESTYLE_YOGA ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/thoi-trang/"><?php echo LANG_LIFESTYLE_BEAUTY ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/tin-tuc/"><?php echo LANG_LIFESTYLE_NEWS ?></a></li>
+                <li><a href="http://lifestyle.cfyc.com.vn/su-kien/"><?php echo LANG_LIFESTYLE_EVENTS ?></a></li>
             </ul>
         </div>
     </div>
