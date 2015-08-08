@@ -71,11 +71,13 @@
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="row seemorebtn">
                     <div class="col-md-12">
                         <a href="services" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
+                -->
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
@@ -138,11 +140,13 @@
                         <img src="img/home/california-wow-find-your-club-9.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
                     </div>
                 </div>
+                <!--
                 <div class="row seemorebtn">
                     <div class="col-md-12">
                         <a href="club" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
+                -->
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">

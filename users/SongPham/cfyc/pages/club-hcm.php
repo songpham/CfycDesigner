@@ -2,20 +2,20 @@
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 
     <!-- TOP BANNER -->
-    <div class="top-banner row">
-        <div id="top-banner" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/club/banner-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                    <div class="carousel-caption">
-                        <p>Welcome to California Fitness & Yoga Centers in </p>
-                        <h1>Ho chi minh City</h1>
-                        <a href="#" title="Find a club in HCMC today">Find a club in Ha Noi today</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="top-banner" class="top-banner row">
+
+            <div class="cta">
+			      <fieldset>
+			                <legend><?php echo LANG_CLUB_HCM_BANNER_TITLE ?></legend>
+			                <hr/>
+			                <span>
+			                    <?php echo LANG_CLUB_HCM_BANNER_SUB_TITLE ?>
+			                </span>
+			                <div class="red-btn">
+			                <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CLUB_HCM_BANNER_TEXT_BUTTON ?></a>
+			                </div>
+			      </fieldset>
+			 </div> <!-- cta -->
     </div>
     <!-- TOP BANNER -->
 
