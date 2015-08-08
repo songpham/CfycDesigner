@@ -8,31 +8,34 @@ $(document).ready(function () {
     var $desktopNavigation = $('#desktop-navigation'),
         isDesktopMenuWorking = false;
     $desktopNavigation.find('.desktop-menu a').click(function (e) {
-        e.preventDefault(e);
         if (isDesktopMenuWorking === false) {
-            var index = $(this).data('index'),
-                $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')'),
-                $itemCollapse = $desktopNavigation.find('.collapse.in');
-            isDesktopMenuWorking = true;
-            if ($itemCollapse.length > 0) {
-                if ($collapse.hasClass('in') === false) {
-                    setTimeout(function () {
-                            $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-                            setTimeout(function () {
-                                isDesktopMenuWorking = false;
-                            }, 300);
-                    }, 500);
+            var $me = $(this),
+                index = $me.data('index');
+            if (isNaN(index) === false) {
+                e.preventDefault(e);
+                    $collapse = $desktopNavigation.find('.collapse:eq(' + index + ')'),
+                    $itemCollapse = $desktopNavigation.find('.collapse.in');
+                isDesktopMenuWorking = true;
+                if ($itemCollapse.length > 0) {
+                    if ($collapse.hasClass('in') === false) {
+                        setTimeout(function () {
+                                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
+                                setTimeout(function () {
+                                    isDesktopMenuWorking = false;
+                                }, 300);
+                        }, 500);
+                    } else {
+                        setTimeout(function () {
+                            isDesktopMenuWorking = false;
+                        }, 300);
+                    }
+                    $desktopNavigation.find('.collapse').collapse('hide');
                 } else {
+                    $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
                     setTimeout(function () {
                         isDesktopMenuWorking = false;
                     }, 300);
                 }
-                $desktopNavigation.find('.collapse').collapse('hide');
-            } else {
-                $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
-                setTimeout(function () {
-                    isDesktopMenuWorking = false;
-                }, 300);
             }
         }
     });
