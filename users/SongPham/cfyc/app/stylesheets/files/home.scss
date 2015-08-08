@@ -216,16 +216,21 @@
                 background: url('../img/home/california-wow-celeb-member-bg.jpg') 0 0 repeat transparent;
                 padding: 30px 0;
                 .celeb-items{
-                    img {
-                        max-width: 100%;
-                        border: 1px solid #989898;
-                        border-radius:150px;
-                        padding:10px;
+                    a{
+                        img {
+                            max-width: 100%;
+                            border: 1px solid #989898;
+                            border-radius:150px;
+                            padding:10px;
+                        }
+                        p {
+                            color: $white;
+                            font-weight: bold;
+                            margin: 15px 0;
+                        }
                     }
-                    p {
-                        color: $white;
-                        font-weight: bold;
-                        margin: 15px 0;
+                    a:hover{
+                        text-decoration:none;
                     }
                 }
                 .celeb-items:hover img{

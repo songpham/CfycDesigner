@@ -68,10 +68,18 @@ define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
 
 define("LANG_CELEB_1", "HỒ NGỌC HÀ");
+define("LANG_CELEB_1_HASH", "hongocha");
 define("LANG_CELEB_2", "XUÂN LAN");
+define("LANG_CELEB_2_HASH", "xuanlan");
 define("LANG_CELEB_3", "PHƯƠNG MAI");
+define("LANG_CELEB_3_HASH", "phuongmai");
 define("LANG_CELEB_4", "DIỄM MY");
+define("LANG_CELEB_4_HASH", "diemmy");
 define("LANG_CELEB_5", "HOANG MY");
+define("LANG_CELEB_5_HASH", "hoangmy");
 define("LANG_CELEB_6", "HỒ VĨNH KHOA");
+define("LANG_CELEB_6_HASH", "hovinhkhoa");
 define("LANG_CELEB_7", "CHI PU");
+define("LANG_CELEB_7_HASH", "chipu");
 define("LANG_CELEB_8", "RANDY DOBSON");
+define("LANG_CELEB_8_HASH", "randydobson");
