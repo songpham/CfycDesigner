@@ -73,5 +73,5 @@ define("LANG_CELEB_3", "PHƯƠNG MAI");
 define("LANG_CELEB_4", "DIỄM MY");
 define("LANG_CELEB_5", "HOANG MY");
 define("LANG_CELEB_6", "HỒ VĨNH KHOA");
-define("LANG_CELEB_7", "THÙY TRANG");
+define("LANG_CELEB_7", "CHI PU");
 define("LANG_CELEB_8", "RANDY DOBSON");

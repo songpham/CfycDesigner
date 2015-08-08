@@ -60,7 +60,7 @@ $(document).ready(function () {
     /* fix bug when window resizes, the navigation has many spaces */
     var refreshOnResize = function () {
         if (window.innerWidth < '1024') {
-            $('.container-fluid.page').css('top', $('.logo').height() - 20 + 'px');
+            $('.container-fluid.page').css('top', $('.logo').height() - 21 + 'px');
         }else{
             // Ho Hoang Lam add this to make sure when user resize window back to desktop view, content not have any padding, it's have correct position
             $('.container-fluid.page').css('top', '50px');
