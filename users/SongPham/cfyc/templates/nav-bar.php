@@ -70,7 +70,7 @@
         </li>
     </ul>
 </nav>
-<a class="logo" href="<?php echo USER_BASE_URL ?>">
+<a class="logo" href="<?php echo USER_BASE_URL ?><?php echo getSuffix('lang=' . $LANG) ?>">
     <img src="<?php echo USER_BASE_URL ?>/img/logo.png" class="img-responsive logo-img" alt="California Fitness &amp; Yoga">
 </a>
 <nav id="desktop-navigation">
