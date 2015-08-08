@@ -12,14 +12,14 @@ define('LANG_CLUB_HCM_INTRODUCE', 'California Fitness & Yoga tự hào đồng h
 
 
 // CLUBS LIST
-define('LANG_CLUB_HCM_CLUB_1', 'QUẬN 11');
-define('LANG_CLUB_HCM_CLUB_2', 'QUẬN TÂN BÌNH');
-define('LANG_CLUB_HCM_CLUB_3', 'QUẬN 4');
-define('LANG_CLUB_HCM_CLUB_4', 'QUẬN 5');
-define('LANG_CLUB_HCM_CLUB_5', 'QUẬN 1');
-define('LANG_CLUB_HCM_CLUB_6', 'QUẬN 7');
-define('LANG_CLUB_HCM_CLUB_7', 'QUẬN THỦ ĐỨC');
-define('LANG_CLUB_HCM_CLUB_8', 'CRESENT');
+// define('LANG_CLUB_HCM_CLUB_1', 'QUẬN 11');
+// define('LANG_CLUB_HCM_CLUB_2', 'QUẬN TÂN BÌNH');
+// define('LANG_CLUB_HCM_CLUB_3', 'QUẬN 4');
+// define('LANG_CLUB_HCM_CLUB_4', 'QUẬN 5');
+// define('LANG_CLUB_HCM_CLUB_5', 'QUẬN 1');
+// define('LANG_CLUB_HCM_CLUB_6', 'QUẬN 7');
+// define('LANG_CLUB_HCM_CLUB_7', 'QUẬN THỦ ĐỨC');
+// define('LANG_CLUB_HCM_CLUB_8', 'CRESENT');
 
 
 /////////////////////////////// CLB Quận 11 ///////////////////////////////
@@ -191,14 +191,14 @@ define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
 
 
 /////////////////////////////// CRESENT [CENTURYON] GYM ///////////////////////////////
-define('LANG_CLUB_HCM_CLUB_6_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
+define('LANG_CLUB_HCM_CLUB_8_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
 // CAPTION
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_1', "CLB dành riêng cho hội viên sở hữu thẻ Centuryon cao cấp nhất.<br>Nằm cạnh hồ bán nguyệt và sở hữu lớp Yoga, Cyclying ngoài trời duy nhất trên toàn quốc, giúp tâm hồn bạn dễ dàng hòa quyện cùng khung cảnh thiên nhiên đầy quyến rũ");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_4', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_1', "CLB dành riêng cho hội viên sở hữu thẻ Centuryon cao cấp nhất.<br>Nằm cạnh hồ bán nguyệt và sở hữu lớp Yoga, Cyclying ngoài trời duy nhất trên toàn quốc, giúp tâm hồn bạn dễ dàng hòa quyện cùng khung cảnh thiên nhiên đầy quyến rũ");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_2', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_3', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_4', "");
 // CONTACT INFO
-define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
+define('LANG_CLUB_HCM_CLUB_8_CONTACT_INFO', '
 		<!-- location -->
 		<h3>Địa điểm : </h3>
 		<p>Crescent Plaza Tầng 3, Crescent Plaza, số 105 đường Tôn Dật Tiên, Phú Mỹ Hưng, phường Tân Phú, Quận 7, TPHCM </p>

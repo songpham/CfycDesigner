@@ -318,10 +318,26 @@
                                 display: flex;
                                 justify-content: center;
                                 width: 100%;
+                                font-size: 80%;
+                                font-weight: bold;
                             }
                         }
                         img {
                             max-width: 100%;
+                        }
+                    }
+                }
+                .ourservice {
+                    .service_item {
+                        .service_img {
+                            img {
+                            }
+                        }
+                        .overlay {
+                            h2{
+                                font-size: 80%;
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
@@ -333,6 +349,20 @@
     .home-page {
         .top-content {
             .holder-top-content {
+                .ourservice {
+                    .service_item {
+                        .service_img {
+                            img {
+                            }
+                        }
+                        .overlay {
+                            h2{
+                                font-size: 80%;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
                 .find_your_trainner {
                     .trainner_photo {
                         margin-bottom:15px;
@@ -390,6 +420,8 @@
                                 display: flex;
                                 justify-content: center;
                                 width: 100%;
+                                font-size: 80%;
+                                font-weight: bold;
                             }
                         }
                         img {

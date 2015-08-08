@@ -8,7 +8,7 @@ define("LANG_FIND_YOUR_TRAINER", "TÌM HUẤN LUYỆN VIÊN");
 define("LANG_FIND_YOUR_TRAINER_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_SUCCESS_STORIES", "CÂU CHUYỆN THÀNH CÔNG");
 define("LANG_SUCCESS_STORIES_SUB", "It's a 24/7 hangout for high-performance living. Smart, evocative, ahead of the curve. Get inspired, get informed, get it here.");
-define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBE");
+define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBERS");
 define("LANG_CELEBRITIES_MEMBERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_FEATURE_STORIES", "BÀI VIẾT NỔI BẬT");
 define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
@@ -67,7 +67,11 @@ define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap
 
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
 
-define("LANG_CELEB_1", "HO NGOC HA");
-define("LANG_CELEB_2", "HOANG MY");
-define("LANG_CELEB_3", "HO VINH KHOA");
-define("LANG_CELEB_4", "THUY TRANG");
+define("LANG_CELEB_1", "HỒ NGỌC HÀ");
+define("LANG_CELEB_2", "XUÂN LAN");
+define("LANG_CELEB_3", "PHƯƠNG MAI");
+define("LANG_CELEB_4", "DIỄM MY");
+define("LANG_CELEB_5", "HOANG MY");
+define("LANG_CELEB_6", "HỒ VĨNH KHOA");
+define("LANG_CELEB_7", "THÙY TRANG");
+define("LANG_CELEB_8", "RANDY DOBSON");

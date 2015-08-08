@@ -174,14 +174,14 @@ define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
 
 
 /////////////////////////////// CRESENT [CENTURYON] GYM ///////////////////////////////
-define('LANG_CLUB_HCM_CLUB_6_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
+define('LANG_CLUB_HCM_CLUB_8_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
 // CAPTION
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_1', "Welcome to California’s new flagship Centuryon Life Enhancement Center at Cresent Club! In this building, more so than anywhere else in the world, you will find consolidated all of the tools necessary to live your life to the fullest and experience the realization of a potential beyond what you ever thought possible. Much like Apple redefined the mobile phone into an intelligent extension of ourselves, our Centuryon Life Enhancement Centers will redefine the traditional health club. Our Centuryon facilities are designed to be the unifying center that enhances all aspects of your life. Family, professional, social. From this center you will make your life better and more fulfilled. Our promise is to provide a platform which brings to bear the sum total of the findings of modern wellness science.");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_4', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_1', "Welcome to California’s new flagship Centuryon Life Enhancement Center at Cresent Club! In this building, more so than anywhere else in the world, you will find consolidated all of the tools necessary to live your life to the fullest and experience the realization of a potential beyond what you ever thought possible. Much like Apple redefined the mobile phone into an intelligent extension of ourselves, our Centuryon Life Enhancement Centers will redefine the traditional health club. Our Centuryon facilities are designed to be the unifying center that enhances all aspects of your life. Family, professional, social. From this center you will make your life better and more fulfilled. Our promise is to provide a platform which brings to bear the sum total of the findings of modern wellness science.");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_2', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_3', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_4', "");
 // CONTACT INFO
-define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
+define('LANG_CLUB_HCM_CLUB_8_CONTACT_INFO', '
         <h3>Location: </h3>
         <p>Crescent Plaza Level 3, Crescent Plaza, 105 Ton Dat Tien, Phu My Hung, Tan Phu Ward, Dist 7, HCM</p>
         
