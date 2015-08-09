@@ -2,27 +2,20 @@
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 
     <!-- TOP BANNER -->
-    <div class="top-banner row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/banner.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>We make life better</legend>
-                            <span>
-                                Over 100,000 people have trusted us to lose
-                                weight, build muscle and make their life better
-                                Visit us for a free membership trial today
-                            </span>
-                            <div class="red-btn">
-                                <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
-                            </div>
-                        </fieldset>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?php echo LANG_MEMBER_TESTIMONIALS_BANNER_TITLE ?></legend>
+                <hr/>
+                <span>
+                    <?php echo LANG_MEMBER_TESTIMONIALS_BANNER_SUB_TITLE ?>
+                </span>
+                <div class="red-btn">
+                    <div class="red-btn-inline">
+                        <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"> <?php echo LANG_MEMBER_TESTIMONIALS_BANNER_TEXT_BUTTON ?></a>
                     </div>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
     <!-- END TOP BANNER -->
@@ -34,47 +27,21 @@
         <div id="member-list" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    <div class="col-md-3 hide-sm hide-xs text-center">
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box active">
-                        <a href='1'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box active">
+                        <a href='1'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_1 ?>" alt=''></a>
+                        <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_1_CAPTION ?></p>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='2'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
-                        <p>Hoang Van Si</p>
+                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box">
+                        <a href='2'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_2 ?>" alt=''></a>
+                        <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_2_CAPTION ?></p>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='3'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
+                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box">
+                        <a href='3'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3 ?>" alt=''></a>
+                        <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3_CAPTION ?></p>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='4'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
-                        <p>Hoang Van Si</p>
-                    </div>
-                    <div class="col-md-2 hide-sm hide-xs text-center">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="col-md-2 hide-sm hide-xs text-center">
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='5'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='6'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
-                        <p>Hoang Van Si</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='7'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-1.png" ?>" alt=''></a>
-                        <p>Do Hoang Lan</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 text-center box">
-                        <a href='8'><img src="<?php echo USER_BASE_URL . "/img/member-testimonials/story-2.png" ?>" alt=""></a>
-                        <p>Hoang Van Si</p>
-                    </div>
-                    <div class="col-md-2 hide-sm hide-xs text-center">
+                    <div class="col-md-3 hide-sm hide-xs text-center">
                     </div>
                 </div>
             </div>
@@ -99,7 +66,20 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
+                <div class='img-wrapper'>
+                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE ?>'/>
+                    <div class='before'>
+                        <h3>before</h3>
+                        <p>Body fat: 25.3kg</p>
+                        <p>Weight: 62kg</p>
+                    </div>
+                    <div class='after'>
+                        <h3>after</h3>
+                        <p>Body fat: 25.3kg</p>
+                        <p>Weight: 62kg</p>
+                    </div>
+                </div>
+
             </div>
             <!-- END IMAGE -->
 
@@ -107,10 +87,8 @@
 
             <!-- TEXT -->
             <div class="container-page text">
-                <h3>member's story 1</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
+                <h3><?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_TITLE ?></h3>
+                <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_CONTENT ?>
             </div>
             <!-- END TEXT -->
 
@@ -122,7 +100,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
+                <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE ?>'/>
             </div>
             <!-- END IMAGE -->
 
@@ -130,10 +108,8 @@
 
             <!-- TEXT -->
             <div class="container-page text">
-                <h3>member's story 2</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
+                <h3><?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_TITLE ?></h3>
+                <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT ?>
             </div>
             <!-- END TEXT -->
 
@@ -145,7 +121,7 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
+                <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE ?>'/>
             </div>
             <!-- END IMAGE -->
 
@@ -153,125 +129,8 @@
 
             <!-- TEXT -->
             <div class="container-page text">
-                <h3>member's story 3</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
-            </div>
-            <!-- END TEXT -->
-
-        </div>
-        <!-- END STORY -->
-
-        <!-- STORY -->
-        <div class="row story story-4">
-
-            <!-- IMAGE -->
-            <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
-            </div>
-            <!-- END IMAGE -->
-
-            <div class="white-space"></div>
-
-            <!-- TEXT -->
-            <div class="container-page text">
-                <h3>member's story 4</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
-            </div>
-            <!-- END TEXT -->
-
-        </div>
-        <!-- END STORY -->
-
-        <!-- STORY -->
-        <div class="row story story-5">
-
-            <!-- IMAGE -->
-            <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
-            </div>
-            <!-- END IMAGE -->
-
-            <div class="white-space"></div>
-
-            <!-- TEXT -->
-            <div class="container-page text">
-                <h3>member's story 5</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
-            </div>
-            <!-- END TEXT -->
-
-        </div>
-        <!-- END STORY -->
-
-        <!-- STORY -->
-        <div class="row story story-6">
-
-            <!-- IMAGE -->
-            <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
-            </div>
-            <!-- END IMAGE -->
-
-            <div class="white-space"></div>
-
-            <!-- TEXT -->
-            <div class="container-page text">
-                <h3>member's story 6</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
-            </div>
-            <!-- END TEXT -->
-
-        </div>
-        <!-- END STORY -->
-
-        <!-- STORY -->
-        <div class="row story story-7">
-
-            <!-- IMAGE -->
-            <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
-            </div>
-            <!-- END IMAGE -->
-
-            <div class="white-space"></div>
-
-            <!-- TEXT -->
-            <div class="container-page text">
-                <h3>member's story 7</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
-            </div>
-            <!-- END TEXT -->
-
-        </div>
-        <!-- END STORY -->
-
-        <!-- STORY -->
-        <div class="row story story-8">
-
-            <!-- IMAGE -->
-            <div class="image">
-                <img src='img/home/success_n.png' onmouseover="this.src = 'img/home/success_h.png';" onmouseout="this.src = 'img/home/success_n.png';" />
-            </div>
-            <!-- END IMAGE -->
-
-            <div class="white-space"></div>
-
-            <!-- TEXT -->
-            <div class="container-page text">
-                <h3>member's story 8</h3>
-                <p>Some people go to the gym to get fit, some people go to the gym to socialize with friends, some people go to the gym to lose weight. Matthew Harrington went to the gym because his wife told him to. A self-proclaimed workaholic, Matt put in long hours and sacrificed his well-being with poor diet, long work hours, and no exercise. With the support of his wife, he has changed his life to one of healthy living and healthy eating.</p>
-                <p>For the seven years that my wife and I have been married, we have probably only spent half of those years together. As a father to young twins, I felt that a father's job, just like my father and his father, was to be always working, sacrificing our own wellbeing so our families can have the best of everything. I worked around the world on ships with no gym for months at a time, 14hrs a day, seven days a week, starting at midnight. When I was home, my wife and I ran a very successful restaurant in Vung Tau and worked there for up to 18 hours a day. Normal family life did not exist. As soon as I was home from my work offshore, I would already have the next two jobs lined up ready and waiting, usually with only a few days' rest between. </p>
-                <p>Restaurant life was based around a lot of eating, drinking and smoking, with most days consisting of huge unhealthy meals, a bottle of Jack Daniels and 24 cans of Coke. We were not eating food; we were eating something that resembled food. We ate chips, sweets and didn't drink a single glass of water for weeks.</p>
+                <h3><?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE ?></h3>
+                <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT ?>
             </div>
             <!-- END TEXT -->
 
