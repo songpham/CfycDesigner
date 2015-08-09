@@ -19,72 +19,133 @@
     <!-- TOP BANNER -->
 
 
-
-    <!-- CLUB INTRODUCE -->
-    <div class="row introduce">
-        <div class="container-page">
-            <p>California Fitness & Yoga tự hào đồng hành cùng bạn với 8 câu lạc bộ ở TP.HCM, không chỉ giúp bạn tăng cưĐng sức khĐe mà còn mang đến sự kết nối xã hội, giúp bạn đạt được mục tiêu và có cuộc sống tươi đẹp hơn.</p>
-        </div>
-    </div>
-    <!-- END CLUB INTRODUCE -->
-
-
+    <div class="whitespace-2x"></div>
+    <div class="row text-center cyc">CHOOSE YOUR CLUB</div>
     <div class="whitespace"></div>
 
-    <div class="slideshow-list">
+    <!-- CLUB NAME -->
+    <div class="quan quan-11 row block" style="display: block;">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_1_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-tan-binh row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_2_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-4 row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_3_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-5 row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_4_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-1 row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_5_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-7 row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_6_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan quan-thu-duc row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_7_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <div class="quan crescent row block">
+        <div class='block-title'>
+            <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_8_TITLE_TEXT ?></div>
+        </div>
+    </div>
+
+    <!-- END CLUB NAME -->
+    <div class="row text-center down-icon"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></div>
+
+
+    <div class="row club-wrapper">
+
 
         <!-- CLUB LIST -->
         <div class="club-list">
-            <ul class="nav navbar-nav navbar-center">
-                <li class="active"><a href="#">Quận 1</a></li>
-                <li><a href="#">Quận 4</a></li>
-                <li><a href="#">Quận 5</a></li>
-                <li><a href="#">Quận 7</a></li>
-                <li><a href="#">Quận 11</a></li>
-                <li><a href="#">Quận Tân Bình</a></li>
-                <li><a href="#">Quận Thủ Đức</a></li>
-            </ul>
+            <div class="club-list-inline">
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="active"><a href="quan-11"><?php echo LANG_CLUB_HCM_CLUB_1 ?></a></li>
+                    <li><a href="quan-tan-binh"><?php echo LANG_CLUB_HCM_CLUB_2 ?></a></li>
+                    <li><a href="quan-4"><?php echo LANG_CLUB_HCM_CLUB_3 ?></a></li>
+                    <li><a href="quan-5"><?php echo LANG_CLUB_HCM_CLUB_4 ?></a></li>
+                    <li><a href="quan-1"><?php echo LANG_CLUB_HCM_CLUB_5 ?></a></li>
+                    <li><a href="quan-7"><?php echo LANG_CLUB_HCM_CLUB_6 ?></a></li>
+                    <li><a href="quan-thu-duc"><?php echo LANG_CLUB_HCM_CLUB_7 ?></a></li>
+                    <li><a href="crescent"><?php echo LANG_CLUB_HCM_CLUB_8 ?></a></li>
+                </ul>
+            </div>
         </div>
         <!-- END CLUB LIST -->
 
+        <!-- CLUB LIST MOBILE -->
+        <div class="btn-group club-list-mobile">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
+                Choose your club <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="quan-11"><?php echo LANG_CLUB_HCM_CLUB_1 ?></a></li>
+                <li><a href="quan-tan-binh"><?php echo LANG_CLUB_HCM_CLUB_2 ?></a></li>
+                <li><a href="quan-4"><?php echo LANG_CLUB_HCM_CLUB_3 ?></a></li>
+                <li><a href="quan-5"><?php echo LANG_CLUB_HCM_CLUB_4 ?></a></li>
+                <li><a href="quan-1"><?php echo LANG_CLUB_HCM_CLUB_5 ?></a></li>
+                <li><a href="quan-7"><?php echo LANG_CLUB_HCM_CLUB_6 ?></a></li>
+                <li><a href="quan-thu-duc"><?php echo LANG_CLUB_HCM_CLUB_7 ?></a></li>
+                <li><a href="crescent"><?php echo LANG_CLUB_HCM_CLUB_8 ?></a></li>
+            </ul>
+        </div>
+        <!-- END CLUB LIST MOBILE -->
+
         <!-- QUAN 11 -->
         <div class="quan quan-11" style='display:block;'>
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB Quận 11</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
 
-            <div class="whitespace"></div>
 
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-1" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
+
+
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                CLB cao cấp dành cho hội viên thẻ diamond trở lên, bao gồm các dịch vụ chăm sóc sức khĐe hàng đầu và hồ Jacuzzi tạo sóng massage thư giãn
+                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -122,26 +183,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm :</h3>
-                        <p>Lầu 5, Parkson Flemington, 184 Lê Đại Hành, PhưĐng 15, Quận 11, TP.HCM.</p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Chủ nhật : 6:00 - 22:00</p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (08) 3962 0099 </p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_1_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15678.438388097391!2d106.6557978!3d10.764541300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eeb7f7d2d7d%3A0x17921408a3516ecd!2sTrung+T%C3%A2m+Tm+Parkson+Flemington!5e0!3m2!1svi!2s!4v1438674715037" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -151,42 +200,32 @@
 
         <!-- QUAN TAN BINH -->
         <div class="quan quan-tan-binh">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB Quận Tân Bình</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
-                <div id="slideshow-2" class="carousel slide" data-ride="carousel">
+            <div class="slideshow">
+                <div id="slideshow-2" class="carousel slide" data-ride="carousel">   
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Nếu bạn sống tại Gò Vấp, Tân Phú, Phú Nhuận và đang có mong muốn thay đổi cơ thể. Thì trung tâm California tại tầng 3 Pico Plaza là lựa chĐn phù hợp nhất với bạn 
+                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -224,27 +263,16 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
 
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>Pico Plaza, 20 Cộng Hoà, P.12, Quận Tân Bình</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_2_CONTACT_INFO ?>
 
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Thứ 6 : 6:00 - 23:00 </p>
-                        <p>Thứ 7 và Chủ nhật : 6:00 - 22:00</p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (08) 3948 3999 </p>
-                        <p>Mail: info@cfyc.com.vn</p>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1354654249153!2d106.6530784!3d10.8009352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752937dffbd64f%3A0x9518e14a827a15d0!2sPico+Plaza!5e0!3m2!1svi!2s!4v1438674815019" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -254,42 +282,32 @@
 
         <!-- QUAN 4 -->
         <div class="quan quan-4">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB QUẬN 4</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-3" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Nằm cạnh Bến nhà rồng, nơi những làn gió tươi mới và khung cảnh thoáng đãng làm dịu mát tâm hồn bạn sau những giĐ làm việc căng thẳng
+                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -327,27 +345,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>California at the Waterfront 5 Nguyễn Tất Thành, P.12, Quận 4.</p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Thứ 6: 6:00 - 23:00 </p>
-                        <p>Thứ 7 & Chủ nhật: 8:00 - 22:00</p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (08) 3826 0999 </p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_3_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.5943875527837!2d106.70670142821326!3d10.76705255058661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf063e9a80a8f62c8!2sCalifornia+at+the+Waterfront!5e0!3m2!1svi!2s!4v1438674888476" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -357,42 +362,32 @@
 
         <!-- QUAN 5 -->
         <div class="quan quan-5">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB QUẬN 5</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-4" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Một trong những trung tâm sôi động nhất tại HCM, hãy đăng kí tại đây nếu bạn thích cảm giác vui nhộn, đầy hứng khởi khi tập luyện cùng vô số những ngưĐi bạn mới quen có cùng chung sở thích
+                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -430,27 +425,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>Tầng 5 Hùng Vương Plaza, 126 Hùng Vương , Quận 5,</p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Thứ 6: 6:00 - 23:00 </p>
-                        <p>Thứ 7 & Chủ nhật: 8:00 - 22:00</p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (08) 2222 0299	</p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_4_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.8607728530853!2d106.66323469694977!3d10.75593046571943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ef05f38e56b%3A0xd3278a6de6e112af!2zUGFya3NvbiBIdW5nIFZ1b25nIFBsYXphLCAxMjYgSMO5bmcgVsawxqFuZywgcGjGsOG7nW5nIDQsIFF14bqtbiA1LCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438674936350" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -460,42 +442,32 @@
 
         <!-- QUAN 1 -->
         <div class="quan quan-1">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB QUẬN 1</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-1" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Nằm giữa trung tâm HCM phồn hoa, giúp bạn cảm nhận rõ nét hơn nhịp đập của trái tim thành phố sau mỗi buổi tập HIIT đầy hứng khởi
+                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -533,27 +505,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>Queen Ann Building ,28-30-32 Lê Lai , Quận 1 HCMC</p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Thứ 6: 6:00 - 23:00 </p>
-                        <p>Thứ 7 & Chủ nhật: 8:00 - 22:00</p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (08) 6291 5999</p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_5_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.521449724753!2d106.6973091!3d10.771316599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3f1bfc912b%3A0xc26340977288bfe6!2sQueen+Ann+Building!5e0!3m2!1svi!2s!4v1438674987562" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -563,42 +522,32 @@
 
         <!-- QUAN 7 -->
         <div class="quan quan-7">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB QUẬN 7</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-6" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Tại Vivo City, chúng tôi tự hào mang phong cách sống mạnh mẽ và năng động đến một trong những khu mua sắm sầm uất nhất quận 7
+                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -636,26 +585,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>Tầng 4, 1058 Nguyễn Văn Linh, Khu Phố 1, PhưĐng Tân Phong, Quận 7, TP.HCM</p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Chủ nhật : 6:00 - 22:00  </p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel:  (08)  3771 2299</p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_6_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9323.57564012172!2d106.70435105967451!3d10.728261621429661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xeaae21e17624cdb5!2zVHJ1bmcgVMOibSBUaMawxqFuZyBN4bqhaSBTQyBWaXZvQ2l0eQ!5e0!3m2!1svi!2s!4v1438675092654" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -665,42 +602,32 @@
 
         <!-- QUAN THU DUC -->
         <div class="quan quan-thu-duc">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB QUẬN THỦ ĐỨC</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-7" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                Tự do trải nghiệm không khí hào hứng khi tham gia hơn 20 lớp thể dục, Yoga và Dance chuẩn quốc tế đầy sôi động tại tầng 3 Vincom Thủ Đức
+                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -738,22 +665,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>216 Võ Văn Ngân, PhưĐng Bình ThĐ, Quận Thủ Đức, TPHCM </p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel: (028) 37 2000 99</p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_7_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.493652453947!2d106.765227!3d10.850007999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527a1f1174155%3A0x8f8d0124542f3ca8!2zMjE2IFbDtSBWxINuIE5nw6JuLCBWaW5jb20gVGjhu6cgxJDhu6ljLCBCw6xuaCBUaOG7jSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438675160760" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Nhận vé tham quan miễn phí</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -763,43 +682,32 @@
 
         <!-- CRESCENT -->
         <div class="quan crescent">
-            <!-- CLUB NAME -->
-            <div class="row block">
-                <div class='block-title'>
-                    <div class="title-text">CLB CRESCENT [CENTURYON]</div>
-                </div>
-            </div>
-            <!-- END CLUB NAME -->
-
-            <div class="whitespace"></div>
-
             <!-- SLIDESHOW -->
-            <div class="slideshow row">
+            <div class="slideshow">
                 <div id="slideshow-8" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
-                                CLB dành riêng cho hội viên sở hữu thẻ Centuryon cao cấp nhất.<br>
-                                Nằm cạnh hồ bán nguyệt và sở hữu lớp Yoga, Cyclying ngoài trĐi duy nhất trên toàn quốc, giúp tâm hồn bạn dễ dàng hòa quyện cùng khung cảnh thiên nhiên đầy quyến rũ
+                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_1 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_2 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_3 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                Redefining the fitness experience with an urban-chic, Industrial-Inspired design, CFYC Waterfront Club located on the Saigon River is only minutes from the Saigon city center. Offering premium yoga studios, a meditation Lounge, the world's only stainless steel rock climbing wall, professional MMA Octagon fighting cage, pole dancing...
+                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_4 ?>
                             </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
@@ -837,26 +745,14 @@
 
 
             <!-- INFOMATION -->
-            <div class="row information">
+            <div class="information">
                 <div class="container-page">
                     <div class="col-md-6">
-
-                        <!-- location -->
-                        <h3>Địa điểm : </h3>
-                        <p>Crescent Plaza Tầng 3, Crescent Plaza, số 105 đưĐng Tôn Dật Tiên, Phú Mỹ Hưng, phưĐng Tân Phú, Quận 7, TPHCM </p>
-
-                        <!-- operating hours -->
-                        <h3>GiĐ hoạt động : </h3>
-                        <p>Thứ 2 đến Chủ nhật : 6:00 - 22:00 </p>
-
-                        <!-- contact -->
-                        <h3>Liên hệ :  </h3>
-                        <p>Tel:  (08) 5412 1277 </p>
-                        <p>Mail: info@cfyc.com.vn</p>
+                        <?php echo LANG_CLUB_HCM_CLUB_8_CONTACT_INFO ?>
                     </div>
 
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.915330155998!2d106.7190059746404!3d10.728293474709872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xb6c098e537ce0abe!2sThe+Crescent+Mall!5e0!3m2!1svi!2s!4v1438676619630" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-12 see-more-btn"><a href="#">Centuryon Website</a></div>
+                    <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_HCM_CENT_BUTTON ?></a></div>
                 </div>
             </div>
             <!-- END INFOMATION -->
@@ -865,6 +761,7 @@
         <!-- END CRESCENT  -->
 
     </div>
+
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
