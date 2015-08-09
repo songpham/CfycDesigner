@@ -2,28 +2,18 @@
 <div class="container-fluid page celebrity-trainning-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <!-- GALLERY -->
-    <div class="row gallery">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL . "/img/celebrity-training/gallery-1.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?php echo LANG_CELEBRITY_TRAINING_BANNER_TITLE ?></legend>
+                <hr/>
+                <span>
+                    <?php echo LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE ?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON ?></a>
                 </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL . "/img/celebrity-training/gallery-2.jpg" ?>" alt="">
-                    <div class="carousel-caption">
-                    </div>
-                </div>
-            </div>
+            </fieldset>
         </div>
     </div>
     <!-- END GALLERY -->
@@ -35,12 +25,10 @@
 
         <div class="row block about-block">
             <div class='block-title'>
-                <div class="title-text">about cerlebrity<br>training</div>
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE ?></div>
             </div>
             <div class="col-md-6 text">
-                <p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
-                <p>Personal training at California Fitness & Yoga offers exclusive one-on-one programs specifically designed for your body's needs and your individual fitness goals. Our program is about integration, not sacrifice. You don't need to spend hours in the gym or starve yourself in order to achieve the body of your dreams.</p>
-                <p>Our patented California Health System is designed to integrate into your lifestyle using proven methods developed over dozens of year to help you get results in the fastest, safest way possible. Each of our trainers is highly qualified under international standards of certification following NASM Sports & Fitness certification curricula from the USA.</p>
+                <?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT ?>
             </div>
             <div class="col-md-5 col-md-offset-1 col-xs-12 video">
                 <img src='<?php echo USER_BASE_URL . "/img/celebrity-training/video.png" ?>' width='100%'>
@@ -49,7 +37,7 @@
 
     </div>
     <!-- END ABOUT CELEBRITY TRAINING -->
-    
+
     <div class="white-space-2x"></div>
 
     <!-- HOW DOES PT WORK ? -->
@@ -472,7 +460,7 @@
 
     </div>
     <!-- END TRAINER LIST -->
-    
+
     <div class="white-space-2x"></div>
 
     <!-- SUCCESS STORIES -->

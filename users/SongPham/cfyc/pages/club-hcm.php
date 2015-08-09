@@ -11,7 +11,9 @@
                     <?php echo LANG_CLUB_HCM_BANNER_SUB_TITLE ?>
                 </span>
                 <div class="red-btn">
+                    <div class="red-btn-inline">
                     <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CLUB_HCM_BANNER_TEXT_BUTTON ?></a>
+                </div>
                 </div>
             </fieldset>
         </div>

@@ -10,7 +10,168 @@ $containerWidth : 1200px;
     .white-space-3x {padding: 30px 0; clear: both;} 
 
     // GALLERY
-    .gallery {max-width: $pageWidth;}
+    .banner-top {
+        position: relative;
+        background: #fff url(../img/cfyc-memberships/bg-header.jpg) center top no-repeat;
+        background-size: 100%;
+        @media (max-width:767px) {
+            background: #fff url(../img/cfyc-memberships/m-bg-header.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+        .cta {
+            max-width: 40vw;
+            margin: 24vw 0 50px 10%;
+            padding: 20px;
+            position: relative;
+            @media (min-width:768px) and (max-width:1200px){
+                max-width: 50vw;
+            }
+            @media (max-width: 767px) {
+                width: 100%;
+                max-width: 500px;
+                margin-left: auto;
+                margin: 450px auto 0 auto;
+                padding: 50px 10px;
+                position: relative;
+                float: none;
+
+            }
+            @media (max-width:550px) {
+                position: absolute;
+                margin: 0px auto;
+                bottom: 50px; 
+                padding: 0px 10px;
+            }
+
+            fieldset {
+                position: relative;
+                border: 1px solid $red;
+                padding:0 30px;
+                height:145px;
+                @media (max-width: 767px) {
+                    padding: 10px 10px 20px 10px;
+                    height:auto;
+                }
+                @media (max-width: 484px) {
+
+                }
+                legend {
+                    color: $red;
+                    text-align: center;
+                    width: auto; 
+                    line-height: 1.1em;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    border: none;
+                    margin-bottom: 0;
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    @media (max-width: 2000px) {
+                        font-size: 2vw;
+                    }
+                    @media (max-width: 767px){
+                        padding: 10px 0 0 0;
+                        font-size: 35px;
+
+                        line-height: 1.1em;
+                        text-transform: uppercase;
+                        font-weight: 400;
+
+                    }
+                    @media (max-width:550px) {
+                        font-size: 6.4vw;
+                    }
+                }
+                hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
+                       @media (max-width: 767px) {
+                           padding-bottom: 10px;
+                           font-size: .79em;
+                       } 
+                }
+                .red-btn {
+
+                    position: absolute;
+                    width: 100%;
+                    left: 0px;
+                    bottom: -20px;
+                    a {
+                        color: $white;
+                        font-size: 12px;
+                        background: $red;
+                        border-radius: 20px;
+                        text-decoration: none;
+                        position: relative;
+                        margin: 0 auto;
+                        padding: 10px 30px;
+                        bottom: 0;
+                        display: block;
+                        width: 40%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        white-space: nowrap;
+                        font-weight: 600;
+                        @media (max-width:767px){
+                            width: 55%;
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-caption {
+            font-size: 40px;
+            left: 10%;
+            bottom: 13%;
+            right: 0;
+            color:$red;
+            line-height: 40px;
+            text-align: left;
+            display: inline-block;
+            width: 550px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            @media (max-width: 2000px) {
+                max-width: 40vw;
+            }
+
+            @media (max-width: 1360px) {
+                bottom: 2%;
+            }
+            @media (max-width: 991px) {
+                max-width: 50vw;
+                left: 5%;
+            }
+            strong {font-weight: 300;}
+            hr { background: $red; height: 2px; border: none; max-width: 50%; margin: 20px auto;
+                 @media (max-width: 767px) { margin: 10px auto 0 auto;}
+                 @media (max-width: 480px) { margin: 3px auto; height: 1px;}
+            }
+            span{ color: $white;font-size: 16px;display: inline-block; margin-bottom: 30px; line-height: 150%;
+                  @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                  @media (max-width: 767px){font-size: 14px;margin-top: 0px;padding-top: 10px;margin-bottom: 20px;}
+                  @media (max-width: 480px){font-size: .8em; margin-bottom: 10px; padding-top: 0; margin-top: 0;}
+            }
+            .red-btn {
+                position: absolute;
+                width: 100%;
+                left: 0px;
+                bottom: -20px;
+                a{color:$white;font-size: 12px;background:$red;border-radius: 20px;text-decoration: none; position: relative;margin: 0 auto; padding: 10px 30px; bottom: 0;
+                  @media (max-width: 767px) {padding: 1% 7%;}
+                  @media (max-width: 480px) {font-size: .8em;}
+                }
+                @media (min-width: 768px) and (max-width: 991px) {bottom: -13px;}
+                @media (max-width: 767px) {bottom: -8px; }
+            }
+            @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
+            @media (max-width: 767px) {width: auto;font-size: 16px;bottom: 0;line-height: normal;;}
+            @media (max-width: 480px){width: auto;right: 5%;font-size: 10px;bottom: -5%;line-height: normal;left: 5%;}
+        }
+    }
 
     // CONTAINER PAGE
     .container-page {
