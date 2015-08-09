@@ -8,38 +8,33 @@
     <div class="top-content row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+           <!-- carousel  <div class="carousel-inner" role="listbox"> -->
                 <div class="item active">
                     <img src="<?php echo USER_BASE_URL ?>/img/contact-us/contact-banner.jpg" alt="Contact">
                     <div class="carousel-caption">
                         <fieldset>
-                            <legend>CALIFORNIA</legend>
-                            FITNESS & YOGA IN VIETNAM<br>
-                            <span>Experience a dance class today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
+                            <legend><?php echo LANG_CTA_CONTACT_US_TITLE_lEGEND ?></legend>
+                           <?php echo LANG_CTA_CONTACT_US_TITLE ?><br>
+                            <span><?php echo LANG_CTA_CONTACT_US_TEXT ?></span>
+                            <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title="Discover Cali Dance">Try a class</a>
                         </fieldset>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/contact-us/contact-banner.jpg" alt="Contact">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>CALIFORNIA</legend>
-                            FITNESS & YOGA IN VIETNAM<br>
-                            <span>Experience a dance class today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
-
-                    </div>
-                </div>
-            </div>
+                    </div> <!-- caption -->
+                </div> <!-- item -->
+          <!--  </div> carousel -->
         </div>
     </div>
     <div class="contact container">
         <div class="col-lg-offset-2 col-md-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
-            <h1 class="tilte">CONTACT US</h1>
-            <p>REGISTER HERE TO JOIN US, WE WILL CONTACT YOU SOON WITHIN 24 HOURS</p>
-            <p>for further information, please reach us at:</p>
+            <h1 class="tilte"><?php echo LANG_CONTACT_US_CONTACT_US ?></h1>
+            <p><?php echo LANG_CONTACT_REGISTER_NOW_SUBTITLE ?></p>
+            <div id="form">
+	            <?php if ($LANG == 'vn') { ?>
+				<script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233605&amp;u=kKTV"></script>
+				<?php } else if ($LANG == 'en') { ?>
+				<script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233705&u=kKTV"></script>
+				<?php } ?>
+            </div>
+            <p><?php echo LANG_CONTACT_US_MORE_INFO ?></p>
 
             <a href="tel:+84862915999" class="col-lg-3 col-md-3 col-sm-6 col-xs-12" title="Phone">
                 <img src="<?php echo USER_BASE_URL ?>/img/contact-us/phone-icon.png" alt="Phone">

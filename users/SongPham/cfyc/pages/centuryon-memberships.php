@@ -50,7 +50,7 @@
 	                    <?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT ?> 
 	                </span>
 	                <div class="red-btn">
-	                <a class="" href="#" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
+	                <a class="" href="<?php echo USER_BASE_URL ?>/vip-members" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
 	                </div>
 	        </fieldset>
 		</div>
