@@ -16,11 +16,11 @@
             @media (max-width: 480px){font-size: 16px;}
         }
     }
-    .top-content {
+    .top-content.row { max-height: 550px; overflow: hidden;
         .carousel-caption {
             font-size: 40px;
             left: 10%;
-            bottom: 20%;
+            top: 20%;
             right: 0;
             color:$red;
             line-height: 40px;
@@ -49,6 +49,8 @@
     }
     .contact{
         text-align: center;
+       
+        #form { width: 310px; margin: 0 auto;}
         h1 {
             font-size: 28px;
             border: 1px solid;
@@ -66,5 +68,16 @@
                 span{display: block;font-size: 13px;margin-bottom: 40px;}
             }
         }
+	    
+	    @media (max-width:480px){
+		    padding-left: 0px;
+		    padding-right: 0px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    .col-lg-offset-2.col-md-offset-2.col-md-8.col-lg-8.col-sm-12.col-xs-12 {
+			    padding-left: 0px;
+			    padding-right: 0px;
+		    }
+	    }
     }
 }
