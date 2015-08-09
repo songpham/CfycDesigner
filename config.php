@@ -1,4 +1,6 @@
 <?php
+define("HTTPS", (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? TRUE : FALSE);
+define("PROTOCOL", (HTTPS === TRUE) ? 'https' : 'http');
 define('BASE_PATH', dirname(__FILE__));
 define('BASE_URL', '/CfycDesigner');
 define('TEMPLATE_URL', '/template');

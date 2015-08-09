@@ -15,183 +15,177 @@
 .club-page {
 
     .whitespace {padding: 10px 0}
+    .whitespace-2x {padding: 20px 0}
+    .whitespace-3x {padding: 30px 0}
     // TOP BANNER
-    .top-banner {
-    	background: url(../img/club/banner-1.jpg) center top no-repeat; background-size: 100%; min-height: 500px;
-    	@media (max-width:767px) {
-	    	background: url(../img/club/m-banner-1.jpg) center top no-repeat; background-size: cover;
-	    	position: relative;
-    	}
-		.cta {
-			max-width: 40vw;
-			margin: 10vw 0 50px 10%;
-			padding: 20px;
-			position: relative;
-			@media (min-width:768px) and (max-width:1200px){
-				max-width: 50vw;
-			}
-			@media (max-width: 767px) {
-			width: 100%;
-			max-width: 500px;
-			margin-left: auto;
-			margin: 450px auto 0 auto;
-			padding: 50px 10px;
-			position: relative;
-			float: none;
-
-			 }
-			 @media (max-width:550px) {
-				position: absolute;
-				margin: 0px auto;
-				bottom: 50px; 
-				padding: 0px 10px;
-			 }
-		
-		 fieldset {
+    .banner-top {
+        position: relative;
+        background: #fff url(../img/club/banner-1.jpg) center top no-repeat;
+        background-size: 100%;
+        @media (max-width:767px) {
+            background: #fff url(../img/club/m-banner-1.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+        .cta {
+            max-width: 42vw;
+            margin: 12vw 0 90px 15%;
+            padding: 20px;
             position: relative;
-            border: 1px solid $red;
-            padding:0 30px;
-            height:209px;
-            @media (max-width: 767px) {
-                padding: 10px 10px 20px 10px;
-                height:auto;
-            }
-            @media (max-width: 484px) {
-                
-            }
-            legend {
-                color: $red;
-                text-align: center;
-                width: auto; 
-				line-height: 1.1em;
-				text-transform: uppercase;
-				font-weight: 400;
-                border: none;
-                margin-bottom: 0;
-                padding-left: 20px;
-                padding-right: 20px;
-               
-                @media (max-width: 2000px) {
-                     font-size: 2vw;
-                }
-                @media (max-width: 767px){
-                    padding: 10px 0 0 0;
-                    font-size: 35px;
-
-					line-height: 1.1em;
-					text-transform: uppercase;
-					font-weight: 400;
-					
-	                }
-	                @media (max-width:550px) {
-		              font-size: 6.4vw;
-	                }
-	            }
-	            hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
-	            span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
-		           @media (max-width: 767px) {
-		           		padding-bottom: 10px;
-		           		font-size: .79em;
-		           } 
-	            }
-	            .red-btn {
-	            	
-	            	position: absolute;
-					  width: 100%;
-					  left: 0px;
-					  bottom: -20px;
-		            a {
-			              color: $white;
-						  font-size: 12px;
-						  background: $red;
-						  border-radius: 20px;
-						  text-decoration: none;
-						  position: relative;
-						  margin: 0 auto;
-						  padding: 10px 30px;
-						  bottom: 0;
-						  display: block;
-						  width: 40%;
-						  text-align: center;
-						  text-transform: uppercase;
-						  white-space: nowrap;
-						  font-weight: 600;
-						  @media (max-width:767px){
-							  width: 55%;
-							  padding: 10px 15px;
-						  }
-		            }
-	            }
-	        }
-		}
-    }
-
-    //  CLUB INTRODUCE
-    .introduce {
-        background: #f5f5f5;
-        padding: 40px 0;
-        text-align: center;
-        @media (max-width: 1200px) {padding: 30px 15px;}
-    }
-
-
-    // CLUB LIST 
-    #club-list {
-        background: $white;
-        .carousel-control { 
-            background :0 0;
-            .glyphicon {background: url(../img/member-testimonials/arrows.png) no-repeat;height: 50px;width: 27px;&:before {content: "";}}
-            .glyphicon-chevron-left {;margin-left: 0;left: 80%;}
-            .glyphicon-chevron-right {margin-right: 0;right: 80%;background-position: bottom;}
-        }
-        .item {
-            .box {
-                padding-top: 15px;
-                padding-bottom: 15px;
+            @media (min-width:2000px) {
+                max-width: 475px;
+                margin: 450px 0 90px 15%;
+                padding: 20px;
                 position: relative;
-                img {position: relative;width: 100%;@include border-radius(50%);z-index: 1;border: 1px solid white;}
-                p {
-                    @include font-size(14px);
-                    position: absolute;
-                    color: $white;
-                    text-transform: uppercase;
-                    width: 100%;
-                    font-weight:bold;
-                    top: 48%;
-                    left: 0;
-                    cursor: pointer;
-                    z-index: 3;
-                    @media (max-width: 480px) {@include font-size(12px);}
-                }
-                &:after {
-                    cursor: pointer;
-                    top: 15px;
-                    left: 15px;
-                    bottom: 15px;
-                    right: 15px;
-                    content: "";
-                    position: absolute;
-                    @include border-radius(50%);
-                    background: #e80303;
-                    z-index: 0;
-                }
-                &:hover {&:after {z-index: 2;}}
             }
-            .active {
-                &:after {
-                    top: 15px;
-                    left: 15px;
-                    bottom: 15px;
-                    right: 15px;
-                    content: "";
+            @media (min-width:768px) and (max-width:1200px){
+                max-width: 50vw;
+            }
+            @media (max-width: 767px) {
+                width: 100%;
+                max-width: 500px;
+                margin-left: auto;
+                margin: 450px auto 0 auto;
+                padding: 50px 10px;
+                position: relative;
+                float: none;
+
+            }
+            @media (max-width:550px) {
+                position: absolute;
+                margin: 0px auto;
+                bottom: 50px; 
+                padding: 0px 10px;
+            }
+
+            fieldset {
+                position: relative;
+                border: 1px solid $red;
+                padding:0 30px;
+                height: 220px;
+                @media (max-width: 767px) {
+                    padding: 10px 10px 20px 10px;
+                    height:auto;
+                }
+                @media (max-width: 484px) {
+
+                }
+                legend {
+                    color: $red;
+                    text-align: center;
+                    width: auto; 
+                    line-height: 1.1em;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    border: none;
+                    margin-bottom: 0;
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    @media (max-width: 2000px) {
+                        font-size: 2vw;
+                    }
+                    @media (max-width: 767px){
+                        padding: 10px 0 0 0;
+                        font-size: 35px;
+
+                        line-height: 1.1em;
+                        text-transform: uppercase;
+                        font-weight: 400;
+
+                    }
+                    @media (max-width:550px) {
+                        font-size: 6.4vw;
+                    }
+                }
+                hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 25px;
+                       @media (max-width: 767px) {
+                           padding-bottom: 10px;
+                           font-size: .79em;
+                       } 
+                }
+                .red-btn {
+
                     position: absolute;
-                    @include border-radius(50%);
-                    background: #e80303;
-                    z-index: 2;
+                    width: 100%;
+                    left: 0px;
+                    bottom: -20px;
+                    a {
+                        color: $white;
+                        font-size: 12px;
+                        background: $red;
+                        border-radius: 20px;
+                        text-decoration: none;
+                        position: relative;
+                        margin: 0 auto;
+                        padding: 10px 30px;
+                        bottom: 0;
+                        display: block;
+                        width: 40%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        white-space: nowrap;
+                        font-weight: 600;
+                        @media (max-width:767px){
+                            width: 55%;
+                            padding: 10px 15px;
+                        }
+                    }
                 }
             }
         }
-    }
+        .carousel-caption {
+            font-size: 40px;
+            left: 10%;
+            bottom: 13%;
+            right: 0;
+            color:$red;
+            line-height: 40px;
+            text-align: left;
+            display: inline-block;
+            width: 550px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            @media (max-width: 2000px) {
+                max-width: 40vw;
+            }
+
+            @media (max-width: 1360px) {
+                bottom: 2%;
+            }
+            @media (max-width: 991px) {
+                max-width: 50vw;
+                left: 5%;
+            }
+            strong {font-weight: 300;}
+            hr { background: $red; height: 2px; border: none; max-width: 50%; margin: 20px auto;
+                 @media (max-width: 767px) { margin: 10px auto 0 auto;}
+                 @media (max-width: 480px) { margin: 3px auto; height: 1px;}
+            }
+            span{ color: $white;font-size: 16px;display: inline-block; margin-bottom: 30px; line-height: 150%;
+                  @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                  @media (max-width: 767px){font-size: 14px;margin-top: 0px;padding-top: 10px;margin-bottom: 20px;}
+                  @media (max-width: 480px){font-size: .8em; margin-bottom: 10px; padding-top: 0; margin-top: 0;}
+            }
+            .red-btn {
+                position: absolute;
+                width: 100%;
+                left: 0px;
+                bottom: -20px;
+                a{color:$white;font-size: 12px;background:$red;border-radius: 20px;text-decoration: none; position: relative;margin: 0 auto; padding: 10px 30px; bottom: 0;
+                  @media (max-width: 767px) {padding: 1% 7%;}
+                  @media (max-width: 480px) {font-size: .8em;}
+                }
+                @media (min-width: 768px) and (max-width: 991px) {bottom: -13px;}
+                @media (max-width: 767px) {bottom: -8px; }
+            }
+            @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
+            @media (max-width: 767px) {width: auto;font-size: 16px;bottom: 0;line-height: normal;;}
+            @media (max-width: 480px){width: auto;right: 5%;font-size: 10px;bottom: -5%;line-height: normal;left: 5%;}
+        }
+    } 
 
     // CLUB TITLE 
     .block {
@@ -232,6 +226,68 @@
         }
     }
 
+    .cyc {@include font-size(14px);font-weight: bold; color: #868686;}
+    .down-icon {color: $red;@include font-size(35px);}
+
+    // CLUB LIST
+    .club-wrapper {position: relative}
+    .club-list {
+        position: absolute;z-index: 99;width: 100%;background-color: rgba(0, 0, 0, 0.5);
+        .club-list-inline {position: relative;width: 100%;}
+        .navbar-center {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            margin : 10px auto;
+            float: none;
+            max-width: 1200px; 
+            li {
+                float: none;
+                display: inline-block;
+                border-right: 1px solid #4d4847;
+                &:last-child {border-right:none;}
+                a {
+                    padding: 10px 30px;
+                    @include font-size(14px);
+                    color: #c3c2c2;
+                    text-transform: uppercase;
+                    background: none;
+                    &:hover {color: $red;}
+                    @media (max-width: 1200px) {padding: 10px 15px !important;}
+                    @media (max-width: 500px) {padding: 5px 5px !important;}
+                }
+            }
+            li.active { a {color: $red;font-weight: bold;}}
+        }
+        @media (max-width: 768px) {display: none;}
+    }
+    .club-list-mobile {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        top: 10px;
+        right: 10px;
+        .btn {
+            background: none;color: $white;
+            &:active, &:focus {background: none;color: $white;}
+        }
+        .dropdown-menu {
+            background-color: rgba(43,42,43,.9);
+            li {
+                border-bottom: 1px #464646 solid;
+                a {
+                    color: $white;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    &:hover {
+                        background: #464646;
+                    }
+                }
+            }
+        }
+        @media (max-width: 768px) {display: block;}
+    }
+
     // SLIDESHOW
     .slideshow {
         background: #f5f5f5;
@@ -239,14 +295,11 @@
             img {width: 100%;}
         }
         .carousel-caption {
-            color: #000;
-            position: relative;
-            top: 0px;
-            display: block;
-            margin: 0 auto;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
             left: 0;
-            max-width: 1200px;
-            text-shadow: none;
+            bottom: 0;
+            padding : 40px 60px;
         }
         // Reset carousel-indicators class style
         .carousel-indicators {
@@ -294,46 +347,39 @@
                 width: 100%;
                 height: 100%;
                 cursor: pointer;
-                border: 2px solid $red;
-                @include border-top-left-radius(20px);
-                @include border-top-right-radius(20px);
-                @media (max-width: 480px) {@include border-top-left-radius(5px);@include border-top-right-radius(5px);}
             }
             .box-inner {
                 height: 100%;
                 width: 100%;
                 overflow: hidden;
                 position: relative;
-                &:after, &:before {
-                    position: absolute;
-                    width: 50%;
-                    content: '';
-                    top: 0px;
-                    height: 25px;
-                    background: #f5f5f5;
-                    border-bottom: 2px solid $red;
-                    transform: skew(0);
-                    @media (max-width: 991px){height: 15px;}
-                    @media (max-width: 480px) {height: 10px;}
-                }
-                &:after {right: 0;transform-origin: right bottom;}
-                &:before {left: 0;transform-origin: left bottom;}
+                -webkit-filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -ms-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: url(grayscale.svg); /* Firefox 4+ */
+                filter: gray; /* IE 6-9 */
                 &:hover {
-                    &:after {border-left: 2px solid $red;border-bottom: 2px solid $red;right: -23.5px;transform: skew(45deg);}
-                    &:before {border-right: 2px solid $red;border-bottom: 2px solid $red;left: -23.5px;transform: skew(-45deg);}
-                    @media (max-width: 991px) {&:after {right: -13.5px;}&:before {left: -13.5px;}}
-                    @media (max-width: 480px) {&:after {right: -8.5px;}&:before {left: -8.5px;}}
+                    -webkit-filter: initial;
+                    -moz-filter: initial;
+                    -ms-filter: initial;
+                    -o-filter: initial;
+                    filter: initial;
+                    filter: initial; /* Firefox 4+ */
+                    filter: initial;/* IE 6-9 */
                 }
             }
-
         }
         .active {
             .box-inner {
-                img {border: 2px solid $red;}
-                &:after {border-left: 2px solid $red;border-bottom: 2px solid $red;right: -23.5px;transform: skew(45deg);}
-                &:before {border-right: 2px solid $red;border-bottom: 2px solid $red;left: -23.5px;transform: skew(-45deg);}
-                @media (max-width: 991px) {&:after {right: -13.5px;}&:before {left: -13.5px;}}
-                @media (max-width: 480px) {&:after {right: -8.5px;}&:before {left: -8.5px;}}
+                -webkit-filter: initial;
+                -moz-filter: initial;
+                -ms-filter: initial;
+                -o-filter: initial;
+                filter: initial;
+                filter: initial; /* Firefox 4+ */
+                filter: initial;/* IE 6-9 */
             }
         }
 
@@ -347,11 +393,13 @@
     }
 
     .information {
-        padding: 40px 0;
-        background : #f5f5f5;
+        width: 100%;
+        position: relative;
+        display: table;
+        margin: 40px auto;
+        padding-top: 40px;
         h3 {@include font-size(16px);text-transform: uppercase;font-weight: bold;}
-       
-        @media (max-width: 991px) {padding-top: 10px; .col-md-6:first-child {padding-bottom: 20px;}}
+        @media (max-width: 991px) {padding-top: 20px; margin: 40px 0; .col-md-6:first-child {padding-bottom: 20px;}}
         .see-more-btn {
             text-align: center;
             margin-top: 35px;

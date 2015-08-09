@@ -2,9 +2,9 @@
 define('LANG_CLUB_DA_NANG', 'Đà Nẵng');
 
 // BANNER
-define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
+define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại tp. Đà Nẵng');
 define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', 'HA NOI');
-define('LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON', 'Find a club in Ha Noi today');
+define('LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 
 // DESCRIPTION 

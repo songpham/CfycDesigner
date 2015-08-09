@@ -37,7 +37,7 @@
     <div class="clearfix"></div>
     <br/>
     <div style="margin:0px;padding:0px;overflow:hidden;height:1000px;">
-        <iframe src="http://www.cfyc.com.vn/<?php echo $LANG ?>/schedule/?view=iframe" frameborder="0" style="border:none; overflow:hidden; width:100%; height:100%;" allowtransparency="true"></iframe>
+        <iframe src="<?php echo PROTOCOL ?>://www.cfyc.com.vn/<?php echo $LANG ?>/schedule/?view=iframe" frameborder="0" style="border:none; overflow:hidden; width:100%; height:100%;" allowtransparency="true"></iframe>
     </div>
     <br/>
     <?php /*
