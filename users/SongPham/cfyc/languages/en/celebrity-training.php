@@ -22,4 +22,13 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
 define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Here are some of the celebrities we’ve worked with in the past');
 
 
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-1.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG', 'tap-yoga-cung-Ho-Ngoc-Ha.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_NAME', 'HO NGOC HA');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_JOB', 'SINGER');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION', '
+        <p>I first tried yoga to relax and de-stress but after a few years of practicing (yoga- remove), it has given me so much more than simply a feeling of well-being. Yoga has become a part of my life; yoga makes my life better.</p>
+        <p>I truly believe that yoga is for everyone. It’s a great practice that helps clear your body, clear your mind, and bring you back to your true self and what makes you authentic and creative. </p>
+        <p>By practicing yoga, I learned to stay calm, focus on my breathing, relax, and listen to myself. I bring the spirit of yoga everywhere I go and to everything I do.</p>
+    ');
 

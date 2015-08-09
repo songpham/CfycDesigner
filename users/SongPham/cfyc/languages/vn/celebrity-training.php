@@ -19,7 +19,19 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
     <p class="text-center">Đừng lo lắng về vấn đề thời gian, bạn hoàn toàn làm chủ được lịch trình gặp gỡ huấn luyện viên hoặc nhận được sự hỗ trợ về luyện tập và dinh dưỡng từ họ bất cứ lúc nào. Dù là giảm cân, tăng cơ hay làm thon gọn cơ thể, huấn luyện viên sẽ là chỉ ra những cách thức dễ dàng phù hợp với cuộc sống của bạn.</p>
 ');
 
-define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng đã và đangtập luyện cùng chúng tôi.');
+define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng đã và đang tập luyện cùng chúng tôi.');
+
+
+
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-1.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG', 'tap-yoga-cung-Ho-Ngoc-Ha.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_NAME', 'Hồ Ngọc Hà');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_JOB', 'Ca sĩ');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION', '
+        <p>Hà bắt đầu tập Yoga với mong muốn được thư giãn và giảm căng thẳng, nhưng sau vài năm tập luyện, Yoga mang đến cho Hà nhiều hơn thế, Yoga giờ đây trở thành một phần của cuộc sống hàng ngày của Hà, Yoga làm thay đổi cuộc đời mình. </p>
+        <p>Hà tin rằng Yoga phù hợp với mọi người.  Yoga là bài tập giúp ta thanh lọc cơ thể,  tâm sáng và mang ta đến với bản thân mình, đến với bản ngã của bản thân mình, giúp ta chạm được vào cái cốt lõi của bản thân, vào sự sáng tạo và hiểu được con người mình một cách chân phương nhất.</p>
+        <p>Hà tập Yoga và từ từ học được cách BÌNH TÂM, cảm nhận hơi thở của mình, tập trung để lắng nghe cơ thể và THƯ GIÃN tâm và thân.  Hà học cách đối xử với những biến động mỗi ngày bất cứ lúc nào và nơi đâu với tinh thần Yoga thư thái và thoải mái.</p>
+    ');
 
 
 
