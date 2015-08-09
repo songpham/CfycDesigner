@@ -7,14 +7,14 @@
         position: relative;
         h1.headline {
             @include font-size(60px);
-            color: $red;
+            color: $white;
             font-weight: 100;
             text-transform: uppercase;
             position: absolute;
             left: 3%;
             bottom: 16%;
             padding: 1% 2%;
-            border: 1px solid $red;
+            border: 1px solid $white;
             span {
                 font-weight: 300;
             }
