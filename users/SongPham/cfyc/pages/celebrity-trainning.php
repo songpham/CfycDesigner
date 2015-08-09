@@ -11,7 +11,9 @@
                     <?php echo LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE ?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON ?></a>
+                    <div class="red-btn-inline">
+                        <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON ?></a>
+                    </div>
                 </div>
             </fieldset>
         </div>
@@ -45,9 +47,9 @@
 
         <div class="row block how-block">
             <div class="block-title">
-                <div class="title-text">How does PT work?</div>
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_TITLE ?></div>
             </div>
-            <p class="text-center">We make it easy for you, very easy. Personal training is designed to integrate into your life without having to make sacrifices. </p>
+            <?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT ?>
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
             <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-2.jpg" ?>" width='100%'></div>
         </div>
@@ -60,7 +62,7 @@
     <!-- BANNER -->
     <div class="row banner">
         <div class="text-content">
-            <h3>Meet our professional team of instructors specializing in celebrity training</h3>
+            <h3><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></h3>
             <p>You have the potential, we can help you reach it.</p>
             <ul class="nav navbar-nav navbar-center">
                 <li class="active"><a href="#">hcmc</a></li>
