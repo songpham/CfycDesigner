@@ -18,6 +18,22 @@ var celebritymemberPage = (function () {
 				$(this).addClass('active');
 			});
 
+			if(window.location.hash) {
+				//this will regcosise the who have click from homepage. Lam will code more when page finish
+				var celeb = window.location.hash.substring(1);
+				switch(celeb){
+					case 'hongocha': console.log('hongocha');break;
+					case 'xuanlan': console.log('xuanlan');break;
+					case 'phuongmai': console.log('phuongmai');break;
+					case 'diemmy': console.log('diemmy');break;
+					case 'hoangmy': console.log('hoangmy');break;
+					case 'hovinhkhoa': console.log('hovinhkhoa');break;
+					case 'chipu': console.log('chipu');break;
+					case 'randydobson': console.log('randydobson');break;
+					default: console.log('hongocha');
+				}
+			}
+
 		});
 	};
     return {

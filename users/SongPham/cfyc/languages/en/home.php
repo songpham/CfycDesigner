@@ -28,7 +28,7 @@ define("LANG_HO_CHI_MINH_CITY", "HO CHI MINH CITY");
 define("LANG_HA_NOI", "HA NOI");
 define("LANG_DA_NANG", "DA NANG");
 define("LANG_BINH_DUONG", "BINH DUONG");
-define("LANG_NEW_COMING", "NEW COMING");
+define("LANG_NEW_COMING", "COMING SOON");
 
 define("LANG_TRAINNER_1" , "<h3>ASSIM MANN<br/><span>QUẢN LÍ BỘ PHẬN YOGA</span></h3>
 							<p>Yoga luôn là sức mạnh dẫn dắt trong suốt cuộc đời tôi, kể từ khi được sinh ra tại Rishikesh, Ấn Độ, thủ đô của nền Yoga thế giới. Tâm nguyện của tôi là giúp các học viên đạt tới trình độ trải nghiệm Yoga vượt qua cả mong đợi của chính họ và trở nên điềm tĩnh với một tinh thần thanh thản, lạc quan. Được chứng kiến các học viên của mình không ngừng nâng cao sinh lực, sức khỏe cũng như niềm hạnh phúc luôn là món quà, là sự đền đáp mới mẻ và đầy thú vị đối với tôi.</p>
@@ -50,27 +50,35 @@ define("LANG_SUCCESS_STORIES_DESC","<h3>TRUC HIEN</h3><p>My name is Truc Hien an
 
 define("LANG_SUCCESS_STORIES_1_TITLE","những điều phái nữ cần biết khi tập gym giảm cân");
 define("LANG_SUCCESS_STORIES_1","Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.");
-define("LANG_SUCCESS_STORIES_1_URL", "http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/");
+define("LANG_SUCCESS_STORIES_1_URL", "http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can");
 
 define("LANG_SUCCESS_STORIES_2_TITLE","tập đoàn california management group mở rộng thêm 6 trung tâm cfyc");
 define("LANG_SUCCESS_STORIES_2","Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.");
-define("LANG_SUCCESS_STORIES_2_URL", "http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/");
+define("LANG_SUCCESS_STORIES_2_URL", "http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015");
 
 define("LANG_SUCCESS_STORIES_3_TITLE","tập yoga giúp đàn ông khỏe hơn");
 define("LANG_SUCCESS_STORIES_3","Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.");
-define("LANG_SUCCESS_STORIES_3_URL", "http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/");
+define("LANG_SUCCESS_STORIES_3_URL", "http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon");
 
 define("LANG_SUCCESS_STORIES_4_TITLE","bài tập để có bụng sáu múi như hồ vĩnh khoa");
 define("LANG_SUCCESS_STORIES_4","Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.");
-define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/");
+define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa");
 
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
 define("LANG_CELEB_1", "HO NGOC HA");
+define("LANG_CELEB_1_HASH", "hongocha");
 define("LANG_CELEB_2", "XUAN LAN");
+define("LANG_CELEB_2_HASH", "xuanlan");
 define("LANG_CELEB_3", "PHUONG MAI");
+define("LANG_CELEB_3_HASH", "phuongmai");
 define("LANG_CELEB_4", "DIEM MY");
+define("LANG_CELEB_4_HASH", "diemmy");
 define("LANG_CELEB_5", "HOANG MY");
+define("LANG_CELEB_5_HASH", "hoangmy");
 define("LANG_CELEB_6", "HO VINH KHOA");
+define("LANG_CELEB_6_HASH", "hovinhkhoa");
 define("LANG_CELEB_7", "CHI PU");
+define("LANG_CELEB_7_HASH", "chipu");
 define("LANG_CELEB_8", "RANDY DOBSON");
+define("LANG_CELEB_8_HASH", "randydobson");
 
