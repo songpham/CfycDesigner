@@ -71,8 +71,9 @@
             <div class="title-text"><?php echo LANG_CLUB_HCM_CLUB_8_TITLE_TEXT ?></div>
         </div>
     </div>
-
     <!-- END CLUB NAME -->
+
+
     <div class="row text-center down-icon"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></div>
 
 
