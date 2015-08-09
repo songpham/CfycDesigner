@@ -1,7 +1,6 @@
 <div class="container-fluid page about-us">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="row banner-top">
-        <img src="<?php echo USER_BASE_URL ?>/img/about-us/bg-header.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <h1 class="headline"><?php echo LANG_ABOUT_US_MAIN_TITLE ?></h1>
     </div>
     <div class="container-page">

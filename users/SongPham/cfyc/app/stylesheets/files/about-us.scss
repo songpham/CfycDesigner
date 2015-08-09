@@ -5,6 +5,11 @@
     }
     .banner-top {
         position: relative;
+        background: url(../img/about-us/bg-header.jpg) center top no-repeat; background-size: 100%;
+        min-height: 550px;
+        @media (max-width:776px) {
+	        background: url(../img/about-us/m-bg-header.jpg) center top no-repeat; background-size: cover;
+        }
         h1.headline {
             @include font-size(60px);
             color: $white;
@@ -18,6 +23,7 @@
             span {
                 font-weight: 300;
             }
+       
         }
     }
     .quotes-block {
@@ -75,6 +81,7 @@
             }
         }
     }/*close media 2000px*/
+    
     @media (max-width: $breakpoint_tablet) {
         .gallery {
             margin-bottom: 15px;
@@ -88,7 +95,15 @@
             background-position: 60%;
         }
     }
+ 
     @media (max-width: 767px) {
+        .banner-top {
+            h1.headline {
+                @include font-size(11vw);
+                background-color: rgba(0,0,0,.3);
+            }
+        }
+            
         .info {
             padding: 7% 0 3% 0;
         }
