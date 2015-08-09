@@ -12,7 +12,9 @@
                     <?php echo LANG_CLUB_BIEN_HOA_BANNER_SUB_TITLE ?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CLUB_BIEN_HOA_BANNER_TEXT_BUTTON ?></a>
+                    <div class="red-btn-inline">
+                        <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"> <?php echo LANG_CLUB_BIEN_HOA_BANNER_TEXT_BUTTON ?></a>
+                    </div>
                 </div>
             </fieldset>
         </div>
@@ -110,7 +112,7 @@
                         <?php echo LANG_CLUB_BIEN_HOA_CLUB_1_CONTACT_INFO ?>
                     </div>
 
-                <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6587.933688713718!2d106.82662276918275!3d10.947593725492515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deae6aaa1e59%3A0xf1828e61b6ca5b58!2zVGhlIFBlZ2FzdXMgUGxhemEsIDUzLTU1IFbDtSBUaOG7iyBTw6F1LCBRdXnhur90IFRo4bqvbmcsIHRwLiBCacOqbiBIw7JhLCDEkOG7k25nIE5haSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438677157785" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6587.933688713718!2d106.82662276918275!3d10.947593725492515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deae6aaa1e59%3A0xf1828e61b6ca5b58!2zVGhlIFBlZ2FzdXMgUGxhemEsIDUzLTU1IFbDtSBUaOG7iyBTw6F1LCBRdXnhur90IFRo4bqvbmcsIHRwLiBCacOqbiBIw7JhLCDEkOG7k25nIE5haSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1438677157785" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                     <div class="col-md-12 see-more-btn"><a href="#"><?php echo LANG_CLUB_BINH_DUONG_BOOK_BUTTON ?></a></div>
                 </div>
             </div>
