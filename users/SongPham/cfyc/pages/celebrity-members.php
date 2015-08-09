@@ -3,8 +3,8 @@
 <div class="container-fluid">
     <!-- Top Banner -->
     <div class="row banner">
-    	<a href="javascript:void(0)" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-    		<img src="img/celebrity-members/california-wow-celebrity-members.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+    	<a href="<?php echo USER_BASE_URL ?>/vip-members" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+    		<img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/california-wow-celebrity-members.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
     	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
