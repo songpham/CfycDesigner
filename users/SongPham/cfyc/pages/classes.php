@@ -35,6 +35,12 @@
         </div>
     </div>
     <div class="clearfix"></div>
+    <br/>
+    <div style="margin:0px;padding:0px;overflow:hidden;height:1000px;">
+        <iframe src="<?php echo PROTOCOL ?>://www.cfyc.com.vn/<?php echo $LANG ?>/schedule/?view=iframe" frameborder="0" style="border:none; overflow:hidden; width:100%; height:100%;" allowtransparency="true"></iframe>
+    </div>
+    <br/>
+    <?php /*
     <div class="location container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 firstcol">
@@ -285,7 +291,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> */ ?>
 
 
 
