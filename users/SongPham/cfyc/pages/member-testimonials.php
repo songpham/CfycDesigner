@@ -69,17 +69,12 @@
                 <div class='img-wrapper'>
                     <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE ?>'/>
                     <div class='before'>
-                        <h3>before</h3>
-                        <p>Body fat: 25.3kg</p>
-                        <p>Weight: 62kg</p>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
                     </div>
                     <div class='after'>
-                        <h3>after</h3>
-                        <p>Body fat: 25.3kg</p>
-                        <p>Weight: 62kg</p>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
                     </div>
                 </div>
-
             </div>
             <!-- END IMAGE -->
 
@@ -100,7 +95,15 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE ?>'/>
+                <div class='img-wrapper'>
+                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE ?>'/>
+                    <div class='before'>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE ?>
+                    </div>
+                    <div class='after'>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE ?>
+                    </div>
+                </div>
             </div>
             <!-- END IMAGE -->
 
@@ -121,7 +124,15 @@
 
             <!-- IMAGE -->
             <div class="image">
-                <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE ?>'/>
+                <div class='img-wrapper'>
+                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE ?>'/>
+                    <div class='before'>
+                       <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE ?>
+                    </div>
+                    <div class='after'>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE ?>
+                    </div>
+                </div>
             </div>
             <!-- END IMAGE -->
 
