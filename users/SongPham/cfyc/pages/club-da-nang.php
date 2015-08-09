@@ -13,7 +13,7 @@
                 </span>
                 <div class="red-btn">
                     <div class="red-btn-inline">
-                        <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON ?></a>
+                        <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"> <?php echo LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON ?></a>
                     </div>
                 </div>
             </fieldset>
