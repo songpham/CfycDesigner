@@ -25,7 +25,7 @@ define('LANG_CLUB_DA_NANG_CLUB_1_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_DA_NANG_CLUB_1_CONTACT_INFO', '
         <h3>Location: </h3>
-        <p>155 Nguyen Van Linh Street, Thanh Khe District, Danang City</p>
+        <p>155 Nguyen Van Linh Street, Thanh Khe District, Da nang City</p>
         
         <h3>Operating hours: </h3>
         <p>Monday to Sunday: 5:00 - 22:00</p>

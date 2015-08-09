@@ -2,9 +2,9 @@
 define('LANG_CLUB_BINH_DUONG', 'Bình Dương');
 
 // BANNER
-define('LANG_CLUB_BINH_DUONG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
+define('LANG_CLUB_BINH_DUONG_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại tp. Bình Dương');
 define('LANG_CLUB_BINH_DUONG_BANNER_SUB_TITLE', 'HA NOI');
-define('LANG_CLUB_BINH_DUONG_BANNER_TEXT_BUTTON', 'Find a club in Ha Noi today');
+define('LANG_CLUB_BINH_DUONG_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 
 // DESCRIPTION 

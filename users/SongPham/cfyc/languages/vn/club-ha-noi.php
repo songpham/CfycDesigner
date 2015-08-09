@@ -2,9 +2,9 @@
 define('LANG_CLUB_HA_NOI', 'Hà Nội');
 
 // BANNER
-define('LANG_CLUB_HA_NOI_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
+define('LANG_CLUB_HA_NOI_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại Hà Nội');
 define('LANG_CLUB_HA_NOI_BANNER_SUB_TITLE', 'HA NOI');
-define('LANG_CLUB_HA_NOI_BANNER_TEXT_BUTTON', 'Find a club in Ha Noi today');
+define('LANG_CLUB_HA_NOI_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 
 // DESCRIPTION 
