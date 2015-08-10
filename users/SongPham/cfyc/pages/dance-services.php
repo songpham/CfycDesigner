@@ -3,7 +3,7 @@
     <div id="banner" class="row banner-top">
         <div class="cta">
             <fieldset>
-                <legend><?=LANG_BANNER_TEXT_TOP?><?=LANG_BANNER_TEXT_CONTENT?></legend>
+                <legend><?=LANG_BANNER_TEXT_CONTENT?></legend>
                 <hr/>
                 <span>
                     <?=LANG_BANNER_TEXT_SMALL?>
