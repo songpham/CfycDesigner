@@ -29,31 +29,31 @@ define("LANG_DANCE_DISCOVER_TAB1_CONTENT","
 ");
 define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM (M)");
 define("LANG_DANCE_DISCOVER_TAB2_ID","bodyjam");
-define("LANG_DANCE_DISCOVER_TAB2_CONTENT",'
+define("LANG_DANCE_DISCOVER_TAB2_CONTENT","
 <h3>BODY JAM</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
-');
+<p>BODYJAM® is the cardio workout where you are free to enjoy the sensation of dance. An addictive fusion of the latest dance styles and hottest new sounds puts the emphasis as much on having fun as breaking a sweat. We'll bring the moves, you bring the attitude.</p>
+");
 define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB3_ID","sexydance");
 define("LANG_DANCE_DISCOVER_TAB3_CONTENT",'
 <h3>SEXY DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>Have you ever dreamed of dancing like a world famous diva? Learn the basics so you can strut your stuff with absolute confidence with our Sexy Dance classes in our fun and exciting classes. Looking good was never this much fun.</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB4_ID","poledance");
 define("LANG_DANCE_DISCOVER_TAB4_CONTENT",'
 <h3>POLE DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>A rigorous work-out that gradually builds all-over strength and body-tone. It boosts your self-confidence and expression as you master the moves in a fun, exciting environment!.... Pole Dancing for fitness is taking the world by storm! What are you waiting for?</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB5_ID","salsa");
 define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <h3>SALSA & LATIN DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>Hot, Sensual and Fun. These classes will get your hips moving as you let loose your inhibitions and dance the night away. Leave the stress at the door and join our fun and exciting dance groups.</p>
 ');
 define("LANG_DANCE_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 define("LANG_DANCE_TRAINER_TITLE","Meet our featured dance teachers");

@@ -54,6 +54,21 @@
         @media (max-width: 480px){padding: 0;}
     }
     .discover {
+        .dropdown{
+            .btn-primary{width: 100%;font-size: 16px;background: $red;border-color:$red;border-radius:0;}
+            ul{
+                width: 100%;
+                border-radius: 0;
+                box-shadow: none;
+                top: 35px;
+                padding: 0;
+                border: none;
+                li{
+                    a{width: 100%;padding-top: 8px;padding-bottom: 8px;color: #FFFFFF;  background-color: $red;}
+                }
+            }
+
+        }
         .nav-tabs {
             text-align: center;
             background: $red;

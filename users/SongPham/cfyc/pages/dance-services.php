@@ -48,7 +48,29 @@
     <div class="discover row">
         <h2><div class="line"></div><?=LANG_DANCE_DISCOVER?><div class="line"></div></h2>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
+        <div class="dropdown visible-xs">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li role="presentation">
+                    <a href="#<?=LANG_DANCE_DISCOVER_TAB1_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB1_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB1_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_DANCE_DISCOVER_TAB2_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB2_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB2_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_DANCE_DISCOVER_TAB3_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB3_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB3_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_DANCE_DISCOVER_TAB4_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB4_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB4_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_DANCE_DISCOVER_TAB5_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB5_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB5_TITLE?></a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="nav nav-tabs hidden-xs" role="tablist">
             <li role="presentation" class="active">
                 <a href="#<?=LANG_DANCE_DISCOVER_TAB1_ID?>" aria-controls="<?=LANG_DANCE_DISCOVER_TAB1_ID?>" role="tab" data-toggle="tab"><?=LANG_DANCE_DISCOVER_TAB1_TITLE?></a>
             </li>
@@ -121,28 +143,28 @@
                 <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
                     <li role="presentation" class="active">
                         <a href="#<?=LANG_DANCE_TRAINER1_ID?>" aria-controls="<?=LANG_DANCE_TRAINER1_ID?>" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
+                            <img class="img-responsive img-circle"
                                  src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/dj-icon.png" alt="<?=LANG_DANCE_TRAINER1_TITLE?>">
                             <span><?=LANG_DANCE_TRAINER1_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_DANCE_TRAINER2_ID?>" aria-controls="<?=LANG_DANCE_TRAINER2_ID?>" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
+                            <img class="img-responsive img-circle"
                                  src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/tylerly-icon.png" alt="<?=LANG_DANCE_TRAINER2_TITLE?>">
                             <span><?=LANG_DANCE_TRAINER2_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_DANCE_TRAINER3_ID?>" aria-controls="<?=LANG_DANCE_TRAINER3_ID?>" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
+                            <img class="img-responsive img-circle"
                                  src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/genesis-icon.png" alt="<?=LANG_DANCE_TRAINER3_TITLE?>">
                             <span><?=LANG_DANCE_TRAINER3_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_DANCE_TRAINER4_ID?>" aria-controls="<?=LANG_DANCE_TRAINER4_ID?>" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
+                            <img class="img-responsive img-circle"
                                  src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/katsu-icon.png" alt="<?=LANG_DANCE_TRAINER4_TITLE?>">
                             <span><?=LANG_DANCE_TRAINER4_TITLE?></span>
                         </a>
@@ -169,7 +191,7 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_DANCE_TRAINER4_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/DJ.jpg" alt="<?=LANG_DANCE_TRAINER4_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/KATSU.jpg" alt="<?=LANG_DANCE_TRAINER4_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_DANCE_TRAINER4_CONTENT?></div>
                     </div>
