@@ -15,40 +15,22 @@ var memberTestimonials = (function() {
 
         $(document).ready(function() {
 
-            // GRAYSCALE ALL IMAGE
-            grayscale($("#member-list .item .box a img"));
-            grayscale.reset($("#member-list .item .active a img"));
-
-
             // SLIDER
-            $("#member-list .item .box a").click(function(e) {
+            $("#member-list .item .box").click(function(e) {
 
                 e.preventDefault();
 
-                currentClickHref = $(this).attr('href');
+                currentClickHref = $(this).find("a").attr('href');
                 currentActiveHref = $(this).parents('.carousel-inner').find(".item>.active>a").attr('href');
 
                 // remove active class and hide active block
-                grayscale($(this).parents('.carousel-inner').find(".item .active a img"));
                 $(this).parents('.carousel-inner').find(".item>.active").removeClass('active');
                 $('.story-list').find('.story-' + currentActiveHref).stop().fadeOut();
 
 
                 // add active class and show next block
-                grayscale.reset($(this).find('img'));
-                $(this).parent().addClass("active");
+                $(this).addClass("active");
                 $('.story-list').find('.story-' + currentClickHref).stop().fadeIn(300);
-
-
-            });
-
-            // RESET GRAYSCALE ON HOVER
-            $("#member-list .item .box a img").hover(function() {
-                grayscale.reset($(this));
-            }, function() {
-                if (!$(this).parent().parent().hasClass('active')) {
-                    grayscale($(this));
-                }
             });
         });
 
