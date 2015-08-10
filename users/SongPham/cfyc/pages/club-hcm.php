@@ -129,28 +129,19 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -209,28 +200,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_2_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -291,28 +273,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_3_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -371,28 +344,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_4_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -447,32 +411,23 @@
         <div class="quan quan-1">
             <!-- SLIDESHOW -->
             <div class="slideshow">
-                <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+                <div id="slideshow-5" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_5_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -531,28 +486,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_6_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -611,28 +557,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_7_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -691,28 +628,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_8_CAPTION_1 ?>
                         </div>
                     </div>
 

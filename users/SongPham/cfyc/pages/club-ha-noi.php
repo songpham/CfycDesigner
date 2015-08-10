@@ -94,28 +94,19 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_1_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_1_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_1_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_1_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HA_NOI_CLUB_1_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -176,28 +167,19 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_2_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_2_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_2_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_2_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HA_NOI_CLUB_2_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -258,28 +240,19 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_3_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_3_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_3_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_3_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HA_NOI_CLUB_3_CAPTION_1 ?>
                         </div>
                     </div>
 
@@ -340,28 +313,19 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_4_CAPTION_1 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_4_CAPTION_2 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_4_CAPTION_3 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <div class="carousel-caption">
-                                <?php echo LANG_CLUB_HA_NOI_CLUB_4_CAPTION_4 ?>
-                            </div>
                             <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HA_NOI_CLUB_4_CAPTION_1 ?>
                         </div>
                     </div>
 

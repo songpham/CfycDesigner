@@ -165,7 +165,7 @@
             </li>
         </ul>
         <div class="tab-content teacher-detail">
-            <div role="tabpanel" class="tab-pane active" id="hcmc">
+            <div role="tabpanel" class="tab-pane active">
                 <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
                     <li role="presentation" class="active">
                         <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
@@ -247,10 +247,6 @@
                     </div>
                 </div>
             </div>
-            <div role="tabpanel" class="tab-pane" id="trainer3">TRAINER 3</div>
-            <div role="tabpanel" class="tab-pane" id="trainer4">TRAINER 4</div>
-            <div role="tabpanel" class="tab-pane" id="trainer5">TRAINER 5</div>
-            <div role="tabpanel" class="tab-pane" id="trainer6">TRAINER 6</div>
         </div>
 
 

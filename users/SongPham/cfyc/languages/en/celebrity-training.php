@@ -22,13 +22,38 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
 define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Here are some of the celebrities we’ve worked with in the past');
 
 
-define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-1.png');
-define('LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG', 'tap-yoga-cung-Ho-Ngoc-Ha.jpg');
-define('LANG_CELEBRITY_TRAINING_MEMBER_1_NAME', 'HO NGOC HA');
-define('LANG_CELEBRITY_TRAINING_MEMBER_1_JOB', 'SINGER');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-10.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG', 'diem_my.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_NAME', 'Diễm My');
+define('LANG_CELEBRITY_TRAINING_MEMBER_1_JOB', 'Actress');
 define('LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION', '
-        <p>I first tried yoga to relax and de-stress but after a few years of practicing (yoga- remove), it has given me so much more than simply a feeling of well-being. Yoga has become a part of my life; yoga makes my life better.</p>
-        <p>I truly believe that yoga is for everyone. It’s a great practice that helps clear your body, clear your mind, and bring you back to your true self and what makes you authentic and creative. </p>
-        <p>By practicing yoga, I learned to stay calm, focus on my breathing, relax, and listen to myself. I bring the spirit of yoga everywhere I go and to everything I do.</p>
+        <p>For the last time, because of the busy working schedule, I chose gym centers nearby my residence. From my friends, I heard of CFYC’s modern facilities and credible training programs, which I determined to spend time and put effort to achieve my dream body. I also identified my outcome of working out at CFYC was getting a toned, flexible and energetic body.</p>
+        <p>At CFYC, there are many group fitness and special training methods. But what I enjoy programs was yoga, kickfit and personal training. Particularly, personal trainng or one-on-one training brought out the best benefits to my figure and physical strenght. After five moths of training, My becomes fitter and fitter day by day. Now, when I had to work in several hours, I still find my mind conscious and my body flexible. I hope, those who come to CFYC also achieve their own goals like I did.</p>
     ');
 
+
+define('LANG_CELEBRITY_TRAINING_MEMBER_2_SMALL_IMG', 'california-wow-celeb-member-3.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_2_BIG_IMG', 'ho_vinh_khoa.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_2_NAME', 'Hồ Vĩnh Khoa');
+define('LANG_CELEBRITY_TRAINING_MEMBER_2_JOB', 'Model/Singer');
+define('LANG_CELEBRITY_TRAINING_MEMBER_2_DESCIPRTION', '
+        <p>My diet was very bad before I joined CFYC. When I started training with my PT, I came to realize that my body is a result of what I eat and my workout regimen. Just six months after joining CFYC, my life has changed. I now have a perfect body and so much more confidence in my career. I feel joy and satisfaction in my life as I experience optimum health and fitness. Last but not least, how I feel after each workout session is wonderful. I am full of energy, ready to take on all responsibilities and challenges in my work and personal life. </p>
+    ');
+
+
+define('LANG_CELEBRITY_TRAINING_MEMBER_3_SMALL_IMG', 'california-wow-celeb-member-5.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_3_BIG_IMG', 'xuan_lan.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_3_NAME', 'Xuân Lan');
+define('LANG_CELEBRITY_TRAINING_MEMBER_3_JOB', 'Model');
+define('LANG_CELEBRITY_TRAINING_MEMBER_3_DESCIPRTION', '
+        <p>I have loved keeping in shape my whole modelling career. After I gave birth to my beautiful daughter, within 6 months I came back to California Fitness & Yoga Center s to regain the body shape I once had. Coming to California, I received guidance from dedicated personal trainers. They are the true leading experts in the field of health and fitness in Vietnam and have created the training programs for many celebrities and models. I see my personal trainers at CFYC as both friends and teachers, who help me get a slender, strong and toned body even after giving birth. Thanks to the benefits of health and fitness I have achieved through training, I can confidently take on all the pressures of work, while ensuring health and playful spirit to enjoy a better life with my family.</p>
+    ');
+
+
+define('LANG_CELEBRITY_TRAINING_MEMBER_4_SMALL_IMG', 'california-wow-celeb-member-6.png');
+define('LANG_CELEBRITY_TRAINING_MEMBER_4_BIG_IMG', 'randy_dobson.jpg');
+define('LANG_CELEBRITY_TRAINING_MEMBER_4_NAME', 'Randy Robson');
+define('LANG_CELEBRITY_TRAINING_MEMBER_4_JOB', 'Chairman & CEO');
+define('LANG_CELEBRITY_TRAINING_MEMBER_4_DESCIPRTION', '
+        <p>Randy has successfully operated multiple fitness companies across seven countries in a career that has spanned more than 18 years. He has been a key individual on leadership teams which have developed some of the top brands in the industry including, 24 Hour Fitness, California Fitness, Jackie Chan Sport, Yoga for Life, and Myoga to name a few. He is considered one of the most innovative thought leaders in the industry and has developed a world class management over his illustrious career. Randy brings his passion for athletics and entertainment to his professional life, creating a unique fitness experience that is revolutionizing the way people exercise in Asia.</p>
+    ');

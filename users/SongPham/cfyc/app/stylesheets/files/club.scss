@@ -13,7 +13,6 @@
 }
 
 .club-page {
-
     .whitespace {padding: 10px 0}
     .whitespace-2x {padding: 20px 0}
     .whitespace-3x {padding: 30px 0}
@@ -42,7 +41,7 @@
                 max-width: 50vw;
             }
             @media (max-width: 767px) {
-                
+
                 max-width: 500px;
                 margin-left: auto;
                 margin: 450px auto 0 auto;
@@ -169,7 +168,7 @@
                   @media (max-width: 767px){font-size: 14px;margin-top: 0px;padding-top: 10px;margin-bottom: 20px;}
                   @media (max-width: 480px){font-size: .8em; margin-bottom: 10px; padding-top: 0; margin-top: 0;}
             }
-            
+
         }
     } 
 
@@ -261,6 +260,7 @@
             background-color: rgba(43,42,43,.9);
             li {
                 border-bottom: 1px #464646 solid;
+                &:last-child {border-bottom: none;}
                 a {
                     color: $white;
                     padding-top: 7px;
@@ -286,6 +286,7 @@
             left: 0;
             bottom: 0;
             padding : 40px 60px;
+            @media (max-width: 480px) {background: $black; position: relative;padding : 20px 20px;}
         }
         // Reset carousel-indicators class style
         .carousel-indicators {
@@ -397,6 +398,7 @@
                 border : 2px solid #808285;
                 text-transform: uppercase;
                 font-weight: bold;
+                @media (max-width: 480px) {padding: 5px;@include font-size(14px)}
                 &:hover {
                     text-decoration: none;
                     background: #808285;

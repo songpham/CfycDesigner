@@ -30,9 +30,10 @@ define("LANG_DA_NANG", "DA NANG");
 define("LANG_BINH_DUONG", "BINH DUONG");
 define("LANG_NEW_COMING", "COMING SOON");
 
-define("LANG_TRAINNER_1" , "<h3>ASSIM MANN<br/><span>QUẢN LÍ BỘ PHẬN YOGA</span></h3>
-							<p>Yoga luôn là sức mạnh dẫn dắt trong suốt cuộc đời tôi, kể từ khi được sinh ra tại Rishikesh, Ấn Độ, thủ đô của nền Yoga thế giới. Tâm nguyện của tôi là giúp các học viên đạt tới trình độ trải nghiệm Yoga vượt qua cả mong đợi của chính họ và trở nên điềm tĩnh với một tinh thần thanh thản, lạc quan. Được chứng kiến các học viên của mình không ngừng nâng cao sinh lực, sức khỏe cũng như niềm hạnh phúc luôn là món quà, là sự đền đáp mới mẻ và đầy thú vị đối với tôi.</p>
-							<p><strong>Bio: </strong><br/>Assim Mann đã nghiên cứu và học hỏi từ nhiều bậc thầy Yoga, nhưng anh đặc biệt biết ơn sư phụ Shri Bharat Singh (thầy dạy Yoga cho Kaivalyadhama) và Bramachari Rudra Dev – một trong những đệ tử chân truyền của Shri B.K.S Iyengar. Assim đã luyện tập Yoga hơn 15 năm. Anh cũng đam mê lướt internet, xem phim và chơi bóng đá.</p>");
+define("LANG_TRAINNER_1" , "<h3>Al Morgan<br/><span>Master Trainer</span></h3>
+							<p>
+Al Morgan has over 25 years of experience in training sports professionals in the US, Germany, Hong Kong, Malaysia, Singapore, and now Vietnam. He has transformed the lives of thousands of people from all walks of life, from celebrities to professional athletes. He brings the power of change to you whether you are a Superstar in the world's eyes, or simply in the eyes of your employees, your family, or your children. Al is certified by the National Academy of Sports Medicine (NASM), the worldwide leader in fitness education. He teaches his NASM knowledge to all the trainers at CFYC to ensure everyone gets the best results quickly and safely.</p>");
+
 define("LANG_TRAINNER_2" , "<h3>TIỂU PHƯƠNG<br/><span>HLV CÁ NHÂN</span></h3>
                             <p><strong>PHONG CÁCH & CHUYÊN MÔN</strong><br/>
                             - Huấn luyện tốt về các phương pháp giảm cân và tăng cường thể lực, có thể huấn luyện các môn thể thao khác như: Bơi lội, Tennis, Bowling.</p>

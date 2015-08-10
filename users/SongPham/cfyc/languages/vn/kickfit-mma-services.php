@@ -1,15 +1,15 @@
 <?php
 
-define("LANG_PAGE_NAME","kickfit-mma-services");
+define("LANG_KICKFIT_MMA_PAGE_NAME","kickfit-mma-services");
 
-define("LANG_BANNER_TEXT_TOP","Unleash");
-define("LANG_BANNER_TEXT_CONTENT","the warrior within you");
-define("LANG_BANNER_TEXT_SMALL","Experience a Kickfit or MMA session today");
-define("LANG_BANNER_TEXT_CTA","Try kick fit");
-define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_TOP","Unleash");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT","the warrior within you");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_SMALL","Experience a Kickfit or MMA session today");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Try kick fit");
+define("LANG_KICKFIT_MMA_BANNER_TITLE","Visit us for a free membership trial today");
 
-define("LANG_CALIDANCE","About Kick Fit and MMA");
-define("LANG_CALIDANCE_CONTENT",'
+define("LANG_KICKFIT_MMA_CALIDANCE","About Kick Fit and MMA");
+define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'
 <p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way
                     to a higher level of fitness.</p>
 <p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly
@@ -19,10 +19,10 @@ define("LANG_CALIDANCE_CONTENT",'
                     one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise
                     you.</p>
 ');
-define("LANG_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
+define("LANG_KICKFIT_MMA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
-define("LANG_BENEFIT","How does Kick Fit and MMA work?");
-define("LANG_BENEFIT_CONTENT",'
+define("LANG_KICKFIT_MMA_BENEFIT","How does Kick Fit and MMA work?");
+define("LANG_KICKFIT_MMA_BENEFIT_CONTENT",'
 <p>Kick Fit is taught one on one while MMA can be taught one on one or in a group setting with other participants.
         You can choose the days and times which are suitable for you to train with your instructor.
         Both are perfectly safe for people of all ages, from teenagers to parents and more and taught in a professional
@@ -34,14 +34,14 @@ define("LANG_BENEFIT_CONTENT",'
         focus fully on your training and progressing through your skills.</p>
 ');
 
-define("LANG_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_KICKFIT_MMA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 
-define("LANG_TRAINER_TITLE","Meet our featured kickfit & mma instructors");
-define("LANG_TRAINER_SUB","You have the potential, we can help you reach it.");
+define("LANG_KICKFIT_MMA_TRAINER_TITLE","Meet our featured kickfit & mma instructors");
+define("LANG_KICKFIT_MMA_TRAINER_SUB","You have the potential, we can help you reach it.");
 
-define("LANG_TRAINER1_TITLE","LEE");
-define("LANG_TRAINER1_ID","trainer1");
-define("LANG_TRAINER1_CONTENT",'
+define("LANG_KICKFIT_MMA_TRAINER1_TITLE","LEE");
+define("LANG_KICKFIT_MMA_TRAINER1_ID","trainer1");
+define("LANG_KICKFIT_MMA_TRAINER1_CONTENT",'
 <h3>LEE</h3>
 <h4>GIÁM SÁT BỘ PHẬN PT</h4>
 <p>PHONG CÁCH & CHUYÊN MÔN</p>
@@ -62,21 +62,21 @@ BẰNG CẤP<br>
 - Cử nhân võ thuật cấp bởi Bộ Giáo Dục và Đào Tạo Việt Nam.Crunch.
 </p>
 ');
-define("LANG_TRAINER2_TITLE","TOM");
-define("LANG_TRAINER2_ID","trainer2");
-define("LANG_TRAINER2_CONTENT",'
+define("LANG_KICKFIT_MMA_TRAINER2_TITLE","TOM");
+define("LANG_KICKFIT_MMA_TRAINER2_ID","trainer2");
+define("LANG_KICKFIT_MMA_TRAINER2_CONTENT",'
 <h3>TOM</h3>
 
 ');
-define("LANG_TRAINER3_TITLE","WILL");
-define("LANG_TRAINER3_ID","trainer3");
-define("LANG_TRAINER3_CONTENT",'
+define("LANG_KICKFIT_MMA_TRAINER3_TITLE","WILL");
+define("LANG_KICKFIT_MMA_TRAINER3_ID","trainer3");
+define("LANG_KICKFIT_MMA_TRAINER3_CONTENT",'
 <h3>WILL</h3>
 
 ');
-define("LANG_TRAINER4_TITLE","RIO");
-define("LANG_TRAINER4_ID","trainer4");
-define("LANG_TRAINER4_CONTENT",'
+define("LANG_KICKFIT_MMA_TRAINER4_TITLE","RIO");
+define("LANG_KICKFIT_MMA_TRAINER4_ID","trainer4");
+define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 <h3>RIO</h3>
 
 ');
