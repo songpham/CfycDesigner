@@ -1,15 +1,15 @@
 <?php
 
-define("LANG_PAGE_NAME","pt-services");
+define("LANG_PAGE_NAME_PT","pt-services");
 
-define("LANG_BANNER_TEXT_TOP","lose weight,");
-define("LANG_BANNER_TEXT_CONTENT","build muscle & get your dream body");
-define("LANG_BANNER_TEXT_SMALL","get a free personal training consultation today");
-define("LANG_BANNER_TEXT_CTA","Meet a trainer");
-define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
+define("LANG_BANNER_TEXT_TOP_PT","lose weight,");
+define("LANG_BANNER_TEXT_CONTENT_PT","build muscle & get your dream body");
+define("LANG_BANNER_TEXT_SMALL_PT","get a free personal training consultation today");
+define("LANG_BANNER_TEXT_CTA_PT","Meet a trainer");
+define("LANG_BANNER_TITLE_PT","Visit us for a free membership trial today");
 
-define("LANG_CALIDANCE","A personal trainer is two things");
-define("LANG_CALIDANCE_CONTENT",'
+define("LANG_CALIDANCE_PT","A personal trainer is two things");
+define("LANG_CALIDANCE_CONTENT_PT",'
 <p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
 <p>Personal training at California Fitness & Yoga offers exclusive one-on-one programs specifically designed for your body’s needs and your individual fitness goals. Our program is about integration, not sacrifice. You don’t need to spend hours in the gym or starve yourself in order to achieve the body of your dreams.</p>
 <p>Our patented California Health System is designed to integrate into your lifestyle using proven methods developed over dozens of year to help you get results in the fastest, safest way possible. Each of our trainers is highly qualified under international standards of certification following NASM Sports & Fitness certification curricula from the USA.</p>

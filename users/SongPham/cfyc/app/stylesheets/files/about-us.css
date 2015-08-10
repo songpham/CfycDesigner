@@ -1,0 +1,113 @@
+.about-us {
+  /*close media 2000px*/
+  /*close media 1024*/
+  /*close media 767 */ }
+  .about-us img, .about-us p, .about-us h1, .about-us h2, .about-us h3, .about-us h4, .about-us a, .about-us div, .about-us button, .about-us span {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .about-us .banner-top {
+    position: relative;
+    background: url(../img/about-us/bg-header.jpg) center top no-repeat;
+    background-size: 100%;
+    min-height: 550px; }
+    @media (max-width: 776px) {
+      .about-us .banner-top {
+        background: url(../img/about-us/m-bg-header.jpg) center top no-repeat;
+        background-size: cover; } }
+    .about-us .banner-top h1.headline {
+      font-size: 60px;
+      font-size: calculateRem(60px);
+      color: #ffffff;
+      font-weight: 100;
+      text-transform: uppercase;
+      position: absolute;
+      left: 3%;
+      bottom: 16%;
+      padding: 1% 2%;
+      border: 1px solid #ffffff; }
+      .about-us .banner-top h1.headline span {
+        font-weight: 300; }
+  .about-us .quotes-block {
+    text-align: center;
+    padding: 5% 0; }
+    .about-us .quotes-block h3 {
+      clear: both;
+      text-indent: 30px;
+      margin: 0;
+      padding: 0 20px;
+      line-height: 1.3em;
+      text-transform: uppercase;
+      font-weight: 300; }
+    .about-us .quotes-block span.open-quotes, .about-us .quotes-block span.close-quotes {
+      font-size: 90px;
+      font-size: calculateRem(90px);
+      line-height: .5em;
+      margin-bottom: -35px; }
+    .about-us .quotes-block span.open-quotes {
+      float: left; }
+    .about-us .quotes-block span.close-quotes {
+      float: right; }
+  .about-us .randy-quotes {
+    background: url(../img/about-us/randy-block.jpg) center top no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+    min-height: 500px;
+    position: relative; }
+    .about-us .randy-quotes .quotes blockquote {
+      position: absolute;
+      top: 100px; }
+  .about-us .info {
+    padding: 5% 0 3% 0;
+    text-align: justify; }
+    .about-us .info p {
+      margin-bottom: 25px; }
+  .about-us .gallery {
+    margin-bottom: 30px; }
+  @media (max-width: 2000px) {
+    .about-us .banner-top h1.headline {
+      font-size: 5vw;
+      font-size: calculateRem(5vw); } }
+  @media (max-width: 1024px) {
+    .about-us .gallery {
+      margin-bottom: 15px; }
+      .about-us .gallery .col-xs-6:first-child, .about-us .gallery .col-sm-6:first-child, .about-us .gallery .col-md-6:first-child {
+        padding-right: 7.5px; }
+      .about-us .gallery .col-xs-6:last-child, .about-us .gallery .col-sm-6:last-child, .about-us .gallery .col-md-6:last-child {
+        padding-left: 7.5px; } }
+  @media (max-width: 991px) {
+    .about-us .randy-quotes {
+      background-position: 60%; } }
+  @media (max-width: 767px) {
+    .about-us .banner-top h1.headline {
+      font-size: 11vw;
+      font-size: calculateRem(11vw);
+      background-color: rgba(0, 0, 0, 0.3); }
+    .about-us .info {
+      padding: 7% 0 3% 0; }
+    .about-us .randy-quotes {
+      background-position: 70%; }
+    .about-us .quotes-block {
+      padding: 7% 0; }
+      .about-us .quotes-block span.open-quotes, .about-us .quotes-block span.close-quotes {
+        font-size: 50px;
+        font-size: calculateRem(50px); }
+      .about-us .quotes-block h3 {
+        font-size: 14px;
+        font-size: calculateRem(14px); }
+    .about-us .randy-quotes .quotes {
+      position: initial; }
+      .about-us .randy-quotes .quotes blockquote {
+        bottom: 0px;
+        top: auto;
+        margin-right: 15px;
+        font-size: 13px;
+        font-size: calculateRem(13px);
+        background: rgba(0, 0, 0, 0.3); } }
+
+/*# sourceMappingURL=about-us.css.map */

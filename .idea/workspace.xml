@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac31e74-5443-4230-bf74-d4b701df5924" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/Al.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dance-services/Tyler.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/dance-services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/dance-services.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services_bk.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dance-services/dance-services.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dance-services/top-banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/environment.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/school.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/stretching1.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/benefit-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/stretching2.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/dynamicstretching-services/benefit-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/topbanner.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/group-fitness-services/top-banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/benefit1.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/benefit-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/benefit2.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/benefit-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/environment.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/kickfit-mma-services/school.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/environment.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/school.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/ptxwork-1.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/benefit-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/ptxwork-2.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/benefit-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/topbanner.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/top-banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/ptx-room.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/school.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/ptxwork-1.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/benefit-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/ptxwork-2.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/pt-services/benefit-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/topbanner.jpg" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/public/img/ptx-services/top-banner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/dance-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/dance-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dance-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/dynamicstretching-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/dynamicstretching-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/group-fitness-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/kickfit-mma-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/kickfit-mma-services.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss" afterPath="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CfycDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,57 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kickfit-mma-services copy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services copy.php">
+      <file leaf-file-name="pt-services.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.583332" vertical-offset="1825" max-vertical-offset="3660">
-              <caret line="185" column="32" selection-start-line="165" selection-start-column="28" selection-end-line="185" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2400">
+              <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kickfit-mma-services.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/kickfit-mma-services.php">
+      <file leaf-file-name="pt-services.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/pt-services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.458334" vertical-offset="535" max-vertical-offset="1335">
-              <caret line="62" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <marker date="1439166149000" expanded="true" signature="447:600" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="604:1207" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="1374:1736" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="1740:1925" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="1968:2153" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="2575:2927" placeholder="..." />
-                <marker date="1439166149000" expanded="true" signature="2931:3526" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="975">
+              <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kickfit-mma-services.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/kickfit-mma-services.php">
+      <file leaf-file-name="pt-services.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9153847" vertical-offset="0" max-vertical-offset="1335">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <marker date="1439166254000" expanded="true" signature="447:600" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="604:1207" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="1374:1736" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="1740:1925" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="1968:2153" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="2575:2927" placeholder="..." />
-                <marker date="1439166254000" expanded="true" signature="2931:3526" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kickfit-mma-services.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="1425" max-vertical-offset="2400">
-              <caret line="118" column="119" selection-start-line="118" selection-start-column="119" selection-end-line="118" selection-end-column="119" />
+            <state vertical-scroll-proportion="0.25384617" vertical-offset="0" max-vertical-offset="975">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -134,7 +80,6 @@
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/contact-us.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/celebrity-trainning-services.scss" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/celebrity-trainning-services.php" />
-        <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/dynamicstretching-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/yoga-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/yoga-services.scss" />
@@ -148,13 +93,9 @@
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/group-fitness-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/group-fitness-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss" />
-        <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/group-fitness-services.php" />
-        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php" />
-        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services copy.php" />
-        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/pt-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/dynamicstretching-services.scss" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/dynamicstretching-services.php" />
@@ -163,6 +104,11 @@
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/kickfit-mma-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services.php" />
         <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/kickfit-mma-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php" />
+        <option value="$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php" />
       </list>
     </option>
   </component>
@@ -635,6 +581,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -648,7 +595,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -800,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.540931" vertical-offset="622" max-vertical-offset="1350">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
@@ -821,18 +759,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,35 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046153847" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164390000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06923077" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1439164387000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164387000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164387000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164387000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164387000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/ptx-services.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.166667" vertical-offset="1025" max-vertical-offset="4620">
@@ -912,51 +809,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.0" vertical-offset="0" max-vertical-offset="2400">
-          <caret line="130" column="115" selection-start-line="130" selection-start-column="115" selection-end-line="130" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/app/stylesheets/files/pt-services.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9153847" vertical-offset="0" max-vertical-offset="4620">
           <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
           <folding>
             <element signature="e#3366#5048#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6538463" vertical-offset="585" max-vertical-offset="2400">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023076924" vertical-offset="300" max-vertical-offset="975">
-          <caret line="21" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <marker date="1439164789000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164789000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164789000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439164789000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/pt-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="975">
-          <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
-          <folding>
-            <marker date="1439164897000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1059,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services copy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.583332" vertical-offset="1825" max-vertical-offset="3660">
+        <state vertical-scroll-proportion="1.4615384" vertical-offset="1825" max-vertical-offset="3660">
           <caret line="185" column="32" selection-start-line="165" selection-start-column="28" selection-end-line="185" selection-end-column="32" />
           <folding />
         </state>
@@ -1067,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/kickfit-mma-services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="1425" max-vertical-offset="2400">
+        <state vertical-scroll-proportion="0.5307692" vertical-offset="1425" max-vertical-offset="2400">
           <caret line="118" column="119" selection-start-line="118" selection-start-column="119" selection-end-line="118" selection-end-column="119" />
           <folding />
         </state>
@@ -1075,16 +933,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/kickfit-mma-services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.458334" vertical-offset="535" max-vertical-offset="1335">
+        <state vertical-scroll-proportion="0.6076923" vertical-offset="535" max-vertical-offset="1335">
           <caret line="62" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
-            <marker date="1439166149000" expanded="true" signature="447:600" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="604:1207" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="1374:1736" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="1740:1925" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="1968:2153" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="2575:2927" placeholder="..." />
-            <marker date="1439166149000" expanded="true" signature="2931:3526" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166149000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1094,14 +952,82 @@
         <state vertical-scroll-proportion="1.9153847" vertical-offset="0" max-vertical-offset="1335">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
-            <marker date="1439166254000" expanded="true" signature="447:600" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="604:1207" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="1374:1736" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="1740:1925" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="1968:2153" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="2575:2927" placeholder="..." />
-            <marker date="1439166254000" expanded="true" signature="2931:3526" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439166254000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43846154" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439088923000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/ptx-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="945">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/ptx-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4846154" vertical-offset="0" max-vertical-offset="975">
+          <caret line="21" column="139" selection-start-line="21" selection-start-column="139" selection-end-line="21" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/ptx-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5008026" vertical-offset="1638" max-vertical-offset="2400">
+          <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/pages/pt-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/en/pt-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="975">
+          <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/SongPham/cfyc/languages/vn/pt-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25384617" vertical-offset="0" max-vertical-offset="975">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

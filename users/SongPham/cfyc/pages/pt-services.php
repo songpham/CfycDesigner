@@ -1,4 +1,4 @@
-<div class="container-fluid page <?=LANG_PAGE_NAME?>-page">
+<div class="container-fluid page <?=LANG_PT_PAGE_NAME?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="top-content row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
