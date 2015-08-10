@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row gallery">
         <a href="javascript:void(0)" title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-            <img src="img/home/california-wow-banner-1.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
+            <img src="img/home/california-wow-banner-<?=$LANG?>.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
         </a>
     </div><!-- /.Top Banner -->    
     <div class="row top-content">
