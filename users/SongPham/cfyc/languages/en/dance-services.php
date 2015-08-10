@@ -3,8 +3,7 @@
 define("LANG_PAGE_NAME","dance-services");
 
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
-define("LANG_BANNER_TEXT_TOP","Discover");
-define("LANG_BANNER_TEXT_CONTENT","the beauty & excitement of Cali Dance");
+define("LANG_BANNER_TEXT_CONTENT","Discover the beauty & excitement of Cali Dance");
 define("LANG_BANNER_TEXT_SMALL","Experience a dance class today");
 define("LANG_BANNER_TEXT_CTA","Try a class");
 
