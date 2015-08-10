@@ -31,9 +31,10 @@ define("LANG_DA_NANG", "DA NANG");
 define("LANG_BINH_DUONG", "BINH DUONG");
 define("LANG_NEW_COMING", "COMING SOON");
 
-define("LANG_TRAINNER_1" , "<h3>ASSIM MANN<br/><span>QUẢN LÍ BỘ PHẬN YOGA</span></h3>
-							<p>Yoga luôn là sức mạnh dẫn dắt trong suốt cuộc đời tôi, kể từ khi được sinh ra tại Rishikesh, Ấn Độ, thủ đô của nền Yoga thế giới. Tâm nguyện của tôi là giúp các học viên đạt tới trình độ trải nghiệm Yoga vượt qua cả mong đợi của chính họ và trở nên điềm tĩnh với một tinh thần thanh thản, lạc quan. Được chứng kiến các học viên của mình không ngừng nâng cao sinh lực, sức khỏe cũng như niềm hạnh phúc luôn là món quà, là sự đền đáp mới mẻ và đầy thú vị đối với tôi.</p>
-							<p><strong>Bio: </strong><br/>Assim Mann đã nghiên cứu và học hỏi từ nhiều bậc thầy Yoga, nhưng anh đặc biệt biết ơn sư phụ Shri Bharat Singh (thầy dạy Yoga cho Kaivalyadhama) và Bramachari Rudra Dev – một trong những đệ tử chân truyền của Shri B.K.S Iyengar. Assim đã luyện tập Yoga hơn 15 năm. Anh cũng đam mê lướt internet, xem phim và chơi bóng đá.</p>");
+
+define("LANG_TRAINNER_1" , "<h3>Al Morgan<br/><span>Master Trainer</span></h3>
+							<p> 
+Al Morgan có hơn 25 năm kinh nghiệm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore và hiện nay là Việt Nam. Ông đã giúp cho hàng ngàn người thuộc mọi tầng lớp xã hội, từ những nhân vật nổi tiếng cho tới các vận động viên thể thao chuyên nghiệp, tạo ra những bước ngoặt ngoạn mục trong cuộc sống của họ. Ông có đủ quyền năng để thổi sức mạnh của sự thay đổi vào con người bạn, dù bạn là một siêu sao trong con mắt ngưỡng mộ của cả thế giới hay chỉ đơn giản là trong con mắt của nhân viên dưới quyền, của gia đình, của con cái. Al được Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ – tổ chức giáo dục thể chất hàng đầu thế giới – cấp bằng chứng nhận. Ông đem những kiến thức quý giá từ NASM truyền đạt lại cho tất cả các huấn luyện viên tại CFYC, để đảm bảo rằng mọi người đều đạt được thành tích tốt nhất một cách nhanh chóng và vững chắc.</p>");
 define("LANG_TRAINNER_2" , "<h3>TIỂU PHƯƠNG<br/><span>HLV CÁ NHÂN</span></h3>
                             <p><strong>PHONG CÁCH & CHUYÊN MÔN</strong><br/>
                             - Huấn luyện tốt về các phương pháp giảm cân và tăng cường thể lực, có thể huấn luyện các môn thể thao khác như: Bơi lội, Tennis, Bowling.</p>

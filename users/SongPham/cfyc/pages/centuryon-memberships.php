@@ -71,49 +71,49 @@
         </div><!--end row-->
         <div id="id_2" class="row top-content row-centered">
         <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1 ?></h2>
-        	<img src="../public/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
+        	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
             <div class="col-md-10 col-centered">
             	
                 <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT ?> </p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
-            	<img src="../public/img/centuryon-membership/centuryon-left1.jpg" class="img-responsive center-block">
+            	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-left1.jpg" class="img-responsive center-block">
             </div>
             <div class="col-md-4 col-centered col-xs-12">
-            	 <img src="../public/img/centuryon-membership/centuryon-center1.jpg" class="img-responsive center-block">
+            	 <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-center1.jpg" class="img-responsive center-block">
             </div>
             <div class="col-md-4 col-centered col-xs-12">
-            	<img src="../public/img/centuryon-membership/centuryon-right1.jpg" class="img-responsive center-block">
+            	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-right1.jpg" class="img-responsive center-block">
             </div>
         </div><!--end section_2-->
     </div><!-- section1/end container page-->
     <div id="id_3"class="row row-centered section3">
     	<div class="container-page">
     		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1 ?></h2>
-			<img src="../public/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
+			<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
 			<div class="col-md-10 col-centered">
 			</div>
 			<div class="content">
-				<img src="../public/img/centuryon-membership/quote.png" class="quote-left">
+				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-left">
 				<div class="text-box">
 					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4> 
 				</div>
-				<img src="../public/img/centuryon-membership/quote.png" class="quote-right">
+				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-right">
 			</div>
 			    	</div>
     </div> <!-- end section_3 -->
     <div id="id_4" class="container-page section4">
     	<div class="row row-centered">
     		<div class="col-md-4 col-centered col-xs-12">
-            	<img src="../public/img/centuryon-membership/centuryon-left2.jpg" class="img-responsive center-block">
+            	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-left2.jpg" class="img-responsive center-block">
             	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG1_DESC ?></p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
-            	 <img src="../public/img/centuryon-membership/centuryon-center2.jpg" class="img-responsive center-block">
+            	 <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-center2.jpg" class="img-responsive center-block">
             	 <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG2_DESC ?></p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
-            	<img src="../public/img/centuryon-membership/centuryon-right2.jpg" class="img-responsive center-block">
+            	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-right2.jpg" class="img-responsive center-block">
             	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC ?></p>
             </div>
             <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h2>
@@ -138,11 +138,11 @@
     	<div class="container-page">
     		<div class="row">
     			<div class="col-sm-5 col-sm-push-5 col-xs-12 col-xs-push-0">
-    				<img src="../public/img/centuryon-membership/quote-white.png" class="quote-left">
+    				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-left">
     				<div class="text-box">
     					<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_5_QUOTE ?></p>
     				</div>
-					<img src="../public/img/centuryon-membership/quote-white.png" class="quote-right">
+					<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-right">
     			</div>
     		</div>
     	</div>
@@ -151,10 +151,10 @@
     	<div class="row row-centered">
     		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_6_MAIN_TITLE1 ?></h2>
     		<div class="col-md-5 col-centered col-xs-12">
-				<img src="../public/img/centuryon-membership/centuryon-left3.jpg" class="img-responsive center-block">
+				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-left3.jpg" class="img-responsive center-block">
     		</div>
     		<div class="col-md-5 col-centered col-xs-12">
-    			<img src="../public/img/centuryon-membership/centuryon-right3.jpg" class="img-responsive center-block">
+    			<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-right3.jpg" class="img-responsive center-block">
     		</div>
     	</div>
     </div>
