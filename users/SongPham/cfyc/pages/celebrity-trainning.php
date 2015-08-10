@@ -33,7 +33,9 @@
                 <?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT ?>
             </div>
             <div class="col-md-5 col-md-offset-1 col-xs-12 video">
-                <img src='<?php echo USER_BASE_URL . "/img/celebrity-training/video.png" ?>' width='100%'>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vgICIwZkPbw"></iframe>
+                </div>            
             </div>
         </div>
 
@@ -59,397 +61,93 @@
 
     <div class="white-space-2x"></div>
 
-    <!-- BANNER -->
-    <div class="row banner">
-        <div class="text-content">
-            <h3><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></h3>
-            <p>You have the potential, we can help you reach it.</p>
+
+    <div class="trainers container-page">
+        <center><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></center>
+        <div class="tab-content teacher-detail">
+            <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
+                        <img class="img-responsive"
+                             src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="DJ">
+                        <span><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#trainer2" aria-controls="trainer2" role="tab" data-toggle="tab">
+                        <img class="img-responsive"
+                             src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_SMALL_IMG ?>" alt="DJ">
+                        <span><?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_NAME ?></span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#trainer3" aria-controls="trainer3" role="tab" data-toggle="tab">
+                        <img class="img-responsive"
+                             src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_SMALL_IMG ?>" alt="DJ">
+                        <span><?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_NAME ?></span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#trainer4" aria-controls="trainer4" role="tab" data-toggle="tab">
+                        <img class="img-responsive"
+                             src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_SMALL_IMG ?>" alt="DJ">
+                        <span><?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_NAME ?></span>
+                    </a>
+                </li>
+            </ul>
+           
+            <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                <div role="tabpanel" class="tab-pane active" id="trainer1">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                        <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="DJ">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                        <h3><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></h3>
+                        <h4><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></h4>
+                        <p></p>
+                        <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
+                    </div>
+                </div>
+                <div role="tabpane2" class="tab-pane" id="trainer2">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                        <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_BIG_IMG ?>" alt="DJ">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                        <h3><?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_NAME ?></h3>
+                        <h4><?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_JOB ?></h4>
+                        <p></p>
+                        <?php echo LANG_CELEBRITY_TRAINING_MEMBER_2_DESCIPRTION ?>
+                    </div>
+                </div>
+                <div role="tabpane3" class="tab-pane" id="trainer3">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                        <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_BIG_IMG ?>" alt="DJ">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                        <h3><?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_NAME ?></h3>
+                        <h4><?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_JOB ?></h4>
+                        <p></p>
+                        <?php echo LANG_CELEBRITY_TRAINING_MEMBER_3_DESCIPRTION ?>
+                    </div>
+                </div>
+                <div role="tabpane4" class="tab-pane" id="trainer4">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                        <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_BIG_IMG ?>" alt="DJ">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
+                        <h3><?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_NAME ?></h3>
+                        <h4><?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_JOB ?></h4>
+                        <p></p>
+                        <?php echo LANG_CELEBRITY_TRAINING_MEMBER_4_DESCIPRTION ?>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- END BANNER -->
-
-    <div class="white-space-2x"></div>
-
-    <!-- TRAINER LIST -->
-    <div class='row container-page'>
-
-        <!-- TRAINNER LIST -->
-        <div class="row trainer-list-block">
-
-            <!-- HCMC -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></div>
-                            <div class="trainer-job"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></div>
-                            <div class="description">
-                                <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></div>
-                            <div class="trainer-job"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></div>
-                            <div class="description">
-                                <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></div>
-                            <div class="trainer-job"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></div>
-                            <div class="description">
-                                <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></div>
-                            <div class="trainer-job"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></div>
-                            <div class="description">
-                                <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG ?>" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/<?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG ?>" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_NAME ?></div>
-                            <div class="trainer-job"><?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_JOB ?></div>
-                            <div class="description">
-                                <?php echo LANG_CELEBRITY_TRAINING_MEMBER_1_DESCIPRTION ?>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-            </ul>
-
-            <!-- HA NOI -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-5.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- DA NANG -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-5.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- BINH DUONG -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-5.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-            <!-- BIEN HOA -->
-            <ul class="pgwSlider">
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-1.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-2.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-3.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-4.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-                <li>
-                    <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/trainer-5.png" alt="">
-                    <span>
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/big-trainer-1.jpg" alt="">
-                        <div class="trainer-info">
-                            <div class="trainer-name">linh ta</div>
-                            <div class="trainer-job">master trainer</div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim eleifend porta. Vestibulum vel mi porta, sagittis odio vitae, faucibus odio. Nullam nulla est, efficitur non nisi ac, lacinia gravida diam. Aenean faucibus sapien sit amet gravida consectetur. Cras accumsan auctor porttitor. Vestibulum ut metus ullamcorper nunc cursus fermentum ac non nisi. Nulla dapibus eleifend pulvinar. Aenean sed malesuada tellus.</p>
-                            </div>
-                        </div>
-                    </span>
-                </li>
-
-            </ul>
-
-        </div>
-        <!-- END TRAINER LIST -->
 
     </div>
-    <!-- END TRAINER LIST -->
+
+
+
 
     <div class="white-space-2x"></div>
 
