@@ -171,15 +171,41 @@
         }
         .item {
             .box {
-                img {border : 1px solid #989898;padding: 10px;width: 100%;@include border-radius(50%);}
-                p {color: #333;text-align:center;margin: 15px 0;font-weight:bold;}
+                img {border : 1px solid #989898;padding: 10px;width: 100%;@include border-radius(50%);
+                     border-color: $red;
+                     -webkit-filter: grayscale(100%);
+                     -moz-filter: grayscale(100%);
+                     -ms-filter: grayscale(100%);
+                     -o-filter: grayscale(100%);
+                     filter: grayscale(100%);
+                     filter: url(grayscale.svg); /* Firefox 4+ */
+                     filter: gray; /* IE 6-9 */}
+                p {color: #333;text-align:center;margin: 15px 0;font-weight:bold;cursor: pointer;}
                 &:hover {
-                    img { border-color: $red;}
+                    img { 
+                        border-color: $red;
+                        -webkit-filter: initial;
+                        -moz-filter: initial;
+                        -ms-filter: initial;
+                        -o-filter: initial;
+                        filter: initial;
+                        filter: initial; /* Firefox 4+ */
+                        filter: initial;/* IE 6-9 */
+                    }
                     p {color: $red;}
                 }
             }
             .active {
-                img { border-color: $red; }
+                img { 
+                    border-color: $red; 
+                    -webkit-filter: initial;
+                    -moz-filter: initial;
+                    -ms-filter: initial;
+                    -o-filter: initial;
+                    filter: initial;
+                    filter: initial; /* Firefox 4+ */
+                    filter: initial;/* IE 6-9 */
+                }
                 p {color: $red;}
             }
         }
