@@ -8,8 +8,8 @@ define("LANG_MMA_KICKFIT_BANNER_TEXT_SMALL","Experience a Kickfit or MMA session
 define("LANG_MMA_KICKFIT_BANNER_TEXT_CTA","Try kick fit");
 define("LANG_MMA_KICKFIT_BANNER_TITLE","Visit us for a free membership trial today");
 
-define("LANG_MMA_KICKFIT_CALIDANCE","About Kick Fit and MMA");
-define("LANG_MMA_KICKFIT_CALIDANCE_CONTENT",'
+define("LANG_MMA_KICKFIT","About Kick Fit and MMA");
+define("LANG_MMA_KICKFIT_CONTENT",'
 <p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way
                     to a higher level of fitness.</p>
 <p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly
