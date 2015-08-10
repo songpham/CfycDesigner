@@ -260,6 +260,7 @@
             background-color: rgba(43,42,43,.9);
             li {
                 border-bottom: 1px #464646 solid;
+                &:last-child {border-bottom: none;}
                 a {
                     color: $white;
                     padding-top: 7px;
@@ -285,6 +286,7 @@
             left: 0;
             bottom: 0;
             padding : 40px 60px;
+            @media (max-width: 480px) {background: $black; position: relative;padding : 20px 20px;}
         }
         // Reset carousel-indicators class style
         .carousel-indicators {
