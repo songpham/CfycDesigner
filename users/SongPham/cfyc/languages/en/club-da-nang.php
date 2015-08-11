@@ -2,13 +2,13 @@
 define('LANG_CLUB_DA_NANG', 'DA NANG');
 
 // BANNER
-define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', 'DA NANG');
+define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in DA NANG CITY');
+define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', '');
 define('LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON', 'Find a club in Da Nang today');
 
 
 // DESCRIPTION 
-define('LANG_CLUB_DA_NANG_INTRODUCE', '');
+define('LANG_CLUB_DA_NANG_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Da Nang City. Since 2007 when our first five star location opened up in Hung Vuong Plaza, District 5, we have grown rapidly.');
 
 
 // CLUBS LIST

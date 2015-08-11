@@ -58,12 +58,13 @@
 	
     <div id="id_1" class="container-page">
         <div class="row video row-centered">
-            <div class="col-sm-5 col-xs-11 col-centered">
+            <div class="col-sm-5 col-xs-12 col-centered">
+            <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE ?></h2>
                 <div class="desc-video">
                     <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT ?></p>
                 </div>
             </div>
-            <div class="col-sm-5 col-xs-11 col-centered">
+            <div class="col-sm-5 col-xs-12 col-centered">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pTRNqXSpeto"></iframe>
                 </div>
@@ -138,11 +139,11 @@
     	<div class="container-page">
     		<div class="row">
     			<div class="col-sm-5 col-sm-push-5 col-xs-12 col-xs-push-0">
-    				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-left">
+    				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-left white">
     				<div class="text-box">
     					<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_5_QUOTE ?></p>
     				</div>
-					<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-right">
+					<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-right white">
     			</div>
     		</div>
     	</div>

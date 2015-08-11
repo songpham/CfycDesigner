@@ -4,13 +4,13 @@ define('LANG_CLUB_HCM', 'HO CHI MINH CITY');
 
 
 // BANNER
-define('LANG_CLUB_HCM_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_HCM_BANNER_SUB_TITLE', 'HO CHI MINH CITY');
+define('LANG_CLUB_HCM_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in HO CHI MINH CITY');
+define('LANG_CLUB_HCM_BANNER_SUB_TITLE', '');
 define('LANG_CLUB_HCM_BANNER_TEXT_BUTTON', 'Find a club in Ho Chi Minh today');
 
 
 // DESCRIPTION 
-define('LANG_CLUB_HCM_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Ho Chi Minh City. Since 2007 when our first five star location opened up in Houng Voung Plaza, District 5, we have grown rapidly.');
+define('LANG_CLUB_HCM_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Ho Chi Minh City. Since 2007 when our first five star location opened up in Hung Vuong Plaza, District 5, we have grown rapidly.');
 
 
 // CLUBS LIST

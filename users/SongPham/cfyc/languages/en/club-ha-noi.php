@@ -3,13 +3,13 @@
 define('LANG_CLUB_HA_NOI', 'HA NOI');
 
 // BANNER
-define('LANG_CLUB_HA_NOI_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_HA_NOI_BANNER_SUB_TITLE', 'HA NOI');
+define('LANG_CLUB_HA_NOI_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in HA NOI');
+define('LANG_CLUB_HA_NOI_BANNER_SUB_TITLE', '');
 define('LANG_CLUB_HA_NOI_BANNER_TEXT_BUTTON', 'Find a club in Ha Noi today');
 
 
 // DESCRIPTION 
-define('LANG_CLUB_HA_NOI_INTRODUCE', '');
+define('LANG_CLUB_HA_NOI_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Ha Noi Capital. Since 2007 when our first five star location opened up in Hung Vuong Plaza, District 5, we have grown rapidly.');
 
 
 // CLUBS LIST
