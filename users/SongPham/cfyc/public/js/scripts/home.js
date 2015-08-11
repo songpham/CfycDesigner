@@ -1,12 +1,16 @@
 var homePage = (function () {
 	var initModule = function () {
-		$(document).ready(function($){
+				$(document).ready(function($){
 			//trainner img click event. turn black & white images to color
 			$('.trainner_photo img').on('click',function(){
 				var trainner_name = $(this).attr('id');
 				$('.trainner_photo img,.trainner_text div').removeClass('active');
 				$(this).addClass('active');	
 				$('.trainner_text #'+trainner_name).addClass('active');
+				
+				$('html, body').animate({
+			        scrollTop: $("#"+trainner_name).offset().top - 80
+			    }, 2000);
 
 				/*var desc = $('.trainner_text #'+trainner_name).html();
 				$('.show_desc').html(desc);
