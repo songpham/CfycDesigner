@@ -36,26 +36,26 @@
 			 @media (max-width:550px) {
 				position: absolute;
 				margin: 0px auto;
-				bottom: 50px; 
+				bottom: 50px;
 				padding: 0px 10px;
 			 }
-		
+
 		 fieldset {
             position: relative;
             border: 1px solid $red;
-            padding:0 30px;
-            height:145px;
+            padding: 0 30px 30px;
+            height: auto;
             @media (max-width: 767px) {
                 padding: 10px 10px 20px 10px;
                 height:auto;
             }
             @media (max-width: 484px) {
-                
+
             }
             legend {
                 color: $red;
                 text-align: center;
-                width: auto; 
+                width: auto;
 				line-height: 1.1em;
 				text-transform: uppercase;
 				font-weight: 400;
@@ -63,7 +63,7 @@
                 margin-bottom: 0;
                 padding-left: 20px;
                 padding-right: 20px;
-               
+
                 @media (max-width: 2000px) {
                      font-size: 2vw;
                 }
@@ -74,7 +74,7 @@
 					line-height: 1.1em;
 					text-transform: uppercase;
 					font-weight: 400;
-					
+
 	                }
 	                @media (max-width:550px) {
 		              font-size: 6.4vw;
@@ -85,10 +85,10 @@
 		           @media (max-width: 767px) {
 		           		padding-bottom: 10px;
 		           		font-size: .79em;
-		           } 
+		           }
 	            }
 	            .red-btn {
-	            	
+
 	            	position: absolute;
 					  width: 100%;
 					  left: 0px;

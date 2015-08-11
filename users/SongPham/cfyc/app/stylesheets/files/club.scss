@@ -53,15 +53,15 @@
             @media (max-width:550px) {
                 position: absolute;
                 margin: 0px auto;
-                bottom: 50px; 
+                bottom: 50px;
                 padding: 0px 10px;
             }
 
             fieldset {
                 position: relative;
                 border: 1px solid $red;
-                padding:0 30px;
-                height: 220px;
+                padding: 0 30px 30px;
+                height: auto;
                 @media (max-width: 767px) {
                     padding: 10px 10px 20px 10px;
                     height:auto;
@@ -72,7 +72,7 @@
                 legend {
                     color: $red;
                     text-align: center;
-                    width: auto; 
+                    width: auto;
                     line-height: 1.1em;
                     text-transform: uppercase;
                     font-weight: 400;
@@ -98,11 +98,11 @@
                     }
                 }
                 hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
-                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 25px;
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 25px 0px;
                        @media (max-width: 767px) {
                            padding-bottom: 10px;
                            font-size: .79em;
-                       } 
+                       }
                 }
                 .red-btn {
                     .red-btn-inline {position: relative;text-align: center;}
@@ -134,7 +134,7 @@
                     }
                 }
             }
-        } 
+        }
         .carousel-caption {
             font-size: 40px;
             left: 10%;
@@ -171,9 +171,9 @@
             }
 
         }
-    } 
+    }
 
-    // CLUB TITLE 
+    // CLUB TITLE
     .block {
         .block-title {
             margin: 0;
@@ -181,7 +181,7 @@
             text-align: center;
             color: $red;
             letter-spacing: 1px;
-            font-weight: bold; 
+            font-weight: bold;
             @include font-size(2vw);
             @media screen and (min-width: 2000px) {@include font-size(35px);}
             @media screen and (max-width: 650px) {@include font-size(4vw);.title-text {padding: 0 10px !important;}}
@@ -195,15 +195,15 @@
                 top: 52%;
                 left: 10%;
                 z-index: 1;
-            }  
+            }
             @media screen and (max-width: 320px) {
-                &:after {width: 90%;left: 5%;} 
+                &:after {width: 90%;left: 5%;}
             }
             .title-text {
                 display: inline-block;
                 position: relative;
                 padding: 0 20px;
-                background: $white; 
+                background: $white;
                 z-index: 2;
                 @media screen and (max-width: 650px) {padding: 0 10px !important;}
                 @media (max-width: 517px) { max-width: 300px;}
@@ -226,7 +226,7 @@
             text-align: center;
             margin : 10px auto;
             float: none;
-            max-width: 1200px; 
+            max-width: 1200px;
             li {
                 float: none;
                 display: inline-block;

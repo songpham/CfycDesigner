@@ -11,7 +11,7 @@
 		-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 		transform: rotate(180deg);}
 	.text-box { max-width: 90%; margin: 0 auto;}
-       
+
 	.row.banner-top {
 		background:#000 url(../img/centuryon-membership/centuryon-membership-header.jpg) center top no-repeat;
 		position: relative;
@@ -40,25 +40,25 @@
 			 @media (max-width:550px) {
 				position: absolute;
 
-				bottom: 0px; 
+				bottom: 0px;
 			 }
-		
+
 		 fieldset {
             position: relative;
             border: 1px solid #f7e300;
-            padding:0 30px;
-            height:195px;
+            padding: 0 30px 30px;
+            height: auto;
             @media (max-width: 767px) {
                 padding: 10px 10px 20px 10px;
                 height:auto;
             }
             @media (max-width: 484px) {
-                
+
             }
             legend {
                 color: #f7e300;
                 text-align: center;
-                width: auto; 
+                width: auto;
 				line-height: 1.1em;
 				text-transform: uppercase;
 				font-weight: 400;
@@ -66,7 +66,7 @@
                 margin-bottom: 0;
                 padding-left: 20px;
                 padding-right: 20px;
-               
+
                 @media (max-width: 2000px) {
                      font-size: 2.4vw;
                 }
@@ -77,7 +77,7 @@
 					line-height: 1.1em;
 					text-transform: uppercase;
 					font-weight: 400;
-					
+
 	                }
 	                @media (max-width:550px) {
 		              font-size: 6.4vw;
@@ -88,7 +88,7 @@
 		           @media (max-width: 767px) {
 		           		padding-bottom: 10px;
 		           		font-size: .79em;
-		           } 
+		           }
 	            }
 	            .red-btn {
 	            	position: absolute;
@@ -119,50 +119,50 @@
 	            }
 	        }
 		}
-		
+
 	}
-	
+
 	.row.video {
 		padding-top: 50px;
 		.col-sm-5.col-centered { height: 300px; overflow: hidden;}
-		
+
 	}
-	
+
 	.row.top-content {
 		p {text-align: center;}
 	}
-	
+
 	.row.section3 {
-		background: url(../img/centuryon-membership/section1-bg.jpg) 0 205px no-repeat; background-size:100%; 
+		background: url(../img/centuryon-membership/section1-bg.jpg) 0 205px no-repeat; background-size:100%;
 		.col-md-10.col-centered {
 		p {text-align: center; text-transform: uppercase;}
 		}
-		.content { 
-			margin: 200px auto 0px auto; background:none; background: rgba(0,0,0, .6); width: 75%;position: relative; padding:50px 20px; 
+		.content {
+			margin: 200px auto 0px auto; background:none; background: rgba(0,0,0, .6); width: 75%;position: relative; padding:50px 20px;
 			}
 		}
-		
+
 		.container-page.section4{
 			.row.row-centered {
 				h4 {font-size: 19px;}
 				.col-md-4.col-centered.col-xs-12 {
-					margin-top: 50px; 
+					margin-top: 50px;
 					height:300px;
-					p {line-height: 1.7em; padding: 20px; }	
+					p {line-height: 1.7em; padding: 20px; }
 				}
 				p.title {padding-top: 50px;}
 			}
 				.col-md-3.col-centered.col-xs-12 {
 					margin-top: 50px; height:200px;overflow: hidden;
 					h4 {font-size: 20px; text-transform: uppercase; text-align: center;padding-bottom: 20px;}
-					p {line-height: 1.7em; text-align: center;}	
+					p {line-height: 1.7em; text-align: center;}
 					&:nth-child(4n) {
 						h4 { padding-bottom: 0px; }
 					}
 				}
-			
+
 		} /* Centuryon section2 */
-		
+
 		.section5 {
 			background: url(../img/centuryon-membership/centuryon-section3-bg.jpg) center top no-repeat; background-size:100%; min-height: 500px;
 				.col-sm-5.col-sm-push-5.col-xs-12.col-xs-push-0 {
@@ -170,19 +170,19 @@
 					padding: 20px 10px;
 					img.quote-left {top: 5%;}
 					.text-box {width: 84%; text-transform: uppercase;}
-					
+
 				}
 		} /* Centuryon section 3 */
 
 
-	
-	
+
+
 } /* end centuryon membership */
 
 @media (max-width:768px) {
 .container-fluid.page.centuryon-membership-cfy-page {
 	.row
-	.row.video{ 
+	.row.video{
 		.col-sm-5.col-centered{ height: auto; padding-bottom: 50px;
 			.embed-responsive.embed-responsive-16by9 { height:auto; padding-bottom: 0px;
 				.embed-responsive-item {position: relative; }
@@ -191,40 +191,40 @@
 	}
 
 	.row.section3 {
-		background: url(../img/centuryon-membership/m-section1-bg.jpg) 0 255px no-repeat; background-size:100%; 
+		background: url(../img/centuryon-membership/m-section1-bg.jpg) 0 255px no-repeat; background-size:100%;
 	.content { margin: 100px auto 0px auto; width: 100%;
-		
+
 	}
 		}
-		
+
 		.container-page.section4{
 			.row.row-centered {
 				.col-md-4.col-centered.col-xs-12 {
-					margin-top: 50px; 
-					p {line-height: 1.7em;}	
+					margin-top: 50px;
+					p {line-height: 1.7em;}
 				}
 				p.title {padding-top: 50px;}
 			}
 				.col-md-3.col-centered.col-xs-12 {
 					margin-top: 50px; height:auto;overflow: hidden; height: auto; width: 90%; max-width: 300px;
 					h4 {font-size: 23px; text-transform: uppercase; text-align: center;}
-					p {line-height: 1.7em; text-align: center;}	
+					p {line-height: 1.7em; text-align: center;}
 				}
-			
+
 		} /* Centuryon section2 */
 		.section5 {
 			background: url(../img/centuryon-membership/m-centuryon-section3-bg.jpg) center top no-repeat; background-size:contain ; min-height: 500px;
-			
+
 		}
-		
+
 	} /* main container */
-	
+
 } /* end query 768 */
 
 @media (max-width:414px) {
 .container-fluid.page.centuryon-membership-cfy-page {
 	.row.section3 {
-	
+
 		.content { margin: 200px auto 0px auto; width: 100%; padding: 0px 10px 20px 10px;
 			img.quote-left {left:0%; top:0%; ;}
 			img.quote-right {right:3%; bottom:9%;}
@@ -234,9 +234,9 @@
 					.col-sm-5.col-sm-push-5.col-xs-12.col-xs-push-0 {
 						margin-top: 200px;
 						.text-box {width: 78%;}
-						
+
 					}
 				} /* Centuryon section 3 */
 	} /* main container */
-	
+
 }
