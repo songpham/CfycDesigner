@@ -1,24 +1,19 @@
 <div class="container-fluid page <?=LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php';?>
-    <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS?>/top-banner.jpg" alt="<?=LANG_DYNAMIC_STRETCHING_BANNER_TITLE_DS?>">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend><?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_TOP_DS?></legend>
-                            <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS?><br>
-                            <span><?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS?></span>
-                            <a class="cta" href="#form" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>"><?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?></a>
-                        </fieldset>
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS?></legend>
+                <hr/>
+                <span>
+                    <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#form" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>"> <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?></a>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
-
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">

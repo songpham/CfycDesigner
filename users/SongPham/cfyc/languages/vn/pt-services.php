@@ -2,11 +2,9 @@
 
 define("LANG_PT_PAGE_NAME_PT","pt-services");
 
-define("LANG_PT_BANNER_TEXT_TOP_PT","lose weight,");
-define("LANG_PT_BANNER_TEXT_CONTENT_PT","build muscle & get your dream body");
-define("LANG_PT_BANNER_TEXT_SMALL_PT","get a free personal training consultation today");
-define("LANG_PT_BANNER_TEXT_CTA_PT","Meet a trainer");
-define("LANG_PT_BANNER_TITLE_PT","Visit us for a free membership trial today");
+define("LANG_PT_BANNER_TEXT_CONTENT_PT","Giảm cân, tăng cơ và sở hữu cơ thể ước mơ trong thời gian ngắn nhất");
+define("LANG_PT_BANNER_TEXT_SMALL_PT","đăng ký nhận tư vấn thể chất miễn phí cùng HLV cá nhân ngay hôm nay");
+define("LANG_PT_BANNER_TEXT_CTA_PT","Đặt lịch hẹn");
 
 define("LANG_PT_CALIDANCE_PT","A personal trainer is two things");
 define("LANG_PT_CALIDANCE_CONTENT_PT",'

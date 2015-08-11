@@ -1,123 +1,105 @@
-<div class="container-fluid page yoga-services-page">
+<div class="container-fluid page <?=LANG_YOGA_PAGE_NAME?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-    <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/top-banner-1.jpg" alt="Dance Services">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>Discover</legend>
-                            the healing power of yoga<br>
-                            <span>Experience a yoga class today</span>
-                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?=LANG_YOGA_BANNER_TEXT_CONTENT?></legend>
+                <hr/>
+                <span>
+                    <?=LANG_YOGA_BANNER_TEXT_SMALL?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#form" title="<?=LANG_YOGA_BANNER_TEXT_CTA?>"> <?=LANG_YOGA_BANNER_TEXT_CTA?></a>
                 </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/top-banner-1.jpg" alt="Dance Services">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>Discover</legend>
-                            the healing power of yoga<br>
-                            <span>Experience a yoga class today</span>
-                            <a class="cta" href="#form" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
-                    </div>
-                </div>
-            </div>
+            </fieldset>
         </div>
     </div>
-
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div>About yoga<div class="line"></div></h2>
+            <h2><div class="line"></div><?=LANG_YOGA_CALIDANCE?><div class="line"></div></h2>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over
-                    2,000 sqm of internationally-designed studios and lounges.   Practice under the guidance of
-                    authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set
-                    at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga
-                    including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much
-                    more.</p>
-
+                <?=LANG_YOGA_CALIDANCE_CONTENT?>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/Ol1nuRXaVcM" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" height="200" src="<?=LANG_YOGA_YOUTUBE?>" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div>What are the benefits of yoga?<div class="line"></div></h2>
-        <p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects,
-            including improved health and balance, spiritual awareness, restored vitality and energy, stress management,
-            enhanced flexibility and weight management.</p>
-        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and
-            programs</p>
+        <h2><div class="line"></div><?=LANG_YOGA_BENEFIT?><div class="line"></div></h2>
+        <?=LANG_YOGA_BENEFIT_CONTENT?>
+        <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="Dance is fun">
-                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/benefit-1.jpg" alt="Dance Services">
+            <a href="#" title="<?=LANG_YOGA_BENEFIT?>">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/benefit1.jpg" alt="<?=LANG_YOGA_BENEFIT?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="Your environment">
-                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/benefit-2.jpg" alt="Dance Services">
+            <a href="#" title="<?=LANG_YOGA_BENEFIT?>">
+                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/benefit2.jpg" alt="<?=LANG_YOGA_BENEFIT?>">
             </a>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="discover row">
-        <h2><div class="line"></div>Discover yoga at California Fitness<div class="line"></div></h2>
+        <h2><div class="line"></div><?=LANG_YOGA_DISCOVER?><div class="line"></div></h2>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
+        <div class="dropdown visible-xs">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li role="presentation">
+                    <a href="#<?=LANG_YOGA_DISCOVER_TAB1_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB1_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB1_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_YOGA_DISCOVER_TAB2_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB2_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB2_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_YOGA_DISCOVER_TAB3_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB3_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB3_TITLE?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_YOGA_DISCOVER_TAB4_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB4_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB4_TITLE?></a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="nav nav-tabs hidden-xs" role="tablist">
             <li role="presentation" class="active">
-                <a href="#sunseries" aria-controls="sunseries" role="tab" data-toggle="tab">Sun-series (M)</a>
+                <a href="#<?=LANG_YOGA_DISCOVER_TAB1_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB1_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB1_TITLE?></a>
             </li>
             <li role="presentation">
-                <a href="#moonseries" aria-controls="moonseries" role="tab" data-toggle="tab">MOON–SERIES: (M)</a>
+                <a href="#<?=LANG_YOGA_DISCOVER_TAB2_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB2_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB2_TITLE?></a>
             </li>
             <li role="presentation">
-                <a href="#gentle" aria-controls="gentle" role="tab" data-toggle="tab">GENTLE YOGA: (M)</a>
+                <a href="#<?=LANG_YOGA_DISCOVER_TAB3_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB3_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB3_TITLE?></a>
             </li>
             <li role="presentation">
-                <a href="#mediation" aria-controls="mediation" role="tab" data-toggle="tab">MEDIATION: (M)</a>
+                <a href="#<?=LANG_YOGA_DISCOVER_TAB4_ID?>" aria-controls="<?=LANG_YOGA_DISCOVER_TAB4_ID?>" role="tab" data-toggle="tab"><?=LANG_YOGA_DISCOVER_TAB4_TITLE?></a>
             </li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="sunseries">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img class="img-responsive hidden-xs"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-1.jpg" alt="Dance Services">
-                            <img class="img-responsive visible-xs"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-mobile.jpg" alt="Dance Services">
-                            <div class="carousel-caption">
-                                <h3>SUN-SERIES</h3>
-                                <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-                                <p> A powerful series for people looking for a more challenging yoga and work out. This
-                                    is a great cardio, strength and endurance class. Burn more calories than a two hours cardio work out.
-                                    For a slim, strong, toned
-                                    and flexible body</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div role="tabpanel" class="tab-pane active" id="<?=LANG_YOGA_DISCOVER_TAB1_ID?>">
+                <div class="container"><?=LANG_YOGA_DISCOVER_TAB1_CONTENT?></div>
             </div>
-            <div role="tabpanel" class="tab-pane" id="moonseries">moonseries</div>
-            <div role="tabpanel" class="tab-pane" id="gentle">gentle yoga</div>
-            <div role="tabpanel" class="tab-pane" id="mediation">mediation</div>
+            <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_DISCOVER_TAB2_ID?>">
+                <div class="container"><?=LANG_YOGA_DISCOVER_TAB2_CONTENT?></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_DISCOVER_TAB3_ID?>">
+                <div class="container"><?=LANG_YOGA_DISCOVER_TAB3_CONTENT?></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_DISCOVER_TAB4_ID?>">
+                <div class="container"><?=LANG_YOGA_DISCOVER_TAB4_CONTENT?></div>
+            </div>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <h2><div class="line"></div>THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED<div class="line"></div></h2>
+        <h2><div class="line"></div><?=LANG_YOGA_ENVIRONMENT?><div class="line"></div></h2>
         <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -129,149 +111,151 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/school.jpg" alt="<?=LANG_YOGA_ENVIRONMENT?>">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/school.jpg" alt="<?=LANG_YOGA_ENVIRONMENT?>">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/school.jpg" alt="<?=LANG_YOGA_ENVIRONMENT?>">
                 </div>
                 <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/yoga-services/discover-2-1.jpg" alt="School">
+                    <img src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/school.jpg" alt="<?=LANG_YOGA_ENVIRONMENT?>">
                 </div>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div>Say hello to some of our authentic Indian Yoga Masters<div class="line"></div></h2>
-        <center>To guarantee the authenticity of your yoga experience, all programs are taught by 100% foreign, Indian Yogi’s</center>
-        <ul class="nav nav-tabs area" role="tablist">
-            <li role="presentation" class="active">
-                <a href="#hcmc" aria-controls="hcmc" role="tab" data-toggle="tab">HCMC</a>
-            </li>
-            <li role="presentation">
-                <a href="#hanoi" aria-controls="hanoi" role="tab" data-toggle="tab">HA NOI</a>
-            </li>
-            <li role="presentation">
-                <a href="#danang" aria-controls="danang" role="tab" data-toggle="tab">DA NANG</a>
-            </li>
-            <li role="presentation">
-                <a href="#binhduong" aria-controls="binhduong" role="tab" data-toggle="tab">BINH DUONG</a>
-            </li>
-            <li role="presentation">
-                <a href="#bienhoa" aria-controls="bienhoa" role="tab" data-toggle="tab">BIEN HOA</a>
-            </li>
-        </ul>
+        <h2><div class="line"></div><?=LANG_YOGA_TRAINER_TITLE?><div class="line"></div></h2>
+        <center><?=LANG_YOGA_TRAINER_SUB?></center>
         <div class="tab-content teacher-detail">
-            <div role="tabpanel" class="tab-pane active">
+            <div role="tabpanel" class="tab-pane active" id="hcmc">
                 <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
                     <li role="presentation" class="active">
-                        <a href="#trainer1" aria-controls="trainer1" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-1.png" alt="DJ">
-                            <span>KAMLESH</span>
+                        <a href="#<?=LANG_YOGA_TRAINER1_ID?>" aria-controls="<?=LANG_YOGA_TRAINER1_ID?>" role="tab" data-toggle="tab">
+                            <img class="img-responsive img-circle"
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-1.png" alt="<?=LANG_YOGA_TRAINER1_TITLE?>">
+                            <span><?=LANG_YOGA_TRAINER1_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
-                        <a href="#trainer2" aria-controls="trainer2" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-2.png" alt="DJ">
-                            <span>SRIRAM</span>
+                        <a href="#<?=LANG_YOGA_TRAINER2_ID?>" aria-controls="<?=LANG_YOGA_TRAINER2_ID?>" role="tab" data-toggle="tab">
+                            <img class="img-responsive img-circle"
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-2.png" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
+                            <span><?=LANG_YOGA_TRAINER2_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
-                        <a href="#trainer3" aria-controls="trainer3" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-3.png" alt="DJ">
-                            <span>VIRAT</span>
+                        <a href="#<?=LANG_YOGA_TRAINER3_ID?>" aria-controls="<?=LANG_YOGA_TRAINER3_ID?>" role="tab" data-toggle="tab">
+                            <img class="img-responsive img-circle"
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-3.png" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
+                            <span><?=LANG_YOGA_TRAINER3_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
-                        <a href="#trainer4" aria-controls="trainer4" role="tab" data-toggle="tab">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-avatar-4.png" alt="DJ">
-                            <span>AJAY</span>
+                        <a href="#<?=LANG_YOGA_TRAINER4_ID?>" aria-controls="<?=LANG_YOGA_TRAINER4_ID?>" role="tab" data-toggle="tab">
+                            <img class="img-responsive img-circle"
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-4.png" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
+                            <span><?=LANG_YOGA_TRAINER4_TITLE?></span>
                         </a>
                     </li>
                 </ul>
                 <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                    <div role="tabpanel" class="tab-pane active" id="trainer1">
+                    <div role="tabpanel" class="tab-pane active" id="<?=LANG_YOGA_TRAINER1_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="DJ">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER1_TITLE?>">
                         </div>
-                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
-                            <h3>KAMLESH</h3>
-                            <h4>HLV CẤP CAO</h4>
-                            <p></p>
-                            <p>BẰNG CẤP & THÀNH TÍCH<br>
-                            - Quán quân cuộc thi State Yoga Championship năm 2008 & 2009.<br>
-                            - Giải 3 cuộc thi India Open Yoga Championship năm 2007, All India Inter School & club Yoga championship năm 2007 (Yoga Ananda) & 2008 (World Yoga Society).
-                            </p>
-                            <p></p>
-                            <p>KINH NGHIỆM<br>
-                            - 5 năm giảng dạy Yoga tại các Trung tâm ở Ấn Độ.
-                            </p>
-                            <p></p>
-                            <p>
-                            HƯỚNG DẪN CÁC LỚP<br>
-                            - Asana & Pranyama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.
-                            </p>
-                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER1_CONTENT?></div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="trainer2">
+                    <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER2_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive"
-                                 src="<?php echo USER_BASE_URL ?>/img/yoga-services/trainer-1.jpg" alt="DJ">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
                         </div>
-                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont">
-                            <h3>KAMLESH</h3>
-                            <h4>HLV CẤP CAO</h4>
-                            <p></p>
-                            <p>BẰNG CẤP & THÀNH TÍCH<br>
-                                - Quán quân cuộc thi State Yoga Championship năm 2008 & 2009.<br>
-                                - Giải 3 cuộc thi India Open Yoga Championship năm 2007, All India Inter School & club Yoga championship năm 2007 (Yoga Ananda) & 2008 (World Yoga Society).
-                            </p>
-                            <p></p>
-                            <p>KINH NGHIỆM<br>
-                                - 5 năm giảng dạy Yoga tại các Trung tâm ở Ấn Độ.
-                            </p>
-                            <p></p>
-                            <p>
-                                HƯỚNG DẪN CÁC LỚP<br>
-                                - Asana & Pranyama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.
-                            </p>
-                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER2_CONTENT?></div>
                     </div>
+                    <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER3_ID?>">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER3_CONTENT?></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER4_ID?>">
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER4_CONTENT?></div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-
     </div>
     <div class="clearfix"></div>
-
     <div class="yogi container">
-        <h2><div class="line"></div>Do you want a more exclusive, authentic yoga experience?<div class="line"></div></h2>
-        <p>
-        <center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing
-            you to fully embrace your yoga journey under the completely personalized direction of your yoga master.
-        </center>
-        </p>
+        <h2><div class="line"></div><div class="line"></div></h2>
+
         <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 firstcol">
-            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-1.jpg" alt="">
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/yogi-1.jpg" alt="">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 secondcol">
-            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-2.jpg" alt="">
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/yogi-2.jpg" alt="">
             <br>
-            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/yoga-services/yogi-3.jpg" alt="">
+            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/yogi-3.jpg" alt="">
         </div>
     </div>
-
+    <div class="clearfix"></div>
     <div class="contactform container">
-        <form id="form"></form>
+        <div class="row" id="form">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="booktitle">book a vip visit today</h2>
+                    <h3 class="visit_benefit">
+                        <span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
+                        <strong>- EXCLUSIVE TOUR</strong><br/>
+                        <span>(Learn about all features, programs and equipment available)</span><br/><br/>
+                        <strong>- PT FITNESS CONSULTATION</strong><br/>
+                        <span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
+                        <strong>- FULL DAY ACCESS</strong><br/>
+                        <span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
+                        <span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>
+                    </h3>
+                    <div class="row registerfrm text-left">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Full name:</label>
+                            <p><input type="text" placeholder="Full Name" name="full_name"></p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Phone number:</label>
+                            <p><input type="text" placeholder="Phone Number" name="phone_number"></p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Email:</label>
+                            <p><input type="text" placeholder="Email Address" name="email_add"></p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Choose your nearest club:</label>
+                            <p>
+                                <select name="nearest_club">
+                                    <option>Choose a club</option>
+                                    <option>HCMC DISTRICT 1</option>
+                                    <option>HCMC DISTRICT 4</option>
+                                    <option>HCMC DISTRICT 5</option>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row registerfrm">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10">
+                            <input type="submit" class="submitbtn" value="book a vip visit">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
+                    </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+        </div>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

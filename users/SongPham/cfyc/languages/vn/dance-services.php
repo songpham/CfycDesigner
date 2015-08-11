@@ -3,9 +3,9 @@
 define("LANG_DANCE_PAGE_NAME","dance-services");
 
 define("LANG_DANCE_BANNER_TITLE","Visit us for a free membership trial today");
-define("LANG_DANCE_BANNER_TEXT_CONTENT","Discover the beauty & excitement of Cali Dance");
-define("LANG_DANCE_BANNER_TEXT_SMALL","Experience a dance class today");
-define("LANG_DANCE_BANNER_TEXT_CTA","Try a class");
+define("LANG_DANCE_BANNER_TEXT_CONTENT","Khám phá vẻ đẹp và sự hứng khởi của vũ điệu Cali dance");
+define("LANG_DANCE_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay");
+define("LANG_DANCE_BANNER_TEXT_CTA","Đăng ký tập thử");
 
 define("LANG_DANCE_CALIDANCE","Các lớp nhảy Cali Dance");
 define("LANG_DANCE_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br>

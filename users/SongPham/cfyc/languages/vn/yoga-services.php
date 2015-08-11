@@ -1,66 +1,66 @@
 <?php
 
-define("LANG_DANCE_PAGE_NAME","dance-services");
+define("LANG_YOGA_PAGE_NAME","yoga-services");
 
-define("LANG_DANCE_BANNER_TEXT_CONTENT","Discover the beauty & excitement of Cali Dance");
-define("LANG_DANCE_BANNER_TEXT_SMALL","Experience a dance class today");
-define("LANG_DANCE_BANNER_TEXT_CTA","Try a class");
+define("LANG_YOGA_BANNER_TITLE","Visit us for a free membership trial today");
+define("LANG_YOGA_BANNER_TEXT_CONTENT","Khám phá vẻ đẹp và sự hứng khởi của vũ điệu Cali dance");
+define("LANG_YOGA_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay");
+define("LANG_YOGA_BANNER_TEXT_CTA","Đăng ký tập thử");
 
-define("LANG_DANCE_CALIDANCE","About Cali Dance");
-define("LANG_DANCE_CALIDANCE_CONTENT",'Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!<br>
-Dance your way to cardio fitness with over 10 different dance programs available. Party your way to fitness with the red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of the Belly Dance.<br>
-Enjoy new and exciting Sh’bam dance classes incorporating the latest hip hop moves or participate in core and body sculpting pole dance classes. Follow your desires and discover which class is best for you!
-');
-define("LANG_DANCE_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
-
-define("LANG_DANCE_BENEFIT","What are the benefits of Cali Dance?");
-define("LANG_DANCE_BENEFIT_CONTENT","Dance provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.<br>
-All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes
+define("LANG_YOGA_CALIDANCE","Các lớp nhảy Cali Dance");
+define("LANG_YOGA_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br>
+Hiện nay, với hơn 10 chương trình nhảy đủ mọi thể loại, việc đốt cháy năng lượng dư thừa sẽ trở nên thú hơn bao giờ hết. Hãy phiêu cùng các vũ điệu La-tinh, giải phóng cơ thể cùng các bước nhảy uyển chuyển đầy quyến rũ của Zumba. Khám phá cơ thể qua những chuyển động tinh tế của cơ thể với lớp múa bụng ấn tượng!<br>
+Tham gia vào lớp nhảy Sh’bam với các điệu nhảy mới được kết hợp với các điệu nhảy hiphop trẻ trung hay tập luyện vùng cơ bụng hiệu quả và tạo dáng ấn tượng cùng lớp Múa cột. Hãy khám phá và theo đuổi những điệu nhảy tốt nhất ngay hôm nay!
 ");
+define("LANG_YOGA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
-define("LANG_DANCE_DISCOVER","Discover dance at California Fitness & Yoga");
-define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA (M)");
-define("LANG_DANCE_DISCOVER_TAB1_ID","zumba");
-define("LANG_DANCE_DISCOVER_TAB1_CONTENT","
+define("LANG_YOGA_BENEFIT","Các lớp học nhảy tại Cali mang đến lợi ích gì cho bạn?");
+define("LANG_YOGA_BENEFIT_CONTENT","Các điệu nhảy sẽ giúp bạn nhanh nhẹn hơn, bên cạnh đó, sự đa dạng và sôi động của lớp học sẽ giúp bạn gắn kết hơn với các học viên khác, vừa giữ gìn sức khỏe vừa có những khoảnh khắc vui tươi.<br>
+Tất cả các hội viên của trung tâm at California Fitness & Yoga đều có quyền tham gia bất kì các lớp học nhảy GroupX, không giới hạn số lượng lớp tham gia
+");
+define("LANG_YOGA_DISCOVER","Khám phá các lớp học nhảy tại California Fitness and Yoga");
+define("LANG_YOGA_DISCOVER_TAB1_TITLE","ZUMBA (M)");
+define("LANG_YOGA_DISCOVER_TAB1_ID","zumba");
+define("LANG_YOGA_DISCOVER_TAB1_CONTENT",'
 <h3>ZUMBA</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p> The ZUMBA program fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program that will blow you away.</p>
-");
-define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM (M)");
-define("LANG_DANCE_DISCOVER_TAB2_ID","bodyjam");
-define("LANG_DANCE_DISCOVER_TAB2_CONTENT","
+<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+');
+define("LANG_YOGA_DISCOVER_TAB2_TITLE","BODY JAM (M)");
+define("LANG_YOGA_DISCOVER_TAB2_ID","bodyjam");
+define("LANG_YOGA_DISCOVER_TAB2_CONTENT",'
 <h3>BODY JAM</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>BODYJAM® is the cardio workout where you are free to enjoy the sensation of dance. An addictive fusion of the latest dance styles and hottest new sounds puts the emphasis as much on having fun as breaking a sweat. We'll bring the moves, you bring the attitude.</p>
-");
-define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
-define("LANG_DANCE_DISCOVER_TAB3_ID","sexydance");
-define("LANG_DANCE_DISCOVER_TAB3_CONTENT",'
+<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+');
+define("LANG_YOGA_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
+define("LANG_YOGA_DISCOVER_TAB3_ID","sexydance");
+define("LANG_YOGA_DISCOVER_TAB3_CONTENT",'
 <h3>SEXY DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Have you ever dreamed of dancing like a world famous diva? Learn the basics so you can strut your stuff with absolute confidence with our Sexy Dance classes in our fun and exciting classes. Looking good was never this much fun.</p>
+<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
-define("LANG_DANCE_DISCOVER_TAB4_ID","poledance");
-define("LANG_DANCE_DISCOVER_TAB4_CONTENT",'
+define("LANG_YOGA_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
+define("LANG_YOGA_DISCOVER_TAB4_ID","poledance");
+define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
 <h3>POLE DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>A rigorous work-out that gradually builds all-over strength and body-tone. It boosts your self-confidence and expression as you master the moves in a fun, exciting environment!.... Pole Dancing for fitness is taking the world by storm! What are you waiting for?</p>
+<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
-define("LANG_DANCE_DISCOVER_TAB5_ID","salsa");
-define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
+define("LANG_YOGA_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
+define("LANG_YOGA_DISCOVER_TAB5_ID","salsa");
+define("LANG_YOGA_DISCOVER_TAB5_CONTENT",'
 <h3>SALSA & LATIN DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Hot, Sensual and Fun. These classes will get your hips moving as you let loose your inhibitions and dance the night away. Leave the stress at the door and join our fun and exciting dance groups.</p>
+<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
 ');
-define("LANG_DANCE_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
-define("LANG_DANCE_TRAINER_TITLE","Meet our featured dance teachers");
-define("LANG_DANCE_TRAINER_SUB","You have the potential, we can help you reach it.");
+define("LANG_YOGA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_YOGA_TRAINER_TITLE","Meet our featured dance teachers");
+define("LANG_YOGA_TRAINER_SUB","You have the potential, we can help you reach it.");
 
-define("LANG_DANCE_TRAINER1_TITLE","DJ");
-define("LANG_DANCE_TRAINER1_ID","trainer1");
-define("LANG_DANCE_TRAINER1_CONTENT",'
+define("LANG_YOGA_TRAINER1_TITLE","DJ");
+define("LANG_YOGA_TRAINER1_ID","trainer1");
+define("LANG_YOGA_TRAINER1_CONTENT",'
 <h3>DJ</h3>
 <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
 <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -69,9 +69,9 @@ define("LANG_DANCE_TRAINER1_CONTENT",'
 <p></p>
 <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
 ');
-define("LANG_DANCE_TRAINER2_TITLE","TYLER LY");
-define("LANG_DANCE_TRAINER2_ID","trainer2");
-define("LANG_DANCE_TRAINER2_CONTENT",'
+define("LANG_YOGA_TRAINER2_TITLE","TYLER LY");
+define("LANG_YOGA_TRAINER2_ID","trainer2");
+define("LANG_YOGA_TRAINER2_CONTENT",'
 <h3>TYLER LY</h3>
 <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
 <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -80,9 +80,9 @@ define("LANG_DANCE_TRAINER2_CONTENT",'
 <p></p>
 <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
 ');
-define("LANG_DANCE_TRAINER3_TITLE","GENESIS");
-define("LANG_DANCE_TRAINER3_ID","trainer3");
-define("LANG_DANCE_TRAINER3_CONTENT",'
+define("LANG_YOGA_TRAINER3_TITLE","GENESIS");
+define("LANG_YOGA_TRAINER3_ID","trainer3");
+define("LANG_YOGA_TRAINER3_CONTENT",'
 <h3>GENESIS</h3>
 <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
 <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -91,9 +91,9 @@ define("LANG_DANCE_TRAINER3_CONTENT",'
 <p></p>
 <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
 ');
-define("LANG_DANCE_TRAINER4_TITLE","KATSU");
-define("LANG_DANCE_TRAINER4_ID","trainer4");
-define("LANG_DANCE_TRAINER4_CONTENT",'
+define("LANG_YOGA_TRAINER4_TITLE","KATSU");
+define("LANG_YOGA_TRAINER4_ID","trainer4");
+define("LANG_YOGA_TRAINER4_CONTENT",'
 <h3>KATSU</h3>
 <h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
 <p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
@@ -102,4 +102,3 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 <p></p>
 <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
 ');
-

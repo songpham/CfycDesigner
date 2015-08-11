@@ -2,11 +2,9 @@
 
 define("LANG_PAGE_NAME_PTX","ptx-services");
 
-define("LANG_BANNER_TEXT_TOP_PTX","Small group");
-define("LANG_BANNER_TEXT_CONTENT_PTX","personal training extreme");
-define("LANG_BANNER_TEXT_SMALL_PTX","Experience a PTX2 session today");
-define("LANG_BANNER_TEXT_CTA_PTX","Try a class");
-define("LANG_BANNER_TITLE_PTX","Visit us for a free membership trial today");
+define("LANG_BANNER_TEXT_CONTENT_PTX","Tập luyện cùng bạn bè dưới sự hướng dẫn của HLV cá nhân");
+define("LANG_BANNER_TEXT_SMALL_PTX","Đăng ký để trải nghiệm 1 buổi tập PTX2 ngay hôm nay");
+define("LANG_BANNER_TEXT_CTA_PTX","Tập thử 1 lớp");
 
 define("LANG_CALIDANCE_PTX","Về PTX2");
 define("LANG_CALIDANCE_CONTENT_PTX",'

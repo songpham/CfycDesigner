@@ -2,11 +2,9 @@
 
 define("LANG_KICKFIT_MMA_PAGE_NAME","kickfit-mma-services");
 
-define("LANG_KICKFIT_MMA_BANNER_TEXT_TOP","Unleash");
-define("LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT","the warrior within you");
-define("LANG_KICKFIT_MMA_BANNER_TEXT_SMALL","Experience a Kickfit or MMA session today");
-define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Try kick fit");
-define("LANG_KICKFIT_MMA_BANNER_TITLE","Visit us for a free membership trial today");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT","giải phóng chiến binh bên trong bạn");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_SMALL","Trải nghiệm một lớp kickfit hoặc mma ngay hôm nay");
+define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Đăng ký tập thử");
 
 define("LANG_KICKFIT_MMA_CALIDANCE","About Kick Fit and MMA");
 define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'

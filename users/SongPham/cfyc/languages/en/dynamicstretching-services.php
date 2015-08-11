@@ -2,11 +2,9 @@
 
 define("LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS","dynamicstretching-services");
 
-define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_TOP_DS","Heal yourself");
-define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","and enjoy the relaxing moment");
+define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","Heal yourself and enjoy the relaxing moment");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS","experience the alleviation of muscle <br>and join tension today");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS","Try a class");
-define("LANG_DYNAMIC_STRETCHING_BANNER_TITLE_DS","Visit us for a free membership trial today");
 
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","About Dynamic Stretching");
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS",'

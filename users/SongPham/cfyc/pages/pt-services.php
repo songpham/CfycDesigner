@@ -1,21 +1,17 @@
 <div class="container-fluid page <?=LANG_PT_PAGE_NAME_PT?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php';?>
-    <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/top-banner.jpg" alt="<?=LANG_PT_BANNER_TITLE_PT?>">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend><?=LANG_PT_BANNER_TEXT_TOP_PT?></legend>
-                            <?=LANG_PT_BANNER_TEXT_CONTENT_PT?><br>
-                            <span><?=LANG_PT_BANNER_TEXT_SMALL_PT?></span>
-                            <a class="cta" href="#form" title="<?=LANG_PT_BANNER_TEXT_CTA_PT?>"><?=LANG_PT_BANNER_TEXT_CTA_PT?></a>
-                        </fieldset>
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?=LANG_PT_BANNER_TEXT_CONTENT_PT?></legend>
+                <hr/>
+                <span>
+                    <?=LANG_PT_BANNER_TEXT_SMALL_PT?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#form" title="<?=LANG_PT_BANNER_TEXT_CTA_PT?>"> <?=LANG_PT_BANNER_TEXT_CTA_PT?></a>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
 

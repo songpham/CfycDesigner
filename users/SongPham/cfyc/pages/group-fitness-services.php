@@ -49,7 +49,28 @@
     <div class="discover row">
         <h2><div class="line"></div><?=LANG_GROUP_DISCOVER_GROUP?><div class="line"></div></h2>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
+        <div class="dropdown visible-xs" role="tablist">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li role="presentation">
+                    <a href="#<?=LANG_GROUP_DISCOVER_TAB1_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB1_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_GROUP_DISCOVER_TAB2_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB2_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB2_TITLE_GROUP?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_GROUP_DISCOVER_TAB3_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB3_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB3_TITLE_GROUP?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_GROUP_DISCOVER_TAB4_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB4_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB4_TITLE_GROUP?></a>
+                </li>
+                <li role="presentation">
+                    <a href="#<?=LANG_GROUP_DISCOVER_TAB5_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB5_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB5_TITLE_GROUP?></a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav nav-tabs hidden-xs" role="tablist">
             <li role="presentation" class="active">
                 <a href="#<?=LANG_GROUP_DISCOVER_TAB1_ID_GROUP?>" aria-controls="<?=LANG_GROUP_DISCOVER_TAB1_ID_GROUP?>" role="tab" data-toggle="tab"><?=LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP?></a>
             </li>
@@ -152,7 +173,7 @@
                 <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
                     <div role="tabpanel" class="tab-pane active" id="<?=LANG_GROUP_TRAINER1_ID_GROUP?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/DJ.jpg" alt="<?=LANG_GROUP_TRAINER1_TITLE_GROUP?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/ta-img.jpg" alt="<?=LANG_GROUP_TRAINER1_TITLE_GROUP?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_GROUP_TRAINER1_CONTENT_GROUP?></div>
                     </div>
@@ -164,13 +185,13 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_GROUP_TRAINER3_ID_GROUP?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/DJ.jpg" alt="<?=LANG_GROUP_TRAINER3_TITLE_GROUP?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/ta-img.jpg" alt="<?=LANG_GROUP_TRAINER3_TITLE_GROUP?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_GROUP_TRAINER3_CONTENT_GROUP?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_GROUP_TRAINER4_ID_GROUP?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/DJ.jpg" alt="<?=LANG_GROUP_TRAINER4_TITLE_GROUP?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/ta-img.jpg" alt="<?=LANG_GROUP_TRAINER4_TITLE_GROUP?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_GROUP_TRAINER4_CONTENT_GROUP?></div>
                     </div>

@@ -1,24 +1,19 @@
 <div class="container-fluid page <?=LANG_PAGE_NAME_PTX?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-    <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PAGE_NAME_PTX?>/top-banner.jpg" alt="<?=LANG_BANNER_TITLE_PTX?>">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend><?=LANG_BANNER_TEXT_TOP_PTX?></legend>
-                            <?=LANG_BANNER_TEXT_CONTENT_PTX?><br>
-                            <span><?=LANG_BANNER_TEXT_SMALL_PTX?></span>
-                            <a class="cta" href="#form" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"><?=LANG_BANNER_TEXT_CTA_PTX?></a>
-                        </fieldset>
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?=LANG_BANNER_TEXT_CONTENT_PTX?></legend>
+                <hr/>
+                <span>
+                    <?=LANG_BANNER_TEXT_SMALL_PTX?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#form" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"> <?=LANG_BANNER_TEXT_CTA_PTX?></a>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
-
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">

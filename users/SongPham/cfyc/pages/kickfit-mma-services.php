@@ -1,21 +1,17 @@
 <div class="container-fluid page <?=LANG_KICKFIT_MMA_PAGE_NAME?>-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-    <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/top-banner.jpg" alt="<?=LANG_KICKFIT_MMA_BANNER_TITLE?>">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend><?=LANG_KICKFIT_MMA_BANNER_TEXT_TOP?></legend>
-                            <?=LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT?><br>
-                            <span><?=LANG_KICKFIT_MMA_BANNER_TEXT_SMALL?></span>
-                            <a class="cta" href="#form" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"><?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
-                        </fieldset>
-                    </div>
+    <div id="banner" class="row banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend><?=LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT?></legend>
+                <hr/>
+                <span>
+                    <?=LANG_KICKFIT_MMA_BANNER_TEXT_SMALL?>
+                </span>
+                <div class="red-btn">
+                    <a class="cta" href="#form" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"> <?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
 

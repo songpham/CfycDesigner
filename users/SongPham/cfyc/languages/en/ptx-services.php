@@ -2,11 +2,9 @@
 
 define("LANG_PAGE_NAME_PTX","ptx-services");
 
-define("LANG_BANNER_TEXT_TOP_PTX","Small group");
-define("LANG_BANNER_TEXT_CONTENT_PTX","personal training extreme");
+define("LANG_BANNER_TEXT_CONTENT_PTX","Small group personal training extreme");
 define("LANG_BANNER_TEXT_SMALL_PTX","Experience a PTX2 session today");
 define("LANG_BANNER_TEXT_CTA_PTX","Try a class");
-define("LANG_BANNER_TITLE_PTX","Visit us for a free membership trial today");
 
 define("LANG_CALIDANCE_PTX","About PTX2");
 define("LANG_CALIDANCE_CONTENT_PTX",'
