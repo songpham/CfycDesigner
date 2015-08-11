@@ -295,7 +295,7 @@
         .top-content {
             .strike {
                 h1 {
-                    @include font-size(2.5vw);
+                    @include font-size(25px);
                 }
             }
         }
@@ -326,6 +326,7 @@
         }
     }
     @media (max-width: 767px) {
+    	.strike {max-width: 99%;}
         .video {
             margin-top: 0;
             padding: 20px 0;
@@ -375,7 +376,7 @@
         .top-content {
             .strike {
                 h1 {
-                    @include font-size(4vw);
+                    @include font-size(6vw);
                 }
             }
         }

@@ -13,15 +13,15 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
         		<div class="col-sm-4 city">
-                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hanoi.jpg" class="img-responsive">
+                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hanoi.jpg" class="img-responsive img-circle">
                     <h4>Ha Noi</h4>
         		</div>
         		<div class="col-sm-4 city">
-                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hcmc.jpg" class="img-responsive">
+                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hcmc.jpg" class="img-responsive img-circle">
                     <h4>Ho Chi Minh</h4>
         		</div>
         		<div class="col-sm-4 city">
-                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/danang.jpg" class="img-responsive">
+                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/danang.jpg" class="img-responsive img-circle">
                     <h4>Da Nang</h4>
         		</div>
             </div>
@@ -31,15 +31,15 @@
 		<div class="col-md-10 col-md-offset-1">
            <div class="row">
                 <div class="col-sm-4 city">
-                   <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/bienhoa.jpg" class="img-responsive">
+                   <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/bienhoa.jpg" class="img-responsive img-circle">
                    <h4>Bien Hoa</h4>
                 </div>
                 <div class="col-sm-4 city">
-                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/binhduong.jpg" class="img-responsive">
+                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/binhduong.jpg" class="img-responsive img-circle">
                     <h4>Binh Duong</h4>
                 </div>
                 <div class="col-sm-4 city">
-                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/nhatrang.jpg" class="img-responsive">
+                    <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/nhatrang.jpg" class="img-responsive img-circle">
                     <h4>Nha Trang</h4>
                 </div>
            </div>
