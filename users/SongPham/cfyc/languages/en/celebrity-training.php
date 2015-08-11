@@ -2,9 +2,9 @@
 
 define('LANG_CELEBRITY_TRAINING', 'Celebrity Training');
 
-define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'BẠN ĐÃ LÀ HỘI VIÊN CHƯA?');
-define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'HO CHI MINH CITY');
-define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'Đăng ký tập thử');
+define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'Are you a member?');
+define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Discover the benefits of a California Fitness & Yoga membership. Get a free membership trial today');
+define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'Get a trial');
 
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE', 'About Celebrity Training');
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT', '
