@@ -8,27 +8,21 @@
     <div class="top-content row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/classes/classes-banner.jpg" alt="Classes">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>Ho Chi Minh City</legend>
-                            class and program schedule
-                            <span>Visit a club today for a  free trial</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL ?>/img/classes/classes-banner.jpg" alt="Classes">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend>Discover</legend>
-                            the beauty & excitement of Cali Dance
-                            <span>Experience a dance class today</span>
-                            <a class="cta" href="#" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
+            <div class="carousel-inner banner-top" role="listbox">
+                <div class="">
+                   
+                            <div class="cta">
+					            <fieldset>
+					                <legend><?php echo LANG_SCHEDULES_TITLE_CTA ?></legend>
+					                <hr/>
+					                <span>
+					                   <?php echo LANG_SCHEDULES_TITLE_CTA_SPAN ?>
+					                </span>
+					                <div class="red-btn">
+					                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title=""> <?php echo LANG_SCHEDULES_TITLE_CTA_BUTTON ?></a>
+					                </div>
+					            </fieldset>
+							</div>
                     </div>
                 </div>
             </div>
