@@ -10,13 +10,13 @@ var clubPage = (function() {
             actived = $(this).parents(".nav").find("li.active");
             activedClassName = actived.find("a").attr("href");
             actived.removeClass("active");
-            $("." + activedClassName).hide(0);
+            $("." + activedClassName).hide();
 
 
             // add active class and show club info
             $(this).parent().addClass("active");
             clickClassName = $(this).attr("href");
-            $("." + clickClassName).show(0);
+            $("." + clickClassName).show();
 
         })
 

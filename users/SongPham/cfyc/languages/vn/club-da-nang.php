@@ -3,7 +3,7 @@ define('LANG_CLUB_DA_NANG', 'Đà Nẵng');
 
 // BANNER
 define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại tp. Đà Nẵng');
-define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', 'HA NOI');
+define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', 'Trung tâm thể hình, giải trí và phong cách sống 5 sao hàng đầu tại thành phố Đà Nẵng Đăng kí ngay hôm nay để tập thử miễn phí');
 define('LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 
@@ -19,7 +19,6 @@ define('LANG_CLUB_DA_NANG_CLUB_1', 'CLB ĐÀ NẴNG');
 define('LANG_CLUB_DA_NANG_CLUB_1_TITLE_TEXT', 'CLB ĐÀ NẴNG');
 // CAPTION
 define('LANG_CLUB_DA_NANG_CLUB_1_CAPTION_1', "Trung tâm thể hình và phong cách sống lớn nhất Việt Nam tại Đà Nẵng, mang đến sự kết hợp hoàn hảo giữa các phương pháp thể hình hàng đầu và môi trường tập luyện tiêu chuẩn quốc tế, cam kết giúp bạn thay đổi hoàn toàn cơ thể và cuộc sống");
-
 // CONTACT INFO
 define('LANG_CLUB_DA_NANG_CLUB_1_CONTACT_INFO', '
 		<!-- location -->

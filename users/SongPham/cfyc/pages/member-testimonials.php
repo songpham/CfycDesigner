@@ -72,7 +72,7 @@
                         <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
                     </div>
                     <div class='after'>
-                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER ?>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE ?>
                     </div>
                     <div class='after'>
-                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE ?>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_AFTER ?>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE ?>
                     </div>
                     <div class='after'>
-                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE ?>
+                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER ?>
                     </div>
                 </div>
             </div>
