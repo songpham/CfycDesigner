@@ -105,7 +105,9 @@
                 <li><a href="<?php echo USER_BASE_URL ?>/yoga-service<?php echo getSuffix('lang=' . $LANG) ?>s"><?php echo LANG_SERVICES_YOGA ?></a></li>
                 <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
                 <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>           
+                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li> 
+                <li><a href="<?php echo USER_BASE_URL ?>/celebrity-trainning<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
+          
            </ul>
         </div>
         <div class="sub-menu collapse">
