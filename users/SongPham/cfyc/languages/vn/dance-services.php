@@ -2,7 +2,6 @@
 
 define("LANG_DANCE_PAGE_NAME","dance-services");
 
-define("LANG_DANCE_BANNER_TITLE","Visit us for a free membership trial today");
 define("LANG_DANCE_BANNER_TEXT_CONTENT","Khám phá vẻ đẹp và sự hứng khởi của vũ điệu Cali dance");
 define("LANG_DANCE_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay");
 define("LANG_DANCE_BANNER_TEXT_CTA","Đăng ký tập thử");
@@ -23,36 +22,36 @@ define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA (M)");
 define("LANG_DANCE_DISCOVER_TAB1_ID","zumba");
 define("LANG_DANCE_DISCOVER_TAB1_CONTENT",'
 <h3>ZUMBA</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
+<p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM (M)");
 define("LANG_DANCE_DISCOVER_TAB2_ID","bodyjam");
 define("LANG_DANCE_DISCOVER_TAB2_CONTENT",'
 <h3>BODY JAM</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
+<p>Lớp Body Jam vô cùng thích hợp cho những người khó tìm thấy hứng thú với các bài tập cardio trên máy. Âm nhạc, ánh sáng, những người bạn... là tất cả bạn cần cảm nhận để tự do trong những bước nhảy, liên tục trong gần 1h. Bạn sẽ thấy hiệu quả rõ rệt với cơ thể mình.</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB3_ID","sexydance");
 define("LANG_DANCE_DISCOVER_TAB3_CONTENT",'
 <h3>SEXY DANCE</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
+<p>Bạn vẫn thường yêu thích những phần vũ đạo sôi động và quyến rũ trên các sân khấu âm nhạc? Không khó để bạn học theo từ những bước cơ bản, và dần làm chủ được những điệu nhảy của mình. SEXY DANCE là sự lựa chọn đúng nhất cho bạn!</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB4_ID","poledance");
 define("LANG_DANCE_DISCOVER_TAB4_CONTENT",'
 <h3>POLE DANCE</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
+<p>Không chỉ là một bộ môn nghệ thuật hấp dẫn, múa cột còn có rất nhiều tác dụng cho cơ thể. Khi tập luyện, cơ bắp vùng vai, ngực, bụng,mông và đùi phải hoạt động hết công suất với tất cả trạng thái từ co, giãn nhanh chậm cho đến liên tục hoặc ngắt quãng. Cơ thể bạn trở nên dẻo dai và đầy sức sống cùng những đường cong rõ rệt hơn.</p>
 ');
 define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
 define("LANG_DANCE_DISCOVER_TAB5_ID","salsa");
 define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <h3>SALSA & LATIN DANCE</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
+<p>Sức mạnh của những điệu nhảy Latin là những chuyển động đơn giản khiến người tập trở nên uyển chuyển, quyến rũ hơn. Bạn sẽ như đang đắm chìm trong không khí lễ hội vùng Nam Mỹ với những người bạn vui vẻ, cùng hòa nhịp cơ thể. Đừng bỏ lỡ hình thức thể dục sôi động và hiệu quả này!</p>
 ');
 define("LANG_DANCE_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 define("LANG_DANCE_TRAINER_TITLE","Meet our featured dance teachers");
@@ -101,4 +100,14 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 <p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
 <p></p>
 <p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+');
+define("LANG_DANCE_SIGNUP_TITLE","try a dance session");
+define("LANG_DANCE_SIGNUP_CONTENT",'
+<p><strong>INCLUDING:</strong></p>
+<p class="title">SIGN UP TO TRY A COMPLEMENTARY DANCE CLASS!</p>
+<p>- FITNESS ASSESSMENT & CONSULTATION</p>
+<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
+<p></p>
+<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
+                        
 ');
