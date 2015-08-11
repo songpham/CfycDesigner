@@ -22,7 +22,7 @@
 
 
     <div class="whitespace-2x"></div>
-    <div class="row text-center cyc">CHOOSE YOUR CLUB</div>
+    <div class="row text-center cyc"><?php echo LANG_CLUBS_CHOOSE_CLUB_TITLE ?></div>
     <div class="whitespace"></div>
 
     <!-- CLUB NAME -->

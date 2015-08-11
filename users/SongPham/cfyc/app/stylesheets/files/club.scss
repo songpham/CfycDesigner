@@ -31,7 +31,7 @@
             margin: 12vw 0 90px 15%;
             padding: 20px;
             position: relative;
-            @media (min-width:2000px) {
+            @media (min-width: 2000px) {
                 max-width: 475px;
                 margin: 450px 0 90px 15%;
                 padding: 20px;
@@ -111,6 +111,7 @@
                     left: 0px;
                     bottom: -20px;
                     a {
+                        width: auto;
                         color: $white;
                         font-size: 12px;
                         background: $red;
@@ -211,7 +212,7 @@
         }
     }
 
-    .cyc {@include font-size(14px);font-weight: bold; color: #868686;}
+    .cyc {@include font-size(14px);font-weight: bold; color: #868686;text-transform: uppercase;}
     .down-icon {color: $red;@include font-size(35px);}
 
     // CLUB LIST
