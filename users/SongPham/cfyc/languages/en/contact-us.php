@@ -1,5 +1,5 @@
 <?php
-define('LANG_CTA_CONTACT_US_TITLE_lEGEND','California');
+define('LANG_CTA_CONTACT_US_TITLE_lEGEND','California <br> Fitness &amp; Yoga');
 define('LANG_CTA_CONTACT_US_TITLE',' Fitness &amp; Yoga');
 
 define('LANG_CTA_CONTACT_US_TEXT','Get A VIP Membership Experience Now');
