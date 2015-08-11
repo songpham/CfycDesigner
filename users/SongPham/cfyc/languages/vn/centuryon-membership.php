@@ -6,10 +6,12 @@ define('LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE', 'Trải nghiệm<br>dịch v�
 define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT','Centuryon, chinh phục những tiêu chuẩn cao cấp nhất<br> Đăng ký để tìm hiểu thêm và nhận tư vấn thể chất tại Centuryon');
 define('LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT2', 'Tích hợp mọi dịch vụ ưu đãi, độc quyền và đứng đầu các thứ hạng hội viên, thẻ hội viên Centuryon mang đến cho bạn những ưu đãi tuyệt vời nhất.');
 define('LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA', 'đăng kí nhận tư vấn');
+define('LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE','Khám phá Centuryon ');
 
-define('LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT', 'Đó là một sự hợp tác lâu dài, vượt trội về sự cam kết cải thiện chất lượng cuộc sống của chính bạn. Với thẻ hội viên độc đáo này, bạn sẽ được tận hưởng môi trường thật sự giá trị, thoải mái và giúp cải thiện lối sống; cho phép bạn đạt được cuộc sống chất lượng nhất.');
+define('LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT', 'Đó là một sự hợp tác lâu dài, vượt trội về sự cam kết cải thiện chất lượng cuộc sống của chính bạn. Với thẻ hội viên độc đáo này, bạn sẽ được tận hưởng môi trường thật sự giá trị, thoải mái và giúp cải thiện lối sống; cho phép bạn đạt được cuộc sống chất lượng nhất.<br><br>
+Đó là một sự hợp tác lâu dài, vượt trội về sự cam kết cải thiện chất lượng cuộc sống của chính bạn. Với thẻ hội viên độc đáo này, bạn sẽ được tận hưởng môi trường thật sự giá trị, thoải mái và giúp cải thiện lối sống; cho phép bạn đạt được cuộc sống chất lượng nhất.');
 
-define('LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1', 'Cải thiện cuộc sống và hơn thế nữa');
+define('LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1', 'Cải thiện cuộc sống <br>và hơn thế nữa');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT', ' Trải nghiệm một đẳng cấp mới để cải thiện và nâng cao chất lượng cuộc sống của bạn. Tất cả các hội viên Centuryon được sử dụng trọn gói dịch vụ huấn luyện cá nhân 1-1, một nhóm huấn luyện viên chuyên chuyên nghiệp dành riêng cho Centuryon cam kết giúp bạn vươn tới mục tiêu cao nhất; trao cho bạn niềm tin để đạt được mục tiêu và có một cuộc sống chất lượng hơn.');
 
 define('LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1', 'Centuryon được thiết kế để đáp ứng nhu cầu của những ai không chấp nhận bất kỳ điều gì ngoài sự tốt nhất');
