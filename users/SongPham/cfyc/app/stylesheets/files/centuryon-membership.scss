@@ -21,10 +21,15 @@
 		background:#000 url(../img/centuryon-membership/centuryon-membership-header.jpg) center top no-repeat;
 		position: relative;
 		background-size: 100%; min-height: 550px;
-		   @media (max-width: 767px) {
-		   min-height: 440px;
+		   @media (max-width: 567px) {
+		   min-height: 600px;
 		   background:#000 url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
 		   background-size: cover;
+		   }
+		   @media (max-width: 415px) {
+		   min-height: 600px;
+		   background:#000 url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
+		   background-size: contain;
 		   }
 		.cta {
 			max-width: 40vw;
@@ -36,7 +41,7 @@
 			width: 100%;
 			max-width: 500px;
 			margin-left: auto;
-			margin: 350px auto 0 auto;
+			
 			padding: 0 10px;
 			position: relative;
 			float: none;
@@ -92,7 +97,7 @@
 	            span { text-align: center;  text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
 		           @media (max-width: 767px) {
 		           		padding-bottom: 10px;
-		           		font-size: .79em;
+		           		font-size: 1em;
 		           }
 	            }
 	            .red-btn {
