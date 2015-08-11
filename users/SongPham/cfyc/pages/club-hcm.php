@@ -102,7 +102,7 @@
         <!-- CLUB LIST MOBILE -->
         <div class="btn-group club-list-mobile">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
-                Choose your club <span class="caret"></span>
+                <?php echo LANG_CLUBS_CHOOSE_CLUB_TITLE ?> <span class="caret"></span>
             </button>
             <ul class="dropdown-menu dropdown-menu-right">
                 <li><a href="quan-11"><?php echo LANG_CLUB_HCM_CLUB_1 ?></a></li>

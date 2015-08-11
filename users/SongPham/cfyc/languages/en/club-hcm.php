@@ -28,9 +28,6 @@ define('LANG_CLUB_HCM_CLUB_8', 'CRESENT');
 define('LANG_CLUB_HCM_CLUB_1_TITLE_TEXT', 'DISTRICT 11 GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_1_CAPTION_1', "");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_1_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -49,9 +46,6 @@ define('LANG_CLUB_HCM_CLUB_1_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_2_TITLE_TEXT', 'TAN BINH DISTRICT GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_2_CAPTION_1', "Located in Ho Chi Minh City's newest and largest mall Pico Plaza, which opened early 2013 in Tan Binh District, California Fitness & Yoga 's newest center will offer the largest selection of cardio and fitness equipment in the city, a MMA Octagon fighting ring, functional training zone with indoor sprint track, six professional aerobic and yoga studios, including hot yoga, large changing rooms with vanity, steam and sauna facilities, a private Centurion Fitness Center with changing room and Roman jacuzzi & hydrotherapy. Located just 10 minutes from the airport in this newly redeveloped hi-tech commercial area, the club will occupy 3,580 square metres on the third floor, immediately below the food court and movie theatre.");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_2_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -71,9 +65,6 @@ define('LANG_CLUB_HCM_CLUB_2_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_3_TITLE_TEXT', 'DISTRICT 4 GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_3_CAPTION_1', "California at the Waterfront 05 Nguyen Tat Thanh, Ward 12, District 4.HCMC");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_3_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -93,9 +84,6 @@ define('LANG_CLUB_HCM_CLUB_3_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_4_TITLE_TEXT', 'DISTRICT 5 GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_4_CAPTION_1', "The original CFYC mega fitness & entertainment center at Hung Vuong Plaza, District 5, features an amazing selection of equipment including free weights, cardiovascular & resistance machines as well as state-of-the-art studios for cycling, aerobics & dance and yoga.<br>The spacious, comfortable Hung Vuong Club offers all members the perfect place to work-out or chill-out with a wide variety of world-famous programs and equipment.");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_4_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -115,9 +103,6 @@ define('LANG_CLUB_HCM_CLUB_4_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_5_TITLE_TEXT', 'DISTRICT 1 GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_5_CAPTION_1', "The amazing views of the city are the backdrop for this California Fitness Center spanning 9 floors in the Queen Ann Building.  A World-Class Fitness & Entertainment Boutique Club in the heart of District 1 caters to executives and business professionals. <br>Each floor offers distinctive experiences: Innovative classes in Fitness, Dance, Yoga, Cardio Fitness & Strength Training and a Sophisticated Member Lounge featuring a Juice Bar and Wifi.");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_5_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -137,14 +122,11 @@ define('LANG_CLUB_HCM_CLUB_5_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_6_TITLE_TEXT', 'DISTRICT 7 GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_6_CAPTION_1', "Each floor offers distinctive experiences: Innovative classes in Fitness, Dance, Yoga, Cardio Fitness & Strength Training and a Sophisticated Member Lounge featuring a Juice Bar and Wifi.");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
         <h3>Location: </h3>
         <p>4th Floor, 1058 Nguyen Van Linh, Tan Phong Ward, Dist 7, HCMC</p>
-        
+
         <h3>Operating hours: </h3>
         <p>Monday to Friday: 6:00 - 23:00</p>
         <p>Saturday & Sunday : 8:00 - 22:00</p>
@@ -159,9 +141,6 @@ define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_7_TITLE_TEXT', 'THU DUC DISTRICT GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_7_CAPTION_1', "");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -176,10 +155,7 @@ define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
 /////////////////////////////// CRESENT [CENTURYON] GYM ///////////////////////////////
 define('LANG_CLUB_HCM_CLUB_8_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
 // CAPTION
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_1', "Welcome to California’s new flagship Centuryon Life Enhancement Center at Cresent Club! In this building, more so than anywhere else in the world, you will find consolidated all of the tools necessary to live your life to the fullest and experience the realization of a potential beyond what you ever thought possible. Much like Apple redefined the mobile phone into an intelligent extension of ourselves, our Centuryon Life Enhancement Centers will redefine the traditional health club. Our Centuryon facilities are designed to be the unifying center that enhances all aspects of your life. Family, professional, social. From this center you will make your life better and more fulfilled. Our promise is to provide a platform which brings to bear the sum total of the findings of modern wellness science.");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_4', "");
+define('LANG_CLUB_HCM_CLUB_8_CAPTION_1', "Welcome to California's new flagship Centuryon Life Enhancement Center at Cresent Club! In this building, more so than anywhere else in the world, you will find consolidated all of the tools necessary to live your life to the fullest and experience the realization of a potential beyond what you ever thought possible. Much like Apple redefined the mobile phone into an intelligent extension of ourselves, our Centuryon Life Enhancement Centers will redefine the traditional health club. Our Centuryon facilities are designed to be the unifying center that enhances all aspects of your life. Family, professional, social. From this center you will make your life better and more fulfilled. Our promise is to provide a platform which brings to bear the sum total of the findings of modern wellness science.");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_8_CONTACT_INFO', '
         <h3>Location: </h3>
@@ -192,7 +168,3 @@ define('LANG_CLUB_HCM_CLUB_8_CONTACT_INFO', '
         <p>Tel: (08) 5412 1277</p>
         <p>Mail: info@cfyc.com.vn</p>
     ');
-
-// OTHER BUTTON
-define('LANG_CLUB_HCM_BOOK_BUTTON', "Book a VIP Visit");
-define('LANG_CLUB_HCM_CENT_BUTTON', "Centuryon Website");
