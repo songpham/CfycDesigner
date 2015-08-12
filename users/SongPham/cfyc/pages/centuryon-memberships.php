@@ -103,7 +103,7 @@
 			</div>
 			    	</div>
     </div> <!-- end section_3 -->
-    <div id="id_4" class="container-page section4">
+    <div class="container-page section4">
     	<div class="row row-centered">
     		<div class="col-md-4 col-centered col-xs-12">
             	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-left2.jpg" class="img-responsive center-block">

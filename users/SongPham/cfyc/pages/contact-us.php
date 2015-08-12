@@ -6,23 +6,21 @@
 <div class="container-fluid page contact-us-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
     <div class="top-content row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" data-ride="carousel">
             <!-- Wrapper for slides -->
-          <div class="carousel-inner banner-top" role="listbox"> 
+          <div class="carousel-inner banner-top" role="listbox">
+                <div class="cta">
+                    <fieldset>
+                        <legend><?php echo LANG_CTA_CONTACT_US_TITLE_lEGEND ?></legend>
+                        <hr/>
 
-	                <div class="cta">
-			            <fieldset>
-			                <legend><?php echo LANG_CTA_CONTACT_US_TITLE_lEGEND ?></legend>
-			                <hr/>
-			               
-			                <span><?php echo LANG_CTA_CONTACT_US_TEXT ?></span>
-			                <div class="red-btn">
-			                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
-			                </div>
-			            </fieldset>
-					</div>
-
-           </div> 
+                        <span><?php echo LANG_CTA_CONTACT_US_TEXT ?></span>
+                        <div class="red-btn">
+                        <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
+                        </div>
+                    </fieldset>
+                </div>
+           </div>
         </div>
     </div>
     <div class="contact container">
@@ -30,11 +28,11 @@
             <h1 class="tilte"><?php echo LANG_CONTACT_US_CONTACT_US ?></h1>
             <p><?php echo LANG_CONTACT_REGISTER_NOW_SUBTITLE ?></p>
             <div id="form">
-	            <?php if ($LANG == 'vn') { ?>
-				<script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233605&amp;u=kKTV"></script>
-				<?php } else if ($LANG == 'en') { ?>
-				<script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233705&u=kKTV"></script>
-				<?php } ?>
+                <?php if ($LANG == 'vn') { ?>
+                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233605&amp;u=kKTV"></script>
+                <?php } else if ($LANG == 'en') { ?>
+                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233705&u=kKTV"></script>
+                <?php } ?>
             </div>
             <p><?php echo LANG_CONTACT_US_MORE_INFO ?></p>
 

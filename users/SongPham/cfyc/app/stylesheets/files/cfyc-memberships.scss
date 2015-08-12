@@ -309,13 +309,13 @@
         .banner-bottom {
             .text-box {
                 h1 {
-                    @include font-size(5vw);
+                    @include font-size(3vw);
                 }
                 h3 {
-                    @include font-size(4vw);
+                    @include font-size(2vw);
                 }
                 a.cta {
-                    @include font-size(3vw);
+                    @include font-size(1vw);
                 }
             }
         }

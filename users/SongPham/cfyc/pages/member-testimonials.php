@@ -154,4 +154,3 @@
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/member-testimonials.js"></script>

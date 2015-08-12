@@ -13,7 +13,7 @@ var errorHandle = function (error) {
     gutil.log(gutil.colors.red(error.message));
     this.emit('end');
 };
-var production = process.env.NODE_ENV !== 'development';
+var production = false;
 var paths = {
     // except: '!client/external/**/*.coffee'
     scripts_1: [
