@@ -1,12 +1,20 @@
 <div class="container-fluid page home-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
-    <div class="row gallery">
-        <a href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-            <img class="hidden-xs" src="img/home/california-wow-banner-<?=$LANG?>.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-            <img class="hidden-lg hidden-md hidden-sm" src="img/home/california-wow-banner-mobile-<?=$LANG?>.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-        </a>
-    </div><!-- /.Top Banner -->
+    <div class="row common-banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend align="center"><?php echo HOME_BANNER_1?></legend>
+                <hr/>
+                <span>
+                    <?php echo HOME_BANNER_2 ?>
+                </span>
+                <div class="red-btn">
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
+                </div>
+            </fieldset>
+        </div>
+    </div>
     <div class="row top-content">
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
@@ -445,12 +453,12 @@
                     <div class="col-md-2 hide-sm text-center">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-                        <a href="http://www.cfyc.com.vn/lam-the-nao-de-co-vong-eo-thon-va-co-bung-phang.html<?=getSuffix('lang=' . $LANG)?>" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
+                        <a href="<?=LANG_SPECIAL_OFFERS_URL_1?>" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
                             <img src="img/home/california-wow-special-offer-1.jpg" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-                        <a href="http://www.cfyc.com.vn/tang-co-dt.html<?=getSuffix('lang=' . $LANG)?>" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
+                        <a href="<?=LANG_SPECIAL_OFFERS_URL_2?>" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
                             <img src="img/home/california-wow-special-offer-2.jpg" title="<?=LANG_SPECIAL_OFFERS?>" alt="<?=LANG_SPECIAL_OFFERS?>">
                         </a>
                     </div>

@@ -1,4 +1,7 @@
 <?php
+define("HOME_BANNER_1","celebrating 22 clubs in 8 years");
+define("HOME_BANNER_2","find a club near you and visit us today");
+define("HOME_BANNER_3","find a club");
 define("LANG_HOMEPAGE", "Home");
 define("LANG_OUR_SERVICES", "OUR SERVICES");
 define("LANG_OUR_SERVICES_SUB", "Science doesn't lie and neither do we. Our clinically proven approach is fueled by reality. The fantasy is where you come in.");
@@ -14,6 +17,8 @@ define("LANG_FEATURE_STORIES", "FEATURE STORIES");
 define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_SPECIAL_OFFERS", "SPECIAL OFFERS");
 define("LANG_SPECIAL_OFFERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
+define("LANG_SPECIAL_OFFERS_URL_1", "http://www.cfyc.com.vn/how-to-get-a-slim-waist-and-flat-stomach.html");
+define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/do-you-want-to-build-lean-muscle-without-extra-fat.html");
 
 define("LANG_SEE_MORE", "SEE MORE");
 

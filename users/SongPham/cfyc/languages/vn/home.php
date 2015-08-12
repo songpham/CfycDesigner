@@ -1,4 +1,7 @@
 <?php
+define("HOME_BANNER_1","kỷ niệm thành lập trung tâm thể hình thứ 22 trong 8 năm");
+define("HOME_BANNER_2","khám phá trung tâm gần bạn nhất ngay hôm nay");
+define("HOME_BANNER_3","tìm một trung tâm");
 define("LANG_HOMEPAGE", "Trang chủ");
 define("LANG_OUR_SERVICES", "DỊCH VỤ");
 define("LANG_OUR_SERVICES_SUB", "Science doesn't lie and neither do we. Our clinically proven approach is fueled by reality. The fantasy is where you come in.");
@@ -14,6 +17,9 @@ define("LANG_FEATURE_STORIES", "BÀI VIẾT NỔI BẬT");
 define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
 define("LANG_SPECIAL_OFFERS", "KHUYẾN MÃI");
 define("LANG_SPECIAL_OFFERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
+define("LANG_SPECIAL_OFFERS_URL_1", "http://www.cfyc.com.vn/lam-the-nao-de-co-vong-eo-thon-va-co-bung-phang.html");
+define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/tang-co-dt.html");
+
 
 define("LANG_SEE_MORE", "XEM NHIỀU HƠN");
 

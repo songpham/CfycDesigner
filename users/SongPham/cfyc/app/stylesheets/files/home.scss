@@ -2,10 +2,20 @@
 .home-page {
     .container-fluid {
         padding: 0px;
-        .gallery {
-            position: relative;
-            img {
-               max-width: 100%;
+         .common-banner-top {
+            background: #fff url(../img/home/california-wow-banner.jpg) center top no-repeat;
+            background-size: cover;
+            .cta {
+                margin: 40vw 0 50px 10%;
+                fieldset{
+                    legend{
+                        color: $red;
+                    }
+                }
+            }
+            @media (max-width:767px) {
+                background: #fff url(../img/home/california-wow-banner-mobile.jpg) center top no-repeat;
+                background-size: cover;
             }
         }
     }
