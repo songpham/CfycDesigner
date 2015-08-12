@@ -2,9 +2,20 @@
 
 define('LANG_CELEBRITY_TRAINING', 'Celebrity Training');
 
-define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'Are you a member?');
-define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Discover the benefits of a California Fitness & Yoga membership. Get a free membership trial today');
-define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'Get a trial');
+define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'Your image is<br> your brand');
+define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Let us help you build it Get a free celebrity training consultation');
+define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'get a consultation');
+
+
+define('LANG_CELEBRITY_TRAINING_BOTTOM_BOX_TITLE','book a vip visit today');
+define('LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS','<span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/> 
+								<strong>- EXCLUSIVE TOUR</strong><br/>
+                                <span>(Learn about all features, programs and equipment available)</span><br/><br/>
+                                <strong>- PT FITNESS CONSULTATION</strong><br/>
+                                <span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
+                                <strong>- FULL DAY ACCESS</strong><br/>
+                                <span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
+                                <span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>');
 
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE', 'About Celebrity Training');
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT', '
