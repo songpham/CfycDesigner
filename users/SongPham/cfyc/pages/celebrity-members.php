@@ -22,25 +22,25 @@
 										<div class="col-md-2 hide-sm hide-xs text-center">
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items active" role="presentation">
-											<a href=".celeb-1" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-1.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_HO_NGOC_HA_NAME ?> <br><?php echo LANG_CELEBRITY_MEMBERS_JOB_SINGER ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-2" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-5.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_XUAN_LAN_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-3" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-7.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_PHUONG_MAI_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-4" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-10.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_DIEM_MY_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_ACTRESS ?></p>
 											</a>
@@ -54,25 +54,25 @@
 										<div class="col-md-2 hide-sm hide-xs text-center">
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-5" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-6" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-3.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_HO_VINH_KHOA_NAME ?> <br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?> / <?php echo LANG_CELEBRITY_MEMBERS_JOB_SINGER ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-7" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-11.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_CHI_PU_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_ACTRESS ?></p>
 											</a>
 										</div>
 										<div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
-											<a href=".celeb-8" data-toggle="tab">
+											<a href="#celebrity-info-block">
 												<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-6.png" alt="Celebrities member" title="Celebrities member">
 												<p><?php echo LANG_CELEBRITY_MEMBERS_RANDY_DOBSON_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO ?></p>
 											</a>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="whitespace"></div>
-            <div id="id_2" class="col-md-12 text-center celebrity-info-block">
+            <div id="id_2" class="col-md-12 text-center celebrity-info-block" name="celebrity-info-block">
             <!-- celeb-1 -->
             	<div class="row mindshares celeb-1 tab-pane fade in active row-centered">
             		<div class="col-md-4 col-xs-12 col-centered celebrity-image">
