@@ -1,6 +1,6 @@
 <?php
 define("HOME_BANNER_1","kỷ niệm thành lập trung tâm thể hình thứ 22 trong 8 năm");
-define("HOME_BANNER_2","khám phá trung tâm gần bạn nhất ngay hôm nay");
+define("HOME_BANNER_2","<br/>khám phá trung tâm gần bạn nhất ngay hôm nay<br/><br/>");
 define("HOME_BANNER_3","tìm một trung tâm");
 define("LANG_HOMEPAGE", "Trang chủ");
 define("LANG_OUR_SERVICES", "DỊCH VỤ");

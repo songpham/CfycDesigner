@@ -1,7 +1,23 @@
 <div class="container-fluid page home-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
-    <div class="row common-banner-top">
+    <!--<div class="row common-banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend align="center"><?php echo HOME_BANNER_1?></legend>
+                <hr/>
+                <span>
+                    <?php echo HOME_BANNER_2 ?>
+                </span>
+                <div class="red-btn">
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
+                </div>
+            </fieldset>
+        </div>
+    </div>-->
+    <div class="row gallery common-banner-top">
+            <img class="hidden-xs" src="img/home/california-wow-banner.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
+            <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-banner-mobile.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
         <div class="cta">
             <fieldset>
                 <legend align="center"><?php echo HOME_BANNER_1?></legend>
@@ -15,6 +31,22 @@
             </fieldset>
         </div>
     </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
     <div class="row top-content">
         <div class="holder-top-content">
             <div class="col-md-12 text-center">

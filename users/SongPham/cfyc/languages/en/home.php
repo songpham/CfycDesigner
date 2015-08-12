@@ -1,6 +1,6 @@
 <?php
 define("HOME_BANNER_1","celebrating 22 clubs in 8 years");
-define("HOME_BANNER_2","find a club near you and visit us today");
+define("HOME_BANNER_2","<br/>find a club near you and visit us today<br/><br/>");
 define("HOME_BANNER_3","find a club");
 define("LANG_HOMEPAGE", "Home");
 define("LANG_OUR_SERVICES", "OUR SERVICES");

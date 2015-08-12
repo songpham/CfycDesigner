@@ -2,20 +2,43 @@
 .home-page {
     .container-fluid {
         padding: 0px;
+        .gallery {
+            position: relative;
+            img {
+               max-width: 100%;
+            }
+        }
          .common-banner-top {
-            background: #fff url(../img/home/california-wow-banner.jpg) center top no-repeat;
-            background-size: cover;
-            .cta {
-                margin: 40vw 0 50px 10%;
+            background: none;
+            //background-size: cover;
+            .cta {               
+                bottom: 5%;
+                margin: 0 0 50px 10%;
+                max-width: 40vw;
+                padding: 20px;
+                position: absolute;
                 fieldset{
                     legend{
                         color: $red;
                     }
+                    .red-btn{
+                        bottom: -80px;
+                        left: 25%;
+                    }
+                }
+                @media (max-width:767px) {
+                    bottom: 0;
+                    max-width: 75%;
+                    margin-bottom: 30px;
+                }
+                @media (max-width:767px) {
+                    max-width: 85%;
+                    margin-left: 0;
+                    margin-bottom: 30px;
                 }
             }
             @media (max-width:767px) {
-                background: #fff url(../img/home/california-wow-banner-mobile.jpg) center top no-repeat;
-                background-size: cover;
+                background:none;
             }
         }
     }
