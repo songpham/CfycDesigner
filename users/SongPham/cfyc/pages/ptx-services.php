@@ -9,7 +9,7 @@
                     <?=LANG_BANNER_TEXT_SMALL_PTX?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"> <?=LANG_BANNER_TEXT_CTA_PTX?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"> <?=LANG_BANNER_TEXT_CTA_PTX?></a>
                 </div>
             </fieldset>
         </div>
@@ -129,7 +129,7 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_TRAINER4_ID_PTX?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PAGE_NAME_PTX?>/DJ.jpg" alt="<?=LANG_TRAINER4_TITLE_PTX?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PAGE_NAME_PTX?>/travis.jpg" alt="<?=LANG_TRAINER4_TITLE_PTX?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_TRAINER4_CONTENT_PTX?></div>
                     </div>
@@ -141,7 +141,16 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <form id="form"></form>
+        <div class="row" id="form">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="booktitle"><?=LANG_SIGNUP_TITLE_PTX?></h2>
+                <h3 class="visit_benefit">
+                    <?=LANG_SIGNUP_CONTENT_PTX?>
+                </h3>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+        </div>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

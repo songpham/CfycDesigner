@@ -2,9 +2,22 @@
 
 define('LANG_CELEBRITY_TRAINING', 'Huấn luyện người nổi tiếng');
 
-define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'BẠN ĐÃ LÀ HỘI VIÊN CHƯA?');
-define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Khám phá ngay những lợi ích độc nhất của hội viên California Fitness & Yoga. Đăng kí để tìm hiểu thêm và tập thử miễn phí ngay hôm nay');
-define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'Đăng ký tập thử');
+define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'Hình ảnh của bạn <br>tạo nên thương hiệu của bạn');
+define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Hãy để chúng tôi giúp bạn xây dựng một thương hiệu cuốn hút nhất. Đăng ký để nhận tư vấn về chế độ tập luyện ngôi sao phù hợp nhất với bạn.');
+define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'nhận tư vấn');
+
+define('LANG_CELEBRITY_TRAINING_BOTTOM_BOX_TITLE','book a vip visit today');
+define('LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS','<span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/> 
+								<strong>- EXCLUSIVE TOUR</strong><br/>
+                                <span>(Learn about all features, programs and equipment available)</span><br/><br/>
+                                <strong>- PT FITNESS CONSULTATION</strong><br/>
+                                <span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
+                                <strong>- FULL DAY ACCESS</strong><br/>
+                                <span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
+                                <span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>');
+
+
+
 
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE', 'Về Huấn luyện Người nổi tiếng');
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT', '

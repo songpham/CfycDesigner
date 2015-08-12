@@ -12,10 +12,10 @@ $containerWidth : 1200px;
     // GALLERY
     .banner-top {
         position: relative;
-        background: #fff url(../img/club/banner-1.jpg) center top no-repeat;
+        background: #fff url(../img/celebrity-training/banner-top.jpg) center top no-repeat;
         background-size: 100%;
         @media (max-width:767px) {
-            background: #fff url(../img/club/m-banner-1.jpg) center top no-repeat;
+            background: #fff url(../img/celebrity-training/m-banner-top.jpg) center top no-repeat;
             background-size: cover;
             min-height: 500px;
         }
@@ -185,7 +185,7 @@ $containerWidth : 1200px;
                 font-weight: bold;
                 text-transform: uppercase;
                 @include font-size(2vw);
-                @media screen and (max-width: 650px) {@include font-size(4vw);}
+                @media screen and (max-width: 650px) {@include font-size(6vw);}
                 @media screen and (min-width: 2000px) {@include font-size(35px);}
                 &:after {
                     content: "";

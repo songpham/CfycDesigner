@@ -9,7 +9,7 @@
                     <?=LANG_YOGA_BANNER_TEXT_SMALL?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_YOGA_BANNER_TEXT_CTA?>"> <?=LANG_YOGA_BANNER_TEXT_CTA?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_YOGA_BANNER_TEXT_CTA?>"> <?=LANG_YOGA_BANNER_TEXT_CTA?></a>
                 </div>
             </fieldset>
         </div>
@@ -135,28 +135,28 @@
                     <li role="presentation" class="active">
                         <a href="#<?=LANG_YOGA_TRAINER1_ID?>" aria-controls="<?=LANG_YOGA_TRAINER1_ID?>" role="tab" data-toggle="tab">
                             <img class="img-responsive img-circle"
-                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-1.png" alt="<?=LANG_YOGA_TRAINER1_TITLE?>">
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-4.png" alt="<?=LANG_YOGA_TRAINER1_TITLE?>">
                             <span><?=LANG_YOGA_TRAINER1_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_YOGA_TRAINER2_ID?>" aria-controls="<?=LANG_YOGA_TRAINER2_ID?>" role="tab" data-toggle="tab">
                             <img class="img-responsive img-circle"
-                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-2.png" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-3.png" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
                             <span><?=LANG_YOGA_TRAINER2_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_YOGA_TRAINER3_ID?>" aria-controls="<?=LANG_YOGA_TRAINER3_ID?>" role="tab" data-toggle="tab">
                             <img class="img-responsive img-circle"
-                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-3.png" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-2.png" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
                             <span><?=LANG_YOGA_TRAINER3_TITLE?></span>
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#<?=LANG_YOGA_TRAINER4_ID?>" aria-controls="<?=LANG_YOGA_TRAINER4_ID?>" role="tab" data-toggle="tab">
                             <img class="img-responsive img-circle"
-                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-4.png" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
+                                 src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-avatar-1.png" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
                             <span><?=LANG_YOGA_TRAINER4_TITLE?></span>
                         </a>
                     </li>
@@ -170,19 +170,19 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER2_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/sriram.jpg" alt="<?=LANG_YOGA_TRAINER2_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER2_CONTENT?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER3_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/virat.jpg" alt="<?=LANG_YOGA_TRAINER3_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER3_CONTENT?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_YOGA_TRAINER4_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/trainer-1.jpg" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/aj.jpg" alt="<?=LANG_YOGA_TRAINER4_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_YOGA_TRAINER4_CONTENT?></div>
                     </div>

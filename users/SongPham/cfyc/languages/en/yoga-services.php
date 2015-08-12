@@ -9,11 +9,8 @@ define("LANG_YOGA_BANNER_TEXT_CTA","Try a class");
 
 define("LANG_YOGA_CALIDANCE","About yoga");
 define("LANG_YOGA_CALIDANCE_CONTENT","
-<p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over
-2,000 sqm of internationally-designed studios and lounges.   Practice under the guidance of
-authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set
-at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga
-including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p>
+<p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over 2,000 sqm of internationally-designed studios and lounges.   </p>
+<p>Practice under the guidance of authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p>
 ");
 define("LANG_YOGA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
@@ -91,13 +88,41 @@ define("LANG_YOGA_TRAINER3_TITLE","VIRAT");
 define("LANG_YOGA_TRAINER3_ID","trainer3");
 define("LANG_YOGA_TRAINER3_CONTENT",'
 <h3>VIRAT</h3>
-
+<h4>YOGA INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- Master in Physical Education.<br>
+- PG Diploma in Physical Education.<br>
+- PG Diploma in Yoga Education.<br>
+- Certificate Course in Yoga Education.</p>
+<p></p>
+<p>EXPERIENCE<br>
+- Pranayama and Meditation – Practicing since childhood.<br>
+- Fitness Trainer at a five-star The Bristol Hotel in Gurgaon.<br>
+- Physical Instructor (Yoga) in B.ED (Bachelor of Education) College of Girls.<br>
+- Yoga Instructor with Yoga Sadhana Mission.<br>
+- Three years experience as Personal Yoga and Fitness Trainer.<br>
+- Participated in an experiment of meditation in Kaivalyadhama Yoga Institute, Lonavala, Pune.<br>
+- Management of a Yoga and Fitness Studio in Gurgao.<br>
+- Recreation Manager and Yoga Specialist in the five-star Danna Langkawi, Malaysia.</p>
+<p></p>
+<p>EXPERTISE<br>
+- Traditional Yoga, Ashtanga Yoga, Hatha Yoga, Meditation by Chanting of Mantras.</p>
 ');
 define("LANG_YOGA_TRAINER4_TITLE","AJAY");
 define("LANG_YOGA_TRAINER4_ID","trainer4");
 define("LANG_YOGA_TRAINER4_CONTENT",'
 <h3>AJAY</h3>
-
+<h4>YOGA INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- Certified yoga teacher by Yoga Alliance.<br>
+- Diploma in Yoga in Mangal Ashram, Rishikesh.<br>
+- SVYASA yoga course certified.</p>
+<p></p>
+<p>EXPERIENCE<br>
+- 10 years experience in practicing and teaching Yoga.</p>
+<p></p>
+<p>EXPERTISE<br>
+- Ashtanga Yoga, Power Yoga, Hatha Yoga, Yoga Therapy, Pranayama, Mudra, Bandha, Meditation, Yoga Nidra.</p>
 ');
 define("LANG_YOGA_YOGI_TITLE","Do you want a more exclusive, authentic yoga experience?");
 define("LANG_YOGA_YOGI_CONTENT","
@@ -105,10 +130,10 @@ define("LANG_YOGA_YOGI_CONTENT","
 ");
 define("LANG_YOGA_SIGNUP_TITLE","try a yoga session");
 define("LANG_YOGA_SIGNUP_CONTENT",'
-<p><strong>INCLUDING:</strong></p>
-<p class="title">SIGN UP TO TRY A COMPLEMENTARY yoga CLASS!</p>
-<p>- FITNESS ASSESSMENT & CONSULTATION</p>
-<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
-<p></p>
-<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
+<p><strong>Experience The Healing Power Of Yoga</strong></p>
+<p>Relax and discover the incredible benefits of yoga. Calm your mind, build strength and improve your state of being. Just 500.000vnd for 10 Yoga classes</p>
+<p>» International yoga instructors</p>
+<p>» World class Facilities</p>
+<p>» Flexible schedules that suit you</p>
+<p>Experience A Class Now</p>
 ');

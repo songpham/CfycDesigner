@@ -59,15 +59,15 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER2_CONTENT_DS",'
 ');
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_TITLE_DS","ALMORGAN");
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_ID_DS","trainer3");
-define("LANG_DYNAMIC_STRETCHING_TRAINER3_CONTENT_DS","
+define("LANG_DYNAMIC_STRETCHING_TRAINER3_CONTENT_DS",'
 <h3>AL MORGAN</h3>
 <h4>MASTER TRAINER</h4>
 <p></p>
-<p>'I believe that your body adapts to whatever environment you put it in. My mission is to use my knowledge and expertise to put you in the right environment to adapt to meet your goals faster. Introducing you to all the options and tools that we have at CFYC is a much more comprehensive and successful way than simply lifting heavy weights and running endless hours on the treadmill. Strengthen your mind, realize your dreams. A strong mind paves the way for a strong body.' </p>
+<p>"Tôi tin rằng cơ thể chúng ta luôn tự thích nghi với mọi điều kiện hay môi trường sống. Sứ mệnh của tôi là vận dụng mọi kiến thức chuyên sâu của mình để hướng dẫn bạn tạo ra môi trường phù hợp nhất với những mục tiêu cá nhân. Giới thiệu với bạn tất cả các lựa chọn cũng như công cụ sẵn có tại CFYC chính là cách thức toàn diện và thành công hơn rất nhiều so với việc chỉ đơn giản là ráng sức nâng tạ kết hợp với những bước chạy miệt mài trong nhiều giờ liền trên máy tập. Hãy cùng chúng tôi nâng cao sức mạnh tinh thần, biến ước mơ thành hiện thực. Một tinh thần vững vàng luôn là khởi đầu tích cực cho một cơ thể cường tráng." </p>
 <p></p>
 <p>Bio:<br>
-Al Morgan has over 25 years of experience in training sports professionals in the US, Germany, Hong Kong, Malaysia, Singapore, and now Vietnam. He has transformed the lives of thousands of people from all walks of life, from celebrities to professional athletes. He brings the power of change to you whether you are a Superstar in the world's eyes, or simply in the eyes of your employees, your family, or your children. Al is certified by the National Academy of Sports Medicine (NASM), the worldwide leader in fitness education. He teaches his NASM knowledge to all the trainers at CFYC to ensure everyone gets the best results quickly and safely.</p>
-");
+Al Morgan có hơn 25 năm kinh nghiệm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore và hiện nay là Việt Nam. Ông đã giúp cho hàng ngàn người thuộc mọi tầng lớp xã hội, từ những nhân vật nổi tiếng cho tới các vận động viên thể thao chuyên nghiệp, tạo ra những bước ngoặt ngoạn mục trong cuộc sống của họ. Ông có đủ quyền năng để thổi sức mạnh của sự thay đổi vào con người bạn, dù bạn là một siêu sao trong con mắt ngưỡng mộ của cả thế giới hay chỉ đơn giản là trong con mắt của nhân viên dưới quyền, của gia đình, của con cái. Al được Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ – tổ chức giáo dục thể chất hàng đầu thế giới – cấp bằng chứng nhận. Ông đem những kiến thức quý giá từ NASM truyền đạt lại cho tất cả các huấn luyện viên tại CFYC, để đảm bảo rằng mọi người đều đạt được thành tích tốt nhất một cách nhanh chóng và vững chắc.</p>
+');
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_TITLE_DS","TRAVIS");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_ID_DS","trainer4");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
@@ -85,6 +85,15 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 - Bảy năm kinh nghiệm huấn luyện thể hình.<br>
 - Huấn luyện hơn 200 khách hàng ở mọi độ tuổi, khả năng và mức độ tập luyện khác nhau.<br>
 - Có nhiều kinh nghiệm cho bài tập phục hồi sau chấn thương.</p>
-
 ');
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
+<p><strong>GET THE BODY YOU DESERVE!</strong></p>
+<p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
+<p>» Personalized fitness and health plan</p>
+<p>» Exclusive 1 on 1 training that fits your schedule</p>
+<p>» Dedicated attention and motivation</p>
+<p>» Proven weight loss and muscle building results system</p>
+<p>Book A Consultation Now</p>
+");
 
