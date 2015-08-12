@@ -5,7 +5,7 @@
     <div class="row gallery">
     	<a href="javascript:void(0)" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
     		<img class="hidden-xs" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
-            <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+            <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-mobile-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
     	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
@@ -90,10 +90,14 @@
 						</div>
 						<div class="whitespace"></div>
             			<div class="whitespace"></div>
-            			<div class="row ">
+            			<div class="row messages">
             				<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                     		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    			<h2 class="booktitle">book a vip visit today</h3>
+                    			<!--<h1><?=LANG_VIP_RSVP_INCLUDE_8?></h1>
+                    			<h2><?=LANG_VIP_RSVP_INCLUDE_9?></h2>
+                    			<p><?=LANG_VIP_RSVP_INCLUDE_10?></p>
+                    			<h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_11?></h2>-->
+                    			<h2 class="booktitle">book a vip visit today</h2>
 								<h3 class="visit_benefit">
 								<span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
 								<strong>- EXCLUSIVE TOUR</strong><br/>
@@ -135,7 +139,7 @@
 										<input type="submit" class="submitbtn" value="book a vip visit">
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
-								</div>								
+								</div>							
                     		</div>
                     		<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                 		</div>
