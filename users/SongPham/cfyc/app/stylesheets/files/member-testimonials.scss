@@ -166,9 +166,7 @@
     #member-list {
         .carousel-control {
             background :0 0;
-            .glyphicon {background: url(../img/member-testimonials/arrows.png) no-repeat;height: 50px;width: 27px;&:before {content: "";}}
-            .glyphicon-chevron-left {;margin-left: 0;left: 80%;}
-            .glyphicon-chevron-right {margin-right: 0;right: 80%;background-position: bottom;}
+            .glyphicon {color: $red;}
         }
         .item {
             .box {
@@ -192,6 +190,8 @@
                         filter: initial;
                         filter: initial; /* Firefox 4+ */
                         filter: initial;/* IE 6-9 */
+                        -webkit-transition: all .6s ease;
+                        -webkit-backface-visibility: hidden;
                     }
                     p {color: $red;}
                 }

@@ -8,19 +8,21 @@
     <div class="top-content row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
-           <!-- carousel  <div class="carousel-inner" role="listbox"> -->
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL ?>/img/contact-us/contact-banner.jpg" alt="Contact">
-                    <div class="carousel-caption">
-                        <fieldset>
-                            <legend><?php echo LANG_CTA_CONTACT_US_TITLE_lEGEND ?></legend>
-                           <?php echo LANG_CTA_CONTACT_US_TITLE ?><br>
-                            <span><?php echo LANG_CTA_CONTACT_US_TEXT ?></span>
-                            <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title="Discover Cali Dance">Try a class</a>
-                        </fieldset>
-                    </div> <!-- caption -->
-                </div> <!-- item -->
-          <!--  </div> carousel -->
+          <div class="carousel-inner banner-top" role="listbox"> 
+
+	                <div class="cta">
+			            <fieldset>
+			                <legend><?php echo LANG_CTA_CONTACT_US_TITLE_lEGEND ?></legend>
+			                <hr/>
+			               
+			                <span><?php echo LANG_CTA_CONTACT_US_TEXT ?></span>
+			                <div class="red-btn">
+			                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
+			                </div>
+			            </fieldset>
+					</div>
+
+           </div> 
         </div>
     </div>
     <div class="contact container">

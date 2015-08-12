@@ -28,7 +28,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER', '
         <p>Body fat: 18.5kg</p>
         <p>Weight: 58.5kg</p>
     ');
-define('LANG_MEMBER_TESTIMONIALS_STORY_1_TITLE', 'STORY 1');
+define('LANG_MEMBER_TESTIMONIALS_STORY_1_TITLE', 'Nataly Pham');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_CONTENT', "
         <p>Regular fitness keeps me healthy both physically and mentally! I had no idea what kind of world I was getting into when I changed my lifestyle to a more fit and healthy one, but I'm thankful I did. Here are a few ways fitness changed my life for the better.</p>
         <p>1. It helped me kick bad habits. I would come home, get into workout gear, push myself and grab for water instead of vodka. </p>
@@ -54,7 +54,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_AFTER', '
         <p>Body fat: 6.4kg</p>
         <p>Weight: 66.9kg</p>
     ');
-define('LANG_MEMBER_TESTIMONIALS_STORY_2_TITLE', 'STORY 2');
+define('LANG_MEMBER_TESTIMONIALS_STORY_2_TITLE', 'Lâm Phương Bách');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
         <p>Bach was only 18 years old when he signed up for BTC9 (Body Transformation Challenge 9) he lost 13.9 kg (16.5%) in 8 weeks. He was attending an American university at the time and returned to Vietnam for vacation where he join BTC. He’s fan of fast food. He thought he’s overweight so he’s not confident in communicating with others and got away from outdoor activities. Bach participated in almost every boot camp that was offered. After the Body Transformation Challenge ended he maintained a healthy diet and disciplined training. He completely re-designed himself by taking the initiative to change his health and his life, got better educational results, became more active…</p>
     ");
@@ -72,7 +72,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
         <p>Body fat: 6.4kg</p>
         <p>Weight: 66.9kg</p>
     ');
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'STORY 3');
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
         <p>Trang met some difficulties in work and communication because of her appearance (fat body). She looked through some fitness centre in Hanoi and finally found California the best. She followed the guidance of PT. The biggest difficulties was her food appetite. The more workout she did, the hungrier she felt. But PT was strict with Trang about nutrion, so she gradually controlled what to eat for the best result. She lost 9.5kg of fat, gained 3.5kg muscle, increase Inbody point from 66 to 89! She got confidence, will, determination, belief in herself and life!</p>
     ");

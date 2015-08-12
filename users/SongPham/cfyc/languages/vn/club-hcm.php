@@ -26,9 +26,6 @@ define('LANG_CLUB_HCM_INTRODUCE', 'California Fitness & Yoga tự hào đồng h
 define('LANG_CLUB_HCM_CLUB_1_TITLE_TEXT', 'CLB Quận 11');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_1_CAPTION_1', "CLB cao cấp dành cho hội viên thẻ diamond trở lên, bao gồm các dịch vụ chăm sóc sức khỏe hàng đầu và hồ Jacuzzi tạo sóng massage thư giãn");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_1_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_1_CONTACT_INFO', '
 		<!-- location -->
@@ -50,9 +47,6 @@ define('LANG_CLUB_HCM_CLUB_1_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_2_TITLE_TEXT', 'CLB Quận Tân Bình');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_2_CAPTION_1', "Nếu bạn sống tại Gò Vấp, Tân Phú, Phú Nhuận và đang có mong muốn thay đổi cơ thể. Thì trung tâm California tại tầng 3 Pico Plaza là lựa chọn phù hợp nhất với bạn");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_2_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_2_CONTACT_INFO', '
 		<!-- location -->
@@ -75,9 +69,6 @@ define('LANG_CLUB_HCM_CLUB_2_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_3_TITLE_TEXT', 'CLB QUẬN 4');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_3_CAPTION_1', "Nằm cạnh Bến nhà rồng, nơi những làn gió tươi mới và khung cảnh thoáng đãng làm dịu mát tâm hồn bạn sau những giờ làm việc căng thẳng");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_3_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_3_CONTACT_INFO', '
 		<!-- location -->
@@ -100,9 +91,6 @@ define('LANG_CLUB_HCM_CLUB_3_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_4_TITLE_TEXT', 'CLB QUẬN 5');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_4_CAPTION_1', "Một trong những trung tâm sôi động nhất tại HCM, hãy đăng kí tại đây nếu bạn thích cảm giác vui nhộn, đầy hứng khởi khi tập luyện cùng vô số những người bạn mới quen có cùng chung sở thích");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_4_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_4_CONTACT_INFO', '
 		<!-- location -->
@@ -125,9 +113,6 @@ define('LANG_CLUB_HCM_CLUB_4_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_5_TITLE_TEXT', 'CLB QUẬN 1');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_5_CAPTION_1', "Nằm giữa trung tâm HCM phồn hoa, giúp bạn cảm nhận rõ nét hơn nhịp đập của trái tim thành phố sau mỗi buổi tập HIIT đầy hứng khởi");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_5_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_5_CONTACT_INFO', '
 		<!-- location -->
@@ -150,9 +135,6 @@ define('LANG_CLUB_HCM_CLUB_5_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_6_TITLE_TEXT', 'CLB QUẬN 7');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_6_CAPTION_1', "Tại Vivo City, chúng tôi tự hào mang phong cách sống mạnh mẽ và năng động đến một trong những khu mua sắm sầm uất nhất quận 7");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_6_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
 		<!-- location -->
@@ -174,9 +156,6 @@ define('LANG_CLUB_HCM_CLUB_6_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_7_TITLE_TEXT', 'CLB QUẬN THỦ ĐỨC');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_7_CAPTION_1', "Tự do trải nghiệm không khí hào hứng khi tham gia hơn 20 lớp thể dục, Yoga và Dance chuẩn quốc tế đầy sôi động tại tầng 3 Vincom Thủ Đức");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_7_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
 		<!-- location -->
@@ -194,9 +173,6 @@ define('LANG_CLUB_HCM_CLUB_7_CONTACT_INFO', '
 define('LANG_CLUB_HCM_CLUB_8_TITLE_TEXT', 'CRESENT [CENTURYON] GYM');
 // CAPTION
 define('LANG_CLUB_HCM_CLUB_8_CAPTION_1', "CLB dành riêng cho hội viên sở hữu thẻ Centuryon cao cấp nhất.<br>Nằm cạnh hồ bán nguyệt và sở hữu lớp Yoga, Cyclying ngoài trời duy nhất trên toàn quốc, giúp tâm hồn bạn dễ dàng hòa quyện cùng khung cảnh thiên nhiên đầy quyến rũ");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_2', "");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_3', "");
-define('LANG_CLUB_HCM_CLUB_8_CAPTION_4', "");
 // CONTACT INFO
 define('LANG_CLUB_HCM_CLUB_8_CONTACT_INFO', '
 		<!-- location -->

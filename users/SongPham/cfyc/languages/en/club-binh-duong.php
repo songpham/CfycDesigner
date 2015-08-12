@@ -2,13 +2,13 @@
 define('LANG_CLUB_BINH_DUONG', 'BINH DUONG');
 
 // BANNER
-define('LANG_CLUB_BINH_DUONG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_BINH_DUONG_BANNER_SUB_TITLE', 'BINH DUONG');
+define('LANG_CLUB_BINH_DUONG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in BINH DUONG CITY');
+define('LANG_CLUB_BINH_DUONG_BANNER_SUB_TITLE', '');
 define('LANG_CLUB_BINH_DUONG_BANNER_TEXT_BUTTON', 'Find a club in Binh Duong today');
 
 
 // DESCRIPTION 
-define('LANG_CLUB_BINH_DUONG_INTRODUCE', '');
+define('LANG_CLUB_BINH_DUONG_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Binh Duong City. Since 2007 when our first five star location opened up in Hung Vuong Plaza, District 5, we have grown rapidly.');
 
 
 // CLUBS LIST

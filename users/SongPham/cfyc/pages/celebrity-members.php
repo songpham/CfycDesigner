@@ -14,7 +14,7 @@
                 <div class="row celebrities">
                     <div class="col-md-12 col-xs-12 text-center">
 						<div class="row gallery">
-							<div class="strike"><h1 class="title">Discover Our Celebrity Members</h1></div>
+							<div class="strike"><h2 class="title">Discover Our Celebrity Members</h2></div>
 					        <div id="movetopbanner tab-content" class="carousel slide" data-ride="carousel">
 					          <div class="carousel-inner" role="listbox">
 					            <div class="item active">

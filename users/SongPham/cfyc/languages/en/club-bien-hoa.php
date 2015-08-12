@@ -2,13 +2,13 @@
 define('LANG_CLUB_BIEN_HOA', 'BIEN HOA');
 
 // BANNER
-define('LANG_CLUB_BIEN_HOA_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in');
-define('LANG_CLUB_BIEN_HOA_BANNER_SUB_TITLE', 'BIEN HOA');
+define('LANG_CLUB_BIEN_HOA_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in BIEN HOA CITY');
+define('LANG_CLUB_BIEN_HOA_BANNER_SUB_TITLE', '');
 define('LANG_CLUB_BIEN_HOA_BANNER_TEXT_BUTTON', 'Find a club in Bien Hoa today');
 
 
 // DESCRIPTION 
-define('LANG_CLUB_BIEN_HOA_INTRODUCE', '');
+define('LANG_CLUB_BIEN_HOA_INTRODUCE', 'Discover our wide variety of fitness, health and lifestyle clubs available throughout Bien Hoa City. Since 2007 when our first five star location opened up in Hung Vuong Plaza, District 5, we have grown rapidly.');
 
 
 // CLUBS LIST

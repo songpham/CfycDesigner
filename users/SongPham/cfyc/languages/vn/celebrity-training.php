@@ -3,7 +3,7 @@
 define('LANG_CELEBRITY_TRAINING', 'Huấn luyện người nổi tiếng');
 
 define('LANG_CELEBRITY_TRAINING_BANNER_TITLE', 'BẠN ĐÃ LÀ HỘI VIÊN CHƯA?');
-define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'HO CHI MINH CITY');
+define('LANG_CELEBRITY_TRAINING_BANNER_SUB_TITLE', 'Khám phá ngay những lợi ích độc nhất của hội viên California Fitness & Yoga. Đăng kí để tìm hiểu thêm và tập thử miễn phí ngay hôm nay');
 define('LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON', 'Đăng ký tập thử');
 
 define('LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE', 'Về Huấn luyện Người nổi tiếng');
