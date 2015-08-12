@@ -13,6 +13,7 @@
 }
 
 .club-page {
+
     .whitespace {padding: 10px 0}
     .whitespace-2x {padding: 20px 0}
     .whitespace-3x {padding: 30px 0}
@@ -411,6 +412,16 @@
     }
 
     .quan {display:none;}
+    	.carousel.slide.desktop {display: block;
+		@media (max-width:767px) {
+			display: none;
+		}
+	}
+	.carousel.slide.mobile {display: none;
+		@media (max-width:767px) {
+			display: block;
+		}
+	}
 
 
 }
