@@ -9,7 +9,7 @@
                     <?=LANG_DANCE_BANNER_TEXT_SMALL?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_DANCE_BANNER_TEXT_CTA?>"> <?=LANG_DANCE_BANNER_TEXT_CTA?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_DANCE_BANNER_TEXT_CTA?>"> <?=LANG_DANCE_BANNER_TEXT_CTA?></a>
                 </div>
             </fieldset>
         </div>

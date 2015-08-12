@@ -9,7 +9,7 @@
                     <?=LANG_GROUP_BANNER_TEXT_SMALL_GROUP?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?>"> <?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?>"> <?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?></a>
                 </div>
             </fieldset>
         </div>

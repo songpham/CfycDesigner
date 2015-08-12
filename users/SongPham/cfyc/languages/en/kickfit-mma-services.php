@@ -41,24 +41,28 @@ define("LANG_KICKFIT_MMA_TRAINER1_TITLE","LEE");
 define("LANG_KICKFIT_MMA_TRAINER1_ID","trainer1");
 define("LANG_KICKFIT_MMA_TRAINER1_CONTENT",'
 <h3>LEE</h3>
-<h4>GIÁM SÁT BỘ PHẬN PT</h4>
-<p>PHONG CÁCH & CHUYÊN MÔN</p>
-<p>
-- Phương châm: “Việc rèn luyện võ thuật sẽ giúp cho cuộc sống tốt đẹp hơn”.<br>
-- “Là một người chơi võ thuật chuyên nghiệp, tôi muốn giúp cho khách hàng có được sức khỏe và tinh thần như một võ sĩ đạo: luôn cười vui vẻ và thân thiện với tất cả mọi người, giúp mọi người có được khả năng và trình độ võ thuật tốt. Đó là phong cách của tôi – LEE”.
-</p>
-<p>
-BẰNG CẤP<br>
-- Chứng nhận Huấn Luyện Viên Cá Nhân của Trung Tâm Thể Dục Thể Hình & Yoga California.<br>
-- Chứng nhận Kick Boxing.<br>
-- Chứng nhận Muay Thai cấp bởi Muay Thai Việt Nam.<br>
-- Chứng nhận Cascaduer chuyên nghiệp cấp bởi Hiệp Hội Điện Ảnh Việt Nam.<br>
-- Chứng nhận Judo cấp bởi Liên Đoàn Judo.<br>
-- Chứng nhận “Vật Cổ Truyền” cấp bởi Liên Đoàn Vật Cổ Truyền Việt Nam.<br>
-- Chứng nhận Võ Cổ Truyền cấp bởi Liên Đoàn Võ Cổ Truyền Việt Nam.<br>
-- Chứng nhận Việt Võ Đạo cấp bởi Liên Đoàn Vovinam Việt Nam.<br>
-- Cử nhân võ thuật cấp bởi Bộ Giáo Dục và Đào Tạo Việt Nam.Crunch.
-</p>
+<h4>FITNESS SUPERVISOR</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Philosophy: “Practice martial arts make your life better”.<br>
+- “Being a professional kick boxer, I want to help Members have good heath and the spirit of a fighter: always be happy and friendly, help Members get high standard in martial arts. That is my style – LEE”.</p>
+<p></p>
+<p>QUALIFICATIONS<br>
+- CFYC Personal Trainer Certificate. <br>
+- Kick Boxing Certificate.<br>
+- Muay Thai Certificate issued by Muay Thai VietNam.<br>
+- Professional Cascadeur Certificate issued by Vietnam Cinema Association.<br>
+- Judo Certificate issued by Judo Federation. <br>
+- Traditional Wrestling Certificate issued by Vietnam Traditional Wrestling Federation.<br>
+- Traditional Martial Arts Certificate issued by Vietnam Traditional Martial Arts Federation. <br>
+- Vovinam Certificate issued by Vietnam Vovinam Federation.<br>
+- Bachelor Degree in Martial Arts issued by Ministry of Education and Training.</p>
+<p></p>
+<p>EXPERIENCE<br>
+- One-year experience in professional training for the Martial Arts Team of Hong Bang University.<br>
+- Two-year experience in teaching martial arts for People’s Police University and security companies.<br>
+- Three-year experience in training KickFit at California Fitness & Yoga Centers.<br>
+- Four-year experience in teaching martial arts at Industrial University of HCM City.<br>
+- Six-year experience in teaching martial arts specialty at Hong Bang University International.</p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER2_TITLE","TOM");
 define("LANG_KICKFIT_MMA_TRAINER2_ID","trainer2");
