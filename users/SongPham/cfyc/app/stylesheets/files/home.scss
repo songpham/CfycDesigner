@@ -213,8 +213,7 @@
                 }
             }
             .celebrities {
-                background: url('../img/home/california-wow-celeb-member-bg.jpg') 0 0 repeat transparent;
-                padding: 30px 0;
+                background: url('../img/home/california-wow-celeb-member-bg.jpg') 0 0 no-repeat transparent;                
                 .celeb-items{
                     a{
                         img {
@@ -276,7 +275,9 @@
     .home-page {
         .top-content {
             .holder-top-content {
-            	
+            	.celebrities {
+                    background-size:cover;
+                }
                 .find_your_trainner {
                     .trainner_photo {
                         margin-bottom:15px;
@@ -454,6 +455,9 @@
                         }
                     }
                 }
+                .celebrities {
+                    background-size:cover;
+                }
             }
         }
     }
@@ -504,6 +508,9 @@
                             margin-bottom: 10px;
                         }
                     }
+                }
+                .celebrities {
+                    background-size:cover;
                 }
             }
         }

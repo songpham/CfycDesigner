@@ -97,13 +97,11 @@
                         </div>
                     </div>
                 </div>
-                <!--
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="services" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
-                -->
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
@@ -189,7 +187,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
@@ -375,44 +373,44 @@
                     <div class="col-md-10 col-sm-10 col-lg-10 col-xs-12">
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_1_URL?><?php echo getSuffix('lang=' . $LANG) ?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_1_URL?>">
                                     <img src="img/home/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can.jpg" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_1_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_1_URL?>" title="<?=LANG_SUCCESS_STORIES_1_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_1_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_1_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_1,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_2_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_2_URL?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                     <img src="img/home/California-Fitness-opens-20-clubs-2015-3.jpg" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_2_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_2_URL?>" title="<?=LANG_SUCCESS_STORIES_2_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_2_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_2_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_2,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_3_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_3_URL?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                     <img src="img/home/tap-yoga-giup-dan-ong-khoe-hon.jpg" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_3_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_3_URL?>" title="<?=LANG_SUCCESS_STORIES_3_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_3_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_3_TITLE,35)?>
                                     </a>
                                 </h4>
                                 <?='<p>'.truncate(LANG_SUCCESS_STORIES_3,150).'</p>'?>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                                <a href="<?=LANG_SUCCESS_STORIES_4_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
+                                <a href="<?=LANG_SUCCESS_STORIES_4_URL?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
                                     <img src="img/home/sau-mui-ho-vinh-khoa-cover.jpg" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
                                 </a>
                                 <h4>
-                                    <a href="<?=LANG_SUCCESS_STORIES_4_URL?><?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
+                                    <a href="<?=LANG_SUCCESS_STORIES_4_URL?>" title="<?=LANG_SUCCESS_STORIES_4_TITLE?>" alt="<?=LANG_SUCCESS_STORIES_4_TITLE?>">
                                         <?=truncate(LANG_SUCCESS_STORIES_4_TITLE,35)?>
                                     </a>
                                 </h4>

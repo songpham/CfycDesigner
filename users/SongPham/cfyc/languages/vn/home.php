@@ -54,19 +54,19 @@ define("LANG_SUCCESS_STORIES_DESC","<h3>TRUC HIEN</h3><p>My name is Truc Hien an
 
 define("LANG_SUCCESS_STORIES_1_TITLE","những điều phái nữ cần biết khi tập gym giảm cân");
 define("LANG_SUCCESS_STORIES_1","Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.");
-define("LANG_SUCCESS_STORIES_1_URL", "http://www.cfyc.com.vn/lifestyle/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/");
+define("LANG_SUCCESS_STORIES_1_URL", "http://lifestyle.cfyc.com.vn/giam-can-cap-toc/nhung-dieu-phai-nu-can-biet-khi-tap-gym-giam-can/");
 
 define("LANG_SUCCESS_STORIES_2_TITLE","tập đoàn california management group mở rộng thêm 6 trung tâm cfyc");
 define("LANG_SUCCESS_STORIES_2","Tập đoàn California Management Group mở rộng thêm 6 cơ sở mới thuộc hệ thống Trung tâm thể dục thể hình và yoga California Fitness & Yoga (CFY) đến cuối năm nay.");
-define("LANG_SUCCESS_STORIES_2_URL", "http://www.cfyc.com.vn/lifestyle/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/");
+define("LANG_SUCCESS_STORIES_2_URL", "http://lifestyle.cfyc.com.vn/tin-tuc/tap-doan-california-management-group-mo-them-6-trung-tam-california-fitness-yoga-centers-cfyc-den-cuoi-nam-2015/");
 
 define("LANG_SUCCESS_STORIES_3_TITLE","tập yoga giúp đàn ông khỏe hơn");
 define("LANG_SUCCESS_STORIES_3","Nhiều người nghĩ rằng Yoga chỉ dành cho nữ giới. Thực tế, tập yoga giúp đàn ông khỏe hơn về thể chất, trẻ lâu hơn và có đời sống tình dục tốt hơn.");
-define("LANG_SUCCESS_STORIES_3_URL", "http://www.cfyc.com.vn/lifestyle/yoga/tap-yoga-giup-dan-ong-khoe-hon/");
+define("LANG_SUCCESS_STORIES_3_URL", "http://lifestyle.cfyc.com.vn/yoga/tap-yoga-giup-dan-ong-khoe-hon/");
 
 define("LANG_SUCCESS_STORIES_4_TITLE","bài tập để có bụng sáu múi như hồ vĩnh khoa");
 define("LANG_SUCCESS_STORIES_4","Body chuẩn với bụng sáu múi làm nên sự hấp dẫn đặc biệt ở đàn ông. Với bài tập để có bụng sáu múi mà ca sĩ Hồ Vĩnh Khoa thường tập, bạn sẽ sớm đạt được thân hình mong muốn.");
-define("LANG_SUCCESS_STORIES_4_URL", "http://www.cfyc.com.vn/lifestyle/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/");
+define("LANG_SUCCESS_STORIES_4_URL", "http://lifestyle.cfyc.com.vn/luyen-tap/bai-tap-de-co-bung-sau-mui-nhu-ho-vinh-khoa/");
 
 define("LANG_BANNER_TITLE","Visit us for a free membership trial today");
 
