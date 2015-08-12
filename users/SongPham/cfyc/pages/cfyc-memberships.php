@@ -112,7 +112,6 @@
         </div><!--end row-->
     </div><!--end container page-->
     <div id="id_5"class="row banner-bottom">
-        <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/bg-footer.jpg" class="img-responsive banner" onmousedown="return false;"/>
         <div class="text-box">
             <h1><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1 ?></h1>
             <h3><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1 ?></h3>

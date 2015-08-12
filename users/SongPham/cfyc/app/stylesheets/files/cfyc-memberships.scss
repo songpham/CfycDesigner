@@ -252,8 +252,10 @@
         }
     }
     .banner-bottom {
+    	background: #fff url(../img/cfyc-memberships/bg-footer.jpg) center top no-repeat;
         top: 50px;
         position: relative;
+        min-height:450px;
         margin-bottom: 60px;
         .text-box {
             position: absolute;
@@ -307,13 +309,13 @@
         .banner-bottom {
             .text-box {
                 h1 {
-                    @include font-size(2.8vw);
+                    @include font-size(5vw);
                 }
                 h3 {
-                    @include font-size(2vw);
+                    @include font-size(4vw);
                 }
                 a.cta {
-                    @include font-size(1.5vw);
+                    @include font-size(3vw);
                 }
             }
         }
@@ -381,8 +383,15 @@
             }
         }
         .banner-bottom {
+        background: #fff url(../img/cfyc-memberships/m-bg-footer.jpg) center top no-repeat;
+        background-size: cover;
+        min-height: 200px;
             .text-box {
+            	max-width: 70%;
                 top: -2%;
+                h1 {font-size: 4.5vw;}
+                h3 {font-size: 3vw;}
+                a.cta {font-size: 2.5vw;}
             }
         }
     }
