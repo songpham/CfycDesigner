@@ -109,6 +109,7 @@
                 </div>
             </div>
             <div class="whitespace"></div>
+            <div class="wrapper">
             <div id="id_2" class="col-md-12 text-center celebrity-info-block">
                 <div class="row mindshares tab-pane fade row-centered">
                     <div class="col-md-4 col-xs-12 col-centered celebrity-image">
@@ -199,6 +200,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb7 -->
             </div> <!-- /close celebrity info block -->
+            </div> <!-- wrapper -->
         </div>
     </div>
 </div>

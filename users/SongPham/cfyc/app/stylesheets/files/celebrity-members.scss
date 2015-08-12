@@ -364,33 +364,38 @@
     .celebrity-members-page {
         .top-content {
             .holder-top-content {
-                .celebrity-info-block {
-                    .mindshares{
-                        padding-top:15px;
-                        position: relative;
-                        img {
-                        }
-                        .testimonial{
-                            background: none;
-                            .textend{
-                                padding-bottom:0;
-                                blockquote {
-                                    p {
-                                    }
-                                }
-                                blockquote:before {
-                                }
-                                blockquote:after {
-                                }
-                                h3{
-                                    //display: none;
-                                    span{
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+            	.wrapper { position: relative; min-height: 1100px;
+	                .celebrity-info-block {
+	                    .mindshares{
+	                        padding-top:15px;
+	                        .celebrity-image {
+		                        height: auto;
+	                        }
+	                        
+	                        img {
+	                        }
+	                        .testimonial{
+	                            background: none;
+	                            .textend{
+	                                padding-bottom:0;
+	                                blockquote {
+	                                    p {
+	                                    }
+	                                }
+	                                blockquote:before {
+	                                }
+	                                blockquote:after {
+	                                }
+	                                h3{
+	                                    //display: none;
+	                                    span{
+	                                    }
+	                                }
+	                            }
+	                        }
+	                    }
+	                }
+	             }
                 h3{
                     text-transform: uppercase;
                     font-size: 120%;
