@@ -43,42 +43,42 @@
 
             <!-- SLIDESHOW -->
             <div class="slideshow">
-                <div id="slideshow-1" class="carousel slide" data-ride="carousel">
+                                <div id="slideshow-1" class="carousel slide desktop" data-ride="carousel">
                     <!-- Wrapper for slides -->
 
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="carousel-caption">
-                            <?php echo LANG_CLUB_BINH_DUONG_CLUB_1_CAPTION_1 ?>
+                            <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
                         </div>
                     </div>
-
+                    
                     <!-- Indicators -->
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg" alt=""></div>
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-2.jpg" alt=""></div>
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-3.jpg" alt=""></div>
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/slide-4.jpg" alt=""></div>
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/binhduong/club1/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
@@ -86,6 +86,56 @@
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control" href="#slideshow-1" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile -->
+                 <div id="slideshow-1-m" class="carousel slide mobile" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="carousel-caption">
+                            <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
+                        </div>
+                    </div>
+                    
+                    <!-- Indicators -->
+                    <div class="container-page">
+                        <div class="carousel-indicators thumbs">
+                            <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1-m" data-slide-to="0">
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/1.jpg" alt=""></div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="1">
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/2.jpg" alt=""></div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="2">
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/3.jpg" alt=""></div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="3">
+                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/binhduong/club1/4.jpg" alt=""></div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#slideshow-1-m" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#slideshow-1-m" role="button" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
