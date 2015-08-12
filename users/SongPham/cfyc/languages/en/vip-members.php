@@ -8,3 +8,7 @@ define("LANG_VIP_RSVP_INCLUDE_4","Let our experts help you learn more about your
 define("LANG_VIP_RSVP_INCLUDE_5","Personal Training");
 define("LANG_VIP_RSVP_INCLUDE_6","Don’t just learn how to reach your goals, but get started with an exclusive 1 on 1 personal training orientation.");
 define("LANG_VIP_RSVP_INCLUDE_7", "And have a chance to experience over 20 other life enhancement services at california fitness & yoga including:");
+define("LANG_VIP_RSVP_INCLUDE_8", "Are you a member?");
+define("LANG_VIP_RSVP_INCLUDE_9", "Discover the benefits of a California Fitness & Yoga membership");
+define("LANG_VIP_RSVP_INCLUDE_10", "Get a free membership trial today");
+define("LANG_VIP_RSVP_INCLUDE_11", "get a trial");
