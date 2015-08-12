@@ -3,8 +3,9 @@
 <div class="container-fluid">
     <!-- Top Banner -->
     <div class="row gallery">
-    	<a href="javascript:void(0)" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-    		<img src="img/vip-members/california-wow-vip-members.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+    	<a href="javascript:void(0)" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
+    		<img class="hidden-xs" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+            <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
     	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
@@ -15,8 +16,7 @@
                 	<div class="hidden-md col-lg-2 hidden-sm hidden-xs text-center"></div>
                     <div class="col-md-12 col-lg-8 col-sm-12 col-xs-12 text-center">
 						<h3 class="section_title">
-							For over 7 years California Fitness has made it its mission to make life better as a place where fitness, fashion and entertainment merge in a healthy, high energy environment to deliver a dynamic lifestyle and life enhancement experience.<br/><br/>
-							RSVP now for a complementary VIP visit at any California Fitness location of your choice including:
+							<?=LANG_VIP_RSVP_NOW?>
 						</h3>
 						<div class="row">
 							<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"></div>
@@ -28,22 +28,22 @@
 						<div class="row">
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 								<img src="img/vip-members/california-wow-vip-member-1.jpg" alt="Exclusive 1 on 1 consultation" title="Exclusive 1 on 1 consultation">
-								<h2 class="title">Exclusive 1 on 1 consultation</h2>
-								<p class="title_desc">Learn about life enhancement services and how you can reach your goals to lose weight, build muscle and much more.</p>
+								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_1?></h2>
+								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_2?></p>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 								<img src="img/vip-members/california-wow-vip-member-2.jpg" alt="InBody Assessment" title="InBody Assessment">
-								<h2 class="title">InBody Assessment</h2>
-								<p class="title_desc">Let our experts help you learn more about your body and identify the best solutions, personalized exactly for you, your needs and your goals.</p>
+								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_3?></h2>
+								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_4?></p>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 								<img src="img/vip-members/california-wow-vip-member-3.jpg" alt="Personal Training" title="Personal Training">
-								<h2 class="title">Personal Training</h2>
-								<p class="title_desc">Don’t just learn how to reach your goals, but get started with an exclusive 1 on 1 personal training orientation.</p>
+								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_5?></h2>
+								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_6?></p>
 							</div>
 						</div>
 						<h3 class="section_title">
-							And have a chance to experience over 20 other life enhancement services at california fitness & yoga including:
+							<?=LANG_VIP_RSVP_INCLUDE_7?>
 						</h3>
 						<div class="row">
 							<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"></div>

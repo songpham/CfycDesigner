@@ -9,7 +9,7 @@
                     <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
                 </div>
             </fieldset>
         </div>

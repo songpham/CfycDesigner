@@ -12,7 +12,7 @@
                 </span>
                 <div class="red-btn">
                     <div class="red-btn-inline">
-                        <a class="cta" href="#" title="Discover Cali Dance"> <?php echo LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON ?></a>
+                        <a class="cta" href="#form" title="Discover Cali Dance"> <?php echo LANG_CELEBRITY_TRAINING_BANNER_TEXT_BUTTON ?></a>
                     </div>
                 </div>
             </fieldset>
@@ -183,16 +183,10 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <h2 class="booktitle">book a vip visit today</h2>
+                            <h2 class="booktitle"><?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BOX_TITLE ?></h2>
                             <h3 class="visit_benefit">
-                                <span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
-                                <strong>- EXCLUSIVE TOUR</strong><br/>
-                                <span>(Learn about all features, programs and equipment available)</span><br/><br/>
-                                <strong>- PT FITNESS CONSULTATION</strong><br/>
-                                <span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
-                                <strong>- FULL DAY ACCESS</strong><br/>
-                                <span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
-                                <span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>
+                                
+								<?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS ?>
                             </h3>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
@@ -211,4 +205,3 @@
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-<script src="<?php echo USER_BASE_URL ?>/js/scripts/celebrity-trainning.js"></script>

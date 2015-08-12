@@ -129,16 +129,16 @@
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/club1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/club2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/club3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/slide-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/club4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="carousel-caption">
                             <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
