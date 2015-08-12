@@ -1,43 +1,56 @@
 var celebritymemberPage = (function () {
-	var initModule = function () {
-		$(document).ready(function($){
-			// $('#tab-content a').click(function (e) {
-			// 	console.log($(this).attr('href'));
-			//     if($(this).parent('li').hasClass('active')){
-			//         $( $(this).attr('href') ).hide();
-			//     }else {
-			//         e.preventDefault();
-			//         $(this).tab('show');
-			//     }
-			// });
-
-			// $('.celeb-items a').on("click",function(){
-			// 	//remove active item first then add active to current one
-			// 	$(".celeb-items a.active").removeClass("active");
-			// 	$(this).addClass('active');
-			// 	console.log($(this).attr('href'));
-			// });
-
-			if(window.location.hash) {
-				//this will regcosise the who have click from homepage. Lam will code more when page finish
-				var celeb = window.location.hash.substring(1);
-				switch(celeb){
-					case 'hongocha': console.log('hongocha');break;
-					case 'xuanlan': console.log('xuanlan');break;
-					case 'phuongmai': console.log('phuongmai');break;
-					case 'diemmy': console.log('diemmy');break;
-					case 'hoangmy': console.log('hoangmy');break;
-					case 'hovinhkhoa': console.log('hovinhkhoa');break;
-					case 'chipu': console.log('chipu');break;
-					case 'randydobson': console.log('randydobson');break;
-					default: console.log('hongocha');
-				}
-			}
-
-		});
-	};
+    var initModule = function () {
+        /**
+         * start set up celebrities
+         */
+        var $containerContent = $('#tab-content'),
+            $celebItems = $containerContent.find('.celeb-items'),
+            $celebItemLinks = $celebItems.children('a'),
+            $celebrityInfoBlock = $('.celebrity-info-block'),
+            $celebrityInfoBlockItems = $('.celebrity-info-block').children();
+        if ($celebItems.length > 0) {
+            var i = 0;
+            $celebItems.each(function () {
+                var $me = $(this),
+                    $tmpLink = $me.children('a').filter('a'),
+                    index = i,
+                    matchClassName = 'celeb-' + index;
+                if ($tmpLink.length > 0) {
+                    $tmpLink.attr('href', '.' + matchClassName);
+                }
+                $tmpLink.on('click', function () {
+                    var $link = $(this);
+                    $celebItemLinks.removeClass('active');
+                    setTimeout(function () {
+                        $link.addClass('active');
+                        /* animate to the block */
+                        animateTo($celebrityInfoBlock);
+                    });
+                });
+                $celebrityInfoBlockItems.eq(index).addClass(matchClassName);
+                i++;
+            });
+        }
+        setTimeout(function () {
+            var celeb = getUrlVars()["celeb"],
+                celebIndex = celeb || 0;
+            if (celebIndex && isNaN(celebIndex) === true) {
+                celebIndex = 0;
+            }
+            var $tmpLink = $celebItems.find('> *[href=".celeb-' + celebIndex +'"]').addClass('active');
+            $celebrityInfoBlock.find('> *:eq(' + celebIndex + ')').addClass('active in');
+            /* active item celebrity */
+            $tmpLink.closest('.item').addClass('active');
+            /* animate to the block */
+            if (celeb > -1) {
+                animateTo($celebrityInfoBlock);
+            }
+        });
+    };
     return {
         initModule: initModule
     };
 }());
-celebritymemberPage.initModule();
+$(document).ready(function($) {
+    celebritymemberPage.initModule();
+});
