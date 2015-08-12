@@ -281,25 +281,25 @@
                             <div class="col-md-2 hide-sm hide-xs text-center">
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_1_HASH)?>" alt="<?=LANG_CELEB_1?>" title="<?=LANG_CELEB_1?>">
+                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 0)?>" alt="<?=LANG_CELEB_1?>" title="<?=LANG_CELEB_1?>">
                                     <img src="img/home/california-wow-celeb-member-1.png" alt="<?=LANG_CELEB_1?>" title="<?=LANG_CELEB_1?>">
                                     <p><?=LANG_CELEB_1?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_SINGER?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_2_HASH)?>" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
+                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 1)?>" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
                                     <img src="img/home/california-wow-celeb-member-5.png" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
                                     <p><?=LANG_CELEB_2?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_3_HASH)?>" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
+                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 2)?>" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
                                     <img src="img/home/california-wow-celeb-member-7.png" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
                                     <p><?=LANG_CELEB_3?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_4_HASH)?>"  alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
+                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 3)?>"  alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
                                     <img src="img/home/california-wow-celeb-member-10.png" alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
                                     <p><?=LANG_CELEB_4?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_ACTOR?></p>
                                 </a>
@@ -312,25 +312,25 @@
                                 <div class="col-md-2 hide-sm hide-xs text-center">
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_5_HASH)?>" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
+                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 4)?>" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
                                         <img src="img/home/california-wow-celeb-member-2.png" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
                                         <p><?=LANG_CELEB_5?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_6_HASH)?>" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
+                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 5)?>" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
                                         <img src="img/home/california-wow-celeb-member-3.png" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
                                         <p><?=LANG_CELEB_6?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?> / <?=LANG_CELEBRITY_MEMBERS_JOB_SINGER?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_7_HASH)?>"  alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
+                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 6)?>"  alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
                                         <img src="img/home/california-wow-celeb-member-11.png" alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
                                         <p><?=LANG_CELEB_7?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_ACTOR?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . LANG_CELEB_8_HASH)?>" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
+                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 7)?>" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
                                         <img src="img/home/california-wow-celeb-member-6.png" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
                                         <p><?=LANG_CELEB_8?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO?></p>
                                     </a>
