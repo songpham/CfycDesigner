@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <!-- Top Banner -->
     <div class="row gallery">
-    	<a href="javascript:void(0)" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
+    	<a href="#booknow" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
     		<img class="hidden-xs" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
             <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-mobile-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
     	</a>
@@ -90,7 +90,7 @@
 						</div>
 						<div class="whitespace"></div>
             			<div class="whitespace"></div>
-            			<div class="row messages">
+            			<div class="row messages" name="booknow" id="booknow">
             				<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                     		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     			<!--<h1><?=LANG_VIP_RSVP_INCLUDE_8?></h1>

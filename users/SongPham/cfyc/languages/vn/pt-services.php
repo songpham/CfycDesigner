@@ -24,7 +24,7 @@ define("LANG_PT_BENEFIT_CONTENT_PT",'
 
 define("LANG_PT_ENVIRONMENT_PT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 
-define("LANG_PT_TRAINER_TITLE_PT","Meet some of our top ptx2 instructors");
+define("LANG_PT_TRAINER_TITLE_PT","Meet some of our top pt instructors");
 define("LANG_PT_TRAINER_SUB_PT","You have the potential, we can help you reach it.");
 
 define("LANG_PT_TRAINER1_TITLE_PT","LINH TA");

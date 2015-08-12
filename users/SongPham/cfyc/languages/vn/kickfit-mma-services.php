@@ -114,7 +114,7 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - 10 năm huấn luyện thể lực tại Câu Lạc Bộ Quân Đội Quân Khu 7.</p>
 ');
 
-define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Kickfit / MMA");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
 <p><strong>Bạn đã sẵn sàng để chinh phục bản thân?</strong></p>
 <p></p>Cảm nhận những xung động mạnh mẽ từ cơ bắp khi hàng tá  kilo calo bị đốt cháy. Các bài tập toàn thân sẽ khiến bạn phải THỰC SỰ kiệt sức. Chỉ 500.000vnd cho 2 buổi tập KickFit và 1 tuần tập luyện tại Cali
