@@ -71,43 +71,62 @@ define("LANG_DANCE_TRAINER1_CONTENT",'
 define("LANG_DANCE_TRAINER2_TITLE","TYLER LY");
 define("LANG_DANCE_TRAINER2_ID","trainer2");
 define("LANG_DANCE_TRAINER2_CONTENT",'
-<h3>TYLER LY</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h3>TYLER LÝ</h3>
+<h4>HLV GROUP X</h4>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
+<p>"Mỗi ngày là một cuộc hành trình với những bước bay bổng cùng âm nhạc và những người bạn đồng hành yêu đời. Cuộc sống thật đáng giá! Công việc cũng chính là đam mê của tôi – luôn sáng ngời với những tiếng cười, những gương mặt rạng rỡ, lấp lánh niềm vui cùng những vũ điệu tràn đầy sức sống. Đó chính là những giây phút mang đến cho tôi niềm vui và tự hào vô biên." </p>
 <p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>Bio: <br>
+Trong suốt 5 năm kinh nghiệm huấn luyện dance và thể dục thể hình, Tyler đã biên đạo và trình diễn rất nhiều live show. Anh đã được Les Mills và Zumba Fitness công nhận là huấn luyện viên các bộ môn BodyBalance, BodyPump, BodyJam. Tyler luôn tin tưởng và ngưỡng mộ Tommy K như một người thầy đã giúp anh mở ra một trang mới trong cuộc sống. Tyler luôn nhiệt tình hỗ trợ đồng nghiệp tại CFYC và tham gia các buổi trình diễn Group X.</p>
 ');
 define("LANG_DANCE_TRAINER3_TITLE","GENESIS");
 define("LANG_DANCE_TRAINER3_ID","trainer3");
 define("LANG_DANCE_TRAINER3_CONTENT",'
 <h3>GENESIS</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h4>HLV GROUP X</h4>
+<p>Nhảy là niềm đam mê, là cả cuộc sống của tôi. Tôi thích sáng tạo ra những động tác mới, hoàn thiện kĩ năng và thử nghiệm những điệu nhảy khác nhau. Tôi muốn hội viên của mình cảm nhận được rằng họ được là chính mình trong lớp của tôi; đó chính là lúc họ có thể rũ bỏ hết mọi lo lắng hay chỉ đơn giản là nhảy hết mình bằng cả trái tim không cần bận tâm đến mọi người xung quanh. Những điệu nhạc sôi động và các bài tập rèn luyện tim mạch ở cường độ cao chính là cách đầy hứng khởi để đốt cháy calories và đạt đến mục tiêu thể hình mong muốn.</p>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
-<p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>Bio:<br>
+Genesis có hơn 18 năm kinh nghiệm luyện tập nhảy múa và hơn sáu năm là HLV Group X. Việc trở thành thành viên Đội tuyển Thể dục dụng cụ và Aerobics của Philippines đóng vai trò quan trọng trong việc phát triển tài năng nhảy múa của anh. Anh vô cùng trân trọng sự chỉ dạy từ những HLV của mình và xem cơ hội được đứng trên sân khấu và giảng dạy cùng Gandalf Archer, Giám đốc Chương trình của Les Mills Body Jam là thành tựu lớn nhất của anh. Anh thích xem mình là một chàng trai bình thường, dành cả ngày chìm đắm trong âm nhạc và làm những việc yêu thích.</p>
 ');
 define("LANG_DANCE_TRAINER4_TITLE","KATSU");
 define("LANG_DANCE_TRAINER4_ID","trainer4");
 define("LANG_DANCE_TRAINER4_CONTENT",'
 <h3>KATSU</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h4>HLV GROUP X</h4>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
-<p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>BẰNG CẤP
+- Chứng chỉ HLV quốc tế Les Mills: RPM™, BodyPump™, BodyCombat™, BodyJam™.
+- Chứng chỉ HLV quốc tế Zumba.</p>
+ <p></p>
+<p>KINH NGHIỆM & THÀNH TÍCH<br>
+- Biên đạo múa.<br>
+- Cựu thành viên nhóm nhảy Bigtoe "Ngón Chân Cái".<br>
+- 2006: Biểu diễn trong show Traffic cùng 2 bậc thầy Hiphop Storm (Đức), Seb (Pháp).<br>
+- 2007:<br>
+	+ Giải nhất Halo 4 thể loại Breaking.<br>
+	+ Giải nhất cuộc thi Showcase (breaking) tại Trung Quốc.<br>
+	+ Giải nhất cuộc thi tài năng trẻ thể loại Beat Boxing.<br>
+	+ Biểu diễn trong show Traffic tại Hà Nội & TP.HCM.<br>
+	+ Biểu diễn trong chương trình giao lưu văn hóa Việt - Hàn.<br>
+	+ Biểu diễn show Time Machine - Chương trình giao lưu văn hóa Việt Nam & Đan Mạch.<br>
+- 2008:<br>
+	+ Giải 6 Battle of the year Đông Nam Á tổ chức tại Thái Lan.<br>
+	+ Biểu diễn show “Faces” tại Hà Nội – TP.HCM & Indonesia.<br>
+- 2009: Giải nhất Showcase Hiphop Ring Master.</p>
+ <p></p>
+<p>HƯỚNG DẪN CÁC LỚP<br>
+- BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Areobic), GX Orientation, BumNTum, Shape up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
-define("LANG_DANCE_SIGNUP_TITLE","try a dance session");
-define("LANG_DANCE_SIGNUP_CONTENT",'
-<p><strong>INCLUDING:</strong></p>
-<p class="title">SIGN UP TO TRY A COMPLEMENTARY DANCE CLASS!</p>
-<p>- FITNESS ASSESSMENT & CONSULTATION</p>
-<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
-<p></p>
-<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
-                        
-');
+define("LANG_DANCE_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DANCE_SIGNUP_CONTENT","
+<p><strong>Sẵn sàng nhảy theo cách bạn muốn</strong></p>
+<p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
+<p>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</p>
+<p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
+<p>»  Zumba và các điệu nhảy Latin – Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
+<p>»  Belly Dance – Toả sáng với vũ điệu của hông và bụng</p>
+<p>»  SH'BAM - Hip Hop, Break Dance và Electro</p>
+<p>»  Sexy Dance – Nghệ thuật quyến rũ trong từng bước nhảy</p>
+<p>Đăng ký tập ngay HÔM NAY</p>
+");

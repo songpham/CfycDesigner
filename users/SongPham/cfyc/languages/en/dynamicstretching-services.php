@@ -34,30 +34,56 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER_SUB_DS","You have the potential, we can 
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_TITLE_DS","LINH TA");
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_ID_DS","trainer1");
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_CONTENT_DS",'
-<h3>LINH TẠ</h3>
+<h3>LINH TA</h3>
 <h4>MASTER TRAINER</h4>
 <p></p>
-<p>"Truyền cảm hứng cho các học viên để giúp họ thực hiện và duy trì các bài tập có lợi cho sức khỏe là việc hết sức có ý nghĩa nhằm hướng tới một cuộc sống tươi vui và lạc quan. Tôi mong muốn khách hàng của mình được tận hưởng mỗi ngày trong cuộc sống với thật nhiều sinh lực, hạnh phúc và tự tin. Tâm nguyện của tôi là được hợp tác và động viên mọi người đạt những kết quả như mong đợi."</p>
+<p>"Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results."</p>
 <p></p>
-<p>Bio:<br>Linh Tạ đã được tập huấn với nhiều chuyên gia huấn luyện của Việt Nam cũng như quốc tế. Đam mê lớn nhất của cô là thể dục thể thao và tập thể hình. Linh rất thích tìm hiểu những bài tập mới mang tính thử thách cao và không ngừng mở mang kiến thức liên quan đến rèn luyện thể chất cá nhân.</p>
-<p></p>
+<p>Bio: <br>
+Linh Ta has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness.</p>
 ');
 define("LANG_DYNAMIC_STRETCHING_TRAINER2_TITLE_DS","TIEU PHUONG");
 define("LANG_DYNAMIC_STRETCHING_TRAINER2_ID_DS","trainer2");
 define("LANG_DYNAMIC_STRETCHING_TRAINER2_CONTENT_DS",'
-<h3>TIEU PHUONG</h3>
-
+<h3>TIỂU PHƯƠNG</h3>
+<h4>PERSONAL TRAINER</h4>
+<p></p>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Specialized in fat loss and physical strength improvement, Swimming, Tennis, and Bowling Instructor.</p>
+<p>QUALIFICATIONS<br>
+- CFYC Personal Trainer Certificate.<br>
+- CFYC Body Transformation Expert Certificate.</p>
+<p>EXPERIENCE<br>
+- Seven-year experience in training fitness at CFYC.<br>
+- Winner of Body Transformation Challenge in 2009 and 2012.</p>
 ');
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_TITLE_DS","ALMORGAN");
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_ID_DS","trainer3");
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_CONTENT_DS",'
-<h3>ALMORGAN</h3>
-
+<h3>AL MORGAN</h3>
+<h4>MASTER TRAINER</h4>
+<p></p>
+<p>"Tôi tin rằng cơ thể chúng ta luôn tự thích nghi với mọi điều kiện hay môi trường sống. Sứ mệnh của tôi là vận dụng mọi kiến thức chuyên sâu của mình để hướng dẫn bạn tạo ra môi trường phù hợp nhất với những mục tiêu cá nhân. Giới thiệu với bạn tất cả các lựa chọn cũng như công cụ sẵn có tại CFYC chính là cách thức toàn diện và thành công hơn rất nhiều so với việc chỉ đơn giản là ráng sức nâng tạ kết hợp với những bước chạy miệt mài trong nhiều giờ liền trên máy tập. Hãy cùng chúng tôi nâng cao sức mạnh tinh thần, biến ước mơ thành hiện thực. Một tinh thần vững vàng luôn là khởi đầu tích cực cho một cơ thể cường tráng." </p>
+<p></p>
+<p>Bio:<br>
+Al Morgan có hơn 25 năm kinh nghiệm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore và hiện nay là Việt Nam. Ông đã giúp cho hàng ngàn người thuộc mọi tầng lớp xã hội, từ những nhân vật nổi tiếng cho tới các vận động viên thể thao chuyên nghiệp, tạo ra những bước ngoặt ngoạn mục trong cuộc sống của họ. Ông có đủ quyền năng để thổi sức mạnh của sự thay đổi vào con người bạn, dù bạn là một siêu sao trong con mắt ngưỡng mộ của cả thế giới hay chỉ đơn giản là trong con mắt của nhân viên dưới quyền, của gia đình, của con cái. Al được Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ – tổ chức giáo dục thể chất hàng đầu thế giới – cấp bằng chứng nhận. Ông đem những kiến thức quý giá từ NASM truyền đạt lại cho tất cả các huấn luyện viên tại CFYC, để đảm bảo rằng mọi người đều đạt được thành tích tốt nhất một cách nhanh chóng và vững chắc.</p>
 ');
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_TITLE_DS","TRAVIS");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_ID_DS","trainer4");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 <h3>TRAVIS</h3>
-
+<h4>PERSONAL TRAINER</h4>
+<p></p>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Provide customers with intense functional training focusing on “real world” strength & stabilization as well as overall body, sculpting and core development.<br>
+- Specialties: kettlebells, TRX, circuit training, HIIT.</p>
+<p>QUALIFICATIONS<br>
+- Complete the US Army Master Fitness Trainer Course.<br>
+- Achieve the Certification of National Academy of Sport Medicine.</p>
+<p>EXPERIENCE<br>
+- Five-year experience in working in US Army.<br>
+- Seven-year experience in training fitness.<br>
+- Training over 200 clients of all different ages, abilities & levels of fitness.<br>
+- Having extensive experience with post–injury rehab.</p>
 ');
 

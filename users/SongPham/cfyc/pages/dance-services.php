@@ -185,7 +185,7 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_DANCE_TRAINER3_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/DJ.jpg" alt="<?=LANG_DANCE_TRAINER3_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/genesis.jpg" alt="<?=LANG_DANCE_TRAINER3_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_DANCE_TRAINER3_CONTENT?></div>
                     </div>
