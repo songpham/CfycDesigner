@@ -140,10 +140,10 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 
 define("LANG_GROUP_SIGNUP_TITLE","try a group fitness session");
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p class="title">SIGN UP TO TRY A COMPLEMENTARY group fitness CLASS!</p>
-<p><strong>INCLUDING:</strong></p>
-<p>- FITNESS ASSESSMENT & CONSULTATION</p>
-<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
-<p></p>
-<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
+<p><strong>Are You Ready to get sweat with dynamic beat?</strong></p>
+<p>Find out what it feels like to get fit with our exciting and cutting edge group training. Sign up for 10 complementary Group X classes. Including</p>
+<p>»  BodyJam - Dance your way to cardio fitness.</p>
+<p>» BodyCombat - Group X Combat Class.</p>
+<p>» BodyPump - Power up every muscle in your body</p>
+<p>Experience A Class Now</p>
 ');

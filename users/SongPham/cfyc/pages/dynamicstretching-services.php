@@ -9,7 +9,7 @@
                     <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>"> <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>"> <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?></a>
                 </div>
             </fieldset>
         </div>
@@ -141,7 +141,16 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <form id="form"></form>
+        <div class="row" id="form">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="booktitle"><?=LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE?></h2>
+                <h3 class="visit_benefit">
+                    <?=LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT?>
+                </h3>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+        </div>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php';?>

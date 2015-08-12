@@ -69,4 +69,15 @@ $(document).ready(function () {
     refreshOnResize();
     $(window).resize(refreshOnResize);
 	$('[data-toggle="tooltip"]').tooltip();
+
+    /*Scroll effect*/
+    jQuery('.scroll').on('click', function (e) {
+        e.preventDefault();
+        var target = this.hash, $target = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 700, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
 });

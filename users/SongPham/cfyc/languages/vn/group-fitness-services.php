@@ -2,10 +2,10 @@
 
 define("LANG_GROUP_PAGE_NAME_GROUP","group-fitness-services");
 
-define("LANG_GROUP_BANNER_TEXT_CONTENT_GROUP","Energize your exercises with group fitness programs");
-define("LANG_GROUP_BANNER_TEXT_SMALL_GROUP","Experience a group fitness class today");
+define("LANG_GROUP_BANNER_TEXT_CONTENT_GROUP","Niềm vui nhân đôi khi tập luyện cùng bạn bè");
+define("LANG_GROUP_BANNER_TEXT_SMALL_GROUP","trải nghiệm lớp thể thục nhóm ngay hôm nay");
 
-define("LANG_GROUP_BANNER_TEXT_CTA_GROUP","Try a class");
+define("LANG_GROUP_BANNER_TEXT_CTA_GROUP","Đăng ký tập thử");
 define("LANG_GROUP_BANNER_TITLE_GROUP","Visit us for a free membership trial today");
 
 define("LANG_GROUP_CALIDANCE_GROUP","Về California Group Fitness");
@@ -138,10 +138,11 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 
 define("LANG_GROUP_SIGNUP_TITLE","try a group fitness session");
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p class="title">SIGN UP TO TRY A COMPLEMENTARY group fitness CLASS!</p>
-<p><strong>INCLUDING:</strong></p>
-<p>- FITNESS ASSESSMENT & CONSULTATION</p>
-<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
-<p></p>
-<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
+<p><strong>Bạn đã sẵn sàng để đổ mồ hôi cùng những giai điệu sôi động?</strong></p>
+<p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
+<p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa. Đăng ký 10 lớp Group X chỉ với 500.000vnd để trải nghiệm</p>
+<p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
+<p>» BodyCombat – Đạt được thân hình mơ ước khi tập luyện các động tác võ thuật đa dạng</p>
+<p>» BodyPump – Phát triển từng nhóm cơ nhỏ nhất trên cơ thể</p>
+<p>Đăng ký tập ngay HÔM NAY</p>
 ');
