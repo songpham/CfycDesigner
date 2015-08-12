@@ -8,3 +8,7 @@ define("LANG_VIP_RSVP_INCLUDE_4","Cùng các chuyên gia tư vấn và phân tí
 define("LANG_VIP_RSVP_INCLUDE_5","Personal Training");
 define("LANG_VIP_RSVP_INCLUDE_6","Don’t just learn how to reach your goals, but get started with an exclusive 1 on 1 personal training orientation.");
 define("LANG_VIP_RSVP_INCLUDE_7", "và nhận được một ngày tự do trải nghiệm dịch vụ của chúng tôi tại bất kì clb bạn lựa chọn. để tìm hiểu và tận hưởng hơn 20 dịch vụ nâng cao chất lượng sống tại california fitness & yoga bao gồm");
+define("LANG_VIP_RSVP_INCLUDE_8", "Bạn đã là hội viên chưa?");
+define("LANG_VIP_RSVP_INCLUDE_9", "Khám phá ngay những lợi ích độc nhất của hội viên California Fitness & Yoga");
+define("LANG_VIP_RSVP_INCLUDE_10", "Đăng kí để tìm hiểu thêm và tập thử miễn phí ngay hôm nay");
+define("LANG_VIP_RSVP_INCLUDE_11", "đăng kí tập thử");

@@ -75,9 +75,19 @@
             			font-size: 120%;
             		}
             	}
+                .messages{
+                    text-transform:uppercase;
+                    h1{
+                        text-transform: uppercase;
+                    }
+                    h2{
+                        text-transform:uppercase;
+                    }
+                }
             	.registerfrm{
             		text-align: left;
             		text-transform: uppercase;
+                    text-transform: uppercase;
             		label{
             			font-weight: bold;
             		}
