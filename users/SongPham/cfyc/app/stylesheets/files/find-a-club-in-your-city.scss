@@ -2,6 +2,13 @@
 
 .container-fluid.page.find-a-club-page {
     h4 { line-height: 1.3em;}
+    a {color: #000;
+	    &:hover {
+		    color: $red;
+		    cursor: hand;
+		   }
+    }
+
     .list-city {
         margin: 20px auto;
         clear: both;
