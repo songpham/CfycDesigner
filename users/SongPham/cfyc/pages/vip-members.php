@@ -1,13 +1,20 @@
 <div class="container-fluid page vip-members-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
-    <!-- Top Banner -->
-    <div class="row gallery">
-    	<a href="#booknow" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
-    		<img class="hidden-xs" src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
-            <img class="hidden-lg hidden-md hidden-sm" src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-members-mobile-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
-    	</a>
-    </div><!-- /.Top Banner -->
+	<div class="row common-banner-top">
+        <div class="cta">
+            <fieldset>
+                <legend align="center"><?php echo LANG_VIP_RSVP_INCLUDE_8?></legend>
+                <hr/>
+                <span>
+                    <?php echo LANG_VIP_RSVP_INCLUDE_9 ?><br/><?php echo LANG_VIP_RSVP_INCLUDE_10 ?>
+                </span>
+                <div class="red-btn">
+                <a class="cta" href="javascript:void(0)" title=""> <?php echo LANG_VIP_RSVP_INCLUDE_11 ?></a>
+                </div>
+            </fieldset>
+        </div>
+    </div>
     <div class="row top-content">
         <div class="holder-top-content">
         	<div class="whitespace"></div>
@@ -90,13 +97,9 @@
 						</div>
 						<div class="whitespace"></div>
             			<div class="whitespace"></div>
-            			<div class="row messages" name="booknow" id="booknow">
+            			<div class="row messages booknow">
             				<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                     		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    			<!--<h1><?=LANG_VIP_RSVP_INCLUDE_8?></h1>
-                    			<h2><?=LANG_VIP_RSVP_INCLUDE_9?></h2>
-                    			<p><?=LANG_VIP_RSVP_INCLUDE_10?></p>
-                    			<h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_11?></h2>-->
                     			<h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_12?></h2>
 								<h3 class="visit_benefit">
 								<?=LANG_VIP_RSVP_INCLUDE_13?>

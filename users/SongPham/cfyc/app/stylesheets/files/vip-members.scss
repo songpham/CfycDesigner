@@ -2,10 +2,19 @@
 .vip-members-page {
     .container-fluid {
         padding: 0px;
-        .gallery {
-            position: relative;
-            img {
-               max-width: 100%;
+        .common-banner-top {
+            background: #fff url(../img/vip-members/california-wow-vip-members.jpg) center top no-repeat;
+            background-size: cover;
+            .cta {
+                fieldset{
+                    legend{
+                        color: $white;
+                    }
+                }
+            }
+            @media (max-width:767px) {
+                 background: #fff url(../img/vip-members/california-wow-vip-members-mobile.jpg) center top no-repeat;
+                 background-size: cover;
             }
         }
     }
