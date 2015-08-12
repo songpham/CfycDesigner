@@ -21,7 +21,16 @@ function parseArrayUri ($suffix) {
     }
     return $parse;
 }
+function trimQueryString ($url) {
+    return str_replace('/?' . $GLOBALS['_SERVER']['QUERY_STRING'], NULL, $url);
+}
+function resetUrl () {
+    return rtrim(empty($GLOBALS['_SERVER']['REDIRECT_URL']) === FALSE ? str_replace(USER_BASE_FOLDER, NULL, trimQueryString($GLOBALS['_SERVER']['REDIRECT_URL'])) : '', '/');
+}
 function getSuffix ($suffix, $url = NULL, $defaultLanguage = DEFAULT_LANGUAGE) {
+    if ($url === NULL) {
+        $url = resetUrl();
+    }
     $url = empty($url) === FALSE ? $url : rtrim(substr($_SERVER['REQUEST_URI'], strlen(USER_BASE_URL) + 1), '/');
     $uri = explode('/', $url);
     $endUri = end($uri);
