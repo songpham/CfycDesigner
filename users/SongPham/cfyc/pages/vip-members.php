@@ -4,8 +4,8 @@
     <!-- Top Banner -->
     <div class="row gallery">
     	<a href="#booknow" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
-    		<img class="hidden-xs" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
-            <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-mobile-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+    		<img class="hidden-xs" src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+            <img class="hidden-lg hidden-md hidden-sm" src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-members-mobile-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
     	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
@@ -27,17 +27,17 @@
 						</div>
 						<div class="row">
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<img src="img/vip-members/california-wow-vip-member-1.jpg" alt="Exclusive 1 on 1 consultation" title="Exclusive 1 on 1 consultation">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-member-1.jpg" alt="Exclusive 1 on 1 consultation" title="Exclusive 1 on 1 consultation">
 								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_1?></h2>
 								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_2?></p>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<img src="img/vip-members/california-wow-vip-member-2.jpg" alt="InBody Assessment" title="InBody Assessment">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-member-2.jpg" alt="InBody Assessment" title="InBody Assessment">
 								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_3?></h2>
 								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_4?></p>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<img src="img/vip-members/california-wow-vip-member-3.jpg" alt="Personal Training" title="Personal Training">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-vip-member-3.jpg" alt="Personal Training" title="Personal Training">
 								<h2 class="title"><?=LANG_VIP_RSVP_INCLUDE_5?></h2>
 								<p class="title_desc"><?=LANG_VIP_RSVP_INCLUDE_6?></p>
 							</div>
@@ -54,37 +54,37 @@
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-1.jpg" alt="Yoga" title="Yoga">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-1.jpg" alt="Yoga" title="Yoga">
 								<div class="overlay"><h2 class="title">Yoga</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-2.jpg" alt="Dance" title="Dance">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-2.jpg" alt="Dance" title="Dance">
 								<div class="overlay"><h2 class="title">Dance</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-3.jpg" alt="Group Fitness" title="Group Fitness">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-3.jpg" alt="Group Fitness" title="Group Fitness">
 								<div class="overlay"><h2 class="title">Group Fitness</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-4.jpg" alt="Kick Fit" title="Kick Fit">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-4.jpg" alt="Kick Fit" title="Kick Fit">
 								<div class="overlay"><h2 class="title">Kick Fit</h2></div>								
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-5.jpg" alt="Huấn luyện cá nhân" title="Huấn luyện cá nhân">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-5.jpg" alt="Huấn luyện cá nhân" title="Huấn luyện cá nhân">
 								<div class="overlay"><h2 class="title">Huấn luyện cá nhân</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-6.jpg" alt="Giảm căng cơ" title="Giảm căng cơ">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-6.jpg" alt="Giảm căng cơ" title="Giảm căng cơ">
 								<div class="overlay"><h2 class="title">Giảm căng cơ</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-7.jpg" alt="Võ tự do MMA" title="Võ tự do MMA">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-7.jpg" alt="Võ tự do MMA" title="Võ tự do MMA">
 								<div class="overlay"><h2 class="title">Võ tự do MMA</h2></div>								
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
-								<img src="img/vip-members/california-wow-chance-to-experience-8.jpg" alt="PTX 2" title="PTX 2">
+								<img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-8.jpg" alt="PTX 2" title="PTX 2">
 								<div class="overlay"><h2 class="title">PTX<sup>2</sup></h2></div>								
 							</div>
 						</div>
