@@ -23,7 +23,7 @@ body {font-family: Arial; font-size: 15px;}
 
 	}
 .row-centered { text-align: center;}
-.col-centered { display: inline-block; float: none; margin-right: -4px; text-align: left; overflow: hidden;}
+.col-centered { display: inline-block; float: none; margin-right: -4px; text-align: left; overflow: hidden; vertical-align: top; margin-bottom: 1px; }
         .strike {
             display: block;
             text-align: center;

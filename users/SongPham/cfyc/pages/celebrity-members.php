@@ -110,7 +110,7 @@
             </div>
             <div class="whitespace"></div>
             <div class="wrapper">
-            <div id="id_2" class="col-md-12 text-center celebrity-info-block tab-content">
+            <div class="col-md-12 text-center celebrity-info-block tab-content">
                 <div class="row mindshares tab-pane fade row-centered">
                     <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/tap-yoga-cung-Ho-Ngoc-Ha.jpg" align="Tap Yoga Cung Ho Ngoc Ha" class="img-responsive center-block">

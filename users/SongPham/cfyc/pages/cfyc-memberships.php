@@ -37,7 +37,7 @@
                     </div>
                 </div>
         </div><!--end row-->
-        <div id="id_2" class="row top-content row-centered">
+        <div class="row top-content row-centered">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="strike">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1 ?></h1>
