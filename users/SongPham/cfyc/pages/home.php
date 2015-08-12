@@ -208,7 +208,7 @@
                 <div class="row find_your_trainner container-page">
                     <div class="col-md-1 hide-sm hidden-xs"></div>
                     <div class="col-md-7 col-sm-6 col-xs-12 text-center trainner_photo">
-                        <a href="#linhta2"><img id="linhta2" src="img/home/al-morgan.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
+                        <a href="#linhta2"><img id="linhta2" src="img/home/assim_yoga.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
                         <a href="#linhta"><img id="linhta" class="active" src="img/home/california-wow-tieu-phuong.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
                         <a href="#linhta1"><img id="linhta1" src="img/home/california-wow-mint-nguyen.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
                     </div>

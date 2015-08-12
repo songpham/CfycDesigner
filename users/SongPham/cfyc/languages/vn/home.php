@@ -32,11 +32,10 @@ define("LANG_BINH_DUONG", "BINH DUONG");
 define("LANG_NEW_COMING", "COMING SOON");
 
 
-define("LANG_TRAINNER_1" , "<h3>Al Morgan<br/><span>Master Trainer</span></h3>
-							<p>
-Tôi tin rằng cơ thể chúng ta luôn tự thích nghi với mọi điều kiện hay môi trường sống. Sứ mệnh của tôi là vận dụng mọi kiến thức chuyên sâu của mình để hướng dẫn bạn tạo ra môi trường phù hợp nhất với những mục tiêu cá nhân. Giới thiệu với bạn tất cả các lựa chọn cũng như công cụ sẵn có tại CFYC chính là cách thức toàn diện và thành công hơn rất nhiều so với việc chỉ đơn giản là ráng sức nâng tạ kết hợp với những bước chạy miệt mài trong nhiều giờ liền trên máy tập. Hãy cùng chúng tôi nâng cao sức mạnh tinh thần, biến ước mơ thành hiện thực. Một tinh thần vững vàng luôn là khởi đầu tích cực cho một cơ thể cường tráng.<br/><br/>
-Bio:
-Al Morgan có hơn 25 năm kinh nghiệm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore và hiện nay là Việt Nam. Ông đã giúp cho hàng ngàn người thuộc mọi tầng lớp xã hội, từ những nhân vật nổi tiếng cho tới các vận động viên thể thao chuyên nghiệp, tạo ra những bước ngoặt ngoạn mục trong cuộc sống của họ. Ông có đủ quyền năng để thổi sức mạnh của sự thay đổi vào con người bạn, dù bạn là một siêu sao trong con mắt ngưỡng mộ của cả thế giới hay chỉ đơn giản là trong con mắt của nhân viên dưới quyền, của gia đình, của con cái. Al được Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ – tổ chức giáo dục thể chất hàng đầu thế giới – cấp bằng chứng nhận. Ông đem những kiến thức quý giá từ NASM truyền đạt lại cho tất cả các huấn luyện viên tại CFYC, để đảm bảo rằng mọi người đều đạt được thành tích tốt nhất một cách nhanh chóng và vững chắc.</p>");
+define("LANG_TRAINNER_1" , "<h3><span>ASSIM MANN</span><br>QUẢN LÍ BỘ PHẬN YOGA </h3>
+							<p>Bio: <br>
+Assim Mann đã nghiên cứu và học hỏi từ nhiều bậc thầy Yoga, nhưng anh đặc biệt biết ơn sư phụ Shri Bharat Singh (thầy dạy Yoga cho Kaivalyadhama) và Bramachari Rudra Dev – một trong những đệ tử chân truyền của Shri B.K.S Iyengar. Assim đã luyện tập Yoga hơn 15 năm. Anh cũng đam mê lướt internet, xem phim và chơi bóng đá.</p>");
+
 define("LANG_TRAINNER_2" , "<h3>TIỂU PHƯƠNG<br/><span>HLV CÁ NHÂN</span></h3>
                             <p><strong>PHONG CÁCH & CHUYÊN MÔN</strong><br/>
                             - Huấn luyện tốt về các phương pháp giảm cân và tăng cường thể lực, có thể huấn luyện các môn thể thao khác như: Bơi lội, Tennis, Bowling.</p>
