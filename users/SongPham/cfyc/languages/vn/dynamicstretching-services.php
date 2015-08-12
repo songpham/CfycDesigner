@@ -6,24 +6,19 @@ define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","Tận hưởng những 
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS","Trải nghiệm liệu pháp đặc biệt<br>giúp thư giãn cơ và các khớp ngay hôm nay");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS","Trải nghiệm 1 buổi");
 
-define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","About Dynamic Stretching");
+define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","Giới thiệu về Liệu pháp căng cơ thư giãn");
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS",'
-<p>Heal your body and enjoy a relaxing moment.</p>
-<p>Everybody gets run down with the day to day demands of an active lifestyle and it can be easy to build tension and stress throughout your body.</p>
-<p>Dynamic stretching allows you to relieve your body of unwanted strains and pressure in your muscles and joints which build up from exercise, sports and an overall active lifestyle.</p>
+<p>Phục hồi cơ thể, giúp bạn thư giãn.</p>
+<p>Mỗi người chúng ta đều mệt mỏi sau một ngày bận rộn với những yêu cầu của cuộc sống năng động và điều đó dễ dàng khiến bạn căng thẳng, thể hiện rõ nhất trên cơ thể bạn.</p>
+<p>Liệu pháp căng cơ thư giãn cho phép bạn giải phóng cơ thể khỏi những áp lực không mong muốn xuất hiện trên các khối cơ, khớp của bạn khi bạn tập luyện thể dục thể thao cũng như các hoạt động khác.</p>
 ');
 define("LANG_DYNAMIC_STRETCHING_YOUTUBE_DS","https://www.youtube.com/embed/V9CefkNF16o");
 
-define("LANG_DYNAMIC_STRETCHING_BENEFIT_DS","How Does Dynamic Stretching Work?");
+define("LANG_DYNAMIC_STRETCHING_BENEFIT_DS","Liệu pháp căng cơ thư giãn hoạt động như thế nào?");
 define("LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS",'
-<p>Often overlooked is the amount of stress which can be built up in your body throughout daily activities such as
-            playing sports, long hours spent sitting at work, years of bad posture, wearing high heels and especially after
-            exercise.</p>
-<p>Over time, certain areas of your body begin to constrict preventing healthy blood flow and adequate delivery of
-            oxygen and nutrients while also tensing muscle and causing pain.</p>
-<p>Dynamic stretching combines principles of Acupuncture and Exercise Science to help restore natural tension
-            relationships inside the body, correcting these imbalances through an incredibly relaxing physical treatment
-            allowing you to feel significant improvements even after just one session</p>
+<p>Loại bỏ các dấu hiệu căng thẳng mệt mỏi được hình thành trên cơ thể bạn thông qua các hoạt động hằng ngày như: chơi thể thao, ngồi nhiều khi làm việc; các tư thế sai trong nhiều năm, mang giày cao gót và đặc biệt là sau các buổi tập luyện thể dục.</p>
+<p>Qua thời gian, chắc chắn rằng một số khu vực trên cơ thể bạn bắt đầu co lại, ngăn chặn lượng máu khỏe mạnh cũng như việc cung cấp đầy đủ lượng oxy, chất dinh dưỡng đồng thời chúng khiến cơ bắp bạn bị căng và gây đau.</p>
+<p>Liệu pháp căng cơ thư giãn kết hợp các nguyên tắc của hoạt động châm cứu và các bài tập khoa học để giúp khôi phục các mối quan hệ tự nhiên bên trong cơ thể, điều chỉnh việc mất cân bằng thông qua hệ thống điều trị vật lý vô cùng thoải mái, cho bạn cảm giác cải thiện đáng kể thậm chí bạn có thể cảm nhận nó chỉ qua một buổi tập.</p>
 ');
 
 define("LANG_DYNAMIC_STRETCHING_ENVIRONMENT_DS","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
