@@ -9,7 +9,7 @@
                     <?=LANG_KICKFIT_MMA_BANNER_TEXT_SMALL?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="#form" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"> <?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
+                    <a class="cta scroll" href="#form" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"> <?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
                 </div>
             </fieldset>
         </div>
@@ -112,25 +112,25 @@
                 <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
                     <div role="tabpanel" class="tab-pane active" id="<?=LANG_KICKFIT_MMA_TRAINER1_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/lee-img.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER1_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/lee.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER1_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_KICKFIT_MMA_TRAINER1_CONTENT?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_KICKFIT_MMA_TRAINER2_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/TieuPhuong.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER2_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/tom.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER2_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_KICKFIT_MMA_TRAINER2_CONTENT?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_KICKFIT_MMA_TRAINER3_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/Al.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER3_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/will.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER3_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_KICKFIT_MMA_TRAINER3_CONTENT?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_KICKFIT_MMA_TRAINER4_ID?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/DJ.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER4_TITLE?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/rio.jpg" alt="<?=LANG_KICKFIT_MMA_TRAINER4_TITLE?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_KICKFIT_MMA_TRAINER4_CONTENT?></div>
                     </div>
@@ -142,7 +142,16 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <form id="form"></form>
+        <div class="row" id="form">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="booktitle"><?=LANG_KICKFIT_MMA_SIGNUP_TITLE?></h2>
+                <h3 class="visit_benefit">
+                    <?=LANG_KICKFIT_MMA_SIGNUP_CONTENT?>
+                </h3>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+        </div>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

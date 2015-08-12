@@ -41,41 +41,85 @@ define("LANG_KICKFIT_MMA_TRAINER1_TITLE","LEE");
 define("LANG_KICKFIT_MMA_TRAINER1_ID","trainer1");
 define("LANG_KICKFIT_MMA_TRAINER1_CONTENT",'
 <h3>LEE</h3>
-<h4>GIÁM SÁT BỘ PHẬN PT</h4>
-<p>PHONG CÁCH & CHUYÊN MÔN</p>
-<p>
-- Phương châm: “Việc rèn luyện võ thuật sẽ giúp cho cuộc sống tốt đẹp hơn”.<br>
-- “Là một người chơi võ thuật chuyên nghiệp, tôi muốn giúp cho khách hàng có được sức khỏe và tinh thần như một võ sĩ đạo: luôn cười vui vẻ và thân thiện với tất cả mọi người, giúp mọi người có được khả năng và trình độ võ thuật tốt. Đó là phong cách của tôi – LEE”.
-</p>
-<p>
-BẰNG CẤP<br>
-- Chứng nhận Huấn Luyện Viên Cá Nhân của Trung Tâm Thể Dục Thể Hình & Yoga California.<br>
-- Chứng nhận Kick Boxing.<br>
-- Chứng nhận Muay Thai cấp bởi Muay Thai Việt Nam.<br>
-- Chứng nhận Cascaduer chuyên nghiệp cấp bởi Hiệp Hội Điện Ảnh Việt Nam.<br>
-- Chứng nhận Judo cấp bởi Liên Đoàn Judo.<br>
-- Chứng nhận “Vật Cổ Truyền” cấp bởi Liên Đoàn Vật Cổ Truyền Việt Nam.<br>
-- Chứng nhận Võ Cổ Truyền cấp bởi Liên Đoàn Võ Cổ Truyền Việt Nam.<br>
-- Chứng nhận Việt Võ Đạo cấp bởi Liên Đoàn Vovinam Việt Nam.<br>
-- Cử nhân võ thuật cấp bởi Bộ Giáo Dục và Đào Tạo Việt Nam.Crunch.
-</p>
+<h4>FITNESS SUPERVISOR</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Philosophy: “Practice martial arts make your life better”.<br>
+- “Being a professional kick boxer, I want to help Members have good heath and the spirit of a fighter: always be happy and friendly, help Members get high standard in martial arts. That is my style – LEE”.</p>
+<p></p>
+<p>QUALIFICATIONS<br>
+- CFYC Personal Trainer Certificate. <br>
+- Kick Boxing Certificate.<br>
+- Muay Thai Certificate issued by Muay Thai VietNam.<br>
+- Professional Cascadeur Certificate issued by Vietnam Cinema Association.<br>
+- Judo Certificate issued by Judo Federation. <br>
+- Traditional Wrestling Certificate issued by Vietnam Traditional Wrestling Federation.<br>
+- Traditional Martial Arts Certificate issued by Vietnam Traditional Martial Arts Federation. <br>
+- Vovinam Certificate issued by Vietnam Vovinam Federation.<br>
+- Bachelor Degree in Martial Arts issued by Ministry of Education and Training.</p>
+<p></p>
+<p>EXPERIENCE<br>
+- One-year experience in professional training for the Martial Arts Team of Hong Bang University.<br>
+- Two-year experience in teaching martial arts for People’s Police University and security companies.<br>
+- Three-year experience in training KickFit at California Fitness & Yoga Centers.<br>
+- Four-year experience in teaching martial arts at Industrial University of HCM City.<br>
+- Six-year experience in teaching martial arts specialty at Hong Bang University International.</p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER2_TITLE","TOM");
 define("LANG_KICKFIT_MMA_TRAINER2_ID","trainer2");
 define("LANG_KICKFIT_MMA_TRAINER2_CONTENT",'
 <h3>TOM</h3>
-
+<h4>PERSONAL TRAINER</h4>
+<p>TRAINING STYLE & SPECIALTY <br>
+- Friendly, funny. Your goal is my priority and I’ll make your life better. <br>
+- “I’ll make your dream come true by designing exercises which are suitable to each client’s age and health so that you can achieve your goal in the shortest time”.<br>
+- Specialize in burning fat, gaining muscle, shaping body and health. </p>
+<p>QUALIFICATION<br>
+- CFYC Personal Trainer certificate. <br>
+- CFYC KickFit Trainer certificate. <br>
+- CPR certificate. <br>
+- Bachelor Degree by Physical & Sports University. </p>
+<p>EXPERIENCE <br>
+- Two-year experience in training fitness.<br>
+- Four-year experience in practicing fitness. </p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER3_TITLE","WILL");
 define("LANG_KICKFIT_MMA_TRAINER3_ID","trainer3");
 define("LANG_KICKFIT_MMA_TRAINER3_CONTENT",'
 <h3>WILL</h3>
-
+<h4>PERSONAL TRAINER</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- My happiness is helping clients improve their health and body.<br>
+- I want to inspire my clients to reach their fitness goals.</p>
+<p>QUALIFICATION<br>
+- CFYC Personal Trainer Certificate.<br>
+- CPR Certificate.</p>
+<p>EXPERIENCE<br>
+- Two-year experience in training fitness. </p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER4_TITLE","RIO");
 define("LANG_KICKFIT_MMA_TRAINER4_ID","trainer4");
 define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 <h3>RIO</h3>
-
+<h4>FITNESS MANAGER</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Enthusiastic, funny and friendly. <br>
+- I bring prompt results through your training process.</p>
+<p>QUALIFICATIONS<br>
+- Achieved prizes and nationwide medals. <br>
+- Asia Boxing Associations Professional Trainer Certificate. <br>
+- Professional Trainer of Army Boxing Team Certificate. <br>
+- CPR Certificate. </p>
+<p>EXPERIENCE<br>
+- Four-year experience in training fitness at CFYC. <br>
+- 10-year experience in training fitness at Military Zone 7 club.</p>
 ');
 
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
+<p><strong>Are You Ready to conquer yourself?</strong></p>
+<p>Experience the muscle toning, calorie burning, all body workout that will leave you breathless. Just 500.000vnd for 2 KickFit sessions and week pass </p>
+<p>» More Confidence A better body equals a confident you.</p>
+<p>» Better Fitness Better performance in all areas of life.</p>
+<p>» Muay Thai and Boxing Learn unique fighting skills.</p>
+<p>Book A Consultation Now</p>
+");

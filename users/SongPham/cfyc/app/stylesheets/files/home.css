@@ -1,0 +1,344 @@
+.home-page .container-fluid {
+  padding: 0px; }
+  .home-page .container-fluid .gallery {
+    position: relative; }
+    .home-page .container-fluid .gallery img {
+      max-width: 100%; }
+.home-page .top-content .holder-top-content .whitespace {
+  padding: 10px 0;
+  clear: both; }
+.home-page .top-content .holder-top-content .subject {
+  color: #db2128;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-size: calculateRem(19px);
+  font-weight: bold;
+  margin-bottom: 0px; }
+.home-page .top-content .holder-top-content .text {
+  margin-top: 10px; }
+.home-page .top-content .holder-top-content .seemorebtn {
+  clear: both;
+  padding: 15px 0; }
+  .home-page .top-content .holder-top-content .seemorebtn a {
+    padding: 4px 10px;
+    border: 1px solid #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; }
+  .home-page .top-content .holder-top-content .seemorebtn :hover {
+    text-decoration: none;
+    color: #db2128;
+    border-color: #db2128; }
+.home-page .top-content .holder-top-content .ourservice .service_item {
+  text-align: center;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .service_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+    .home-page .top-content .holder-top-content .ourservice .service_item .service_img img {
+      max-width: 100%; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out; }
+    .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 {
+      border: none;
+      bottom: 0;
+      color: #fff;
+      padding: 15px;
+      position: absolute;
+      width: 100%;
+      margin: 5px auto;
+      text-transform: uppercase; }
+      .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 a {
+        color: #ffffff; }
+      .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 :hover {
+        text-decoration: none;
+        color: #ffffff; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay:hover {
+    background: rgba(211, 8, 15, 0.6);
+    cursor: pointer; }
+.home-page .top-content .holder-top-content .ourservice .service_item:hover .service_img img {
+  cursor: pointer;
+  transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08); }
+.home-page .top-content .holder-top-content .findyourclub div {
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+  .home-page .top-content .holder-top-content .findyourclub div .overlay {
+    height: 100%;
+    position: absolute;
+    top: 40%;
+    width: 100%; }
+    @media (max-width: 414px) {
+      .home-page .top-content .holder-top-content .findyourclub div .overlay {
+        top: 15%; } }
+    .home-page .top-content .holder-top-content .findyourclub div .overlay h2.service_title {
+      align-items: center;
+      border: medium none;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+      .home-page .top-content .holder-top-content .findyourclub div .overlay h2.service_title a {
+        color: #ffffff; }
+      .home-page .top-content .holder-top-content .findyourclub div .overlay h2.service_title :hover {
+        text-decoration: none;
+        color: #ffffff; }
+  .home-page .top-content .holder-top-content .findyourclub div img {
+    max-width: 100%; }
+.home-page .top-content .holder-top-content .find_your_trainner .trainner_photo img {
+  cursor: pointer;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* Firefox 3.5+, IE10 */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */
+  -webkit-transition: all .6s ease;
+  /* Fade to color for Chrome and Safari */
+  -webkit-backface-visibility: hidden;
+  /* Fix for transition flickering */ }
+.home-page .top-content .holder-top-content .find_your_trainner .trainner_photo .active {
+  filter: none;
+  -webkit-filter: none; }
+.home-page .top-content .holder-top-content .find_your_trainner .trainner_text {
+  background: #edeeef; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc {
+    text-align: left;
+    display: none;
+    padding: 15px 0; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc h3 span {
+      font-size: 60%;
+      font-style: italic; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc strong {
+      color: #db2128; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .active {
+    display: block; }
+.home-page .top-content .holder-top-content .success_stories {
+  background: url("../img/home/california-wow-success-stories-bg.jpg") 0 0 repeat transparent;
+  background-size: cover;
+  padding: 30px 0;
+  color: #ffffff; }
+  .home-page .top-content .holder-top-content .success_stories h3 {
+    text-transform: uppercase; }
+  .home-page .top-content .holder-top-content .success_stories p {
+    text-align: center; }
+  .home-page .top-content .holder-top-content .success_stories img {
+    max-width: 100%; }
+.home-page .top-content .holder-top-content .celebrities {
+  background: url("../img/home/california-wow-celeb-member-bg.jpg") 0 0 no-repeat transparent; }
+  .home-page .top-content .holder-top-content .celebrities .celeb-items a img {
+    max-width: 100%;
+    border: 1px solid #989898;
+    border-radius: 150px;
+    padding: 10px; }
+  .home-page .top-content .holder-top-content .celebrities .celeb-items a p {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 15px 0; }
+  .home-page .top-content .holder-top-content .celebrities .celeb-items a:hover {
+    text-decoration: none; }
+  .home-page .top-content .holder-top-content .celebrities .celeb-items:hover img {
+    border-color: #db2128;
+    cursor: pointer; }
+  .home-page .top-content .holder-top-content .celebrities .celeb-items:hover p {
+    color: #db2128; }
+.home-page .top-content .holder-top-content .features_stories div img {
+  max-width: 100%; }
+.home-page .top-content .holder-top-content .features_stories div p {
+  text-align: left; }
+.home-page .top-content .holder-top-content .features_stories div h4 {
+  text-transform: capitalize; }
+.home-page .top-content .holder-top-content .features_stories div a {
+  text-decoration: none;
+  color: #db2128;
+  text-transform: inherit; }
+.home-page .top-content .holder-top-content .features_stories div a:hover {
+  text-decoration: none; }
+.home-page .top-content .holder-top-content .special_offers div img {
+  max-width: 100%; }
+
+@media only screen and (max-width: 20em) {
+  .home-page .top-content .holder-top-content .celebrities {
+    background-size: cover; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo {
+    margin-bottom: 15px; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo img {
+      cursor: pointer;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+      /* Firefox 3.5+, IE10 */
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(100%);
+      /* Chrome 19+ & Safari 6+ */
+      -webkit-transition: all .6s ease;
+      /* Fade to color for Chrome and Safari */
+      -webkit-backface-visibility: hidden;
+      /* Fix for transition flickering */
+      width: 30%; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo .active {
+      filter: none;
+      -webkit-filter: none; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_text {
+    background: #edeeef; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc {
+      text-align: left;
+      display: none;
+      padding: 15px 0; }
+      .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc h3 span {
+        font-size: 60%;
+        font-style: italic; }
+      .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc strong {
+        color: #db2128; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .active {
+      display: block; }
+  .home-page .top-content .holder-top-content .special_offers img {
+    margin-bottom: 10px; }
+  .home-page .top-content .holder-top-content .findyourclub div {
+    margin: 0;
+    padding: 0;
+    max-width: 100%; }
+    .home-page .top-content .holder-top-content .findyourclub div .overlay {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+      .home-page .top-content .holder-top-content .findyourclub div .overlay h2.service_title {
+        top: 40%;
+        position: absolute;
+        align-items: center;
+        border: medium none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 80%;
+        font-weight: bold; }
+    .home-page .top-content .holder-top-content .findyourclub div img {
+      max-width: 100%; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 {
+    top: 40%;
+    font-size: 80%;
+    font-weight: bold; } }
+@media only screen and (max-width: 40em) {
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 {
+    top: 40%;
+    font-size: 80%;
+    font-weight: bold; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo {
+    margin-bottom: 15px; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo img {
+      cursor: pointer;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+      /* Firefox 3.5+, IE10 */
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(100%);
+      /* Chrome 19+ & Safari 6+ */
+      -webkit-transition: all .6s ease;
+      /* Fade to color for Chrome and Safari */
+      -webkit-backface-visibility: hidden;
+      /* Fix for transition flickering */
+      width: 30%; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo .active {
+      filter: none;
+      -webkit-filter: none; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_text {
+    background: #edeeef; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc {
+      text-align: left;
+      display: none;
+      padding: 15px 0; }
+      .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc h3 span {
+        font-size: 60%;
+        font-style: italic; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .active {
+      display: block; }
+  .home-page .top-content .holder-top-content .special_offers img {
+    margin-bottom: 10px; }
+  .home-page .top-content .holder-top-content .findyourclub div {
+    margin: 0;
+    padding: 0;
+    max-width: 100%; }
+    .home-page .top-content .holder-top-content .findyourclub div .overlay {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+      .home-page .top-content .holder-top-content .findyourclub div .overlay h2.service_title {
+        position: absolute;
+        top: 40%;
+        align-items: center;
+        border: medium none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 80%;
+        font-weight: bold; }
+    .home-page .top-content .holder-top-content .findyourclub div img {
+      max-width: 100%; }
+  .home-page .top-content .holder-top-content .celebrities {
+    background-size: cover; } }
+@media only screen and (min-width: 40.063em) {
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo {
+    margin-bottom: 15px; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo img {
+      cursor: pointer;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+      /* Firefox 3.5+, IE10 */
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(100%);
+      /* Chrome 19+ & Safari 6+ */
+      -webkit-transition: all .6s ease;
+      /* Fade to color for Chrome and Safari */
+      -webkit-backface-visibility: hidden;
+      /* Fix for transition flickering */
+      width: 30%; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_photo .active {
+      filter: none;
+      -webkit-filter: none; }
+  .home-page .top-content .holder-top-content .find_your_trainner .trainner_text {
+    background: #edeeef; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc {
+      text-align: left;
+      display: none;
+      padding: 15px 0; }
+      .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc h3 span {
+        font-size: 60%;
+        font-style: italic; }
+      .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .trainner_desc strong {
+        color: #db2128; }
+    .home-page .top-content .holder-top-content .find_your_trainner .trainner_text .active {
+      display: block; }
+  .home-page .top-content .holder-top-content .find_your_trainner .special_offers img {
+    margin-bottom: 10px; }
+  .home-page .top-content .holder-top-content .celebrities {
+    background-size: cover; } }
+
+/*# sourceMappingURL=home.css.map */

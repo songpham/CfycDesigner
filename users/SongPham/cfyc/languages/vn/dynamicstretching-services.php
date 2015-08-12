@@ -6,24 +6,19 @@ define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","Tận hưởng những 
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS","Trải nghiệm liệu pháp đặc biệt<br>giúp thư giãn cơ và các khớp ngay hôm nay");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS","Trải nghiệm 1 buổi");
 
-define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","About Dynamic Stretching");
+define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","Giới thiệu về Liệu pháp căng cơ thư giãn");
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS",'
-<p>Heal your body and enjoy a relaxing moment.</p>
-<p>Everybody gets run down with the day to day demands of an active lifestyle and it can be easy to build tension and stress throughout your body.</p>
-<p>Dynamic stretching allows you to relieve your body of unwanted strains and pressure in your muscles and joints which build up from exercise, sports and an overall active lifestyle.</p>
+<p>Phục hồi cơ thể, giúp bạn thư giãn.</p>
+<p>Mỗi người chúng ta đều mệt mỏi sau một ngày bận rộn với những yêu cầu của cuộc sống năng động và điều đó dễ dàng khiến bạn căng thẳng, thể hiện rõ nhất trên cơ thể bạn.</p>
+<p>Liệu pháp căng cơ thư giãn cho phép bạn giải phóng cơ thể khỏi những áp lực không mong muốn xuất hiện trên các khối cơ, khớp của bạn khi bạn tập luyện thể dục thể thao cũng như các hoạt động khác.</p>
 ');
 define("LANG_DYNAMIC_STRETCHING_YOUTUBE_DS","https://www.youtube.com/embed/V9CefkNF16o");
 
-define("LANG_DYNAMIC_STRETCHING_BENEFIT_DS","How Does Dynamic Stretching Work?");
+define("LANG_DYNAMIC_STRETCHING_BENEFIT_DS","Liệu pháp căng cơ thư giãn hoạt động như thế nào?");
 define("LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS",'
-<p>Often overlooked is the amount of stress which can be built up in your body throughout daily activities such as
-            playing sports, long hours spent sitting at work, years of bad posture, wearing high heels and especially after
-            exercise.</p>
-<p>Over time, certain areas of your body begin to constrict preventing healthy blood flow and adequate delivery of
-            oxygen and nutrients while also tensing muscle and causing pain.</p>
-<p>Dynamic stretching combines principles of Acupuncture and Exercise Science to help restore natural tension
-            relationships inside the body, correcting these imbalances through an incredibly relaxing physical treatment
-            allowing you to feel significant improvements even after just one session</p>
+<p>Loại bỏ các dấu hiệu căng thẳng mệt mỏi được hình thành trên cơ thể bạn thông qua các hoạt động hằng ngày như: chơi thể thao, ngồi nhiều khi làm việc; các tư thế sai trong nhiều năm, mang giày cao gót và đặc biệt là sau các buổi tập luyện thể dục.</p>
+<p>Qua thời gian, chắc chắn rằng một số khu vực trên cơ thể bạn bắt đầu co lại, ngăn chặn lượng máu khỏe mạnh cũng như việc cung cấp đầy đủ lượng oxy, chất dinh dưỡng đồng thời chúng khiến cơ bắp bạn bị căng và gây đau.</p>
+<p>Liệu pháp căng cơ thư giãn kết hợp các nguyên tắc của hoạt động châm cứu và các bài tập khoa học để giúp khôi phục các mối quan hệ tự nhiên bên trong cơ thể, điều chỉnh việc mất cân bằng thông qua hệ thống điều trị vật lý vô cùng thoải mái, cho bạn cảm giác cải thiện đáng kể thậm chí bạn có thể cảm nhận nó chỉ qua một buổi tập.</p>
 ');
 
 define("LANG_DYNAMIC_STRETCHING_ENVIRONMENT_DS","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
@@ -59,15 +54,15 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER2_CONTENT_DS",'
 ');
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_TITLE_DS","ALMORGAN");
 define("LANG_DYNAMIC_STRETCHING_TRAINER3_ID_DS","trainer3");
-define("LANG_DYNAMIC_STRETCHING_TRAINER3_CONTENT_DS","
+define("LANG_DYNAMIC_STRETCHING_TRAINER3_CONTENT_DS",'
 <h3>AL MORGAN</h3>
 <h4>MASTER TRAINER</h4>
 <p></p>
-<p>'I believe that your body adapts to whatever environment you put it in. My mission is to use my knowledge and expertise to put you in the right environment to adapt to meet your goals faster. Introducing you to all the options and tools that we have at CFYC is a much more comprehensive and successful way than simply lifting heavy weights and running endless hours on the treadmill. Strengthen your mind, realize your dreams. A strong mind paves the way for a strong body.' </p>
+<p>"Tôi tin rằng cơ thể chúng ta luôn tự thích nghi với mọi điều kiện hay môi trường sống. Sứ mệnh của tôi là vận dụng mọi kiến thức chuyên sâu của mình để hướng dẫn bạn tạo ra môi trường phù hợp nhất với những mục tiêu cá nhân. Giới thiệu với bạn tất cả các lựa chọn cũng như công cụ sẵn có tại CFYC chính là cách thức toàn diện và thành công hơn rất nhiều so với việc chỉ đơn giản là ráng sức nâng tạ kết hợp với những bước chạy miệt mài trong nhiều giờ liền trên máy tập. Hãy cùng chúng tôi nâng cao sức mạnh tinh thần, biến ước mơ thành hiện thực. Một tinh thần vững vàng luôn là khởi đầu tích cực cho một cơ thể cường tráng." </p>
 <p></p>
 <p>Bio:<br>
-Al Morgan has over 25 years of experience in training sports professionals in the US, Germany, Hong Kong, Malaysia, Singapore, and now Vietnam. He has transformed the lives of thousands of people from all walks of life, from celebrities to professional athletes. He brings the power of change to you whether you are a Superstar in the world's eyes, or simply in the eyes of your employees, your family, or your children. Al is certified by the National Academy of Sports Medicine (NASM), the worldwide leader in fitness education. He teaches his NASM knowledge to all the trainers at CFYC to ensure everyone gets the best results quickly and safely.</p>
-");
+Al Morgan có hơn 25 năm kinh nghiệm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore và hiện nay là Việt Nam. Ông đã giúp cho hàng ngàn người thuộc mọi tầng lớp xã hội, từ những nhân vật nổi tiếng cho tới các vận động viên thể thao chuyên nghiệp, tạo ra những bước ngoặt ngoạn mục trong cuộc sống của họ. Ông có đủ quyền năng để thổi sức mạnh của sự thay đổi vào con người bạn, dù bạn là một siêu sao trong con mắt ngưỡng mộ của cả thế giới hay chỉ đơn giản là trong con mắt của nhân viên dưới quyền, của gia đình, của con cái. Al được Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ – tổ chức giáo dục thể chất hàng đầu thế giới – cấp bằng chứng nhận. Ông đem những kiến thức quý giá từ NASM truyền đạt lại cho tất cả các huấn luyện viên tại CFYC, để đảm bảo rằng mọi người đều đạt được thành tích tốt nhất một cách nhanh chóng và vững chắc.</p>
+');
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_TITLE_DS","TRAVIS");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_ID_DS","trainer4");
 define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
@@ -85,6 +80,15 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 - Bảy năm kinh nghiệm huấn luyện thể hình.<br>
 - Huấn luyện hơn 200 khách hàng ở mọi độ tuổi, khả năng và mức độ tập luyện khác nhau.<br>
 - Có nhiều kinh nghiệm cho bài tập phục hồi sau chấn thương.</p>
-
 ');
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
+<p><strong>GET THE BODY YOU DESERVE!</strong></p>
+<p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
+<p>» Personalized fitness and health plan</p>
+<p>» Exclusive 1 on 1 training that fits your schedule</p>
+<p>» Dedicated attention and motivation</p>
+<p>» Proven weight loss and muscle building results system</p>
+<p>Book A Consultation Now</p>
+");
 

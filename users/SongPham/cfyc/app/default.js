@@ -63,10 +63,21 @@ $(document).ready(function () {
             $('.container-fluid.page').css('top', $('.logo').height() - 21 + 'px');
         }else{
             // Ho Hoang Lam add this to make sure when user resize window back to desktop view, content not have any padding, it's have correct position
-            $('.container-fluid.page').css('top', '50px');
+            $('.container-fluid.page').css('top', '49px');
         }
     };
     refreshOnResize();
     $(window).resize(refreshOnResize);
 	$('[data-toggle="tooltip"]').tooltip();
+
+    /*Scroll effect*/
+    jQuery('.scroll').on('click', function (e) {
+        e.preventDefault();
+        var target = this.hash, $target = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 700, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
 });
