@@ -5,6 +5,12 @@ define('LANG_CELEBRITY_MEMBERS_JOB_ACTOR','Diễn Viên');
 define('LANG_CELEBRITY_MEMBERS_JOB_ACTRESS','Diễn Viên');
 define('LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO','Chairman &amp; CEO');
 
+define('LANG_CELEBRITY_MEMBERS_BANNER_TITLE', 'Được tin tưởng bởi những ngôi sao giải trí hàng đầu châu Á');
+define('LANG_CELEBRITY_MEMBERS_SUBTEXT','Tìm hiểu cách sở hữu thể hình hoàn hảo giống như họ Đến thăm chúng tôi để tập thử miễn phí ngay hôm nay');
+define('LANG_CELEBRITY_MEMBERS_BANNER_CTA','đăng kí tập thử');
+
+define('LANG_CELEBRITY_MEMBERS_MAIN_TITLE','Discover Our Celebrity Members');
+
 define('LANG_CELEBRITY_MEMBERS_HO_NGOC_HA_NAME','Hồ Ngọc Hà');
 define('LANG_CELEBRITY_MEMBERS_HO_NGOC_HA', 'Hà bắt đầu tập Yoga với mong muốn được thư giãn và giảm căng thẳng, nhưng sau vài năm tập luyện, Yoga mang đến cho Hà nhiều hơn thế, Yoga giờ đây trở thành một phần của cuộc sống hàng ngày của Hà, Yoga làm thay đổi cuộc đời mình. <br>
 									Hà tin rằng Yoga phù hợp với mọi người.  Yoga là bài tập giúp ta thanh lọc cơ thể,  tâm sáng và mang ta đến với bản thân mình, đến với bản ngã của bản thân mình, giúp ta chạm được vào cái cốt lõi của bản thân, vào sự sáng tạo và hiểu được con người mình một cách chân phương nhất. <br><br>
