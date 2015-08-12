@@ -29,63 +29,61 @@
     text-decoration: none;
     color: #db2128;
     border-color: #db2128; }
-.home-page .top-content .holder-top-content .ourservice {
-  margin: auto; }
-  .home-page .top-content .holder-top-content .ourservice .service_item {
-    text-align: center;
-    margin: auto;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: relative; }
-    .home-page .top-content .holder-top-content .ourservice .service_item .service_img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      transform: scale(1);
-      -ms-transform: scale(1);
-      -moz-transform: scale(1);
-      -webkit-transform: scale(1);
-      -o-transform: scale(1);
-      -webkit-transition: all 1s ease-in-out;
-      -moz-transition: all 1s ease-in-out;
-      -o-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out; }
-      .home-page .top-content .holder-top-content .ourservice .service_item .service_img img {
-        max-width: 100%; }
-    .home-page .top-content .holder-top-content .ourservice .service_item .overlay {
+.home-page .top-content .holder-top-content .ourservice .service_item {
+  text-align: center;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .service_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+    .home-page .top-content .holder-top-content .ourservice .service_item .service_img img {
+      max-width: 100%; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out; }
+    .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 {
+      border: none;
+      bottom: 0;
+      color: #fff;
+      padding: 15px;
       position: absolute;
       width: 100%;
-      height: 100%;
-      top: 0;
-      -webkit-transition: all .1s ease-in-out;
-      -moz-transition: all .1s ease-in-out;
-      -o-transition: all .1s ease-in-out;
-      transition: all .1s ease-in-out; }
-      .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 {
-        border: none;
-        bottom: 0;
-        color: #fff;
-        padding: 15px;
-        position: absolute;
-        width: 100%;
-        margin: 5px auto;
-        text-transform: uppercase; }
-        .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 a {
-          color: #ffffff; }
-        .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 :hover {
-          text-decoration: none;
-          color: #ffffff; }
-    .home-page .top-content .holder-top-content .ourservice .service_item .overlay:hover {
-      background: rgba(211, 8, 15, 0.6);
-      cursor: pointer; }
-  .home-page .top-content .holder-top-content .ourservice .service_item:hover .service_img img {
-    cursor: pointer;
-    transform: scale(1.08);
-    -moz-transform: scale(1.08);
-    -webkit-transform: scale(1.08);
-    -o-transform: scale(1.08);
-    transform: scale(1.08); }
+      margin: 5px auto;
+      text-transform: uppercase; }
+      .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 a {
+        color: #ffffff; }
+      .home-page .top-content .holder-top-content .ourservice .service_item .overlay h2 :hover {
+        text-decoration: none;
+        color: #ffffff; }
+  .home-page .top-content .holder-top-content .ourservice .service_item .overlay:hover {
+    background: rgba(211, 8, 15, 0.6);
+    cursor: pointer; }
+.home-page .top-content .holder-top-content .ourservice .service_item:hover .service_img img {
+  cursor: pointer;
+  transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08); }
 .home-page .top-content .holder-top-content .findyourclub div {
   margin: 0;
   padding: 0;

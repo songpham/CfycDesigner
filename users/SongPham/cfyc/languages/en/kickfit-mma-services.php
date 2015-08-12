@@ -68,18 +68,58 @@ define("LANG_KICKFIT_MMA_TRAINER2_TITLE","TOM");
 define("LANG_KICKFIT_MMA_TRAINER2_ID","trainer2");
 define("LANG_KICKFIT_MMA_TRAINER2_CONTENT",'
 <h3>TOM</h3>
-
+<h4>PERSONAL TRAINER</h4>
+<p>TRAINING STYLE & SPECIALTY <br>
+- Friendly, funny. Your goal is my priority and I’ll make your life better. <br>
+- “I’ll make your dream come true by designing exercises which are suitable to each client’s age and health so that you can achieve your goal in the shortest time”.<br>
+- Specialize in burning fat, gaining muscle, shaping body and health. </p>
+<p>QUALIFICATION<br>
+- CFYC Personal Trainer certificate. <br>
+- CFYC KickFit Trainer certificate. <br>
+- CPR certificate. <br>
+- Bachelor Degree by Physical & Sports University. </p>
+<p>EXPERIENCE <br>
+- Two-year experience in training fitness.<br>
+- Four-year experience in practicing fitness. </p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER3_TITLE","WILL");
 define("LANG_KICKFIT_MMA_TRAINER3_ID","trainer3");
 define("LANG_KICKFIT_MMA_TRAINER3_CONTENT",'
 <h3>WILL</h3>
-
+<h4>PERSONAL TRAINER</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- My happiness is helping clients improve their health and body.<br>
+- I want to inspire my clients to reach their fitness goals.</p>
+<p>QUALIFICATION<br>
+- CFYC Personal Trainer Certificate.<br>
+- CPR Certificate.</p>
+<p>EXPERIENCE<br>
+- Two-year experience in training fitness. </p>
 ');
 define("LANG_KICKFIT_MMA_TRAINER4_TITLE","RIO");
 define("LANG_KICKFIT_MMA_TRAINER4_ID","trainer4");
 define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 <h3>RIO</h3>
-
+<h4>FITNESS MANAGER</h4>
+<p>TRAINING STYLE & SPECIALTY<br>
+- Enthusiastic, funny and friendly. <br>
+- I bring prompt results through your training process.</p>
+<p>QUALIFICATIONS<br>
+- Achieved prizes and nationwide medals. <br>
+- Asia Boxing Associations Professional Trainer Certificate. <br>
+- Professional Trainer of Army Boxing Team Certificate. <br>
+- CPR Certificate. </p>
+<p>EXPERIENCE<br>
+- Four-year experience in training fitness at CFYC. <br>
+- 10-year experience in training fitness at Military Zone 7 club.</p>
 ');
 
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
+<p><strong>Are You Ready to conquer yourself?</strong></p>
+<p>Experience the muscle toning, calorie burning, all body workout that will leave you breathless. Just 500.000vnd for 2 KickFit sessions and week pass </p>
+<p>» More Confidence A better body equals a confident you.</p>
+<p>» Better Fitness Better performance in all areas of life.</p>
+<p>» Muay Thai and Boxing Learn unique fighting skills.</p>
+<p>Book A Consultation Now</p>
+");
