@@ -17,6 +17,8 @@ define('LANG_SERVICES_DANCE','Dance');
 define('LANG_SERVICES_KICKFIT','Kickfit');
 define('LANG_SERVICES_MMA','Võ tự do MMA');
 define('LANG_SERVICES_CELEBRITY','Celebrity Training');
+define('LANG_SERVICES_PTX','PTX');
+
 
 /* lifestyle */
 

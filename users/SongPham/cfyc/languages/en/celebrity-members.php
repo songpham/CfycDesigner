@@ -5,6 +5,12 @@ define('LANG_CELEBRITY_MEMBERS_JOB_ACTOR','Actor');
 define('LANG_CELEBRITY_MEMBERS_JOB_ACTRESS','Actress');
 define('LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO','Chairman &amp; CEO');
 
+define('LANG_CELEBRITY_MEMBERS_BANNER_TITLE', 'Trusted by many of Asia’s number one stars and celebrities');
+define('LANG_CELEBRITY_MEMBERS_SUBTEXT','Who do you trust with your fitness and health? Visit us for a free membership trial today');
+define('LANG_CELEBRITY_MEMBERS_BANNER_CTA','get a trial');
+
+define('LANG_CELEBRITY_MEMBERS_MAIN_TITLE','Discover Our Celebrity Members');
+
 define('LANG_CELEBRITY_MEMBERS_HO_NGOC_HA_NAME','Hồ Ngọc Hà');
 define('LANG_CELEBRITY_MEMBERS_HO_NGOC_HA', 'I first tried yoga to relax and de-stress but after a few years of practicing (yoga- remove), it has given me so much more than simply a feeling of well-being. Yoga has become a part of my life; yoga makes my life better.<br>
 I truly believe that yoga is for everyone. It’s a great practice that helps clear your body, clear your mind, and bring you back to your true self and what makes you authentic and creative. <br>

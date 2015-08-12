@@ -3,8 +3,9 @@
 <div class="container-fluid">
     <!-- Top Banner -->
     <div class="row gallery">
-    	<a href="javascript:void(0)" title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-    		<img src="img/vip-members/california-wow-vip-members.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+    	<a href="javascript:void(0)" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">    		
+    		<img class="hidden-xs" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
+            <img class="hidden-lg hidden-md hidden-sm" src="img/vip-members/california-wow-vip-members-<?=$LANG?>.jpg"  title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
     	</a>
     </div><!-- /.Top Banner -->
     <div class="row top-content">
