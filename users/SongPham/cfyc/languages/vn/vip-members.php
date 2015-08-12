@@ -12,3 +12,12 @@ define("LANG_VIP_RSVP_INCLUDE_8", "Bạn đã là hội viên chưa?");
 define("LANG_VIP_RSVP_INCLUDE_9", "Khám phá ngay những lợi ích độc nhất của hội viên California Fitness & Yoga");
 define("LANG_VIP_RSVP_INCLUDE_10", "Đăng kí để tìm hiểu thêm và tập thử miễn phí ngay hôm nay");
 define("LANG_VIP_RSVP_INCLUDE_11", "đăng kí tập thử");
+define("LANG_VIP_RSVP_INCLUDE_12", "Đăng kí nhận vé mời VIP ngay hôm nay");
+define("LANG_VIP_RSVP_INCLUDE_13", "<span class='title'>Đăng kí nhận vé mời VIP để được tham quan và tìm hiểu về các dụng cụ tập luyện, chương trình tập luyện. Và nhận thêm</span><br/><br/>
+								<strong>- TƯ VẤN THỂ HÌNH CHUYÊN SÂU</strong><br/>
+								<span>(Giúp bạn hiểu rõ hơn về cơ thể mình và hướng dẫn bạn cách để đạt được thân hình mong muốn)</span><br/><br/>
+								<strong>- MỘT NGÀY TẬP THỬ</strong><br/>
+								<span>(Trải nghiệm trọn vẹn 1 ngày tại không gian tập luyện tiêu chuẩn 5 sao và tự do tham gia những lớp Yoga, thể dục quốc tế đầy sôi động)</span><br/><br/>
+								<strong>Đăng kí vào khung bên dưới và CHÚNG TÔI SẼ LIÊN HỆ TRONG VÒNG 24 GIỜ</strong><br/>
+								<span>Đăng kí để nhận vé mời VIP, tư vấn thể chất chuyên sâu và một ngày tự do tập luyện</span><br/><br/>
+								<span>Đặt vé VIP ngay</span>");

@@ -97,16 +97,9 @@
                     			<h2><?=LANG_VIP_RSVP_INCLUDE_9?></h2>
                     			<p><?=LANG_VIP_RSVP_INCLUDE_10?></p>
                     			<h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_11?></h2>-->
-                    			<h2 class="booktitle">book a vip visit today</h2>
+                    			<h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_12?></h2>
 								<h3 class="visit_benefit">
-								<span class="title">SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
-								<strong>- EXCLUSIVE TOUR</strong><br/>
-								<span>(Learn about all features, programs and equipment available)</span><br/><br/>
-								<strong>- PT FITNESS CONSULTATION</strong><br/>
-								<span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
-								<strong>- FULL DAY ACCESS</strong><br/>
-								<span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
-								<span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>
+								<?=LANG_VIP_RSVP_INCLUDE_13?>
 								</h3>
 								<div class="row registerfrm text-left">
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

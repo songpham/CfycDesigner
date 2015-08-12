@@ -12,3 +12,12 @@ define("LANG_VIP_RSVP_INCLUDE_8", "Are you a member?");
 define("LANG_VIP_RSVP_INCLUDE_9", "Discover the benefits of a California Fitness & Yoga membership");
 define("LANG_VIP_RSVP_INCLUDE_10", "Get a free membership trial today");
 define("LANG_VIP_RSVP_INCLUDE_11", "get a trial");
+define("LANG_VIP_RSVP_INCLUDE_12", "book a vip visit today");
+define("LANG_VIP_RSVP_INCLUDE_13", "<span class='title'>SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
+								<strong>- EXCLUSIVE TOUR</strong><br/>
+								<span>(Learn about all features, programs and equipment available)</span><br/><br/>
+								<strong>- PT FITNESS CONSULTATION</strong><br/>
+								<span>(Learn more about your body and how to reach your goals with our fitness experts)</span><br/><br/>
+								<strong>- FULL DAY ACCESS</strong><br/>
+								<span>(One day full access pass to experience our clubs and programs)</span><br/><br/>
+								<span>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</span>");
