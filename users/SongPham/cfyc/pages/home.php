@@ -227,7 +227,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/pt-services<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
@@ -459,7 +459,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                       <!-- <a href="<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a> -->
                     </div>
                 </div>
             </div>

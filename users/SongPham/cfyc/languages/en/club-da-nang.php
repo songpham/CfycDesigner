@@ -3,7 +3,7 @@ define('LANG_CLUB_DA_NANG', 'DA NANG');
 
 // BANNER
 define('LANG_CLUB_DA_NANG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in DA NANG CITY');
-define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', '');
+define('LANG_CLUB_DA_NANG_BANNER_SUB_TITLE', 'Discover Da Nang’s largest, most premium fitness, entertainment and lifestyle destination');
 define('LANG_CLUB_DA_NANG_BANNER_TEXT_BUTTON', 'Find a club in Da Nang today');
 
 
