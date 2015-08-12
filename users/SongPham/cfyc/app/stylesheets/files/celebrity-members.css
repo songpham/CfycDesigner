@@ -148,21 +148,15 @@
       color: #db2128; }
     .celebrity-members-page .celebrities .gallery .celeb-items a:hover {
       text-decoration: none; }
-    .celebrity-members-page .celebrities .gallery .celeb-items a:hover img {
-      border-color: #db2128;
-      cursor: pointer;
-      filter: none;
-      -webkit-filter: none; }
-    .celebrity-members-page .celebrities .gallery .celeb-items .active {
+    .celebrity-members-page .celebrities .gallery .celeb-items .active, .celebrity-members-page .celebrities .gallery .celeb-items a:hover {
       color: #db2128; }
-      .celebrity-members-page .celebrities .gallery .celeb-items .active p {
+      .celebrity-members-page .celebrities .gallery .celeb-items .active p, .celebrity-members-page .celebrities .gallery .celeb-items a:hover p {
         color: #db2128; }
-    .celebrity-members-page .celebrities .gallery .celeb-items a:hover p {
-      color: #db2128; }
-    .celebrity-members-page .celebrities .gallery .celeb-items .active {
-      color: #db2128; }
-      .celebrity-members-page .celebrities .gallery .celeb-items .active p {
-        color: #db2128; }
+      .celebrity-members-page .celebrities .gallery .celeb-items .active img, .celebrity-members-page .celebrities .gallery .celeb-items a:hover img {
+        border-color: #db2128;
+        cursor: pointer;
+        filter: none;
+        -webkit-filter: none; }
 .celebrity-members-page .carousel-control {
   background: none; }
   .celebrity-members-page .carousel-control .glyphicon {
@@ -280,12 +274,17 @@
       color: #686868;
       text-transform: none; } }
 @media only screen and (max-width: 40em) {
-  .celebrity-members-page .top-content .holder-top-content .mindshares {
-    padding-top: 15px; }
-    .celebrity-members-page .top-content .holder-top-content .mindshares .testimonial {
-      background: none; }
-      .celebrity-members-page .top-content .holder-top-content .mindshares .testimonial .textend {
-        padding-bottom: 0; }
+  .celebrity-members-page .top-content .holder-top-content .wrapper {
+    position: relative;
+    min-height: 1100px; }
+    .celebrity-members-page .top-content .holder-top-content .wrapper .celebrity-info-block .mindshares {
+      padding-top: 15px; }
+      .celebrity-members-page .top-content .holder-top-content .wrapper .celebrity-info-block .mindshares .celebrity-image {
+        height: auto; }
+      .celebrity-members-page .top-content .holder-top-content .wrapper .celebrity-info-block .mindshares .testimonial {
+        background: none; }
+        .celebrity-members-page .top-content .holder-top-content .wrapper .celebrity-info-block .mindshares .testimonial .textend {
+          padding-bottom: 0; }
   .celebrity-members-page .top-content .holder-top-content h3 {
     text-transform: uppercase;
     font-size: 120%; }
