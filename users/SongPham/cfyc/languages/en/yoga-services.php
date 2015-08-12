@@ -19,42 +19,38 @@ define("LANG_YOGA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
 define("LANG_YOGA_BENEFIT","What are the benefits of yoga?");
 define("LANG_YOGA_BENEFIT_CONTENT","
-<p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects,
-            including improved health and balance, spiritual awareness, restored vitality and energy, stress management,
-            enhanced flexibility and weight management.</p>
-        <p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and
-            programs</p>
+<p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects, including improved health and balance, spiritual awareness, restored vitality and energy, stress management, enhanced flexibility and weight management.</p>
+<p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and programs</p>
 ");
 define("LANG_YOGA_DISCOVER","Discover yoga at California Fitness");
 define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series (M)");
 define("LANG_YOGA_DISCOVER_TAB1_ID","sunseri");
 define("LANG_YOGA_DISCOVER_TAB1_CONTENT",'
-<h3>ZUMBA</h3>
+<h3>Sun-series (M)</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>In yoga the sun is represented by Pingala or Suya Nadi, the Pranic Channel which carries the vital life-giving force. This class is an effective way of loosening up, stretching, massaging and toning all the joints, muscles and internal organs of the body</p>
 ');
 define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: (M)");
 define("LANG_YOGA_DISCOVER_TAB2_ID","moonseri");
 define("LANG_YOGA_DISCOVER_TAB2_CONTENT",'
-<h3>BODY JAM</h3>
+<h3>MOON–SERIES</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>A general class for all. The class rejuvenates your mind and body. Comprise of 14 Asanas (Postures). It strengthens the abdomen and back. It helps release stress and refreshes</p>
 ');
 define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: (M)");
 define("LANG_YOGA_DISCOVER_TAB3_ID","gentle");
 define("LANG_YOGA_DISCOVER_TAB3_CONTENT",'
-<h3>SEXY DANCE</h3>
+<h3>GENTLE YOGA</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>An ideal class for beginners which comprises of stretching and endurance. It contains basic beginner posture with a combination of flow moves</p>
 ');
 define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: (M)");
 define("LANG_YOGA_DISCOVER_TAB4_ID","mediation");
 define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
-<h3>POLE DANCE</h3>
+<h3>MEDIATION</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>Asanas (postures) is just a beginning. Without meditation, Yoga is incomplete. Meditation is the highest method in bringing balancein the glands and nervous system, awakening te dormant potential, in finding the hidden trasures of peace, happiness and bliss. Scientifically proven to help reverse ageing. Learn the simple and easy methods of meditation. No experience is needed to begin meditation.</p>
 ');
-
 
 define("LANG_YOGA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 define("LANG_YOGA_TRAINER_TITLE","Meet our featured dance teachers");
@@ -64,24 +60,32 @@ define("LANG_YOGA_TRAINER1_TITLE","KAMLESH");
 define("LANG_YOGA_TRAINER1_ID","trainer1");
 define("LANG_YOGA_TRAINER1_CONTENT",'
 <h3>KAMLESH</h3>
-<h4>HLV CẤP CAO</h4>
-<p>BẰNG CẤP & THÀNH TÍCH<br>
-                                - Quán quân cuộc thi State Yoga Championship năm 2008 & 2009.<br>
-                                - Giải 3 cuộc thi India Open Yoga Championship năm 2007, All India Inter School & club Yoga championship năm 2007 (Yoga Ananda) & 2008 (World Yoga Society).
-                            </p>
-<p>KINH NGHIỆM<br>
-                                - 5 năm giảng dạy Yoga tại các Trung tâm ở Ấn Độ.
-                            </p>
-<p>
-                                HƯỚNG DẪN CÁC LỚP<br>
-                                - Asana & Pranyama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.
-                            </p>
+<h4>SENIOR INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- First place in Ranchi jharkhand State Yoga Championship 2008 & 2009.<br>
+- Third place in the India Open Yoga Championship 2007, All India Inter School & Club Yoga championship 2008 (Yoga Ananda) & 2008 (World Yoga Society).</p>
+<p></p>
+<p>EXPERIENCE<br>
+- Five years of teaching yoga in India Institutes.</p>
+<p></p>
+<p>EXPERTISE<br>
+- Asana & Pranayama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.</p>
 ');
 define("LANG_YOGA_TRAINER2_TITLE","SRIRAM");
 define("LANG_YOGA_TRAINER2_ID","trainer2");
 define("LANG_YOGA_TRAINER2_CONTENT",'
 <h3>SRIRAM</h3>
-
+<h4>YOGA INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- Diploma in Yoga from Madurai Kamaraj University.<br>
+- Advanced Teacher Training Course (Yoga Acharya) from The International Sivananda Yoga Vedanta Center.<br>
+- Teacher Training Course (Yoga Siromani) from The International Sivananda Yoga Vedanta Centers. </p>
+<p></p>
+<p>EXPERIENCE<br>
+- Worked as a Yoga Instructor in Gurubasava Janakalyan Sansthe’s Sri Hampasagar Parvata Maridevara Memorial Yoga, Vyayama & Kreeda Sangha’s fitness club for a period of five years.</p>
+ <p></p>
+<p>EXPERTISE<br>
+- Surya Yoga, Satyananda, Sivananda Traditional, Yoga Core, Hatha Yoga, Patanjali, Sun Series, Ashtanga, Hot Flow, Power Yoga, Gentle, Meditation.</p>
 ');
 define("LANG_YOGA_TRAINER3_TITLE","VIRAT");
 define("LANG_YOGA_TRAINER3_ID","trainer3");
@@ -97,9 +101,14 @@ define("LANG_YOGA_TRAINER4_CONTENT",'
 ');
 define("LANG_YOGA_YOGI_TITLE","Do you want a more exclusive, authentic yoga experience?");
 define("LANG_YOGA_YOGI_CONTENT","
-<p>
-        <center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing
-            you to fully embrace your yoga journey under the completely personalized direction of your yoga master.
-        </center>
-        </p>
+<p><center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing you to fully embrace your yoga journey under the completely personalized direction of your yoga master.</center></p>
 ");
+define("LANG_YOGA_SIGNUP_TITLE","try a yoga session");
+define("LANG_YOGA_SIGNUP_CONTENT",'
+<p><strong>INCLUDING:</strong></p>
+<p class="title">SIGN UP TO TRY A COMPLEMENTARY yoga CLASS!</p>
+<p>- FITNESS ASSESSMENT & CONSULTATION</p>
+<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
+<p></p>
+<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
+');

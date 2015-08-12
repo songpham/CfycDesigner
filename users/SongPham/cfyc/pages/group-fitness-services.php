@@ -185,13 +185,13 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_GROUP_TRAINER3_ID_GROUP?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/ta-img.jpg" alt="<?=LANG_GROUP_TRAINER3_TITLE_GROUP?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/genesis.jpg" alt="<?=LANG_GROUP_TRAINER3_TITLE_GROUP?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_GROUP_TRAINER3_CONTENT_GROUP?></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="<?=LANG_GROUP_TRAINER4_ID_GROUP?>">
                         <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/ta-img.jpg" alt="<?=LANG_GROUP_TRAINER4_TITLE_GROUP?>">
+                            <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/katsu.jpg" alt="<?=LANG_GROUP_TRAINER4_TITLE_GROUP?>">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-6 col-sx-12 cont"><?=LANG_GROUP_TRAINER4_CONTENT_GROUP?></div>
                     </div>
@@ -203,7 +203,16 @@
     <div class="clearfix"></div>
 
     <div class="contactform container">
-        <form id="form"></form>
+        <div class="row" id="form">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="booktitle"><?=LANG_GROUP_SIGNUP_TITLE?></h2>
+                <h3 class="visit_benefit">
+                    <?=LANG_GROUP_SIGNUP_CONTENT?>
+                </h3>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+        </div>
     </div>
 
     <?php include USER_BASE_PATH . '/templates/footer-bar.php';?>

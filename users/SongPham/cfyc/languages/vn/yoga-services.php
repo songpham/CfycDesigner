@@ -3,102 +3,112 @@
 define("LANG_YOGA_PAGE_NAME","yoga-services");
 
 define("LANG_YOGA_BANNER_TITLE","Visit us for a free membership trial today");
-define("LANG_YOGA_BANNER_TEXT_CONTENT","Khám phá vẻ đẹp và sự hứng khởi của vũ điệu Cali dance");
-define("LANG_YOGA_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay");
-define("LANG_YOGA_BANNER_TEXT_CTA","Đăng ký tập thử");
+define("LANG_YOGA_BANNER_TEXT_CONTENT","Discover the healing power of yoga");
+define("LANG_YOGA_BANNER_TEXT_SMALL","Experience a yoga class today");
+define("LANG_YOGA_BANNER_TEXT_CTA","Try a class");
 
-define("LANG_YOGA_CALIDANCE","Các lớp nhảy Cali Dance");
-define("LANG_YOGA_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br>
-Hiện nay, với hơn 10 chương trình nhảy đủ mọi thể loại, việc đốt cháy năng lượng dư thừa sẽ trở nên thú hơn bao giờ hết. Hãy phiêu cùng các vũ điệu La-tinh, giải phóng cơ thể cùng các bước nhảy uyển chuyển đầy quyến rũ của Zumba. Khám phá cơ thể qua những chuyển động tinh tế của cơ thể với lớp múa bụng ấn tượng!<br>
-Tham gia vào lớp nhảy Sh’bam với các điệu nhảy mới được kết hợp với các điệu nhảy hiphop trẻ trung hay tập luyện vùng cơ bụng hiệu quả và tạo dáng ấn tượng cùng lớp Múa cột. Hãy khám phá và theo đuổi những điệu nhảy tốt nhất ngay hôm nay!
+define("LANG_YOGA_CALIDANCE","About yoga");
+define("LANG_YOGA_CALIDANCE_CONTENT","
+<p>Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over
+2,000 sqm of internationally-designed studios and lounges.   Practice under the guidance of
+authentic Indian yoga masters in our exceptionally spacious studios. We feature a heated studio set
+at 40 degrees for the detoxifying benefits of Hot Yoga. Choose from over 20 different styles of yoga
+including Hatha, Ashtanga, Vinyasa, Hot Yoga, Meditation, Prayama, Indian Dance and so much more.</p>
 ");
 define("LANG_YOGA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
-define("LANG_YOGA_BENEFIT","Các lớp học nhảy tại Cali mang đến lợi ích gì cho bạn?");
-define("LANG_YOGA_BENEFIT_CONTENT","Các điệu nhảy sẽ giúp bạn nhanh nhẹn hơn, bên cạnh đó, sự đa dạng và sôi động của lớp học sẽ giúp bạn gắn kết hơn với các học viên khác, vừa giữ gìn sức khỏe vừa có những khoảnh khắc vui tươi.<br>
-Tất cả các hội viên của trung tâm at California Fitness & Yoga đều có quyền tham gia bất kì các lớp học nhảy GroupX, không giới hạn số lượng lớp tham gia
+define("LANG_YOGA_BENEFIT","What are the benefits of yoga?");
+define("LANG_YOGA_BENEFIT_CONTENT","
+<p>Dedicate yourself to a consistent, harmonious practice of yoga and benefit from its healing effects, including improved health and balance, spiritual awareness, restored vitality and energy, stress management, enhanced flexibility and weight management.</p>
+<p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and programs</p>
 ");
-define("LANG_YOGA_DISCOVER","Khám phá các lớp học nhảy tại California Fitness and Yoga");
-define("LANG_YOGA_DISCOVER_TAB1_TITLE","ZUMBA (M)");
-define("LANG_YOGA_DISCOVER_TAB1_ID","zumba");
+define("LANG_YOGA_DISCOVER","Discover yoga at California Fitness");
+define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series (M)");
+define("LANG_YOGA_DISCOVER_TAB1_ID","sunseri");
 define("LANG_YOGA_DISCOVER_TAB1_CONTENT",'
-<h3>ZUMBA</h3>
+<h3>Sun-series (M)</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>In yoga the sun is represented by Pingala or Suya Nadi, the Pranic Channel which carries the vital life-giving force. This class is an effective way of loosening up, stretching, massaging and toning all the joints, muscles and internal organs of the body</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB2_TITLE","BODY JAM (M)");
-define("LANG_YOGA_DISCOVER_TAB2_ID","bodyjam");
+define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: (M)");
+define("LANG_YOGA_DISCOVER_TAB2_ID","moonseri");
 define("LANG_YOGA_DISCOVER_TAB2_CONTENT",'
-<h3>BODY JAM</h3>
+<h3>MOON–SERIES</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>A general class for all. The class rejuvenates your mind and body. Comprise of 14 Asanas (Postures). It strengthens the abdomen and back. It helps release stress and refreshes</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
-define("LANG_YOGA_DISCOVER_TAB3_ID","sexydance");
+define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: (M)");
+define("LANG_YOGA_DISCOVER_TAB3_ID","gentle");
 define("LANG_YOGA_DISCOVER_TAB3_CONTENT",'
-<h3>SEXY DANCE</h3>
+<h3>GENTLE YOGA</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>An ideal class for beginners which comprises of stretching and endurance. It contains basic beginner posture with a combination of flow moves</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
-define("LANG_YOGA_DISCOVER_TAB4_ID","poledance");
+define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: (M)");
+define("LANG_YOGA_DISCOVER_TAB4_ID","mediation");
 define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
-<h3>POLE DANCE</h3>
+<h3>MEDIATION</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
+<p>Asanas (postures) is just a beginning. Without meditation, Yoga is incomplete. Meditation is the highest method in bringing balancein the glands and nervous system, awakening te dormant potential, in finding the hidden trasures of peace, happiness and bliss. Scientifically proven to help reverse ageing. Learn the simple and easy methods of meditation. No experience is needed to begin meditation.</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
-define("LANG_YOGA_DISCOVER_TAB5_ID","salsa");
-define("LANG_YOGA_DISCOVER_TAB5_CONTENT",'
-<h3>SALSA & LATIN DANCE</h3>
-<p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
-<p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
-');
+
 define("LANG_YOGA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
 define("LANG_YOGA_TRAINER_TITLE","Meet our featured dance teachers");
 define("LANG_YOGA_TRAINER_SUB","You have the potential, we can help you reach it.");
 
-define("LANG_YOGA_TRAINER1_TITLE","DJ");
+define("LANG_YOGA_TRAINER1_TITLE","KAMLESH");
 define("LANG_YOGA_TRAINER1_ID","trainer1");
 define("LANG_YOGA_TRAINER1_CONTENT",'
-<h3>DJ</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h3>KAMLESH</h3>
+<h4>SENIOR INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- First place in Ranchi jharkhand State Yoga Championship 2008 & 2009.<br>
+- Third place in the India Open Yoga Championship 2007, All India Inter School & Club Yoga championship 2008 (Yoga Ananda) & 2008 (World Yoga Society).</p>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
+<p>EXPERIENCE<br>
+- Five years of teaching yoga in India Institutes.</p>
 <p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>EXPERTISE<br>
+- Asana & Pranayama, Ashtanga, Hatha Satva, Patanjali Yoga, Power Yoga, Satyananda, Sukham, Flow Hot, Satyananda Sukham, Introduction Yoga, Yoga Therapy, Hatha Poorna.</p>
 ');
-define("LANG_YOGA_TRAINER2_TITLE","TYLER LY");
+define("LANG_YOGA_TRAINER2_TITLE","SRIRAM");
 define("LANG_YOGA_TRAINER2_ID","trainer2");
 define("LANG_YOGA_TRAINER2_CONTENT",'
-<h3>TYLER LY</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h3>SRIRAM</h3>
+<h4>YOGA INSTRUCTOR</h4>
+<p>QUALIFICATIONS & ACHIEVEMENTS<br>
+- Diploma in Yoga from Madurai Kamaraj University.<br>
+- Advanced Teacher Training Course (Yoga Acharya) from The International Sivananda Yoga Vedanta Center.<br>
+- Teacher Training Course (Yoga Siromani) from The International Sivananda Yoga Vedanta Centers. </p>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
-<p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>EXPERIENCE<br>
+- Worked as a Yoga Instructor in Gurubasava Janakalyan Sansthe’s Sri Hampasagar Parvata Maridevara Memorial Yoga, Vyayama & Kreeda Sangha’s fitness club for a period of five years.</p>
+ <p></p>
+<p>EXPERTISE<br>
+- Surya Yoga, Satyananda, Sivananda Traditional, Yoga Core, Hatha Yoga, Patanjali, Sun Series, Ashtanga, Hot Flow, Power Yoga, Gentle, Meditation.</p>
 ');
-define("LANG_YOGA_TRAINER3_TITLE","GENESIS");
+define("LANG_YOGA_TRAINER3_TITLE","VIRAT");
 define("LANG_YOGA_TRAINER3_ID","trainer3");
 define("LANG_YOGA_TRAINER3_CONTENT",'
-<h3>GENESIS</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
-<p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
-<p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<h3>VIRAT</h3>
+
 ');
-define("LANG_YOGA_TRAINER4_TITLE","KATSU");
+define("LANG_YOGA_TRAINER4_TITLE","AJAY");
 define("LANG_YOGA_TRAINER4_ID","trainer4");
 define("LANG_YOGA_TRAINER4_CONTENT",'
-<h3>KATSU</h3>
-<h4>ĐIỀU PHỐI VIÊN GROUP X</h4>
-<p>"Tôi rất thích được chia sẻ niềm đam mê nhảy múa. Khi âm nhạc khiến cho cơ thể bạn không ngừng lắc lư và chân nhún nhảy theo nhịp – tôi gọi đó là Vũ Điệu Cảm Xúc. Tôi luôn được truyền cảm hứng khi ngắm nhìn các học viên của mình vui vẻ, hạnh phúc, chăm chỉ luyện tập và rồi trở nên mạnh khỏe hơn, yêu đời hơn."</p>
+<h3>AJAY</h3>
+
+');
+define("LANG_YOGA_YOGI_TITLE","Do you want a more exclusive, authentic yoga experience?");
+define("LANG_YOGA_YOGI_CONTENT","
+<p><center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing you to fully embrace your yoga journey under the completely personalized direction of your yoga master.</center></p>
+");
+define("LANG_YOGA_SIGNUP_TITLE","try a yoga session");
+define("LANG_YOGA_SIGNUP_CONTENT",'
+<p><strong>INCLUDING:</strong></p>
+<p class="title">SIGN UP TO TRY A COMPLEMENTARY yoga CLASS!</p>
+<p>- FITNESS ASSESSMENT & CONSULTATION</p>
+<p>- ONE DAY ACCESS TO CALIFORNIA FITNESS & YOGA CENTERS</p>
 <p></p>
-<p>Bio:<br>DJ đã say mê luyện tập thể hình khi khi mới lên 5 tuổi. Người thầy đầu tiên chính là cha anh, một võ sư, đã hướng dẫn DJ luyện tập miệt mài để đạt mục tiêu, để tiếp tục vươn tới mỗi khi nản lòng, luôn khiêm nhường trong chiến thắng và không bao giờ bỏ cuộc. DJ đã từng là nhà vô địch giải trẻ và thẳng tiến tới chức vô địch quốc gia Võ Cổ Truyền Việt Nam.</p>
-<p></p>
-<p>DJ phát hiện ra niềm đam mê nhảy múa khi đến tuổi 15. Anh đã trải qua hơn 7 năm kinh nghiệm luyện tập vũ đạo và biểu diễn với tư cách là một vũ công hip-hop. DJ luôn say sưa luyện tập, tự thách thức bản thân và khám phá khả năng của mình trong thể dục và thể thao. Lý tưởng sống của anh là tiếp tục học các phong cách nhảy múa khác và luôn phấn đấu trở thành một vũ công xuất sắc.</p>
+<p>fill in the form and WE WILL CONTACT YOU WITHIN 24 HOURS</p>
 ');

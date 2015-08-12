@@ -142,7 +142,7 @@
                         padding-top: 8px;
                         padding-bottom: 8px;
                         color: #FFFFFF;
-                        background-color: $red;
+                        background-color: #00528c;
                     }
                 }
             }
@@ -358,7 +358,6 @@
         }
     }
     .contactform {
-        font-family: 'vni-avo-normal';
         text-align: center;
         text-transform: uppercase;
         h2 {
@@ -376,6 +375,7 @@
         p {
             font-size: 14px;
         }
+        .title{font-size: 18px;}
     }
     .trainers {
         center {
@@ -597,13 +597,13 @@
         @media (max-width: 767px) {
             width: 100%;
             overflow: hidden;
-            font-size: 28px;
+            font-size: 6vw;
         }
         @media (max-width: 480px) {
             width: 100%;
             overflow: hidden;
             margin: 40px auto;
-            font-size: 28px;
+            font-size: 6vw;
         }
     }
     .yogi {
@@ -760,7 +760,7 @@
                     margin: 0 auto;
                     @media (max-width: 767px) {
                         padding-bottom: 10px;
-                        font-size: .79em;
+                        font-size: 1em;
                     }
                 }
                 .red-btn {
