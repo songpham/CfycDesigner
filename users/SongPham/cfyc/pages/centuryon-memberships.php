@@ -47,7 +47,7 @@
 	                <legend><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_TITLE ?></legend>
 	                <hr/>
 	                <span>
-	                    <?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT ?> 
+	                    <?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT ?>
 	                </span>
 	                <div class="red-btn">
 	                <a class="" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
@@ -55,7 +55,7 @@
 	        </fieldset>
 		</div>
 	</div>
-	
+
     <div id="id_1" class="container-page">
         <div class="row video row-centered">
             <div class="col-sm-5 col-xs-12 col-centered">
@@ -70,11 +70,11 @@
                 </div>
             </div>
         </div><!--end row-->
-        <div id="id_2" class="row top-content row-centered">
+        <div class="row top-content row-centered">
         <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1 ?></h2>
         	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
             <div class="col-md-10 col-centered">
-            	
+
                 <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT ?> </p>
             </div>
             <div class="col-md-4 col-centered col-xs-12">
@@ -97,7 +97,7 @@
 			<div class="content">
 				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-left">
 				<div class="text-box">
-					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4> 
+					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4>
 				</div>
 				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-right">
 			</div>
@@ -122,16 +122,16 @@
   			<div class="col-md-3 col-centered col-xs-12">
   				<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2 ?></h4>
   				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2_TEXT ?></p>
-            	
+
             </div>
             <div class="col-md-3 col-centered col-xs-12">
               	<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE3 ?></h4>
-  				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE3_TEXT ?></p>	 
+  				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE3_TEXT ?></p>
             </div>
             <div class="col-md-3 col-centered col-xs-12">
               	<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE4 ?></h4>
   				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE4_TEXT ?></p>
-            	
+
             </div>
     	</div>
     </div> <!-- container page ID4 -->
