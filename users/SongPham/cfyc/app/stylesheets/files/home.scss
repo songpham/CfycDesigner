@@ -46,6 +46,9 @@
                             bottom: -15px;
                             right: 50%;
                             @include transform(translate3d(-50%, 0px, 0px));
+                            .cta{
+                                left:10%;
+                            }
                         }
                         @media (max-width:1000px) {
                             a {
@@ -68,6 +71,8 @@
                      bottom: 0;
                     .cta{
                         padding: 0 10px;
+                        width: 70% !important;
+                        margin-left: 5% !important;
                     }
                 }
             }
