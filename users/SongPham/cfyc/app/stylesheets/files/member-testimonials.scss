@@ -236,12 +236,17 @@
                     h3 {@include font-size(40px);text-transform: uppercase;color: $red;border-bottom: 1px solid #838383;padding-bottom: 5px;}
                     p {@include font-size(30px);color: $white;padding: 0;margin: 2px;}
                     @media (max-width: 2000px) {
-                        top: 20%;left: 23%;
+                        top: 20%;left: 22%;
                         h3 {@include font-size(2vw);padding-bottom: 2px;}
                         p {@include font-size(1.5vw);color: $white;padding: 0;margin: 2px;}
                     }
                     @media (max-width: 992px) {
                         top: 23%;left: 25%;
+                        h3 {@include font-size(3.5vw);}
+                        p {@include font-size(2.75vw);}
+                    }
+                     @media (max-width: 960px) {
+                        top: 23%;left: 22%;
                         h3 {@include font-size(3.5vw);}
                         p {@include font-size(2.75vw);}
                     }
@@ -251,12 +256,12 @@
                         p {@include font-size(2.75vw);}
                     }
                     @media (max-width: 480px) {
-                        top: 18%;left: 20%;
+                        top: 18%;left: 19%;
                         h3 {@include font-size(4vw);}
                         p {@include font-size(3vw);}
                     }
                     @media (max-width: 320px) {
-                        top: 16%;left: 19%;
+                        top: 14%;left: 19%;
                         h3 {@include font-size(3.5vw);}
                         p {@include font-size(2.75vw);}
                     }
@@ -266,29 +271,34 @@
                     h3 {@include font-size(40px);text-transform: uppercase;color: $red;border-bottom: 1px solid #838383;padding-bottom: 5px;}
                     p {@include font-size(30px);color: $white;padding: 0;margin: 2px;}
                     @media (max-width: 2000px) {
-                        bottom: 20%;right: 23%;
+                        bottom: 20%;right: 22%;
                         h3 {@include font-size(2vw);padding-bottom: 2px;}
-                        p {@include font-size(1.5vw);color: $white;padding: 0;margin: 2px;}
+                        p {@include font-size(1.5vw);}
                     }
                     @media (max-width: 992px) {
                         bottom: 23%;right: 25%;
-                        h3 {@include font-size(3.5vw);padding-bottom: 2px;}
-                        p {@include font-size(2.75vw);color: $white;padding: 0;margin: 2px;}
+                        h3 {@include font-size(3.5vw);}
+                        p {@include font-size(2.75vw);}
+                    }
+                    @media (max-width: 960px) {
+                        bottom: 23%;right: 22%;
+                        h3 {@include font-size(3.5vw);}
+                        p {@include font-size(2.75vw);}
                     }
                     @media (max-width: 768px) {
                         bottom: 20%;right: 23%;
-                        h3 {@include font-size(3.5vw);padding-bottom: 2px;}
-                        p {@include font-size(2.75vw);color: $white;padding: 0;margin: 2px;}
+                        h3 {@include font-size(3.5vw);}
+                        p {@include font-size(2.75vw);}
                     }
                     @media (max-width: 480px) {
-                        bottom: 18%;right: 22%;
-                        h3 {@include font-size(4vw);padding-bottom: 2px;}
-                        p {@include font-size(3vw);color: $white;padding: 0;margin: 2px;}
+                        bottom: 19%;right: 19%;
+                        h3 {@include font-size(4vw);}
+                        p {@include font-size(3vw);}
                     }
                     @media (max-width: 320px) {
-                        bottom: 16%;right: 23%;
-                        h3 {@include font-size(3.5vw);padding-bottom: 2px;}
-                        p {@include font-size(2.75vw);color: $white;padding: 0;margin: 2px;}
+                        bottom: 20%;right: 19%;
+                        h3 {@include font-size(3vw);}
+                        p {@include font-size(2.75vw);}
                     }
                 }
             }
