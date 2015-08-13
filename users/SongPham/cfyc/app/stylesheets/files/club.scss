@@ -15,9 +15,9 @@
 
 .club-page {
 
-		.carousel.slide, .information {
-			.container-page {margin: 0 auto;} 
-	}
+    .carousel.slide, .information {
+        .container-page {margin: 0 auto;} 
+    }
     .whitespace {padding: 10px 0}
     .whitespace-2x {padding: 20px 0}
     .whitespace-3x {padding: 30px 0}
@@ -254,16 +254,14 @@
     }
     .club-list-mobile {
         display: none;
-        position: absolute;
-        z-index: 99;
-        top: 10px;
-        right: 10px;
+        position: relative;
+        z-index: 1;
         .btn {
-            background: none;color: $white;
-            &:active, &:focus {background: none;color: $white;}
+            background: black;color: $white;width: 100%;border: none;@include border-radius(0px);padding: 10px 5px;
+            &:active, &:focus {background: black;color: $white;}
         }
         .dropdown-menu {
-            background-color: rgba(43,42,43,.9);
+            background-color: rgba(43,42,43,.9);width: 100%;background: black;@include border-radius(0px);top: 40px;
             li {
                 border-bottom: 1px #464646 solid;
                 &:last-child {border-bottom: none;}
@@ -416,16 +414,16 @@
     }
 
     .quan {display:none;}
-    	.carousel.slide.desktop {display: block;
-		@media (max-width:767px) {
-			display: none;
-		}
-	}
-	.carousel.slide.mobile {display: none;
-		@media (max-width:767px) {
-			display: block;
-		}
-	}
+    .carousel.slide.desktop {display: block;
+                             @media (max-width:767px) {
+                                 display: none;
+                             }
+    }
+    .carousel.slide.mobile {display: none;
+                            @media (max-width:767px) {
+                                display: block;
+                            }
+    }
 
 
 }
