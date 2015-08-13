@@ -8,7 +8,6 @@
 </div>
 <div class="container-page">
     <div class="strike"><h2>Choose you city</h2></div>
-    <h4 class="text-center col-sm-10 col-sm-offset-1" style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro voluptas, consequuntur atque, placeat quibusdam voluptates facilis omnis error dolores sunt totam itaque voluptatum modi odio, et dolor, nisi laborum magnam.</h4>
     <div class="clearfix"></div>
     <div class="row list-city">
         <div class="col-md-10 col-md-offset-1">

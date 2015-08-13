@@ -1,27 +1,27 @@
 @import 'lib';
 body {font-family: Arial; font-size: 15px;}
 .text-center { text-align: center; }
-	.container-fluid {
-	    max-width: 2000px;
-	    position: relative;
-	    &.page {
-	        top: 49px;
-
-	    }
-	    .nav-bar {
-	        .logo {
-	        }
-	        .navigation {
-	        }
-	        .flag {
-	        }
-	    }
-	    .container-page {
-	        margin: 0px 5px;
-	        max-width: 1200px;
-	    }
-
-	}
+    .container-fluid {
+        max-width: 2000px;
+        position: relative;
+        &.page {
+            top: 49px;
+        }
+        .nav-bar {
+            .logo {
+            }
+            .navigation {
+            }
+            .flag {
+            }
+        }
+        .container-page {
+            margin: 0px auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            max-width: 1200px;
+        }
+    }
     .common-banner-top {
         position: relative;
         background: #fff url(../img/cfyc-memberships/bg-header.jpg) center top no-repeat;
@@ -218,7 +218,7 @@ body {font-family: Arial; font-size: 15px;}
                     margin-left: 15px;
                 }
                 @media (max-width:767px) {
-	                font-size: 6vw;
+                    font-size: 6vw;
                 }
             }
         }
@@ -290,19 +290,19 @@ footer {
                 div.tooltip.fade.bottom.in, div.tooltip.fade.bottom {left:-100px !important;}
             }
 
-			.icon-div {	padding:0px 20px;
-	            .icons {
-	                @include font-size(40px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
-	                text-align: center; height:60px; width: 60px; padding-top: 9px; margin: 50px 0;
-	                &:hover { color: #999999; border:2px #999999 solid; }
-					}
-	            }
-	            li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
-	                a {
-	                    color: $footer_link;
-	                    &:hover { color: $footer_hover; }
-	                }
-				}
+            .icon-div { padding:0px 20px;
+                .icons {
+                    @include font-size(40px); color: #666666; border-radius: 50%; border: 2px rgb(51, 51, 51) solid;
+                    text-align: center; height:60px; width: 60px; padding-top: 9px; margin: 50px 0;
+                    &:hover { color: #999999; border:2px #999999 solid; }
+                    }
+                }
+                li { display: inline-block; padding-left: 20px; color: #666666; text-transform: uppercase;
+                    a {
+                        color: $footer_link;
+                        &:hover { color: $footer_hover; }
+                    }
+                }
         }
     }
     p { color: $white; text-align: center; @include font-size(14px); margin-bottom: 0px; }
@@ -310,7 +310,7 @@ footer {
 /* media queries */
 /*@media only screen and (max-width: 20em) {
     .strike { max-width: 90%;
-    	h2 {
+        h2 {
             position: relative;
             display: inline-block;
             color: $red;
@@ -336,7 +336,7 @@ footer {
                 margin-left: 15px;
             }
         }
-	}
+    }
 }*/
 
 
@@ -425,18 +425,18 @@ footer {
     }
 
     footer {
-    	.container-fluid {
-    		.icon-div.col-centered {padding: 0px 18px;}
-	        ul {
-	            max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
-	            li { padding-left: 10px;
-	                a {
-	                    color: $footer_link;
-	                    &:hover, &:active, &:focus {color: $footer_hover;}
-	                }
-	            }
-	        }
-	    }
+        .container-fluid {
+            .icon-div.col-centered {padding: 0px 18px;}
+            ul {
+                max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
+                li { padding-left: 10px;
+                    a {
+                        color: $footer_link;
+                        &:hover, &:active, &:focus {color: $footer_hover;}
+                    }
+                }
+            }
+        }
     }
 
 
