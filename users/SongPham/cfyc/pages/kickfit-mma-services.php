@@ -9,7 +9,7 @@
                     <?=LANG_KICKFIT_MMA_BANNER_TEXT_SMALL?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta scroll" href="#form" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"> <?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
+                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?>"> <?=LANG_KICKFIT_MMA_BANNER_TEXT_CTA?></a>
                 </div>
             </fieldset>
         </div>
@@ -18,7 +18,7 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div><?=LANG_KICKFIT_MMA_CALIDANCE?><div class="line"></div></h2>
+            <div class="strike"><h2><?=LANG_KICKFIT_MMA_CALIDANCE?></h2></div>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <?=LANG_KICKFIT_MMA_CALIDANCE_CONTENT?>
             </div>
@@ -31,7 +31,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div><?=LANG_KICKFIT_MMA_BENEFIT?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_KICKFIT_MMA_BENEFIT?></h2></div>
         <?=LANG_KICKFIT_MMA_BENEFIT_CONTENT?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
@@ -47,7 +47,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <h2><div class="line"></div><?=LANG_KICKFIT_MMA_ENVIRONMENT?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_KICKFIT_MMA_ENVIRONMENT?></h2></div>
         <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -75,7 +75,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div><?=LANG_KICKFIT_MMA_TRAINER_TITLE?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_KICKFIT_MMA_TRAINER_TITLE?></h2></div>
         <center><?=LANG_KICKFIT_MMA_TRAINER_SUB?></center>
         <div class="tab-content teacher-detail">
             <div role="tabpanel" class="tab-pane active" id="hcmc">

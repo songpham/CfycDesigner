@@ -8,32 +8,19 @@ define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Try kick fit");
 
 define("LANG_KICKFIT_MMA_CALIDANCE","About Kick Fit and MMA");
 define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'
-<p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way
-                    to a higher level of fitness.</p>
-<p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly
-                    master the exhilarating punches, kicks and speed exercises.   Mixed Martial Arts challenges you with
-                    grappling, striking, punching and kicking until you master the elemental moves of traditional
-                    boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work
-                    one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise
-                    you.</p>
+<p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way to a higher level of fitness.</p>
+<p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly master the exhilarating punches, kicks and speed exercises.   Mixed Martial Arts challenges you with grappling, striking, punching and kicking until you master the elemental moves of traditional boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise you.</p>
 ');
 define("LANG_KICKFIT_MMA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
 define("LANG_KICKFIT_MMA_BENEFIT","How does Kick Fit and MMA work?");
 define("LANG_KICKFIT_MMA_BENEFIT_CONTENT",'
-<p>Kick Fit is taught one on one while MMA can be taught one on one or in a group setting with other participants.
-        You can choose the days and times which are suitable for you to train with your instructor.
-        Both are perfectly safe for people of all ages, from teenagers to parents and more and taught in a professional
-        sized MMA Octagon.</p>
-<p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
-        focus fully on your training and progressing through your skills.</p>
-<p>Professional sized MMA Octagon.</p>
-<p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
-        focus fully on your training and progressing through your skills.</p>
+<p>Kick Fit is taught one on one while MMA can be taught one on one or in a group setting with other participants. You can choose the days and times which are suitable for you to train with your instructor.</p>
+<p>Both are perfectly safe for people of all ages, from teenagers to parents and more and taught in a professional sized MMA Octagon.</p>
+<p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to focus fully on your training and progressing through your skills.</p>
 ');
 
 define("LANG_KICKFIT_MMA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
-
 define("LANG_KICKFIT_MMA_TRAINER_TITLE","Meet our featured kickfit & mma instructors");
 define("LANG_KICKFIT_MMA_TRAINER_SUB","You have the potential, we can help you reach it.");
 
@@ -114,12 +101,13 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - 10-year experience in training fitness at Military Zone 7 club.</p>
 ');
 
-define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Meet some of our top ** instructors");
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Are You Ready to conquer yourself?");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
-<p><strong>Are You Ready to conquer yourself?</strong></p>
 <p>Experience the muscle toning, calorie burning, all body workout that will leave you breathless. Just 500.000vnd for 2 KickFit sessions and week pass </p>
 <p>» More Confidence A better body equals a confident you.</p>
 <p>» Better Fitness Better performance in all areas of life.</p>
 <p>» Muay Thai and Boxing Learn unique fighting skills.</p>
 <p>Book A Consultation Now</p>
+" .
+    "
 ");
