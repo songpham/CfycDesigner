@@ -1,13 +1,10 @@
 <div class="container-fluid page find-a-club-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="row banner-top">
-    <a href="javascript:void(0)" title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-        <img class="img-responsive hidden-xs" src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/find-a-club-banner.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-       <img class="hidden-lg hidden-md hidden-sm" src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/m-find-a-club-banner.jpg" title="<?=LANG_VIP?>" alt="<?=LANG_VIP?>">
-    </a>
+
 </div>
 <div class="container-page">
-    <div class="strike"><h2>Choose you city</h2></div>
+    <div class="strike"><h2><?php echo LANG_PAGE_CHOOSE_CITY_TITLE ?></h2></div>
     <div class="clearfix"></div>
     <div class="row list-city">
         <div class="col-md-10 col-md-offset-1">
@@ -51,7 +48,7 @@
                 <div class="col-sm-4 city">
 
                     <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/nhatrang.jpg" class="img-responsive img-circle">
-                    <h4>Nha Trang<br>Coming Soon</h4>
+                    <h4>Nha Trang<br><span>Coming Soon</span></h4>
                 </div>
            </div>
        </div>
