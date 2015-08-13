@@ -205,10 +205,13 @@ $containerWidth : 1200px;
                     background: $white;
                     z-index: 2;
                     @media screen and (max-width: 650px) {padding: 0 10px !important;}
-                    @media (max-width: 517px) {max-width: 300px;}
-                    @media (max-width: 320px) {max-width: 205px;}
-
                 }
+            }
+            .d-title {display: none;}
+            .m-title {display: block;}
+            @media (max-width: 480px) {
+                .d-title {display: none;}
+                .m-title {display: block;}
             }
         }
 
@@ -350,7 +353,7 @@ $containerWidth : 1200px;
             .m-image {display: none;}
             @media (max-width: 768px) {
                 .d-image {display: none;}
-                .m-image {display: block;img{min-height: 500px;}}
+                .m-image {display: block;}
             }
             position: relative;
             .caption {

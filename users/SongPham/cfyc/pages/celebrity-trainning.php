@@ -26,8 +26,11 @@
     <div class="row container-page">
 
         <div class="row block about-block">
-            <div class='block-title'>
+            <div class='d-title block-title'>
                 <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE ?></div>
+            </div>
+            <div class="m-title block-title">
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_MOBILE_TITLE ?></div>
             </div>
             <div class="col-md-6 text">
                 <?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT ?>
@@ -48,8 +51,11 @@
     <div class="row container-page">
 
         <div class="row block how-block">
-            <div class="block-title">
+            <div class="d-title block-title">
                 <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_TITLE ?></div>
+            </div>
+            <div class="m-title block-title">
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_MOBILE_TITLE ?></div>
             </div>
             <?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT ?>
             <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
@@ -72,8 +78,11 @@
     <div class="white-space-2x"></div>
     <div class="row container-page">
         <div class="row block">
-            <div class='block-title'>
+            <div class='d-title block-title'>
                 <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></div>
+            </div>
+            <div class="m-title block-title">
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_MOBILE_TITLE ?></div>
             </div>
         </div>
     </div>
