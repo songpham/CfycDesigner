@@ -9,7 +9,7 @@
                     <?=LANG_YOGA_BANNER_TEXT_SMALL?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta scroll" href="#form" title="<?=LANG_YOGA_BANNER_TEXT_CTA?>"> <?=LANG_YOGA_BANNER_TEXT_CTA?></a>
+                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_YOGA_BANNER_TEXT_CTA?>"> <?=LANG_YOGA_BANNER_TEXT_CTA?></a>
                 </div>
             </fieldset>
         </div>
@@ -17,7 +17,7 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div><?=LANG_YOGA_CALIDANCE?><div class="line"></div></h2>
+            <div class="strike"><h2><?=LANG_YOGA_CALIDANCE?></h2></div>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <?=LANG_YOGA_CALIDANCE_CONTENT?>
             </div>
@@ -30,7 +30,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div><?=LANG_YOGA_BENEFIT?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_YOGA_BENEFIT?></h2></div>
         <?=LANG_YOGA_BENEFIT_CONTENT?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
@@ -46,7 +46,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="discover row">
-        <h2><div class="line"></div><?=LANG_YOGA_DISCOVER?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_YOGA_DISCOVER?></h2></div>
         <!-- Nav tabs -->
         <div class="dropdown visible-xs">
             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
@@ -99,7 +99,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <h2><div class="line"></div><?=LANG_YOGA_ENVIRONMENT?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_YOGA_ENVIRONMENT?></h2></div>
         <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -127,7 +127,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div><?=LANG_YOGA_TRAINER_TITLE?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_YOGA_TRAINER_TITLE?></h2></div>
         <center><?=LANG_YOGA_TRAINER_SUB?></center>
         <div class="tab-content teacher-detail">
             <div role="tabpanel" class="tab-pane active" id="hcmc">
@@ -194,8 +194,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="yogi container">
-        <h2><div class="line"></div><div class="line"></div></h2>
-
+        <div class="strike"><h2></h2></div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 firstcol">
             <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/yogi-1.jpg" alt="">
         </div>
