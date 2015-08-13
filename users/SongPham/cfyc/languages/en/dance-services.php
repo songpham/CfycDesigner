@@ -121,9 +121,8 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 <p>EXPERTISE<br>
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Aerobics), GX Orientation, Bums N Tums, Shape Up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
-define("LANG_DANCE_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DANCE_SIGNUP_TITLE","Want To Get Fit and Have Fun?");
 define("LANG_DANCE_SIGNUP_CONTENT","
-<p><strong>Want To Get Fit and Have Fun?</strong></p>
 <p>Sign Up for 10 Complementary Dance Classes With just 500.000vnd. Including</p>
 <p>»  BodyJam - Dance your way to cardio fitness.</p>
 <p>»  Zumba and Latin Dance - Party your way to fitness with the red-hot, calorie-burning dance</p>

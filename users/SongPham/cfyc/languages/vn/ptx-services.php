@@ -22,7 +22,7 @@ define("LANG_BENEFIT_CONTENT_PTX",'
 
 define("LANG_ENVIRONMENT_PTX","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
-define("LANG_TRAINER_TITLE_PTX","Meet some of our top ptx2 instructors");
+define("LANG_TRAINER_TITLE_PTX","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_TRAINER_SUB_PTX","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_TRAINER1_TITLE_PTX","LINH TA");

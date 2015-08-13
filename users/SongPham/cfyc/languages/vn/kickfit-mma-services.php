@@ -34,7 +34,7 @@ define("LANG_KICKFIT_MMA_BENEFIT_CONTENT",'
 
 define("LANG_KICKFIT_MMA_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
-define("LANG_KICKFIT_MMA_TRAINER_TITLE","Meet our featured kickfit & mma instructors");
+define("LANG_KICKFIT_MMA_TRAINER_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_KICKFIT_MMA_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_KICKFIT_MMA_TRAINER1_TITLE","LEE");
