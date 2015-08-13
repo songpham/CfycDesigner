@@ -5,7 +5,11 @@ define('LANG_SERVICES', 'Services');
 define('LANG_LIFESTYLE','Lifestyle');
 define('LANG_MEMBERSHIPS','Memberships');
 define('LANG_SCHEDULES','Class Schedules');
+<<<<<<< HEAD
 //define('LANG_MEMBER_TESTIMONIALS','Member Testimonials');
+=======
+define('LANG_MEMBER_TESTIMONIALS_MENU','Member Testimonials');
+>>>>>>> 99aa6f95350e60d17bc4680f1d4c51b466d83497
 define('LANG_MENU_MENU','MENU');
 
 /* sub menu */

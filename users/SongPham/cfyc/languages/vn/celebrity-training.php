@@ -37,7 +37,11 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
 define('LANG_CELEBRITY_TRAINING_MID_BANNER_CAPTION','MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ');
 
 define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng<br>đã và đang tập luyện cùng chúng tôi');
+<<<<<<< HEAD
 //define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng<br>đã và đang tập luyện cùng chúng tôi');
+=======
+define('LANG_CELEBRITY_TRAINING_BLOCK_3_MOBILE_TITLE', 'Một số người nổi<br> tiếng đã và đang tập luyện cùng chúng tôi');
+>>>>>>> 99aa6f95350e60d17bc4680f1d4c51b466d83497
 
 define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-10.png');
 define('LANG_CELEBRITY_TRAINING_MEMBER_1_BIG_IMG', 'diem_my.jpg');
