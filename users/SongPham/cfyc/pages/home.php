@@ -1,23 +1,9 @@
 <div class="container-fluid page home-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
-    <!--<div class="row common-banner-top">
-        <div class="cta">
-            <fieldset>
-                <legend align="center"><?php echo HOME_BANNER_1?></legend>
-                <hr/>
-                <span>
-                    <?php echo HOME_BANNER_2 ?>
-                </span>
-                <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
-                </div>
-            </fieldset>
-        </div>
-    </div>-->
     <div class="row gallery common-banner-top">
-            <img class="hidden-xs" src="img/home/california-wow-banner.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
-            <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-banner-mobile.jpg"  title="<?=LANG_BANNER_TITLE?>" alt="<?=LANG_BANNER_TITLE?>">
+            <img class="hidden-xs" src="img/home/california-wow-banner.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
+            <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-banner-mobile.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
         <div class="cta">
             <fieldset>
                 <legend align="center"><?php echo HOME_BANNER_1?></legend>
@@ -31,22 +17,6 @@
             </fieldset>
         </div>
     </div>
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
     <div class="row top-content">
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
@@ -64,78 +34,78 @@
                 <div class="whitespace"></div>
                 <div class="row ourservice">
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
+                    <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_PERSONAL_TRAINNER?>" alt="<?=LANG_PERSONAL_TRAINNER?>">
                         <div class="service_img">
                             <img src="img/home/california-wow-our-services-1.jpg" alt="<?=LANG_PERSONAL_TRAINNER?>" title="<?=LANG_PERSONAL_TRAINNER?>">
                         </div>
                         <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_PERSONAL_TRAINNER?>" alt="<?=LANG_PERSONAL_TRAINNER?>">
-                                    <?=LANG_PERSONAL_TRAINNER?>
-                                </a>
+                            <h2 class="service_title">                                
+                                <?=LANG_PERSONAL_TRAINNER?>                                
                             </h2>
                        </div>
+                       </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <div class="service_img">
-                            <img src="img/home/california-wow-our-services-2.jpg" alt="<?=LANG_YOGA?>" title="<?=LANG_YOGA?>">
-                        </div>
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="yoga-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_YOGA?>" alt="<?=LANG_YOGA?>">
-                                    <?=LANG_YOGA?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="yoga-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_YOGA?>" alt="<?=LANG_YOGA?>">
+                            <div class="service_img">
+                                <img src="img/home/california-wow-our-services-2.jpg" alt="<?=LANG_YOGA?>" title="<?=LANG_YOGA?>">
+                            </div>
+                            <div class="overlay">
+                                <h2 class="service_title">                                    
+                                    <?=LANG_YOGA?>                                    
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <div class="service_img">
-                            <img src="img/home/california-wow-our-services-3.jpg" alt="<?=LANG_GROUP_EXERCISE?>" title="<?=LANG_GROUP_EXERCISE?>">
-                        </div>
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_GROUP_EXERCISE?>" alt="<?=LANG_GROUP_EXERCISE?>">
-                                    <?=LANG_GROUP_EXERCISE?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_GROUP_EXERCISE?>" alt="<?=LANG_GROUP_EXERCISE?>">
+                            <div class="service_img">
+                                <img src="img/home/california-wow-our-services-3.jpg" alt="<?=LANG_GROUP_EXERCISE?>" title="<?=LANG_GROUP_EXERCISE?>">
+                            </div>
+                            <div class="overlay">
+                                <h2 class="service_title">                                
+                                    <?=LANG_GROUP_EXERCISE?>                               
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <div class="service_img">
-                            <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_KID_PROGRAM?>" title="<?=LANG_KID_PROGRAM?>">
-                        </div>
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <?php /*need to find kid program url*/ ?>
-                                <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KID_PROGRAM?>" alt="<?=LANG_KID_PROGRAM?>">
-                                    <?=LANG_KID_PROGRAM?>
-                                </a>
-                            </h2>
-                        </div>
+                        <?php /*need to find kid program url*/ ?>
+                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KID_PROGRAM?>" alt="<?=LANG_KID_PROGRAM?>">
+                            <div class="service_img">
+                                <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_KID_PROGRAM?>" title="<?=LANG_KID_PROGRAM?>">
+                            </div>
+                            <div class="overlay">
+                                <h2 class="service_title">                                   
+                                    <?=LANG_KID_PROGRAM?>                                    
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <div class="service_img">
-                            <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_SPA_ESTHIC?>" title="<?=LANG_SPA_ESTHIC?>">
-                        </div>
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <?php /*need to find spa url*/ ?>
-                                <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SPA_ESTHIC?>" alt="<?=LANG_SPA_ESTHIC?>">
+                        <?php /*need to find spa url*/ ?>
+                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SPA_ESTHIC?>" alt="<?=LANG_SPA_ESTHIC?>">
+                            <div class="service_img">
+                                <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_SPA_ESTHIC?>" title="<?=LANG_SPA_ESTHIC?>">
+                            </div>
+                            <div class="overlay">
+                                <h2 class="service_title">
                                     <?=LANG_SPA_ESTHIC?>
-                                </a>
-                            </h2>
-                        </div>
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <div class="service_img">
-                            <img src="img/home/california-wow-our-services-6.jpg" alt="<?=LANG_KICKFIT?>" title="<?=LANG_KICKFIT?>">
-                        </div>
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KICKFIT?>" alt="<?=LANG_KICKFIT?>">
-                                    <?=LANG_KICKFIT?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KICKFIT?>" alt="<?=LANG_KICKFIT?>">
+                            <div class="service_img">
+                                <img src="img/home/california-wow-our-services-6.jpg" alt="<?=LANG_KICKFIT?>" title="<?=LANG_KICKFIT?>">
+                            </div>
+                            <div class="overlay">
+                                <h2 class="service_title">                                
+                                    <?=LANG_KICKFIT?>                                
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row seemorebtn">
@@ -162,65 +132,65 @@
                         <img src="img/home/california-wow-find-your-club-10.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6">
-                        <img class="hidden-xs" src="img/home/california-wow-find-your-club-1.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
-                        <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-find-your-club-1_sm.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="club-hcm<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HO_CHI_MINH_CITY?>" alt="<?=LANG_HO_CHI_MINH_CITY?>">
-                                    <?=LANG_HO_CHI_MINH_CITY?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="club-hcm<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HO_CHI_MINH_CITY?>" alt="<?=LANG_HO_CHI_MINH_CITY?>">
+                            <img class="hidden-xs" src="img/home/california-wow-find-your-club-1.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
+                            <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-find-your-club-1_sm.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
+                            <div class="overlay">
+                                <h2 class="service_title">                                    
+                                    <?=LANG_HO_CHI_MINH_CITY?>                                    
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 hidden-xs">
                         <img src="img/home/california-wow-find-your-club-2.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
-                        <img src="img/home/california-wow-find-your-club-3.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HA_NOI?>" alt="<?=LANG_HA_NOI?>">
-                                    <?=LANG_HA_NOI?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HA_NOI?>" alt="<?=LANG_HA_NOI?>">
+                            <img src="img/home/california-wow-find-your-club-3.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
+                            <div class="overlay">
+                                <h2 class="service_title">                                    
+                                   <?=LANG_HA_NOI?>                                    
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 hidden-xs">
                         <img src="img/home/california-wow-find-your-club-4.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
-                        <img src="img/home/california-wow-find-your-club-5.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DA_NANG?>" alt="<?=LANG_DA_NANG?>">
-                                    <?=LANG_DA_NANG?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DA_NANG?>" alt="<?=LANG_DA_NANG?>">
+                            <img src="img/home/california-wow-find-your-club-5.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
+                            <div class="overlay">
+                                <h2 class="service_title">                                
+                                   <?=LANG_DA_NANG?>                               
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 hidden-xs">
-                        <img src="img/home/california-wow-find-your-club-6.jpg" alt="<?=LANG_BINH_DUONG?>" title="<?=LANG_BINH_DUONG?>">
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <a href="club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_BINH_DUONG?>" alt="<?=LANG_BINH_DUONG?>">
-                                    <?=LANG_BINH_DUONG?>
-                                </a>
-                            </h2>
-                        </div>
+                        <a href="club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_BINH_DUONG?>" alt="<?=LANG_BINH_DUONG?>">
+                            <img src="img/home/california-wow-find-your-club-6.jpg" alt="<?=LANG_BINH_DUONG?>" title="<?=LANG_BINH_DUONG?>">
+                            <div class="overlay">
+                                <h2 class="service_title">                                    
+                                    <?=LANG_BINH_DUONG?>                                    
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 hidden-xs">
                         <img src="img/home/california-wow-find-your-club-7.jpg" alt="<?=LANG_BINH_DUONG?>" title="<?=LANG_BINH_DUONG?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
-                        <img src="img/home/california-wow-find-your-club-8.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
-                        <div class="overlay">
-                            <h2 class="service_title">
-                                <?php /*will put bien hoa for new coming???*/?>
-                                <a href="club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
-                                    <?=LANG_NEW_COMING?>
-                                </a>
-                            </h2>
-                        </div>
+                        <?php /*will put bien hoa for new coming???*/?>
+                        <a href="club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
+                            <img src="img/home/california-wow-find-your-club-8.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
+                            <div class="overlay">
+                                <h2 class="service_title">                                
+                                    <?=LANG_NEW_COMING?>                                
+                                </h2>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 hidden-xs">
                         <img src="img/home/california-wow-find-your-club-9.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
