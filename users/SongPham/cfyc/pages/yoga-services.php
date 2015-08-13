@@ -194,7 +194,10 @@
     </div>
     <div class="clearfix"></div>
     <div class="yogi container">
-        <div class="strike"><h2></h2></div>
+        <div class="strike"><h2><?php echo LANG_YOGA_YOGI_TITLE ?></h2></div>
+        <div class="text-box">
+        	<p><?php echo LANG_YOGA_YOGI_CONTENT ?></p>
+        </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-sx-12 firstcol">
             <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_YOGA_PAGE_NAME?>/yogi-1.jpg" alt="">
         </div>
@@ -213,6 +216,14 @@
                 <h3 class="visit_benefit">
                     <?=LANG_YOGA_SIGNUP_CONTENT?>
                 </h3>
+                 <div id="signUp_form">
+	                <?php if ($LANG == 'vn') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=10803505&u=kKTV"></script>
+	                <?php } else if ($LANG == 'en') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=8730505&u=kKTV"></script>
+	                <?php } ?>
+				</div>
+
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>

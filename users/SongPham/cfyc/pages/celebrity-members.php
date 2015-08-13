@@ -66,7 +66,7 @@
                                         <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
                                             <a href="javascript:void(0);" role="tab" data-toggle="tab">
                                                 <img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-celeb-member-2.png" alt="Celebrities member" title="Celebrities member">
-                                                <p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
+                                                <p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_GIANG_NAME ?><br><?php echo LANG_CELEBRITY_MEMBERS_JOB_MODEL ?></p>
                                             </a>
                                         </div>
                                         <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items" role="presentation">
@@ -157,12 +157,12 @@
                 </div> <!-- /celeb4 -->
                 <div class="row mindshares tab-pane fade row-centered">
                     <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
-                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/hoang_my.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
+                        <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/huong-giang.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
-                        <h3><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY_NAME ?></h3>
+                        <h3><?php echo LANG_CELEBRITY_MEMBERS_HOANG_GIANG_NAME ?></h3>
                         <blockquote>
-                            <p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_MY ?></p>
+                            <p><?php echo LANG_CELEBRITY_MEMBERS_HOANG_GIANG ?></p>
                         </blockquote>
                     </div> <!-- text -->
                 </div> <!-- /celeb5 -->

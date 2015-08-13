@@ -1,6 +1,18 @@
 @import '../lib';
 
 .pt-services-page {
+	.item.active.mobile {display: none; 
+		@media (max-width:767px) {
+			display: block;
+			margin-bottom: 50px;
+		
+		}
+	}
+		.item.active.desktop {display: block; margin-bottom: 50px;
+		@media (max-width:767px) {
+			display: none;
+		}
+	}
     fieldset {
         border: 2px solid $red;
         legend {

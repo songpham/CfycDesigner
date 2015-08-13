@@ -11,9 +11,9 @@
                 <span>
                     <?php echo HOME_BANNER_2 ?>
                 </span>
-                
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
-
+                <div class="red_btn">
+               		 <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
+                </div>
             </fieldset>
         </div>
     </div>

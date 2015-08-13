@@ -58,17 +58,13 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/school.jpg" alt="<?=LANG_PT_ENVIRONMENT_PT?>">
+                <div class="item active desktop">
+                     <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                 </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/school.jpg" alt="<?=LANG_PT_ENVIRONMENT_PT?>">
+                <div class="item active mobile">
+                     <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                 </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/school.jpg" alt="<?=LANG_PT_ENVIRONMENT_PT?>">
-                </div>
-                <div class="item">
-                    <img src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/school.jpg" alt="<?=LANG_PT_ENVIRONMENT_PT?>">
+
                 </div>
             </div>
         </div>
@@ -149,6 +145,13 @@
                 <h3 class="visit_benefit">
                     <?=LANG_SIGNUP_CONTENT_PT?>
                 </h3>
+                <div id="signUp_form">
+	                <?php if ($LANG == 'vn') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=10803305&amp;u=kKTV"></script>
+	                <?php } else if ($LANG == 'en') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=8705005&amp;u=kKTV"></script>
+	                <?php } ?>
+				</div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>
