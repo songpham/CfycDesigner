@@ -212,7 +212,14 @@
                             <h3 class="visit_benefit">
 
                                 <?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS ?>
-                            </h3>
+	                            </h3>
+	                 <div id="signUp_form">
+		                <?php if ($LANG == 'vn') { ?>
+		                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=15197805&u=kKTV"></script>
+		                <?php } else if ($LANG == 'en') { ?>
+		                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=15197705&u=kKTV"></script>
+		                <?php } ?>
+					</div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                     </div>

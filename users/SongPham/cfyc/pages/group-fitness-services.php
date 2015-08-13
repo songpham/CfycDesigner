@@ -210,6 +210,13 @@
                 <h3 class="visit_benefit">
                     <?=LANG_GROUP_SIGNUP_CONTENT?>
                 </h3>
+                <div id="signUp_form">
+	                <?php if ($LANG == 'vn') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=10801805&amp;u=kKTV"></script>
+	                <?php } else if ($LANG == 'en') { ?>
+	                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=8580205&amp;u=kKTV"></script>
+	                <?php } ?>
+				</div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>
