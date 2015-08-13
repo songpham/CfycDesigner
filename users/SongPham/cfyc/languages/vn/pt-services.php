@@ -24,7 +24,7 @@ define("LANG_PT_BENEFIT_CONTENT_PT",'
 
 define("LANG_PT_ENVIRONMENT_PT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
-define("LANG_PT_TRAINER_TITLE_PT","Meet some of our top pt instructors");
+define("LANG_PT_TRAINER_TITLE_PT","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_PT_TRAINER_SUB_PT","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_PT_TRAINER1_TITLE_PT","LINH TA");

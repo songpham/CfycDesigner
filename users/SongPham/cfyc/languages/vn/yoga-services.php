@@ -49,7 +49,7 @@ define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
 ');
 
 define("LANG_YOGA_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
-define("LANG_YOGA_TRAINER_TITLE","Meet our featured dance teachers");
+define("LANG_YOGA_TRAINER_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_YOGA_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_YOGA_TRAINER1_TITLE","KAMLESH");

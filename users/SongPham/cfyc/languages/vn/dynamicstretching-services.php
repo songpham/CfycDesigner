@@ -23,7 +23,7 @@ define("LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS",'
 
 define("LANG_DYNAMIC_STRETCHING_ENVIRONMENT_DS","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
-define("LANG_DYNAMIC_STRETCHING_TRAINER_TITLE_DS","Meet some of our top dynamic stretching experts");
+define("LANG_DYNAMIC_STRETCHING_TRAINER_TITLE_DS","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_DYNAMIC_STRETCHING_TRAINER_SUB_DS","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_TITLE_DS","LINH TA");

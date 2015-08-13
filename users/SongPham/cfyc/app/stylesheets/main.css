@@ -11,7 +11,9 @@ body {
   .container-fluid.page {
     top: 49px; }
   .container-fluid .container-page {
-    margin: 0px 5px;
+    margin: 0px auto;
+    padding-left: 5px;
+    padding-right: 5px;
     max-width: 1200px; }
 
 .common-banner-top {
@@ -414,7 +416,7 @@ footer {
 /* media queries */
 /*@media only screen and (max-width: 20em) {
     .strike { max-width: 90%;
-    	h2 {
+        h2 {
             position: relative;
             display: inline-block;
             color: $red;
@@ -440,7 +442,7 @@ footer {
                 margin-left: 15px;
             }
         }
-	}
+    }
 }*/
 /* $breakpoint_tablet 1024px */
 @media (max-width: 1024px) {
