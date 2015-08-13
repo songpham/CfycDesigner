@@ -80,9 +80,8 @@ define("LANG_TRAINER4_CONTENT_PTX",'
 - Training over 200 clients of all different ages, abilities & levels of fitness.<br>
 - Having extensive experience with post–injury rehab.</p>
 ');
-define("LANG_SIGNUP_TITLE_PTX","Get Ready To Dance");
+define("LANG_SIGNUP_TITLE_PTX","GET THE BODY YOU DESERVE!");
 define("LANG_SIGNUP_CONTENT_PTX","
-<p><strong>GET THE BODY YOU DESERVE!</strong></p>
 <p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
 <p>» Personalized fitness and health plan</p>
 <p>» Exclusive 1 on 1 training that fits your schedule</p>

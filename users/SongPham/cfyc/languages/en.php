@@ -5,6 +5,8 @@ define('LANG_SERVICES', 'Services');
 define('LANG_LIFESTYLE','Lifestyle');
 define('LANG_MEMBERSHIPS','Memberships');
 define('LANG_SCHEDULES','Class Schedules');
+define('LANG_MEMBER_TESTIMONIALS_MENU','Member Testimonials');
+define('LANG_MENU_MENU','MENU');
 
 /* sub menu */
 /* services */
@@ -19,7 +21,7 @@ define('LANG_SERVICES_CELEBRITY','Celebrity Training');
 define('LANG_SERVICES_PTX','PTX');
 
 /* lifestyle */
-
+define('LANG_LIFESTYLE_ARTICLE_HOME','Articles Home Page');
 define('LANG_LIFESTYLE_WEIGHT_LOSS','Weight Loss');
 define('LANG_LIFESTYLE_FITNESS_HEALTH','Fitness And Health');
 define('LANG_LIFESTYLE_EXERCISE','Exercise');

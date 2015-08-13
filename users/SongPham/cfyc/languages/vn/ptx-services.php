@@ -21,7 +21,6 @@ define("LANG_BENEFIT_CONTENT_PTX",'
 ');
 
 define("LANG_ENVIRONMENT_PTX","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
-
 define("LANG_TRAINER_TITLE_PTX","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_TRAINER_SUB_PTX","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
@@ -80,9 +79,8 @@ define("LANG_TRAINER4_CONTENT_PTX",'
 - Huấn luyện hơn 200 khách hàng ở mọi độ tuổi, khả năng và mức độ tập luyện khác nhau.<br>
 - Có nhiều kinh nghiệm cho bài tập phục hồi sau chấn thương.</p>
 ');
-define("LANG_SIGNUP_TITLE_PTX","Get Ready To Dance");
+define("LANG_SIGNUP_TITLE_PTX","SỠ HỮU VÓC DÁNG TRONG MƠ!");
 define("LANG_SIGNUP_CONTENT_PTX","
-<p><strong>SỠ HỮU VÓC DÁNG TRONG MƠ!</strong></p>
 <p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali</p>
 <p>» Thực đơn dinh dưỡng phù hợp cho riêng bạn</p>
 <p>» Luyện tập 1 kèm 1 bất cứ khi nào bạn muốn</p>

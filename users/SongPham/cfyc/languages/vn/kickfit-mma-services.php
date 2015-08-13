@@ -6,7 +6,7 @@ define("LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT","giải phóng chiến binh bên t
 define("LANG_KICKFIT_MMA_BANNER_TEXT_SMALL","Trải nghiệm một lớp kickfit hoặc mma ngay hôm nay");
 define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Đăng ký tập thử");
 
-define("LANG_KICKFIT_MMA_CALIDANCE","Về Kick Fit và MMA (Võ Tự Do)");
+define("LANG_KICKFIT_MMA_CALIDANCE","Về Kick Fit và MMA <br>(Võ Tự Do)");
 define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'
 <p>Kickfit và MMA là những bộ môn giúp bạn vừa rèn thể lực, giảm cân, tăng sức bền, vừa giúp cơ bắp săn chắc khỏe mạnh một cách nhanh nhất.</p>
 <p>KickFit cung cấp cho bạn những buổi luyện tập đối kháng với HLV cá nhân. Bạn sẽ làm chủ các chuyển động cơ thể, trở nên nhanh hơn, mạnh hơn, linh hoạt hơn.</p>
