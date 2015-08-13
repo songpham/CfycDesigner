@@ -44,6 +44,8 @@
       .vip-members-page .top-content .holder-top-content .rsvpnow .chance_items .overlay h2 {
         margin-top: 10px;
         color: #ffffff; }
+        .vip-members-page .top-content .holder-top-content .rsvpnow .chance_items .overlay h2 a {
+          color: #ffffff; }
   .vip-members-page .top-content .holder-top-content .rsvpnow h2.booktitle {
     border: 1px solid #000;
     padding: 4% 8%;
