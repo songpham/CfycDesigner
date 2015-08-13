@@ -54,7 +54,7 @@ define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <p>Sức mạnh của những điệu nhảy Latin là những chuyển động đơn giản khiến người tập trở nên uyển chuyển, quyến rũ hơn. Bạn sẽ như đang đắm chìm trong không khí lễ hội vùng Nam Mỹ với những người bạn vui vẻ, cùng hòa nhịp cơ thể. Đừng bỏ lỡ hình thức thể dục sôi động và hiệu quả này!</p>
 ');
 define("LANG_DANCE_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
-define("LANG_DANCE_TRAINER_TITLE","Meet our featured dance teachers");
+define("LANG_DANCE_TRAINER_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_DANCE_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_DANCE_TRAINER1_TITLE","DJ");
@@ -118,9 +118,8 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 <p>HƯỚNG DẪN CÁC LỚP<br>
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Areobic), GX Orientation, BumNTum, Shape up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
-define("LANG_DANCE_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DANCE_SIGNUP_TITLE","Sẵn sàng nhảy theo cách bạn muốn");
 define("LANG_DANCE_SIGNUP_CONTENT","
-<p><strong>Sẵn sàng nhảy theo cách bạn muốn</strong></p>
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
 <p>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</p>
 <p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>

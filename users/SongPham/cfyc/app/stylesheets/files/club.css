@@ -1,0 +1,512 @@
+.club-page .carousel.slide .container-page, .club-page .information .container-page {
+  margin: 0 auto; }
+.club-page .whitespace {
+  padding: 10px 0; }
+.club-page .whitespace-2x {
+  padding: 20px 0; }
+.club-page .whitespace-3x {
+  padding: 30px 0; }
+.club-page .banner-top {
+  position: relative;
+  background: #fff url(../img/club/banner-1.jpg) center top no-repeat;
+  background-size: 100%; }
+  @media (max-width: 767px) {
+    .club-page .banner-top {
+      background: #fff url(../img/club/m-banner-1.jpg) center top no-repeat;
+      background-size: cover;
+      min-height: 500px; } }
+  .club-page .banner-top .cta {
+    max-width: 42vw;
+    margin: 12vw 0 90px 15%;
+    padding: 20px;
+    position: relative; }
+    @media (min-width: 2000px) {
+      .club-page .banner-top .cta {
+        max-width: 475px;
+        margin: 450px 0 90px 15%;
+        padding: 20px;
+        position: relative; } }
+    @media (min-width: 768px) and (max-width: 1200px) {
+      .club-page .banner-top .cta {
+        max-width: 50vw; } }
+    @media (max-width: 767px) {
+      .club-page .banner-top .cta {
+        max-width: 500px;
+        margin-left: auto;
+        margin: 450px auto 0 auto;
+        padding: 50px 10px;
+        position: relative;
+        float: none; } }
+    @media (max-width: 550px) {
+      .club-page .banner-top .cta {
+        position: absolute;
+        margin: 0px auto;
+        bottom: 50px;
+        padding: 0px 10px; } }
+    .club-page .banner-top .cta fieldset {
+      position: relative;
+      border: 1px solid #db2128;
+      padding: 0 30px 30px;
+      height: auto; }
+      @media (max-width: 767px) {
+        .club-page .banner-top .cta fieldset {
+          padding: 10px 10px 20px 10px;
+          height: auto; } }
+      .club-page .banner-top .cta fieldset legend {
+        color: #db2128;
+        text-align: center;
+        width: auto;
+        line-height: 1.1em;
+        text-transform: uppercase;
+        font-weight: 400;
+        border: none;
+        margin-bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px; }
+        @media (max-width: 2000px) {
+          .club-page .banner-top .cta fieldset legend {
+            font-size: 2vw; } }
+        @media (max-width: 767px) {
+          .club-page .banner-top .cta fieldset legend {
+            padding: 10px 0 0 0;
+            font-size: 35px;
+            line-height: 1.1em;
+            text-transform: uppercase;
+            font-weight: 400; } }
+        @media (max-width: 550px) {
+          .club-page .banner-top .cta fieldset legend {
+            font-size: 6.4vw; } }
+      .club-page .banner-top .cta fieldset hr {
+        border-bottom: 1px solid #db2128;
+        height: 0px;
+        border-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%; }
+      .club-page .banner-top .cta fieldset span {
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 15px 25px 0px; }
+        @media (max-width: 767px) {
+          .club-page .banner-top .cta fieldset span {
+            padding-bottom: 10px;
+            font-size: .79em; } }
+      .club-page .banner-top .cta fieldset .red-btn {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: -20px; }
+        .club-page .banner-top .cta fieldset .red-btn .red-btn-inline {
+          position: relative;
+          text-align: center; }
+        .club-page .banner-top .cta fieldset .red-btn a {
+          width: auto;
+          color: #ffffff;
+          font-size: 12px;
+          background: #db2128;
+          border-radius: 20px;
+          text-decoration: none;
+          position: relative;
+          margin: 0 auto;
+          padding: 10px 30px;
+          display: inline-block;
+          text-align: center;
+          text-transform: uppercase;
+          white-space: nowrap;
+          font-weight: 600; }
+          @media (max-width: 767px) {
+            .club-page .banner-top .cta fieldset .red-btn a {
+              padding: 10px 15px; } }
+          @media (max-width: 550px) {
+            .club-page .banner-top .cta fieldset .red-btn a {
+              bottom: 0; } }
+  .club-page .banner-top .carousel-caption {
+    font-size: 40px;
+    left: 10%;
+    bottom: 13%;
+    right: 0;
+    color: #db2128;
+    line-height: 40px;
+    text-align: left;
+    display: inline-block;
+    width: 550px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-align: center; }
+    @media (max-width: 2000px) {
+      .club-page .banner-top .carousel-caption {
+        max-width: 40vw; } }
+    @media (max-width: 1360px) {
+      .club-page .banner-top .carousel-caption {
+        bottom: 2%; } }
+    @media (max-width: 991px) {
+      .club-page .banner-top .carousel-caption {
+        max-width: 50vw;
+        left: 5%; } }
+    .club-page .banner-top .carousel-caption strong {
+      font-weight: 300; }
+    .club-page .banner-top .carousel-caption hr {
+      background: #db2128;
+      height: 2px;
+      border: none;
+      max-width: 50%;
+      margin: 20px auto; }
+      @media (max-width: 767px) {
+        .club-page .banner-top .carousel-caption hr {
+          margin: 10px auto 0 auto; } }
+      @media (max-width: 480px) {
+        .club-page .banner-top .carousel-caption hr {
+          margin: 3px auto;
+          height: 1px; } }
+    .club-page .banner-top .carousel-caption span {
+      color: #ffffff;
+      font-size: 16px;
+      display: inline-block;
+      margin-bottom: 30px;
+      line-height: 150%; }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .club-page .banner-top .carousel-caption span {
+          margin-top: 0px;
+          padding-top: 10px; } }
+      @media (max-width: 767px) {
+        .club-page .banner-top .carousel-caption span {
+          font-size: 14px;
+          margin-top: 0px;
+          padding-top: 10px;
+          margin-bottom: 20px; } }
+      @media (max-width: 480px) {
+        .club-page .banner-top .carousel-caption span {
+          font-size: .8em;
+          margin-bottom: 10px;
+          padding-top: 0;
+          margin-top: 0; } }
+.club-page .block .block-title {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: #db2128;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2vw;
+  font-size: calculateRem(2vw);
+  text-transform: uppercase; }
+  @media screen and (min-width: 2000px) {
+    .club-page .block .block-title {
+      font-size: 35px;
+      font-size: calculateRem(35px); } }
+  @media screen and (max-width: 650px) {
+    .club-page .block .block-title {
+      font-size: 4vw;
+      font-size: calculateRem(4vw); }
+      .club-page .block .block-title .title-text {
+        padding: 0 10px !important; } }
+  .club-page .block .block-title:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: #db2128;
+    top: 52%;
+    left: 10%;
+    z-index: 1; }
+  @media screen and (max-width: 320px) {
+    .club-page .block .block-title:after {
+      width: 90%;
+      left: 5%; } }
+  .club-page .block .block-title .title-text {
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+    background: #ffffff;
+    z-index: 2; }
+    @media screen and (max-width: 650px) {
+      .club-page .block .block-title .title-text {
+        padding: 0 10px !important; } }
+    @media (max-width: 517px) {
+      .club-page .block .block-title .title-text {
+        max-width: 300px; } }
+    @media (max-width: 320px) {
+      .club-page .block .block-title .title-text {
+        max-width: 205px; } }
+.club-page .cyc {
+  font-size: 14px;
+  font-size: calculateRem(14px);
+  font-weight: bold;
+  color: #868686;
+  text-transform: uppercase; }
+.club-page .down-icon {
+  color: #db2128;
+  font-size: 35px;
+  font-size: calculateRem(35px); }
+.club-page .club-wrapper {
+  position: relative; }
+.club-page .club-list {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .club-page .club-list .club-list-inline {
+    position: relative;
+    width: 100%; }
+  .club-page .club-list .navbar-center {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    float: none;
+    max-width: 1200px; }
+    .club-page .club-list .navbar-center li {
+      float: none;
+      display: inline-block;
+      border-right: 1px solid #4d4847; }
+      .club-page .club-list .navbar-center li:last-child {
+        border-right: none; }
+      .club-page .club-list .navbar-center li a {
+        padding: 10px 30px;
+        font-size: 14px;
+        font-size: calculateRem(14px);
+        color: #c3c2c2;
+        text-transform: uppercase;
+        background: none; }
+        .club-page .club-list .navbar-center li a:hover {
+          color: #db2128; }
+        @media (max-width: 1200px) {
+          .club-page .club-list .navbar-center li a {
+            padding: 10px 15px !important; } }
+        @media (max-width: 500px) {
+          .club-page .club-list .navbar-center li a {
+            padding: 5px 5px !important; } }
+    .club-page .club-list .navbar-center li.active a {
+      color: #db2128;
+      font-weight: bold; }
+  @media (max-width: 768px) {
+    .club-page .club-list {
+      display: none; } }
+.club-page .club-list-mobile {
+  display: none;
+  position: relative;
+  z-index: 1; }
+  .club-page .club-list-mobile .btn {
+    background: black;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    padding: 10px 5px; }
+    .club-page .club-list-mobile .btn:active, .club-page .club-list-mobile .btn:focus {
+      background: black;
+      color: #ffffff; }
+  .club-page .club-list-mobile .dropdown-menu {
+    background-color: rgba(43, 42, 43, 0.9);
+    width: 100%;
+    background: black;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    top: 40px; }
+    .club-page .club-list-mobile .dropdown-menu li {
+      border-bottom: 1px #464646 solid; }
+      .club-page .club-list-mobile .dropdown-menu li:last-child {
+        border-bottom: none; }
+      .club-page .club-list-mobile .dropdown-menu li a {
+        color: #ffffff;
+        padding-top: 7px;
+        padding-bottom: 7px; }
+        .club-page .club-list-mobile .dropdown-menu li a:hover {
+          background: #464646; }
+  @media (max-width: 768px) {
+    .club-page .club-list-mobile {
+      display: block; } }
+.club-page .slideshow {
+  background: #f5f5f5; }
+  .club-page .slideshow .item img {
+    width: 100%; }
+  .club-page .slideshow .carousel-caption {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    bottom: 0;
+    padding: 40px 60px; }
+    @media (max-width: 480px) {
+      .club-page .slideshow .carousel-caption {
+        background: #000;
+        position: relative;
+        padding: 20px 20px; } }
+  .club-page .slideshow .carousel-indicators {
+    position: initial;
+    bottom: initial;
+    left: initial;
+    z-index: initial;
+    width: initial;
+    padding-left: initial;
+    margin-left: initial;
+    list-style: initial; }
+    .club-page .slideshow .carousel-indicators .active {
+      width: initial;
+      height: initial;
+      margin: initial;
+      background-color: initial; }
+    .club-page .slideshow .carousel-indicators li {
+      display: initial;
+      width: initial;
+      height: initial;
+      margin: initial;
+      text-indent: initial;
+      cursor: initial;
+      background-color: initial;
+      background-color: initial;
+      border: initial;
+      border-radius: initial; }
+.club-page .thumbs {
+  position: relative !important;
+  margin-top: 20px !important;
+  width: 100% !important; }
+  @media (max-width: 991px) {
+    .club-page .thumbs {
+      margin-top: 15px !important; } }
+  @media (max-width: 767px) {
+    .club-page .thumbs {
+      margin-top: 10px !important; } }
+  .club-page .thumbs .box {
+    position: relative;
+    height: 200px !important;
+    width: 25% !important; }
+    @media (max-width: 1200px) {
+      .club-page .thumbs .box {
+        height: 180px !important; } }
+    @media (max-width: 991px) {
+      .club-page .thumbs .box {
+        height: 120px !important; } }
+    @media (max-width: 767px) {
+      .club-page .thumbs .box {
+        height: 90px !important;
+        padding: 0 10px; } }
+    @media (max-width: 480px) {
+      .club-page .thumbs .box {
+        height: 60px !important; } }
+    @media (max-width: 320px) {
+      .club-page .thumbs .box {
+        height: 40px !important;
+        padding: 0 5px; } }
+    .club-page .thumbs .box img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer; }
+    .club-page .thumbs .box .box-inner {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: url(grayscale.svg);
+      /* Firefox 4+ */
+      filter: gray;
+      /* IE 6-9 */ }
+      .club-page .thumbs .box .box-inner:hover {
+        -webkit-filter: initial;
+        -moz-filter: initial;
+        -ms-filter: initial;
+        -o-filter: initial;
+        filter: initial;
+        filter: initial;
+        /* Firefox 4+ */
+        filter: initial;
+        /* IE 6-9 */ }
+  .club-page .thumbs .active .box-inner {
+    -webkit-filter: initial;
+    -moz-filter: initial;
+    -ms-filter: initial;
+    -o-filter: initial;
+    filter: initial;
+    filter: initial;
+    /* Firefox 4+ */
+    filter: initial;
+    /* IE 6-9 */ }
+  .club-page .thumbs .carousel-control {
+    display: block;
+    top: 120px;
+    width: auto; }
+  .club-page .thumbs .right {
+    right: -25px; }
+  .club-page .thumbs .left {
+    left: -25px; }
+  .club-page .thumbs .glyphicon-chevron-right {
+    background: url("../img/club/right-arr.png") no-repeat; }
+    .club-page .thumbs .glyphicon-chevron-right:before {
+      content: ""; }
+  .club-page .thumbs .glyphicon-chevron-left {
+    background: url("../img/club/left-arr.png") no-repeat; }
+    .club-page .thumbs .glyphicon-chevron-left:before {
+      content: ""; }
+  @media (max-width: 1300px) {
+    .club-page .thumbs .carousel-control {
+      display: none; } }
+.club-page .information {
+  width: 100%;
+  position: relative;
+  display: table;
+  margin: 40px auto;
+  padding-top: 40px; }
+  .club-page .information h3 {
+    font-size: 16px;
+    font-size: calculateRem(16px);
+    text-transform: uppercase;
+    font-weight: bold; }
+  @media (max-width: 991px) {
+    .club-page .information {
+      padding-top: 20px;
+      margin: 40px 0; }
+      .club-page .information .col-md-6:first-child {
+        padding-bottom: 20px; } }
+  .club-page .information .see-more-btn {
+    text-align: center;
+    margin-top: 35px; }
+    .club-page .information .see-more-btn a {
+      text-decoration: none;
+      font-size: 17px;
+      font-size: calculateRem(17px);
+      color: #000;
+      padding: 5px 30px;
+      border: 2px solid #808285;
+      text-transform: uppercase;
+      font-weight: bold; }
+      @media (max-width: 480px) {
+        .club-page .information .see-more-btn a {
+          padding: 5px;
+          font-size: 14px;
+          font-size: calculateRem(14px); } }
+      .club-page .information .see-more-btn a:hover {
+        text-decoration: none;
+        background: #808285;
+        color: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
+.club-page .quan {
+  display: none; }
+.club-page .carousel.slide.desktop {
+  display: block; }
+  @media (max-width: 767px) {
+    .club-page .carousel.slide.desktop {
+      display: none; } }
+.club-page .carousel.slide.mobile {
+  display: none; }
+  @media (max-width: 767px) {
+    .club-page .carousel.slide.mobile {
+      display: block; } }
+
+/*# sourceMappingURL=club.css.map */

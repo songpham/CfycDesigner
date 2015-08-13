@@ -59,7 +59,7 @@ define("LANG_GROUP_DISCOVER_TAB5_CONTENT_GROUP","
 ");
 define("LANG_GROUP_ENVIRONMENT_GROUP","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
-define("LANG_GROUP_TRAINER_TITLE_GROUP","Meet our featured Group Fitness Instructors");
+define("LANG_GROUP_TRAINER_TITLE_GROUP","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_GROUP_TRAINER_SUB_GROUP","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_GROUP_TRAINER1_TITLE_GROUP","T.A");
