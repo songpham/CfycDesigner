@@ -350,7 +350,7 @@ $containerWidth : 1200px;
             .m-image {display: none;}
             @media (max-width: 768px) {
                 .d-image {display: none;}
-                .m-image {display: block;}
+                .m-image {display: block;img{min-height: 500px;}}
             }
             position: relative;
             .caption {
