@@ -218,18 +218,18 @@
                 <div class="row find_your_trainner container-page">
                     <div class="col-md-1 hide-sm hidden-xs"></div>
                     <div class="col-md-7 col-sm-6 col-xs-12 text-center trainner_photo">
-                        <a href="#linhta2"><img id="linhta2" src="img/home/assim_yoga.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
-                        <a href="#linhta"><img id="linhta" class="active" src="img/home/california-wow-tieu-phuong.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
-                        <a href="#linhta1"><img id="linhta1" src="img/home/california-wow-mint-nguyen.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>"></a>
+                       <img id="linhta2" src="img/home/assim_yoga.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>">
+                       <img id="linhta" class="active" src="img/home/california-wow-tieu-phuong.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>">
+                       <img id="linhta1" src="img/home/california-wow-mint-nguyen.jpg" alt="<?=LANG_FIND_YOUR_TRAINER?>" title="<?=LANG_FIND_YOUR_TRAINER?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 trainner_text">
-                         <div class="trainner_desc" id="linhta2" name="linhta2">
+                         <div class="trainner_desc linhta2">
                             <?=LANG_TRAINNER_1?>
                         </div>
-                        <div class="trainner_desc active" id="linhta" name="linhta">
+                        <div class="trainner_desc active linhta">
                             <?=LANG_TRAINNER_2?>
                         </div>
-                        <div class="trainner_desc" id="linhta1" name="linhta1">
+                        <div class="trainner_desc linhta1">
                             <?=LANG_TRAINNER_3?>
                         </div>
                     </div>
