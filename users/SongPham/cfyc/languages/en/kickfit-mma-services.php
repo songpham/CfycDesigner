@@ -100,7 +100,6 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - Four-year experience in training fitness at CFYC. <br>
 - 10-year experience in training fitness at Military Zone 7 club.</p>
 ');
-
 define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Are You Ready to conquer yourself?");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
 <p>Experience the muscle toning, calorie burning, all body workout that will leave you breathless. Just 500.000vnd for 2 KickFit sessions and week pass </p>
@@ -108,6 +107,4 @@ define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
 <p>» Better Fitness Better performance in all areas of life.</p>
 <p>» Muay Thai and Boxing Learn unique fighting skills.</p>
 <p>Book A Consultation Now</p>
-" .
-    "
 ");

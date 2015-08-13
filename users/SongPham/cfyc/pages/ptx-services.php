@@ -9,7 +9,7 @@
                     <?=LANG_BANNER_TEXT_SMALL_PTX?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta scroll" href="#form" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"> <?=LANG_BANNER_TEXT_CTA_PTX?></a>
+                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_BANNER_TEXT_CTA_PTX?>"> <?=LANG_BANNER_TEXT_CTA_PTX?></a>
                 </div>
             </fieldset>
         </div>
@@ -17,7 +17,7 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div><?=LANG_CALIDANCE_PTX?><div class="line"></div></h2>
+            <div class="strike"><h2><?=LANG_CALIDANCE_PTX?></h2></div>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <?=LANG_CALIDANCE_CONTENT_PTX?>
             </div>
@@ -30,7 +30,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div><?=LANG_BENEFIT_PTX?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_BENEFIT_PTX?></h2></div>
         <?=LANG_BENEFIT_CONTENT_PTX?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
@@ -46,7 +46,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <h2><div class="line"></div><?=LANG_ENVIRONMENT_PTX?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_ENVIRONMENT_PTX?></h2></div>
         <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -74,7 +74,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div><?=LANG_TRAINER_TITLE_PTX?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_TRAINER_TITLE_PTX?></h2></div>
         <center><?=LANG_TRAINER_SUB_PTX?></center>
         <div class="tab-content teacher-detail">
             <div role="tabpanel" class="tab-pane active" id="hcmc">

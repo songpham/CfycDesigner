@@ -106,7 +106,6 @@ define("LANG_YOGA_TRAINER3_CONTENT",'
 <p></p>
 <p>HƯỚNG DẪN CÁC LỚP<br>
 - Ashtanga Yoga, Hatha Yoga, Yogendra Yoga, Yogendra Pranayama, Therapeutic Yoga.</p>
-
 ');
 define("LANG_YOGA_TRAINER4_TITLE","AJAY");
 define("LANG_YOGA_TRAINER4_ID","trainer4");
@@ -128,9 +127,8 @@ define("LANG_YOGA_YOGI_TITLE","Bạn có muốn trải nghiệm nhiều hơn ở
 define("LANG_YOGA_YOGI_CONTENT","
 <p><center>California Fitness Yogi & I được thiết kế để cung cấp cho bạn một môi trường độc quyền toàn bộ, mang tính chất cá nhân, cho phép bạn nắm bắt đầy đủ hành trình khám phá yoga của bạn dưới sự hướng dẫn tỉ mỉ từ chính thầy Yoga của riêng bạn.</center></p>
 ");
-define("LANG_YOGA_SIGNUP_TITLE","try a yoga session");
+define("LANG_YOGA_SIGNUP_TITLE","Cảm nhận năng lượng kì diệu từ Yoga");
 define("LANG_YOGA_SIGNUP_CONTENT",'
-<p><strong>Cảm nhận năng lượng kì diệu từ Yoga</strong></p>
 <p>Trải nghiệm Yoga đích thực giúp tăng thể lực, độ dẻo dai và trẻ hóa cơ thể khi luyện tập cùng thầy Ấn Độ - Quê hương của Yoga. Chỉ 500.000vnd cho 10 buổi tập</p>
 <p>» Giáo Viên Yoga đến từ Ấn Độ</p>
 <p>» Lớp học theo tiêu chuẩn Quốc Tế</p>

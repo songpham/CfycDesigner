@@ -128,9 +128,8 @@ define("LANG_YOGA_YOGI_TITLE","Do you want a more exclusive, authentic yoga expe
 define("LANG_YOGA_YOGI_CONTENT","
 <p><center>California Fitness Yogi & I is designed to provide you with an environment of total privacy, allowing you to fully embrace your yoga journey under the completely personalized direction of your yoga master.</center></p>
 ");
-define("LANG_YOGA_SIGNUP_TITLE","try a yoga session");
-define("LANG_YOGA_SIGNUP_CONTENT",'
-<p><strong>Experience The Healing Power Of Yoga</strong></p>
+define("LANG_YOGA_SIGNUP_TITLE","Experience The Healing Power Of Yoga");
+define("LANG_YOGA_SIGNUP_CONTENT",' 
 <p>Relax and discover the incredible benefits of yoga. Calm your mind, build strength and improve your state of being. Just 500.000vnd for 10 Yoga classes</p>
 <p>» International yoga instructors</p>
 <p>» World class Facilities</p>
