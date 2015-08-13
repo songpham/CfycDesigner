@@ -70,27 +70,25 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <?php /*need to find kid program url*/ ?>
-                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KID_PROGRAM?>" alt="<?=LANG_KID_PROGRAM?>">
+                        <a href="dance-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DANCE?>" alt="<?=LANG_DANCE?>">
                             <div class="service_img">
-                                <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_KID_PROGRAM?>" title="<?=LANG_KID_PROGRAM?>">
+                                <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_DANCE?>" title="<?=LANG_DANCE?>">
                             </div>
                             <div class="overlay">
                                 <h2 class="service_title">                                   
-                                    <?=LANG_KID_PROGRAM?>                                    
+                                    <?=LANG_DANCE?>                                    
                                 </h2>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <?php /*need to find spa url*/ ?>
-                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_SPA_ESTHIC?>" alt="<?=LANG_SPA_ESTHIC?>">
+                        <a href="dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DYNAMIC_SCRETCHING?>" alt="<?=LANG_DYNAMIC_SCRETCHING?>">
                             <div class="service_img">
-                                <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_SPA_ESTHIC?>" title="<?=LANG_SPA_ESTHIC?>">
+                                <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_DYNAMIC_SCRETCHING?>" title="<?=LANG_DYNAMIC_SCRETCHING?>">
                             </div>
                             <div class="overlay">
                                 <h2 class="service_title">
-                                    <?=LANG_SPA_ESTHIC?>
+                                    <?=LANG_DYNAMIC_SCRETCHING?>
                                 </h2>
                             </div>
                         </a>
