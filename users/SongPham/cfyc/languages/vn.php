@@ -6,11 +6,7 @@ define('LANG_SERVICES', 'Dịch Vụ');
 define('LANG_LIFESTYLE','Phong Cách Sống');
 define('LANG_MEMBERSHIPS','Thành Viên');
 define('LANG_SCHEDULES','Lịch học');
-<<<<<<< HEAD
-//define('LANG_MEMBER_TESTIMONIALS','Câu Chuyện Thành Công');
-=======
 define('LANG_MEMBER_TESTIMONIALS_MENU','Câu Chuyện Thành Công');
->>>>>>> 99aa6f95350e60d17bc4680f1d4c51b466d83497
 define('LANG_MENU_MENU','DANH MỤC');
 
 /* sub menu */
