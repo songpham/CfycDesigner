@@ -30,7 +30,9 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
     <p class="text-center">You will meet with your celebrity trainer, at times suitable to your schedule, and be guided through personalized fitness routines and nutrition. Whether you want to lose weight, build muscle or tone your body, your celebrity trainer will show you how to easily integrate every component into your lifestyle without sacrifice.</p>
 ');
 
-define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Here are some of the celebrities we’ve worked with in the past');
+define('LANG_CELEBRITY_TRAINING_MID_BANNER_CAPTION','THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED');
+
+define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Here are some of the celebrities<br>we’ve worked with in the past');
 
 
 define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-10.png');

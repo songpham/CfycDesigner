@@ -32,7 +32,9 @@ define('LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT', '
     <p class="text-center">Đừng lo lắng về vấn đề thời gian, bạn hoàn toàn làm chủ được lịch trình gặp gỡ huấn luyện viên hoặc nhận được sự hỗ trợ về luyện tập và dinh dưỡng từ họ bất cứ lúc nào. Dù là giảm cân, tăng cơ hay làm thon gọn cơ thể, huấn luyện viên sẽ là chỉ ra những cách thức dễ dàng phù hợp với cuộc sống của bạn.</p>
 ');
 
-define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng đã và đang tập luyện cùng chúng tôi.');
+define('LANG_CELEBRITY_TRAINING_MID_BANNER_CAPTION','MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ');
+
+define('LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE', 'Một số người nổi tiếng<br>đã và đang tập luyện cùng chúng tôi');
 
 
 define('LANG_CELEBRITY_TRAINING_MEMBER_1_SMALL_IMG', 'california-wow-celeb-member-10.png');

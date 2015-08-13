@@ -61,9 +61,25 @@
 
     <div class="white-space-2x"></div>
 
+    <!-- MID BANNER -->
+    <div class="row mid-banner">
+        <div class="caption"><?php echo LANG_CELEBRITY_TRAINING_MID_BANNER_CAPTION ?></div>
+        <div class="d-image"><img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/mid-banner.jpg" alt="DJ" width="100%"></div>
+        <div class="m-image"><img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/m-mid-banner.jpg" alt="DJ" width="100%"></div>
+    </div>
+    <!-- END MID BANNER -->
+
+    <div class="white-space-2x"></div>
+    <div class="row container-page">
+        <div class="row block">
+            <div class='block-title'>
+                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></div>
+            </div>
+        </div>
+    </div>
 
     <div class="trainers container-page">
-        <center><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></center>
+        <center>You have the potential, we can help you reach it.</center>
         <div class="tab-content teacher-detail">
             <ul class="nav nav-tabs col-lg-2 col-md-2 col-sm-2 col-xs-12" role="tablist">
                 <li role="presentation" class="active">
@@ -95,7 +111,7 @@
                     </a>
                 </li>
             </ul>
-           
+
             <div class="tab-content col-lg-10 col-md-10 col-sm-10 col-xs-12">
                 <div role="tabpanel" class="tab-pane active" id="trainer1">
                     <div class="col-lg-5 col-md-5 col-sm-6 col-sx-12" style="text-align: center;">
@@ -185,8 +201,8 @@
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                             <h2 class="booktitle"><?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BOX_TITLE ?></h2>
                             <h3 class="visit_benefit">
-                                
-								<?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS ?>
+
+                                <?php echo LANG_CELEBRITY_TRAINING_BOTTOM_BENEFITS ?>
                             </h3>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
