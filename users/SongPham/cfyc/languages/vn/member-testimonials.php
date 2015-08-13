@@ -2,9 +2,9 @@
 
 define("LANG_MEMBER_TESTIMONIALS", "Member testimonials");
 
-define('LANG_MEMBER_TESTIMONIALS_BANNER_TITLE', 'WE MAKE LIFE BETTER');
-define('LANG_MEMBER_TESTIMONIALS_BANNER_SUB_TITLE', 'OVER 100,000 PEOPLE HAVE TRUSTED US TO LOSE WEIGHT, BUILD MUSCLE AND MAKE THEIR LIFE BETTER VISIT US FOR A FREE MEMBERSHIP TRIAL TODAY');
-define('LANG_MEMBER_TESTIMONIALS_BANNER_TEXT_BUTTON', 'Try a class');
+define('LANG_MEMBER_TESTIMONIALS_BANNER_TITLE', 'Chúng tôi làm cuộc sống tốt đẹp hơn');
+define('LANG_MEMBER_TESTIMONIALS_BANNER_SUB_TITLE', 'Bằng việc giúp hơn 100,000 hội viên đạt được hình thể như ý, từ đó giúp cuộc sống của họ tốt đẹp hơn.');
+define('LANG_MEMBER_TESTIMONIALS_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_1', 'story-1.png');
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_1_CAPTION', 'Nataly Pham');
@@ -19,14 +19,14 @@ define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3_CAPTION', 'Ms Võ Huyền Trang'
 
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE', 'success-1.png');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE', '
-        <h3>before</h3>
-        <p>Body fat: 25.3kg</p>
-        <p>Weight: 62.2kg</p>
+        <h3>trước</h3>
+        <p>Lượng mỡ: 25.3kg</p>
+        <p>Cân nặng: 62.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER', '
         <h3>after</h3>
-        <p>Body fat: 18.5kg</p>
-        <p>Weight: 58.5kg</p>
+        <p>Lượng mỡ: 18.5kg</p>
+        <p>Cân nặng: 58.5kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_TITLE', 'Nataly Pham');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_CONTENT', "
@@ -45,14 +45,14 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_1_CONTENT', "
 
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE', 'success-2.png');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE', '
-        <h3>before</h3>
-        <p>Body fat: 20.3kg</p>
-        <p>Weight: 84.2kg</p>
+        <h3>trước</h3>
+        <p>Lượng mỡ: 20.3kg</p>
+        <p>Cân nặng: 84.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_AFTER', '
         <h3>after</h3>
-        <p>Body fat: 6.4kg</p>
-        <p>Weight: 66.9kg</p>
+        <p>Lượng mỡ: 6.4kg</p>
+        <p>Cân nặng: 66.9kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_TITLE', 'Lâm Phương Bách');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
@@ -63,14 +63,14 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
 
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE', 'success-3.png');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE', '
-        <h3>before</h3>
-        <p>Body fat: 20.3kg</p>
-        <p>Weight: 84.2kg</p>
+        <h3>trước</h3>
+        <p>Lượng mỡ: 20.3kg</p>
+        <p>Cân nặng: 84.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
         <h3>after</h3>
-        <p>Body fat: 6.4kg</p>
-        <p>Weight: 66.9kg</p>
+        <p>Lượng mỡ: 6.4kg</p>
+        <p>Cân nặng: 66.9kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
