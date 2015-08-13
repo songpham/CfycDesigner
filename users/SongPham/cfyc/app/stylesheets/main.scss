@@ -342,14 +342,28 @@ footer {
 
 
 /* $breakpoint_tablet 1024px */
-@media (max-width:$breakpoint_tablet) {
+@media (max-width:$breakpoint_menu) {
     nav#desktop-navigation { display: none; }
     #mobile-navigation-menu-toggle {
         display: block;
         z-index: 101;
         position: fixed;
         right: 0;
-        top:0;
+        top:10px;
+        
+        i.fa.fa-bars { @media (max-width:320px){/*display: block; position: relative;right: -16px;top: 5px;*/}}
+        p.menu-toggle-label {float: left; font-size: .4em; padding: 10px 10px 0;
+	    	@media (max-width:320px) {
+	    	   /* float: none;padding: 10px 5px 5px 0px;
+	    	    margin-bottom: -10px;
+	    	    font-size: .4em; */
+	    	    display:none;
+				}
+        }
+        @media (max-width:320px) {
+        	
+        }
+
     }
     .toggle {margin:0; @include font-size(25px); color: #fff;}
     #mobile-navigation-wrapper {
