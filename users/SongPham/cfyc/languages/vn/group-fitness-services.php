@@ -16,7 +16,7 @@ define("LANG_GROUP_CALIDANCE_CONTENT_GROUP",'
 ');
 define("LANG_GROUP_YOUTUBE_GROUP","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
-define("LANG_GROUP_BENEFIT_GROUP","What are the benefits of group fitness?");
+define("LANG_GROUP_BENEFIT_GROUP","Những lợi ích của Group Fitness là gì?");
 define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
 <p>Group Fitness- Các lớp học GroupX cung cấp cho hội viên những lớp học đa dạng với nhịp điệu nhanh và sôi động, giúp bạn tham gia cùng những người có cùng mục tiêu một cách hưng phấn và vui vẻ.</p>
 <p>Tất cả hội viên tại các Trung tâm California Fitness & Yoga đều được tham gia không giới hạn số lần đến các lớp GroupX.</p>
@@ -133,12 +133,10 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
  <p></p>
 <p>HƯỚNG DẪN CÁC LỚP<br>
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Areobic), GX Orientation, BumNTum, Shape up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
-
 ');
 
-define("LANG_GROUP_SIGNUP_TITLE","try a group fitness session");
+define("LANG_GROUP_SIGNUP_TITLE","Bạn đã sẵn sàng để đổ mồ hôi cùng những giai điệu sôi động?");
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p><strong>Bạn đã sẵn sàng để đổ mồ hôi cùng những giai điệu sôi động?</strong></p>
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
 <p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa. Đăng ký 10 lớp Group X chỉ với 500.000vnd để trải nghiệm</p>
 <p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>

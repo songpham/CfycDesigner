@@ -6,34 +6,23 @@ define("LANG_KICKFIT_MMA_BANNER_TEXT_CONTENT","giải phóng chiến binh bên t
 define("LANG_KICKFIT_MMA_BANNER_TEXT_SMALL","Trải nghiệm một lớp kickfit hoặc mma ngay hôm nay");
 define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Đăng ký tập thử");
 
-define("LANG_KICKFIT_MMA_CALIDANCE","About Kick Fit and MMA");
+define("LANG_KICKFIT_MMA_CALIDANCE","Về Kick Fit và MMA (Võ Tự Do)");
 define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'
-<p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way
-                    to a higher level of fitness.</p>
-<p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly
-                    master the exhilarating punches, kicks and speed exercises.   Mixed Martial Arts challenges you with
-                    grappling, striking, punching and kicking until you master the elemental moves of traditional
-                    boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work
-                    one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise
-                    you.</p>
+<p>Kickfit và MMA là những bộ môn giúp bạn vừa rèn thể lực, giảm cân, tăng sức bền, vừa giúp cơ bắp săn chắc khỏe mạnh một cách nhanh nhất.</p>
+<p>KickFit cung cấp cho bạn những buổi luyện tập đối kháng với HLV cá nhân. Bạn sẽ làm chủ các chuyển động cơ thể, trở nên nhanh hơn, mạnh hơn, linh hoạt hơn.</p>
+<p>MMA thách thức bạn trên võ đài hình bát giác bằng sự kết hợp của Boxing, Muaythai, Karate, Teawondo...với hàng trăm thế võ đa dạng biến hoá bất ngờ. Với 60 phút luyện tập MMA với HLV, người tập có thể đốt hơn 1500calo tương đương với việc chạy 8km, giúp cơ thể giảm mỡ thừa, thon gọn hơn. Đồng thời phát triển khả năng phối hợp và phản xạ, tăng tính linh hoạt, nhanh nhẹn.</p>
+
 ');
 define("LANG_KICKFIT_MMA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
-define("LANG_KICKFIT_MMA_BENEFIT","How does Kick Fit and MMA work?");
+define("LANG_KICKFIT_MMA_BENEFIT","Luyện tập Kick Fit và MMA như thế nào?");
 define("LANG_KICKFIT_MMA_BENEFIT_CONTENT",'
-<p>Kick Fit is taught one on one while MMA can be taught one on one or in a group setting with other participants.
-        You can choose the days and times which are suitable for you to train with your instructor.
-        Both are perfectly safe for people of all ages, from teenagers to parents and more and taught in a professional
-        sized MMA Octagon.</p>
-<p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
-        focus fully on your training and progressing through your skills.</p>
-<p>Professional sized MMA Octagon.</p>
-<p>All required equipment including gloves, pads, bags, helmets and more are provided for you, allowing you to
-        focus fully on your training and progressing through your skills.</p>
+<p>Kick Fit được thực hiện giữa bạn và HLV cá nhân, còn MMA có thể tập luyện giữa bạn và HLV hoặc những người khác trên võ đài. Bạn chỉ cần đăng ký lịch với HLV để có những thời gian luyện tập thích hợp nhất.</p>
+<p>Cả hai bộ môn trên đều dành cho mọi hội viên có nhu cầu, mọi lứa tuổi theo chương trình chuyên nghiệp trên võ đài hình bát giác.</p>
+<p>Những vật dụng cần thiết như găng tay, mũ, dây cuốn... đều được chúng tôi chuẩn bị, tất cả những gì bạn cần là tập trung vào đam mê, lắng nghe cơ thể và vượt qua thử thách.</p>
 ');
 
 define("LANG_KICKFIT_MMA_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
-
 define("LANG_KICKFIT_MMA_TRAINER_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_KICKFIT_MMA_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
@@ -114,9 +103,8 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - 10 năm huấn luyện thể lực tại Câu Lạc Bộ Quân Đội Quân Khu 7.</p>
 ');
 
-define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Bạn đã sẵn sàng để chinh phục bản thân?");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
-<p><strong>Bạn đã sẵn sàng để chinh phục bản thân?</strong></p>
 <p></p>Cảm nhận những xung động mạnh mẽ từ cơ bắp khi hàng tá  kilo calo bị đốt cháy. Các bài tập toàn thân sẽ khiến bạn phải THỰC SỰ kiệt sức. Chỉ 500.000vnd cho 2 buổi tập KickFit và 1 tuần tập luyện tại Cali
 <p>» Tự tin với cơ thể mạnh mẽ, tràn đầy sức mạnh</p>
 <p>» Sẵn sàng chinh phục mọi thách thức trong công việc và cuộc sống</p>

@@ -138,11 +138,10 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Aerobics), GX Orientation, Bums N Tums, Shape Up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
 
-define("LANG_GROUP_SIGNUP_TITLE","try a group fitness session");
+define("LANG_GROUP_SIGNUP_TITLE","Are You Ready to get sweat with dynamic beat?");
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p><strong>Are You Ready to get sweat with dynamic beat?</strong></p>
 <p>Find out what it feels like to get fit with our exciting and cutting edge group training. Sign up for 10 complementary Group X classes. Including</p>
-<p>»  BodyJam - Dance your way to cardio fitness.</p>
+<p>» BodyJam - Dance your way to cardio fitness.</p>
 <p>» BodyCombat - Group X Combat Class.</p>
 <p>» BodyPump - Power up every muscle in your body</p>
 <p>Experience A Class Now</p>
