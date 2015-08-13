@@ -1,7 +1,7 @@
 <div class="container-fluid page home-page">
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
-    <div class="row gallery common-banner-top">
+    <div class="row gallery home-banner-top">
             <img class="hidden-xs" src="img/home/california-wow-banner.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
             <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-banner-mobile.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
         <div class="cta">
@@ -11,9 +11,9 @@
                 <span>
                     <?php echo HOME_BANNER_2 ?>
                 </span>
-                <div class="red-btn">
+                
                 <a class="cta" href="<?php echo USER_BASE_URL ?>/find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
-                </div>
+
             </fieldset>
         </div>
     </div>

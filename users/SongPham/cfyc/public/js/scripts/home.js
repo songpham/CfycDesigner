@@ -8,9 +8,9 @@ var homePage = (function () {
 				$(this).addClass('active');	
 				$('.trainner_text #'+trainner_name).addClass('active');
 				
-				$('html, body').animate({
-			        scrollTop: $("#"+trainner_name).offset().top - 80
-			    }, 2000);
+				// $('html, body').animate({
+			 //        scrollTop: $("#"+trainner_name).offset().top - 80
+			 //    }, 2000);
 
 				/*var desc = $('.trainner_text #'+trainner_name).html();
 				$('.show_desc').html(desc);
