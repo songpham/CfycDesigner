@@ -81,14 +81,13 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 - Huấn luyện hơn 200 khách hàng ở mọi độ tuổi, khả năng và mức độ tập luyện khác nhau.<br>
 - Có nhiều kinh nghiệm cho bài tập phục hồi sau chấn thương.</p>
 ');
-define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Sở hữu vẻ ngoài trẻ trung và xóa bỏ căng thẳng!");
 define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
-<p><strong>GET THE BODY YOU DESERVE!</strong></p>
-<p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
-<p>» Personalized fitness and health plan</p>
-<p>» Exclusive 1 on 1 training that fits your schedule</p>
-<p>» Dedicated attention and motivation</p>
-<p>» Proven weight loss and muscle building results system</p>
-<p>Book A Consultation Now</p>
+<p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali</p>
+<p>» Thực đơn dinh dưỡng phù hợp cho riêng bạn</p>
+<p>» Luyện tập 1 kèm 1 bất cứ khi nào bạn muốn</p>
+<p>» Người truyền động lực và nguồn cảm hứng tuyệt vời</p>
+<p>» Chế độ giảm cân và tăng cơ đã được chứng nhận hiệu quả</p>
+<p>Đăng ký tập ngay HÔM NAY</p>
 ");
 

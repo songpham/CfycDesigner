@@ -12,7 +12,7 @@ define("LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS",'
 <p>Everybody gets run down with the day to day demands of an active lifestyle and it can be easy to build tension and stress throughout your body.</p>
 <p>Dynamic stretching allows you to relieve your body of unwanted strains and pressure in your muscles and joints which build up from exercise, sports and an overall active lifestyle.</p>
 ');
-define("LANG_DYNAMIC_STRETCHING_YOUTUBE_DS","https://www.youtube.com/watch?v=V9CefkNF16o");
+define("LANG_DYNAMIC_STRETCHING_YOUTUBE_DS","https://www.youtube.com/embed/V9CefkNF16o");
 
 define("LANG_DYNAMIC_STRETCHING_BENEFIT_DS","How Does Dynamic Stretching Work?");
 define("LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS",'
@@ -86,9 +86,8 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 - Training over 200 clients of all different ages, abilities & levels of fitness.<br>
 - Having extensive experience with post–injury rehab.</p>
 ');
-define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Get Ready To Dance");
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Looking younger and releasing all your stress!");
 define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
-<p><strong>GET THE BODY YOU DESERVE!</strong></p>
 <p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
 <p>» Personalized fitness and health plan</p>
 <p>» Exclusive 1 on 1 training that fits your schedule</p>
