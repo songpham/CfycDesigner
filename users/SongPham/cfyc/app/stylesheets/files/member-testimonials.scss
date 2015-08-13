@@ -158,7 +158,6 @@
                   @media (max-width: 767px){font-size: 14px;margin-top: 0px;padding-top: 10px;margin-bottom: 20px;}
                   @media (max-width: 480px){font-size: .8em; margin-bottom: 10px; padding-top: 0; margin-top: 0;}
             }
-
         }
     }
 
@@ -167,6 +166,12 @@
         .carousel-control {
             background :0 0;
             .glyphicon {color: $red;}
+            @media(max-width: 480px) {
+                background: 0 0;
+                @include transform(translate3d(0px, -50%, 0px));
+                top: 50%;
+                height: 20px;
+            } 
         }
         .item {
             .box {
@@ -276,12 +281,12 @@
                         p {@include font-size(2.75vw);color: $white;padding: 0;margin: 2px;}
                     }
                     @media (max-width: 480px) {
-                        bottom: 18%;right: 20%;
+                        bottom: 18%;right: 22%;
                         h3 {@include font-size(4vw);padding-bottom: 2px;}
                         p {@include font-size(3vw);color: $white;padding: 0;margin: 2px;}
                     }
                     @media (max-width: 320px) {
-                        bottom: 16%;right: 22%;
+                        bottom: 16%;right: 23%;
                         h3 {@include font-size(3.5vw);padding-bottom: 2px;}
                         p {@include font-size(2.75vw);color: $white;padding: 0;margin: 2px;}
                     }
