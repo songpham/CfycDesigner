@@ -183,7 +183,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
                         <?php /*will put bien hoa for new coming???*/?>
-                        <a href="club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
+                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
                             <img src="img/home/california-wow-find-your-club-8.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
                             <div class="overlay">
                                 <h2 class="service_title">                                
