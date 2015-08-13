@@ -149,6 +149,13 @@
                 <h3 class="visit_benefit">
                     <?=LANG_KICKFIT_MMA_SIGNUP_CONTENT?>
                 </h3>
+                <div id="signUp_form">
+	                <?php if ($LANG == 'vn') { ?>
+	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=10803405&amp;u=kKTV"></script>
+	                <?php } else if ($LANG == 'en') { ?>
+	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=8579905&amp;u=kKTV"></script>
+	                <?php } ?>
+				</div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>

@@ -104,38 +104,14 @@
                                 <h3 class="visit_benefit">
                                 <?=LANG_VIP_RSVP_INCLUDE_13?>
                                 </h3>
-                                <div class="row registerfrm text-left">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Full name:</label>
-                                        <p><input type="text" placeholder="Full Name" name="full_name"></p>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Phone number:</label>
-                                        <p><input type="text" placeholder="Phone Number" name="phone_number"></p>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Email:</label>
-                                        <p><input type="text" placeholder="Email Address" name="email_add"></p>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Choose your nearest club:</label>
-                                        <p>
-                                            <select name="nearest_club">
-                                                <option>Choose a club</option>
-                                                <option>HCMC DISTRICT 1</option>
-                                                <option>HCMC DISTRICT 4</option>
-                                                <option>HCMC DISTRICT 5</option>
-                                            </select>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row registerfrm">
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10">
-                                        <input type="submit" class="submitbtn" value="book a vip visit">
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1"></div>
-                                </div>
+				                <div id="signUp_form">
+					                <?php if ($LANG == 'vn') { ?>
+					                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=11843605&amp;u=kKTV"></script>
+					                <?php } else if ($LANG == 'en') { ?>
+					                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=9700905&amp;u=kKTV"></script>
+					                <?php } ?>
+								</div>
+
                             </div>
                             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
                         </div>
