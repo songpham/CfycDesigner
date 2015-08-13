@@ -106,7 +106,7 @@
                                 </h3>
 				                <div id="signUp_form">
 					                <?php if ($LANG == 'vn') { ?>
-					                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=11843605&amp;u=kKTV"></script>
+					                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=11843605&amp;u=kKTV"></script>
 					                <?php } else if ($LANG == 'en') { ?>
 					                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=9700905&amp;u=kKTV"></script>
 					                <?php } ?>
