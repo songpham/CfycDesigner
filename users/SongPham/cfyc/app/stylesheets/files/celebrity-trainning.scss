@@ -21,7 +21,7 @@ $containerWidth : 1200px;
         }
         .cta {
             max-width: 42vw;
-            margin: 12vw 0 90px 15%;
+            margin: 17vw 0 90px 5%;
             padding: 20px;
             position: relative;
             @media (min-width:2000px) {
@@ -345,36 +345,24 @@ $containerWidth : 1200px;
 
 
         // MID BANNER
-        .banner {
-            @include background-size(cover);
-            max-width: $pageWidth;
-            background: url('../img/celebrity-training/banner.jpg');
+        .mid-banner {
+            .d-image {display: block;}
+            .m-image {display: none;}
+            @media (max-width: 768px) {
+                .d-image {display: none;}
+                .m-image {display: block;}
+            }
             position: relative;
-            .text-content {
+            .caption {
+                position: absolute;
+                background: rgba(255, 0, 0, 0.6);
+                padding: 20px 0;
                 width: 100%;
                 color: $white;
                 text-align: center;
-                h3 {@include font-size(17px);   margin-top: 45px; text-transform: uppercase;font-weight: bold;}
-                p {@include font-size(14px); margin: 20px 0 30px;letter-spacing: 1px;}
-                .navbar-center {
-                    width: 100%;
-                    text-align: center;
-                    margin : 15px 0;
-                    li {
-                        float: none;
-                        display: inline-block;
-                        a {
-                            @include font-size(14px);
-                            font-weight: bold;
-                            color: $white;
-                            text-transform: uppercase;
-                            background: none;
-                            &:hover {color: $red;}
-                            @media (max-width: 500px) {padding: 5px 5px !important;}
-                        }
-                    }
-                    li.active { a {color: $red;} }
-                }
+                text-transform: uppercase;
+                @include font-size(14px);
+                letter-spacing: 2px;
             }
         }
 
