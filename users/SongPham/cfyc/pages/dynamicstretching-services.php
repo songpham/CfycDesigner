@@ -17,7 +17,8 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div><?=LANG_DYNAMIC_STRETCHING_CALIDANCE_DS?><div class="line"></div></h2>
+            <div class="strike"><h2><?=LANG_DYNAMIC_STRETCHING_CALIDANCE_DS?></h2></div>
+
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <?=LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS?>
             </div>
