@@ -9,7 +9,7 @@
                     <?=LANG_GROUP_BANNER_TEXT_SMALL_GROUP?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta scroll" href="#form" title="<?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?>"> <?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?></a>
+                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?>"> <?=LANG_GROUP_BANNER_TEXT_CTA_GROUP?></a>
                 </div>
             </fieldset>
         </div>
@@ -18,7 +18,7 @@
     <div class="clearfix"></div>
     <div class="calidance container">
         <div class="row">
-            <h2><div class="line"></div><?=LANG_GROUP_CALIDANCE_GROUP?><div class="line"></div></h2>
+            <div class="strike"><h2><?=LANG_GROUP_CALIDANCE_GROUP?></h2></div>
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <?=LANG_GROUP_CALIDANCE_CONTENT_GROUP?>
             </div>
@@ -31,7 +31,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="benefits">
-        <h2><div class="line"></div><?=LANG_GROUP_BENEFIT_GROUP?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_GROUP_BENEFIT_GROUP?></h2></div>
         <?=LANG_GROUP_BENEFIT_CONTENT_GROUP?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
@@ -47,7 +47,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="discover row">
-        <h2><div class="line"></div><?=LANG_GROUP_DISCOVER_GROUP?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_GROUP_DISCOVER_GROUP?></h2></div>
         <!-- Nav tabs -->
         <div class="dropdown visible-xs" role="tablist">
             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
@@ -108,7 +108,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="school row">
-        <h2><div class="line"></div><?=LANG_GROUP_ENVIRONMENT_GROUP?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_GROUP_ENVIRONMENT_GROUP?></h2></div>
         <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -136,7 +136,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">
-        <h2><div class="line"></div><?=LANG_GROUP_TRAINER_TITLE_GROUP?><div class="line"></div></h2>
+        <div class="strike"><h2><?=LANG_GROUP_TRAINER_TITLE_GROUP?></h2></div>
         <center><?=LANG_GROUP_TRAINER_SUB_GROUP?></center>
         <div class="tab-content teacher-detail">
             <div role="tabpanel" class="tab-pane active" id="hcmc">
