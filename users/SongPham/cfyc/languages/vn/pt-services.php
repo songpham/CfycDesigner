@@ -22,10 +22,10 @@ define("LANG_PT_BENEFIT_CONTENT_PT",'
 <p>Dù bạn có thể chỉ đến phòng gym chỉ một lần hay năm lần mỗi tuần, bạn vẫn toàn quyền lựa chọn thời gian phù hợp để tập luyện cùng huấn luyện viên cá nhân.</p>
 ');
 
-define("LANG_PT_ENVIRONMENT_PT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_PT_ENVIRONMENT_PT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
 define("LANG_PT_TRAINER_TITLE_PT","Meet some of our top pt instructors");
-define("LANG_PT_TRAINER_SUB_PT","You have the potential, we can help you reach it.");
+define("LANG_PT_TRAINER_SUB_PT","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_PT_TRAINER1_TITLE_PT","LINH TA");
 define("LANG_PT_TRAINER1_ID_PT","trainer1");

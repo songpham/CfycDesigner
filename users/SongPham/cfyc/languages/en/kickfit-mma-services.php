@@ -114,7 +114,7 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - 10-year experience in training fitness at Military Zone 7 club.</p>
 ');
 
-define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Kickfit / MMA");
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Meet some of our top ** instructors");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
 <p><strong>Are You Ready to conquer yourself?</strong></p>
 <p>Experience the muscle toning, calorie burning, all body workout that will leave you breathless. Just 500.000vnd for 2 KickFit sessions and week pass </p>

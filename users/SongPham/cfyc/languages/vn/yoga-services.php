@@ -48,9 +48,9 @@ define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
 <p>Asanas (tư thế) chỉ là bước khởi đầu. Không có thiền, Yoga chưa hoàn chỉnh. Thiền là phương pháp cao nhất nhằm cân bằng các tuyến và hệ thấn kinh, khơi dậy những năng lực tiềm tàng quý giá trong cơ thể. Đó là sự tĩnh tâm, niềm hạnh phúc và hân hoan. Khoa học đã chứng minh được thiền định là phương pháp lấy lại tuổi thanh xuan. Học các phương pháp thiền tịnh là điều đơn giản và dễ dàng. Không cần kinh nghiệm vẫn có thể nhập môn. Lớp học thích hợp dành cho mọi người.</p>
 ');
 
-define("LANG_YOGA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_YOGA_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 define("LANG_YOGA_TRAINER_TITLE","Meet our featured dance teachers");
-define("LANG_YOGA_TRAINER_SUB","You have the potential, we can help you reach it.");
+define("LANG_YOGA_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_YOGA_TRAINER1_TITLE","KAMLESH");
 define("LANG_YOGA_TRAINER1_ID","trainer1");

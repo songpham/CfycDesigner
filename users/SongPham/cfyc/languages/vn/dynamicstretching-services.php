@@ -21,10 +21,10 @@ define("LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS",'
 <p>Liệu pháp căng cơ thư giãn kết hợp các nguyên tắc của hoạt động châm cứu và các bài tập khoa học để giúp khôi phục các mối quan hệ tự nhiên bên trong cơ thể, điều chỉnh việc mất cân bằng thông qua hệ thống điều trị vật lý vô cùng thoải mái, cho bạn cảm giác cải thiện đáng kể thậm chí bạn có thể cảm nhận nó chỉ qua một buổi tập.</p>
 ');
 
-define("LANG_DYNAMIC_STRETCHING_ENVIRONMENT_DS","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_DYNAMIC_STRETCHING_ENVIRONMENT_DS","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
 define("LANG_DYNAMIC_STRETCHING_TRAINER_TITLE_DS","Meet some of our top dynamic stretching experts");
-define("LANG_DYNAMIC_STRETCHING_TRAINER_SUB_DS","You have the potential, we can help you reach it.");
+define("LANG_DYNAMIC_STRETCHING_TRAINER_SUB_DS","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_TITLE_DS","LINH TA");
 define("LANG_DYNAMIC_STRETCHING_TRAINER1_ID_DS","trainer1");
