@@ -32,10 +32,10 @@ define("LANG_KICKFIT_MMA_BENEFIT_CONTENT",'
         focus fully on your training and progressing through your skills.</p>
 ');
 
-define("LANG_KICKFIT_MMA_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_KICKFIT_MMA_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
 define("LANG_KICKFIT_MMA_TRAINER_TITLE","Meet our featured kickfit & mma instructors");
-define("LANG_KICKFIT_MMA_TRAINER_SUB","You have the potential, we can help you reach it.");
+define("LANG_KICKFIT_MMA_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_KICKFIT_MMA_TRAINER1_TITLE","LEE");
 define("LANG_KICKFIT_MMA_TRAINER1_ID","trainer1");
@@ -114,7 +114,7 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 - 10 năm huấn luyện thể lực tại Câu Lạc Bộ Quân Đội Quân Khu 7.</p>
 ');
 
-define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Kickfit / MMA");
+define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Hãy gặp một trong những Huấn luyện viên hàng đầu của chúng tôi");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
 <p><strong>Bạn đã sẵn sàng để chinh phục bản thân?</strong></p>
 <p></p>Cảm nhận những xung động mạnh mẽ từ cơ bắp khi hàng tá  kilo calo bị đốt cháy. Các bài tập toàn thân sẽ khiến bạn phải THỰC SỰ kiệt sức. Chỉ 500.000vnd cho 2 buổi tập KickFit và 1 tuần tập luyện tại Cali

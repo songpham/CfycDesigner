@@ -53,9 +53,9 @@ define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Sức mạnh của những điệu nhảy Latin là những chuyển động đơn giản khiến người tập trở nên uyển chuyển, quyến rũ hơn. Bạn sẽ như đang đắm chìm trong không khí lễ hội vùng Nam Mỹ với những người bạn vui vẻ, cùng hòa nhịp cơ thể. Đừng bỏ lỡ hình thức thể dục sôi động và hiệu quả này!</p>
 ');
-define("LANG_DANCE_ENVIRONMENT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_DANCE_ENVIRONMENT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 define("LANG_DANCE_TRAINER_TITLE","Meet our featured dance teachers");
-define("LANG_DANCE_TRAINER_SUB","You have the potential, we can help you reach it.");
+define("LANG_DANCE_TRAINER_SUB","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_DANCE_TRAINER1_TITLE","DJ");
 define("LANG_DANCE_TRAINER1_ID","trainer1");

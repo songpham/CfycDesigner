@@ -20,10 +20,10 @@ define("LANG_BENEFIT_CONTENT_PTX",'
 <p>Tất cả dụng cụ được cung cấp đều là những vật dụng mới nhất, vượt trội nhất, bao gồm Vipr, Twisty Disc, TRX, Dynamex và hơn thế nữa.</p>
 ');
 
-define("LANG_ENVIRONMENT_PTX","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_ENVIRONMENT_PTX","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
 define("LANG_TRAINER_TITLE_PTX","Meet some of our top ptx2 instructors");
-define("LANG_TRAINER_SUB_PTX","You have the potential, we can help you reach it.");
+define("LANG_TRAINER_SUB_PTX","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_TRAINER1_TITLE_PTX","LINH TA");
 define("LANG_TRAINER1_ID_PTX","trainer1");

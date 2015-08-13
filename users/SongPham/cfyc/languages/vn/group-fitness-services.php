@@ -57,10 +57,10 @@ define("LANG_GROUP_DISCOVER_TAB5_CONTENT_GROUP","
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO</strong></p>
 <p>SH'BAM là bộ môn khiêu vũ kết hợp giữa những bước nhảy tự do và đơn giản nhưng không kém phần gợi cảm với các bản nhạc sôi động, giúp vóc dáng thon gọn quyến rũ hơn. Tất cả những gì bạn cần là lắng nghe âm nhạc và cháy hết mình với những bước nhảy, cảm nhận được cơ thể của mình cũng như giải tỏa mọi căng thẳng khi chuyển động hài hoà theo giai điêu âm nhạc</p>
 ");
-define("LANG_GROUP_ENVIRONMENT_GROUP","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");
+define("LANG_GROUP_ENVIRONMENT_GROUP","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");
 
 define("LANG_GROUP_TRAINER_TITLE_GROUP","Meet our featured Group Fitness Instructors");
-define("LANG_GROUP_TRAINER_SUB_GROUP","You have the potential, we can help you reach it.");
+define("LANG_GROUP_TRAINER_SUB_GROUP","Bạn có một thân hình trong mơ? Chúng tôi sẽ giúp bạn sở hữu nó.");
 
 define("LANG_GROUP_TRAINER1_TITLE_GROUP","T.A");
 define("LANG_GROUP_TRAINER1_ID_GROUP","trainer1");
