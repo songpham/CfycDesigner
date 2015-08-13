@@ -58,8 +58,10 @@
 
     <div id="id_1" class="container-page">
         <div class="row video row-centered">
+        	<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE ?></h2>
+            <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
             <div class="col-sm-5 col-xs-12 col-centered">
-            <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE ?></h2>
+
                 <div class="desc-video">
                     <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_VIDEO_TEXT ?></p>
                 </div>
