@@ -20,70 +20,73 @@
     }
     .top-content {
         .holder-top-content {
-			.whitespace {
+            .whitespace {
                 padding:10px 0;
                 clear:both;
             }
             .rsvpnow {
                 background: $white;
                 img{
-                	max-width: 100%;
+                    max-width: 100%;
                 }
                 h2.title{
-                	color:$red;
-                	font-size:16px;
-                	text-transform: uppercase;
-                	padding:0 10px;
+                    color:$red;
+                    font-size:16px;
+                    text-transform: uppercase;
+                    padding:0 10px;
                 }
                 p.title_desc{
-					padding:0 10px;
+                    padding:0 10px;
                 }
                 h3.section_title{
-				    font-size: 13px;
-				    line-height: 20px;
-				    text-transform: uppercase;				    
+                    font-size: 13px;
+                    line-height: 20px;
+                    text-transform: uppercase;
                 }
                 hr{
-                	border-color: #000;
-                	margin:0 0 40px 0;
+                    border-color: #000;
+                    margin:0 0 40px 0;
 
                 }
                 .chance_items{
-                	padding:0;
-                	border: 1px solid $white;
-					img{
-						width:100%;
-					}
-                	.overlay{
-	                	position:absolute;
-	                	bottom: 0;
-	                	width:100%;
-	                	text-align:center;
-	                	background:rgba(0,0,0,0.5);
-	                	h2{
-	                		margin-top:10px;
-							color:$white;
-	                	}
-                	}
+                    padding:0;
+                    border: 1px solid $white;
+                    img{
+                        width:100%;
+                    }
+                    .overlay{
+                        position:absolute;
+                        bottom: 0;
+                        width:100%;
+                        text-align:center;
+                        background:rgba(0,0,0,0.5);
+                        h2{
+                            margin-top:10px;
+                            color:$white;
+                            a {
+                                color:$white;
+                            }
+                        }
+                    }
                 }
                 h2.booktitle{
-                	border:1px solid #000;
-                	padding:4% 8%;
-                	text-transform: uppercase;
-                	margin-bottom: 30px;
+                    border:1px solid #000;
+                    padding:4% 8%;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
                 }
                 h3.visit_benefit{
-            		font-size: 13px;
-				    line-height: inherit;
-				    text-transform: uppercase;
-				    margin-bottom: 50px;
-				    span{
-				    	font-size: 90%;
-				    }
-            		span.title{
-            			font-size: 120%;
-            		}
-            	}
+                    font-size: 13px;
+                    line-height: inherit;
+                    text-transform: uppercase;
+                    margin-bottom: 50px;
+                    span{
+                        font-size: 90%;
+                    }
+                    span.title{
+                        font-size: 120%;
+                    }
+                }
                 .messages{
                     text-transform:uppercase;
                     h1{
@@ -93,42 +96,42 @@
                         text-transform:uppercase;
                     }
                 }
-            	.registerfrm{
-            		text-align: left;
-            		text-transform: uppercase;
+                .registerfrm{
+                    text-align: left;
                     text-transform: uppercase;
-            		label{
-            			font-weight: bold;
-            		}
-            		input{
-            			width:100%;
-            			height: 30px;
-            			padding:2px 5px;
-            		}
-            		:focus{
-            			color: $red;
-            		}
-            		select{
-            			//text-transform: uppercase;
-            			text-align: left;
-            			width:100%;
-            			height:30px;
-            		}
-            		input[type="submit"]{
-            			color:$white;
-            			font-weight: bold;
-            			margin-top: 30px;
-            			margin-bottom: 30px;
-            			height:40px;
-            			font-size: 130%;
-            			letter-spacing: 2px;
-            			text-transform: uppercase;
-            			background:$red;
-            			padding: 7px 12px;
-            			border:none;
-            		}
-            	}
-            }            
+                    text-transform: uppercase;
+                    label{
+                        font-weight: bold;
+                    }
+                    input{
+                        width:100%;
+                        height: 30px;
+                        padding:2px 5px;
+                    }
+                    :focus{
+                        color: $red;
+                    }
+                    select{
+                        //text-transform: uppercase;
+                        text-align: left;
+                        width:100%;
+                        height:30px;
+                    }
+                    input[type="submit"]{
+                        color:$white;
+                        font-weight: bold;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        height:40px;
+                        font-size: 130%;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        background:$red;
+                        padding: 7px 12px;
+                        border:none;
+                    }
+                }
+            }
         }
     }
 }
@@ -137,34 +140,34 @@
         .top-content {
             .holder-top-content {
                 .rsvpnow {
-	                background: $white;
-	                img{
-	                	width: 100%;
-	                }
-	                h2.title{
-	                	color:$red;
-	                	font-size:16px;
-	                	text-transform: uppercase;
-	                	padding:0 10px;
+                    background: $white;
+                    img{
+                        width: 100%;
+                    }
+                    h2.title{
+                        color:$red;
+                        font-size:16px;
+                        text-transform: uppercase;
+                        padding:0 10px;
                         border-bottom: none;
                         margin-bottom: 0;
                         margin-top: 5px;
-	                }
-	                p.title_desc{
-						padding:0 10px;
+                    }
+                    p.title_desc{
+                        padding:0 10px;
                         margin-bottom: 30px;
-	                }
-	                h3{
-					    font-size: 13px;
-					    line-height: 20px;
-					    text-transform: uppercase;				    
-	                }
-	                hr{
-	                	border-color: #000;
-	                	margin:0 0 40px 0;
+                    }
+                    h3{
+                        font-size: 13px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                    }
+                    hr{
+                        border-color: #000;
+                        margin:0 0 40px 0;
 
-	                }
-	                .chance_items{
+                    }
+                    .chance_items{
                         padding:0;
                         border: 1px solid $white;
                         img{
@@ -184,58 +187,58 @@
                             }
                         }
                     }
-	                h2.booktitle{
-	                	border:1px solid #000;
-	                	padding:5px 10px;
-	                	text-transform: uppercase;
-                	}
-                	h3.visit_benefit{
-            		font-size: 13px;
-				    line-height: inherit;
-				    text-transform: uppercase;
-				    margin-bottom: 50px;
-				    span{
-				    	font-size: 90%;
-				    }
-            		span.title{
-            			font-size: 120%;
-            		}
-            	}
-            	.registerfrm{
-            		text-align: left;
-            		text-transform: uppercase;
-            		label{
-            			font-weight: bold;
-            		}
-            		input{
-            			width:100%;
-            			height: 30px;
-            			padding:2px 5px;
-            		}
-            		:focus{
-            			color: $red;
-            		}
-            		select{
-            			//text-transform: uppercase;
-            			text-align: left;
-            			width:100%;
-            			height:30px;
-            		}
-            		input[type="submit"]{
-            			color:$white;
-            			font-weight: bold;
-            			margin-top: 30px;
-            			margin-bottom: 30px;
-            			height:40px;
-            			font-size: 130%;
-            			letter-spacing: 2px;
-            			text-transform: uppercase;
-            			background:$red;
-            			padding: 7px 12px;
-            			border:none;
-            		}
-            	}
-	            }       
+                    h2.booktitle{
+                        border:1px solid #000;
+                        padding:5px 10px;
+                        text-transform: uppercase;
+                    }
+                    h3.visit_benefit{
+                    font-size: 13px;
+                    line-height: inherit;
+                    text-transform: uppercase;
+                    margin-bottom: 50px;
+                    span{
+                        font-size: 90%;
+                    }
+                    span.title{
+                        font-size: 120%;
+                    }
+                }
+                .registerfrm{
+                    text-align: left;
+                    text-transform: uppercase;
+                    label{
+                        font-weight: bold;
+                    }
+                    input{
+                        width:100%;
+                        height: 30px;
+                        padding:2px 5px;
+                    }
+                    :focus{
+                        color: $red;
+                    }
+                    select{
+                        //text-transform: uppercase;
+                        text-align: left;
+                        width:100%;
+                        height:30px;
+                    }
+                    input[type="submit"]{
+                        color:$white;
+                        font-weight: bold;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        height:40px;
+                        font-size: 130%;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        background:$red;
+                        padding: 7px 12px;
+                        border:none;
+                    }
+                }
+                }
             }
         }
     }
@@ -245,34 +248,34 @@
         .top-content {
             .holder-top-content {
                 .rsvpnow {
-	                background: $white;
-	                img{
-	                	width: 100%;
-	                }
-	                h2.title{
-	                	color:$red;
-	                	font-size:16px;
-	                	text-transform: uppercase;
-	                	padding:0 10px;
+                    background: $white;
+                    img{
+                        width: 100%;
+                    }
+                    h2.title{
+                        color:$red;
+                        font-size:16px;
+                        text-transform: uppercase;
+                        padding:0 10px;
                         border-bottom: none;
                         margin-bottom: 0;
                         margin-top: 5px;
-	                }
-	                p.title_desc{
-						padding:0 10px;
+                    }
+                    p.title_desc{
+                        padding:0 10px;
                         margin-bottom: 30px;
-	                }
-	                h3.section_title{
-					    font-size: 13px;
-					    line-height: 20px;
-					    text-transform: uppercase;				    
-	                }
-	                hr{
-	                	border-color: #000;
-	                	margin:0 0 40px 0;
+                    }
+                    h3.section_title{
+                        font-size: 13px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                    }
+                    hr{
+                        border-color: #000;
+                        margin:0 0 40px 0;
 
-	                }
-	                .chance_items{
+                    }
+                    .chance_items{
                         padding:0;
                         border: 1px solid $white;
                         img{
@@ -292,58 +295,58 @@
                             }
                         }
                     }
-	                h2.booktitle{
-	                	border:1px solid #000;
-	                	padding:5px 10px;
-	                	text-transform: uppercase;
-                	}
-                	h3.visit_benefit{
-            		font-size: 13px;
-				    line-height: inherit;
-				    text-transform: uppercase;
-				    margin-bottom: 50px;
-				    span{
-				    	font-size: 90%;
-				    }
-            		span.title{
-            			font-size: 120%;
-            		}
-            	}
-            	.registerfrm{
-            		text-align: left;
-            		text-transform: uppercase;
-            		label{
-            			font-weight: bold;
-            		}
-            		input{
-            			width:100%;
-            			height: 30px;
-            			padding:2px 5px;
-            		}
-            		:focus{
-            			color: $red;
-            		}
-            		select{
-            			//text-transform: uppercase;
-            			text-align: left;
-            			width:100%;
-            			height:30px;
-            		}
-            		input[type="submit"]{
-            			color:$white;
-            			font-weight: bold;
-            			margin-top: 30px;
-            			margin-bottom: 30px;
-            			height:40px;
-            			font-size: 130%;
-            			letter-spacing: 2px;
-            			text-transform: uppercase;
-            			background:$red;
-            			padding: 7px 12px;
-            			border:none;
-            		}
-            	}
-	            }       
+                    h2.booktitle{
+                        border:1px solid #000;
+                        padding:5px 10px;
+                        text-transform: uppercase;
+                    }
+                    h3.visit_benefit{
+                    font-size: 13px;
+                    line-height: inherit;
+                    text-transform: uppercase;
+                    margin-bottom: 50px;
+                    span{
+                        font-size: 90%;
+                    }
+                    span.title{
+                        font-size: 120%;
+                    }
+                }
+                .registerfrm{
+                    text-align: left;
+                    text-transform: uppercase;
+                    label{
+                        font-weight: bold;
+                    }
+                    input{
+                        width:100%;
+                        height: 30px;
+                        padding:2px 5px;
+                    }
+                    :focus{
+                        color: $red;
+                    }
+                    select{
+                        //text-transform: uppercase;
+                        text-align: left;
+                        width:100%;
+                        height:30px;
+                    }
+                    input[type="submit"]{
+                        color:$white;
+                        font-weight: bold;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        height:40px;
+                        font-size: 130%;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        background:$red;
+                        padding: 7px 12px;
+                        border:none;
+                    }
+                }
+                }
             }
         }
     }

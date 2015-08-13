@@ -29,7 +29,7 @@
             <p><?php echo LANG_CONTACT_REGISTER_NOW_SUBTITLE ?></p>
             <div id="form">
                 <?php if ($LANG == 'vn') { ?>
-                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233605&amp;u=kKTV"></script>
+                <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233605&u=kKTV"></script>
                 <?php } else if ($LANG == 'en') { ?>
                 <script type="text/javascript" src="http://app.getresponse.com/view_webform.js?wid=13233705&u=kKTV"></script>
                 <?php } ?>
