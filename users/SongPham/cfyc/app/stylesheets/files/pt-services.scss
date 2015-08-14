@@ -1,13 +1,7 @@
 @import '../lib';
 
 .pt-services-page {
-	.item.active.mobile {display: none; 
-		@media (max-width:767px) {
-			display: block;
-			margin-bottom: 50px;
-		
-		}
-	}
+
 		.item.active.desktop {display: block; margin-bottom: 50px;
 		@media (max-width:767px) {
 			display: none;
@@ -476,4 +470,23 @@
             }
         }
     }
+    	.carousel.slide.desktop {
+		display: block;
+		@media (max-width:767px) {
+			display: none;
+		}
+	}
+		.carousel.slide.mobile {
+		display: none;
+		@media (max-width:767px) {
+			display: block;
+		}
+	}
+	.item.active.mobile {display: none; 
+		@media (max-width:767px) {
+			display: block;
+			margin-bottom: 50px;
+		
+		}
+	}
 }

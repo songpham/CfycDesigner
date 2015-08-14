@@ -48,7 +48,7 @@
     <div class="clearfix"></div>
     <div class="school row">
         <div class="strike"><h2><?=LANG_PT_ENVIRONMENT_PT?></h2></div>
-        <div id="carousel-example-generic-clubs" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic-clubs" class="carousel slide desktop" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic-clubs" data-slide-to="0" class="active"></li>
@@ -57,16 +57,45 @@
                 <li data-target="#carousel-example-generic-clubs" data-slide-to="3"></li>
             </ol>
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active desktop">
-                     <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                </div>
-                <div class="item active mobile">
-                     <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club1/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                </div>
+ <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club3/9.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club3/10.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club3/11.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club3/12.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                    </div>
 
-                </div>
             </div>
+        <div id="carousel-example-generic-clubs-m" class="carousel slide mobile" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic-clubs-m" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic-clubs-m" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic-clubs-m" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic-clubs-m" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+           <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club3/9.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club3/10.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club3/11.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+                        <div class="item">
+                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club3/12.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                        </div>
+          </div> <!-- inner - mobile -->
         </div>
     </div>
     <div class="clearfix"></div>
