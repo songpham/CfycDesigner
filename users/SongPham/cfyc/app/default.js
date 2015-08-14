@@ -8,6 +8,9 @@ $(document).ready(function () {
     var $desktopNavigation = $('#desktop-navigation'),
         isDesktopMenuWorking = false;
     $desktopNavigation.find('.desktop-menu a').click(function (e) {
+
+    	$(this).closest('ul').find('.active').removeClass('active');
+    	$(this).addClass('active');
         if (isDesktopMenuWorking === false) {
             var $me = $(this),
                 index = $me.data('index');
@@ -30,6 +33,7 @@ $(document).ready(function () {
                         }, 300);
                     }
                     $desktopNavigation.find('.collapse').collapse('hide');
+
                 } else {
                     $desktopNavigation.find('.collapse:eq(' + index + ')').collapse('show');
                     setTimeout(function () {

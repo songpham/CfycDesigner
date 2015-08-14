@@ -11,10 +11,13 @@ $containerWidth : 1200px;
 
     // GALLERY
     .banner-top {
+    	@media (min-width: 768px) {
         position: relative;
         background: #fff url(../img/celebrity-training/banner-top.jpg) center top no-repeat;
         background-size: 100%;
+        }
         @media (max-width:767px) {
+        	position: relative;
             background: #fff url(../img/celebrity-training/m-banner-top.jpg) center top no-repeat;
             background-size: cover;
             min-height: 500px;
