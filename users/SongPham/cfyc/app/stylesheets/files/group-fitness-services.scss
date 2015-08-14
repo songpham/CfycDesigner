@@ -478,7 +478,13 @@
             }
         }
     }
-    .carousel.slide.mobile {
+   .carousel.slide.desktop {
+		display: block;
+		@media (max-width:767px) {
+			display: none;
+		}
+	}
+		.carousel.slide.mobile {
 		display: none;
 		@media (max-width:767px) {
 			display: block;
