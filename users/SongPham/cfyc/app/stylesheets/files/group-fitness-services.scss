@@ -478,5 +478,18 @@
             }
         }
     }
+    .carousel.slide.mobile {
+		display: none;
+		@media (max-width:767px) {
+			display: block;
+		}
+	}
+	.item.active.mobile {display: none; 
+		@media (max-width:767px) {
+			display: block;
+			margin-bottom: 50px;
+		
+		}
+	}
 
 }

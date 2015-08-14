@@ -348,6 +348,7 @@ footer {
 /* $breakpoint_tablet 1024px */
 @media (max-width:$breakpoint_menu) {
     nav#desktop-navigation { display: none; }
+    #mobile-navigation-menu-toggle a {padding: 0px;}
     #mobile-navigation-menu-toggle {
         display: block;
         z-index: 101;
