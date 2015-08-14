@@ -19,28 +19,28 @@ define("LANG_YOGA_BENEFIT_CONTENT","
 <p>Tất cả các thành viên tại Trung tâm California Fitness & Yoga có quyền tham gia không giới hạn vào tất cả các lớp học cũng như chương trình Yoga được tổ chức tại trung tâm.</p>
 ");
 define("LANG_YOGA_DISCOVER","Khám phá Yoga tại California Fitness & Yoga");
-define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series (M)");
+define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series ");
 define("LANG_YOGA_DISCOVER_TAB1_ID","sunseri");
 define("LANG_YOGA_DISCOVER_TAB1_CONTENT",'
-<h3>Sun-series (M)</h3>
+<h3>Sun-series </h3>
 <p><strong>MULTI LEVEL: MỘT LỚP HỌC TỔNG QUÁT NHƯNG HIỆU QUẢ CHO MỌI TRÌNH ĐỘ.</strong></p>
 <p>Trong Yoga, mặt trời tượng trung cho hệ thần kinh ( Pingala/Surya Nadi). Lớp này là phương pháp hiệu quả cho việc co giãn, căng cơ, mát-xa và làm săn chắc tất cả các cơ khớp và toàn bộ nội tiết trong cơ thể.</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: (M)");
+define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: ");
 define("LANG_YOGA_DISCOVER_TAB2_ID","moonseri");
 define("LANG_YOGA_DISCOVER_TAB2_CONTENT",'
 <h3>MOON–SERIES</h3>
 <p><strong>MULTI LEVEL: MỘT LỚP HỌC TỔNG QUÁT NHƯNG HIỆU QUẢ CHO MỌI TRÌNH ĐỘ.</strong></p>
 <p>Một lớp tổng quát dành cho mọi người. Lớp này giúp bạn lấy lại tuổi thanh xuân về thể chất và tinh thần. Giúp bạn tăng cường sức mạnh cơ bụng và lưng. Giúp xả stress và cho bạn một trí óc sảng khoái.</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: (M)");
+define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: ");
 define("LANG_YOGA_DISCOVER_TAB3_ID","gentle");
 define("LANG_YOGA_DISCOVER_TAB3_CONTENT",'
 <h3>GENTLE YOGA</h3>
 <p><strong>MULTI LEVEL: MỘT LỚP HỌC TỔNG QUÁT NHƯNG HIỆU QUẢ CHO MỌI TRÌNH ĐỘ.</strong></p>
 <p>Một lớp học dành cho người mới bắt đầu, giúp căng cơ và tăng sức bền. Lớp học gồm những tư thế cơ bản dành cho người mới kết hợp với một chuỗi các động tác.</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: (M)");
+define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: ");
 define("LANG_YOGA_DISCOVER_TAB4_ID","mediation");
 define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
 <h3>MEDIATION</h3>

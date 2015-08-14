@@ -19,35 +19,35 @@ All memberships at California Fitness & Yoga centers come with unlimited access 
 ");
 
 define("LANG_DANCE_DISCOVER","Discover dance at California Fitness & Yoga");
-define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA (M)");
+define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA ");
 define("LANG_DANCE_DISCOVER_TAB1_ID","zumba");
 define("LANG_DANCE_DISCOVER_TAB1_CONTENT","
 <h3>ZUMBA</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p> The ZUMBA program fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program that will blow you away.</p>
 ");
-define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM (M)");
+define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM ");
 define("LANG_DANCE_DISCOVER_TAB2_ID","bodyjam");
 define("LANG_DANCE_DISCOVER_TAB2_CONTENT","
 <h3>BODY JAM</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>BODYJAM® is the cardio workout where you are free to enjoy the sensation of dance. An addictive fusion of the latest dance styles and hottest new sounds puts the emphasis as much on having fun as breaking a sweat. We'll bring the moves, you bring the attitude.</p>
 ");
-define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE ");
 define("LANG_DANCE_DISCOVER_TAB3_ID","sexydance");
 define("LANG_DANCE_DISCOVER_TAB3_CONTENT",'
 <h3>SEXY DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>Have you ever dreamed of dancing like a world famous diva? Learn the basics so you can strut your stuff with absolute confidence with our Sexy Dance classes in our fun and exciting classes. Looking good was never this much fun.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE ");
 define("LANG_DANCE_DISCOVER_TAB4_ID","poledance");
 define("LANG_DANCE_DISCOVER_TAB4_CONTENT",'
 <h3>POLE DANCE</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>A rigorous work-out that gradually builds all-over strength and body-tone. It boosts your self-confidence and expression as you master the moves in a fun, exciting environment!.... Pole Dancing for fitness is taking the world by storm! What are you waiting for?</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE ");
 define("LANG_DANCE_DISCOVER_TAB5_ID","salsa");
 define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <h3>SALSA & LATIN DANCE</h3>
@@ -123,13 +123,13 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 ');
 define("LANG_DANCE_SIGNUP_TITLE","Want To Get Fit and Have Fun?");
 define("LANG_DANCE_SIGNUP_CONTENT","
-<p>Sign Up for 10 Complementary Dance Classes With just 500.000vnd. Including</p>
-<p>»  BodyJam - Dance your way to cardio fitness.</p>
-<p>»  Zumba and Latin Dance - Party your way to fitness with the red-hot, calorie-burning dance</p>
-<p>»  Belly Dance - Delight in the exotic body movements</p>
-<p>»  SH'BAM - Hip Hop, Break Dance and Electro</p>
-<p>»  Sexy Dance - Join Us For An Unforgettable Experience</p>
+<p><strong>Sign Up for 10 Complementary Dance Classes With just 500.000vnd.<br><br> Including:</strong></p>
+<p>BodyJam - Dance your way to cardio fitness.</p>
+<p>Zumba and Latin Dance - Party your way to fitness with the red-hot, calorie-burning dance</p>
+<p>Belly Dance - Delight in the exotic body movements</p>
+<p>SH'BAM - Hip Hop, Break Dance and Electro</p>
+<p>Sexy Dance - Join Us For An Unforgettable Experience</p>
 <p></p>
-<p>Experience Calidance Now</p>
+<p><strong>Experience Calidance Now</strong></p>
 
 ");

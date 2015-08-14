@@ -83,11 +83,11 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 ');
 define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Sở hữu vẻ ngoài trẻ trung và xóa bỏ căng thẳng!");
 define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
-<p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali</p>
-<p>» Thực đơn dinh dưỡng phù hợp cho riêng bạn</p>
-<p>» Luyện tập 1 kèm 1 bất cứ khi nào bạn muốn</p>
-<p>» Người truyền động lực và nguồn cảm hứng tuyệt vời</p>
-<p>» Chế độ giảm cân và tăng cơ đã được chứng nhận hiệu quả</p>
-<p>Đăng ký tập ngay HÔM NAY</p>
+<p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. <br><br><strong>Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali</strong></p>
+<p>Thực đơn dinh dưỡng phù hợp cho riêng bạn</p>
+<p>Luyện tập 1 kèm 1 bất cứ khi nào bạn muốn</p>
+<p>Người truyền động lực và nguồn cảm hứng tuyệt vời</p>
+<p>Chế độ giảm cân và tăng cơ đã được chứng nhận hiệu quả</p>
+<p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ");
 

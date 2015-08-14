@@ -82,13 +82,13 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DYNAMIC_SCRETCHING?>" alt="<?=LANG_DYNAMIC_SCRETCHING?>">
+                        <a href="dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DYNAMIC_STRETCHING?>" alt="<?=LANG_DYNAMIC_STRETCHING?>">
                             <div class="service_img">
-                                <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_DYNAMIC_SCRETCHING?>" title="<?=LANG_DYNAMIC_SCRETCHING?>">
+                                <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_DYNAMIC_STRETCHING?>" title="<?=LANG_DYNAMIC_STRETCHING?>">
                             </div>
                             <div class="overlay">
                                 <h2 class="service_title">
-                                    <?=LANG_DYNAMIC_SCRETCHING?>
+                                    <?=LANG_DYNAMIC_STRETCHING?>
                                 </h2>
                             </div>
                         </a>

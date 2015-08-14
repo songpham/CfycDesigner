@@ -20,28 +20,28 @@ define("LANG_YOGA_BENEFIT_CONTENT","
 <p>All memberships at California Fitness & Yoga centers come with unlimited access to all yoga classes and programs</p>
 ");
 define("LANG_YOGA_DISCOVER","Discover yoga at California Fitness");
-define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series (M)");
+define("LANG_YOGA_DISCOVER_TAB1_TITLE","Sun-series ");
 define("LANG_YOGA_DISCOVER_TAB1_ID","sunseri");
 define("LANG_YOGA_DISCOVER_TAB1_CONTENT",'
-<h3>Sun-series (M)</h3>
+<h3>Sun-series </h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>In yoga the sun is represented by Pingala or Suya Nadi, the Pranic Channel which carries the vital life-giving force. This class is an effective way of loosening up, stretching, massaging and toning all the joints, muscles and internal organs of the body</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: (M)");
+define("LANG_YOGA_DISCOVER_TAB2_TITLE","MOON–SERIES: ");
 define("LANG_YOGA_DISCOVER_TAB2_ID","moonseri");
 define("LANG_YOGA_DISCOVER_TAB2_CONTENT",'
 <h3>MOON–SERIES</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>A general class for all. The class rejuvenates your mind and body. Comprise of 14 Asanas (Postures). It strengthens the abdomen and back. It helps release stress and refreshes</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: (M)");
+define("LANG_YOGA_DISCOVER_TAB3_TITLE","GENTLE YOGA: ");
 define("LANG_YOGA_DISCOVER_TAB3_ID","gentle");
 define("LANG_YOGA_DISCOVER_TAB3_CONTENT",'
 <h3>GENTLE YOGA</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>An ideal class for beginners which comprises of stretching and endurance. It contains basic beginner posture with a combination of flow moves</p>
 ');
-define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: (M)");
+define("LANG_YOGA_DISCOVER_TAB4_TITLE","MEDIATION: ");
 define("LANG_YOGA_DISCOVER_TAB4_ID","mediation");
 define("LANG_YOGA_DISCOVER_TAB4_CONTENT",'
 <h3>MEDIATION</h3>

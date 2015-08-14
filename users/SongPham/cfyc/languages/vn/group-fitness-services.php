@@ -22,35 +22,35 @@ define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
 <p>Tất cả hội viên tại các Trung tâm California Fitness & Yoga đều được tham gia không giới hạn số lần đến các lớp GroupX.</p>
 ');
 define("LANG_GROUP_DISCOVER_GROUP","Khám phá Group Fitness tại California Fitness & Yoga");
-define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT (M)");
+define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT ");
 define("LANG_GROUP_DISCOVER_TAB1_ID_GROUP","bodycombat");
 define("LANG_GROUP_DISCOVER_TAB1_CONTENT_GROUP","
 <h3>BODY COMBAT</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO</strong></p>
 <p>Mua bản quyền từ Les Mills, BodyCombat là bài tập thể dục lấy cảm hứng từ võ thuật, kết hợp các tư thế của Karate, Taekwondo và Muay Thai trong 60' liên tục. Kết hợp với âm nhạc nhịp độ nhanh, bạn sẽ được tập luyện như các chiến binh, thực hiện những động tác đánh, đấm, đá và karate theo cách của bạn để tiêu thụ calo, tăng nhịp tim, giúp máu lưu thông tốt hơn. Lớp BodyCombat dành cho tất cả mọi người, đừng lo ngại về cấp độ.</p>
 ");
-define("LANG_GROUP_DISCOVER_TAB2_TITLE_GROUP","BODY PUMP (M)");
+define("LANG_GROUP_DISCOVER_TAB2_TITLE_GROUP","BODY PUMP ");
 define("LANG_GROUP_DISCOVER_TAB2_ID_GROUP","bodypump");
 define("LANG_GROUP_DISCOVER_TAB2_CONTENT_GROUP",'
 <h3>BODY PUMP</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO</strong></p>
 <p>BODY PUMP là một lớp học cực kỳ thú vị và hiệu quả với tạ trên nền nhạc. Sử dụng tạ khối lượng nhẹ, lặp lại liên tục các động tác sẽ giúp bạn săn chắc hơn. Dù bạn đặt mục tiêu giảm cân hay duy trì vóc dáng thì cũng đừng nên bỏ qua lớp BodyPump.</p>
 ');
-define("LANG_GROUP_DISCOVER_TAB3_TITLE_GROUP","CXWORX (M)");
+define("LANG_GROUP_DISCOVER_TAB3_TITLE_GROUP","CXWORX ");
 define("LANG_GROUP_DISCOVER_TAB3_ID_GROUP","cxworx");
 define("LANG_GROUP_DISCOVER_TAB3_CONTENT_GROUP",'
 <h3>CXWORX</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO</strong></p>
 <p>Dựa trên những nghiên cứu khoa học tiên tiến, CXWORX là một hình thức tập luyện chuyên biệt cho phần core. Tập CXWORX giúp bạn đốt mỡ thừa đồng thời giúp phần core thêm săn chắc, mạnh mẽ, và vùng bụng phẳng. Hãy tham gia lớp CXWORX để được các chuyên gia giúp bạn trở nên khỏe đẹp hơn!</p>
 ');
-define("LANG_GROUP_DISCOVER_TAB4_TITLE_GROUP","RPM CYCLING (M)");
+define("LANG_GROUP_DISCOVER_TAB4_TITLE_GROUP","RPM CYCLING ");
 define("LANG_GROUP_DISCOVER_TAB4_ID_GROUP","cycling");
 define("LANG_GROUP_DISCOVER_TAB4_CONTENT_GROUP",'
 <h3>RPM CYCLING</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO</strong></p>
 <p>RPM là lớp đạp xe trong nhà trong không khí vô cùng sôi động cùng những điệu nhạc. HLV sẽ hướng dẫn bạn vượt qua các địa hình ảo như đồi, núi, khu dân cư... đó chính là cách bạn đốt mỡ thừa hiệu quả và tăng sức bền của chân. Các lớp RPM được thiết kế theo tiêu chuẩn quốc tế đảm bảo an toàn và hiệu quả cao nhất cho bạn.</p>
 ');
-define("LANG_GROUP_DISCOVER_TAB5_TITLE_GROUP","SH'BAM (M)");
+define("LANG_GROUP_DISCOVER_TAB5_TITLE_GROUP","SH'BAM ");
 define("LANG_GROUP_DISCOVER_TAB5_ID_GROUP","shbam");
 define("LANG_GROUP_DISCOVER_TAB5_CONTENT_GROUP","
 <h3>Sh’bam</h3>
@@ -138,9 +138,9 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 define("LANG_GROUP_SIGNUP_TITLE","Bạn đã sẵn sàng để đổ mồ hôi cùng những giai điệu sôi động?");
 define("LANG_GROUP_SIGNUP_CONTENT",'
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
-<p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa. Đăng ký 10 lớp Group X chỉ với 500.000vnd để trải nghiệm</p>
-<p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
-<p>» BodyCombat – Đạt được thân hình mơ ước khi tập luyện các động tác võ thuật đa dạng</p>
-<p>» BodyPump – Phát triển từng nhóm cơ nhỏ nhất trên cơ thể</p>
-<p>Đăng ký tập ngay HÔM NAY</p>
+<p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa. <strong>Đăng ký 10 lớp Group X chỉ với 500.000vnd</strong> để trải nghiệm</p>
+<p><strong>BodyJam</strong> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
+<p><strong>BodyCombat</strong> – Đạt được thân hình mơ ước khi tập luyện các động tác võ thuật đa dạng</p>
+<p><strong>BodyPump</strong> – Phát triển từng nhóm cơ nhỏ nhất trên cơ thể</p>
+<p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ');

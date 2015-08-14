@@ -29,28 +29,28 @@ define("LANG_GROUP_DISCOVER_TAB1_CONTENT_GROUP","
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>BODY COMBAT: A favorite from Les Mills, this awesome martial arts based workout combines moves and stances from a range of self defense disciplines such as Karate, Boxing and Taekwondo into an hour-long energetic routine. Get ready to kick, punch and get energized to the rhythm of music in a safe, fun-filled environment that gets real results. Body Combat is suitable for all fitness levels - you choose your level. </p>
 ");
-define("LANG_GROUP_DISCOVER_TAB2_TITLE_GROUP","BODY PUMP (M)");
+define("LANG_GROUP_DISCOVER_TAB2_TITLE_GROUP","BODY PUMP");
 define("LANG_GROUP_DISCOVER_TAB2_ID_GROUP","bodypump");
 define("LANG_GROUP_DISCOVER_TAB2_CONTENT_GROUP","
 <h3>BODY PUMP</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>BODY PUMP Is the original low-impact barbell class that delivers real results, real fast. Using light weights and high repetitions to get stronger, leaner and into the best shape of your life. You will love the fast results you get from Body Pump's classes whether your goal is to lose weight or tone your body, Body Pump will get you there faster. </p>
 ");
-define("LANG_GROUP_DISCOVER_TAB3_TITLE_GROUP","CXWORX (M)");
+define("LANG_GROUP_DISCOVER_TAB3_TITLE_GROUP","CXWORX");
 define("LANG_GROUP_DISCOVER_TAB3_ID_GROUP","cxworx");
 define("LANG_GROUP_DISCOVER_TAB3_CONTENT_GROUP","
 <h3>CXWORX</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>Based on cutting-edge scientific research, CXWORX is the ultimate way to get a tight and toned core. Shed those unwanted kilos, lose fat and build your core strength to get the body you've always dreamed of. Let our qualified instructors help you reach your goals and get a flat stomach and a fit, toned, healthy body. </p>
 ");
-define("LANG_GROUP_DISCOVER_TAB4_TITLE_GROUP","RPM CYCLING (M)");
+define("LANG_GROUP_DISCOVER_TAB4_TITLE_GROUP","RPM CYCLING");
 define("LANG_GROUP_DISCOVER_TAB4_ID_GROUP","cycling");
 define("LANG_GROUP_DISCOVER_TAB4_CONTENT_GROUP",'
 <h3>RPM CYCLING</h3>
 <p><strong>MULTI LEVEL: SUITABLE FOR BEGINNER TO ADVANCED.</strong></p>
 <p>RPM is the indoor cycling routine workout where you ride to the rhythm of powerful music. Take on the terrain with your inspiring qualified instructor who leads the pack through hills, flats, mountain peaks, time trials, and interval training. RPM is an amazing way to lose weight and burn fat while building your endurance and leg strength. All classes are held in our special, internationally designed Cycling studios with our qualified instructors to motivate you.</p>
 ');
-define("LANG_GROUP_DISCOVER_TAB5_TITLE_GROUP","SH'BAM (M)");
+define("LANG_GROUP_DISCOVER_TAB5_TITLE_GROUP","SH'BAM");
 define("LANG_GROUP_DISCOVER_TAB5_ID_GROUP","shbam");
 define("LANG_GROUP_DISCOVER_TAB5_CONTENT_GROUP","
 <h3>Sh’bam</h3>
@@ -138,11 +138,11 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Aerobics), GX Orientation, Bums N Tums, Shape Up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
 
-define("LANG_GROUP_SIGNUP_TITLE","Are You Ready to get sweat with dynamic beat?");
+define("LANG_GROUP_SIGNUP_TITLE","Are You Ready to be energized to the dynamic beats?");
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p>Find out what it feels like to get fit with our exciting and cutting edge group training. Sign up for 10 complementary Group X classes. Including</p>
-<p>» BodyJam - Dance your way to cardio fitness.</p>
-<p>» BodyCombat - Group X Combat Class.</p>
-<p>» BodyPump - Power up every muscle in your body</p>
-<p>Experience A Class Now</p>
+<p>Experience what it feels like to get fit with our exciting, cutting edge group training classes. <strong>Sign up to receive 10 complementary Group X classes for only 500.000VNĐ.</strong> <br><br>Including access to:</p>
+<p><strong>BodyJam</strong> - Dance your way to cardio fitness.</p>
+<p><strong>BodyCombat</strong> - Group X Combat Class.</p>
+<p><strong>BodyPump</strong> - Power up every muscle in your body</p>
+<p><strong>Experience A Class Now</strong></p>
 ');

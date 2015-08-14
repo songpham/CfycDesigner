@@ -18,35 +18,35 @@ define("LANG_DANCE_BENEFIT_CONTENT","Các điệu nhảy sẽ giúp bạn nhanh 
 Tất cả các hội viên của trung tâm at California Fitness & Yoga đều có quyền tham gia bất kì các lớp học nhảy GroupX, không giới hạn số lượng lớp tham gia
 ");
 define("LANG_DANCE_DISCOVER","Khám phá các lớp học nhảy tại California Fitness and Yoga");
-define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA (M)");
+define("LANG_DANCE_DISCOVER_TAB1_TITLE","ZUMBA ");
 define("LANG_DANCE_DISCOVER_TAB1_ID","zumba");
 define("LANG_DANCE_DISCOVER_TAB1_CONTENT",'
 <h3>ZUMBA</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Những bước nhảy Latin "biến hóa" theo điệu nhạc từ cổ điển đến hiện đại sẽ khiến bạn "phiêu" hết cỡ. Zumba Fitness gồm những chuyển động vừa là bài tập thể dục giúp bạn đốt mỡ vừa là cách giúp bạn trở nên tự tin, gợi cảm hơn.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM (M)");
+define("LANG_DANCE_DISCOVER_TAB2_TITLE","BODY JAM ");
 define("LANG_DANCE_DISCOVER_TAB2_ID","bodyjam");
 define("LANG_DANCE_DISCOVER_TAB2_CONTENT",'
 <h3>BODY JAM</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Lớp Body Jam vô cùng thích hợp cho những người khó tìm thấy hứng thú với các bài tập cardio trên máy. Âm nhạc, ánh sáng, những người bạn... là tất cả bạn cần cảm nhận để tự do trong những bước nhảy, liên tục trong gần 1h. Bạn sẽ thấy hiệu quả rõ rệt với cơ thể mình.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB3_TITLE","SEXY DANCE ");
 define("LANG_DANCE_DISCOVER_TAB3_ID","sexydance");
 define("LANG_DANCE_DISCOVER_TAB3_CONTENT",'
 <h3>SEXY DANCE</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Bạn vẫn thường yêu thích những phần vũ đạo sôi động và quyến rũ trên các sân khấu âm nhạc? Không khó để bạn học theo từ những bước cơ bản, và dần làm chủ được những điệu nhảy của mình. SEXY DANCE là sự lựa chọn đúng nhất cho bạn!</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB4_TITLE","POLE DANCE ");
 define("LANG_DANCE_DISCOVER_TAB4_ID","poledance");
 define("LANG_DANCE_DISCOVER_TAB4_CONTENT",'
 <h3>POLE DANCE</h3>
 <p><strong>MULTI LEVEL: TỪ CƠ BẢN ĐẾN NÂNG CAO.</strong></p>
 <p>Không chỉ là một bộ môn nghệ thuật hấp dẫn, múa cột còn có rất nhiều tác dụng cho cơ thể. Khi tập luyện, cơ bắp vùng vai, ngực, bụng,mông và đùi phải hoạt động hết công suất với tất cả trạng thái từ co, giãn nhanh chậm cho đến liên tục hoặc ngắt quãng. Cơ thể bạn trở nên dẻo dai và đầy sức sống cùng những đường cong rõ rệt hơn.</p>
 ');
-define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE (M)");
+define("LANG_DANCE_DISCOVER_TAB5_TITLE","SALSA & LATIN DANCE ");
 define("LANG_DANCE_DISCOVER_TAB5_ID","salsa");
 define("LANG_DANCE_DISCOVER_TAB5_CONTENT",'
 <h3>SALSA & LATIN DANCE</h3>
@@ -121,11 +121,11 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 define("LANG_DANCE_SIGNUP_TITLE","Sẵn sàng nhảy theo cách bạn muốn");
 define("LANG_DANCE_SIGNUP_CONTENT","
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
-<p>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</p>
-<p>»  BodyJam – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
-<p>»  Zumba và các điệu nhảy Latin – Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
-<p>»  Belly Dance – Toả sáng với vũ điệu của hông và bụng</p>
-<p>»  SH'BAM - Hip Hop, Break Dance và Electro</p>
-<p>»  Sexy Dance – Nghệ thuật quyến rũ trong từng bước nhảy</p>
-<p>Đăng ký tập ngay HÔM NAY</p>
+<p><strong>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</strong></p>
+<p><strong>BodyJam</strong> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
+<p><strong>Zumba và các điệu nhảy Latin</strong> – Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
+<p><strong>Belly Dance</strong> – Toả sáng với vũ điệu của hông và bụng</p>
+<p><strong>SH'BAM</strong> - Hip Hop, Break Dance và Electro</p>
+<p><strong>Sexy Dance</strong> – Nghệ thuật quyến rũ trong từng bước nhảy</p>
+<p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ");

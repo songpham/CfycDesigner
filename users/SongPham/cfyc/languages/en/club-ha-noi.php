@@ -4,7 +4,7 @@ define('LANG_CLUB_HA_NOI', 'HA NOI');
 
 // BANNER
 define('LANG_CLUB_HA_NOI_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in HA NOI');
-define('LANG_CLUB_HA_NOI_BANNER_SUB_TITLE', 'Ha Noi’s first and most premium fitness, entertainment and lifestyle destination');
+define('LANG_CLUB_HA_NOI_BANNER_SUB_TITLE', 'Ha Noi’s first and best premium fitness, entertainment and lifestyle destination');
 define('LANG_CLUB_HA_NOI_BANNER_TEXT_BUTTON', 'Find a club in Ha Noi today');
 
 

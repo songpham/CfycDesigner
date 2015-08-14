@@ -23,14 +23,14 @@ define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/tang-co-dt.html");
 
 define("LANG_SEE_MORE", "XEM NHIỀU HƠN");
 
-define("LANG_PERSONAL_TRAINNER", "PERSONAL TRAINNER");
+define("LANG_PERSONAL_TRAINNER", "Huấn Luyện cá nhân");
 
 define("LANG_YOGA", "YOGA");
 define("LANG_GROUP_EXERCISE", "GROUP EXERCISE");
 define("LANG_KID_PROGRAM", "KID'S PROGRAM");
 define("LANG_SPA_ESTHIC", "SPA ESTHIC");
 define("LANG_DANCE", "DANCE");
-define("LANG_DYNAMIC_SCRETCHING", "GIẢM CĂNG CƠ");
+define("LANG_DYNAMIC_STRETCHING", "GIẢM CĂNG CƠ");
 define("LANG_KICKFIT", "KICKFIT");
 
 define("LANG_HO_CHI_MINH_CITY", "HO CHI MINH CITY");

@@ -22,13 +22,13 @@ define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/do-you-want-to-build
 
 define("LANG_SEE_MORE", "SEE MORE");
 
-define("LANG_PERSONAL_TRAINNER", "PERSONAL TRAINNER");
+define("LANG_PERSONAL_TRAINNER", "PERSONAL TRAINER");
 define("LANG_YOGA", "YOGA");
 define("LANG_GROUP_EXERCISE", "GROUP EXERCISE");
 define("LANG_KID_PROGRAM", "KID'S PROGRAM");
 define("LANG_SPA_ESTHIC", "SPA ESTHIC");
 define("LANG_DANCE", "DANCE");
-define("LANG_DYNAMIC_SCRETCHING", "DYNAMIC SCRETCHING");
+define("LANG_DYNAMIC_STRETCHING", "DYNAMIC STRETCHING");
 define("LANG_KICKFIT", "KICKFIT");
 
 define("LANG_HO_CHI_MINH_CITY", "HO CHI MINH CITY");
@@ -41,18 +41,20 @@ define("LANG_TRAINNER_1" , "<h3><span>ASSIM MANN</span><br>YOGA MANAGER</h3>
 							<p> Bio:<br>
 Assim Mann has studied with many yoga gurus but is especially thankful for his experiences with Shri Bharat Singh (yoga teacher for Kaivalyadhama) and Bramachari Rudra Dev, one of the main disciples of Shri B.K.S Iyenger. Assim has practiced yoga for more than 15 years.</p>");
 
-define("LANG_TRAINNER_2" , "<h3>TIỂU PHƯƠNG<br/><span>HLV CÁ NHÂN</span></h3>
-                            <p><strong>PHONG CÁCH & CHUYÊN MÔN</strong><br/>
-                            - Huấn luyện tốt về các phương pháp giảm cân và tăng cường thể lực, có thể huấn luyện các môn thể thao khác như: Bơi lội, Tennis, Bowling.</p>
-                            <p><strong>BẰNG CẤP</strong><br/>
+define("LANG_TRAINNER_2" , "<h3>TIỂU PHƯƠNG<br/><span>PERSONAL TRAINER</span></h3>
+                            <p><strong>TRAINING STYLE & SPECIALTY</strong><br/>
+                            - Specialized in fat loss and physical strength improvement, Swimming, Tennis, and Bowling Instructor.</p>
+                            <p><strong>QUALIFICATIONS</strong><br/>
                             - Chứng nhận Huấn Luyện Viên Cá Nhân của Trung Tâm Thể Dục Thể Hình & Yoga California.<br/>
                             - Chứng nhận Chuyên Gia Thay Đổi Hình Thể của Trung Tâm Thể Dục Thể Hình & Yoga California.</p>
                             <p><strong>KINH NGHIỆM</strong><br/>
-                            - Bảy năm kinh nghiệm làm việc tại Trung Tâm Thể Dục Thể Hình & Yoga California.<br/>
-                            - Giải nhất cuộc thi Thay Đổi Hình Thể năm 2009 và 2012.</p>");
-define("LANG_TRAINNER_3" , " <h3>MINT NGUYỄN<br/><span>QUẢN LÝ CẤP TOÀN QUỐC</span></h3>
-                            <p>Công việc tuyệt vời nhất của tôi là truyền lửa cho các học viên trong sự kết hợp của chuyển động cơ thể và âm nhạc, của luyện tập và niềm vui sống. Tôi hướng dẫn họ bằng cả trái tim và đam mê. Vì vậy, thật là mãn nguyện khi thấy các học viên yêu thích luyện tập trong các lớp GX đến mức họ cũng muốn trở thành huấn luyện viên như tôi. Cuộc sống thật có ý nghĩa khi mỗi ngày tôi đều được ngắm nhìn các học viên tràn đầy sức sống với những nụ cười tươi khiến gương mặt họ bừng sáng.</p>
-                            <p><strong>Bio:</strong><br/>Mint Nguyễn đã làm giảng viên đầy nhiệt thành của các lớp GX hơn 5 năm qua tại CFYC. Ngoài việc động viên và truyền cảm hứng cho các học viên, Mint còn yêu thích tập đạp xe, leo núi, gặp gỡ bạn bè, đi du lịch và đọc sách.</p>");
+                            - CFYC Personal Trainer Certificate.<br>
+							- CFYC Body Transformation Expert Certificate.</p>");
+define("LANG_TRAINNER_3" , " <h3>MINT NGUYỄN<br/><span>COUNTRY MANAGER - GROUP FITNESS</span></h3>
+                            <p>My greatest joy is to inspire my students in the fusion of movement and music, workout and happiness. I teach from the heart, so it is a very personal satisfaction when my students love working out in our GX classes so much that they want to become GX instructors too. Looking out at the exuberant energy and the smiling faces of my students is something I cannot live without!<br><br></p>
+
+<p>Bio:<br>
+Mint Nguyen has passionately taught GX classes for five years at CFYC. In addition to motivating and inspiring her students, Mint enjoys biking, rock climbing, hanging out with friends, traveling, and reading..</p>");
 
 define("LANG_SUCCESS_STORIES_DESC","<h3>TRUC HIEN</h3><p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the Body Transformation Challenge.</p>");
 

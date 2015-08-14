@@ -86,13 +86,13 @@ define("LANG_DYNAMIC_STRETCHING_TRAINER4_CONTENT_DS",'
 - Training over 200 clients of all different ages, abilities & levels of fitness.<br>
 - Having extensive experience with post–injury rehab.</p>
 ');
-define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Looking younger and releasing all your stress!");
+define("LANG_DYNAMIC_STRETCHING_SIGNUP_TITLE","Feel younger and release all your stress!");
 define("LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT","
-<p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
-<p>» Personalized fitness and health plan</p>
-<p>» Exclusive 1 on 1 training that fits your schedule</p>
-<p>» Dedicated attention and motivation</p>
-<p>» Proven weight loss and muscle building results system</p>
-<p>Book A Consultation Now</p>
+<p>Let us help you reach your goals in the shortest time.<br><br> <strong>Sign up for 2 PT or Dynamic Stretching sessions and 1 week pass, just 500.000vnd. <br><br>Including:</strong></p>
+<p>Personalized fitness and health plan</p>
+<p>Exclusive 1 on 1 training that fits your schedule</p>
+<p>Dedicated attention and motivation</p>
+<p>Proven weight loss and muscle building results system</p>
+<p><strong>Book A Consultation Now</strong></p>
 ");
 
