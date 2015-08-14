@@ -105,9 +105,9 @@ define("LANG_KICKFIT_MMA_TRAINER4_CONTENT",'
 
 define("LANG_KICKFIT_MMA_SIGNUP_TITLE","Bạn đã sẵn sàng để chinh phục bản thân?");
 define("LANG_KICKFIT_MMA_SIGNUP_CONTENT","
-<p></p>Cảm nhận những xung động mạnh mẽ từ cơ bắp khi hàng tá  kilo calo bị đốt cháy. Các bài tập toàn thân sẽ khiến bạn phải THỰC SỰ kiệt sức. Chỉ 500.000vnd cho 2 buổi tập KickFit và 1 tuần tập luyện tại Cali
-<p>» Tự tin với cơ thể mạnh mẽ, tràn đầy sức mạnh</p>
-<p>» Sẵn sàng chinh phục mọi thách thức trong công việc và cuộc sống</p>
-<p>» Các động tác lấy cảm hứng từ Muay Thai và Đấm Bốc</p>
-<p>Đăng ký tập ngay HÔM NAY</p>
+<p></p>Cảm nhận những xung động mạnh mẽ từ cơ bắp khi hàng tá  kilo calo bị đốt cháy. Các bài tập toàn thân sẽ khiến bạn phải THỰC SỰ kiệt sức.<br><br> <strong>Chỉ 500.000vnd cho 2 buổi tập KickFit hoặc MMA và 1 tuần tập luyện tại Cali<br><br></strong>
+<p>Tự tin với cơ thể mạnh mẽ, tràn đầy sức mạnh</p>
+<p>Sẵn sàng chinh phục mọi thách thức trong công việc và cuộc sống</p>
+<p>Các động tác lấy cảm hứng từ Muay Thai và Đấm Bốc</p>
+<p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ");

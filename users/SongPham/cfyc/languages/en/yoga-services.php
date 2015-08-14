@@ -130,9 +130,9 @@ define("LANG_YOGA_YOGI_CONTENT","
 ");
 define("LANG_YOGA_SIGNUP_TITLE","Experience The Healing Power Of Yoga");
 define("LANG_YOGA_SIGNUP_CONTENT",' 
-<p>Relax and discover the incredible benefits of yoga. Calm your mind, build strength and improve your state of being. Just 500.000vnd for 10 Yoga classes</p>
-<p>» International yoga instructors</p>
-<p>» World class Facilities</p>
-<p>» Flexible schedules that suit you</p>
-<p>Experience A Class Now</p>
+<p>Relax and discover the incredible benefits of yoga. Calm your mind, build strength and improve your state of being.<br><br><strong>Just 500.000vnd for 10 Yoga classes</strong></p>
+<p>International yoga instructors</p>
+<p>World class Facilities</p>
+<p>Flexible schedules that suit you</p>
+<p><strong>Experience A Class Now</strong></p>
 ');

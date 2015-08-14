@@ -82,10 +82,10 @@ define("LANG_TRAINER4_CONTENT_PTX",'
 ');
 define("LANG_SIGNUP_TITLE_PTX","GET THE BODY YOU DESERVE!");
 define("LANG_SIGNUP_CONTENT_PTX","
-<p>Let us help you reach your goals in shortest time. Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including</p>
-<p>» Personalized fitness and health plan</p>
-<p>» Exclusive 1 on 1 training that fits your schedule</p>
-<p>» Dedicated attention and motivation</p>
-<p>» Proven weight loss and muscle building results system</p>
-<p>Book A Consultation Now</p>
+<p>Let us help you reach your goals faster. <br><br><strong>Sign up for 2 PT sessions and 1 week pass, just 500.000vnd. Including:</strong></p>
+<p>Personalized fitness and health plan</p>
+<p>Exclusive 1 on 1 training that fits your schedule</p>
+<p>Dedicated attention and motivation</p>
+<p>Proven weight loss and muscle building results system</p>
+<p><strong>Book A Consultation Now</strong></p>
 ");

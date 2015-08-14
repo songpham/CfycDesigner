@@ -129,9 +129,9 @@ define("LANG_YOGA_YOGI_CONTENT","
 ");
 define("LANG_YOGA_SIGNUP_TITLE","Cảm nhận năng lượng kì diệu từ Yoga");
 define("LANG_YOGA_SIGNUP_CONTENT",'
-<p>Trải nghiệm Yoga đích thực giúp tăng thể lực, độ dẻo dai và trẻ hóa cơ thể khi luyện tập cùng thầy Ấn Độ - Quê hương của Yoga. Chỉ 500.000vnd cho 10 buổi tập</p>
-<p>» Giáo Viên Yoga đến từ Ấn Độ</p>
-<p>» Lớp học theo tiêu chuẩn Quốc Tế</p>
-<p>» Lịch tập luyện linh hoạt, phù hợp với tất cả mọi người</p>
-<p>Đăng ký tập ngay HÔM NAY</p>
+<p>Trải nghiệm Yoga đích thực giúp tăng thể lực, độ dẻo dai và trẻ hóa cơ thể khi luyện tập cùng thầy Ấn Độ - Quê hương của Yoga.<br><br><strong> Chỉ 500.000vnd cho 10 buổi tập</strong></p>
+<p>Giáo Viên Yoga đến từ Ấn Độ</p>
+<p>Lớp học theo tiêu chuẩn Quốc Tế</p>
+<p>Lịch tập luyện linh hoạt, phù hợp với tất cả mọi người</p>
+<p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ');
