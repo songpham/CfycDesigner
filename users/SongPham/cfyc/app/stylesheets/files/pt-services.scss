@@ -470,8 +470,10 @@
             }
         }
     }
-    	.carousel.slide.desktop {
+        	.carousel.slide.desktop {
 		display: block;
+		max-height: 450px;
+		overflow: hidden;
 		@media (max-width:767px) {
 			display: none;
 		}
