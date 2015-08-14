@@ -67,7 +67,7 @@
             <!-- IMAGE -->
             <div class="image">
                 <div class='img-wrapper'>
-                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE ?>'/>
+                    <img src='<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE ?>'/>
                     <div class='before'>
                         <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
                     </div>
@@ -96,7 +96,7 @@
             <!-- IMAGE -->
             <div class="image">
                 <div class='img-wrapper'>
-                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE ?>'/>
+                    <img src='<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_IMAGE ?>'/>
                     <div class='before'>
                         <?php echo LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE ?>
                     </div>
@@ -125,7 +125,7 @@
             <!-- IMAGE -->
             <div class="image">
                 <div class='img-wrapper'>
-                    <img src='img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE ?>'/>
+                    <img src='<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE ?>'/>
                     <div class='before'>
                        <?php echo LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE ?>
                     </div>
