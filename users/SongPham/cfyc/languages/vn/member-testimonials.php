@@ -24,7 +24,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE', '
         <p>Cân nặng: 62.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER', '
-        <h3>after</h3>
+        <h3>Lượng mỡ: </h3>
         <p>Lượng mỡ: 18.5kg</p>
         <p>Cân nặng: 58.5kg</p>
     ');
