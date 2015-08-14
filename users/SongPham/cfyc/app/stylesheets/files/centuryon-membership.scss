@@ -18,11 +18,14 @@
 	.text-box { max-width: 90%; margin: 0 auto;}
 
 	.row.banner-top {
+		@media (min-width:568px){
 		background:#000 url(../img/centuryon-membership/centuryon-membership-header.jpg) center top no-repeat;
 		position: relative;
 		background-size: 100%; min-height: 550px;
+		}
 		   @media (max-width: 567px) {
 		   min-height: 600px;
+		   position: relative;
 		   background:#000 url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
 		   background-size: cover;
 		   }

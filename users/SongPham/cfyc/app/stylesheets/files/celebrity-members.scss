@@ -2,11 +2,14 @@
 .celebrity-members-page {
 		.nav-tabs {border-bottom: 0px solid #fff;}
 	   .banner-top {
+	   @media (min-width:768px) {
         position: relative;
         background: #fff url(../img/celebrity-members/california-wow-celebrity-members.jpg) center top no-repeat;
         background-size: 100%;
+        }
         @media (max-width:767px) {
 	         background: #fff url(../img/celebrity-members/m-california-wow-celebrity-members.jpg) center top no-repeat;
+	         position: relative;
 	         background-size: cover;
 	         min-height: 500px;
         }

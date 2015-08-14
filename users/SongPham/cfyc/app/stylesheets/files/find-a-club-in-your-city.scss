@@ -3,9 +3,11 @@
 .container-fluid.page.find-a-club-page {
     h4 { line-height: 1.3em;}
     .banner-top {
+    	@media (min-width:768px) {
 	    background: #000 url(../img/find-a-club-in-your-city/find-a-club-banner.jpg) center top no-repeat;
 	    background-size: 100%;
 	    min-height: 500px;
+	    }
 	    @media (max-width:767px) {
 		    background: #000 url(../img/find-a-club-in-your-city/m-find-a-club-banner.jpg) center top no-repeat;
 		    background-size: cover;

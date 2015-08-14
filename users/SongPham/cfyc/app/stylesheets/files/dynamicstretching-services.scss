@@ -465,7 +465,10 @@
         }
     }
        .carousel.slide.desktop {
-		display: block;
+       @media (min-width:768px) {
+	       display: block;
+       }
+		
 		@media (max-width:767px) {
 			display: none;
 		}
