@@ -8,7 +8,7 @@ $(document).ready(function () {
     var $desktopNavigation = $('#desktop-navigation'),
         isDesktopMenuWorking = false;
     $desktopNavigation.find('.desktop-menu a').click(function (e) {
-     	e.preventDefault(e);	
+
     	$(this).closest('ul').find('.active').removeClass('active');
     	$(this).addClass('active');
         if (isDesktopMenuWorking === false) {
