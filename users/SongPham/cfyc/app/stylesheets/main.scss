@@ -358,7 +358,7 @@ footer {
         padding: 10px 5px;
         
         i.fa.fa-bars { float: right; @media (max-width:320px){/*display: block; position: relative;right: -16px;top: 5px;*/}}
-        p.menu-toggle-label {float: left; font-size: .4em; padding: 10px 10px 0;
+        p.menu-toggle-label {float: left; font-size: .4em; padding: 5px 10px 0; margin-bottom: 0px;
 	    	@media (max-width:320px) {
 	    	   /* float: none;padding: 10px 5px 5px 0px;
 	    	    margin-bottom: -10px;
