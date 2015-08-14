@@ -59,14 +59,14 @@
                     span {
                         text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
                         @media (max-width:767px) {
-	                         margin:-10px auto ;
+	                         margin:0 auto ;
                         }                  
                     }
                    .red_btn{ 
                    		position: absolute;
 				   		width: 100%;
 				   		left: 0px;
-					   		   
+                        bottom: 5px;					   		   
 	                   a {
 				              color: $white;
 							  font-size: 12px;
@@ -107,6 +107,14 @@
                     font-size: 100%;
                     left:0px;
                     margin: 0 auto;
+                }
+            }
+            @media (min-width: 240px) and (max-width: 960px){
+                .cta{
+                    bottom: 10px !important;
+                    .red_btn{
+                        bottom: -5px !important;
+                    }
                 }
             }
         }
