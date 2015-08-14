@@ -70,8 +70,6 @@
     <!-- MID BANNER -->
     <div class="row mid-banner">
         <div class="caption"><?php echo LANG_CELEBRITY_TRAINING_MID_BANNER_CAPTION ?></div>
-        <div class="d-image"><img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/mid-banner.jpg" alt="DJ" width="100%"></div>
-        <div class="m-image"><img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/celebrity-training/m-mid-banner.jpg" alt="DJ" width="100%"></div>
     </div>
     <!-- END MID BANNER -->
 

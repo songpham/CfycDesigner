@@ -18,7 +18,7 @@ $containerWidth : 1200px;
             background: #fff url(../img/celebrity-training/m-banner-top.jpg) center top no-repeat;
             background-size: cover;
             min-height: 500px;
-        }
+        } 
         .cta {
             max-width: 42vw;
             margin: 17vw 0 90px 5%;
@@ -349,12 +349,15 @@ $containerWidth : 1200px;
 
         // MID BANNER
         .mid-banner {
-            .d-image {display: block;}
-            .m-image {display: none;}
-            @media (max-width: 768px) {
-                .d-image {display: none;}
-                .m-image {display: block;}
-            }
+            position: relative;
+            background: #fff url(../img/celebrity-training/mid-banner.jpg) center top no-repeat;
+            background-size: 100%;
+            min-height: 33vw;
+            @media (max-width:767px) {
+                background: #fff url(../img/celebrity-training/m-mid-banner.jpg) center top no-repeat;
+                background-size: cover;
+                min-height: 500px;
+            } 
             position: relative;
             .caption {
                 position: absolute;
