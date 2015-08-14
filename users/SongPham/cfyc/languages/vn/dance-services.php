@@ -122,10 +122,10 @@ define("LANG_DANCE_SIGNUP_TITLE","Sẵn sàng nhảy theo cách bạn muốn");
 define("LANG_DANCE_SIGNUP_CONTENT","
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
 <p><strong>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</strong></p>
-<p><strong>BodyJam</strong> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
-<p><strong>Zumba và các điệu nhảy Latin</strong> – Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
-<p><strong>Belly Dance</strong> – Toả sáng với vũ điệu của hông và bụng</p>
-<p><strong>SH'BAM</strong> - Hip Hop, Break Dance và Electro</p>
-<p><strong>Sexy Dance</strong> – Nghệ thuật quyến rũ trong từng bước nhảy</p>
+<p><strong>BodyJam</strong><br> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
+<p><strong>Zumba và các điệu nhảy Latin</strong><br>Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
+<p><strong>Belly Dance</strong><br>Toả sáng với vũ điệu của hông và bụng</p>
+<p><strong>SH'BAM</strong><br>Hip Hop, Break Dance và Electro</p>
+<p><strong>Sexy Dance</strong><br>Nghệ thuật quyến rũ trong từng bước nhảy</p>
 <p><strong>Đăng ký tập ngay HÔM NAY</strong></p>
 ");
