@@ -24,7 +24,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE', '
         <p>Cân nặng: 62.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER', '
-        <h3>Lượng mỡ: </h3>
+        <h3>sau</h3>
         <p>Lượng mỡ: 18.5kg</p>
         <p>Cân nặng: 58.5kg</p>
     ');
@@ -50,7 +50,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_BEFORE', '
         <p>Cân nặng: 84.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_AFTER', '
-        <h3>after</h3>
+        <h3>sau</h3>
         <p>Lượng mỡ: 6.4kg</p>
         <p>Cân nặng: 66.9kg</p>
     ');
@@ -68,7 +68,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE', '
         <p>Cân nặng: 84.2kg</p>
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
-        <h3>after</h3>
+        <h3>sau</h3>
         <p>Lượng mỡ: 6.4kg</p>
         <p>Cân nặng: 66.9kg</p>
     ');
