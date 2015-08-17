@@ -81,7 +81,7 @@ define("LANG_TRAINER4_CONTENT_PTX",'
 ');
 define("LANG_SIGNUP_TITLE_PTX","SỠ HỮU VÓC DÁNG TRONG MƠ!");
 define("LANG_SIGNUP_CONTENT_PTX","
-<p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. <strong>Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali<strong></p>
+<p>Để chúng tôi giúp bạn sở hữu thân hình lý tưởng trong thời gian ngắn nhất. <br><br><strong> Đăng kí để nhận 2 buổi tập cùng HLV cá nhân và 1 tuần tập luyện tại Cali</strong></p>
 <p>Thực đơn dinh dưỡng phù hợp cho riêng bạn</p>
 <p>Luyện tập 1 kèm 1 bất cứ khi nào bạn muốn</p>
 <p>Người truyền động lực và nguồn cảm hứng tuyệt vời</p>

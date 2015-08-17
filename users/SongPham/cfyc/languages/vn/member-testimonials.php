@@ -30,15 +30,18 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER', '
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_TITLE', 'Nataly Pham');
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_CONTENT', "
-        <p>Regular fitness keeps me healthy both physically and mentally! I had no idea what kind of world I was getting into when I changed my lifestyle to a more fit and healthy one, but I'm thankful I did. Here are a few ways fitness changed my life for the better.</p>
-        <p>1. It helped me kick bad habits. I would come home, get into workout gear, push myself and grab for water instead of vodka. </p>
-        <p>2. My competition is myself. We live in a society where we constantly compare ourselves to others. What I love about fitness is that your competition is yourself. You always want to do better than you did the last time. </p>
-        <p>3. My best ideas are a result of a good workout. I have had more 'A-HA!' moments while in the gym than anywhere else.</p>
-        <p>4. I crave better foods. Just like how I no longer craved alcohol at the end of every day, when I started exercising more, I began to crave healthier foods. </p>
-        <p>5. I'm more motivated. There's something about reaching small goals that motivates you in other areas in your life as well. The more goals I make through fitness, the more goals I want to make in other areas of my life. Fitness helps improve my career, my relationships and my overall outlook on life. </p>
-        <p>6. I'm capable. The more I work on getting stronger, the more I can do physically. </p>
-        <p>7. I have a can do attitude. Knowing I can reach my fitness goals gives me an I-can-do-anything attitude that is much needed when I feel down. </p>
-        <p>8. I look good.</p>
+        <p>Tập luyện thường xuyên giúp tôi khoẻ mạnh cả thể chất lẫn tinh thần. Tôi cảm thấy mọi thứ tuyệt vời hơn rất nhiều khi tôi thay đổi lối sống để có thân hình cân đối và khoẻ mạnh, nhưng tôi biết ơn vì mình đã làm được điều đó. Sau đây là một số điều mà tập luyện thể dục đã cải thiện cuộc sống của tôi: </p>
+        <p>1. Nó giúp tôi thay đổi những thói quen xấu. Tôi sẽ về nhà, vào guồng tập luyện, thúc ép bản thân và uống nước thay vì rượu vodka.</p>
+        <p>2. Đối thủ của tôi là chính mình. Chúng ta sống trong xã hội mà ta liên tục so sánh mình với những người khác. Điều làm tôi yêu việc luyện tập là bạn sẽ cạnh tranh với chính mình. Càng tập càng tăng cường ý chí, tôi luôn muốn mình làm tốt hơn lần trước.
+ </p>
+        <p>3. Những ý tưởng tuyệt vời nhất của tôi đều nhờ tập luyện mà có. Khi tập, tinh thần thoải mái, tỉnh táo, mang đến những ý tưởng hay ho cho công việc.</p>
+        <p>4. Tôi muốn ăn những thực phẩm tốt cho sức khoẻ nhiều hơn, cũng như tôi không còn thèm đồ uống có cồn vào cuối ngày. Khi bắt đầu tập luyện nhiều hơn, tôi bắt đầu muốn ăn những thực phẩm tốt và lành mạnh cho sức khoẻ hơn.
+</p>
+        <p>5. I'm more motivated. There's something about reaching small goals that motivates you in other areas in your life as well. The more goals I make through fitness, the more goals I want to make in other areas of my life. Fitness helps improve my career, my relationships and my overall outlook on life.5. Tôi có nhiều động lực hơn, cũng việc vươn đến các mục tiêu nhỏ sẽ tạo động lực cho bạn ở những lĩnh vực khác trong cuộc sống. Bạn càng có nhiều mục tiêu trong việc tập luyện, bạn càng muốn có nhiều mục tiêu hơn ở những mặt khác trong cuộc sống. Luyện tập giúp cải thiện sự nghiệp, các mối quan hệ và cái nhìn chung về cuộc sống của tôi.
+</p>
+        <p>6. Tôi ý thức rõ hơn về năng lực bản thân. Tôi càng luyện tập để có sức mạnh, tôi càng làm được những việc đòi hỏi thể chất.</p>
+        <p>7. Tôi có thái độ tích cực hơn về mọi chuyện, hy vọng và vươn tới. Việc biết được mình có thể chạm đến những mục tiêu trong việc tập luyện cho tôi tinh thần rằng mình-có-thể-làm-bất-kỳ-điều-gì, một tinh thần rất cần thiết khi tôi tuyệt vọng.</p>
+        <p>8. Tôi cảm thấy đẹp hơn.</p>
     ");
 
 
@@ -56,7 +59,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_AFTER', '
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_TITLE', 'Lâm Phương Bách');
 define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
-        <p>Bach was only 18 years old when he signed up for BTC9 (Body Transformation Challenge 9) he lost 13.9 kg (16.5%) in 8 weeks. He was attending an American university at the time and returned to Vietnam for vacation where he join BTC. He’s fan of fast food. He thought he’s overweight so he’s not confident in communicating with others and got away from outdoor activities. Bach participated in almost every boot camp that was offered. After the Body Transformation Challenge ended he maintained a healthy diet and disciplined training. He completely re-designed himself by taking the initiative to change his health and his life, got better educational results, became more active…</p>
+        <p>Lâm Phương Bách từng có thân hình khá tròn trịa với lượng cơ vừa đủ nhưng dư mỡ dù từng tham gia nhiều môn thể thao. Với quyết tâm cao độ, Bách chấp nhận lời thách thức thay đổi hình thể của California Fitness and Yoga và đã đạt được “kỳ tích” đáng ngưỡng mộ, giảm 13,9kg mỡ chỉ trong 8 tuần luyện tập. Đó là cả một quá trình gian khổ với cậu sinh viên vốn đam mê trà sữa, đồ nướng, fastfood. Ngoài cắt giảm lượng thức ăn vặt, tinh bột, đường và chất béo, Bách rất chăm chỉ tập cardio, kết hợp với tập tạ cùng HLV cá nhân. Đối với Bách, quá trình khổ luyện không chỉ giúp anh thay đổi hình thể mà còn trở nên tự tin và bền chí hơn trước rất nhiều.</p>
     ");
 
 
@@ -74,5 +77,5 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
     ');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
-        <p>Trang met some difficulties in work and communication because of her appearance (fat body). She looked through some fitness centre in Hanoi and finally found California the best. She followed the guidance of PT. The biggest difficulties was her food appetite. The more workout she did, the hungrier she felt. But PT was strict with Trang about nutrion, so she gradually controlled what to eat for the best result. She lost 9.5kg of fat, gained 3.5kg muscle, increase Inbody point from 66 to 89! She got confidence, will, determination, belief in herself and life!</p>
+        <p>Từng sở hữu thân hình không hoàn hảo, chị Võ Huyền Trang gặp nhiều khó khăn trong cuộc sống, công việc và khiến chị mất tự tin khi giao tiếp. Quyết định tham gia chương trình Body Transformation Challenge tại TT California Fitness & Yoga của chị Võ Huyền Trang đã giúp chị thay đổi hoàn toàn về cả ngoại hình lẫn sự tự tin. Để có được vóc dáng như mong muốn, chị Trang phải tuân theo những chỉ dẫn nghiêm ngặt từ Huấn luyện viên cá nhân. Vật cản lớn nhất cho công cuộc giảm cân của chị Trang đến từ cảm giác thèm ăn. Chính sự nghiêm túc và lời động viên của HLV cá nhân, chị Trang dần điều chỉnh và kiểm soát chế độ dinh dưỡng của mình. Sau 8 tuần, thành quả chị nhận được là giảm được 9.5 kg mỡ, tăng 3.5 kg cơ. Không chỉ là thân hình mơ ước bấy lâu, thể dục thể hình còn cho chị Trang ý chí, nghị lực, sự quyết tâm và tự tin trong cuộc sống.</p>
     ");

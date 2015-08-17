@@ -43,13 +43,13 @@
 	    				<a href="https://www.youtube.com/user/CaliFitnessYogaVN"><i class="fa fa-youtube-square icons"></i></a>
 	    			</div>
 	    			<ul>
-	    				<li><a href="#">Careers</a></li>
+	    				<li><a href="<?php echo USER_BASE_URL ?>/careers"><?php echo LANG_FOOTER_CAREER ?></a></li>
 	    				<!-- <li><a href="#">Education</a></li> -->
-	    				<li><a href="<?php echo USER_BASE_URL ?>/contact-us">Contact Us</a></li>
-	    				<li><a href="http://www.cfyc.com.vn/lifestyle/tin-tuc/">Press Releases</li>
-	    				<li><a href="<?php echo USER_BASE_URL ?>/terms_conditions">Terms And Conditions</a></li>
+	    				<li><a href="<?php echo USER_BASE_URL ?>/contact-us"><?php echo LANG_FOOTER_CONTACT ?></a></li>
+	    				<li><a href="http://lifestyle.cfyc.com.vn/su-kien/"><?php echo LANG_FOOTER_PRESS ?></li>
+	    				<li><a href="<?php echo USER_BASE_URL ?>/terms_conditions"><?php echo LANG_FOOTER_TERMS_CONDITIONS ?></a></li>
 	    				<!-- <li><a href="#">FAQ</a></li> -->
-	    				<li><a href="<?php echo USER_BASE_URL ?>/privacy-policy">Privacy Policy</a></li> 
+	    				<li><a href="<?php echo USER_BASE_URL ?>/privacy-policy"><?php echo LANG_FOOTER_PRIVACY ?></a></li> 
 	    			</ul>
 	    			<ul>
 	    				

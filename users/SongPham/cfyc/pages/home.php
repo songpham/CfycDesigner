@@ -2,21 +2,19 @@
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
     <div class="row gallery home-banner-top">
-            <img class="hidden-xs" src="img/home/california-wow-banner.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
-            <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-banner-mobile.jpg"  title="<?=HOME_BANNER_1?>" alt="<?=HOME_BANNER_1?>">
-        <div class="cta">
+            <div class="cta">
             <fieldset>
-                <legend align="center"><?php echo HOME_BANNER_1?></legend>
+                <legend><?php echo HOME_BANNER_1?></legend>
                 <hr/>
                 <span>
-                    <?php echo HOME_BANNER_2 ?>
+                     <?php echo HOME_BANNER_2 ?>
                 </span>
-                <div class="red_btn">
-               		 <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
+                <div class="red-btn">
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
                 </div>
             </fieldset>
         </div>
-    </div>
+   </div>
     <div class="row top-content">
         <div class="holder-top-content">
             <div class="col-md-12 text-center">
@@ -196,7 +194,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE_CLUBS?>" title="<?=LANG_SEE_MORE_CLUBS?>"><?=LANG_SEE_MORE_CLUBS?></a>
                     </div>
                 </div>
             </div>
@@ -257,7 +255,14 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                         <div class="roundphoto">
-                            <img src='img/home/success_n.png' onmouseover="this.src='img/home/success_h.png';" onmouseout="this.src='img/home/success_n.png';" />
+                            <img src='<?php echo USER_BASE_URL ?>/img/home/success-n.png' onmouseover="this.src='<?php echo USER_BASE_URL ?>/img/home/success_h.png';" onmouseout="this.src='<?php echo USER_BASE_URL ?>/img/home/success-n.png';" />
+                            <!-- Member success stories -->
+                            <div class='before'>
+								<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
+							</div>
+							<div class='after'>
+								<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER ?>
+							</div>
                         </div>
                         <?=LANG_SUCCESS_STORIES_DESC?>
                     </div>
@@ -266,7 +271,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="member-testimonials<?php echo getSuffix('lang=' . $LANG) ?> " alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="member-testimonials<?php echo getSuffix('lang=' . $LANG) ?> " alt="<?=LANG_SEE_MORE_SUCCESS_STORIES?>" title="<?=LANG_SEE_MORE_SUCCESS_STORIES?>"><?=LANG_SEE_MORE_SUCCESS_STORIES?></a>
                     </div>
                 </div>
             </div>
@@ -350,7 +355,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="celebrity-members<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="celebrity-members<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE_CELEBRITIES?>" title="<?=LANG_SEE_MORE_CELEBRITIES?>"><?=LANG_SEE_MORE_CELEBRITIES?></a>
                     </div>
                 </div>
             </div>
@@ -432,22 +437,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="http://lifestyle.cfyc.com.vn<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="http://lifestyle.cfyc.com.vn<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE_STORIES?>" title="<?=LANG_SEE_MORE_STORIES?>"><?=LANG_SEE_MORE_STORIES?></a>
                     </div>
                 </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
                 <div class="strike"><h2><?=LANG_SPECIAL_OFFERS?></h2></div>
-                <div class="row">
-                    <div class="col-md-3">
-                    </div>
-                    <div class="col-md-6">
-                        <?='<p>'.LANG_SPECIAL_OFFERS_SUB.'</p>'?>
-                    </div>
-                    <div class="col-md-3">
-                    </div>
-                </div>
                 <div class="whitespace"></div>
                 <div class="row special_offers">
                     <div class="col-md-2 hide-sm text-center">

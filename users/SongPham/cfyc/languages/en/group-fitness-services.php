@@ -10,16 +10,14 @@ define("LANG_GROUP_BANNER_TITLE_GROUP","Visit us for a free membership trial tod
 
 define("LANG_GROUP_CALIDANCE_GROUP","About California Group Fitness");
 define("LANG_GROUP_CALIDANCE_CONTENT_GROUP",'
-<p>Energize your workouts in a fun and fast paced group atmosphere. Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!  Move your way to cardio fitness with BodyJam. Ride your cycling workout with RPM. Unleash a fusion of cardio workout and martial arts with BodyCombat. Power up every muscle in your body with the barbell class BodyPump or sculpt your abs with bums and tums classes.</p>
-<p></p>
+<p>Energize your workouts in a fun and fast paced group atmosphere. Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!  Move your way to cardio fitness with BodyJam. Ride your cycling workout with RPM. Unleash a fusion of cardio workout and martial arts with BodyCombat. Power up every muscle in your body with the barbell class BodyPump or sculpt your abs with bums and tums classes.<br><br></p>
 <p>Whatever your style, we guarantee you will find a Group Fitness class suitable for your goals and preferences.</p>
 ');
 define("LANG_GROUP_YOUTUBE_GROUP","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
 define("LANG_GROUP_BENEFIT_GROUP","What are the benefits of group fitness?");
 define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
-<p>Group fitness provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way.</p>
-<p>All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes Show two photos of people practicing group fitness (one should be cycling)</p>
+<p>Group fitness provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way. All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes </p>
 ');
 define("LANG_GROUP_DISCOVER_GROUP","Discover Group Fitness at California Fitness & Yoga");
 define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT (M)");

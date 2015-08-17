@@ -1,27 +1,36 @@
 <?php
-define("HOME_BANNER_1","kỷ niệm thành lập trung tâm thể hình thứ 22 trong 8 năm");
-define("HOME_BANNER_2","<br/>khám phá trung tâm gần bạn nhất ngay hôm nay<br/><br/>");
+define("HOME_BANNER_1","California Fitness & Yoga kỉ niệm 22 trung tâm được thành lập trong suốt 8 năm qua");
+define("HOME_BANNER_2","<br/>Đăng kí cùng chúng tôi ngay hôm nay và khám phá các phương pháp thể hình hàng đầu đã được hơn 100.000 người tin tưởng 
+<br/><br/>");
 define("HOME_BANNER_3","tìm một trung tâm");
 define("LANG_HOMEPAGE", "Trang chủ");
-define("LANG_OUR_SERVICES", "DỊCH VỤ");
-define("LANG_OUR_SERVICES_SUB", "Science doesn't lie and neither do we. Our clinically proven approach is fueled by reality. The fantasy is where you come in.");
-define("LANG_FIND_YOUR_CLUB", "TRUNG TÂM CALIFORNIA WOW");
-define("LANG_FIND_YOUR_CLUB_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_FIND_YOUR_TRAINER", "TÌM HUẤN LUYỆN VIÊN");
-define("LANG_FIND_YOUR_TRAINER_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_SUCCESS_STORIES", "CÂU CHUYỆN THÀNH CÔNG");
-define("LANG_SUCCESS_STORIES_SUB", "It's a 24/7 hangout for high-performance living. Smart, evocative, ahead of the curve. Get inspired, get informed, get it here.");
-define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBERS");
-define("LANG_CELEBRITIES_MEMBERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_FEATURE_STORIES", "BÀI VIẾT NỔI BẬT");
-define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_SPECIAL_OFFERS", "KHUYẾN MÃI");
-define("LANG_SPECIAL_OFFERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
+define("LANG_OUR_SERVICES", "Các dịch vụ nâng cao chất lượng sống");
+define("LANG_OUR_SERVICES_SUB", "Sở hữu vóc dáng bạn hằng mơ ước - đốt cháy cân nặng thừa trong thời gian ngắn nhất cùng các chuyên gia thể hình quốc tế và tự do trải nghiệm các lớp thể dục nhóm đầy sôi động ");
+define("LANG_FIND_YOUR_CLUB", "Tìm trung tâm gần bạn nhất");
+define("LANG_FIND_YOUR_CLUB_SUB", "Hiện chúng tôi đã có mặt trên 6 thành phố lớn trên khắp Việt Nam, hãy chọn trung tâm phù hợp nhất để bắt đầu tập luyện hoặc khám phá thêm về những trung tâm sắp mở cửa gần nơi bạn sống");
+define("LANG_FIND_YOUR_TRAINER", "Gặp trực tiếp những chuyên gia thể hình hàng đầu");
+define("LANG_FIND_YOUR_TRAINER_SUB", "Dù bạn yêu thích Yoga, đam mê bộ môn Dance đầy sôi động, hay môn võ MMA cực mạnh mẽ. Bạn sẽ luôn được hướng dẫn bởi những chuyên gia hàng đầu, với cam kết làm cho cuộc sống tốt đẹp hơn <br><br>Hãy tìm hiểu thêm về một số chuyên gia nổi bật của chúng tôi ");
+define("LANG_SUCCESS_STORIES", "Chúng tôi làm cuộc sống tốt đẹp hơn");
+define("LANG_SUCCESS_STORIES_SUB", "Khám phá phương pháp đã giúp thay đổi cuộc sống của hàng trăm ngàn người tại Việt Nam, giúp họ thay đổi hoàn toàn cơ thể, truyền cảm hứng và đạt được vẻ ngoài như mơ ước ");
+define("LANG_CELEBRITIES_MEMBERS", "Các hội viên nổi tiếng");
+define("LANG_CELEBRITIES_MEMBERS_SUB", "Chúng tôi luôn là lựa chọn hàng đầu cho các chính trị gia, ngôi sao giải trí, người mẫu thời trang và doanh nhân khi họ bắt đầu tập luyện
+.");
+define("LANG_FEATURE_STORIES", "Nơi bạn có thể đặt trọn niềm tin");
+define("LANG_FEATURE_STORIES_SUB", "Những xu hướng tập luyện mới nhất, các lời tư vấn trực tiếp từ chuyên gia và vô số thông tin hữu ích về sức khỏe luôn được cập nhật, giúp bạn nhanh chóng đạt được thân hình mong muốn và sở hữu cuộc sống tốt đẹp hơn");
+define("LANG_SPECIAL_OFFERS", "Các ưu đãi đặc biệt");
 define("LANG_SPECIAL_OFFERS_URL_1", "http://www.cfyc.com.vn/lam-the-nao-de-co-vong-eo-thon-va-co-bung-phang.html");
-define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/tang-co-dt.html");
+define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/ky-niem-trung-tam-thu-22.html");
 
 
 define("LANG_SEE_MORE", "XEM NHIỀU HƠN");
+define("LANG_SEE_MORE_CLUBS", "XEM NHIỀU HƠN");
+define('LANG_SEE_MORE_SUCCESS_STORIES','XEM NHIỀU HƠN');
+define('LANG_SEE_MORE_CELEBRITIES','XEM NHIỀU HƠN');
+define('LANG_SEE_MORE_STORIES', 'XEM NHIỀU HƠN');
+
+
+
+
 
 define("LANG_PERSONAL_TRAINNER", "Huấn Luyện cá nhân");
 
@@ -57,7 +66,8 @@ define("LANG_TRAINNER_3" , " <h3>MINT NGUYỄN<br/><span>QUẢN LÝ CẤP TOÀN 
                             <p>Công việc tuyệt vời nhất của tôi là truyền lửa cho các học viên trong sự kết hợp của chuyển động cơ thể và âm nhạc, của luyện tập và niềm vui sống. Tôi hướng dẫn họ bằng cả trái tim và đam mê. Vì vậy, thật là mãn nguyện khi thấy các học viên yêu thích luyện tập trong các lớp GX đến mức họ cũng muốn trở thành huấn luyện viên như tôi. Cuộc sống thật có ý nghĩa khi mỗi ngày tôi đều được ngắm nhìn các học viên tràn đầy sức sống với những nụ cười tươi khiến gương mặt họ bừng sáng.</p>
                             <p><strong>Bio:</strong><br/>Mint Nguyễn đã làm giảng viên đầy nhiệt thành của các lớp GX hơn 5 năm qua tại CFYC. Ngoài việc động viên và truyền cảm hứng cho các học viên, Mint còn yêu thích tập đạp xe, leo núi, gặp gỡ bạn bè, đi du lịch và đọc sách.</p>");
 
-define("LANG_SUCCESS_STORIES_DESC","<h3>TRUC HIEN</h3><p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the Body Transformation Challenge.</p>");
+define("LANG_SUCCESS_STORIES_DESC","<h3>Nataly Phạm</h3><p>Tập luyện thường xuyên giúp tôi khoẻ mạnh cả thể chất lẫn tinh thần. Tôi cảm thấy mọi thứ tuyệt vời hơn rất nhiều khi tôi thay đổi lối sống để có thân hình cân đối và khoẻ mạnh, tôi biết ơn vì mình đã làm được điều đó.</p>");
+
 
 define("LANG_SUCCESS_STORIES_1_TITLE","những điều phái nữ cần biết khi tập gym giảm cân");
 define("LANG_SUCCESS_STORIES_1","Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.");

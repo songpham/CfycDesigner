@@ -1,28 +1,34 @@
 <?php
-define("HOME_BANNER_1","celebrating 22 clubs in 8 years");
-define("HOME_BANNER_2","<br/>find a club near you and visit us today<br/><br/>");
-define("HOME_BANNER_3","find a club");
+define("HOME_BANNER_1","California Fitness and Yoga celebrates 22 clubs over the past 8 years");
+define("HOME_BANNER_2","<br/>Visit us today and discover why we are the trusted fitness and lifestyle provider for over 100,000 people<br/><br/>");
+define("HOME_BANNER_3","Book Your VIP Visit");
 define("LANG_HOMEPAGE", "Home");
-define("LANG_OUR_SERVICES", "OUR SERVICES");
-define("LANG_OUR_SERVICES_SUB", "Science doesn't lie and neither do we. Our clinically proven approach is fueled by reality. The fantasy is where you come in.");
+define("LANG_OUR_SERVICES", "Life Enhancement Services");
+define("LANG_OUR_SERVICES_SUB", "Get the body of your dreams - burn fat and build muscle with our world class personal training while discovering dozens of programs and classes which matches both your goals and style. ");
 define("LANG_FIND_YOUR_CLUB", "FIND YOUR CLUB");
-define("LANG_FIND_YOUR_CLUB_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_FIND_YOUR_TRAINER", "FIND YOUR TRAINER");
-define("LANG_FIND_YOUR_TRAINER_SUB", "There's training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_SUCCESS_STORIES", "SUCCESS STORIES");
-define("LANG_SUCCESS_STORIES_SUB", "It's a 24/7 hangout for high-performance living. Smart, evocative, ahead of the curve. Get inspired, get informed, get it here.");
-define("LANG_CELEBRITIES_MEMBERS", "CELEBRITIES MEMBERS");
-define("LANG_CELEBRITIES_MEMBERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_FEATURE_STORIES", "FEATURE STORIES");
-define("LANG_FEATURE_STORIES_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
-define("LANG_SPECIAL_OFFERS", "SPECIAL OFFERS");
-define("LANG_SPECIAL_OFFERS_SUB", "There’s training, and there’s Cali training. Our science-fueled approach plus your commitment means goals get met. It’s like school (except you’re hotter now).");
+define("LANG_FIND_YOUR_CLUB_SUB", "Now in 6 cities throughout Vietnam and rapidly growing, we are conveniently located or coming soon to a location near you.");
+define("LANG_FIND_YOUR_TRAINER", "Meet our Fitness Experts");
+define("LANG_FIND_YOUR_TRAINER_SUB", "Whether your passion is yoga, dance, personal training, MMA or anything else, you'll find a dedicated team of fitness experts committed to making your life better. <br><br>View our featured trainers under each service.");
+define("LANG_SUCCESS_STORIES", "We make life better");
+define("LANG_SUCCESS_STORIES_SUB", "Discover how we have transformed the lives of thousands of people throughout Vietnam who had the same goals and aspirations as you and made their dreams a reality");
+define("LANG_CELEBRITIES_MEMBERS", "Celebrity Members");
+define("LANG_CELEBRITIES_MEMBERS_SUB", "We are the trusted health and fitness provider among the leaders and superstars of entertainment, fashion, business and more
+");
+define("LANG_FEATURE_STORIES", "Your trusted source for a better life");
+define("LANG_FEATURE_STORIES_SUB", "Stay up to date with what you care about most and enhance the quality of your health, fitness and lifestyle with the latest trends, innovations, advice and stories.");
+define("LANG_SPECIAL_OFFERS", "Hot offers");
 define("LANG_SPECIAL_OFFERS_URL_1", "http://www.cfyc.com.vn/how-to-get-a-slim-waist-and-flat-stomach.html");
-define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/do-you-want-to-build-lean-muscle-without-extra-fat.html");
+define("LANG_SPECIAL_OFFERS_URL_2", "http://www.cfyc.com.vn/celebrating-over-the-past.html");
 
-define("LANG_SEE_MORE", "SEE MORE");
+define("LANG_SEE_MORE", "SEE ALL SERVICES");
+define("LANG_SEE_MORE_CLUBS", "SEE MORE CLUBS");
+define('LANG_SEE_MORE_SUCCESS_STORIES','success stories');
+define('LANG_SEE_MORE_CELEBRITIES','see all celebrity members');
+define('LANG_SEE_MORE_STORIES', 'See More Stories');
 
-define("LANG_PERSONAL_TRAINNER", "PERSONAL TRAINER");
+
+
+define("LANG_PERSONAL_TRAINNER", "PERSONAL TRAINING");
 define("LANG_YOGA", "YOGA");
 define("LANG_GROUP_EXERCISE", "GROUP EXERCISE");
 define("LANG_KID_PROGRAM", "KID'S PROGRAM");
@@ -56,7 +62,7 @@ define("LANG_TRAINNER_3" , " <h3>MINT NGUYỄN<br/><span>COUNTRY MANAGER - GROUP
 <p>Bio:<br>
 Mint Nguyen has passionately taught GX classes for five years at CFYC. In addition to motivating and inspiring her students, Mint enjoys biking, rock climbing, hanging out with friends, traveling, and reading..</p>");
 
-define("LANG_SUCCESS_STORIES_DESC","<h3>TRUC HIEN</h3><p>My name is Truc Hien and I am a workaholic. Ms. Hien decided to change her life and, in just 3 months, recreated her body. Following through with tenacious determination, not only did she enhance her appearance, she won the Body Transformation Challenge.</p>");
+define("LANG_SUCCESS_STORIES_DESC","<h3>Nataly Phạm</h3><p>Regular fitness keeps me healthy both physically and mentally! I had no idea what kind of world I was getting into when I changed my lifestyle to a more fit and healthy one, but I'm thankful I did.</p>");
 
 define("LANG_SUCCESS_STORIES_1_TITLE","những điều phái nữ cần biết khi tập gym giảm cân");
 define("LANG_SUCCESS_STORIES_1","Gym là từ viết tắt của “Gymnasium”- phòng tập trang bị máy tập thể dục, dụng cụ thể hình chuyên dụng và có sự hướng dẫn của HLV. Quá trình tập Gym sẽ giúp đốt cháy lượng mỡ dư thừa trong cơ thể rất hiệu quả.");
