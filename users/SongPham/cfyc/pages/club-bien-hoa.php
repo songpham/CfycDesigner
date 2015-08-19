@@ -1,5 +1,5 @@
 
-<div class="container-fluid page club-page">
+<div class="container-fluid page club-page bien-hoa-club-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 
     <!-- TOP BANNER -->

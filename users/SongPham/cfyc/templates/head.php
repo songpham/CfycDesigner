@@ -23,7 +23,7 @@
     <link rel="icon" href="https://www.hopespeak.com/favicon.ico?version=188" type="image/x-icon">
     <!-- CSS -->
     <link href="<?php echo USER_BASE_URL ?>/css/vendor.min.css" rel="stylesheet">
-    <link href="<?php echo USER_BASE_URL ?>/css/bundle.min.css" rel="stylesheet">
+    <link href="<?php echo USER_BASE_URL ?>/css/bundle.min.css?v=1.0" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
