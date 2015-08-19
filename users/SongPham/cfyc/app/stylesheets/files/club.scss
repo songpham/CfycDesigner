@@ -13,6 +13,7 @@
 }
 
 
+
 .club-page {
 
     .carousel.slide, .information {
@@ -23,71 +24,7 @@
     .whitespace-3x {padding: 30px 0}
     
     // TOP BANNER
-    .bien-hoa-club-page .banner-top {
-    	@media (min-width:768px){
-        position: relative;
-        background: #fff url(../img/club/banner-bien-hoa.jpg) center top no-repeat;
-        background-size: 100%;
-        }
-        @media (max-width:767px) {
-        	position: relative;
-            background: #fff url(../img/club/m-banner-bien-hoa.jpg) center top no-repeat;
-            background-size: cover;
-            min-height: 500px;
-        }
-     }
-    .binh-duong-club-page .banner-top {
-    	@media (min-width:768px){
-        position: relative;
-        background: #fff url(../img/club/banner-binh-duong.jpg) center top no-repeat;
-        background-size: 100%;
-        }
-        @media (max-width:767px) {
-        	position: relative;
-            background: #fff url(../img/club/m-banner-binh-duong.jpg) center top no-repeat;
-            background-size: cover;
-            min-height: 500px;
-        }
-     }
-     .ha-noi-club-page .banner-top {
-    	@media (min-width:768px){
-        position: relative;
-        background: #fff url(../img/club/banner-ha-noi.jpg) center top no-repeat;
-        background-size: 100%;
-        }
-        @media (max-width:767px) {
-        	position: relative;
-            background: #fff url(../img/club/m-banner-ha-noi.jpg) center top no-repeat;
-            background-size: cover;
-            min-height: 500px;
-        }
-     }
-   .da-nang-club-page .banner-top {
-    	@media (min-width:768px){
-        position: relative;
-        background: #fff url(../img/club/banner-da-nang.jpg) center top no-repeat;
-        background-size: 100%;
-        }
-        @media (max-width:767px) {
-        	position: relative;
-            background: #fff url(../img/club/m-banner-da-nang.jpg) center top no-repeat;
-            background-size: cover;
-            min-height: 500px;
-        }
-     }
-    .nha-trang-club-page .banner-top {
-    	@media (min-width:768px){
-        position: relative;
-        background: #fff url(../img/club/banner-nha-trang.jpg) center top no-repeat;
-        background-size: 100%;
-        }
-        @media (max-width:767px) {
-        	position: relative;
-            background: #fff url(../img/club/m-banner-nha-trang.jpg) center top no-repeat;
-            background-size: cover;
-            min-height: 500px;
-        }
-     }
+
     .banner-top {
     	@media (min-width:768px){
         position: relative;
@@ -245,7 +182,74 @@
             }
 
         }
-    }
+    } //banner-top?????????
+    
+    
+     .bien-hoa-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-bien-hoa.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-bien-hoa.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+    .binh-duong-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-binh-duong.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-binh-duong.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+     .ha-noi-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-ha-noi.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-ha-noi.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+   .da-nang-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-da-nang.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-da-nang.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+    .nha-trang-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-nha-trang.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-nha-trang.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
 
     // CLUB TITLE
     .block {
@@ -284,7 +288,8 @@
                 @media (max-width: 320px) {max-width: 205px;}
             }
         }
-    }
+    } //block
+    
 
     .cyc {@include font-size(14px);font-weight: bold; color: #868686;text-transform: uppercase;}
     .down-icon {color: $red;@include font-size(35px);}
@@ -494,10 +499,76 @@
 	}
 		.carousel.slide.mobile {
 		display: none;
-		@media (max-width:767px) {
+ @media (max-width:767px) {
 			display: block;
 		}
 	}
 
 
 }
+
+    .bien-hoa-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-bien-hoa.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-bien-hoa.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+    .binh-duong-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-binh-duong.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-binh-duong.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+  /*   .ha-noi-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-ha-noi.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-ha-noi.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     } */
+   .da-nang-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-da-nang.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-da-nang.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }
+    .nha-trang-club-page .banner-top {
+    	@media (min-width:768px){
+        position: relative;
+        background: #fff url(../img/club/banner-nha-trang.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/club/m-banner-nha-trang.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        }
+     }

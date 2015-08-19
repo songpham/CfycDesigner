@@ -40,3 +40,4 @@ define('LANG_CITY_HANOI','Hanoi');
 define('LANG_CITY_DANANG','Da Nang');
 define('LANG_CITY_BINH_DUONG','Binh Duong');
 define('LANG_CITY_BIEN_HOA','Bien Hoa');
+define('LANG_CITY_NHA_TRANG','Nha Trang');

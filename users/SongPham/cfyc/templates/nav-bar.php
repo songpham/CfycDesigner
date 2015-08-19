@@ -29,6 +29,8 @@
                         <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
+
                     </ul>
                 </div>
             </div>
@@ -108,6 +110,8 @@
                         <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
+
                     </ul>
         </div>
         <div class="sub-menu collapse">

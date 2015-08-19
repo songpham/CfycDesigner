@@ -42,3 +42,4 @@ define('LANG_CITY_HANOI','Hà Nội');
 define('LANG_CITY_DANANG','Đà Nẵng');
 define('LANG_CITY_BINH_DUONG','Bình Dương');
 define('LANG_CITY_BIEN_HOA','Biên Hòa');
+define('LANG_CITY_NHA_TRANG','Nha Trang');
