@@ -46,9 +46,10 @@
                     </a>
                 </div>
                 <div class="col-sm-4 city">
-
+				<a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>">
                     <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/nhatrang.jpg" class="img-responsive img-circle">
-                    <h4>Nha Trang<br><span>Coming Soon</span></h4>
+                    <h4>Nha Trang</h4>
+				</a>
                 </div>
            </div>
        </div>

@@ -227,14 +227,9 @@
 
 
                         }
-                    }
-                    .overlay:hover {
-                        background:rgba(211,8,15,0.6);
-                        cursor:pointer;
-                        h2 {
-                            // border-top:1px solid $white;
-                            // border-bottom:1px solid $white;
-
+                        &:hover {
+	                     background:rgba(211,8,15,0.6);
+                        cursor:pointer; 
                         }
                     }
                 }

@@ -54,3 +54,7 @@ $breakpoint_menu: 1190px;
      -o-transition: $value;
      transition: $value;
 }
+
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
