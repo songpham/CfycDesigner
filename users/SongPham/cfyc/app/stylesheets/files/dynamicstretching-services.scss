@@ -470,6 +470,7 @@
        .carousel.slide.desktop {
        @media (min-width:768px) {
 	       display: block;
+	       margin-bottom: 50px;
        }
 		
 		@media (max-width:767px) {

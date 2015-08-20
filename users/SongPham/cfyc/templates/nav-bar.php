@@ -43,7 +43,7 @@
                         <li><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/yoga-service<?php echo getSuffix('lang=' . $LANG) ?>s"><?php echo LANG_SERVICES_YOGA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/yoga-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_YOGA ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>

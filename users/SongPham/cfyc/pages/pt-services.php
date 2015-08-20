@@ -19,7 +19,7 @@
     <div class="calidance container">
         <div class="row">
             <div class="strike"><h2><?=LANG_PT_CALIDANCE_PT?></h2></div>
-            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 <?=LANG_PT_CALIDANCE_CONTENT_PT?>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">

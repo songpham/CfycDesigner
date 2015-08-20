@@ -7,8 +7,8 @@ define("LANG_DANCE_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay
 define("LANG_DANCE_BANNER_TEXT_CTA","Đăng ký tập thử");
 
 define("LANG_DANCE_CALIDANCE","Các lớp nhảy Cali Dance");
-define("LANG_DANCE_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br>
-Hiện nay, với hơn 10 chương trình nhảy đủ mọi thể loại, việc đốt cháy năng lượng dư thừa sẽ trở nên thú hơn bao giờ hết. Hãy phiêu cùng các vũ điệu La-tinh, giải phóng cơ thể cùng các bước nhảy uyển chuyển đầy quyến rũ của Zumba. Khám phá cơ thể qua những chuyển động tinh tế của cơ thể với lớp múa bụng ấn tượng!<br>
+define("LANG_DANCE_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br><br>
+Hiện nay, với hơn 10 chương trình nhảy đủ mọi thể loại, việc đốt cháy năng lượng dư thừa sẽ trở nên thú hơn bao giờ hết. Hãy phiêu cùng các vũ điệu La-tinh, giải phóng cơ thể cùng các bước nhảy uyển chuyển đầy quyến rũ của Zumba. Khám phá cơ thể qua những chuyển động tinh tế của cơ thể với lớp múa bụng ấn tượng!<br><br>
 Tham gia vào lớp nhảy Sh’bam với các điệu nhảy mới được kết hợp với các điệu nhảy hiphop trẻ trung hay tập luyện vùng cơ bụng hiệu quả và tạo dáng ấn tượng cùng lớp Múa cột. Hãy khám phá và theo đuổi những điệu nhảy tốt nhất ngay hôm nay!
 ");
 define("LANG_DANCE_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
@@ -119,9 +119,10 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Areobic), GX Orientation, BumNTum, Shape up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
 define("LANG_DANCE_SIGNUP_TITLE","Sẵn sàng nhảy theo cách bạn muốn");
+define('LANG_DANCE_SIGNUP_SUBTITLE','Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd ');
 define("LANG_DANCE_SIGNUP_CONTENT","
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
-<p><strong>Đăng kí 10 lớp Cali Dance chỉ với 500.000vnd để trải nghiệm</strong></p>
+<p><strong>để trải nghiệm</strong></p>
 <p><strong>BodyJam</strong><br> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
 <p><strong>Zumba và các điệu nhảy Latin</strong><br>Các điệu nhảy nóng bỏng, đốt cháy hoàn toàn các vùng mỡ thừa</p>
 <p><strong>Belly Dance</strong><br>Toả sáng với vũ điệu của hông và bụng</p>

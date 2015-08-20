@@ -120,16 +120,16 @@
             <!-- Wrapper for slides -->
            <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
            </div> <!-- inner mobile -->
         </div>
@@ -143,17 +143,17 @@
             </ol>
             <!-- Wrapper for slides -->
              <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+     <div class="item active">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/m-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/m-2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/m-3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/group-fitness-services/perfect-environment-gallery/m-4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
 
            </div>
@@ -233,9 +233,10 @@
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <h2 class="booktitle"><?=LANG_GROUP_SIGNUP_TITLE?></h2>
-                <h3 class="visit_benefit">
+                <div class="visit_benefit">
+                	<h2 class="subtitle"><?=LANG_GROUP_SIGNUP_SUBTITLE?></h2>
                     <?=LANG_GROUP_SIGNUP_CONTENT?>
-                </h3>
+                </div>
                 <div id="signUp_form">
 	                <?php if ($LANG == 'vn') { ?>
 	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=10801805&amp;u=kKTV"></script>
