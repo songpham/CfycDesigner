@@ -10,7 +10,7 @@ define("LANG_GROUP_BANNER_TITLE_GROUP","Visit us for a free membership trial tod
 
 define("LANG_GROUP_CALIDANCE_GROUP","About California Group Fitness");
 define("LANG_GROUP_CALIDANCE_CONTENT_GROUP",'
-<p>Energize your workouts in a fun and fast paced group atmosphere. Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!  Move your way to cardio fitness with BodyJam. Ride your cycling workout with RPM. Unleash a fusion of cardio workout and martial arts with BodyCombat. Power up every muscle in your body with the barbell class BodyPump or sculpt your abs with bums and tums classes.<br><br></p>
+<p>Energize your workouts in a fun and fast paced group atmosphere. Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best! <br><br> Move your way to cardio fitness with BodyJam. Ride your cycling workout with RPM. Unleash a fusion of cardio workout and martial arts with BodyCombat. Power up every muscle in your body with the barbell class BodyPump or sculpt your abs with bums and tums classes.<br><br></p>
 <p>Whatever your style, we guarantee you will find a Group Fitness class suitable for your goals and preferences.</p>
 ');
 define("LANG_GROUP_YOUTUBE_GROUP","https://www.youtube.com/embed/Ol1nuRXaVcM");
@@ -20,7 +20,7 @@ define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
 <p>Group fitness provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way. All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes </p>
 ');
 define("LANG_GROUP_DISCOVER_GROUP","Discover Group Fitness at California Fitness & Yoga");
-define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT (M)");
+define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT");
 define("LANG_GROUP_DISCOVER_TAB1_ID_GROUP","bodycombat");
 define("LANG_GROUP_DISCOVER_TAB1_CONTENT_GROUP","
 <h3>BODY COMBAT</h3>
@@ -137,8 +137,9 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 ');
 
 define("LANG_GROUP_SIGNUP_TITLE","Are You Ready to be energized to the dynamic beats?");
+define('LANG_GROUP_SIGNUP_SUBTITLE','Sign up to receive 10 complementary Group X classes for only 500.000VNĐ. ');
 define("LANG_GROUP_SIGNUP_CONTENT",'
-<p>Experience what it feels like to get fit with our exciting, cutting edge group training classes. <strong>Sign up to receive 10 complementary Group X classes for only 500.000VNĐ.</strong> <br><br>Including access to:</p>
+<p>Experience what it feels like to get fit with our exciting, cutting edge group training classes. <br><br><strong>Including access to:</strong></p>
 <p><strong>BodyJam</strong> - Dance your way to cardio fitness.</p>
 <p><strong>BodyCombat</strong> - Group X Combat Class.</p>
 <p><strong>BodyPump</strong> - Power up every muscle in your body</p>

@@ -28,7 +28,8 @@
     </div>
     <div class="clearfix"></div>
     <?php
-    $scheduleData = json_decode(file_get_contents(PROTOCOL . '://' . CFYC_URL . '/' . $LANG . '/schedule/?view=json'), true);
+    // $scheduleData = json_decode(file_get_contents(PROTOCOL . '://' . CFYC_URL . '/' . $LANG . '/schedule/?view=json'), true);
+    $scheduleData = json_decode(file_get_contents(PROTOCOL . '://www.cfyc.com.vn/' . $LANG . '/schedule/?view=json'), true);
     if (empty($scheduleData) === FALSE) { ?>
     <div class="location container">
         <div class="row">

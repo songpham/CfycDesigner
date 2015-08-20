@@ -58,17 +58,20 @@
             <!-- Wrapper for slides -->
            <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
+  
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
+
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
+
            </div> <!-- inner mobile -->
         </div>
         <div id="carousel-example-generic-clubs-m" class="carousel slide mobile" data-ride="carousel">
@@ -82,17 +85,18 @@
             <!-- Wrapper for slides -->
              <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
+
 
            </div>
 

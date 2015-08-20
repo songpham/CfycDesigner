@@ -7,8 +7,8 @@ define("LANG_DANCE_BANNER_TEXT_SMALL","Experience a dance class today");
 define("LANG_DANCE_BANNER_TEXT_CTA","Try a class");
 
 define("LANG_DANCE_CALIDANCE","About Cali Dance");
-define("LANG_DANCE_CALIDANCE_CONTENT",'Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!<br>
-Dance your way to cardio fitness with over 10 different dance programs available. Party your way to fitness with the red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of the Belly Dance.<br>
+define("LANG_DANCE_CALIDANCE_CONTENT",'Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!<br><br>
+Dance your way to cardio fitness with over 10 different dance programs available. Party your way to fitness with the red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of the Belly Dance.<br><br>
 Enjoy new and exciting Sh’bam dance classes incorporating the latest hip hop moves or participate in core and body sculpting pole dance classes. Follow your desires and discover which class is best for you!
 ');
 define("LANG_DANCE_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");
@@ -122,8 +122,9 @@ define("LANG_DANCE_TRAINER4_CONTENT",'
 - BodyJam™, BodyPump™, BodyCombat™, RPM™, Dance Freestyle (Step & Aerobics), GX Orientation, Bums N Tums, Shape Up, Crunch, Cycling, Zumba, Dance Rhythms, Belly Dance, Salsa Dance.</p>
 ');
 define("LANG_DANCE_SIGNUP_TITLE","Want To Get Fit and Have Fun?");
+define('LANG_DANCE_SIGNUP_SUBTITLE','Sign Up for 10 Complementary Dance Classes With just 500.000vnd.');
 define("LANG_DANCE_SIGNUP_CONTENT","
-<p><strong>Sign Up for 10 Complementary Dance Classes With just 500.000vnd.<br><br> Including:</strong></p>
+<p><strong><br><br> Including:</strong></p>
 <p>BodyJam - Dance your way to cardio fitness.</p>
 <p>Zumba and Latin Dance - Party your way to fitness with the red-hot, calorie-burning dance</p>
 <p>Belly Dance - Delight in the exotic body movements</p>

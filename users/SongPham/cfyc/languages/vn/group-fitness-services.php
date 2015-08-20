@@ -10,7 +10,7 @@ define("LANG_GROUP_BANNER_TITLE_GROUP","Visit us for a free membership trial tod
 
 define("LANG_GROUP_CALIDANCE_GROUP","Về California Group Fitness");
 define("LANG_GROUP_CALIDANCE_CONTENT_GROUP",'
-<p>Tràn đầy năng lượng luyện tập với không khí vui tươi và nhịp điệu nhanh khi tập chung trong lớp GroupX. Hãy chọn cho mình những lớp học, hoà vào vũ điệu đầy hưng phấn cùng âm nhạc sôi động. Hãy tập luyện với những động tác mà bạn yêu thích nhất!   Tập luyện tim mạch bằng những điệu nhảy với BodyJam. Đạp xe đạp thú vị hơn với RPM. Kết hợp giữa bài tập tim mạch và võ thuật với BodyCombat. Tăng cường sức mạnh từng bó cơ cùng bài tập tạ tại lớp BodyPump hoặc tăng cường cơ bụng với lớp Bums &Tums...</p>
+<p>Tràn đầy năng lượng luyện tập với không khí vui tươi và nhịp điệu nhanh khi tập chung trong lớp GroupX. Hãy chọn cho mình những lớp học, hoà vào vũ điệu đầy hưng phấn cùng âm nhạc sôi động. Hãy tập luyện với những động tác mà bạn yêu thích nhất!  <br><br> Tập luyện tim mạch bằng những điệu nhảy với BodyJam. Đạp xe đạp thú vị hơn với RPM. Kết hợp giữa bài tập tim mạch và võ thuật với BodyCombat. Tăng cường sức mạnh từng bó cơ cùng bài tập tạ tại lớp BodyPump hoặc tăng cường cơ bụng với lớp Bums &Tums...</p>
 <p></p>
 <p>Dù phong cách của bạn là gì đi nữa, chúng tôi đảm bảo bạn sẽ tìm được một lớp Group Fitness phù hợp với mục tiêu và sở thích của mình.</p>
 ');
@@ -136,9 +136,11 @@ define("LANG_GROUP_TRAINER4_CONTENT_GROUP",'
 ');
 
 define("LANG_GROUP_SIGNUP_TITLE","Bạn đã sẵn sàng để đổ mồ hôi cùng những giai điệu sôi động?");
+define('LANG_GROUP_SIGNUP_SUBTITLE','Đăng ký 10 lớp Group X chỉ với 500.000vnd');
+
 define("LANG_GROUP_SIGNUP_CONTENT",'
 <p>Bạn muốn đạt được cơ thể mơ ước trong không khí vui tươi của phòng tập?</p>
-<p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa. <strong>Đăng ký 10 lớp Group X chỉ với 500.000vnd</strong> để trải nghiệm</p>
+<p>Tìm hiểu cảm giác hăng hái và say mê trên sàn tập khi tham dự các buổi tập nhóm hừng hực lửa.<br><br> <strong> để trải nghiệm</strong></p>
 <p><strong>BodyJam</strong> – Tăng cường thể lực, khỏe mạnh hơn khi hòa mình cùng giai điệu</p>
 <p><strong>BodyCombat</strong> – Đạt được thân hình mơ ước khi tập luyện các động tác võ thuật đa dạng</p>
 <p><strong>BodyPump</strong> – Phát triển từng nhóm cơ nhỏ nhất trên cơ thể</p>

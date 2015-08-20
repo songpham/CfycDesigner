@@ -113,6 +113,7 @@
         }
     }
     .calidance {
+    	 p {text-align: justify;}
         .embed-responsive-4by3 {
             padding-bottom: 50%;
         }
@@ -124,10 +125,11 @@
         .dropdown {
             .btn-primary {
                 width: 100%;
-                font-size: 16px;
+                font-size: 18px;
                 background: rgb(0, 82, 140);
-                border-color: rgb(0, 82, 140);
+                border:0;
                 border-radius: 0;
+                text-transform: uppercase;
             }
             ul {
                 width: 100%;
@@ -136,6 +138,7 @@
                 top: 35px;
                 padding: 0;
                 border: none;
+                text-transform: uppercase;
                 li {
                     a {
                         width: 100%;
@@ -380,6 +383,8 @@
         .title{font-size: 18px;}
     }
     .trainers {
+    	 p {text-align: justify;}
+    	 img.img-responsive.img-circle {border: 3px #ccc solid;}
         center {
             font-weight: bold;
             margin-bottom: 20px;
@@ -401,6 +406,7 @@
                     @media (max-width: 480px) {
                         padding: 5px 10px;
                     }
+                 
                 }
 
             }
@@ -589,6 +595,7 @@
     .yogi {
         img {
             width: 100%;
+           
         }
         .firstcol {
             padding-left: 0;

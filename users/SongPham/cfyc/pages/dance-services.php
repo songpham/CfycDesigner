@@ -15,10 +15,10 @@
         </div>
     </div>
     <div class="clearfix"></div>
-    <div class="calidance container">
+    <div class="calidance container-page">
         <div class="row">
             <div class="strike"><h2><?=LANG_DANCE_CALIDANCE?></h2></div>
-            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class=" col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 <?=LANG_DANCE_CALIDANCE_CONTENT?>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -120,16 +120,16 @@
             <!-- Wrapper for slides -->
            <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
            </div> <!-- inner mobile -->
         </div>
@@ -144,16 +144,16 @@
             <!-- Wrapper for slides -->
              <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/5.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/m-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/6.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/m-2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/7.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/m-3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
                         <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/club2/8.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                            <img src="<?php echo USER_BASE_URL ?>/img/dance-services/perfect-environment/m-4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
 
            </div>
@@ -234,9 +234,10 @@
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <h2 class="booktitle"><?=LANG_DANCE_SIGNUP_TITLE?></h2>
-                    <h3 class="visit_benefit">
+                    <div class="visit_benefit">
+                    	<h3><?=LANG_DANCE_SIGNUP_SUBTITLE ?></h3>
                         <?=LANG_DANCE_SIGNUP_CONTENT?>
-                    </h3>
+                    </div>
                 <div id="signUp_form">
 	                <?php if ($LANG == 'vn') { ?>
 	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=9193105&amp;u=kKTV"></script>
