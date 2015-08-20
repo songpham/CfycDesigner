@@ -5,38 +5,38 @@
         position: relative;
         background: #fff url(../img/classes/classes-banner.jpg) center top no-repeat;
         background-size: 100%;
-        
+
         @media (max-width:767px) {
-	         background: #fff url(../img/classes/m-classes-banner.jpg) center top no-repeat;
-	         background-size: cover;
-	         min-height: 500px;
+             background: #fff url(../img/classes/m-classes-banner.jpg) center top no-repeat;
+             background-size: cover;
+             min-height: 500px;
         }
-		.cta {
-			max-width: 40vw;
-			margin: 24vw 0 50px 10%;
-			padding: 20px;
-			position: relative;
-			@media (min-width:768px) and (max-width:1200px){
-				max-width: 50vw;
-			}
-			@media (max-width: 767px) {
-			width: 100%;
-			max-width: 500px;
-			margin-left: auto;
-			margin: 450px auto 0 auto;
-			padding: 50px 10px;
-			position: relative;
-			float: none;
+        .cta {
+            max-width: 40vw;
+            margin: 24vw 0 50px 10%;
+            padding: 20px;
+            position: relative;
+            @media (min-width:768px) and (max-width:1200px){
+                max-width: 50vw;
+            }
+            @media (max-width: 767px) {
+            width: 100%;
+            max-width: 500px;
+            margin-left: auto;
+            margin: 450px auto 0 auto;
+            padding: 50px 10px;
+            position: relative;
+            float: none;
 
-			 }
-			 @media (max-width:550px) {
-				position: absolute;
-				margin: 0px auto;
-				bottom: 50px;
-				padding: 0px 10px;
-			 }
+             }
+             @media (max-width:550px) {
+                position: absolute;
+                margin: 0px auto;
+                bottom: 50px;
+                padding: 0px 10px;
+             }
 
-		 fieldset {
+         fieldset {
             position: relative;
             border: 1px solid $red;
             padding: 0 30px 30px;
@@ -52,9 +52,9 @@
                 color: $red;
                 text-align: center;
                 width: auto;
-				line-height: 1.1em;
-				text-transform: uppercase;
-				font-weight: 400;
+                line-height: 1.1em;
+                text-transform: uppercase;
+                font-weight: 400;
                 border: none;
                 margin-bottom: 0;
                 padding-left: 20px;
@@ -67,53 +67,53 @@
                     padding: 10px 0 0 0;
                     font-size: 35px;
 
-					line-height: 1.1em;
-					text-transform: uppercase;
-					font-weight: 400;
+                    line-height: 1.1em;
+                    text-transform: uppercase;
+                    font-weight: 400;
 
-	                }
-	                @media (max-width:550px) {
-		              font-size: 6.4vw;
-	                }
-	            }
-	            hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
-	            span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
-		           @media (max-width: 767px) {
-		           		padding-bottom: 10px;
-		           		font-size: .79em;
-		           }
-	            }
-	            .red-btn {
+                    }
+                    @media (max-width:550px) {
+                      font-size: 6.4vw;
+                    }
+                }
+                hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
+                   @media (max-width: 767px) {
+                        padding-bottom: 10px;
+                        font-size: .79em;
+                   }
+                }
+                .red-btn {
 
-	            	position: absolute;
-					  width: 100%;
-					  left: 0px;
-					  bottom: -20px;
-		            a {
-			              color: $white;
-						  font-size: 12px;
-						  background: $red;
-						  border-radius: 20px;
-						  text-decoration: none;
-						  position: relative;
-						  margin: 0 auto;
-						  padding: 10px 30px;
-						  bottom: 0;
-						  display: block;
-						  width: 40%;
-						  text-align: center;
-						  text-transform: uppercase;
-						  white-space: nowrap;
-						  font-weight: 600;
-						  @media (max-width:767px){
-							  width: 55%;
-							  padding: 10px 15px;
-						  }
-		            }
-	            }
-	        }
-		}
-	}
+                    position: absolute;
+                      width: 100%;
+                      left: 0px;
+                      bottom: -20px;
+                    a {
+                          color: $white;
+                          font-size: 12px;
+                          background: $red;
+                          border-radius: 20px;
+                          text-decoration: none;
+                          position: relative;
+                          margin: 0 auto;
+                          padding: 10px 30px;
+                          bottom: 0;
+                          display: block;
+                          width: 40%;
+                          text-align: center;
+                          text-transform: uppercase;
+                          white-space: nowrap;
+                          font-weight: 600;
+                          @media (max-width:767px){
+                              width: 55%;
+                              padding: 10px 15px;
+                          }
+                    }
+                }
+            }
+        }
+    }
     fieldset {
         border: 2px solid $red;
         legend {
@@ -130,35 +130,35 @@
         }
     }
     .top-content { margin-bottom: 50px;
-	        .carousel-caption {
-	            font-size: 40px;
-	            left: 10%;
-	            bottom: 20%;
-	            right: 0;
-	            color:$red;
-	            line-height: 40px;
-	            text-align: left;
-	            display: inline-block;
-	            width: 600px;
-	            text-transform: uppercase;
-	            letter-spacing: 2px;
-	            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-	            text-align: center;
-	            strong {font-weight: 300;}
-	            span{color: $white;font-size: 18px;display: inline-block;margin-top: 10px;margin-bottom: 30px;border-top:1px solid $red;
-	                @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
-	                @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
-	                @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
-	            }
-	            a{color:$white;font-size: 12px;background:$red;position: absolute;display: inline-block;border-radius: 20px;text-decoration: none;width: 140px;left: 35%;bottom: 12px;
-	                @media (min-width: 768px) and (max-width: 991px) {bottom: 20px;padding: 5px;}
-	                @media (max-width: 767px){left:25%;}
-	                @media (max-width: 480px){left:25%;}
-	            }
-	            @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
-	            @media (max-width: 767px) {width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
-	            @media (max-width: 480px){width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
-	        }
+            .carousel-caption {
+                font-size: 40px;
+                left: 10%;
+                bottom: 20%;
+                right: 0;
+                color:$red;
+                line-height: 40px;
+                text-align: left;
+                display: inline-block;
+                width: 600px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+                text-align: center;
+                strong {font-weight: 300;}
+                span{color: $white;font-size: 18px;display: inline-block;margin-top: 10px;margin-bottom: 30px;border-top:1px solid $red;
+                    @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                    @media (max-width: 767px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
+                    @media (max-width: 480px){font-size: 14px;margin-top: 10px;padding-top: 10px;margin-bottom: 20px;}
+                }
+                a{color:$white;font-size: 12px;background:$red;position: absolute;display: inline-block;border-radius: 20px;text-decoration: none;width: 140px;left: 35%;bottom: 12px;
+                    @media (min-width: 768px) and (max-width: 991px) {bottom: 20px;padding: 5px;}
+                    @media (max-width: 767px){left:25%;}
+                    @media (max-width: 480px){left:25%;}
+                }
+                @media (min-width: 768px) and (max-width: 991px) {font-size:40px;line-height: normal;}
+                @media (max-width: 767px) {width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
+                @media (max-width: 480px){width: auto;right: 5%;font-size: 16px;bottom: 0;line-height: normal;left: 5%;}
+            }
     }
     .location{
         margin-top: 80px;
@@ -248,6 +248,9 @@
                 @media (min-width: 768px) and (max-width: 991px) {font-size: 15px;}
                 @media (max-width: 767px){font-size: 13px;}
                 @media (max-width: 480px){font-size: 13px;width: 100%;border-radius: 50px;margin-bottom: 20px;}
+                .dropdown-toggle {
+                    color: $white;
+                }
             }
             .btn-download{
                 font-size: 20px;
@@ -265,6 +268,9 @@
                 @media (min-width: 768px) and (max-width: 991px) {font-size: 15px;}
                 @media (max-width: 767px){font-size: 13px;}
                 @media (max-width: 480px){font-size: 13px;width: 100%;border-radius: 50px;margin-bottom: 20px;margin-top: 0;}
+                .dropdown-toggle {
+                    color: $black;
+                }
             }
         }
     }

@@ -27,266 +27,138 @@
         </div>
     </div>
     <div class="clearfix"></div>
-    <br/>
-    <div style="margin:0px;padding:0px;overflow:hidden;height:1000px;">
-        <iframe src="<?php echo PROTOCOL ?>://www.cfyc.com.vn/<?php echo $LANG ?>/schedule/?view=iframe" frameborder="0" style="border:none; overflow:hidden; width:100%; height:100%;" allowtransparency="true"></iframe>
-    </div>
-    <br/>
-    <?php /*
+    <?php
+    $scheduleData = json_decode(file_get_contents(PROTOCOL . '://' . CFYC_URL . '/' . $LANG . '/schedule/?view=json'), true);
+    if (empty($scheduleData) === FALSE) { ?>
     <div class="location container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 firstcol">
-                <h2>Choose your location</h2>
+                <h2><?php echo LANG_SCHEDULES_CHOOSE_YOUR_LOCATION ?></h2>
                 <ul class="nav nav-tabs" role="tablist">
+                    <?php
+                    $idClubActive = NULL;
+                    foreach ($scheduleData['listCity'] as $kCity => $city) {
+                        $countClub = 0;
+                        $clubHaveSchedule = array();
+                        foreach ($scheduleData['listClub'] as $kClub => $club) {
+                            $isNeedCountClub = FALSE;
+                            foreach ($scheduleData['listSchedule'] as $kSchedule => $schedule) {
+                                if ($club['_id'] == $schedule['id_club']) {
+                                    $isNeedCountClub = true;
+                                    $clubHaveSchedule[] = $club['_id'];
+                                    break;
+                                }
+                            }
+                            if (empty($isNeedCountClub) === FALSE) {
+                                if ($club['id_city'] == $city['_id']) $countClub++;
+                            }
+                        }
+                        if ($countClub == 0) continue;
+                        $title = $city["name" . $LANGSTR];
+                        ?>
                     <li class="title">
                         <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        HO CHI MINH CITY
+                        <?php echo mb_strtoupper($title, 'UTF-8') ?>
                     </li>
-                    <li role="presentation" class="active odd">
-                        <a href="#hcm-loc1" aria-controls="hcm-loc1" role="tab" data-toggle="tab">DISTRICT 1</a>
+                    <?php if (empty($scheduleData['listClub']) === FALSE) {
+                        $i = 0;
+                        foreach ($scheduleData['listClub'] as $kClub => $club) { if ($club['id_city'] != $city['_id'] || in_array($club['_id'], $clubHaveSchedule) === FALSE) continue;
+                            $clubTitle = $club["name" . $LANGSTR]; ?>
+                    <li role="presentation" class="<?php if ($kCity == 0 && $kClub == 0) { echo 'active'; $idClubActive = $club['_id']; } ?> <?php if ($i % 2 == 0) { echo 'odd'; } else { echo 'even'; } ?> <?php if ($countClub == $i + 1 || ($countClub == $i + 2 && $i % 2 == 0)) { echo 'last'; } ?>">
+                        <a href="#club<?php echo $club['_id'] ?>" aria-controls="club<?php echo $club['_id'] ?>" role="tab" data-toggle="tab"><?php echo limitString(mb_strtoupper($clubTitle, 'UTF-8'), 10) ?></a>
                     </li>
-                    <li role="presentation" class="even">
-                        <a href="#hcm-loc2" aria-controls="hcm-loc2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#hcm-loc3" aria-controls="hcm-loc3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#hcm-loc4" aria-controls="hcm-loc4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#hcm-loc5" aria-controls="hcm-loc5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#hcm-loc6" aria-controls="hcm-loc6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#hcm-loc7" aria-controls="hcm-loc7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#hcm-loc8" aria-controls="hcm-loc8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
-
-                    <li class="title">
-                        <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        HA NOI
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#hanoi-loc1" aria-controls="hanoi-loc1" role="tab" data-toggle="tab">DISTRICT 1</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#hanoi-loc2" aria-controls="hanoi-loc2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#hanoi-loc3" aria-controls="hanoi-loc3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#hanoi-loc4" aria-controls="hanoi-loc4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#hanoi-loc5" aria-controls="hanoi-loc5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#hanoi-loc6" aria-controls="hanoi-loc6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#hanoi-loc7" aria-controls="hanoi-loc7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#hanoi-loc8" aria-controls="hanoi-loc8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
-
-                    <li class="title">
-                        <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        DA NANG
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc1" aria-controls="danang-loc1" role="tab" data-toggle="tab">DISTRICT 1</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc2" aria-controls="danang-loc2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc3" aria-controls="danang-loc3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc4" aria-controls="danang-loc4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc5" aria-controls="danang-loc5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc6" aria-controls="danang-loc6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#danang-loc7" aria-controls="danang-loc7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#danang-loc8" aria-controls="danang-loc8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
-
-                    <li class="title">
-                        <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        BINH DUONG
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc1" aria-controls="danang-loc1" role="tab" data-toggle="tab">DISTRICT 1</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc2" aria-controls="danang-loc2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc3" aria-controls="danang-loc3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc4" aria-controls="danang-loc4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#danang-loc5" aria-controls="danang-loc5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#danang-loc6" aria-controls="danang-loc6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#danang-loc7" aria-controls="danang-loc7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#danang-loc8" aria-controls="danang-loc8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
-
-                    <li class="title">
-                        <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        BIEN HOA
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#bienhoa-loc1" aria-controls="bienhoa-loc1" role="tab" data-toggle="tab">DISTRICT 1</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#bienhoa-loc2" aria-controls="bienhoa-loc2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#bienhoa-loc3" aria-controls="bienhoa-loc3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#bienhoa-loc4" aria-controls="bienhoa-loc4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#bienhoa-loc5" aria-controls="bienhoa-loc5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#bienhoa-loc6" aria-controls="bienhoa-loc6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#bienhoa-loc7" aria-controls="bienhoa-loc7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#bienhoa-loc8" aria-controls="bienhoa-loc8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
-
-                    <li class="title">
-                        <img src="<?php echo USER_BASE_URL ?>/img/classes/marker.png" alt="location">
-                        NHA TRANG
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#location1" aria-controls="location1" role="tab" data-toggle="tab">DISTRICT 1</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#location2" aria-controls="location2" role="tab" data-toggle="tab">DISTRICT 2</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#location3" aria-controls="location3" role="tab" data-toggle="tab">DISTRICT 4</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#location4" aria-controls="location4" role="tab" data-toggle="tab">DISTRICT 5</a>
-                    </li>
-                    <li role="presentation" class="odd">
-                        <a href="#location5" aria-controls="location5" role="tab" data-toggle="tab">DISTRICT 7</a>
-                    </li>
-                    <li role="presentation" class="even">
-                        <a href="#location6" aria-controls="location6" role="tab" data-toggle="tab">DISTRICT 11</a>
-                    </li>
-                    <li role="presentation" class="odd last">
-                        <a href="#location7" aria-controls="location7" role="tab" data-toggle="tab">THU DUC DIST</a>
-                    </li>
-                    <li role="presentation" class="even last">
-                        <a href="#location8" aria-controls="location8" role="tab" data-toggle="tab">TAN BINH DIST</a>
-                    </li>
+                        <?php $i++; }
+                    } ?>
+                    <?php } ?>
                 </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 secondcol">
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="hcm-loc1">
+                    <?php
+                    if (empty($scheduleData['listClub']) === FALSE) {
+                        foreach ($scheduleData['listClub'] as $kClub => $club) {
+                            $currentSchedule = array();
+                            foreach ($scheduleData['listSchedule'] as $kSchedule => $schedule) {
+                                if ($club['_id'] == $schedule['id_club']) {
+                                    $currentSchedule[] = $schedule;
+                                }
+                            }
+                            if (empty($currentSchedule) === FALSE) {
+                            ?>
+                    <div role="tabpanel" class="tab-pane <?php if ($idClubActive == $club['_id']) echo 'active'; ?>" id="club<?php echo $club['_id'] ?>">
+                        <h1 align="center"><?php echo $club['name' . $LANGSTR] ?></h1><br/><hr/><br/>
+                        <?php foreach ($currentSchedule as $itemSchedule) { ?>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yoga.png" alt="location">
-                            <span>YOGA</span>
-                            <a href="#" class="btn-view" title="View">View</a>
-                            <a href="#" class="btn-download" title="Download">Download</a>
-                            <a href="#" class="btn-cta" title="Try a class">Try a class</a>
+                            <?php if (empty($itemSchedule["image"]) === FALSE && empty($itemSchedule['popup1' . $LANGSTR]) === FALSE) { ?>
+                                <?php if (in_array($itemSchedule['name' . $LANGSTR], array('YOGA')) === TRUE) { ?>
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yoga.png" alt="location">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                                <?php } else { ?>
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-groupx.png" alt="location">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                                <?php } ?>
+                                <div class="btn-view btn-group">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo LANG_SCHEDULES_VIEW ?></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="<?php echo IMAGES_SERVER . $define_folder["image_schedule"] . $itemSchedule["image"] ?>"><?php echo $itemSchedule['popup1' . $LANGSTR] ?></a></li>
+                                        <li><a href="<?php echo IMAGES_SERVER . $define_folder["image_schedule"] . $itemSchedule["image_1"] ?>"><?php echo $itemSchedule['popup2' . $LANGSTR] ?></a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-download btn-group">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="<?php echo IMAGES_SERVER . $itemSchedule["link_download"] ?>"><?php echo $itemSchedule['popup1' . $LANGSTR] ?></a></li>
+                                        <li><a href="<?php echo IMAGES_SERVER . $itemSchedule["link_download_1"] ?>"><?php echo $itemSchedule['popup2' . $LANGSTR] ?></a></li>
+                                    </ul>
+                                </div>
+                                <a href="<?php
+                                switch ($itemSchedule['class_id_program']) {
+                                    case 2: /* yoga */
+                                        echo USER_BASE_URL . '/group-fitness-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    case 6: /* groupx */
+                                        echo USER_BASE_URL . '/yoga-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    default:
+                                        echo 'javascript:void(0)';
+                                        break;
+                                }
+                                ?>" class="btn-cta btn-group" title="<?php echo LANG_DANCE_BANNER_TEXT_CTA ?>"><?php echo LANG_DANCE_BANNER_TEXT_CTA ?></a>
+                            <?php } ?>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-groupx.png" alt="location">
-                            <span>GROUP X</span>
-                            <a href="#" class="btn-view" title="View">View</a>
-                            <a href="#" class="btn-download" title="Download">Download</a>
-                            <a href="#" class="btn-cta" title="Try a class">Try a class</a>
-                        </div>
-
+                        <?php } ?>
                         <div class="space"></div>
-
+                        <?php foreach ($currentSchedule as $itemSchedule) { ?>
+                            <?php if (empty($itemSchedule["image"]) === TRUE || empty($itemSchedule['popup1' . $LANGSTR]) === TRUE) { ?>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yogani.png" alt="location">
-                            <span>YOGA & I</span>
+                            <?php if ($itemSchedule['class_id_program'] == 6) { ?>
+                            <a href="<?php echo USER_BASE_URL . '/yoga-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yogani.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } else if ($itemSchedule['class_id_program'] == 8) { ?>
+                            <a href="<?php echo USER_BASE_URL . '/pt-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-pt.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } else if ($itemSchedule['class_id_program'] == 9) { ?>
+                            <a href="<?php echo USER_BASE_URL . '/kickfit-mma-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-kickfit.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } ?>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-pt.png" alt="location">
-                            <span>PT</span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-kickfit.png" alt="location">
-                            <span>KICKFIT</span>
-                        </div>
+                            <?php } ?>
+                        <?php } ?>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="hcm-loc2">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yoga.png" alt="location">
-                            <span>YOGA</span>
-                            <a href="#" class="btn-view" title="View">View</a>
-                            <a href="#" class="btn-download" title="Download">Download</a>
-                            <a href="#" class="btn-cta" title="Try a class">Try a class</a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-groupx.png" alt="location">
-                            <span>GROUP X</span>
-                            <a href="#" class="btn-view" title="View">View</a>
-                            <a href="#" class="btn-download" title="Download">Download</a>
-                            <a href="#" class="btn-cta" title="Try a class">Try a class</a>
-                        </div>
-
-                        <div class="space"></div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yogani.png" alt="location">
-                            <span>YOGA & I</span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-pt.png" alt="location">
-                            <span>PT</span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-kickfit.png" alt="location">
-                            <span>KICKFIT</span>
-                        </div>
-
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="hcm-loc3">HO CHI MINH DIS 4</div>
-                    <div role="tabpanel" class="tab-pane" id="hcm-loc4">HO CHI MINH DIS 5</div>
+                            <?php }
+                        }
+                    } ?>
                 </div>
             </div>
         </div>
-    </div> */ ?>
-
-
-
+    </div>
+    <?php } ?>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
