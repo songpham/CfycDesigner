@@ -58,8 +58,8 @@
 
     <div id="id_1" class="container-page">
         <div class="row video row-centered">
-        	<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE ?></h2>
             <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
+        	<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_1_TITLE ?></h2>
             <div class="col-sm-5 col-xs-12 col-centered">
 
                 <div class="desc-video">
@@ -73,8 +73,8 @@
             </div>
         </div><!--end row-->
         <div class="row top-content row-centered">
+        <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
         <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1 ?></h2>
-        	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
             <div class="col-md-10 col-centered">
 
                 <p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT ?> </p>
@@ -92,8 +92,8 @@
     </div><!-- section1/end container page-->
     <div id="id_3"class="row row-centered section3">
     	<div class="container-page">
+            <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
     		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1 ?></h2>
-			<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
 			<div class="col-md-10 col-centered">
 			</div>
 			<div class="content">
@@ -120,7 +120,7 @@
             	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC ?></p>
             </div>
             <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h2>
-            <h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE1 ?></h4>
+            <h4 class="white"><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE1 ?></h4>
   			<div class="col-md-3 col-centered col-xs-12">
   				<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2 ?></h4>
   				<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE2_TEXT ?></p>
@@ -137,10 +137,17 @@
             </div>
     	</div>
     </div> <!-- container page ID4 -->
+    <div class="graphic-block">
+        <div class="container-page">
+            <div class="row row-centered">
+                <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/headline.png" class="img-responsive center-block hidden-xs">
+            </div>
+        </div>
+    </div>
     <div id="section_5" class="section5">
     	<div class="container-page">
     		<div class="row">
-    			<div class="col-sm-5 col-sm-push-5 col-xs-12 col-xs-push-0">
+    			<div class="col-sm-5 col-sm-push-7 col-xs-12 col-xs-push-0">
     				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote-white.png" class="quote-left white">
     				<div class="text-box">
     					<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_5_QUOTE ?></p>
@@ -152,6 +159,7 @@
     </div> <!-- section 5 -->
     <div id="section_6" class="container-page">
     	<div class="row row-centered">
+            <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
     		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_6_MAIN_TITLE1 ?></h2>
     		<div class="col-md-5 col-centered col-xs-12">
 				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-left3.jpg" class="img-responsive center-block">
