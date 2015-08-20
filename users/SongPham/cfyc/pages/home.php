@@ -29,6 +29,11 @@
                     <div class="col-md-3">
                     </div>
                 </div>
+                <div class="row seemorebtn">
+                    <div class="col-md-12">
+                        <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                    </div>
+                </div>
                 <div class="whitespace"></div>
                 <div class="row ourservice">
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
@@ -37,8 +42,8 @@
                             <img src="img/home/california-wow-our-services-1.jpg" alt="<?=LANG_PERSONAL_TRAINNER?>" title="<?=LANG_PERSONAL_TRAINNER?>">
                         </div>
                         <div class="overlay">
-                            <h2 class="service_title">                                
-                                <?=LANG_PERSONAL_TRAINNER?>                                
+                            <h2 class="service_title">
+                                <?=LANG_PERSONAL_TRAINNER?>
                             </h2>
                        </div>
                        </a>
@@ -49,8 +54,8 @@
                                 <img src="img/home/california-wow-our-services-2.jpg" alt="<?=LANG_YOGA?>" title="<?=LANG_YOGA?>">
                             </div>
                             <div class="overlay">
-                                <h2 class="service_title">                                    
-                                    <?=LANG_YOGA?>                                    
+                                <h2 class="service_title">
+                                    <?=LANG_YOGA?>
                                 </h2>
                             </div>
                         </a>
@@ -61,8 +66,8 @@
                                 <img src="img/home/california-wow-our-services-3.jpg" alt="<?=LANG_GROUP_EXERCISE?>" title="<?=LANG_GROUP_EXERCISE?>">
                             </div>
                             <div class="overlay">
-                                <h2 class="service_title">                                
-                                    <?=LANG_GROUP_EXERCISE?>                               
+                                <h2 class="service_title">
+                                    <?=LANG_GROUP_EXERCISE?>
                                 </h2>
                             </div>
                         </a>
@@ -73,8 +78,8 @@
                                 <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_DANCE?>" title="<?=LANG_DANCE?>">
                             </div>
                             <div class="overlay">
-                                <h2 class="service_title">                                   
-                                    <?=LANG_DANCE?>                                    
+                                <h2 class="service_title">
+                                    <?=LANG_DANCE?>
                                 </h2>
                             </div>
                         </a>
@@ -97,16 +102,11 @@
                                 <img src="img/home/california-wow-our-services-6.jpg" alt="<?=LANG_KICKFIT?>" title="<?=LANG_KICKFIT?>">
                             </div>
                             <div class="overlay">
-                                <h2 class="service_title">                                
-                                    <?=LANG_KICKFIT?>                                
+                                <h2 class="service_title">
+                                    <?=LANG_KICKFIT?>
                                 </h2>
                             </div>
                         </a>
-                    </div>
-                </div>
-                <div class="row seemorebtn">
-                    <div class="col-md-12">
-                        <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
             </div>
@@ -122,6 +122,11 @@
                     <div class="col-md-3">
                     </div>
                 </div>
+                <div class="row seemorebtn">
+                    <div class="col-md-12">
+                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE_CLUBS?>" title="<?=LANG_SEE_MORE_CLUBS?>"><?=LANG_SEE_MORE_CLUBS?></a>
+                    </div>
+                </div>
                 <div class="whitespace"></div>
                 <div class="row findyourclub">
                     <div class="col-md-6 col-sm-6 hidden-xs">
@@ -132,8 +137,8 @@
                             <img class="hidden-xs" src="img/home/california-wow-find-your-club-1.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                             <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-find-your-club-1_sm.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                             <div class="overlay">
-                                <h2 class="service_title">                                    
-                                    <?=LANG_HO_CHI_MINH_CITY?>                                    
+                                <h2 class="service_title">
+                                    <?=LANG_HO_CHI_MINH_CITY?>
                                 </h2>
                             </div>
                         </a>
@@ -145,8 +150,8 @@
                         <a href="club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HA_NOI?>" alt="<?=LANG_HA_NOI?>">
                             <img src="img/home/california-wow-find-your-club-3.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
                             <div class="overlay">
-                                <h2 class="service_title">                                    
-                                   <?=LANG_HA_NOI?>                                    
+                                <h2 class="service_title">
+                                   <?=LANG_HA_NOI?>
                                 </h2>
                             </div>
                         </a>
@@ -158,8 +163,8 @@
                         <a href="club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DA_NANG?>" alt="<?=LANG_DA_NANG?>">
                             <img src="img/home/california-wow-find-your-club-5.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
                             <div class="overlay">
-                                <h2 class="service_title">                                
-                                   <?=LANG_DA_NANG?>                               
+                                <h2 class="service_title">
+                                   <?=LANG_DA_NANG?>
                                 </h2>
                             </div>
                         </a>
@@ -168,8 +173,8 @@
                         <a href="club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_BINH_DUONG?>" alt="<?=LANG_BINH_DUONG?>">
                             <img src="img/home/california-wow-find-your-club-6.jpg" alt="<?=LANG_BINH_DUONG?>" title="<?=LANG_BINH_DUONG?>">
                             <div class="overlay">
-                                <h2 class="service_title">                                    
-                                    <?=LANG_BINH_DUONG?>                                    
+                                <h2 class="service_title">
+                                    <?=LANG_BINH_DUONG?>
                                 </h2>
                             </div>
                         </a>
@@ -182,19 +187,14 @@
                         <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
                             <img src="img/home/california-wow-find-your-club-8.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
                             <div class="overlay">
-                                <h2 class="service_title">                                
-                                    <?=LANG_NEW_COMING?>                                
+                                <h2 class="service_title">
+                                    <?=LANG_NEW_COMING?>
                                 </h2>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 hidden-xs">
                         <img src="img/home/california-wow-find-your-club-9.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
-                    </div>
-                </div>
-                <div class="row seemorebtn">
-                    <div class="col-md-12">
-                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE_CLUBS?>" title="<?=LANG_SEE_MORE_CLUBS?>"><?=LANG_SEE_MORE_CLUBS?></a>
                     </div>
                 </div>
             </div>
@@ -208,6 +208,11 @@
                         <?='<p>'.LANG_FIND_YOUR_TRAINER_SUB.'</p>'?>
                     </div>
                     <div class="col-md-3">
+                    </div>
+                </div>
+                <div class="row seemorebtn">
+                    <div class="col-md-12">
+                        <a href="<?php echo USER_BASE_URL ?>/pt-services<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -231,11 +236,6 @@
                     </div>
                     <div class="col-md-1 hide-sm hidden-xs"></div>
                 </div>
-                <div class="row seemorebtn">
-                    <div class="col-md-12">
-                        <a href="<?php echo USER_BASE_URL ?>/pt-services<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
-                    </div>
-                </div>
             </div>
             <div class="whitespace"></div>
             <div class="col-md-12 text-center">
@@ -249,6 +249,11 @@
                     <div class="col-md-3">
                     </div>
                 </div>
+                <div class="row seemorebtn">
+                    <div class="col-md-12">
+                        <a href="member-testimonials<?php echo getSuffix('lang=' . $LANG) ?> " alt="<?=LANG_SEE_MORE_SUCCESS_STORIES?>" title="<?=LANG_SEE_MORE_SUCCESS_STORIES?>"><?=LANG_SEE_MORE_SUCCESS_STORIES?></a>
+                    </div>
+                </div>
                 <div class="whitespace"></div>
                 <div class="row success_stories">
                     <div class="col-md-3 col-sm-3 col-xs-3 text-center">
@@ -258,20 +263,15 @@
                             <img src='<?php echo USER_BASE_URL ?>/img/home/success-n.png' onmouseover="this.src='<?php echo USER_BASE_URL ?>/img/home/success_h.png';" onmouseout="this.src='<?php echo USER_BASE_URL ?>/img/home/success-n.png';" />
                             <!-- Member success stories -->
                             <div class='before'>
-								<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
-							</div>
-							<div class='after'>
-								<?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER ?>
-							</div>
+                                <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_BEFORE ?>
+                            </div>
+                            <div class='after'>
+                                <?php echo LANG_MEMBER_TESTIMONIALS_STORY_1_AFTER ?>
+                            </div>
                         </div>
                         <?=LANG_SUCCESS_STORIES_DESC?>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3 text-center">
-                    </div>
-                </div>
-                <div class="row seemorebtn">
-                    <div class="col-md-12">
-                        <a href="member-testimonials<?php echo getSuffix('lang=' . $LANG) ?> " alt="<?=LANG_SEE_MORE_SUCCESS_STORIES?>" title="<?=LANG_SEE_MORE_SUCCESS_STORIES?>"><?=LANG_SEE_MORE_SUCCESS_STORIES?></a>
                     </div>
                 </div>
             </div>
@@ -285,6 +285,11 @@
                         <?='<p>'.LANG_CELEBRITIES_MEMBERS_SUB.'</p>'?>
                     </div>
                     <div class="col-md-3">
+                    </div>
+                </div>
+                <div class="row seemorebtn">
+                    <div class="col-md-12">
+                        <a href="celebrity-members<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE_CELEBRITIES?>" title="<?=LANG_SEE_MORE_CELEBRITIES?>"><?=LANG_SEE_MORE_CELEBRITIES?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -351,11 +356,6 @@
                                 <div class="col-md-2 hide-sm hide-xs text-center">
                                 </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row seemorebtn">
-                    <div class="col-md-12">
-                        <a href="celebrity-members<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE_CELEBRITIES?>" title="<?=LANG_SEE_MORE_CELEBRITIES?>"><?=LANG_SEE_MORE_CELEBRITIES?></a>
                     </div>
                 </div>
             </div>
