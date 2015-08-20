@@ -64,7 +64,7 @@
                         $i = 0;
                         foreach ($scheduleData['listClub'] as $kClub => $club) { if ($club['id_city'] != $city['_id'] || in_array($club['_id'], $clubHaveSchedule) === FALSE) continue;
                             $clubTitle = $club["name" . $LANGSTR]; ?>
-                    <li role="presentation" class="<?php if ($kCity == 0 && $kClub == 0) { echo 'active'; $idClubActive = $club['_id']; } ?> <?php if ($i % 2 == 0) { echo 'odd'; } else { echo 'even'; } ?> <?php if ($countClub == $i + 1 || ($countClub == $i + 2 && $i % 2 == 0)) { echo 'last'; } ?>">
+                    <li role="presentation" class="<?php if ($i == 0 && $kCity == 0) { echo 'active'; $idClubActive = $club['_id']; } ?> <?php if ($i % 2 == 0) { echo 'odd'; } else { echo 'even'; } ?> <?php if ($countClub == $i + 1 || ($countClub == $i + 2 && $i % 2 == 0)) { echo 'last'; } ?>">
                         <a href="#club<?php echo $club['_id'] ?>" aria-controls="club<?php echo $club['_id'] ?>" role="tab" data-toggle="tab"><?php echo limitString(mb_strtoupper($clubTitle, 'UTF-8'), 10) ?></a>
                     </li>
                         <?php $i++; }
@@ -113,11 +113,24 @@
                                 </div>
                                 <a href="<?php
                                 switch ($itemSchedule['class_id_program']) {
-                                    case 2: /* yoga */
+                                    case 2: /* groupx */
                                         echo USER_BASE_URL . '/group-fitness-services' . getSuffix('lang=' . $LANG);
                                         break;
-                                    case 6: /* groupx */
+                                    case 4: /* dance */
+                                        echo USER_BASE_URL . '/dance-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    case 6: /* yoga */
                                         echo USER_BASE_URL . '/yoga-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    case 8: /* pt */
+                                        echo USER_BASE_URL . '/pt-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    case 9: /* kickfit */
+                                    case 10: /* mma */
+                                        echo USER_BASE_URL . '/kickfit-mma-services' . getSuffix('lang=' . $LANG);
+                                        break;
+                                    case 11: /* dynamic stretching */
+                                        echo USER_BASE_URL . '/dynamicstretching-services' . getSuffix('lang=' . $LANG);
                                         break;
                                     default:
                                         echo 'javascript:void(0)';
@@ -131,19 +144,34 @@
                         <?php foreach ($currentSchedule as $itemSchedule) { ?>
                             <?php if (empty($itemSchedule["image"]) === TRUE || empty($itemSchedule['popup1' . $LANGSTR]) === TRUE) { ?>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 small">
-                            <?php if ($itemSchedule['class_id_program'] == 6) { ?>
+                            <?php if ($itemSchedule['class_id_program'] == 6) { /* yoga */ ?>
                             <a href="<?php echo USER_BASE_URL . '/yoga-services' . getSuffix('lang=' . $LANG) ?>">
                                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yogani.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
                                 <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
                             </a>
-                            <?php } else if ($itemSchedule['class_id_program'] == 8) { ?>
+                            <?php } else if ($itemSchedule['class_id_program'] == 8) { /* pt-services */ ?>
                             <a href="<?php echo USER_BASE_URL . '/pt-services' . getSuffix('lang=' . $LANG) ?>">
                                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-pt.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
                                 <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
                             </a>
-                            <?php } else if ($itemSchedule['class_id_program'] == 9) { ?>
+                            <?php } else if ($itemSchedule['class_id_program'] == 9 || $itemSchedule['class_id_program'] == 10) { /* kickfit-mma-services */ ?>
                             <a href="<?php echo USER_BASE_URL . '/kickfit-mma-services' . getSuffix('lang=' . $LANG) ?>">
                                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-kickfit.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } else if ($itemSchedule['class_id_program'] == 2) { /* groupx-services */ ?>
+                            <a href="<?php echo USER_BASE_URL . '/group-fitness-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-groupx.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } else if ($itemSchedule['class_id_program'] == 4) { /* dance-services */ ?>
+                            <a href="<?php echo USER_BASE_URL . '/dance-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-kickfit.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
+                                <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
+                            </a>
+                            <?php } else if ($itemSchedule['class_id_program'] == 11) { /* dynamic stretching */ ?>
+                            <a href="<?php echo USER_BASE_URL . '/dynamicstretching-services' . getSuffix('lang=' . $LANG) ?>">
+                                <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/classes/loc-yogani.png" alt="<?php echo $itemSchedule['name' . $LANGSTR] ?>">
                                 <span><?php echo $itemSchedule['name' . $LANGSTR] ?></span>
                             </a>
                             <?php } ?>
@@ -162,3 +190,4 @@
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>
 <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
+<script src="<?php echo USER_BASE_URL ?>/js/scripts/classes.js"></script>
