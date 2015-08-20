@@ -1,6 +1,7 @@
 @import '../lib';
 
 .pt-services-page {
+		
 
 		.item.active.desktop {display: block; margin-bottom: 50px;
 		@media (max-width:767px) {
@@ -54,6 +55,7 @@
         }
     }
     .calidance {
+    	 p {text-align: justify;}
         .embed-responsive-4by3 {
             padding-bottom: 50%;
         }
@@ -222,6 +224,7 @@
         .title{font-size: 18px;}
     }
     .trainers {
+    	 p {text-align: justify;}
         center{font-weight: bold;margin-bottom: 20px;}
         .area{border:none;text-align: center;display: none;
             li{

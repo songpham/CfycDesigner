@@ -225,7 +225,7 @@ $containerWidth : 1200px;
             @extend .block;
             .video {padding: 0;}
             .text {margin: 0 !important;padding: 0 5px !important;
-                   p {text-align: left; line-height: 24px;}
+                   p {text-align: justify; line-height: 24px;}
             }
         }
 
@@ -285,6 +285,7 @@ $containerWidth : 1200px;
 
         // TRAINER
         .trainers {
+        	p {text-align: justify;}
             center{font-weight: bold;margin-bottom: 20px;}
             .area{border:none;text-align: center;display: none;
                   li{

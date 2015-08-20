@@ -113,6 +113,7 @@
         }
     }
     .calidance {
+    	 p {text-align: justify;}
         .embed-responsive-4by3 {
             padding-bottom: 50%;
         }
@@ -382,6 +383,8 @@
         .title{font-size: 18px;}
     }
     .trainers {
+    	 p {text-align: justify;}
+    	 img.img-responsive.img-circle {border: 3px #ccc solid;}
         center {
             font-weight: bold;
             margin-bottom: 20px;
@@ -403,6 +406,7 @@
                     @media (max-width: 480px) {
                         padding: 5px 10px;
                     }
+                 
                 }
 
             }
@@ -591,6 +595,7 @@
     .yogi {
         img {
             width: 100%;
+           
         }
         .firstcol {
             padding-left: 0;
