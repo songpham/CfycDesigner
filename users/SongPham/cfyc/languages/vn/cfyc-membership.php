@@ -17,6 +17,12 @@ define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2', 'Là hội viên của California Fit
 define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','Là thành viên của <br>California Fitness & Yoga<br> còn có lợi ích nào khác?');
 define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Quyền hội viên sẽ cho phép bạn có cơ hội tham gia vào các lớp Yoga, Nhảy, tập luyện theo nhóm của chúng tôi không giới hạn về thời gian và số lượng lớp với hơn 50 chương trình với các lớp học khác nhau. Ngoài ra, bạn còn có thể tham gia các lớp học riêng với HLV như Kick Fit, MMA và Dynamic Stretching.');
 
+
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Trải nghiệm sức mạnh trẻ hóa của thiền và Yoga tại Trung tâm Yoga độc quyền của chúng tôi với hơn 2000 m2, được thiết kế theo tiêu chuẩn quốc tế.');
+
+
+
+
 define('LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1','Hãy chia sẻ kinh nghiệm <br>của mình đến những người thân yêu');
 define('LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1',' Với quyền hạn của thẻ VIP Guest Privileges, bạn được quyền dẫn dắt, giới thiệu một người bạn hay thành viên trong gia đình cùng tham gia trong mỗi lần luyện tập, cùng chia sẻ bí quyết có cuộc sống tốt đẹp hơn một cách trọn vẹn.');
 

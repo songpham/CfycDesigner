@@ -240,6 +240,7 @@
     }
     .gallery {
         padding: 2% 0;
+        p {padding: 0 10px; text-align: justify;}
         img {
             margin-bottom: 22.5px;
         }
@@ -385,15 +386,17 @@
             }
         }
         .banner-bottom {
-        background: #fff url(../img/cfyc-memberships/m-bg-footer.jpg) center top no-repeat;
+        background: #fff url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
         background-size: cover;
-        min-height: 200px;
+        min-height: 500px;
             .text-box {
-            	max-width: 70%;
-                top: -2%;
-                h1 {font-size: 4.5vw;}
-                h3 {font-size: 3vw;}
-                a.cta {font-size: 2.5vw;}
+            	max-height: 250px;
+            	max-width: 90%;
+                bottom: 20px;
+                top:auto;
+                h1 {font-size: 5vw;}
+                h3 {font-size: 4vw; padding: 20px 0;}
+                a.cta {font-size: 4vw; padding: 5% 20%; }
             }
         }
     }

@@ -77,23 +77,34 @@
         </div><!--end row-->
     </div>
     <div class="row gallery">
-        <div class="col-sm-4 col-xs-6 pLeft0 pRight75">
+        <div class="col-sm-4 col-xs-12 pLeft0 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/yoga.jpg" class="img-responsive"/>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
         </div>
-        <div class="col-sm-4 col-xs-6 pLeftRight75 pLeft75">
+        <div class="col-sm-4 col-xs-12 pLeftRight75 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dance.jpg" class="img-responsive"/>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+
         </div>
-        <div class="col-sm-4 col-xs-6 pRight0 pRight75">
+        <div class="col-sm-4 col-xs-12 pRight0 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/mma.jpg" class="img-responsive"/>
+             <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+
         </div>
-        <div class="col-sm-4 col-xs-6 pLeft0 pLeft75">
+        <div class="col-sm-4 col-xs-12 pLeft0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/kickfit.jpg" class="img-responsive"/>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+
         </div>
-        <div class="col-sm-4 col-xs-6 pLeftRight75 pRight75">
+        <div class="col-sm-4 col-xs-12 pLeftRight75 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dynamic.jpg" class="img-responsive"/>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+
         </div>
-        <div class="col-sm-4 col-xs-6 pRight0 pLeft75">
+        <div class="col-sm-4 col-xs-12 pRight0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/pt.jpg" class="img-responsive"/>
+           <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+
         </div>
     </div><!--end gallery-->
 
@@ -107,7 +118,7 @@
     <div class="container-page">
         <div class="row top-content row-centered">
             <div class="col-md-8 col-centered">
-                <p><strong><i><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1 ?></i></strong></p>
+                <p><strong><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1 ?></strong></p>
             </div>
         </div><!--end row-->
     </div><!--end container page-->

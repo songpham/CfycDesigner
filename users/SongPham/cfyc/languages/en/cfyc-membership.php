@@ -17,6 +17,11 @@ define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2', 'Every membership at California Fitne
 define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','What else can you enjoy<br/>as a member of California Fitness & Yoga Centers?');
 define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Your membership gives you access to unlimited opportunities to discover and enjoy what you’re most passionate about with unlimited amount of yoga, dance and group fitness programs totaling over 50 different types of classes along with optional personal training services like Kick Fit, MMA and Dynamic Stretching');
 
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Experience the rejuvenating powers of meditation and yoga in our exclusive Yoga Center with over 2,000 sqm of internationally-designed studios and lounges.');
+
+
+
+
 define('LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1','Share your experiences<br/>with the people you care about');
 define('LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1',' Learn about optional VIP Guest Privileges which allow you to bring a friend or family member along for your every visit, enabling you to enhance the life of those closest to you as well');
 
