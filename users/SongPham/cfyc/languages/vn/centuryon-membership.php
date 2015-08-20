@@ -17,6 +17,7 @@ define('LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT', ' Trải nghiệm m�
 define('LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1', 'Centuryon được thiết kế để đáp ứng nhu cầu của những ai không chấp nhận bất kỳ điều gì ngoài sự tốt nhất');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE','Ngoài những thiết bị tập luyện và dịch vụ cá nhân, Centuryon còn cung cấp nhiều hơn nữa');
 
+define('LANG_CENTURYON_MEMBERSHIPS_ID_4_TITLE','ENJOY THE VERY BEST WITH THE PEOPLE YOU CARE ABOUT');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG1_DESC','Kết nối với những người quan trọng trong VIP Centuryon Lounge');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG2_DESC','Tận hưởng sự sang trọng trong phòng tắm');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC','Tận hưởng trang phục độc quyền Centuryon Athletica');

@@ -53,6 +53,7 @@
 	                <a class="" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
 	                </div>
 	        </fieldset>
+	        <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-card.jpg" class="desktop img-responsive card">
 		</div>
 	</div>
 
@@ -96,12 +97,14 @@
     		<h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1 ?></h2>
 			<div class="col-md-10 col-centered">
 			</div>
+			<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/section1-bg.jpg" class="desktop img-responsive">
+				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/m-section1-bg.jpg" class="mobile img-responsive">
 			<div class="content">
-				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-left">
 				<div class="text-box">
+				
+
 					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4>
 				</div>
-				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/quote.png" class="quote-right">
 			</div>
 			    	</div>
     </div> <!-- end section_3 -->
@@ -119,6 +122,8 @@
             	<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-right2.jpg" class="img-responsive center-block">
             	<p><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC ?></p>
             </div>
+            <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
+
             <h2><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h2>
             <h4 class="white"><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_SUB_TITLE1 ?></h4>
   			<div class="col-md-3 col-centered col-xs-12">
@@ -140,7 +145,9 @@
     <div class="graphic-block">
         <div class="container-page">
             <div class="row row-centered">
-                <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/headline.png" class="img-responsive center-block hidden-xs">
+                 <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/divider.jpg" class="img-responsive center-block divider">
+
+            	<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_4_TITLE ?></h4>
             </div>
         </div>
     </div>
