@@ -29,20 +29,20 @@
 
 		.cta {
 			max-width: 700px;
-			margin: 28% 0 50px 5%;
+			margin: 18% 0 50px 3%;
 			padding: 20px;
 			position: relative;
 			@media (min-width:768px) and (max-width:990px){
-				max-width: 65vw;
-				margin: 31vw 0 50px 5%;
+				max-width: 45vw;
+				margin: 50px 0 50px 1%;
 			}
-			@media (min-width:990px) and (max-width:1350px){
-				max-width: 65vw;
-				margin: 33vw 0 50px 5%;
+			@media (min-width:991px) and (max-width:1350px){
+				max-width: 45vw;
+				margin: 50px 0 50px 2%;
 			}
 			@media (min-width:1351px) and (max-width:1550px){
-				max-width: 45vw;
-				margin: 35vw 0 50px 5%;
+				max-width: 35vw;
+				margin: 100px 0 50px 2%;
 			}
 
 			@media (max-width: 767px) {
@@ -134,8 +134,8 @@
 						  text-transform: uppercase;
 						  white-space: nowrap;
 						  font-weight: 600;
-						  @media (max-width:767px){
-							  width: 55%;
+						  @media (max-width:967px){
+							  width: 65%;
 							  padding: 10px 15px;
 						  }
 		            } // a
