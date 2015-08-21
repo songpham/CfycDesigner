@@ -17,19 +17,19 @@
 .club-page {
 
     .carousel.slide, .information {
-        .container-page {margin: 0 auto;} 
+        .container-page {margin: 0 auto;}
     }
     .whitespace {padding: 10px 0}
     .whitespace-2x {padding: 20px 0}
     .whitespace-3x {padding: 30px 0}
-    
+
     // TOP BANNER
 
     .banner-top {
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-1.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -39,7 +39,7 @@
         }
         .cta {
             max-width: 42vw;
-            margin: 12vw 0 90px 15%;
+            margin: 9vw 0 130px 15%;
             padding: 20px;
             position: relative;
             @media (min-width: 2000px) {
@@ -183,13 +183,13 @@
 
         }
     } //banner-top?????????
-    
-    
+
+
      .bien-hoa-club-page .banner-top {
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-bien-hoa.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -202,7 +202,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-binh-duong.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -215,7 +215,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-ha-noi.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -228,7 +228,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-da-nang.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -241,7 +241,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-nha-trang.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -289,7 +289,7 @@
             }
         }
     } //block
-    
+
 
     .cyc {@include font-size(14px);font-weight: bold; color: #868686;text-transform: uppercase;}
     .down-icon {color: $red;@include font-size(35px);}
@@ -492,7 +492,7 @@
        @media (min-width:768px) {
 	       display: block;
        }
-		
+
 		@media (max-width:767px) {
 			display: none;
 		}
@@ -511,7 +511,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-bien-hoa.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -524,7 +524,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-binh-duong.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -537,7 +537,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-ha-noi.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -545,12 +545,12 @@
             background-size: cover;
             min-height: 500px;
         }
-     } 
+     }
    .da-nang-club-page .banner-top {
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-da-nang.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -563,7 +563,7 @@
     	@media (min-width:768px){
         position: relative;
         background: #fff url(../img/club/banner-nha-trang.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;

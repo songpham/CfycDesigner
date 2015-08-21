@@ -73,6 +73,7 @@
                         </div> <!-- cta div -->
                     </div> <!-- book now -->
     <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
+</div><!--end container page-->
     <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
-    </div><!--end container page-->
+
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/about-us.js"></script>
