@@ -22,7 +22,7 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CAPTION_1', "");
 // CONTACT INFO
 define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
         <h3>Location: </h3>
-        <p>Pegasus Plaza, 53-55 Vo Thi Sau, Quy?t Th?ng ward, Bien Hoa ?ong Nai City</p>
+        <p>Coming Soon To Nha Trang</p>
         
         <!-- <h3>Operating hours: </h3>
         <p>Monday to Sunday: 6:00 - 22:00</p>
