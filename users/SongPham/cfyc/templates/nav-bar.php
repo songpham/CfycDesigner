@@ -79,7 +79,7 @@
                 <div class="collapse" aria-expanded="false">
                     <ul>
                         <li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS  ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS  ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU  ?></a></li>
 
                     </ul>
                 </div>
@@ -161,7 +161,7 @@
                 <div class="sub-menu collapse">
             <ul>
             	<li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS ?></a></li>
-            	<li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS ?></a></li>
+            	<li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU ?></a></li>
 
             </ul>
         </div>

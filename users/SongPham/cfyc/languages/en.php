@@ -9,7 +9,7 @@ define('LANG_MEMBER_TESTIMONIALS_MENU','Member Testimonials');
 define('LANG_MENU_MENU','MENU');
 define('LANG_ABOUT_US','Our Story');
 define('LANG_CFYC_MEMBERSHIPS','California Fitness &amp; Yoga Memberships');
-define('LANG_CENTURYON_MEMBERSHIPS','Centuryon Memberships');
+define('LANG_CENTURYON_MEMBERSHIPS_MENU','Centuryon Memberships');
 /* sub menu */
 /* services */
 define('LANG_SERVICES_YOGA','Yoga');

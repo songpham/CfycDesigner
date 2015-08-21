@@ -10,7 +10,7 @@ define('LANG_MEMBER_TESTIMONIALS_MENU','Câu Chuyện Thành Công');
 define('LANG_MENU_MENU','DANH MỤC');
 define('LANG_ABOUT_US','Về chúng tôi');
 define('LANG_CFYC_MEMBERSHIPS','Thành Viên California Fitness &amp; Yoga');
-define('LANG_CENTURYON_MEMBERSHIPS','Thành Viên Centuryon');
+define('LANG_CENTURYON_MEMBERSHIPS_MENU','Thành Viên Centuryon');
 
 /* sub menu */
 /*services */

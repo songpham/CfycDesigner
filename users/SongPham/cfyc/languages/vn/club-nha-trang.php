@@ -23,7 +23,7 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CAPTION_1', "California Fitness & Yoga tự h
 define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
 		<!-- location -->
 		<h3>Địa điểm :</h3>
-		<p>Pegasus Plaza, Số 53-55 Võ Thị Sáu, phường Quyết Thắng, TP Biên Hòa Đồng Nai</p>
+		<p>Tầng 4. Tòa nhà Nha Trang Center, Số 2, Đường Trần Phú, Thành Phố Nha Trang, Tỉnh Khánh Hòa</p>
 
 		<!-- operating hours -->
 		<h3>Giờ hoạt động : </h3>
