@@ -112,7 +112,7 @@
             <div class="wrapper">
             <div class="col-md-12 text-center celebrity-info-block tab-content">
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/tap-yoga-cung-Ho-Ngoc-Ha.jpg" align="Tap Yoga Cung Ho Ngoc Ha" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -123,7 +123,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb1 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/xuan_lan.jpg" align="Tap Yoga Cung Ho Ngoc Ha" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -134,7 +134,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb2 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/Phuong-Mai.jpg" align="Tap Gym Cung Phuong Mai" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -145,7 +145,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb3 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/diem_my.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -156,7 +156,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb4 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/huong-giang.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -167,7 +167,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb5 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/ho_vinh_khoa.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -178,7 +178,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb6 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/chi_pu.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">
@@ -189,7 +189,7 @@
                     </div> <!-- text -->
                 </div> <!-- /celeb7 -->
                 <div class="row mindshares tab-pane fade row-centered">
-                    <div class="col-md-4 col-sm-4 col-xs-12 col-centered celebrity-image">
+                    <div class="col-md-3 col-sm-3 col-xs-12 col-centered celebrity-image">
                         <img src="<?php echo USER_BASE_URL ?>/img/celebrity-members/randy_dobson.jpg" align="Tap Gym Cung Diem My" class="img-responsive center-block">
                     </div> <!-- img -->
                     <div class="col-md-6 col-sm-6 text-left textend col-centered celebrity-info">

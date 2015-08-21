@@ -13,6 +13,8 @@
         position: relative;
 		background: url(../img/home/california-wow-banner.jpg) center top no-repeat;
         background-size: 100%;
+        height: 55vw;
+        max-height: 997px;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -26,18 +28,23 @@
         }
 
 		.cta {
-			max-width: 50vw;
-			margin: 34vw 0 50px 10%;
+			max-width: 700px;
+			margin: 28% 0 50px 5%;
 			padding: 20px;
 			position: relative;
-			@media (min-width:768px) and (max-width:1200px){
-				max-width: 55vw;
-				margin: 30vw 0 50px 10%;
+			@media (min-width:768px) and (max-width:990px){
+				max-width: 65vw;
+				margin: 31vw 0 50px 5%;
 			}
-			@media(max-width:990px) {
+			@media (min-width:990px) and (max-width:1350px){
+				max-width: 65vw;
+				margin: 33vw 0 50px 5%;
+			}
+			@media (min-width:1351px) and (max-width:1550px){
+				max-width: 45vw;
+				margin: 35vw 0 50px 5%;
+			}
 
-				margin: 27vw 0 50px 1%;
-			}
 			@media (max-width: 767px) {
 			width: 100%;
 			max-width: 500px;
@@ -71,7 +78,7 @@
 
             }
             legend {
-                color: $red;
+                color: $white;
                 text-align: center;
                 width: auto;
 				line-height: 1.1em;
@@ -83,7 +90,7 @@
                 padding-right: 20px;
 
                 @media (max-width: 2000px) {
-                     font-size: 2vw;
+                     font-size: 1.7vw;
                 }
                 @media (max-width: 767px){
                     padding: 10px 0 0 0;

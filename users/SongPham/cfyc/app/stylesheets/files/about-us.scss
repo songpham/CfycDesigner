@@ -3,29 +3,122 @@
     img, p, h1, h2, h3, h4, a, div, button, span {
         @include transition(all .3s ease);
     }
-    .banner-top {
+
+     .banner-top {
+    	@media (min-width:768px){
         position: relative;
-        background: url(../img/about-us/bg-header.jpg) center top no-repeat; background-size: 100%;
-        min-height: 550px;
-        @media (max-width:776px) {
-	        background: url(../img/about-us/m-bg-header.jpg) center top no-repeat; background-size: cover;
+        background: #fff url(../img/about-us/bg-header.jpg) center top no-repeat;
+        background-size: 100%;
         }
-        h1.headline {
-            @include font-size(60px);
-            color: $white;
-            font-weight: 100;
-            text-transform: uppercase;
-            position: absolute;
-            left: 3%;
-            bottom: 16%;
-            padding: 1% 2%;
-            border: 1px solid $white;
-            span {
-                font-weight: 300;
+        @media (max-width:767px) {
+        	position: relative;
+	         background: #fff url(../img/about-us/m-bg-header.jpg) center top no-repeat;
+	         background-size: cover;
+	         min-height: 500px;
+        }
+		.cta {
+			max-width: 40vw;
+			margin: 24vw 0 50px 10%;
+			padding: 20px;
+			position: relative;
+			@media (min-width:768px) and (max-width:1200px){
+				max-width: 50vw;
+			}
+			@media (max-width: 767px) {
+			width: 100%;
+			max-width: 500px;
+			margin-left: auto;
+			margin: 450px auto 0 auto;
+			padding: 50px 10px;
+			position: relative;
+			float: none;
+
+			 }
+			 @media (max-width:550px) {
+				position: absolute;
+				margin: 0px auto;
+				bottom: 50px;
+				padding: 0px 10px;
+			 }
+
+		 fieldset {
+            position: relative;
+            border: 1px solid $red;
+            padding: 0 30px 30px;
+            height: auto;
+            @media (max-width: 767px) {
+                padding: 10px 10px 20px 10px;
+                height:auto;
             }
-       
-        }
-    }
+            @media (max-width: 484px) {
+
+            }
+            legend {
+                color: $red;
+                text-align: center;
+                width: auto;
+				line-height: 1.1em;
+				text-transform: uppercase;
+				font-weight: 400;
+                border: none;
+                margin-bottom: 0;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                @media (max-width: 2000px) {
+                     font-size: 2vw;
+                }
+                @media (max-width: 767px){
+                    padding: 10px 0 0 0;
+                    font-size: 35px;
+
+					line-height: 1.1em;
+					text-transform: uppercase;
+					font-weight: 400;
+
+	                }
+	                @media (max-width:550px) {
+		              font-size: 6.4vw;
+	                }
+	            }
+	            hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
+	            span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto;
+		           @media (max-width: 767px) {
+		           		padding-bottom: 10px;
+		           		font-size: 1em;
+		           }
+	            }
+	            .red-btn {
+
+	            	position: absolute;
+					  width: 100%;
+					  left: 0px;
+					  bottom: -20px;
+		            a {
+			              color: $white;
+						  font-size: 12px;
+						  background: $red;
+						  border-radius: 20px;
+						  text-decoration: none;
+						  position: relative;
+						  margin: 0 auto;
+						  padding: 10px 30px;
+						  bottom: 0;
+						  display: block;
+						  width: 40%;
+						  text-align: center;
+						  text-transform: uppercase;
+						  white-space: nowrap;
+						  font-weight: 600;
+						  @media (max-width:767px){
+							  width: 55%;
+							  padding: 10px 15px;
+						  }
+		            }
+	            }
+	        }
+		} //cta
+} //banner top
     .quotes-block {
         text-align: center;
         padding: 5% 0;
@@ -54,12 +147,14 @@
         background: url(../img/about-us/randy-block.jpg) center top no-repeat;
         @include background-size(cover);
         color: $white;
-        min-height: 500px;
+        min-height: 600px;
         position: relative;
         .quotes {
             blockquote {
                 position: absolute;
                 top: 100px;
+                font-size: 15px;
+                background:rgba(0, 0, 0, 0.6);
             }
         }
     }
@@ -73,6 +168,32 @@
     .gallery {
         margin-bottom: 30px;
     }
+	h2.booktitle{
+                    border:1px solid #000;
+                    padding:10px 20px;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                    font-size: 25px;
+                    text-align: center;
+                    @media (max-width:767px){
+	                    padding: 0;
+                    }
+                }
+                h3.visit_benefit{
+                    font-size: 13px;
+                    line-height: inherit;
+                    text-transform: uppercase;
+                    margin-bottom: 50px;
+                    text-align: center;
+                    span{
+                        font-size: 90%;
+                    }
+                    span.title{
+                        font-size: 120%;
+                    }
+                }
+                #signUp_form { width: 260px; margin:0px auto 50px auto;}
+
 
     @media (max-width: 2000px) {
         .banner-top {

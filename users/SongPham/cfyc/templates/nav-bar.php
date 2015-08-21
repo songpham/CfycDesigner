@@ -74,13 +74,27 @@
             </div>
         </li>
         <li>
-            <a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBERSHIPS ?></a>
+        <div class="list-group panel">
+                <a href="javascript:void(0)" class="list-group-item-success" data-toggle="collapse" aria-expanded="false"><?php echo LANG_MEMBERSHIPS ?><span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="collapse" aria-expanded="false">
+                    <ul>
+                        <li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS  ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS  ?></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"></a>
         </li>
          <li>
             <a href="<?php echo USER_BASE_URL ?>/member-testimonials<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a>
         </li>
         <li>
             <a href="<?php echo USER_BASE_URL ?>/classes<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SCHEDULES ?></a>
+        </li>
+         <li>
+            <a href="<?php echo USER_BASE_URL ?>/about-us<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_ABOUT_US ?></a>
         </li>
     </ul>
 </nav>
@@ -96,10 +110,11 @@
         <li><a href="javascript:void(0)" data-index="0" class="drop-menu"><?php echo LANG_CLUBS ?></a></li>
         <li><a href="javascript:void(0)" data-index="1" class="drop-menu"><?php echo LANG_SERVICES ?></a></li>
         <li><a href="javascript:void(0)" data-index="2" class="drop-menu"><?php echo LANG_LIFESTYLE ?></a></li>
-        <li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBERSHIPS ?></a></li>
+        <li><a href="javascript:void(0)" data-index="3" class="drop-menu"><?php echo LANG_MEMBERSHIPS ?></a></li>
         <li><a href="<?php echo USER_BASE_URL ?>/member-testimonials<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a></li>
 
         <li><a href="<?php echo USER_BASE_URL ?>/classes<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SCHEDULES ?></a></li>
+		<li><a href="<?php echo USER_BASE_URL ?>/about-us<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_ABOUT_US ?></a></li>
         <li><a href="<?php echo USER_BASE_URL . ($URI ? ('/' . $URI) : NULL) . getSuffix('lang=' . $OPPOSITE_LANG) ?>"><img src="<?php echo USER_BASE_URL ?>/img/flag_<?php echo $OPPOSITE_LANG ?>.png" class="language"></a></li>
     </ul>
     <div class="holder-submenu">
@@ -141,6 +156,13 @@
                 <li><a href="http://lifestyle.cfyc.com.vn/thoi-trang/"><?php echo LANG_LIFESTYLE_BEAUTY ?></a></li>
                 <li><a href="http://lifestyle.cfyc.com.vn/tin-tuc/"><?php echo LANG_LIFESTYLE_NEWS ?></a></li>
                 <li><a href="http://lifestyle.cfyc.com.vn/su-kien/"><?php echo LANG_LIFESTYLE_EVENTS ?></a></li>
+            </ul>
+        </div>
+                <div class="sub-menu collapse">
+            <ul>
+            	<li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS ?></a></li>
+            	<li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS ?></a></li>
+
             </ul>
         </div>
     </div>
