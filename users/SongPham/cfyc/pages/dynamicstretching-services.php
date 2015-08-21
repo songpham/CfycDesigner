@@ -9,7 +9,9 @@
                     <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS?>
                 </span>
                 <div class="red-btn">
-                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>"> <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?></a>
+                    <a class="cta" href="javascript:animateTo($('.contactform'))" title="<?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>">
+                        <?=LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS?>
+                    </a>
                 </div>
             </fieldset>
         </div>
@@ -57,21 +59,20 @@
             </ol>
             <!-- Wrapper for slides -->
            <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-  
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
+                <div class="item active">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
 
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
 
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
            </div> <!-- inner mobile -->
         </div>
         <div id="carousel-example-generic-clubs-m" class="carousel slide mobile" data-ride="carousel">
@@ -84,22 +85,19 @@
             </ol>
             <!-- Wrapper for slides -->
              <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-                        <div class="item">
-                            <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
-                        </div>
-
-
+                <div class="item active">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-1.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-2.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-3.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
+                <div class="item">
+                    <img src="<?php echo USER_BASE_URL ?>/img/dynamicstretching-services/perfect-environment/m-4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
+                </div>
            </div>
-
         </div>
     </div>
     <div class="clearfix"></div>
@@ -166,10 +164,8 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="clearfix"></div>
-
     <div class="contactform container">
         <div class="row" id="form">
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
@@ -179,12 +175,12 @@
                     <?=LANG_DYNAMIC_STRETCHING_SIGNUP_CONTENT?>
                 </h3>
                 <div id="signUp_form">
-	                <?php if ($LANG == 'vn') { ?>
-	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=12198205&amp;u=kKTV"></script>
-	                <?php } else if ($LANG == 'en') { ?>
-	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=12198805&amp;u=kKTV"></script>
-	                <?php } ?>
-				</div>
+                    <?php if ($LANG == 'vn') { ?>
+                    <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=12198205&amp;u=kKTV"></script>
+                    <?php } else if ($LANG == 'en') { ?>
+                    <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=12198805&amp;u=kKTV"></script>
+                    <?php } ?>
+                </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>

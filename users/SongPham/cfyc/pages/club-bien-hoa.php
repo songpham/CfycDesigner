@@ -1,7 +1,5 @@
-
 <div class="container-fluid page club-page bien-hoa-club-page">
     <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
-
     <!-- TOP BANNER -->
     <div id="banner" class="row banner-top">
         <div class="cta">
@@ -64,7 +62,7 @@
                             <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
                         </div>
                     </div>
-                    
+
                     <!-- Indicators -->
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
@@ -114,7 +112,7 @@
                             <?php echo LANG_CLUB_HCM_CLUB_1_CAPTION_1 ?>
                         </div>
                     </div>
-                    
+
                     <!-- Indicators -->
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
