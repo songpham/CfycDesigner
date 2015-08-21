@@ -54,7 +54,7 @@
             </div>
 
         </div>
-        
+
                                 <div class="row messages booknow row-centered">
                                <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12 col-centered">
                                 <h2 class="booktitle"><?=LANG_VIP_RSVP_INCLUDE_12?></h2>
@@ -72,9 +72,7 @@
                             </div> <!-- visit benefit -->
                         </div> <!-- cta div -->
                     </div> <!-- book now -->
-                  
+    <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
+    <?php include USER_BASE_PATH . '/templates/footer.php'; ?>
     </div><!--end container page-->
-<?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
-</div>
-<?php include USER_BASE_PATH . '/templates/footer.php'; ?>
 <script src="<?php echo USER_BASE_URL ?>/js/scripts/about-us.js"></script>
