@@ -3,6 +3,7 @@
     img, p, h1, h2, h3, h4, a, div, button, span {
         @include transition(all .3s ease);
     }
+    hr {color: $red; border: 1px $red solid; max-width: 70%; margin: 0 auto;    }
 
      .banner-top {
     	@media (min-width:768px){

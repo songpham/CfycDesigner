@@ -20,8 +20,9 @@
                 <span class="open-quotes">&ldquo;</span><h3><?php echo LANG_ABOUT_US_QUOTE ?></h3><span class="close-quotes">&rdquo;</span>
             </div>
         </div>
+        <hr>
     </div><!--end container page-->
-    <div class="row randy-quotes">
+    <div class="row randy-quotes hidden-lg hidden-xs">
         <div class="container-page">
             <div class="col-sm-6 quotes">
                 <blockquote><?php echo LANG_ABOUT_US_QUOTE ?></blockquote>
