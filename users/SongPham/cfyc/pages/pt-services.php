@@ -24,7 +24,7 @@
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" height="200" src="<?=LANG_PT_YOUTUBE_PT?>" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

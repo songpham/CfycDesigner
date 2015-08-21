@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-5 col-md-offset-1 col-xs-12 video">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vgICIwZkPbw"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v7lm-Lg3mG4"></iframe>
                 </div>            
             </div>
         </div>
