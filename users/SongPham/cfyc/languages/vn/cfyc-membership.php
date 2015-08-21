@@ -18,10 +18,12 @@ define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','Là thành viên của <br>Cali
 define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Quyền hội viên sẽ cho phép bạn có cơ hội tham gia vào các lớp Yoga, Nhảy, tập luyện theo nhóm của chúng tôi không giới hạn về thời gian và số lượng lớp với hơn 50 chương trình với các lớp học khác nhau. Ngoài ra, bạn còn có thể tham gia các lớp học riêng với HLV như Kick Fit, MMA và Dynamic Stretching.');
 
 
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Trải nghiệm sức mạnh trẻ hóa của thiền và Yoga.');
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_Dance','Từ lịch học với rất nhiều lớp học, bạn hãy tìm cho mình một lựa chọn phù hợp để kích thích các bước nhảy theo giai điệu sôi động của âm nhạc. ');
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_KICKFIT','Trải nghiệm sức mạnh trẻ hóa của thiền và Yoga.');
-
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Yoga');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_DANCE','Dance ');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_KICKFIT','KickFit');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_MMA','Võ tự do MMA');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_DYNAMIC_STRETCHING','Giảm căng cơ');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_PT','Huấn luyện viên cá nhân');
 
 
 

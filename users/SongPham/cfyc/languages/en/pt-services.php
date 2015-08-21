@@ -11,7 +11,6 @@ define("LANG_PT_CALIDANCE_CONTENT_PT",'
 <p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
 <p>Personal training at California Fitness & Yoga offers exclusive one-on-one programs specifically designed for your body’s needs and your individual fitness goals. Our program is about integration, not sacrifice. You don’t need to spend hours in the gym or starve yourself in order to achieve the body of your dreams.</p>
 <p>Our patented California Health System is designed to integrate into your lifestyle using proven methods developed over dozens of year to help you get results in the fastest, safest way possible. Each of our trainers is highly qualified under international standards of certification following NASM Sports & Fitness certification curricula from the USA.</p>
-<p>All memberships at California Fitness & Yoga include complementary 1 on 1 personal training as part of your fitness starter kit.</p>
 ');
 define("LANG_PT_YOUTUBE_PT","https://www.youtube.com/embed/Ol1nuRXaVcM");
 

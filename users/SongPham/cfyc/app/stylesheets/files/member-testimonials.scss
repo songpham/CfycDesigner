@@ -5,13 +5,13 @@
     .white-space {padding:10px 0; clear:both;}
     .white-space-2x {padding: 20px 0; clear: both;}
     .white-space-3x {padding: 30px 0; clear: both;}
-
+	 
     // TOP BANNER
     .banner-top {
     	@media (min-width:768px) {
         position: relative;
         background: #fff url(../img/member-testimonials/banner.jpg) center top no-repeat;
-        background-size: 100%;
+        background-size: cover;
         }
         @media (max-width:767px) {
         	position: relative;
@@ -19,13 +19,26 @@
             background-size: cover;
             min-height: 500px;
         }
+        @media (min-width:768px){
+        .banner-video {max-width: 550px;margin: 50px 0 0px 6%; display: block; position: relative;
+		        .embed-responsive {display: block; margin: 20px auto; padding-bottom: 55%;}
+
+			}
+        }
+   @media (min-width:2000px){
+        .banner-video {max-width: 540px;margin: 50px 0 0px 16%; display: block; position: relative;
+			}
+        }
+        @media (max-width:767px){
+			        .banner-video {display: none;}
+		        }
         .cta {
             max-width: 42vw;
-            margin: 20vw 0 90px 15%;
+            margin: 50px 0 0px 5%;
             padding: 20px;
             position: relative;
             @media (min-width:2000px) {
-                max-width: 475px;
+                max-width: 575px;
                 margin: 450px 0 90px 15%;
                 padding: 20px;
                 position: relative;
@@ -127,6 +140,7 @@
                 }
             }
         }
+       
         .carousel-caption {
             font-size: 40px;
             left: 10%;

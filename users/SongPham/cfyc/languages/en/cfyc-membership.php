@@ -17,9 +17,13 @@ define('LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2', 'Every membership at California Fitne
 define('LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1','What else can you enjoy<br/>as a member of California Fitness & Yoga Centers?');
 define('LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1','Your membership gives you access to unlimited opportunities to discover and enjoy what you’re most passionate about with unlimited amount of yoga, dance and group fitness programs totaling over 50 different types of classes along with optional personal training services like Kick Fit, MMA and Dynamic Stretching');
 
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Experience the rejuvenating powers of meditation and yoga.');
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_Dance','Pick and choose from an extensive variety of cutting-edge Dance classes ');
-define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_KICKFIT','KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro.');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA','Yoga');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_Dance','Dance ');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_KICKFIT','KickFit');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_MMA','MMA');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_DYNAMIC_STRETCHING','Dynamic Stretching');
+define('LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_PT','Personal Training');
+
 
 
 

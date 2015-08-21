@@ -3,7 +3,7 @@ define('LANG_CLUB_NHA_TRANG', 'Nha Trang');
 
 // BANNER
 define('LANG_CLUB_NHA_TRANG_BANNER_TITLE', 'Chào mừng đến trung tâm California Fitness & Yoga tại tp. Nha Trang');
-define('LANG_CLUB_NHA_TRANG_BANNER_SUB_TITLE', 'Trung tâm thể hình, giải trí và phong cách sống 5 sao hàng đầu tại thành phố Biên Hòa Đăng kí ngay hôm nay để tập thử miễn phí');
+define('LANG_CLUB_NHA_TRANG_BANNER_SUB_TITLE', 'Trung tâm thể hình, giải trí và phong cách sống 5 sao hàng đầu tại thành phố NHA TRANG. Đăng kí ngay hôm nay để tập thử miễn phí');
 define('LANG_CLUB_NHA_TRANG_BANNER_TEXT_BUTTON', 'Đăng kí tập thử');
 
 

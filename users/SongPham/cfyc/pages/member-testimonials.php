@@ -17,6 +17,11 @@
                 </div>
             </fieldset>
         </div>
+         <div class="banner-video">
+        <div class="embed-responsive embed-responsive-4by3">
+             <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko" frameborder="0" allowfullscreen></iframe>
+         </div>
+         </div>
     </div>
     <!-- END TOP BANNER -->
 

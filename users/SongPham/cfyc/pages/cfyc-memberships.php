@@ -83,27 +83,27 @@
         </div>
         <div class="col-sm-4 col-xs-12 pLeftRight75 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dance.jpg" class="img-responsive"/>
-            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_DANCE ?></p>
 
         </div>
         <div class="col-sm-4 col-xs-12 pRight0 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/mma.jpg" class="img-responsive"/>
-             <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+             <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_KICKFIT ?></p>
 
         </div>
         <div class="col-sm-4 col-xs-12 pLeft0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/kickfit.jpg" class="img-responsive"/>
-            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_MMA ?></p>
 
         </div>
         <div class="col-sm-4 col-xs-12 pLeftRight75 pRight75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/dynamic.jpg" class="img-responsive"/>
-            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+            <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_DYNAMIC_STRETCHING ?></p>
 
         </div>
         <div class="col-sm-4 col-xs-12 pRight0 pLeft75">
             <img src="<?php echo USER_BASE_URL ?>/img/cfyc-memberships/pt.jpg" class="img-responsive"/>
-           <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_YOGA ?></p>
+           <p><?php echo LANG_CFYC_MEMBERSHIPS_SERVICES_DESC_PT ?></p>
 
         </div>
     </div><!--end gallery-->
@@ -127,7 +127,7 @@
             <h1><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1 ?></h1>
             <h3><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1 ?></h3>
             <h1 class="yellow"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2 ?></h1>
-            <a href="<?php echo USER_BASE_URL ?>/centuryon-memberships" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
         </div>
     </div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

@@ -3,8 +3,8 @@ define('LANG_CLUB_NHA_TRANG', 'BIEN HOA');
 
 // BANNER
 define('LANG_CLUB_NHA_TRANG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in Nha Trang');
-define('LANG_CLUB_NHA_TRANG_BANNER_SUB_TITLE', 'Discover California Fitness & Yoga Centers in <br>Bien Hoa');
-define('LANG_CLUB_NHA_TRANG_BANNER_TEXT_BUTTON', 'Find a club in Bien Hoa today');
+define('LANG_CLUB_NHA_TRANG_BANNER_SUB_TITLE', 'Discover California Fitness & Yoga Centers in <br>Nha Trang');
+define('LANG_CLUB_NHA_TRANG_BANNER_TEXT_BUTTON', 'Find a club in Nha Trang today');
 
 
 // DESCRIPTION 

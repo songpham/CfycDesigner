@@ -17,12 +17,12 @@
 
     <div class="clearfix"></div>
     <div class="calidance container">
-        <div class="row">
+        <div class="row row-centered">
             <div class="strike"><h2><?=LANG_PT_CALIDANCE_PT?></h2></div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 col-centered">
                 <?=LANG_PT_CALIDANCE_CONTENT_PT?>
             </div>
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko" frameborder="0" allowfullscreen></iframe>
                 </div>

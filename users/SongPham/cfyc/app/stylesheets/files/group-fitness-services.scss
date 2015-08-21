@@ -102,8 +102,12 @@
             padding-top: 90px;
             padding-bottom: 90px;
             background: url(../../public/img/group-fitness-services/discover.jpg) no-repeat;
-            background-size: cover;
+            background-size: 100%;
+             @media (max-width:767px){
+	            background-size: cover;
+            }
             .container {background: rgba($red, 0.5);
+           
             h3 {
                 font-size: 30px;
                 text-transform: uppercase;
@@ -375,7 +379,7 @@
 
         .cta {
             max-width: 40vw;
-            margin: 24vw 0 50px 10%;
+            margin: 15vw 0 248px 7%;
             padding: 20px;
             position: relative;
             @media (min-width: 768px) and (max-width: 1200px) {
@@ -421,6 +425,7 @@
                     margin-bottom: 0;
                     padding-left: 20px;
                     padding-right: 20px;
+                    //font-weight: bold;
 
                     @media (max-width: 2000px) {
                         font-size: 2vw;

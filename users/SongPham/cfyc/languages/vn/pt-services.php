@@ -11,7 +11,7 @@ define("LANG_PT_CALIDANCE_CONTENT_PT",'
 <p>Huấn luyện viên cá nhân đảm nhận hai vị trí – một người bạn sẵn sàng lắng nghe câu chuyện, mong muốn của bạn và một chuyên gia đưa bạn đạt đến mục tiêu thể hình.</p>
 <p>Huấn luyện cá nhân là chương trình tập luyện đặc biệt, một kèm một, được thiết kế dành riêng cho những nhu cầu và mục tiêu thể hình riêng biệt của từng cá nhân. Chương trình luyện tập của chúng tôi mang đến sự hòa hợp, không phải sự đánh đổi. Bạn không cần dành hàng giờ liền trong phòng tập thể hình hay nhịn ăn một cách tiêu cực để đạt được thân hình mơ ước.</p>
 <p>Hệ thống Cải thiện Sức khỏe California mang đến cho bạn những phương pháp đã được chứng minh trong nhiều năm qua, để giúp bạn đạt được mục tiêu hình thể nhanh chóng và an toàn nhất. Mỗi Huấn luyện viên Cá nhân của chúng tôi đều phải trải qua kì sát hạch tiêu chuẩn quốc tế và được cấp bằng chứng nhận theo chương trình NASM Sport & Fitness từ Hoa Kì.</p>
-<p>Tất cả hội viên tại California Fitness & Yoga đều được khuyến nghị tham gia một buổi tập 1 kèm 1 để khởi đầu cho hành trình tiến đến mục tiêu thể hình mong muốn</p>
+
 ');
 define("LANG_PT_YOUTUBE_PT","https://www.youtube.com/embed/Ol1nuRXaVcM");
 

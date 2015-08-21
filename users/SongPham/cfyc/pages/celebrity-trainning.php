@@ -25,17 +25,17 @@
     <!-- ABOUT CELEBRITY TRANINING -->
     <div class="row container-page">
 
-        <div class="row block about-block">
+        <div class="row block about-block row-centered">
             <div class='d-title block-title'>
                 <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE ?></div>
             </div>
             <div class="m-title block-title">
                 <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_MOBILE_TITLE ?></div>
             </div>
-            <div class="col-md-6 text">
+            <div class="col-md-5 text col-centered">
                 <?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT ?>
             </div>
-            <div class="col-md-5 col-md-offset-1 col-xs-12 video">
+            <div class="col-md-4 col-md-offset-1 col-xs-12 video col-centered">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v7lm-Lg3mG4"></iframe>
                 </div>            
@@ -168,8 +168,21 @@
         </div>
 
     </div>
-
-
+	 
+	<div class="container-page">
+		<div class="col-md-6 col-xs-12">
+			<div class="white-space-2x"></div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dojjgGvrEvQ"></iframe>
+                </div>            
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<div class="white-space-2x"></div>
+             <div class="embed-responsive embed-responsive-16by9">
+                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nyN60HDEyCQ"></iframe>
+             </div>            
+		</div>
+	</div>
 
 
     <div class="white-space-2x"></div>
