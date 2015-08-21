@@ -125,16 +125,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/FDC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-1" role="button" data-slide="prev">
@@ -172,16 +172,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-1-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-1-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/FDC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-1-m" role="button" data-slide="prev">
@@ -237,16 +237,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-2" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/PCO/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-2" role="button" data-slide="prev">
@@ -284,16 +284,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-2-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-2-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/PCO/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-2-m" role="button" data-slide="prev">
@@ -349,16 +349,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-3" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/WFC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-3" role="button" data-slide="prev">
@@ -396,16 +396,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-3-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-3-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/WFC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-3-m" role="button" data-slide="prev">
@@ -461,16 +461,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-4" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/HVP/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-4" role="button" data-slide="prev">
@@ -508,16 +508,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-4-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-4-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/HVP/thumbs/4.jpg" alt=""></div>
 
                             </div>
                             <!-- Controls -->
@@ -574,16 +574,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-5" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/QAB/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-5" role="button" data-slide="prev">
@@ -621,16 +621,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-5-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-5-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/QAB/thumbs/4.jpg" alt=""></div>
 
                             </div>
                             <!-- Controls -->
@@ -688,16 +688,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-6" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/VVO/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-6" role="button" data-slide="prev">
@@ -735,16 +735,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-6-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-6-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/VVO/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-6-m" role="button" data-slide="prev">
@@ -800,16 +800,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-7" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/TDC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-7" role="button" data-slide="prev">
@@ -847,16 +847,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-7-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-7-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/TDC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-7-m" role="button" data-slide="prev">
@@ -912,16 +912,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-8" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/desktop/hcmc/CCC/thumbs/4.jpg" alt=""></div>
                             </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#slideshow-8" role="button" data-slide="prev">
@@ -959,16 +959,16 @@
                     <div class="container-page">
                         <div class="carousel-indicators thumbs">
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box active" data-target="#slideshow-8-m" data-slide-to="0">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/1.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/1.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8-m" data-slide-to="1">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/2.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/2.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8-m" data-slide-to="2">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/3.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/3.jpg" alt=""></div>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-3 text-center box" data-target="#slideshow-8-m" data-slide-to="3">
-                                <div class="box-inner"><img src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/4.jpg" alt=""></div>
+                                <div class="box-inner"><img data-src="<?php echo USER_BASE_URL ?>/img/club/mobile/hcmc/CCC/thumbs/4.jpg" alt=""></div>
 
                             </div>
                             <!-- Controls -->

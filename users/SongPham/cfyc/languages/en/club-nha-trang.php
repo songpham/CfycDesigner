@@ -24,12 +24,12 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
         <h3>Location: </h3>
         <p>Pegasus Plaza, 53-55 Vo Thi Sau, Quy?t Th?ng ward, Bien Hoa ?ong Nai City</p>
         
-        <h3>Operating hours: </h3>
+        <!-- <h3>Operating hours: </h3>
         <p>Monday to Sunday: 6:00 - 22:00</p>
 
         <h3>Contact: </h3>
         <p>Tel: (061) 7308 999</p>
-        <p>Mail: info@cfyc.com.vn</p>
+        <p>Mail: info@cfyc.com.vn</p> -->
     ');
 
 // OTHER BUTTON
