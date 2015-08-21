@@ -428,7 +428,7 @@
                 }
                 span {
                     text-align: center;
-                    color: $white;
+                    color: $black;
                     text-transform: uppercase;
                     text-align: center;
                     display: block;
@@ -474,7 +474,7 @@
 	       display: block;
 	       margin-bottom: 50px;
        }
-		
+
 		@media (max-width:767px) {
 			display: none;
 		}

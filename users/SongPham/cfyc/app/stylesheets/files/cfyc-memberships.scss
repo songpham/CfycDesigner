@@ -240,9 +240,10 @@
     }
     .gallery {
         padding: 2% 0;
+        &>div { margin-bottom: 30px;}
         p {padding: 0 10px; text-align: justify;}
         img {
-            margin-bottom: 22.5px;
+            margin-bottom: 20px;
         }
         .pLeft0 {
             padding-left: 0;
@@ -256,7 +257,7 @@
         }
     }
     .banner-bottom {
-    	background: #fff url(../img/cfyc-memberships/bg-footer.jpg) center top no-repeat;
+    	background: #fff url(../img/cfyc-memberships/bg-footer.jpg) 60% no-repeat;
         top: 50px;
         position: relative;
         min-height:500px;
@@ -269,19 +270,22 @@
             h1 {
                 font-weight: 100;
                 color: $white;
+
             }
             h1.yellow {
                 font-weight: 300;
                 color: $yellow;
                 margin-top: 0px;
                 margin-bottom: 6%;
+                line-height: 1.4em;
             }
             h3 {
                 font-weight: 300;
                 margin-top: 6%;
                 color: $white;
                 text-align: justify;
-                line-height: 1.2em;
+                line-height: 1.4em;
+
             }
             a.cta {
                 padding: 2% 5%;
@@ -312,10 +316,10 @@
         .banner-bottom {
             .text-box {
                 h1 {
-                    @include font-size(3vw);
+                    @include font-size(2.8vw);
                 }
                 h3 {
-                    @include font-size(2vw);
+                    @include font-size(1.9vw);
                 }
                 a.cta {
                     @include font-size(1vw);
@@ -323,6 +327,11 @@
             }
         }
     }/*close media 2000px*/
+    @media (max-width: 1200px) {
+        .banner-bottom {
+            background-position: 70%;
+        }
+    }
     @media (max-width: $breakpoint_tablet) {
         .video {
             .desc-video {
@@ -361,10 +370,10 @@
                 padding-right: 15px;
             }
             .pLeft75 {
-                padding-left: 7.5px;
+                padding-left: 15px;
             }
             .pRight75 {
-                padding-right: 7.5px;
+                padding-right: 15px;
             }
         }
         .banner-bottom {
@@ -388,15 +397,23 @@
         .banner-bottom {
         background: #fff url(../img/centuryon-membership/m-centuryon-membership-header.jpg) center top no-repeat;
         background-size: cover;
-        min-height: 500px;
+        min-height: 900px;
             .text-box {
             	max-height: 250px;
             	max-width: 90%;
-                bottom: 20px;
+                bottom: 130px;
                 top:auto;
                 h1 {font-size: 5vw;}
                 h3 {font-size: 4vw; padding: 20px 0;}
-                a.cta {font-size: 4vw; padding: 5% 20%; }
+                a.cta {font-size: 4vw; padding: 5% 10%; }
+            }
+        }
+    }
+    @media (max-width: 450px) {
+        .banner-bottom {
+            min-height: 550px;
+            .text-box {
+                bottom:30px;
             }
         }
     }
