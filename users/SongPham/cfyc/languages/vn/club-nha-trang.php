@@ -31,7 +31,7 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
 
 		<!-- contact -->
 		<h3>Liên hệ :  </h3>
-		<p>Tel: (061) 7308 999</p>
+		<p></p>
 		<p>Mail: info@cfyc.com.vn</p>
     ');
 
