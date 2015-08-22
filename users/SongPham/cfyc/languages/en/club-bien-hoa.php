@@ -4,7 +4,7 @@ define('LANG_CLUB_BIEN_HOA', 'BIEN HOA');
 // BANNER
 define('LANG_CLUB_BIEN_HOA_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in BIEN HOA CITY');
 define('LANG_CLUB_BIEN_HOA_BANNER_SUB_TITLE', 'Discover California Fitness & Yoga Centers in <br>Bien Hoa');
-define('LANG_CLUB_BIEN_HOA_BANNER_TEXT_BUTTON', 'Find a club in Bien Hoa today');
+define('LANG_CLUB_BIEN_HOA_BANNER_TEXT_BUTTON', 'Book a membership trial today');
 
 
 // DESCRIPTION 

@@ -4,7 +4,7 @@ define('LANG_CLUB_BINH_DUONG', 'BINH DUONG');
 // BANNER
 define('LANG_CLUB_BINH_DUONG_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in BINH DUONG CITY');
 define('LANG_CLUB_BINH_DUONG_BANNER_SUB_TITLE', 'Discover California Fitness & Yoga Centers in <br>Binh Duong');
-define('LANG_CLUB_BINH_DUONG_BANNER_TEXT_BUTTON', 'Find a club in Binh Duong today');
+define('LANG_CLUB_BINH_DUONG_BANNER_TEXT_BUTTON', 'Book a membership trial today');
 
 
 // DESCRIPTION 

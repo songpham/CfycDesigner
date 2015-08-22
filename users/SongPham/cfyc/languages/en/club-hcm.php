@@ -6,7 +6,7 @@ define('LANG_CLUB_HCM', 'HO CHI MINH CITY');
 // BANNER
 define('LANG_CLUB_HCM_BANNER_TITLE', 'Welcome to California Fitness & Yoga Centers in HO CHI MINH CITY');
 define('LANG_CLUB_HCM_BANNER_SUB_TITLE', 'Ho Chi Minh City’s first and best premium fitness, entertainment and lifestyle destination ');
-define('LANG_CLUB_HCM_BANNER_TEXT_BUTTON', 'Find a club in Ho Chi Minh today');
+define('LANG_CLUB_HCM_BANNER_TEXT_BUTTON', 'Book a membership trial today');
 
 
 // DESCRIPTION 
