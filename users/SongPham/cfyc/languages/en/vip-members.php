@@ -11,7 +11,7 @@ define("LANG_VIP_RSVP_INCLUDE_7", "And have a chance to experience over 20 other
 define("LANG_VIP_RSVP_INCLUDE_8", "Are you a member?");
 define("LANG_VIP_RSVP_INCLUDE_9", "Discover the benefits of a California Fitness & Yoga membership");
 define("LANG_VIP_RSVP_INCLUDE_10", "Get a free membership trial today");
-define("LANG_VIP_RSVP_INCLUDE_11", "get a trial");
+define("LANG_VIP_RSVP_INCLUDE_11", "register for a membership trial now");
 define("LANG_VIP_RSVP_INCLUDE_12", "book a vip visit today");
 define("LANG_VIP_RSVP_INCLUDE_13", "<span class='title'>SIGN UP FOR A FREE VISIT INCLUDING</span><br/><br/>
 								<strong>- EXCLUSIVE TOUR</strong><br/>
