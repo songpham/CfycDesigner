@@ -28,7 +28,7 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
         <p>Monday to Sunday: 6:00 - 22:00</p>
 
         <h3>Contact: </h3>
-        <p>Tel: (061) 7308 999</p>
+        <p>Tel: (058) 6565999</p>
         <p>Mail: info@cfyc.com.vn</p> -->
     ');
 

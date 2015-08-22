@@ -31,7 +31,7 @@ define('LANG_CLUB_NHA_TRANG_CLUB_1_CONTACT_INFO', '
 
 		<!-- contact -->
 		<h3>Liên hệ :  </h3>
-		<p></p>
+        <p>ĐT: (058) 6565999</p>
 		<p>Mail: info@cfyc.com.vn</p>
     ');
 

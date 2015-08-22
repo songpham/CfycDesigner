@@ -8,7 +8,7 @@ define("LANG_KICKFIT_MMA_BANNER_TEXT_CTA","Try kick fit");
 
 define("LANG_KICKFIT_MMA_CALIDANCE","About Kick Fit and MMA");
 define("LANG_KICKFIT_MMA_CALIDANCE_CONTENT",'
-<p>Kick Fit and Mixed Martial fast paced, safe and exciting sports designed to help you fight your way to a higher level of fitness.</p>
+<p>Kick Fit and MMA are fast paced, safe and exciting sports designed to help you fight your way to a higher level of fitness.</p>
 <p>KickFit is a fun-filled, energetic, one-on-one training with your own KickFit Pro. You will quickly master the exhilarating punches, kicks and speed exercises.   Mixed Martial Arts challenges you with grappling, striking, punching and kicking until you master the elemental moves of traditional boxing, Jujitsu, Muay Thai (kickboxing) and other Martial Arts such as Judo and Vovinam. As you work one-on-one with your own Fighting Fit MMA trainer, your strength, stamina and skills will surprise you.</p>
 ');
 define("LANG_KICKFIT_MMA_YOUTUBE","https://www.youtube.com/embed/Ol1nuRXaVcM");

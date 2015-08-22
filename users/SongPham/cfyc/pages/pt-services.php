@@ -19,10 +19,13 @@
     <div class="calidance container">
         <div class="row row-centered">
             <div class="strike"><h2><?=LANG_PT_CALIDANCE_PT?></h2></div>
-            <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 col-centered">
+            <div class="col-md-10 col-xs-12 col-centered">
+            	<?php echo LANG_PT_CONTENT_1 ?>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <?=LANG_PT_CALIDANCE_CONTENT_PT?>
             </div>
-            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 col-centered">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -30,10 +33,12 @@
         </div>
     </div>
     <div class="clearfix"></div>
-    <div class="benefits">
+    <div class="benefits row-centered">
         <div class="strike"><h2><?=LANG_PT_BENEFIT_PT?></h2></div>
+      <div class="col-md-10 col-xs-12 col-centered">
         <?=LANG_PT_BENEFIT_CONTENT_PT?>
         <br><br>
+        </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
             <a href="#" title="<?=LANG_PT_BENEFIT_PT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/benefit-1.jpg" alt="<?=LANG_PT_BENEFIT_PT?>">

@@ -26,16 +26,11 @@
     <div class="row container-page">
 
         <div class="row block about-block row-centered">
-            <div class='d-title block-title'>
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_TITLE ?></div>
-            </div>
-            <div class="m-title block-title">
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_MOBILE_TITLE ?></div>
-            </div>
+                 <div class="strike"><h2><?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_MOBILE_TITLE ?></div>
             <div class="col-md-5 text col-centered">
                 <?php echo LANG_CELEBRITY_TRAINING_BLOCK_1_CONTENT ?>
             </div>
-            <div class="col-md-4 col-md-offset-1 col-xs-12 video col-centered">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v7lm-Lg3mG4"></iframe>
                 </div>            
@@ -50,16 +45,13 @@
     <!-- HOW DOES PT WORK ? -->
     <div class="row container-page">
 
-        <div class="row block how-block">
-            <div class="d-title block-title">
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_TITLE ?></div>
+        <div class="row block how-block row-centered">
+                <div class="strike"><h2><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_TITLE ?></h2></div>
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered">
+				<?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT ?>
             </div>
-            <div class="m-title block-title">
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_MOBILE_TITLE ?></div>
-            </div>
-            <?php echo LANG_CELEBRITY_TRAINING_BLOCK_2_CONTENT ?>
-            <div class='col-md-6 left-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
-            <div class='col-md-6  right-img'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-2.jpg" ?>" width='100%'></div>
+            <div class='col-md-5 col-centered'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-1.jpg" ?>" width='100%'></div>
+            <div class='col-md-5 col-centered'><img src="<?php echo USER_BASE_URL . "/img/celebrity-training/how-2.jpg" ?>" width='100%'></div>
         </div>
 
     </div>
@@ -76,12 +68,7 @@
     <div class="white-space-2x"></div>
     <div class="row container-page">
         <div class="row block">
-            <div class='d-title block-title'>
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></div>
-            </div>
-            <div class="m-title block-title">
-                <div class="title-text"><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_MOBILE_TITLE ?></div>
-            </div>
+                 <div class="strike"><h2><?php echo LANG_CELEBRITY_TRAINING_BLOCK_3_TITLE ?></h2></div>
         </div>
     </div>
 
@@ -172,12 +159,14 @@
 	<div class="container-page">
 		<div class="col-md-6 col-xs-12">
 			<div class="white-space-2x"></div>
+			<h2 class="vid_title"><?php echo LANG_CELEBRITY_TRAINING_VIDEO_2_HOANG_MY ?></h2>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dojjgGvrEvQ"></iframe>
                 </div>            
 		</div>
 		<div class="col-md-6 col-xs-12">
 			<div class="white-space-2x"></div>
+			<h2 class="vid_title"><?php echo LANG_CELEBRITY_TRAINING_VIDEO_3_HO_VINH_KHOA ?></h2>
              <div class="embed-responsive embed-responsive-16by9">
                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nyN60HDEyCQ"></iframe>
              </div>            
@@ -192,7 +181,7 @@
 
         <div class="row block success-story-block">
             <div class="block-title">
-                <div class="title-text">success stories</div>
+                 <div class="strike"><h2>success stories</h2></div>
             </div>
             <div class="col-md-12 box">
                 <div class="col-md-2 image"><img src="<?php echo USER_BASE_URL ?>/img/celebrity-training/story-1.png" alt=""></div>

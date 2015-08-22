@@ -84,8 +84,6 @@
                     </ul>
                 </div>
             </div>
-
-            <a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"></a>
         </li>
          <li>
             <a href="<?php echo USER_BASE_URL ?>/member-testimonials<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a>

@@ -7,8 +7,9 @@ define("LANG_PT_BANNER_TEXT_SMALL_PT","đăng ký nhận tư vấn thể chất 
 define("LANG_PT_BANNER_TEXT_CTA_PT","Đặt lịch hẹn");
 
 define("LANG_PT_CALIDANCE_PT","Huấn luyện cá nhân");
+define('LANG_PT_CONTENT_1','<p>Huấn luyện viên cá nhân đảm nhận hai vị trí – một người bạn sẵn sàng lắng nghe câu chuyện, mong muốn của bạn và một chuyên gia đưa bạn đạt đến mục tiêu thể hình.</p>
+');
 define("LANG_PT_CALIDANCE_CONTENT_PT",'
-<p>Huấn luyện viên cá nhân đảm nhận hai vị trí – một người bạn sẵn sàng lắng nghe câu chuyện, mong muốn của bạn và một chuyên gia đưa bạn đạt đến mục tiêu thể hình.</p>
 <p>Huấn luyện cá nhân là chương trình tập luyện đặc biệt, một kèm một, được thiết kế dành riêng cho những nhu cầu và mục tiêu thể hình riêng biệt của từng cá nhân. Chương trình luyện tập của chúng tôi mang đến sự hòa hợp, không phải sự đánh đổi. Bạn không cần dành hàng giờ liền trong phòng tập thể hình hay nhịn ăn một cách tiêu cực để đạt được thân hình mơ ước.</p>
 <p>Hệ thống Cải thiện Sức khỏe California mang đến cho bạn những phương pháp đã được chứng minh trong nhiều năm qua, để giúp bạn đạt được mục tiêu hình thể nhanh chóng và an toàn nhất. Mỗi Huấn luyện viên Cá nhân của chúng tôi đều phải trải qua kì sát hạch tiêu chuẩn quốc tế và được cấp bằng chứng nhận theo chương trình NASM Sport & Fitness từ Hoa Kì.</p>
 
@@ -17,9 +18,9 @@ define("LANG_PT_YOUTUBE_PT","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
 define("LANG_PT_BENEFIT_PT","Huấn luyện Cá nhân diễn ra như thế nào?");
 define("LANG_PT_BENEFIT_CONTENT_PT",'
-<p>Dù là giảm cân, tăng cơ, nâng cao thể lực, thon gọn vóc dáng hay rèn luyện thể thao, chỉ cần đó là nguyên vọng và mục tiêu của bạn, chúng tôi cam kết cùng bạn hoàn thành.</p>
-<p>Huấn luyện viên cá nhân sẽ cung cấp một buổi đánh giá, tư vấn thể chất cơ thể, qua đó giúp bạn hiểu cơ thể một cách chính xác và cách bạn đạt được mục tiêu. Huấn luyện viên cá nhân sẽ đưa ra kế hoạch tập luyện và chế độ dinh dưỡng phù hợp với lối sống của bạn.</p>
-<p>Dù bạn có thể chỉ đến phòng gym chỉ một lần hay năm lần mỗi tuần, bạn vẫn toàn quyền lựa chọn thời gian phù hợp để tập luyện cùng huấn luyện viên cá nhân.</p>
+<p>Bất kể điều bạn mong muốn là gì: giảm cân, tăng cơ hay tăng cường thể lực và sở hữu thân hình săn chắc, chúng tôi có thể giúp bạn</p>
+<p>Chuyên gia thể hình cá nhân sẽ hỗ trợ bạn kiểm tra chuyên sâu về thể chất, giúp bạn thấu hiểu cơ thể mình và chỉ ra cách bạn có thể đạt được vóc dáng trong mơ. HLV cá nhân sẽ tư vấn cho bạn một bản hướng dẫn chi tiết về thể hình, dinh dưỡng được cá nhân hóa cho riêng bạn và giúp bạn áp dụng nó vào cuộc sống hằng ngày</p>
+<p>Dù bạn bận rộn 5 hay 6 ngày một tuần, chúng tôi đều có thể chỉ ra thời gian phù hợp để bạn tập luyện hiệu quả nhất</p>
 ');
 
 define("LANG_PT_ENVIRONMENT_PT","MÔI TRƯỜNG HOÀN HẢO GIÚP BẠN HOÀN TOÀN THAY ĐỔI CƠ THỂ");

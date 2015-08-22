@@ -73,3 +73,7 @@ define('LANG_CELEBRITY_TRAINING_MEMBER_4_JOB', 'Chairman & CEO');
 define('LANG_CELEBRITY_TRAINING_MEMBER_4_DESCIPRTION', '
         <p>Randy has successfully operated multiple fitness companies across seven countries in a career that has spanned more than 18 years. He has been a key individual on leadership teams which have developed some of the top brands in the industry including, 24 Hour Fitness, California Fitness, Jackie Chan Sport, Yoga for Life, and Myoga to name a few. He is considered one of the most innovative thought leaders in the industry and has developed a world class management over his illustrious career. Randy brings his passion for athletics and entertainment to his professional life, creating a unique fitness experience that is revolutionizing the way people exercise in Asia.</p>
     ');
+    
+    
+    define('LANG_CELEBRITY_TRAINING_VIDEO_2_HOANG_MY', 'Miss Universe Vu Hoang My Workout');
+define('LANG_CELEBRITY_TRAINING_VIDEO_3_HO_VINH_KHOA', 'Hồ Vĩnh Khoa 6 pack Workout');

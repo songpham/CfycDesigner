@@ -74,3 +74,6 @@ define('LANG_CELEBRITY_TRAINING_MEMBER_4_JOB', 'Chairman & CEO');
 define('LANG_CELEBRITY_TRAINING_MEMBER_4_DESCIPRTION', '
         <p>Với hơn 18 năm hoạt động trong ngành Thể dục Thể hình, Randy Dobson đã vận hành thành công nhiều công ty cung cấp dịch vụ thể hình tại 7 quốc gia trên thế giới. Randy trở thành nhân tố chủ chốt trong hàng ngũ lãnh đạo của những thương hiệu hàng đầu trong ngành thể hình thế giới như: 24 Hour Fitness, California Fitness, Jackie Chan Sport, Yoga for Life, and Myoga. Với lối dẫn dắt mang tính tiên phong và khả năng quản trị tầm vóc quốc tế, Randy được coi là một trong những nhà lãnh đạo dẫn đầu trong ngành thể hình. Bằng cách mang đam mê trong lĩnh vực thể hình và giải trí kết hợp cùng mô hình kinh doanh đẳng cấp, Randy Dobson đã thành công trong việc đưa trải nghiệm tập luyện và chăm sóc sức khỏe tại châu Á lên một tầm cao mới.</p>
     ');
+    
+define('LANG_CELEBRITY_TRAINING_VIDEO_2_HOANG_MY', 'Miss Universe Vu Hoang My tập luyện');
+define('LANG_CELEBRITY_TRAINING_VIDEO_3_HO_VINH_KHOA', 'Hồ Vĩnh Khoa tập luyện');

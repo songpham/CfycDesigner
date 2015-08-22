@@ -241,7 +241,7 @@
     .gallery {
         padding: 2% 0;
         &>div { margin-bottom: 30px;}
-        p {padding: 0 10px; text-align: center; font-size: 1.5em; font-weight: bold;}
+        p {padding: 0 10px; text-align: center; font-size: 1.5em;}
         img {
             margin-bottom: 20px;
         }
@@ -403,6 +403,7 @@
             	max-width: 90%;
                 bottom: 130px;
                 top:auto;
+                text-align: center;
                 h1 {font-size: 5vw;}
                 h3 {font-size: 4vw; padding: 20px 0;}
                 a.cta {font-size: 4vw; padding: 5% 10%; }

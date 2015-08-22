@@ -4,7 +4,7 @@ define("HOME_BANNER_2","<br/>Visit us today and discover why we are the trusted 
 define("HOME_BANNER_3","Book Your VIP Visit");
 define("LANG_HOMEPAGE", "Home");
 define("LANG_OUR_SERVICES", "Life Enhancement Services");
-define("LANG_OUR_SERVICES_SUB", "Get the body of your dreams - burn fat and build muscle with our world class personal training while discovering dozens of programs and classes which matches both your goals and style. ");
+define("LANG_OUR_SERVICES_SUB", "Get the body of your dreams - burn fat and build muscle with our world class personal training while discovering dozens of programs and classes which match both your goals and style. ");
 define("LANG_FIND_YOUR_CLUB", "FIND YOUR CLUB");
 define("LANG_FIND_YOUR_CLUB_SUB", "Now in 6 cities throughout Vietnam and rapidly growing, we are conveniently located or coming soon to a location near you.");
 define("LANG_FIND_YOUR_TRAINER", "Meet our Fitness Experts");

@@ -16,6 +16,7 @@ define('LANG_CENTURYON_MEMBERSHIPS_ID_2_MAIN_TITLE_1_TEXT', ' Experience a new l
 define('LANG_CENTURYON_MEMBERSHIPS_ID_3_MAIN_TITLE_1', 'Centuryon is designed to meet the needs and demands of those who accept nothing less than the very best');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE','Beyond state of the art fitness facilities and personalized services, Centuryon includes and offers so much more');
 
+define('LANG_CENTURYON_MEMBERSHIPS_ID_4_TITLE','ENJOY THE VERY BEST WITH THE PEOPLE YOU CARE ABOUT');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG1_DESC','Connect with people who matter in our VIP Centuryon Lounge');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG2_DESC',' Enjoy the luxury of our bath and shower area');
 define('LANG_CENTURYON_MEMBERSHIPS_ID_4_IMG3_DESC','Enjoy exclusive Centuryon Athletica apparel');

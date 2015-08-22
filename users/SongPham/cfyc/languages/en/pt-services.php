@@ -7,8 +7,9 @@ define("LANG_PT_BANNER_TEXT_SMALL_PT","get a free personal training consultation
 define("LANG_PT_BANNER_TEXT_CTA_PT","Meet a trainer");
 
 define("LANG_PT_CALIDANCE_PT","A personal trainer is two things");
+define('LANG_PT_CONTENT_1','<p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
+');
 define("LANG_PT_CALIDANCE_CONTENT_PT",'
-<p>The friend who listens to your story and cares about your dreams and the expert who makes the plan and guides you to reach your goals.</p>
 <p>Personal training at California Fitness & Yoga offers exclusive one-on-one programs specifically designed for your body’s needs and your individual fitness goals. Our program is about integration, not sacrifice. You don’t need to spend hours in the gym or starve yourself in order to achieve the body of your dreams.</p>
 <p>Our patented California Health System is designed to integrate into your lifestyle using proven methods developed over dozens of year to help you get results in the fastest, safest way possible. Each of our trainers is highly qualified under international standards of certification following NASM Sports & Fitness certification curricula from the USA.</p>
 ');
@@ -16,8 +17,9 @@ define("LANG_PT_YOUTUBE_PT","https://www.youtube.com/embed/Ol1nuRXaVcM");
 
 define("LANG_PT_BENEFIT_PT","How does PT work?");
 define("LANG_PT_BENEFIT_CONTENT_PT",'
-<p>We make it easy for you, very easy. Personal training is designed to integrate into your life without you having to make sacrifices.</p>
-<p>Everyone has different goals… Whether you want to build muscle, lose weight, tone your body, improve endurance or train for sports performance, we have the resources and experience to help you reach them.</p>
+<p>It’s all about your goals and desires, whether you want to lose weight, build muscle and strength, tone your body or train for sports, we can help you.<br><br>
+Your dedicated personal trainer will provide you with an In Body Assessment to help you accurately understand your body and how you can reach your goals. Your trainer will develop a personalized fitness and nutrition plan and guide you to easily integrate it into your lifestyle.<br><br>
+Whether your available one or five days a week, you can choose the times and days most suitable for you to train. </p>
 ');
 
 define("LANG_PT_ENVIRONMENT_PT","THE PERFECT ENVIRONMENT FOR YOU TO SUCCEED");

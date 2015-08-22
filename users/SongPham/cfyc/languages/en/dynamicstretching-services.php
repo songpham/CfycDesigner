@@ -2,13 +2,12 @@
 
 define("LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS","dynamicstretching-services");
 
-define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","Heal yourself and enjoy the relaxing moment");
+define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CONTENT_DS","Heal yourself and enjoy a relaxing moment");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_SMALL_DS","experience the alleviation of muscle <br>and join tension today");
 define("LANG_DYNAMIC_STRETCHING_BANNER_TEXT_CTA_DS","Try a class");
 
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_DS","About Dynamic Stretching");
 define("LANG_DYNAMIC_STRETCHING_CALIDANCE_CONTENT_DS",'
-<p>Heal your body and enjoy a relaxing moment.</p>
 <p>Everybody gets run down with the day to day demands of an active lifestyle and it can be easy to build tension and stress throughout your body.</p>
 <p>Dynamic stretching allows you to relieve your body of unwanted strains and pressure in your muscles and joints which build up from exercise, sports and an overall active lifestyle.</p>
 ');

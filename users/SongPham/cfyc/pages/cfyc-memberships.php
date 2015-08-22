@@ -14,8 +14,8 @@
             </fieldset>
         </div>
     </div>
-    <div id="id_1" class="row top-content">
-        <div class="col-sm-10 col-sm-offset-1">
+    <div id="id_1" class="row top-content row-centered">
+        <div class="col-sm-12 col-centered">
             <div class="strike">
                 <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1 ?></h1>
             </div>
@@ -38,7 +38,7 @@
                 </div>
         </div><!--end row-->
         <div class="row top-content row-centered">
-            <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-sm-12 col-centered">
                 <div class="strike">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1 ?></h1>
                 </div>
@@ -65,7 +65,7 @@
     </div><!--end gallery-->
     <div id="id_3"class="container-page">
         <div class="row top-content row-centered">
-            <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-sm-12 col-centered">
                 <div class="strike line-3">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1 ?></h1>
                 </div>
@@ -108,8 +108,8 @@
         </div>
     </div><!--end gallery-->
 
-    <div class="row top-content">
-        <div class="col-sm-10 col-sm-offset-1">
+    <div class="row top-content row-centered">
+        <div class="col-sm-12 col-centered">
             <div class="strike">
                 <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h1>
             </div>
