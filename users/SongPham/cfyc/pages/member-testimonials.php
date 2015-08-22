@@ -7,7 +7,11 @@
             <fieldset>
                 <legend><?php echo LANG_MEMBER_TESTIMONIALS_BANNER_TITLE ?></legend>
                 <hr/>
-                <span>
+
+                 <div class="embed-responsive embed-responsive-4by3">
+					 <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko?rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<span>
                     <?php echo LANG_MEMBER_TESTIMONIALS_BANNER_SUB_TITLE ?>
                 </span>
                 <div class="red-btn">
@@ -17,11 +21,6 @@
                 </div>
             </fieldset>
         </div>
-         <div class="banner-video">
-        <div class="embed-responsive embed-responsive-4by3">
-             <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/EVw2QEnXEko" frameborder="0" allowfullscreen></iframe>
-         </div>
-         </div>
     </div>
     <!-- END TOP BANNER -->
 

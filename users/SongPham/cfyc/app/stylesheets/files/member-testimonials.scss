@@ -15,26 +15,20 @@
         }
         @media (max-width:767px) {
         	position: relative;
-            background: #fff url(../img/member-testimonials/banner.jpg) center top no-repeat;
+            background: #fff url(../img/member-testimonials/m-banner.jpg) center top no-repeat;
             background-size: cover;
-            min-height: 500px;
+            min-height: 540px;
         }
-        @media (min-width:768px){
-        .banner-video {max-width: 550px;margin: 50px 0 0px 6%; display: block; position: relative;
-		        .embed-responsive {display: block; margin: 20px auto; padding-bottom: 55%;}
+        @media (max-width:415px) {
+           background-size: 100%;
+           min-height: 700px;
+            background: #000 url(../img/member-testimonials/m-banner.jpg) center top no-repeat;
 
-			}
+	        
         }
-   @media (min-width:2000px){
-        .banner-video {max-width: 540px;margin: 50px 0 0px 16%; display: block; position: relative;
-			}
-        }
-        @media (max-width:767px){
-			        .banner-video {display: none;}
-		        }
         .cta {
             max-width: 42vw;
-            margin: 50px 0 0px 5%;
+            margin: 50px 0 50px 5%;
             padding: 20px;
             position: relative;
             @media (min-width:2000px) {
@@ -104,7 +98,8 @@
                     }
                 }
                 hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
-                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 25px 0px;
+                .embed-responsive {padding-bottom: 55%; max-width: 85%; margin: 0 auto;}
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 15px 0px;
                        @media (max-width: 767px) {
                            padding-bottom: 10px;
                            font-size: .79em;

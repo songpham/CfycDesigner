@@ -7,7 +7,8 @@ define("LANG_DANCE_BANNER_TEXT_SMALL","Trải nghiệm lớp dance ngay hôm nay
 define("LANG_DANCE_BANNER_TEXT_CTA","Đăng ký tập thử");
 
 define("LANG_DANCE_CALIDANCE","Các lớp nhảy Cali Dance");
-define("LANG_DANCE_CALIDANCE_CONTENT","Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br><br>
+define('LANG_DANCE_CALIDANCE_CONTENT_1','Được lựa chọn và chắt lọc từ các chương trình vũ đạo hàng đầu, các lớp nhảy của Cali sẽ thổi bùng năng lượng trong bạn với những vũ điệu và âm nhạc sôi động. Hãy tập luyện với các điệu nhảy yêu thích nhất!<br><br>');
+define("LANG_DANCE_CALIDANCE_CONTENT","
 Hiện nay, với hơn 10 chương trình nhảy đủ mọi thể loại, việc đốt cháy năng lượng dư thừa sẽ trở nên thú hơn bao giờ hết. Hãy phiêu cùng các vũ điệu La-tinh, giải phóng cơ thể cùng các bước nhảy uyển chuyển đầy quyến rũ của Zumba. Khám phá cơ thể qua những chuyển động tinh tế của cơ thể với lớp múa bụng ấn tượng!<br><br>
 Tham gia vào lớp nhảy Sh’bam với các điệu nhảy mới được kết hợp với các điệu nhảy hiphop trẻ trung hay tập luyện vùng cơ bụng hiệu quả và tạo dáng ấn tượng cùng lớp Múa cột. Hãy khám phá và theo đuổi những điệu nhảy tốt nhất ngay hôm nay!
 ");

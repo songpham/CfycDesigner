@@ -7,7 +7,8 @@ define("LANG_DANCE_BANNER_TEXT_SMALL","Experience a dance class today");
 define("LANG_DANCE_BANNER_TEXT_CTA","Try a class");
 
 define("LANG_DANCE_CALIDANCE","About Cali Dance");
-define("LANG_DANCE_CALIDANCE_CONTENT",'Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!<br><br>
+define('LANG_DANCE_CALIDANCE_CONTENT_1','Pick and choose from an extensive variety of cutting-edge classes that will energize your movements with the rhythm of exhilarating music. Workout with the movements you love best!');
+define("LANG_DANCE_CALIDANCE_CONTENT",'<br><br>
 Dance your way to cardio fitness with over 10 different dance programs available. Party your way to fitness with the red-hot, calorie-burning moves of Zumba and Latin Dance. Delight in the exotic body movements of the Belly Dance.<br><br>
 Enjoy new and exciting Sh’bam dance classes incorporating the latest hip hop moves or participate in core and body sculpting pole dance classes. Follow your desires and discover which class is best for you!
 ');

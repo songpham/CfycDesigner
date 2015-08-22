@@ -18,10 +18,13 @@
     <div class="calidance container-page">
         <div class="row row-centered">
             <div class="strike"><h2><?=LANG_DANCE_CALIDANCE?></h2></div>
-            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered">
+            <div class="col-md-10 col-xs-12 col-centered">
+            	<p class="sub-heading"><?php echo LANG_DANCE_CALIDANCE_CONTENT_1 ?></p>
+            </div>
+            <div class=" col-lg-5 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <?=LANG_DANCE_CALIDANCE_CONTENT?>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-centered">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-centered">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/lvahrWTnZ7o" frameborder="0" allowfullscreen></iframe>
                 </div>
