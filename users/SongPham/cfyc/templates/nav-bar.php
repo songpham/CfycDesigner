@@ -48,7 +48,7 @@
                         <li><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/celebrity-trainning<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/celebrity-training<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <li><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
                 <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
                 <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/celebrity-trainning<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/celebrity-training<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
 
            </ul>
         </div>

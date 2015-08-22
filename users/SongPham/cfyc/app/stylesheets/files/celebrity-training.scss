@@ -1,0 +1,404 @@
+@import '../lib';
+
+$pageWidth : 2000px;
+$containerWidth : 1200px;
+
+.celebrity-trainning-page {
+
+    .white-space {padding:10px 0; clear:both;}
+    .white-space-2x {padding: 20px 0; clear: both;}
+    .white-space-3x {padding: 30px 0; clear: both;}
+    h2.vid_title {color: $red; text-align: center; padding: 10px 0; text-transform: uppercase; font-size: 25px;}
+
+    // GALLERY
+    .banner-top {
+    	@media (min-width: 768px) {
+        position: relative;
+        background: #fff url(../img/celebrity-training/banner-top.jpg) center top no-repeat;
+        background-size: 100%;
+        }
+        @media (max-width:767px) {
+        	position: relative;
+            background: #fff url(../img/celebrity-training/m-banner-top.jpg) center top no-repeat;
+            background-size: cover;
+            min-height: 500px;
+        } 
+        .cta {
+            max-width: 40vw;
+             margin: 10vw 0 21vw 2%;
+            padding: 20px;
+            position: relative;
+            @media (min-width:2000px) {
+                max-width: 475px;
+                margin: 450px 0 90px 15%;
+                padding: 20px;
+                position: relative;
+            }
+            @media (min-width:768px) and (max-width:1200px){
+                max-width: 50vw;
+            }
+            @media (max-width: 767px) {
+
+                max-width: 500px;
+                margin-left: auto;
+                margin: 450px auto 0 auto;
+                padding: 50px 10px;
+                position: relative;
+                float: none;
+
+            }
+            @media (max-width:550px) {
+                position: absolute;
+                margin: 0px auto;
+                bottom: 50px;
+                padding: 0px 10px;
+            }
+
+            fieldset {
+                position: relative;
+                border: 1px solid $red;
+                padding: 0 30px 30px;
+                height: auto;
+                @media (max-width: 767px) {
+                    padding: 10px 10px 20px 10px;
+                    height:auto;
+                }
+                @media (max-width: 484px) {
+
+                }
+                legend {
+                    color: $red;
+                    text-align: center;
+                    width: auto;
+                    line-height: 1.1em;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    border: none;
+                    margin-bottom: 0;
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    @media (max-width: 2000px) {
+                        font-size: 2vw;
+                    }
+                    @media (max-width: 767px){
+                        padding: 10px 0 0 0;
+                        font-size: 35px;
+
+                        line-height: 1.1em;
+                        text-transform: uppercase;
+                        font-weight: 400;
+
+                    }
+                    @media (max-width:550px) {
+                        font-size: 6.4vw;
+                    }
+                }
+                hr {border-bottom:1px solid $red; height: 0px; border-top:0px; margin-top:10px; margin-bottom: 10px; max-width: 72%;}
+                span { text-align: center; color: $white; text-transform: uppercase; text-align: center; display: block; margin: 0 auto; padding: 15px 25px;
+                       @media (max-width: 767px) {
+                           padding-bottom: 10px;
+                           font-size: .79em;
+                       }
+                }
+                .red-btn {
+                    .red-btn-inline {position: relative;text-align: center;}
+                    position: absolute;
+                    width: 100%;
+                    left: 0px;
+                    bottom: -20px;
+                    a {
+                        color: $white;
+                        font-size: 12px;
+                        background: $red;
+                        border-radius: 20px;
+                        text-decoration: none;
+                        position: relative;
+                        margin: 0 auto;
+                        padding: 10px 30px;
+                        display: inline-block;
+                        text-align: center;
+                        text-transform: uppercase;
+                        white-space: nowrap;
+                        font-weight: 600;
+                        @media (max-width:767px){
+                            padding: 10px 15px;
+                        }
+                        @media (max-width:550px){
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-caption {
+            font-size: 40px;
+            left: 10%;
+            bottom: 13%;
+            right: 0;
+            color:$red;
+            line-height: 40px;
+            text-align: left;
+            display: inline-block;
+            width: 550px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            @media (max-width: 2000px) {
+                max-width: 40vw;
+            }
+
+            @media (max-width: 1360px) {
+                bottom: 2%;
+            }
+            @media (max-width: 991px) {
+                max-width: 50vw;
+                left: 5%;
+            }
+            strong {font-weight: 300;}
+            hr { background: $red; height: 2px; border: none; max-width: 50%; margin: 20px auto;
+                 @media (max-width: 767px) { margin: 10px auto 0 auto;}
+                 @media (max-width: 480px) { margin: 3px auto; height: 1px;}
+            }
+            span{ color: $white;font-size: 16px;display: inline-block; margin-bottom: 30px; line-height: 150%;
+                  @media (min-width: 768px) and (max-width: 991px) {margin-top: 0px;padding-top: 10px;}
+                  @media (max-width: 767px){font-size: 14px;margin-top: 0px;padding-top: 10px;margin-bottom: 20px;}
+                  @media (max-width: 480px){font-size: .8em; margin-bottom: 10px; padding-top: 0; margin-top: 0;}
+            }
+
+        }
+    }
+
+    // CONTAINER PAGE
+    .container-page {
+        @media (max-width: 1200px) {padding: 0 10px;}
+        max-width: $containerWidth;
+
+        // BLOCK
+        .block {
+            @include font-size(14px);
+            line-height: 1.42857143;
+
+            // BLOCK TITLE
+            .block-title {
+                margin: 0 0 35px 0;
+                position: relative;
+                text-align: center;
+                color: $red;
+                letter-spacing: 1px;
+                font-weight: bold;
+                text-transform: uppercase;
+                @include font-size(2vw);
+                @media screen and (max-width: 650px) {@include font-size(6vw);}
+                @media screen and (min-width: 2000px) {@include font-size(35px);}
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 80%;
+                    height: 2px;
+                    background: $red;
+                    top: 52%;
+                    left: 10%;
+                    z-index: 1;
+                    @media screen and (max-width: 320px) {width: 90%;left: 5%;}
+                }
+                .title-text {
+                    display: inline-block;
+                    position: relative;
+                    padding: 0 20px;
+                    background: $white;
+                    z-index: 2;
+                    @media screen and (max-width: 650px) {padding: 0 10px !important;}
+                }
+            }
+            .d-title {display: none;}
+            .m-title {display: block;}
+            @media (max-width: 480px) {
+                .d-title {display: none;}
+                .m-title {display: block;}
+            }
+        }
+
+
+
+        // ABOUT CELEBRITY TRAINING BLOCK
+        .about-block {
+            @extend .block;
+            .video {padding: 0;}
+            .text {margin: 0 !important;padding: 0 5px !important;
+                   p {text-align: justify; line-height: 24px;}
+            }
+        }
+
+
+        // HOW DOES PT WORK BLOCK
+        .how-block {
+            @extend .block;
+            .left-img, .right-img {padding: 7.5px 5px !important;}
+            .left-img {@media (min-width: $breakpoint_tablet) {padding: 5px 3px 5px 0  !important;}}
+            .right-img {@media (min-width: $breakpoint_tablet) {padding: 5px 0 5px 3px  !important;}}
+            .text-center {
+                padding: 5px 20px;
+                @media (max-width: $breakpoint_tablet) {padding: 0;}}
+            }
+
+
+            // SUCCESS STORY BLOCK
+            .success-story-block {
+                @extend .block;
+                .box {
+                    padding: 10px 0px;
+                    margin: 0px;
+                    .text {margin-top: 4% !important; padding-left: 3%;}
+                    .image {padding-left: 5px !important;padding-right: 5px !important;
+                            img {width: 100%; height: 100%;}
+                    }
+                    @media (max-width: 517px){
+                        padding-bottom: 30px  !important;
+                        .image {img {width: 100%; height: 100%;}}
+                        .text {margin-top: 4% !important; padding: 0 5px !important;}
+                    }
+                }
+
+                .see-more-btn {
+                    text-align: center;
+                    margin: 30px 0;
+                    a {
+                        text-decoration: none;
+                        @include font-size(17px);
+                        color: #000;
+                        padding: 5px 30px;
+                        border : 2px solid #808285;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        &:hover {
+                            text-decoration: none;
+                            background: #808285;
+                            color: $white;
+                            @include transition(all .4s ease-in-out);
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // TRAINER
+        .trainers {
+        	p {text-align: justify;}
+            center{font-weight: bold;margin-bottom: 20px;}
+            .area{border:none;text-align: center;display: none;
+                  li{
+                      float:none;
+                      display: inline-block;
+                      a{
+                          border:none;font-weight: bold;color:$black;
+                          @media (max-width: 767px){padding: 5px 10px;}
+                          @media (max-width: 480px){padding: 5px 10px;}
+                      }
+
+                  }
+                  :hover a{background-color: transparent;color:$red;}
+                  .active a{border:none;color:$red;}
+                  .active a:hover{border:none;color:$red;}
+                  .active a:focus{border:none;color:$red;}
+            }
+            .teacher-detail{
+                margin-top: 60px;
+                @media (max-width: 767px){margin-top: 10px;}
+                @media (max-width: 480px){margin-top: 10px;}
+                ul.nav-tabs{
+                    border: none;text-align: center;font-weight: bold;padding-left: 0;padding-right: 0;
+                    li{
+                        float: none;display: list-item;
+                        a{
+                            border: none;color:$black;padding: 5px;
+                            img{width: 100px;display: inline-block; border: 3px solid #EAEAEA; @include border-radius(50%);
+                                @media (max-width: 767px){width: 100%;}
+                                @media (max-width: 480px){width: 100%;}
+                            }
+                            span{display: block;@include font-size(14px);
+                                 @media (max-width: 767px){font-size: 80%;}
+                                 @media (max-width: 480px){font-size: 80%;}
+                            }
+                            @media (max-width: 767px){padding: 0;}
+                            @media (max-width: 480px){padding: 0;}
+                        }
+                        :hover{background: transparent!important;}
+                        :focus{background: transparent!important;}
+                        @media (max-width: 767px){float:left;width: 25%;}
+                        @media (max-width: 480px){float:left;width: 25%;}
+                    }
+                    .active {}
+                }
+                .tab-content{
+                    h3{color: $red;margin-bottom: 5px;@include font-size(17px);font-weight: bold;text-transform: uppercase;}
+                    h4{color: $red;font-weight: 400;margin-top: 0;text-transform: uppercase;@include font-size(14px)}
+                    p {margin: 15px 0;}
+                    img{
+                        display: inline-block;
+                        @media (max-width: 767px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
+                        @media (max-width: 480px){height: 200px;margin-top: 10px;margin-bottom: 10px;}
+                    }
+                    .cont{@media (max-width: 767px){padding: 10px;}}
+                    @media (max-width: 767px){padding: 0;}
+                    @media (max-width: 480px){padding: 0;}
+                }
+            }
+            @media (max-width: 767px){padding: 0;}
+            @media (max-width: 480px){padding: 0;}
+        }
+
+
+
+        // MID BANNER
+        .mid-banner {
+            position: relative;
+            background: #fff url(../img/celebrity-training/mid-banner.jpg) center top no-repeat;
+            background-size: 100%;
+            min-height: 33vw;
+            @media (max-width:767px) {
+                background: #fff url(../img/celebrity-training/m-mid-banner.jpg) center top no-repeat;
+                background-size: cover;
+                min-height: 500px;
+            } 
+            position: relative;
+            .caption {
+                position: absolute;
+                background: rgba(255, 0, 0, 0.6);
+                padding: 20px 0;
+                width: 100%;
+                color: $white;
+                text-align: center;
+                text-transform: uppercase;
+                @include font-size(14px);
+                letter-spacing: 2px;
+            }
+        }
+
+
+        // COPYRIGHT
+        h2.booktitle{
+            border:1px solid #000;
+            padding:4% 8%;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        h3.visit_benefit{
+            font-size: 13px;
+            line-height: inherit;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            span{
+                font-size: 90%;
+            }
+            span.title{
+                font-size: 120%;
+            }
+        }
+
+    }
+
+
+    @import 'pgwslider.scss';
