@@ -50,8 +50,6 @@
 	    				<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('terms_conditions' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_FOOTER_TERMS_CONDITIONS ?></a></li>
 	    				<!-- <li><a href="#">FAQ</a></li> -->
 	    				<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('privacy-policy' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_FOOTER_PRIVACY ?></a></li>
-	    			</ul>
-	    			<ul>
 
 	    			</ul>
     			</div>
@@ -59,3 +57,7 @@
     	</div>
     	<p>&copy; California Fitness & Yoga 2015 </p>
     </footer>
+       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJ9WBZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1490103637908386&amp;ev=PixelInitialized" ></noscript>
+
