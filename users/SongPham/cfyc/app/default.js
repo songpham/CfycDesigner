@@ -85,15 +85,15 @@ $(document).ready(function () {
         });
     });
     
-  // GOOGLE TAG MANAGER   
+  // GOOGLE TAG MANAGER   -------------------------------------------------------------------------\\\ 
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KJ9WBZ');
-    // End Google Tag Manager
+    // End Google Tag Manager -------------------------------------------------------------------------\\\
 
- //FACEBOOK
+//FACEBOOK -------------------------------------------------------------------------\\\
         (function () {
             var _fbq = window._fbq || (window._fbq = []);
             if (!_fbq.loaded) {
@@ -108,7 +108,7 @@ $(document).ready(function () {
         })();
         window._fbq = window._fbq || [];
         window._fbq.push(['track', 'PixelInitialized', {}]);
-//end FB
+//end FB  -------------------------------------------------------------------------\\\
 
 
 //Unknown
@@ -117,7 +117,7 @@ $(document).ready(function () {
          };
 
 
-// Scoiomantic
+// Scoiomantic  -------------------------------------------------------------------------\\\
          (function(){
              var s   = document.createElement('script');
              var x   = document.getElementsByTagName('script')[0];
@@ -128,6 +128,6 @@ $(document).ready(function () {
                      + 'ap-sonar.sociomantic.com/js/2010-07-01/adpan/cfyc-vn';
              x.parentNode.insertBefore( s, x );
          })();
-
+// end sociomatic  -------------------------------------------------------------------------\\\
 
 });
