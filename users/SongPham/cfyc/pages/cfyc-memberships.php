@@ -15,7 +15,7 @@
         </div>
     </div>
     <div id="id_1" class="row top-content row-centered">
-        <div class="col-sm-12 col-centered">
+        <div class="col-sm-12 ">
             <div class="strike">
                 <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_1_MAIN_TITLE1 ?></h1>
             </div>
@@ -38,13 +38,13 @@
                 </div>
         </div><!--end row-->
         <div class="row top-content row-centered">
-            <div class="col-sm-12 col-centered">
+            <div class="col-sm-12 ">
                 <div class="strike">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-8 col-centered">
+            <div class="col-md-8 col-md-offset-2 ">
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT1 ?></p>
 
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_2_TEXT2 ?></p>
@@ -65,13 +65,13 @@
     </div><!--end gallery-->
     <div id="id_3"class="container-page">
         <div class="row top-content row-centered">
-            <div class="col-sm-12 col-centered">
+            <div class="col-sm-12 ">
                 <div class="strike line-3">
                     <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_MAIN_TITLE1 ?></h1>
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="col-md-8 col-centered">
+            <div class="col-md-8 col-md-offset-2 ">
                 <p><?php echo LANG_CFYC_MEMBERSHIPS_ID_3_TEXT1 ?></p>
             </div>
         </div><!--end row-->
@@ -109,7 +109,7 @@
     </div><!--end gallery-->
 
     <div class="row top-content row-centered">
-        <div class="col-sm-12 col-centered">
+        <div class="col-sm-12 ">
             <div class="strike">
                 <h1 class="title"><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_MAIN_TITLE1 ?></h1>
             </div>
@@ -117,7 +117,7 @@
     </div>
     <div class="container-page">
         <div class="row top-content row-centered">
-            <div class="col-md-8 col-centered">
+            <div class="col-md-8 col-md-offset-2 ">
                 <p><strong><?php echo LANG_CFYC_MEMBERSHIPS_ID_4_TEXT1 ?></strong></p>
             </div>
         </div><!--end row-->

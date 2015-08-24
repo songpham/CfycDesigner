@@ -155,7 +155,7 @@
         </div>
 
     </div>
-	 
+	 <div class="clearfix"></div>
 	<div class="container-page">
 		<div class="col-md-6 col-xs-12">
 			<div class="white-space-2x"></div>
