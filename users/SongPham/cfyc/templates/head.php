@@ -5,22 +5,13 @@
     <meta name="description" content="" />
     <meta name="keywords" content=""/>
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="https://images.hopespeak.com/images/drawable_192_192.png?version=188">
-    <link rel="icon" sizes="128x128" href="https://images.hopespeak.com/images/drawable_128_128.png?version=188">
-    <link rel="apple-touch-icon" sizes="128x128" href="https://images.hopespeak.com/images/drawable_128_128.png?version=188">
-    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://images.hopespeak.com/images/drawable_128_128.png?version=188">
-    <link rel="canonical" href="https://www.hopespeak.com/account/start-a-new-chat" />
-    <meta property="og:title" content="Start a new chat - Hope Speak" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://www.hopespeak.com/account/start-a-new-chat" />
-    <meta property="og:image" content="https://images.hopespeak.com/images/random-pictures/13.jpg" />
-    <meta property="og:site_name" content="Hope Speak" />
-    <meta property="og:description" content="" />
-    <meta property="fb:app_id" content="652758784815755" />
-    <link rel="alternate" hreflang="en-us" href="https://www.hopespeak.com/account/start-a-new-chat">
-    <link rel="alternate" href="https://www.hopespeak.com/feed" title="Hope Speak RSS feed" type="application/rss+xml" />
-    <link rel="shortcut icon" href="https://www.hopespeak.com/favicon.ico?version=188" type="image/x-icon">
-    <link rel="icon" href="https://www.hopespeak.com/favicon.ico?version=188" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo USER_BASE_URL ?>/img/favicon.ico">
+	<link rel="canonical" href="http://www.cfyc.com.vn/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.cfyc.com.vn/" />
+	<meta property="og:image" content="http://www.cfyc.com.vn/phn_temp/temp1/images/LogoCaliforniaQuare.png" />
+	<meta property="og:site_name" content="California Fitness & Yoga" />
+    <meta property="fb:app_id" content="460384730738451" />
     <!-- CSS -->
     <link href="<?php echo USER_BASE_URL ?>/css/vendor.min.css" rel="stylesheet">
     <link href="<?php echo USER_BASE_URL ?>/css/bundle.min.css?v=1.0" rel="stylesheet">
