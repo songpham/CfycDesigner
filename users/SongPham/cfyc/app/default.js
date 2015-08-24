@@ -84,4 +84,50 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
+    
+  // GOOGLE TAG MANAGER   
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KJ9WBZ');
+    // End Google Tag Manager
+
+ //FACEBOOK
+        (function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+            _fbq.push(['addPixelId', '1490103637908386']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+//end FB
+
+
+//Unknown
+         var lead = {
+             transaction : 'TransactionID'  // unique transaction ID
+         };
+
+
+// Scoiomantic
+         (function(){
+             var s   = document.createElement('script');
+             var x   = document.getElementsByTagName('script')[0];
+             s.type  = 'text/javascript';
+             s.async = true;
+             s.src   =
+     ('https:'==document.location.protocol?'https://':'http://')
+                     + 'ap-sonar.sociomantic.com/js/2010-07-01/adpan/cfyc-vn';
+             x.parentNode.insertBefore( s, x );
+         })();
+
+
 });

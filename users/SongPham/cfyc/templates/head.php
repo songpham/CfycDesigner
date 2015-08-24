@@ -25,4 +25,32 @@
     var TEMPLATE_DIRECTORY_URI = '<?php echo USER_BASE_URL ?>';
     </script>
     <script src="<?php echo USER_BASE_URL ?>/js/vendor.min.js"></script>
-</head>
+    <?php
+    $realURI = rtrim(preg_replace('/\\?.*/', '', str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI']))), '/');
+    if(isset($realURI)) { 
+		switch($realURI) {
+        case 'cam-on':
+        ?>
+        <!-- Facebook Conversion Code for Webiste lifestyle - thank you page -->
+			<script>(function() {
+			  var _fbq = window._fbq || (window._fbq = []);
+			  if (!_fbq.loaded) {
+			    var fbds = document.createElement('script');
+			    fbds.async = true;
+			    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(fbds, s);
+			    _fbq.loaded = true;
+			  }
+			})();
+			window._fbq = window._fbq || [];
+			window._fbq.push(['track', '6036772754880', {'value':'0.00','currency':'USD'}]);
+			</script>
+			<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6036772754880&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+        
+        <?php
+            break;
+		}
+	} 
+?></head>

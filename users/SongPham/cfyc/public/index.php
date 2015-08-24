@@ -161,6 +161,7 @@ if (empty($languageFiles) === FALSE) {
         }
     }
 }
+
 if (is_file(USER_BASE_PATH . '/pages/' . $URI . '.php') === TRUE || in_array($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
     if (in_array($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
         $key = array_search($tmpUri, $GLOBALS['urlRedirect']);
