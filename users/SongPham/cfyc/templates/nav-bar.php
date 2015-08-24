@@ -26,10 +26,10 @@
                     <ul>
                         <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-hcm' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_HCMC ?></a></li>
                         <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-ha-noi' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_HANOI ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-da-nang' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-binh-duong' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-bien-hoa' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-nha-trang' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
 
                     </ul>
                 </div>
@@ -119,11 +119,11 @@
         <div class="sub-menu collapse">
                     <ul>
                         <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-hcm' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_HCMC ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_HANOI ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-ha-noi' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_HANOI ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-da-nang' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_DANANG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-binh-duong' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_BINH_DUONG ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-bien-hoa' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_BIEN_HOA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-nha-trang' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CITY_NHA_TRANG ?></a></li>
 
                     </ul>
         </div>

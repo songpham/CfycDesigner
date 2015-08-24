@@ -160,7 +160,7 @@
                         <img src="img/home/california-wow-find-your-club-4.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a href="club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DA_NANG?>" alt="<?=LANG_DA_NANG?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-da-nang' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_DA_NANG?>" alt="<?=LANG_DA_NANG?>">
                             <img src="img/home/california-wow-find-your-club-5.jpg" alt="<?=LANG_DA_NANG?>" title="<?=LANG_DA_NANG?>">
                             <div class="overlay">
                                 <h2 class="service_title">
@@ -170,7 +170,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 hidden-xs">
-                        <a href="club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_BINH_DUONG?>" alt="<?=LANG_BINH_DUONG?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-binh-duong' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_BINH_DUONG?>" alt="<?=LANG_BINH_DUONG?>">
                             <img src="img/home/california-wow-find-your-club-6.jpg" alt="<?=LANG_BINH_DUONG?>" title="<?=LANG_BINH_DUONG?>">
                             <div class="overlay">
                                 <h2 class="service_title">
