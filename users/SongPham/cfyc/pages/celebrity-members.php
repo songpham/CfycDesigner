@@ -1,4 +1,7 @@
 <div class="container-fluid page celebrity-members-page">
+<script>
+var GET_VAR = '<?php echo json_encode($_GET) ?>';
+</script>
 <?php include USER_BASE_PATH . '/templates/nav-bar.php'; ?>
 <div class="container-fluid">
     <!-- Top Banner -->
@@ -11,7 +14,7 @@
                     <?php echo LANG_CELEBRITY_MEMBERS_SUBTEXT ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_CELEBRITY_MEMBERS_BANNER_CTA ?></a>
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title=""> <?php echo LANG_CELEBRITY_MEMBERS_BANNER_CTA ?></a>
                 </div>
             </fieldset>
         </div>

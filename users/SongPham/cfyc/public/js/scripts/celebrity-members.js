@@ -32,7 +32,9 @@ var celebritymemberPage = (function () {
             });
         }
         setTimeout(function () {
-            var celeb = getUrlVars()["celeb"],
+            var json = GET_VAR,
+                obj = JSON.parse(json),
+                celeb = obj["celeb"],
                 celebIndex = celeb || 0;
             if (celebIndex && isNaN(celebIndex) === true) {
                 celebIndex = 0;

@@ -40,15 +40,15 @@
                 <a href="javascript:void(0)" class="list-group-item-success" data-toggle="collapse" aria-expanded="false"><?php echo LANG_SERVICES ?> <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
                     <ul>
-                        <li><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/yoga-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_YOGA ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/celebrity-training<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('group-fitness-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dynamicstretching-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dance-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('yoga-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_YOGA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('ptx-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-training' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -78,21 +78,21 @@
                 <a href="javascript:void(0)" class="list-group-item-success" data-toggle="collapse" aria-expanded="false"><?php echo LANG_MEMBERSHIPS ?><span class="glyphicon glyphicon-chevron-right"></span></a>
                 <div class="collapse" aria-expanded="false">
                     <ul>
-                        <li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS  ?></a></li>
-                        <li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU  ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('cfyc-memberships' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CFYC_MEMBERSHIPS  ?></a></li>
+                        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('centuryon-memberships' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU  ?></a></li>
 
                     </ul>
                 </div>
             </div>
         </li>
          <li>
-            <a href="<?php echo USER_BASE_URL ?>/member-testimonials<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('member-testimonials' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a>
         </li>
         <li>
-            <a href="<?php echo USER_BASE_URL ?>/classes<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SCHEDULES ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('classes' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SCHEDULES ?></a>
         </li>
          <li>
-            <a href="<?php echo USER_BASE_URL ?>/about-us<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_ABOUT_US ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('about-us' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_ABOUT_US ?></a>
         </li>
     </ul>
 </nav>
@@ -109,10 +109,10 @@
         <li><a href="javascript:void(0)" data-index="1" class="drop-menu"><?php echo LANG_SERVICES ?></a></li>
         <li><a href="javascript:void(0)" data-index="2" class="drop-menu"><?php echo LANG_LIFESTYLE ?></a></li>
         <li><a href="javascript:void(0)" data-index="3" class="drop-menu"><?php echo LANG_MEMBERSHIPS ?></a></li>
-        <li><a href="<?php echo USER_BASE_URL ?>/member-testimonials<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a></li>
+        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('member-testimonials' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_MEMBER_TESTIMONIALS_MENU ?></a></li>
 
-        <li><a href="<?php echo USER_BASE_URL ?>/classes<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SCHEDULES ?></a></li>
-		<li><a href="<?php echo USER_BASE_URL ?>/about-us<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_ABOUT_US ?></a></li>
+        <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('classes' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SCHEDULES ?></a></li>
+		<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('about-us' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_ABOUT_US ?></a></li>
         <li><a href="<?php echo USER_BASE_URL . ($URI ? ('/' . $URI) : NULL) . getSuffix('lang=' . $OPPOSITE_LANG) ?>"><img src="<?php echo USER_BASE_URL ?>/img/flag_<?php echo $OPPOSITE_LANG ?>.png" class="language"></a></li>
     </ul>
     <div class="holder-submenu">
@@ -129,15 +129,15 @@
         </div>
         <div class="sub-menu collapse">
             <ul>
-            	<li><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/yoga-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_YOGA ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
-                <li><a href="<?php echo USER_BASE_URL ?>/celebrity-training<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
+            	<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('group-fitness-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_GROUP ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dynamicstretching-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dance-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DANCE ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('yoga-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_YOGA ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PT ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('ptx-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PTX ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_MMA ?></a></li>
+                <li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-training' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_CELEBRITY ?></a></li>
 
            </ul>
         </div>
@@ -158,8 +158,8 @@
         </div>
                 <div class="sub-menu collapse">
             <ul>
-            	<li><a href="<?php echo USER_BASE_URL ?>/cfyc-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CFYC_MEMBERSHIPS ?></a></li>
-            	<li><a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU ?></a></li>
+            	<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('cfyc-memberships' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CFYC_MEMBERSHIPS ?></a></li>
+            	<li><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('centuryon-memberships' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_CENTURYON_MEMBERSHIPS_MENU ?></a></li>
 
             </ul>
         </div>

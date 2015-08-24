@@ -35,12 +35,12 @@
         <?=LANG_KICKFIT_MMA_BENEFIT_CONTENT?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_KICKFIT_MMA_BENEFIT?>">
+            <a href="javascript:void(0)" title="<?=LANG_KICKFIT_MMA_BENEFIT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/benefit-1.jpg" alt="<?=LANG_KICKFIT_MMA_BENEFIT?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_KICKFIT_MMA_BENEFIT?>">
+            <a href="javascript:void(0)" title="<?=LANG_KICKFIT_MMA_BENEFIT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_KICKFIT_MMA_PAGE_NAME?>/benefit-2.jpg" alt="<?=LANG_KICKFIT_MMA_BENEFIT?>">
             </a>
         </div>

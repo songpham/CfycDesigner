@@ -37,12 +37,12 @@
         <?=LANG_DANCE_BENEFIT_CONTENT?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_DANCE_BENEFIT?>">
+            <a href="javascript:void(0)" title="<?=LANG_DANCE_BENEFIT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/benefit1.jpg" alt="<?=LANG_DANCE_BENEFIT?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_DANCE_BENEFIT?>">
+            <a href="javascript:void(0)" title="<?=LANG_DANCE_BENEFIT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL ?>/img/<?=LANG_DANCE_PAGE_NAME?>/benefit2.jpg" alt="<?=LANG_DANCE_BENEFIT?>">
             </a>
         </div>
@@ -161,7 +161,7 @@
 
            </div>
 
-        </div>   
+        </div>
     </div>
     <div class="clearfix"></div>
     <div class="trainers container">

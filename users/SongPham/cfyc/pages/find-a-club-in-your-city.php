@@ -22,7 +22,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 city">
-                    <a href="<?php echo USER_BASE_URL ?>/club-da-nang<?php echo getSuffix('lang=' . $LANG) ?>">
+                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-da-nang' . getSuffix('lang=' . $LANG)) ?>">
                         <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/danang.jpg" class="img-responsive img-circle">
                         <h4>Da Nang</h4>
                     </a>
@@ -34,19 +34,19 @@
         <div class="col-md-10 col-md-offset-1">
            <div class="row">
                 <div class="col-sm-4 city">
-                    <a href="<?php echo USER_BASE_URL ?>/club-bien-hoa<?php echo getSuffix('lang=' . $LANG) ?>">
+                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-bien-hoa' . getSuffix('lang=' . $LANG)) ?>">
                         <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/bienhoa.jpg" class="img-responsive img-circle">
                         <h4>Bien Hoa</h4>
                     </a>
                 </div>
                 <div class="col-sm-4 city">
-                    <a href="<?php echo USER_BASE_URL ?>/club-binh-duong<?php echo getSuffix('lang=' . $LANG) ?>">
+                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-binh-duong' . getSuffix('lang=' . $LANG)) ?>">
                         <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/binhduong.jpg" class="img-responsive img-circle">
                         <h4>Binh Duong</h4>
                     </a>
                 </div>
                 <div class="col-sm-4 city">
-				<a href="<?php echo USER_BASE_URL ?>/club-nha-trang<?php echo getSuffix('lang=' . $LANG) ?>">
+				<a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-nha-trang' . getSuffix('lang=' . $LANG)) ?>">
                     <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/nhatrang.jpg" class="img-responsive img-circle">
                     <h4>Nha Trang</h4>
 				</a>

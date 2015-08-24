@@ -127,13 +127,17 @@ function debug ($var, $traceDetail = FALSE) {
 }
 $LANG = DEFAULT_LANGUAGE;
 $tmpUri = rtrim(str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI'])), '/');
-$URI = preg_replace('/\\?.*/', '', $tmpUri);
+$URI = rtrim(preg_replace('/\\?.*/', '', $tmpUri), '/');
 if (array_key_exists($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
     header('Location: ' . USER_BASE_URL . '/' . $GLOBALS['urlRedirect'][$tmpUri]);
 }
 if (in_array($tmpUri, $GLOBALS['urlRedirectTranslated']) === TRUE) {
     $arrayLang = explode('-', array_search($tmpUri, $GLOBALS['urlRedirectTranslated']));
     $_GET['lang'] = end($arrayLang);
+}
+if (in_array($tmpUri, $GLOBALS['urlRedirectCeleb']) === TRUE) {
+    $arrayLang = explode('-', array_search($tmpUri, $GLOBALS['urlRedirectCeleb']));
+    $_GET['celeb'] = $arrayLang[count($arrayLang) - 2];
 }
 if (empty($_GET['lang']) === FALSE) {
     $LANG = $_GET['lang'];

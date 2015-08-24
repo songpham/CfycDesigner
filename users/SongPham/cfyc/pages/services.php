@@ -9,7 +9,7 @@
                     <?php echo LANG_SERVICES_HOME_BANNER_SUBTEXT ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_SERVICES_HOME_BANNER_CTA ?></a>
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title=""> <?php echo LANG_SERVICES_HOME_BANNER_CTA ?></a>
                 </div>
             </fieldset>
         </div>
@@ -19,8 +19,8 @@
 		<div class="text-box">
 			<?php echo LANG_SERVICES_HOME_MAIN_INTRO ?>
 		</div>
-	
-	
+
+
 	</div> <!-- section 1 -->
 	<div class="container-page section2 row-centered">
 		<div class="strike"><h2><?php echo LANG_SERVICES_HOME_GROUP_TITLE ?> </h2></div>
@@ -29,7 +29,7 @@
 			<div class="title">
 			<h2><?=LANG_YOGA?></h2>
 			<p><?php echo LANG_SERVICES_HOME_GROUP_YOGA ?></p>
-			</div>		
+			</div>
 		</div>
 		<div class="col-md-4 col-xs-12 col-centered">
 			<img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-our-services-3.jpg" alt="<?=LANG_GROUP_EXERCISE?>" title="<?=LANG_GROUP_EXERCISE?>">
@@ -54,7 +54,7 @@
 				<div class="title">
 				<h2><?=LANG_PERSONAL_TRAINNER ?></h2>
 				<p><?php echo LANG_SERVICES_HOME_GROUP_TITLE ?></p>
-			</div>		
+			</div>
 		</div>
 		<div class="col-md-4 col-xs-12 col-centered">
             <img src="<?php echo USER_BASE_URL ?>/img/home/california-wow-our-services-5.jpg" alt="<?=LANG_DYNAMIC_STRETCHING?>" title="<?=LANG_DYNAMIC_STRETCHING?>">
@@ -72,12 +72,12 @@
 	<div class="whitespace"></div>
 	</div> <!-- section 3 -->
 		<div class="container-page section4">
-	
-	
+
+
 	</div> <!-- section 4 -->
 		<div class="container-page section5">
-	
-	
+
+
 	</div> <!-- section 5 -->
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>
 </div>

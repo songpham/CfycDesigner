@@ -36,12 +36,12 @@
         <?=LANG_DYNAMIC_STRETCHING_BENEFIT_CONTENT_DS?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
+            <a href="javascript:void(0)" title="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS?>/benefit-1.jpg" alt="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
+            <a href="javascript:void(0)" title="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_DYNAMIC_STRETCHING_PAGE_NAME_DS?>/benefit-2.jpg" alt="<?=LANG_DYNAMIC_STRETCHING_BENEFIT_DS?>">
             </a>
         </div>

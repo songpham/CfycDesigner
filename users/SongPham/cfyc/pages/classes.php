@@ -18,7 +18,7 @@
                                <?php echo LANG_SCHEDULES_TITLE_CTA_SPAN ?>
                             </span>
                             <div class="red-btn">
-                            <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members" title=""> <?php echo LANG_SCHEDULES_TITLE_CTA_BUTTON ?></a>
+                            <a class="cta" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title=""> <?php echo LANG_SCHEDULES_TITLE_CTA_BUTTON ?></a>
                             </div>
                         </fieldset>
                     </div>

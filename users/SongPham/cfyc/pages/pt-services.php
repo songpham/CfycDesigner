@@ -40,12 +40,12 @@
         <br><br>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_PT_BENEFIT_PT?>">
+            <a href="javascript:void(0)" title="<?=LANG_PT_BENEFIT_PT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/benefit-1.jpg" alt="<?=LANG_PT_BENEFIT_PT?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_PT_BENEFIT_PT?>">
+            <a href="javascript:void(0)" title="<?=LANG_PT_BENEFIT_PT?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PT_PAGE_NAME_PT?>/benefit-2.jpg" alt="<?=LANG_PT_BENEFIT_PT?>">
             </a>
         </div>

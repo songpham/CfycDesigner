@@ -9,7 +9,7 @@
                     <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_SUBTEXT ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title=""> <?php echo LANG_CFYC_MEMBERSHIPS_BANNER_CTA ?></a>
                 </div>
             </fieldset>
         </div>
@@ -127,7 +127,7 @@
             <h1><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE1 ?></h1>
             <h3><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_SUB_TITLE1 ?></h3>
             <h1 class="yellow"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_MAIN_TITLE2 ?></h1>
-            <a href="<?php echo USER_BASE_URL ?>/centuryon-memberships<?php echo getSuffix('lang=' . $LANG) ?>" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
+            <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('centuryon-memberships' . getSuffix('lang=' . $LANG)) ?>" class="cta"><?php echo LANG_CFYC_MEMBERSHIPS_ID_5_CTA1 ?></a>
         </div>
     </div>
 <?php include USER_BASE_PATH . '/templates/footer-bar.php'; ?>

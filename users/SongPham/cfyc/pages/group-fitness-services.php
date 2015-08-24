@@ -35,12 +35,12 @@
         <?=LANG_GROUP_BENEFIT_CONTENT_GROUP?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_GROUP_BENEFIT_GROUP?>">
+            <a href="javascript:void(0)" title="<?=LANG_GROUP_BENEFIT_GROUP?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/benefit-1.jpg" alt="<?=LANG_GROUP_BENEFIT_GROUP?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_GROUP_BENEFIT_GROUP?>">
+            <a href="javascript:void(0)" title="<?=LANG_GROUP_BENEFIT_GROUP?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_GROUP_PAGE_NAME_GROUP?>/benefit-2.jpg" alt="<?=LANG_GROUP_BENEFIT_GROUP?>">
             </a>
         </div>

@@ -34,12 +34,12 @@
         <?=LANG_BENEFIT_CONTENT_PTX?>
         <br><br>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_BENEFIT_PTX?>">
+            <a href="javascript:void(0)" title="<?=LANG_BENEFIT_PTX?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PAGE_NAME_PTX?>/benefit-1.jpg" alt="<?=LANG_BENEFIT_PTX?>">
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 cover">
-            <a href="#" title="<?=LANG_BENEFIT_PTX?>">
+            <a href="javascript:void(0)" title="<?=LANG_BENEFIT_PTX?>">
                 <img class="img-responsive" src="<?php echo USER_BASE_URL?>/img/<?=LANG_PAGE_NAME_PTX?>/benefit-2.jpg" alt="<?=LANG_BENEFIT_PTX?>">
             </a>
         </div>
@@ -69,7 +69,7 @@
                         <div class="item">
                             <img src="<?php echo USER_BASE_URL ?>/img/ptx-services/perfect-environment/4.jpg"  title="Visit us for a free membership trial today" alt="Visit us for a free membership trial today">
                         </div>
-                    </div> 
+                    </div>
         </div> <!-- end desktop gallery -->
         <div id="carousel-example-generic-clubs-m" class="carousel slide mobile" data-ride="carousel">
             <!-- Indicators -->

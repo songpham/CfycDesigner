@@ -10,7 +10,7 @@
                      <?php echo HOME_BANNER_2 ?>
                 </span>
                 <div class="red-btn">
-                <a class="cta" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
+                <a class="cta" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title=""> <?php echo HOME_BANNER_3 ?></a>
                 </div>
             </fieldset>
         </div>
@@ -31,13 +31,13 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
                 <div class="row ourservice">
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                    <a href="pt-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_PERSONAL_TRAINNER?>" alt="<?=LANG_PERSONAL_TRAINNER?>">
+                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_PERSONAL_TRAINNER?>" alt="<?=LANG_PERSONAL_TRAINNER?>">
                         <div class="service_img">
                             <img src="img/home/california-wow-our-services-1.jpg" alt="<?=LANG_PERSONAL_TRAINNER?>" title="<?=LANG_PERSONAL_TRAINNER?>">
                         </div>
@@ -49,7 +49,7 @@
                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="yoga-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_YOGA?>" alt="<?=LANG_YOGA?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('yoga-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_YOGA?>" alt="<?=LANG_YOGA?>">
                             <div class="service_img">
                                 <img src="img/home/california-wow-our-services-2.jpg" alt="<?=LANG_YOGA?>" title="<?=LANG_YOGA?>">
                             </div>
@@ -61,7 +61,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_GROUP_EXERCISE?>" alt="<?=LANG_GROUP_EXERCISE?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('group-fitness-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_GROUP_EXERCISE?>" alt="<?=LANG_GROUP_EXERCISE?>">
                             <div class="service_img">
                                 <img src="img/home/california-wow-our-services-3.jpg" alt="<?=LANG_GROUP_EXERCISE?>" title="<?=LANG_GROUP_EXERCISE?>">
                             </div>
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="dance-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DANCE?>" alt="<?=LANG_DANCE?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dance-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_DANCE?>" alt="<?=LANG_DANCE?>">
                             <div class="service_img">
                                 <img src="img/home/california-wow-our-services-4.jpg" alt="<?=LANG_DANCE?>" title="<?=LANG_DANCE?>">
                             </div>
@@ -85,7 +85,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_DYNAMIC_STRETCHING?>" alt="<?=LANG_DYNAMIC_STRETCHING?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dynamicstretching-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_DYNAMIC_STRETCHING?>" alt="<?=LANG_DYNAMIC_STRETCHING?>">
                             <div class="service_img">
                                 <img src="img/home/california-wow-our-services-5.jpg" alt="<?=LANG_DYNAMIC_STRETCHING?>" title="<?=LANG_DYNAMIC_STRETCHING?>">
                             </div>
@@ -97,7 +97,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 service_item">
-                        <a href="kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_KICKFIT?>" alt="<?=LANG_KICKFIT?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_KICKFIT?>" alt="<?=LANG_KICKFIT?>">
                             <div class="service_img">
                                 <img src="img/home/california-wow-our-services-6.jpg" alt="<?=LANG_KICKFIT?>" title="<?=LANG_KICKFIT?>">
                             </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" alt="<?=LANG_SEE_MORE_CLUBS?>" title="<?=LANG_SEE_MORE_CLUBS?>"><?=LANG_SEE_MORE_CLUBS?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('find-a-club-in-your-city' . getSuffix('lang=' . $LANG)) ?>" alt="<?=LANG_SEE_MORE_CLUBS?>" title="<?=LANG_SEE_MORE_CLUBS?>"><?=LANG_SEE_MORE_CLUBS?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -184,7 +184,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
                         <?php /*will put bien hoa for new coming???*/?>
-                        <a href="find-a-club-in-your-city<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('find-a-club-in-your-city' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_NEW_COMING?>" alt="<?=LANG_NEW_COMING?>">
                             <img src="img/home/california-wow-find-your-club-8.jpg" alt="<?=LANG_NEW_COMING?>" title="<?=LANG_NEW_COMING?>">
                             <div class="overlay">
                                 <h2 class="service_title">
@@ -212,7 +212,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="<?php echo USER_BASE_URL ?>/pt-services<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>" alt="<?=LANG_SEE_MORE?>" title="<?=LANG_SEE_MORE?>"><?=LANG_SEE_MORE?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="member-testimonials<?php echo getSuffix('lang=' . $LANG) ?> " alt="<?=LANG_SEE_MORE_SUCCESS_STORIES?>" title="<?=LANG_SEE_MORE_SUCCESS_STORIES?>"><?=LANG_SEE_MORE_SUCCESS_STORIES?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('member-testimonials' . getSuffix('lang=' . $LANG)) ?>" alt="<?=LANG_SEE_MORE_SUCCESS_STORIES?>" title="<?=LANG_SEE_MORE_SUCCESS_STORIES?>"><?=LANG_SEE_MORE_SUCCESS_STORIES?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -289,7 +289,7 @@
                 </div>
                 <div class="row seemorebtn">
                     <div class="col-md-12">
-                        <a href="celebrity-members<?=getSuffix('lang=' . $LANG)?>" alt="<?=LANG_SEE_MORE_CELEBRITIES?>" title="<?=LANG_SEE_MORE_CELEBRITIES?>"><?=LANG_SEE_MORE_CELEBRITIES?></a>
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG)) ?>" alt="<?=LANG_SEE_MORE_CELEBRITIES?>" title="<?=LANG_SEE_MORE_CELEBRITIES?>"><?=LANG_SEE_MORE_CELEBRITIES?></a>
                     </div>
                 </div>
                 <div class="whitespace"></div>
@@ -299,25 +299,25 @@
                             <div class="col-md-2 hide-sm hide-xs text-center">
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 0)?>" alt="<?=LANG_CELEB_1?>" title="<?=LANG_CELEB_1?>">
+                                <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 0)) ?>" title="<?=LANG_CELEB_1?>">
                                     <img src="img/home/california-wow-celeb-member-1.png" alt="<?=LANG_CELEB_1?>" title="<?=LANG_CELEB_1?>">
                                     <p><?=LANG_CELEB_1?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_SINGER?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 1)?>" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
+                                <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 1)) ?>" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
                                     <img src="img/home/california-wow-celeb-member-5.png" alt="<?=LANG_CELEB_2?>" title="<?=LANG_CELEB_2?>">
                                     <p><?=LANG_CELEB_2?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 2)?>" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
+                                <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 2)) ?>" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
                                     <img src="img/home/california-wow-celeb-member-7.png" alt="<?=LANG_CELEB_3?>" title="<?=LANG_CELEB_3?>">
                                     <p><?=LANG_CELEB_3?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                 </a>
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 3)?>"  alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
+                                <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 3)) ?>"  alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
                                     <img src="img/home/california-wow-celeb-member-10.png" alt="<?=LANG_CELEB_4?>" title="<?=LANG_CELEB_4?>">
                                     <p><?=LANG_CELEB_4?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_ACTOR?></p>
                                 </a>
@@ -330,25 +330,25 @@
                                 <div class="col-md-2 hide-sm hide-xs text-center">
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 4)?>" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
+                                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 4)) ?>" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
                                         <img src="img/home/california-wow-celeb-member-2.png" alt="<?=LANG_CELEB_5?>" title="<?=LANG_CELEB_5?>">
                                         <p><?=LANG_CELEB_5?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 5)?>" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
+                                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 5)) ?>" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
                                         <img src="img/home/california-wow-celeb-member-3.png" alt="<?=LANG_CELEB_6?>" title="<?=LANG_CELEB_6?>">
                                         <p><?=LANG_CELEB_6?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_MODEL?> / <?=LANG_CELEBRITY_MEMBERS_JOB_SINGER?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 6)?>"  alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
+                                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 6)) ?>"  alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
                                         <img src="img/home/california-wow-celeb-member-11.png" alt="<?=LANG_CELEB_7?>" title="<?=LANG_CELEB_7?>">
                                         <p><?=LANG_CELEB_7?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_ACTOR?></p>
                                     </a>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-6 text-center celeb-items">
-                                    <a href="celebrity-members<?php echo getSuffix('lang=' . $LANG . '&celeb=' . 7)?>" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
+                                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('celebrity-members' . getSuffix('lang=' . $LANG . '&celeb=' . 7)) ?>" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
                                         <img src="img/home/california-wow-celeb-member-6.png" alt="<?=LANG_CELEB_8?>" title="<?=LANG_CELEB_8?>">
                                         <p><?=LANG_CELEB_8?><br/><?=LANG_CELEBRITY_MEMBERS_JOB_CHAIRMAN_CEO?></p>
                                     </a>

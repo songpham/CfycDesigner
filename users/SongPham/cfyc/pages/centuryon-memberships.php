@@ -50,7 +50,7 @@
 	                    <?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_SUBTEXT ?>
 	                </span>
 	                <div class="red-btn">
-	                <a class="" href="<?php echo USER_BASE_URL ?>/vip-members<?php echo getSuffix('lang=' . $LANG) ?>" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
+	                <a class="" href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('vip-members' . getSuffix('lang=' . $LANG)) ?>" title="Discover Cali Dance"><?php echo LANG_CENTURYON_MEMBERSHIPS_BANNER_CTA ?> </a>
 	                </div>
 	        </fieldset>
 	        <img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/centuryon-card.jpg" class="desktop img-responsive card">
@@ -101,7 +101,7 @@
 				<img src="<?php echo USER_BASE_URL ?>/img/centuryon-membership/m-section1-bg.jpg" class="mobile img-responsive">
 			<div class="content">
 				<div class="text-box">
-				
+
 
 					<h4><?php echo LANG_CENTURYON_MEMBERSHIPS_ID_3_QUOTE ?></h4>
 				</div>

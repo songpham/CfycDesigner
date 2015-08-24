@@ -1,6 +1,6 @@
 <?php
 define("HOME_BANNER_1","California Fitness & Yoga kỉ niệm 22 trung tâm được thành lập trong suốt 8 năm qua");
-define("HOME_BANNER_2","<br/>Đăng kí cùng chúng tôi ngay hôm nay và khám phá các phương pháp thể hình hàng đầu đã được hơn 100.000 người tin tưởng 
+define("HOME_BANNER_2","<br/>Đăng kí cùng chúng tôi ngay hôm nay và khám phá các phương pháp thể hình hàng đầu đã được hơn 100.000 người tin tưởng
 <br/><br/>");
 define("HOME_BANNER_3","tìm một trung tâm");
 define("LANG_HOMEPAGE", "Trang chủ");
@@ -91,7 +91,7 @@ define("LANG_CELEB_1", "HỒ NGỌC HÀ");
 define("LANG_CELEB_2", "XUÂN LAN");
 define("LANG_CELEB_3", "PHƯƠNG MAI");
 define("LANG_CELEB_4", "DIỄM MY");
-define("LANG_CELEB_5", "HOÀNG GIANG");
+define("LANG_CELEB_5", "HƯƠNG GIANG");
 define("LANG_CELEB_6", "HỒ VĨNH KHOA");
 define("LANG_CELEB_7", "CHI PU");
 define("LANG_CELEB_8", "RANDY DOBSON");

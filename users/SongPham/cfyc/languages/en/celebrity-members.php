@@ -27,7 +27,7 @@ define('LANG_CELEBRITY_MEMBERS_DIEM_MY','For the last time, because of the busy 
 
 At CFYC, there are many group fitness and special training methods. But what I enjoy programs was yoga, kickfit and personal training. Particularly, personal trainng or one-on-one training brought out the best benefits to my figure and physical strenght. After five moths of training, My becomes fitter and fitter day by day. Now, when I had to work in several hours, I still find my mind conscious and my body flexible. I hope, those who come to CFYC also achieve their own goals like I did.');
 
-define('LANG_CELEBRITY_MEMBERS_HOANG_GIANG_NAME','Hoàng Giang');
+define('LANG_CELEBRITY_MEMBERS_HOANG_GIANG_NAME','Hương Giang');
 define('LANG_CELEBRITY_MEMBERS_HOANG_GIANG','I began to practice in California Fitness & Yoga Centers in over 2 years ago. I can confidently assert, TT California is a top fitness and entertainment in Vietnam and a familiar destination for many of the public. Yoga was what catched my heart when I join CFYC. When practicing Yoga poses, I learn about the balance and flexibily in both body and mind. At the age threshold of 30, practicing yoga and workouts interspersed with personal trainer gives me freshness in appearance and in spirit. With such interesting benefits, I no longer consider working out everyday at CFYC is a mission, but a essential part of my life. Therefore, no matter what, I tell myself to arrange approximately 45-60 minutes to exercise in order to keep my body in its best form.');
 
 define('LANG_CELEBRITY_MEMBERS_HO_VINH_KHOA_NAME', 'Hồ Vĩnh Khoa');

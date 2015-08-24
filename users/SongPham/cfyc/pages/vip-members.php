@@ -62,37 +62,37 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-1.jpg" alt="<?php echo LANG_SERVICES_YOGA ?>" title="<?php echo LANG_SERVICES_YOGA ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/yoga-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_YOGA ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('yoga-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_YOGA ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-2.jpg" alt="<?php echo LANG_SERVICES_DANCE ?>" title="<?php echo LANG_SERVICES_DANCE ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/dance-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DANCE ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dance-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DANCE ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-3.jpg" alt="<?php echo LANG_SERVICES_GROUP ?>" title="<?php echo LANG_SERVICES_GROUP ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/group-fitness-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_GROUP ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('group-fitness-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_GROUP ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-4.jpg" alt="<?php echo LANG_SERVICES_KICKFIT ?>" title="<?php echo LANG_SERVICES_KICKFIT ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_KICKFIT ?></a></h2></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-5.jpg" alt="<?php echo LANG_SERVICES_PT ?>" title="<?php echo LANG_SERVICES_PT ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/pt-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PT ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('pt-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PT ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-6.jpg" alt="<?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?>" title="<?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/dynamicstretching-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('dynamicstretching-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_DYNAMIC_STRETCHING ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-7.jpg" alt="<?php echo LANG_SERVICES_MMA ?>" title="<?php echo LANG_SERVICES_MMA ?>">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/kickfit-mma-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_MMA ?></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('kickfit-mma-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_MMA ?></a></h2></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chance_items">
                                 <img src="<?php echo USER_BASE_URL ?>/img/vip-members/california-wow-chance-to-experience-8.jpg" alt="<?php echo LANG_SERVICES_PTX ?> 2" title="<?php echo LANG_SERVICES_PTX ?> 2">
-                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/ptx-services<?php echo getSuffix('lang=' . $LANG) ?>"><?php echo LANG_SERVICES_PTX ?><sup>2</sup></a></h2></div>
+                                <div class="overlay"><h2 class="title"><a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('ptx-services' . getSuffix('lang=' . $LANG)) ?>"><?php echo LANG_SERVICES_PTX ?><sup>2</sup></a></h2></div>
                             </div>
                         </div>
                         <div class="whitespace"></div>
