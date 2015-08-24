@@ -133,7 +133,7 @@
                         <img src="img/home/california-wow-find-your-club-10.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="club-hcm<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HO_CHI_MINH_CITY?>" alt="<?=LANG_HO_CHI_MINH_CITY?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-hcm' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_HO_CHI_MINH_CITY?>" alt="<?=LANG_HO_CHI_MINH_CITY?>">
                             <img class="hidden-xs" src="img/home/california-wow-find-your-club-1.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                             <img class="hidden-lg hidden-sm hidden-md" src="img/home/california-wow-find-your-club-1_sm.jpg" alt="<?=LANG_HO_CHI_MINH_CITY?>" title="<?=LANG_HO_CHI_MINH_CITY?>">
                             <div class="overlay">
@@ -147,7 +147,7 @@
                         <img src="img/home/california-wow-find-your-club-2.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a href="club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>" title="<?=LANG_HA_NOI?>" alt="<?=LANG_HA_NOI?>">
+                        <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-ha-noi' . getSuffix('lang=' . $LANG)) ?>" title="<?=LANG_HA_NOI?>" alt="<?=LANG_HA_NOI?>">
                             <img src="img/home/california-wow-find-your-club-3.jpg" alt="<?=LANG_HA_NOI?>" title="<?=LANG_HA_NOI?>">
                             <div class="overlay">
                                 <h2 class="service_title">

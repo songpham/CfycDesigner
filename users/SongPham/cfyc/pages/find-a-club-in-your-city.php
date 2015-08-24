@@ -10,13 +10,13 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
                 <div class="col-sm-4 city">
-                <a href="<?php echo USER_BASE_URL ?>/club-ha-noi<?php echo getSuffix('lang=' . $LANG) ?>">
+                <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-ha-noi' . getSuffix('lang=' . $LANG)) ?>">
                     <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hanoi.jpg" class="img-responsive img-circle">
                     <h4>Ha Noi</h4>
                 </a>
                 </div>
                 <div class="col-sm-4 city">
-                    <a href="<?php echo USER_BASE_URL ?>/club-hcm<?php echo getSuffix('lang=' . $LANG) ?>">
+                    <a href="<?php echo USER_BASE_URL ?>/<?php echo createUrl('club-hcm' . getSuffix('lang=' . $LANG)) ?>">
                         <img src="<?php echo USER_BASE_URL ?>/img/find-a-club-in-your-city/hcmc.jpg" class="img-responsive img-circle">
                         <h4>Ho Chi Minh</h4>
                     </a>

@@ -1,4 +1,5 @@
 <?php include './../config.php'; ?>
+<?php include './convert-url.php'; ?>
 <!DOCTYPE html>
 <html lang="en-US">
 <?php include USER_BASE_PATH . '/templates/head.php'; ?>
@@ -125,6 +126,14 @@ function debug ($var, $traceDetail = FALSE) {
     echo $output;
 }
 $LANG = DEFAULT_LANGUAGE;
+$URI = rtrim(str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI'])), '/');
+if (array_key_exists($URI, $GLOBALS['urlRedirect']) === TRUE) {
+    header('Location: ' . USER_BASE_URL . '/' . $GLOBALS['urlRedirect'][$URI]);
+}
+if (in_array($URI, $GLOBALS['urlRedirectTranslated']) === TRUE) {
+    $arrayLang = explode('-', array_search($URI, $GLOBALS['urlRedirectTranslated']));
+    $_GET['lang'] = end($arrayLang);
+}
 if (empty($_GET['lang']) === FALSE) {
     $LANG = $_GET['lang'];
 }
@@ -151,8 +160,11 @@ if (empty($languageFiles) === FALSE) {
         }
     }
 }
-$URI = rtrim(preg_replace('/\\?.*/', '', str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI']))), '/');
-if (is_file(USER_BASE_PATH . '/pages/' . $URI . '.php') === TRUE) {
+if (is_file(USER_BASE_PATH . '/pages/' . $URI . '.php') === TRUE || in_array($URI, $GLOBALS['urlRedirect']) === TRUE) {
+    if (in_array($URI, $GLOBALS['urlRedirect']) === TRUE) {
+        $key = array_search($URI, $GLOBALS['urlRedirect']);
+        $URI = rtrim(preg_replace('/\\?.*/', '', str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($key))), '/');
+    }
     include USER_BASE_PATH . '/pages/' . $URI . '.php';
 } else {
     include USER_BASE_PATH . '/pages/home.php';
