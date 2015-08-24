@@ -126,12 +126,13 @@ function debug ($var, $traceDetail = FALSE) {
     echo $output;
 }
 $LANG = DEFAULT_LANGUAGE;
-$URI = rtrim(str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI'])), '/');
-if (array_key_exists($URI, $GLOBALS['urlRedirect']) === TRUE) {
-    header('Location: ' . USER_BASE_URL . '/' . $GLOBALS['urlRedirect'][$URI]);
+$tmpUri = rtrim(str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($_SERVER['REQUEST_URI'])), '/');
+$URI = preg_replace('/\\?.*/', '', $tmpUri);
+if (array_key_exists($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
+    header('Location: ' . USER_BASE_URL . '/' . $GLOBALS['urlRedirect'][$tmpUri]);
 }
-if (in_array($URI, $GLOBALS['urlRedirectTranslated']) === TRUE) {
-    $arrayLang = explode('-', array_search($URI, $GLOBALS['urlRedirectTranslated']));
+if (in_array($tmpUri, $GLOBALS['urlRedirectTranslated']) === TRUE) {
+    $arrayLang = explode('-', array_search($tmpUri, $GLOBALS['urlRedirectTranslated']));
     $_GET['lang'] = end($arrayLang);
 }
 if (empty($_GET['lang']) === FALSE) {
@@ -160,9 +161,9 @@ if (empty($languageFiles) === FALSE) {
         }
     }
 }
-if (is_file(USER_BASE_PATH . '/pages/' . $URI . '.php') === TRUE || in_array($URI, $GLOBALS['urlRedirect']) === TRUE) {
-    if (in_array($URI, $GLOBALS['urlRedirect']) === TRUE) {
-        $key = array_search($URI, $GLOBALS['urlRedirect']);
+if (is_file(USER_BASE_PATH . '/pages/' . $URI . '.php') === TRUE || in_array($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
+    if (in_array($tmpUri, $GLOBALS['urlRedirect']) === TRUE) {
+        $key = array_search($tmpUri, $GLOBALS['urlRedirect']);
         $URI = rtrim(preg_replace('/\\?.*/', '', str_replace(strtolower(USER_BASE_URL . '/'), NULL, strtolower($key))), '/');
     }
     include USER_BASE_PATH . '/pages/' . $URI . '.php';
