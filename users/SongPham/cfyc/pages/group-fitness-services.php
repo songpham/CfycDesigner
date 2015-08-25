@@ -234,16 +234,16 @@
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <h2 class="booktitle"><?=LANG_GROUP_SIGNUP_TITLE?></h2>
                 <div class="visit_benefit">
-                	<h2 class="subtitle"><?=LANG_GROUP_SIGNUP_SUBTITLE?></h2>
+                    <h2 class="subtitle"><?=LANG_GROUP_SIGNUP_SUBTITLE?></h2>
                     <?=LANG_GROUP_SIGNUP_CONTENT?>
                 </div>
                 <div id="signUp_form">
-	                <?php if ($LANG == 'vn') { ?>
-	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=10801805&amp;u=kKTV"></script>
-	                <?php } else if ($LANG == 'en') { ?>
-	                <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=8580205&amp;u=kKTV"></script>
-	                <?php } ?>
-				</div>
+                    <?php if ($LANG == 'vn') { ?>
+                    <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=10801805&amp;u=kKTV"></script>
+                    <?php } else if ($LANG == 'en') { ?>
+                    <script type="text/javascript" src="https://app.getresponse.com/view_webform.js?wid=8580205&amp;u=kKTV"></script>
+                    <?php } ?>
+                </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
         </div>

@@ -276,6 +276,9 @@ footer {
     .row { padding-left: 0px;padding-right:0px; max-width: 1200px; margin: 0 auto;
         .container-fluid {
             max-width: 1200px; margin: 0 auto; overflow: hidden; padding-left: 0px;padding-right:0px;
+            @media (max-width:767px) {
+                padding-left: 15px;padding-right:15px;
+            }
             div.cmg-brands {
                 margin-top: 50px; padding-left:0px; padding-right: 0px;
                 div.tooltip {
@@ -355,7 +358,7 @@ footer {
         right: 0;
         top:10px;
         padding: 10px 5px;
-        
+
         i.fa.fa-bars { float: right; @media (max-width:320px){/*display: block; position: relative;right: -16px;top: 5px;*/}}
         p.menu-toggle-label {float: left; font-size: .6em; padding: 3px 10px 0; margin-bottom: 0px; font-weight: 300;
         	@media (max-width:990px) {
@@ -370,7 +373,7 @@ footer {
 				}
         }
         @media (max-width:320px) {
-        	
+
         }
 
     }
@@ -447,9 +450,17 @@ footer {
         .logo-img { width: 75%; max-width: 370px; position: relative; }
     }
 
+
+
+
+} /* end media query */
+@media (max-width:$breakpoint_tablet) {
+    .container-fluid.page {
+        top: 33px;
+    }
     footer {
         .container-fluid {
-            .icon-div.col-centered {padding: 0px 18px;}
+            .icon-div.col-centered {padding: 0px 10px;}
             ul {
                 max-width: 300px; display: block; margin: 0 auto; padding: 10px 10px 20px 0px;
                 li { padding-left: 10px;
@@ -460,12 +471,5 @@ footer {
                 }
             }
         }
-    }
-
-
-} /* end media query */
-@media (max-width:$breakpoint_tablet) {
-    .container-fluid.page {
-        top: 33px;
     }
 }

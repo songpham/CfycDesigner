@@ -14,6 +14,11 @@ define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_2_CAPTION', 'Lâm Phương Bách')
 
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3', 'story-3.png');
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3_CAPTION', 'Ms Võ Huyền Trang');
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4', 'story-4.png');
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4_CAPTION', 'Ms. Võ Thanh Tâm');
+
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5', 'story-5.png');
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5_CAPTION', 'Mr. Phạm Việt Hà');
 
 
 
@@ -64,18 +69,37 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
 
 
 
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE', 'success-3.png');
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE', '
+
+
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_IMAGE', 'success-4.jpg');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_BEFORE', '
         <h3>trước</h3>
         <p>Lượng mỡ: 20.3kg</p>
         <p>Cân nặng: 84.2kg</p>
     ');
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_AFTER', '
         <h3>sau</h3>
         <p>Lượng mỡ: 6.4kg</p>
         <p>Cân nặng: 66.9kg</p>
     ');
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
-define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
-        <p>Từng sở hữu thân hình không hoàn hảo, chị Võ Huyền Trang gặp nhiều khó khăn trong cuộc sống, công việc và khiến chị mất tự tin khi giao tiếp. Quyết định tham gia chương trình Body Transformation Challenge tại TT California Fitness & Yoga của chị Võ Huyền Trang đã giúp chị thay đổi hoàn toàn về cả ngoại hình lẫn sự tự tin. Để có được vóc dáng như mong muốn, chị Trang phải tuân theo những chỉ dẫn nghiêm ngặt từ Huấn luyện viên cá nhân. Vật cản lớn nhất cho công cuộc giảm cân của chị Trang đến từ cảm giác thèm ăn. Chính sự nghiêm túc và lời động viên của HLV cá nhân, chị Trang dần điều chỉnh và kiểm soát chế độ dinh dưỡng của mình. Sau 8 tuần, thành quả chị nhận được là giảm được 9.5 kg mỡ, tăng 3.5 kg cơ. Không chỉ là thân hình mơ ước bấy lâu, thể dục thể hình còn cho chị Trang ý chí, nghị lực, sự quyết tâm và tự tin trong cuộc sống.</p>
-    ");
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_TITLE', 'Ms. Võ Thanh Tâm');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_CONTENT', '
+        <p>Tâm là một cô gái 18 tuổi, chuẩn bị cho những bước ngoặt mới của cuộc đời mình. Cô đến với Trung tâm California Fitness & Yoga với mong muốn giảm mỡ, đặc biệt là vùng đùi, để có vóc dáng gọn gàng, cân đối hơn. Ngoài tham gia các lớp tập RPM (Đạp xe trong nhà), Bootcamp (Tập luyện nhóm), Tâm còn chăm chỉ tập cùng huấn luyện viên cá nhân với các bài tập cường độ cao, kết hợp cùng chế độ ăn uống thắt chặt. Sau 6 tuần, Tâm giảm đã giảm 7kg mỡ và tăng được 0,5kg cơ. Trải nghiệm này đã cho cô gái 18 tuổi một bài học giá trị trong cuộc sống: Muốn khỏe hơn, đẹp hơn thì quan trọng là có quyết tâm, có ý chí, kiên trì là sẽ làm được.<br><br>
+        <a href=" http://lifestyle.cfyc.com.vn/giam-can-cap-toc/chuyen-that-co-gai-18-tuoi-giam-7kg-trong-6-tuan/" > XEM NHIỀU HƠN</a></p> ');
+
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_IMAGE', '<div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/ZB9EePI5La4" frameborder="0" allowfullscreen></iframe>
+                </div>');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_BEFORE', '
+        <h3></h3>
+        <p></p>
+        <p></p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_AFTER', '
+        <h3></h3>
+        <p></p>
+        <p></p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_TITLE', 'Mr. Phạm Việt Hà');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_CONTENT', '
+        <p>Anh Hà là một người tự ti với cơ thể của mình, anh từng chơi thể thao (bóng rổ, bóng chuyền, bơi lội,...) và tập luyện tại các trung tâm thể dục thể thao ở Malaysia khi anh đang du học. Thế nhưng, anh không đạt được kết quả như mong đợi, vì không tìm được môi trường phù hợp giúp anh duy trì đến cùng. Luyện tập tại California Fitness & Yoga tạo cho anh cảm giác phải cạnh tranh với những người khác, điều đó truyền cảm hứng cho anh thường xuyên tập luyện. Anh thích những buổi Bootcamp (Tập luyện nhóm) vì các buổi học đó tạo được không khí gắn kết mọi người với nhau, và khuyến khích anh bắt kịp những người khác. Kết quả là anh giảm được 14kg mỡ và tăng 1kg cơ, anh tự tin hơn và sẵn sàng cho mọi hoạt động hằng ngày.</p> ');

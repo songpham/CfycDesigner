@@ -15,6 +15,12 @@ define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_2_CAPTION', 'Lâm Phương Bách')
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3', 'story-3.png');
 define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3_CAPTION', 'Ms Võ Huyền Trang');
 
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4', 'story-4.png');
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4_CAPTION', 'Ms. Võ Thanh Tâm');
+
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5', 'story-5.png');
+define('LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5_CAPTION', 'Mr. Phạm Việt Hà');
+
 
 
 define('LANG_MEMBER_TESTIMONIALS_STORY_1_IMAGE', 'success-1.png');
@@ -76,3 +82,38 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
 define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
         <p>Trang met some difficulties in work and communication because of her appearance (fat body). She looked through some fitness centre in Hanoi and finally found California the best. She followed the guidance of PT. The biggest difficulties was her food appetite. The more workout she did, the hungrier she felt. But PT was strict with Trang about nutrion, so she gradually controlled what to eat for the best result. She lost 9.5kg of fat, gained 3.5kg muscle, increase Inbody point from 66 to 89! She got confidence, will, determination, belief in herself and life!</p>
     ");
+
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_IMAGE', 'success-4.jpg');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_BEFORE', '
+        <h3>trước</h3>
+        <p>Lượng mỡ: 20.3kg</p>
+        <p>Cân nặng: 84.2kg</p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_AFTER', '
+        <h3>sau</h3>
+        <p>Lượng mỡ: 6.4kg</p>
+        <p>Cân nặng: 66.9kg</p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_TITLE', 'Ms. Võ Thanh Tâm');
+define('LANG_MEMBER_TESTIMONIALS_STORY_4_CONTENT', '
+        <p>Thanh Tam is an 18-year-old girl who is ready for new shifts in her life. She came to California Fitness & Yoga Club with an aim to reduce fat, especially in thighs, to acheive a more shaped, sexy body. Besides RPM, Bootcamp, Tam trained regularly with her personal trainer with high-intensity exercises, together with a strict nutrition plan. After 6 weeks, she lost 7kg of fat and increased 0.5kg of muscle. This experience gave her a precious lesson in life: Practice makes perfect. <br><br>
+        </p>         <a href=" http://lifestyle.cfyc.com.vn/giam-can-cap-toc/chuyen-that-co-gai-18-tuoi-giam-7kg-trong-6-tuan/" >Read her feature article here: </a>
+ ');
+
+
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_IMAGE', '<div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/ZB9EePI5La4" frameborder="0" allowfullscreen></iframe>
+                </div>');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_BEFORE', '
+        <h3></h3>
+        <p></p>
+        <p></p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_AFTER', '
+        <h3></h3>
+        <p></p>
+        <p></p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_TITLE', 'Mr. Phạm Việt Hà');
+define('LANG_MEMBER_TESTIMONIALS_STORY_5_CONTENT', '
+        <p>Mr. Ha is inconfident about his appearance, he used to play sports (basketball, volleyball, swimming,...) and trained at Fitness Centres in Malaysia on his studying. However, he did not reach the desired result, because there was no suitable training environment which helped him constantly follow the routine. Joining California Fitness & Yoga Club, he has been competing with other trainees, which inspired him to exercise regularly. He prefers bootcamps because they provide him with the feeling of being connected on the training and encouraged him to keep up with others. As a result, Ha reduced 14kg of fat, increased 1kg of muscle, became more confident, and was ready for everyday activities.</p> ');
