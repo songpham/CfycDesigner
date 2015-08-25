@@ -19,6 +19,8 @@ define("LANG_GROUP_BENEFIT_GROUP","What are the benefits of group fitness?");
 define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
 <p>Group fitness provides people with a more fast paced and exciting variety of classes to help you engage with other people who have similar goals in a fun and healthy way. All memberships at California Fitness & Yoga centers come with unlimited access to all group fitness classes </p>
 ');
+define('LANG_GROUP_FITNESS_CHOOSE_CLASS', 'Choose A Class');
+
 define("LANG_GROUP_DISCOVER_GROUP","Discover Group Fitness at California Fitness & Yoga");
 define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT");
 define("LANG_GROUP_DISCOVER_TAB1_ID_GROUP","bodycombat");

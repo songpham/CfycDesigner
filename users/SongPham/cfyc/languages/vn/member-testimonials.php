@@ -67,7 +67,21 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_2_CONTENT', "
         <p>Lâm Phương Bách từng có thân hình khá tròn trịa với lượng cơ vừa đủ nhưng dư mỡ dù từng tham gia nhiều môn thể thao. Với quyết tâm cao độ, Bách chấp nhận lời thách thức thay đổi hình thể của California Fitness and Yoga và đã đạt được “kỳ tích” đáng ngưỡng mộ, giảm 13,9kg mỡ chỉ trong 8 tuần luyện tập. Đó là cả một quá trình gian khổ với cậu sinh viên vốn đam mê trà sữa, đồ nướng, fastfood. Ngoài cắt giảm lượng thức ăn vặt, tinh bột, đường và chất béo, Bách rất chăm chỉ tập cardio, kết hợp với tập tạ cùng HLV cá nhân. Đối với Bách, quá trình khổ luyện không chỉ giúp anh thay đổi hình thể mà còn trở nên tự tin và bền chí hơn trước rất nhiều.</p>
     ");
 
-
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_IMAGE', 'success-3.png');
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_BEFORE', '
+        <h3>trước</h3>
+        <p>Lượng mỡ: 20.3kg</p>
+        <p>Cân nặng: 84.2kg</p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_AFTER', '
+        <h3>sau</h3>
+        <p>Lượng mỡ: 6.4kg</p>
+        <p>Cân nặng:  66.9kg</p>
+    ');
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_TITLE', 'Ms Võ Huyền Trang');
+define('LANG_MEMBER_TESTIMONIALS_STORY_3_CONTENT', "
+        <p>Từng sở hữu thân hình không hoàn hảo, chị Võ Huyền Trang gặp nhiều khó khăn trong cuộc sống, công việc và khiến chị mất tự tin khi giao tiếp. Quyết định tham gia chương trình Body Transformation Challenge tại TT California Fitness & Yoga của chị Võ Huyền Trang đã giúp chị thay đổi hoàn toàn về cả ngoại hình lẫn sự tự tin. Để có được vóc dáng như mong muốn, chị Trang phải tuân theo những chỉ dẫn nghiêm ngặt từ Huấn luyện viên cá nhân. Vật cản lớn nhất cho công cuộc giảm cân của chị Trang đến từ cảm giác thèm ăn. Chính sự nghiêm túc và lời động viên của HLV cá nhân, chị Trang dần điều chỉnh và kiểm soát chế độ dinh dưỡng của mình. Sau 8 tuần, thành quả chị nhận được là giảm được 9.5 kg mỡ, tăng 3.5 kg cơ. Không chỉ là thân hình mơ ước bấy lâu, thể dục thể hình còn cho chị Trang ý chí, nghị lực, sự quyết tâm và tự tin trong cuộc sống.</p>
+    ");
 
 
 

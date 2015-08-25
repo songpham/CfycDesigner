@@ -10,7 +10,7 @@ define("LANG_GROUP_BANNER_TITLE_GROUP","Visit us for a free membership trial tod
 
 define("LANG_GROUP_CALIDANCE_GROUP","Về California Group Fitness");
 define("LANG_GROUP_CALIDANCE_CONTENT_GROUP",'
-<p>Tràn đầy năng lượng luyện tập với không khí vui tươi và nhịp điệu nhanh khi tập chung trong lớp GroupX. Hãy chọn cho mình những lớp học, hoà vào vũ điệu đầy hưng phấn cùng âm nhạc sôi động. Hãy tập luyện với những động tác mà bạn yêu thích nhất!  <br><br> Tập luyện tim mạch bằng những điệu nhảy với BodyJam. Đạp xe đạp thú vị hơn với RPM. Kết hợp giữa bài tập tim mạch và võ thuật với BodyCombat. Tăng cường sức mạnh từng bó cơ cùng bài tập tạ tại lớp BodyPump hoặc tăng cường cơ bụng với lớp Bums &Tums...</p>
+<p>Tràn đầy năng lượng luyện tập với không khí vui tươi và nhịp điệu nhanh khi tập chung trong lớp GroupX. Hãy chọn cho mình những lớp học, hoà vào vũ điệu đầy hưng phấn cùng âm nhạc sôi động. Hãy tập luyện với những động tác mà bạn yêu thích nhất! <br><br> Tập luyện tim mạch bằng những điệu nhảy với BodyJam. Đạp xe đạp thú vị hơn với RPM. Kết hợp giữa bài tập tim mạch và võ thuật với BodyCombat. Tăng cường sức mạnh từng bó cơ cùng bài tập tạ tại lớp BodyPump hoặc tăng cường cơ bụng với lớp Bums &Tums...</p>
 <p></p>
 <p>Dù phong cách của bạn là gì đi nữa, chúng tôi đảm bảo bạn sẽ tìm được một lớp Group Fitness phù hợp với mục tiêu và sở thích của mình.</p>
 ');
@@ -21,6 +21,7 @@ define("LANG_GROUP_BENEFIT_CONTENT_GROUP",'
 <p>Group Fitness- Các lớp học GroupX cung cấp cho hội viên những lớp học đa dạng với nhịp điệu nhanh và sôi động, giúp bạn tham gia cùng những người có cùng mục tiêu một cách hưng phấn và vui vẻ.</p>
 <p>Tất cả hội viên tại các Trung tâm California Fitness & Yoga đều được tham gia không giới hạn số lần đến các lớp GroupX.</p>
 ');
+define('LANG_GROUP_FITNESS_CHOOSE_CLASS', 'Chọn Câu Lạc Bộ');
 define("LANG_GROUP_DISCOVER_GROUP","Khám phá Group Fitness tại California Fitness & Yoga");
 define("LANG_GROUP_DISCOVER_TAB1_TITLE_GROUP","BODY COMBAT ");
 define("LANG_GROUP_DISCOVER_TAB1_ID_GROUP","bodycombat");
