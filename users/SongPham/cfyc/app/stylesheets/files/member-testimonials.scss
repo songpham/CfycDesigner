@@ -1,11 +1,23 @@
 @import '../lib';
 .member-testimonials-page {
+    .desktop {
+        display:none;
+        @media (min-width:768px){
+            display:block;
+    }
+}
+.mobile {
+    display:none;
+        @media (max-width:767px) {
+            display:block;
+        }
+    }
 
     img, p, h1, h2, h3, h4, a {@include transition(all .4s ease);}
     .white-space {padding:10px 0; clear:both;}
     .white-space-2x {padding: 20px 0; clear: both;}
     .white-space-3x {padding: 30px 0; clear: both;}
-	 
+
     // TOP BANNER
     .banner-top {
     	@media (min-width:768px) {
@@ -24,7 +36,7 @@
            min-height: 700px;
             background: #000 url(../img/member-testimonials/m-banner.jpg) center top no-repeat;
 
-	        
+
         }
         .cta {
             max-width: 42vw;
@@ -135,7 +147,7 @@
                 }
             }
         }
-       
+
         .carousel-caption {
             font-size: 40px;
             left: 10%;
@@ -183,7 +195,7 @@
                 @include transform(translate3d(0px, -50%, 0px));
                 top: 58%;
                 height: 20px;
-            } 
+            }
         }
         .item {
             .box {

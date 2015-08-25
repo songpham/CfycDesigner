@@ -88,7 +88,7 @@ define('LANG_MEMBER_TESTIMONIALS_STORY_4_CONTENT', '
         <a href=" http://lifestyle.cfyc.com.vn/giam-can-cap-toc/chuyen-that-co-gai-18-tuoi-giam-7kg-trong-6-tuan/" > XEM NHIỀU HƠN</a></p> ');
 
 define('LANG_MEMBER_TESTIMONIALS_STORY_5_IMAGE', '<div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/ZB9EePI5La4" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" height="200" src="https://www.youtube.com/embed/wSHbfzZC7o8" frameborder="0" allowfullscreen></iframe>
                 </div>');
 define('LANG_MEMBER_TESTIMONIALS_STORY_5_BEFORE', '
         <h3></h3>

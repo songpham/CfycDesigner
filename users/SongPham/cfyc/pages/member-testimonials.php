@@ -45,16 +45,26 @@
                         <a href='3'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3 ?>" alt=''></a>
                         <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_3_CAPTION ?></p>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box">
+                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box desktop">
                         <a href='4'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4 ?>" alt=''></a>
                         <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4_CAPTION ?></p>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box">
+                    <div class="col-md-2 col-sm-4 col-xs-4 text-center box desktop">
                         <a href='5'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5 ?>" alt=''></a>
                         <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5_CAPTION ?></p>
                     </div>
                     <div class="col-md-1 hide-sm hide-xs text-center">
                     </div>
+                </div>
+                <!-- MOBILE -->
+                <div class="item">
+                <div class="col-md-2 col-sm-4 col-xs-4 text-center box mobile">
+                    <a href='4'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4 ?>" alt=''></a>
+                    <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_4_CAPTION ?></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4 text-center box mobile">
+                    <a href='5'><img src="<?php echo USER_BASE_URL ?>/img/member-testimonials/<?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5 ?>" alt=''></a>
+                    <p><?php echo LANG_MEMBER_TESTIMONIALS_CIRCLE_IMAGE_5_CAPTION ?></p>
                 </div>
             </div>
             <a class="left carousel-control" href="#member-list" role="button" data-slide="prev">
