@@ -49,7 +49,7 @@
         <div class="strike"><h2><?=LANG_YOGA_DISCOVER?></h2></div>
         <!-- Nav tabs -->
         <div class="dropdown visible-xs">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose A Class
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo  LANG_GROUP_FITNESS_CHOOSE_CLASS ?>
                 <span class="caret"></span></button>
             <ul class="dropdown-menu">
                 <li role="presentation">
