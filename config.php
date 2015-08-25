@@ -4,6 +4,7 @@ define("PROTOCOL", (HTTPS === TRUE) ? 'https' : 'http');
 define('BASE_PATH', dirname(__FILE__));
 define('BASE_URL', '/CfycDesigner');
 define('CFYC_URL', 'cfycnew.song.com');
+define('API_CFYC_URL', 'localhost/cfycservice');
 define("IMAGES_SERVER", PROTOCOL . '://' . CFYC_URL . '/images_server');
 $define_folder["image"]                 = "/phn_image/";
 $define_folder["image_new"]             = $define_folder["image"] . "news/";
