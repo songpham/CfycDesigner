@@ -1,0 +1,40 @@
+package.json:
+    {
+      "name": "sp-mean",
+      "version": "0.1.0",
+      "description": "An introduction to MEANstack for SitePoint",
+      "main": "server.js",
+      "scripts": {
+        "start": "node ./server"
+      },
+      "author": "Aldo Ziflaj",
+      "license": "None"
+    }
+npm install express --save
+npm install monk --save
+add data to mongo
+    "C:\Program Files\MongoDB 2.6 Standard\bin\mongo.exe"
+    use starwars;
+    db.character.insert({
+        name: "Luke",
+        surname: "Skywalker",
+        side: "Light",
+        weapon: "Lightsaber"
+    });
+    db.character.insert({
+        name: "Yoda",
+        side: "Light",
+        weapon: "Lightsaber"
+    });
+    db.character.insert({
+        sith_name: "Vader",
+        side: "Dark",
+        weapon: "Lightsaber"
+    });
+    db.character.insert({
+        sith_name: "Sidious",
+        side: "Dark",
+        weapon: "Force lightning"
+    });
+bower init
+bower install angular#1.4.3 --save
