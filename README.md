@@ -1,4 +1,4 @@
-# Cfyc Designer Repository
+# Designer Repository
 
 ## Developers
 
